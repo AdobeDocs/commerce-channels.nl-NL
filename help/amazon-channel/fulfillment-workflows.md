@@ -15,7 +15,7 @@ ht-degree: 2%
 
 | Stap | Beschrijving |
 |----|----|
-| 3 | **Op Amazon wordt een order geplaatst die voldoet aan de eisen van de handel.** Amazon kent een status van toe  `Pending` totdat de creditcardgegevens van de klant zijn geverifieerd. Orders in de status `Pending` worden automatisch geïmporteerd in Amazon-verkoopkanaal, maar worden niet weergegeven op het tabblad _[!UICONTROL Orders]_. |
+| 1 | **Op Amazon wordt een order geplaatst die voldoet aan de eisen van de handel.** Amazon kent een status van toe  `Pending` totdat de creditcardgegevens van de klant zijn geverifieerd. Orders in de status `Pending` worden automatisch geïmporteerd in Amazon-verkoopkanaal, maar worden niet weergegeven op het tabblad _[!UICONTROL Orders]_. |
 | 2 | **De bestelling wordt geverifieerd door Amazon.** Na verificatie wijzigt Amazon de status in  `Unshipped`. Met deze statuswijziging wordt de volgorde bijgewerkt in Amazon-verkoopkanaal en weergegeven op het tabblad _[!UICONTROL Orders]_. |
 | 1 | **De ordergegevens worden bijgewerkt.** Amazon-verkoopkanaal werkt de bestelgegevens bij met de prijs, de e-mail van de klant en de naam van de klant. Tijdens deze update maakt de Amazon-order de corresponderende [!DNL Commerce]-volgorde op de pagina voor orderbeheer. Het ordernummer [!DNL Commerce] wordt weergegeven met de orderinformatie op het tabblad _[!UICONTROL Orders]_. |
 | 4 | **Er wordt een nieuwe klantenaccount gemaakt.** Indien geconfigureerd in uw orderinstellingen en de klant niet bestaat in uw  [!DNL Commerce] database, wordt een nieuwe klant gemaakt in uw  [!DNL Commerce] database met de bijbehorende klantgegevens uit de Amazon-order. Als u `No Customer Creation (guest)` in uw ordemontages kiest, volgt de orde het [!DNL Commerce] gastproces en creeert geen klant in uw gegevensbestand. Als uw [!DNL Commerce]-systeem op dit moment is geïntegreerd met een ERP/OMS/WMS, wordt de volgorde opgehaald door de integratie van een nieuwe volgorde die binnen [!DNL Commerce] wordt geplaatst en gemaakt. |
@@ -27,4 +27,4 @@ ht-degree: 2%
 |---|---|
 | 3 | **Op Amazon wordt een volgorde geplaatst die voldoet aan Amazon.** |
 | 2 | **De volgorde wordt geïmporteerd.** De bestelling wordt pas geïmporteerd in het verkoopkanaal van Amazon als aan de bestelling de  `Shipped` status door Amazon is toegewezen. Aangezien Amazon over de voorraad voor dit product beschikt, voorkomt dit interferentie met het beheer van de opslagplaats/voorraad. |
-| 1 | **De ordergegevens worden bijgewerkt.** Indien geconfigureerd in uw  [orderinstellingen](./order-settings.md), maakt de Amazon-volgorde de corresponderende  [!DNL Commerce] volgorde en wordt deze gemaakt als een volgorde met de status  `Complete`. |
+| 3 | **De ordergegevens worden bijgewerkt.** Indien geconfigureerd in uw  [orderinstellingen](./order-settings.md), maakt de Amazon-volgorde de corresponderende  [!DNL Commerce] volgorde en wordt deze gemaakt als een volgorde met de status  `Complete`. |

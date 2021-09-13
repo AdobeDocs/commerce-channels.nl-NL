@@ -26,7 +26,7 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardwaarde voor
 |  | Prioriteit website | Prijs (website) | Standaardinstellingen gebruiken |
 |---|---|---|---|
 | Standaard | 0 | $ 31,99 | — |
-| Winkel 1 | 1 | $ 24,99 | Nee |
+| Winkel 1 | 3 | $ 24,99 | Nee |
 | Winkel 2 | 2 | $ 27,99 | Ja |
 
 - **[!UICONTROL Magento Price Source]** (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) wordt ingesteld op het `Price`-kenmerk.
@@ -51,7 +51,7 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardwaarde voor
 |  | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
 |---|---|---|---|
 | Standaard | 0 | $ 31,99 | $ 30,00 |
-| Winkel 1 | 1 | $ 24,99 | — |
+| Winkel 1 | 3 | $ 24,99 | — |
 | Winkel 2 | 2 | $ 27,99 | $ 20,00 |
 
 In dit voorbeeld wordt de waarde zonder prijs toegevoegd. Deze waarde wordt gebruikt als u een andere waarde voor de instellingen _[!UICONTROL Magento Price Source_] (gedefinieerd in de instellingen [Aanbiedingsprijs](./listing-price.md)) selecteert. De niet-prijswaarde gebruikt altijd de prijs als terugvalprijs.

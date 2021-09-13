@@ -23,9 +23,9 @@ Stel dat er drie prijsregels zijn:
 
 | Voorbeeld | Naam van regel | Prioriteit | Volgende regel negeren |
 |----------|----|----|----|
-| 1 | 10% van de verkochte producten | 3 | Nee |
+| 1 | 10% van de verkochte producten | 1 | Nee |
 | 2 | $2 aan uitverkoop producten | 2 | Ja |
-| 3 | 5% van alle producten | 3 | Nee |
+| 3 | 5% van alle producten | 1 | Nee |
 
 In dit scenario zijn de regels 1 en 2 van toepassing op de in aanmerking komende producten. Regel 3 is alleen van toepassing op in aanmerking komende producten die niet onder regel 2 vallen omdat deze een lagere prioriteit heeft dan voorbeeld 2 en **[!UICONTROL Discard Subsequent Rules]** is ingesteld op `Yes`. De in aanmerking komende producten in de verkoopcategorie krijgen dus een korting van 10% en $2 van de Amazon-aanbiedingsprijs.
 
@@ -34,7 +34,7 @@ In dit scenario zijn de regels 1 en 2 van toepassing op de in aanmerking komende
 | Veld | Instelling - Artikel 1 | Instelling - Artikel 2 |
 |----------|----|----|
 | [!UICONTROL Rule Name] | Artikel 1 | Artikel 2 |
-| [!UICONTROL Priority] | 3 | 2 |
+| [!UICONTROL Priority] | 1 | 2 |
 | [!UICONTROL Rule Type] | Standaardprijsregel | Standaardprijsregel |
 | [!UICONTROL Price action] | Verkleinen met | Verkleinen met |
 | [!UICONTROL Apply] | Toepassen als percentage | Toepassen als vast bedrag |
@@ -67,7 +67,7 @@ De uiteindelijke prijs na regel 1 en regel 2 wordt toegepast: $ 32,98
 | Veld | Instelling |
 |----------|----|
 | [!UICONTROL Rule Name] | Artikel 1 |
-| [!UICONTROL Priority] | 1 |
+| [!UICONTROL Priority] | 3 |
 | [!UICONTROL Rule Type] | Intelligente prijsregel |
 | [!UICONTROL Competitor Price Source] | Prijs &quot;Buy Box&quot; gebruiken |
 | [!UICONTROL Price Action] | Prijs voor concurrent afstemmen |
@@ -149,7 +149,7 @@ De uiteindelijke prijs na toepassing van de regel: $ 15
 | Veld | Instelling |
 |----------|-----|
 | [!UICONTROL Rule Name] | Artikel 1 |
-| [!UICONTROL Priority] | 3 |
+| [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligente prijsregel |
 | [!UICONTROL Competitor Price Source] | Laagste concurrent gebruiken |
 | [!UICONTROL Minimum Positive Feedback] | Alle concurrerende prijzen |
@@ -205,7 +205,7 @@ Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
 
 | Veld | Instelling |
 |----------|----|
-| Prioriteit | 1 |
+| Prioriteit | 3 |
 | BTW | 10% |
 | Maximumprijs | $ 10 |
 | Omrekening in valuta | 1,25 EUR:1 USD |
