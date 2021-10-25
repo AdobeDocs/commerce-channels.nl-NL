@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Een toegewezen ASIN bewerken
 
-U kunt de Amazon ASIN-waarde bewerken die is toegewezen aan een product in uw [!DNL Commerce]-catalogus. Deze functie is handig als een catalogusproduct niet goed overeenkomt met een van je Amazon-aanbiedingen. Als u de toegewezen ASIN voor de aanbieding wijzigt, verandert de ASIN die Amazon aan een product heeft toegewezen, niet. Hiermee wijzigt u alleen de Amazon-aanbieding waaraan het catalogusproduct voldoet.
+U kunt de Amazon ASIN-waarde bewerken die is toegewezen aan een product in uw [!DNL Commerce] catalogus. Deze functie is handig als een catalogusproduct niet goed overeenkomt met een van je Amazon-aanbiedingen. Als u de toegewezen ASIN voor de aanbieding wijzigt, verandert de ASIN die Amazon aan een product heeft toegewezen, niet. Hiermee wijzigt u alleen de Amazon-aanbieding waaraan het catalogusproduct voldoet.
 
 Wanneer een toegewezen ASIN wordt gewijzigd:
 
@@ -22,14 +22,14 @@ Wanneer een toegewezen ASIN wordt gewijzigd:
 
 ## Een toegewezen ASIN bewerken
 
-1. Geef de vermelding weer op de _[!UICONTROL Product Listings]_-pagina (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_of_[!UICONTROL Ineligible]_-tabblad).
+1. De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, of_[!UICONTROL Ineligible]_ ).
 
-1. Klik onder _[!UICONTROL Actions]_op **[!UICONTROL Edit Assigned ASIN]**.
+1. Onder _[!UICONTROL Actions]_, klikt u op **[!UICONTROL Edit Assigned ASIN]**.
 
-   Met deze handeling wordt de pagina _[!UICONTROL Product Listing Update]_geopend.
+   Met deze handeling wordt het dialoogvenster _[!UICONTROL Product Listing Update]_pagina.
 
-1. Voer bij **[!UICONTROL Assign ASIN]** de nieuwe ASIN-waarde in.
+1. Voor **[!UICONTROL Assign ASIN]** voert u de nieuwe ASIN-waarde in.
 
-1. Klik op **[!UICONTROL Save Listing Update]** om de wijzigingen op te slaan.
+1. Klik op **[!UICONTROL Save Listing Update]**.
 
 ![Een toegewezen ASIN bewerken](assets/amazon-assigned-asin-edit.png)

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Concurrentieprijsanalyse
 
-In het rapport Concurrentieprijsanalyse worden uw Amazon-aanbiedingen per marktplaats weergegeven met de respectieve [Buy Box](./buy-box-competitor-pricing.md)-prijs en [laagste prijswaarden van concurrenten](./lowest-competitor-pricing.md). Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
+In het rapport Concurrentieprijsanalyse worden je Amazon-aanbiedingen per marktplaats weergegeven met de respectievelijke [Buy Box](./buy-box-competitor-pricing.md) prijs en [laagste concurrent](./lowest-competitor-pricing.md) prijswaarden. Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
 
 ![Concurrentieprijsanalyserapport](assets/amazon-competitive-price-analysis.png)
 
@@ -25,6 +25,6 @@ In het rapport Concurrentieprijsanalyse worden uw Amazon-aanbiedingen per marktp
 | [!UICONTROL Your Landed Price] | Je aanbiedingsprijs voor het product plus de verzendprijs. |
 | [!UICONTROL Lowest Landed Price] | De laagste prijs die je van je Amazon-concurrenten hebt ontvangen (aanbiedingsprijs plus verzendprijs). |
 | [!UICONTROL Condition (lowest price)] | De toestand van het product tegen de laagste prijs. |
-| [!UICONTROL Buy Box Landed Price] | De prijs bij aanvoer (prijs van de aanbieding plus de verzendprijs) van de positielijst [Buy Box](./buy-box-competitor-pricing.md). |
+| [!UICONTROL Buy Box Landed Price] | De landingsprijs (prijs van de aanbieding plus de verzendprijs) van de [Buy Box](./buy-box-competitor-pricing.md) positielijst. |
 | [!UICONTROL Is Seller (Buy Box)] | Geeft aan of je de positie Buy Box voor de aanbieding hebt gewonnen (NA betekent dat er geen prijs voor de aanbieding is Buy Box). |
 | Voorwaarde (Buy Box) | De voorwaarde van de Buy Box-positielijst. |

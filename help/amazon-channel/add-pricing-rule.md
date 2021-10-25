@@ -11,25 +11,25 @@ ht-degree: 0%
 
 # Prijsregels toevoegen
 
-De prijsstellingsregels kunnen op elk ogenblik worden gevormd of worden gewijzigd nadat uw opslag wordt geïntegreerd. Prijsregels maken deel uit van [Aanbiedingsinstellingen](./listing-settings.md) en kunnen worden benaderd in het [opslagdashboard](./amazon-store-dashboard.md).
+De prijsstellingsregels kunnen op elk ogenblik worden gevormd of worden gewijzigd nadat uw opslag wordt geïntegreerd. Prijsregels maken deel uit van [Aanbiedingsinstellingen](./listing-settings.md) en kan worden benaderd in de [opslagdashboard](./amazon-store-dashboard.md).
 
 ## Standaardprijsregel
 
-Met een standaardhandeling voor prijsregels kunt u een Amazon-aanbiedingsprijs verhogen of verlagen met een bepaald percentage of een bepaald dollarbedrag ten opzichte van de **[!UICONTROL Magento Price Source*]* die is gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md).
+Met een standaardprijsregel kun je een Amazon-prijs verhogen of verlagen met een bepaald percentage of een bepaald bedrag in dollar ten opzichte van de **[!UICONTROL Magento Price Source*]* gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md).
 
 ### Een standaardprijsregel toevoegen
 
-1. Klik **[!UICONTROL Pricing rules]** op het opslagdashboard.
+1. Klikken **[!UICONTROL Pricing rules]** op het opslagdashboard.
 
-1. Klik op **[!UICONTROL Add new pricing rule]**.
+1. Klikken **[!UICONTROL Add new pricing rule]**.
 
-1. Voltooi **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** voor de regel.
+1. Voltooi de **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** voor de regel.
 
-1. Voltooi **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** voor de regel.
+1. Voltooi de **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** voor de regel.
 
-1. Voltooi **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** voor de regel.
+1. Voltooi de **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** voor de regel.
 
-1. Klik op **[!UICONTROL Save pricing rule]** als u klaar bent.
+1. Klik op **[!UICONTROL Save pricing rule]**.
 
 ## Intelligente prijsregel
 
@@ -37,15 +37,15 @@ Een intelligente prijsstellingsregel gebruikt de prijs van Amazon-concurrenten o
 
 ### Een intelligente prijsregel toevoegen
 
-1. Klik **[!UICONTROL Pricing rules]** op het opslagdashboard.
+1. Klikken **[!UICONTROL Pricing rules]** op het opslagdashboard.
 
-1. Klik op **[!UICONTROL Add new pricing rule]**.
+1. Klikken **[!UICONTROL Add new pricing rule]**.
 
-1. Voltooi **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** voor de regel.
+1. Voltooi de **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** voor de regel.
 
-1. Voltooi **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** voor de regel.
+1. Voltooi de **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** voor de regel.
 
-1. Voltooi **[!UICONTROL Price Rule Actions]** voor de regel.
+1. Voltooi de **[!UICONTROL Price Rule Actions]** voor de regel.
 
    - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
 
@@ -57,4 +57,4 @@ Een intelligente prijsstellingsregel gebruikt de prijs van Amazon-concurrenten o
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. Klik op **[!UICONTROL Save pricing rule]** als u klaar bent.
+1. Klik op **[!UICONTROL Save pricing rule]**.

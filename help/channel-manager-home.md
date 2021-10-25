@@ -1,7 +1,7 @@
 ---
 solution: Commerce
-title: Kanaalbeheerder voor Adobe Commerce
-description: Blader door de verkoopkanalen documentatie voor Adobe Commerce en Magento Open Source.
+title: Kanaalbeheer voor Adobe Commerce
+description: Blader in de documentatie bij verkoopkanalen voor Adobe Commerce en Magento Open Source.
 feature: Overview
 role: User
 level: Beginner
@@ -19,10 +19,10 @@ Channel Manager voor Adobe Commerce en Magento Open Source kan de productcatalog
 
 ## Amazon-verkoopkanaal
 
-Het Amazon-verkoopkanaal is een krachtige extensie waarmee uw [!DNL Commerce] Admin naadloos wordt geïntegreerd met uw [!DNL Amazon Seller Central]-account. Na het instappen, wordt de Handel een _centraal bevelcentrum_ voor het beheren van en het controleren van uw aanbiedingen, bestellingen en inventaris van Amazon, en prijs voor uw opslag van Amazon.
+Het Amazon-verkoopkanaal is een krachtige uitbreiding die uw [!DNL Commerce] Beheerder met uw [!DNL Amazon Seller Central] account. Na het instappen, wordt de Handel een _centrum voor centraal commando_ voor het beheer en de controle van je Amazon-aanbiedingen, -bestellingen en -voorraad en -prijzen voor je Amazon-winkel.
 
 ## Aanvullende bronnen
 
-[Commerce 2.4 ](https://docs.magento.com/user-guide/)
-[GebruikershandleidingHandelsdocumentatie voor ontwikkelaars](https://devdocs.magento.com/)
+[Handboek Handel 2.4](https://docs.magento.com/user-guide/)
+[Documentatie voor ontwikkelaars van handel](https://devdocs.magento.com/)
 

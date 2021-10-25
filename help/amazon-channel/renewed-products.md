@@ -2,7 +2,7 @@
 title: Vernieuwde producten
 description: Als je verkopersaccount is geregistreerd voor het vernieuwde programma, kun je je vernieuwde aanbiedingen beheren in Amazon Sales Channel.
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -11,22 +11,22 @@ ht-degree: 0%
 
 # Vernieuwde producten
 
-Voordat u een lijst kunt maken met kwalitatief hoogwaardige, soortgelijke nieuwe producten (gereviseerd, vooraf gebruikt en open-box) op Amazon, moet u zich eerst registreren en worden goedgekeurd voor [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){:target=&quot;_blank&quot;}.
+Voordat je een aanbieding kunt doen op Amazon met kwalitatief hoogwaardige, gelijksoortige nieuwe producten (gereviseerd, vooraf in eigendom en open box), moet je je eerst registreren en worden goedgekeurd voor de [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}.
 
-Nadat je hebt goedgekeurd en je [!DNL Seller Central]-account is bijgewerkt, kun je je vernieuwde aanbiedingen beheren via het verkoopkanaal van Amazon. Vernieuwde aanbiedingen vereisen de volgende stappen in [!DNL Commerce]:
+Nadat u de goedkeuring en uw [!DNL Seller Central] -account is bijgewerkt. Je kunt je vernieuwde aanbiedingen beheren via Amazon-verkoopkanaal. Voor vernieuwde aanbiedingen moeten de volgende stappen worden uitgevoerd in [!DNL Commerce]:
 
-- Definieer de _Gereviseerde_-instellingen in uw [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md).
+- Definieer uw _Gereviseerd_ instellingen in uw [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md).
 
-- `Renewed` opnemen in de producttitel (vereist door Amazon).
+- Inclusief `Renewed` in de producttitel (vereist door Amazon).
 
 >[!IMPORTANT]
 >
->Je vernieuwde productaanbiedingen die niet voldoen aan de Amazon-vereisten veranderen in `Inactive` status en gaan van de *[[!UICONTROL Active Listings]](./active-listings.md)* tab naar de *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* tab. Ook, [[!UICONTROL Listings Changes] logboek](./listing-changes-log.md) toont een `Refurbished` foutenmelding.
+>Je vernieuwde productaanbiedingen die niet voldoen aan Amazon veranderen in `Inactive` status en ga van de *[[!UICONTROL Active Listings]](./active-listings.md)* aan de *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* tab. Ook de [[!UICONTROL Listings Changes] log](./listing-changes-log.md) geeft een `Refurbished` foutbericht.
 
 Raadpleeg de documentatie bij verwante Amazon voor meer informatie:
 
-- [Amazon vernieuwd programma](https://sell.amazon.com/programs/renewed.html){:target=&quot;_blank&quot;}
+- [Amazon vernieuwd programma](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}
 
-- [Vernieuwd - Aan de slag](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){:target=&quot;_blank&quot;} (Aanmelding voor Verkoper Central vereist)
+- [Vernieuwd - Aan de slag](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target=&quot;_blank&quot;} (Aanmelden bij verkoper centraal vereist)
 
-- [Amazon vernieuwde veelgestelde vragen](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){:target=&quot;_blank&quot;} (Aanmelden bij verkoper vereist)
+- [Door Amazon vernieuwde veelgestelde vragen](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target=&quot;_blank&quot;} (Aanmelden bij verkoper centraal vereist)

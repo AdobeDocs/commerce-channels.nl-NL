@@ -19,31 +19,31 @@ Secties van een intelligente prijsstellingsregel omvatten:
 - [!UICONTROL Floor Price]
 - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-De [onderste prijs](./floor-price.md) montages beschermen automatisch uw laagste productprijs tegen de intelligente prijsregels. Gebruik deze instellingen om een ondergrens (laagste prijs) in te stellen voor uw intelligente prijsregels, zodat uw producten niet onder een gewenste prijs worden weergegeven.
+De [bodemprijs](./floor-price.md) de instellingen beschermen automatisch uw laagste productprijs tegen de intelligente prijsregels. Gebruik deze instellingen om een ondergrens (laagste prijs) in te stellen voor uw intelligente prijsregels, zodat uw producten niet onder een gewenste prijs worden weergegeven.
 
-De attributen van de vloerprijs zijn gebaseerd op het websitewerkingsgebied als uw [!DNL Commerce] opslag website het prijswerkingsgebied gebruikt. Zie [Prijsbereik](./price-scope.md).
+Vloerprijskenmerken zijn gebaseerd op het bereik van de website als uw [!DNL Commerce] store gebruikt prijsbereik voor websites. Zie [Prijsbereik](./price-scope.md).
 
-De vloerprijs wordt slechts gebruikt wanneer **[!UICONTROL Rule Type]** aan `Intelligent repricing rule` wordt geplaatst.
+Floor Price wordt alleen gebruikt wanneer **[!UICONTROL Rule Type]** is ingesteld op `Intelligent repricing rule`.
 
 ## Minimumprijs configureren
 
-Definieer de laagste prijsinstelling in de sectie _[!UICONTROL Floor Price]_.
+Geef de laagste prijsinstelling op in het dialoogvenster _[!UICONTROL Floor Price]_sectie.
 
-1. Kies voor **[!UICONTROL Floor Price Source]** een kenmerk van een prijsbron.
+1. Voor **[!UICONTROL Floor Price Source]**, kiest u een kenmerk van een prijsbron.
 
-   Kies [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} dat op uw relatieve vloedlimiet wijst. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kostprijs van je object ligt, kies je het kenmerk *Kosten*.
+   Kies de optie [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} waarmee de relatieve ondergrens wordt aangegeven. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kosten van je object ligt, kies je de *Kosten* kenmerk.
 
-1. Kies voor **[!UICONTROL Floor Price Action]** een optie.
+1. Voor **[!UICONTROL Floor Price Action]** kiest u een optie.
 
-   - `Decrease By` - Kies wanneer u de gedefinieerde  _[!UICONTROL Floor Price Source]_waarde wilt aanpassen, zodat een lagere bodemprijs voor de regel wordt verkregen, voordat u deze aanbiedt aan Amazon.
+   - `Decrease By` - Kies wanneer u de definitie wilt _[!UICONTROL Floor Price Source]_Waarde die moet worden aangepast, waardoor een lagere bodemprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.
 
-   - `Increase By` - Kies wanneer u de gedefinieerde  _[!UICONTROL Floor Price Source]_waarde wilt aanpassen, zodat de onderste prijs voor de regel hoger wordt, voordat u de regel aanbiedt aan Amazon.
+   - `Increase By` - Kies wanneer u de definitie wilt _[!UICONTROL Floor Price Source]_Waarde die moet worden aangepast, waardoor een hogere bodemprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.
 
-   - `Match` - Kies wanneer je de prijs van de aanbieding niet onder de gedefinieerde  _[!UICONTROL Floor Price Source]_waarde wilt laten schommelen. Wanneer ingesteld op `Match`, worden de velden_[!UICONTROL Apply]_ en _[!UICONTROL Floor Adjustment Amount]_uitgeschakeld.
+   - `Match` - Kies wanneer je de prijs van de aanbieding niet onder de gedefinieerde prijs wilt laten schommelen _[!UICONTROL Floor Price Source]_waarde. Wanneer ingesteld op `Match`de_[!UICONTROL Apply]_ en _[!UICONTROL Floor Adjustment Amount]_velden zijn uitgeschakeld.
 
-1. Laat **[!UICONTROL Apply]** standaard als `Apply as percentage` staan.
+1. Laat de **[!UICONTROL Apply]** standaard als `Apply as percentage`.
 
-1. Voer bij **[!UICONTROL Floor Adjustment Price]** de numerieke waarde voor het percentage in om de waarde _[!UICONTROL Floor Price Source]_aan te passen.
+1. Voor **[!UICONTROL Floor Adjustment Price]** Voer de numerieke waarde in voor het percentage dat u wilt gebruiken om uw _[!UICONTROL Floor Price Source]_waarde.
 
 In dit voorbeeld is de laagste prijs ingesteld op 3% boven de prijs van het object.
 
@@ -51,7 +51,7 @@ In dit voorbeeld is de laagste prijs ingesteld op 3% boven de prijs van het obje
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Floor Price Source] | Kies het [!DNL Commerce] attribuut dat op uw relatieve vloergrens (laagste prijs) wijst. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kostprijs van je object ligt, kies je het kenmerk `Cost`. |
-| [!UICONTROL Floor Price Action] | Kies een handeling voor het aanpassen van de prijzen. Opties:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer u de gedefinieerde  _[!UICONTROL Floor Price Source]_waarde wilt aanpassen, zodat een lagere bodemprijs voor de regel wordt verkregen, voordat u deze aanbiedt aan Amazon.</li><li>**[!UICONTROL Increase By]** - Kies wanneer u de gedefinieerde  _[!UICONTROL Floor Price Source]_waarde wilt aanpassen, zodat de onderste prijs voor de regel hoger wordt, voordat u de regel aanbiedt aan Amazon.</li><li>**[!UICONTROL Match]** - Kies wanneer je de prijs van de aanbieding niet onder de gedefinieerde  _[!UICONTROL Floor Price Source]_waarde wilt laten schommelen. Wanneer u deze optie kiest, worden de velden_[!UICONTROL Apply]_ en _[!UICONTROL Floor Adjustment Amount]_uitgeschakeld.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Een percentageaanpassing ten opzichte van de  _[!UICONTROL Floor Price Source]_waarde. |
-| [!UICONTROL Floor Adjustment Amount] | Voer de numerieke waarde voor het percentage in om de waarde _[!UICONTROL Floor Price Source]_aan te passen. |
+| [!UICONTROL Floor Price Source] | Kies de optie [!DNL Commerce] kenmerk dat uw relatieve ondergrens (laagste prijs) aangeeft. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kosten van je object ligt, kies je de `Cost` kenmerk. |
+| [!UICONTROL Floor Price Action] | Kies een handeling voor het aanpassen van de prijzen. Opties:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer u de definitie wilt _[!UICONTROL Floor Price Source]_Waarde die moet worden aangepast, waardoor een lagere bodemprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Increase By]** - Kies wanneer u de definitie wilt _[!UICONTROL Floor Price Source]_Waarde die moet worden aangepast, waardoor een hogere bodemprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Match]** - Kies wanneer je de prijs van de aanbieding niet onder de gedefinieerde prijs wilt laten schommelen _[!UICONTROL Floor Price Source]_waarde. Wanneer u kiest, wordt_[!UICONTROL Apply]_ en _[!UICONTROL Floor Adjustment Amount]_velden zijn uitgeschakeld.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Een procentuele aanpassing ten opzichte van de _[!UICONTROL Floor Price Source]_waarde. |
+| [!UICONTROL Floor Adjustment Amount] | Voer de numerieke waarde voor het percentage in om uw _[!UICONTROL Floor Price Source]_waarde. |

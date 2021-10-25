@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Leren en voorbereiden
 
-In de weergave _[!UICONTROL Learning and Preparation]_wordt een lijst met vooraf ingestelde taken weergegeven die worden aanbevolen voordat uw Amazon-winkels worden geïntegreerd. Het biedt ook koppelingen naar leermaterialen, zoals:
+De _[!UICONTROL Learning and Preparation]_wordt de lijst met vooraf ingestelde taken weergegeven die u kunt aanbevolen voor de integratie van uw Amazon-winkels. Het biedt ook koppelingen naar leermaterialen, zoals:
 
-- Deze [gebruikershandleiding](./overview.md)
+- Dit [gebruikershandleiding](./overview.md)
 - Videozelfstudies
 
 ![Leerfunctie en voorbereidingsweergave](assets/learning-preparation.png)

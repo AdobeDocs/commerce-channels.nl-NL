@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Standaardprijzenregel
 
-Met een standaardhandeling voor prijsregels kunt u een Amazon-aanbiedingsprijs verhogen of verlagen met een bepaald percentage of een bepaald dollarbedrag ten opzichte van de catalogusprijs (of prijsbron) van [!DNL Commerce].
+Met een standaardprijsregel kun je een Amazon-prijs verhogen of verlagen met een bepaald percentage of een bepaald bedrag in dollar ten opzichte van de [!DNL Commerce] catalogusprijs (of prijsbron).
 
 De volgende onderdelen van een standaardprijsregel zijn:
 
@@ -20,37 +20,37 @@ De volgende onderdelen van een standaardprijsregel zijn:
 
 ## Prijsregelacties configureren
 
-1. Kies **[!UICONTROL Rule Type]** bij `Standard price rule`.
+1. Voor **[!UICONTROL Rule Type]** kiest u `Standard price rule`.
 
-   Met deze optie worden de overige velden in de sectie _[!UICONTROL Select Rule Type]_uitgeschakeld.
+   Met deze optie worden de andere velden in het dialoogvenster _[!UICONTROL Select Rule Type]_sectie.
 
-1. Vouw indien nodig de sectie _[!UICONTROL Price Adjustment]_uit.
+1. Breid uit _[!UICONTROL Price Adjustment]_indien nodig.
 
-1. Kies voor **[!UICONTROL Price Action]** een optie om te bepalen hoe u de waarde *[!UICONTROL Magento Price Source]* (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md)) wilt wijzigen.
+1. Voor **[!UICONTROL Price Action]** kiest u een optie om te bepalen hoe u de *[!UICONTROL Magento Price Source]* (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md)).
 
    - `Decrease By` - Kies wanneer je de waarde wilt verlagen voordat je een aanbieding naar Amazon maakt.
 
    - `Increase By` - Kies wanneer je de waarde wilt verhogen voordat je een aanbieding naar Amazon maakt.
 
-1. Kies voor **[!UICONTROL Apply]** een optie om te bepalen hoe u de gedefinieerde *[!UICONTROL Magento Price Source]*-waarde in de [Aanbiedingsprijs](./listing-price.md) wilt aanpassen:
+1. Voor **[!UICONTROL Apply]** kiest u een optie om te bepalen hoe u de gedefinieerde *[!UICONTROL Magento Price Source]* gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) aan te passen waarde:
 
-   - `Apply as percentage` - Kies wanneer je de gedefinieerde  *[!UICONTROL Magento Price Source]* waarde in je  [ ](./listing-price.md) aanbiedingsprijs wilt aanpassen met een percentage
+   - `Apply as percentage` - Kies wanneer u de definitie wilt *[!UICONTROL Magento Price Source]* gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) met een percentage gecorrigeerde waarde
 
-   - `Apply as fixed amount` - Kies wanneer je de gedefinieerde waarde in je  *[!UICONTROL Magento Price Source]* aanbiedingsprijs  [ ](./listing-price.md) wilt aanpassen met een vaste hoeveelheid.
+   - `Apply as fixed amount` - Kies wanneer u de definitie wilt *[!UICONTROL Magento Price Source]* gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) met een vast bedrag gecorrigeerde waarde.
 
-1. Voer bij **[!UICONTROL Adjustment Amount]** (verplicht) de numerieke waarde voor de prijsaanpassing in.
+1. Voor **[!UICONTROL Adjustment Amount]** (vereist), de numerieke waarde voor de prijsaanpassing invullen.
 
-   - Wanneer *[!UICONTROL Apply]* aan `Apply as percentage` wordt geplaatst, ga de percentagewaarde (voorbeeld: Voer `25` in voor een prijsaanpassing van 25%).
+   - Wanneer *[!UICONTROL Apply]* is ingesteld op `Apply as percentage`Voer de percentagewaarde in (voorbeeld: enter `25` voor een prijsaanpassing van 25 %).
 
-   - Wanneer *[!UICONTROL Apply]* wordt geplaatst aan `Apply as fixed amount`, ga de numerieke waarde voor het vaste bedrag in (voorbeeld: Voer `25` in voor een vaste prijsaanpassing van $ 25).
+   - Wanneer *[!UICONTROL Apply]* is ingesteld op `Apply as fixed amount`Voer de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: enter `25` voor een vaste prijsaanpassing van $ 25).
 
-1. Klik op **[!UICONTROL Save pricing rule]** als u klaar bent.
+1. Klik op **[!UICONTROL Save pricing rule]**.
 
 ![Standaardprijsregel](assets/ob-price-rule-action-standard-example.png)
 
 | Veld | Beschrijving |
 |---|---|
-| [!UICONTROL Rule Type] | Selecteer `Standard price rule`. |
-| [!UICONTROL Price Action] | Opties:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer je de waarde van de gedefinieerde  [!DNL Commerce] prijsbron wilt laten dalen voordat je de aanbieding naar Amazon uitvoert.</li><li>**[!UICONTROL Increase By]** - Kies wanneer je de waarde van de gedefinieerde  [!DNL Commerce] prijsbron wilt verhogen voordat je de aanbieding naar Amazon uitvoert.</li></ul> |
-| [!UICONTROL Apply] | Opties:<ul><li>**[!UICONTROL Apply as percentage]** - Kies wanneer u de waarde van de gedefinieerde  [!DNL Commerce] prijsbron wilt aanpassen met een percentage.</li><li>**[!UICONTROL Apply as fixed amount]** - Kies wanneer u de waarde van de gedefinieerde  [!DNL Commerce] prijsbron wilt aanpassen met een vast bedrag.</li></ul> |
-| [!UICONTROL Adjustment Amount] | Vereist.<br><br>Als u  `Apply as percentage` voor  *[!UICONTROL Apply]* kiest, ga de percentagewaarde (voorbeeld: Voer een aanpassing  `25` van 25% in).<br><br>Als u  `Apply as fixed amount` voor  *[!UICONTROL Apply]* kiest, voert u de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: Voer  `25` een vaste correctie van € 25 in). |
+| [!UICONTROL Rule Type] | Selecteren `Standard price rule`. |
+| [!UICONTROL Price Action] | Opties:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron moet worden verlaagd voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Increase By]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron moet worden verhoogd voordat deze aan Amazon wordt aangeboden.</li></ul> |
+| [!UICONTROL Apply] | Opties:<ul><li>**[!UICONTROL Apply as percentage]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron gecorrigeerd met een percentage.</li><li>**[!UICONTROL Apply as fixed amount]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron aangepast met een vast bedrag.</li></ul> |
+| [!UICONTROL Adjustment Amount] | Vereist.<br><br>Als u `Apply as percentage` for *[!UICONTROL Apply]* Voer de percentagewaarde in (voorbeeld: enter `25` voor een aanpassing van 25%).<br><br>Als u `Apply as fixed amount` for *[!UICONTROL Apply]* Voer de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: enter `25` voor een vaste correctie van $ 25). |

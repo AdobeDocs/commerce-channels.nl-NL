@@ -2,7 +2,7 @@
 title: Sales Channel-instellingen
 description: Om registreren, cron bron, en synchronisatie voor de functies van het verkoopkanaal van Amazon te beheren, werk de configuratie van de Handel bij.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Sales Channel-instellingen
 
-Wanneer de extensie [!DNL Amazon Sales Channel] is geïnstalleerd, worden standaardwaarden ingesteld in Admin for Amazon. Deze instellingen kunnen worden gewijzigd in de configuratie-instellingen voor uw Amazon-winkel. Deze instellingen zijn:
+Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden standaardwaarden ingesteld in het verkoopkanaal Admin for Amazon. Deze instellingen kunnen worden gewijzigd in de configuratie-instellingen voor uw Amazon-winkel. Deze instellingen zijn:
 
 - Intervallen voor het wissen van de geschiedenis van het activiteitenlog
 - Bronselectie uitsnijden
@@ -19,11 +19,11 @@ Wanneer de extensie [!DNL Amazon Sales Channel] is geïnstalleerd, worden standa
 
 ## De instellingen voor de kanalen voor handel wijzigen
 
-1. Ga op de zijbalk _Admin_ naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Op de _Beheer_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Vouw **[!UICONTROL Sales Channels]** in het linkerdeelvenster uit en kies **[!UICONTROL Global Settings]**.
+1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales Channels]** en kiest u **[!UICONTROL Global Settings]**.
 
-1. Kies voor **[!UICONTROL Clear Log History]** een optie:
+1. Voor **[!UICONTROL Clear Log History]** kiest u een optie:
 
    - `Once Daily` - Verkies om uw geschiedenis van de winkelactiviteit één keer per dag te ontruimen.
 
@@ -31,14 +31,14 @@ Wanneer de extensie [!DNL Amazon Sales Channel] is geïnstalleerd, worden standa
 
    - `Once Monthly` - (Standaard) Wis de historie van je winkelactiviteiten één keer per maand.
 
-1. Kies **[!UICONTROL Background Tasks (CRON) Source]** bij `Magento CRON`.
+1. Voor **[!UICONTROL Background Tasks (CRON) Source]** kiest u `Magento CRON`.
 
-   Met deze optie kan het Amazon-verkoopkanaal de [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html)-instellingen gebruiken om de communicatie- en gegevenssync-intervallen met [!DNL Amazon Seller Central] te bepalen.
+   Met deze optie kan Amazon je verkoopkanaal gebruiken [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) instellingen om de communicatie- en gegevenssynchronisatieintervallen te bepalen met [!DNL Amazon Seller Central].
 
-1. Kies **[!UICONTROL Enable Debug Logging]** om extra synchronisatiegegevens te verzamelen wanneer het probleem moet worden opgelost.`Enabled`
+1. Voor **[!UICONTROL Enable Debug Logging]** kiest u `Enabled` om extra synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is.
 
-   Logboekregistratie van Amazon-verkoopkanalen wordt naar het `{Commerce Root}/var/log/channel_amazon.log`-bestand geschreven en kan worden weergegeven in [ontwikkelingsmodus](https://docs.magento.com/user-guide/magento/installation-modes.html){:target=&quot;_blank&quot;}. Logboekregistratie mag alleen `Enabled` zijn tijdens het oplossen van problemen en moet `Disabled` zijn wanneer het oplossen van problemen is voltooid.
+   Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. Logboekregistratie dient alleen plaats te vinden `Enabled` tijdens het oplossen van problemen en moet `Disabled` wanneer het oplossen van problemen volledig is.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klikken **[!UICONTROL Save Config]**.
 
 ![Sales Channel-configuratie-instellingen](assets/config-sales-channel-global-settings.png)

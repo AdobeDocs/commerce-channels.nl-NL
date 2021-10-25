@@ -1,6 +1,6 @@
 ---
 title: Amazon-bestellingsgegevens
-description: Bekijk details voor je Amazon Marketplace-bestellingen in de Adobe Commerce of Magento Open Source Admin.
+description: Bekijk details voor je Amazon Marketplace-bestellingen in Adobe Commerce of Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## Amazon-ordergegevens weergeven
 
-1. Klik op **[!UICONTROL View Store]** op de winkelkaart.
+1. Klikken **[!UICONTROL View Store]** op de winkelkaart.
 
-1. Klik in de sectie _[!UICONTROL Recent Orders]_op een bestelnummer.
+1. In de _[!UICONTROL Recent Orders]_klikt u op een bestelnummer.
 
-   De pagina _[!UICONTROL Amazon Order Details]_wordt geopend.
+   De _[!UICONTROL Amazon Order Details]_pagina wordt geopend.
 
 >[!NOTE]
 >
->Als u bestelimport hebt ingeschakeld in uw [Order Settings](./order-settings.md) en de volgorde is [vervuld door Amazon (FBA)](./fulfilled-by.md), ziet u mogelijk dummygegevens voor sommige velden in de orderdetails. Amazon verzendt de volgende gegevens voor FBA-orders niet.
+>Als uw bestelling is geïmporteerd in uw [Orderinstellingen](./order-settings.md) en de volgorde [vervuld door Amazon (FBA)](./fulfilled-by.md)In de bestelgegevens ziet u mogelijk dummygegevens voor bepaalde velden. Amazon verzendt de volgende gegevens voor FBA-orders niet.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### Tabblad Bestelling en verzendgegevens
 
-Op het tabblad _[!UICONTROL Order and Shipping Details]_staan gedetailleerde ordergegevens die u van Amazon hebt ontvangen.
+De _[!UICONTROL Order and Shipping Details]_bevat gedetailleerde ordergegevens, zoals ontvangen van Amazon.
 
 >[!IMPORTANT]
 >
@@ -54,18 +54,18 @@ Op het tabblad _[!UICONTROL Order and Shipping Details]_staan gedetailleerde ord
 >- `Shipping country`
 
 >
->Vergeet niet om **Volgorde** te klikken na het aanbrengen van veranderingen.
+>Vergeet niet op **Volgorde opslaan** nadat u bewerkingen hebt uitgevoerd.
 
 ![Bestelling en verzendgegevens](assets/amazon-order-details.png)
 
 ### Items bestellen, tabblad
 
-Op het tabblad _[!UICONTROL Order Items]_worden alle items weergegeven die zijn gekoppeld aan de Amazon-volgorde, zoals deze zijn ontvangen van Amazon.
+De _[!UICONTROL Order Items]_worden alle items weergegeven die aan de Amazon-order zijn gekoppeld, zoals deze van Amazon zijn ontvangen.
 
 ![Itemdetails bestellen](assets/amazon-order-item-details.png)
 
 ### Tabblad Tekstspatiëring
 
-Op het tabblad _[!UICONTROL Tracking]_wordt informatie over het bijhouden van de Amazon-volgorde weergegeven.
+De _[!UICONTROL Tracking]_wordt informatie over het bijhouden van de Amazon-volgorde weergegeven.
 
 ![Trackinggegevens](assets/amazon-order-tracking-details.png)

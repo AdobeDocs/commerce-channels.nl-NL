@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ## Een of meer Amazon-aanbiedingen handmatig beëindigen
 
-1. Bekijk een of meer aanbiedingen op de [[!UICONTROL Product Listings]](./managing-product-listings.md) pagina (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, of _[!UICONTROL Ineligible]_tabel).
+1. Een of meer aanbiedingen weergeven op de [[!UICONTROL Product Listings]](./managing-product-listings.md) pagina (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, of _[!UICONTROL Ineligible]_).
 
 1. Klik in de linkerkolom om alle aanbiedingen te controleren die u wilt beëindigen.
 
-1. Klik onder _[!UICONTROL Actions]_op **[!UICONTROL End listing(s) on Amazon]**.
+1. Onder _[!UICONTROL Actions]_, klikt u op **[!UICONTROL End listing(s) on Amazon]**.
 
-1. Klik op **[!UICONTROL OK]** in het bevestigingsbericht.
+1. Klikken **[!UICONTROL OK]** in het bevestigingsbericht.
 
 ## Handmatig één Amazon-aanbieding beëindigen
 
-1. Bekijk een of meer aanbiedingen op de [[!UICONTROL Product Listings]](./managing-product-listings.md) pagina (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, of _[!UICONTROL Ineligible]_tabel).
+1. Een of meer aanbiedingen weergeven op de [[!UICONTROL Product Listings]](./managing-product-listings.md) pagina (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, of _[!UICONTROL Ineligible]_).
 
-1. Klik in de kolom _[!UICONTROL Action]_op **Select**>**End List**.
+1. In de _[!UICONTROL Action]_kolom, klikt u op **Selecteren**>**Aanbieding beëindigen**.
 
-1. Klik op **[!UICONTROL OK]** in het bevestigingsbericht.
+1. Klikken **[!UICONTROL OK]** in het bevestigingsbericht.
 
-Als je één aanbieding of meerdere aanbiedingen beëindigt, wordt bevestigd dat de geselecteerde aanbieding wordt verwerkt om te beëindigen. Afgelopen aanbiedingen kunnen worden beheerd op het tabblad [Afgelopen](./ended-listings.md) op de pagina [_Productaanbiedingen_](./managing-product-listings.md). Wanneer de items worden verwerkt en uit Amazon worden verwijderd, verandert de status voor de aanbieding in `Manually Ended`. Afgelopen aanbiedingen worden uit Amazon verwijderd totdat je de aanbieding handmatig opnieuw publiceert met de actie [_Publiceren naar Amazon_](./publish-listings-manually.md).
+Als je één aanbieding of meerdere aanbiedingen beëindigt, wordt bevestigd dat de geselecteerde aanbieding wordt verwerkt om te beëindigen. Afgelopen aanbiedingen kunnen worden beheerd op de [Beëindigd](./ended-listings.md) op het tabblad [_Productaanbiedingen_](./managing-product-listings.md) pagina. Wanneer je de aanbieding verwerkt en uit Amazon verwijdert, verandert de status van de aanbieding in `Manually Ended`. Afgelopen aanbiedingen worden uit Amazon verwijderd totdat je de aanbieding handmatig opnieuw publiceert met de [_Publiceren naar Amazon_](./publish-listings-manually.md) handeling.

@@ -1,6 +1,6 @@
 ---
 title: Een niet-verzonden bestelling annuleren
-description: Annuleer een bestelling die in behandeling is of gedeeltelijk is verzonden (niet verzonden) via uw Amazon [!DNL Seller Central] account.
+description: Een lopende of gedeeltelijk verzonden (niet-verzonden) bestelling via je Amazon annuleren [!DNL Seller Central] account.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,32 +11,32 @@ ht-degree: 0%
 
 # Een niet-verzonden bestelling annuleren
 
-Amazon-orders kunnen alleen worden geannuleerd als ze de status `Unshipped` hebben. Als de bestelling in behandeling is of gedeeltelijk wordt verzonden (niet verzonden), kan de bestelling alleen worden geannuleerd via uw [!DNL Amazon Seller Central]-account. Als het item is verzonden, moeten de geretourneerde en uitgewisselde gegevens ook worden verwerkt in uw [!DNL Amazon Seller Central]-account.
+Amazon-orders kunnen alleen worden geannuleerd als ze zich in een `Unshipped` status. Als de bestelling in behandeling is of gedeeltelijk wordt verzonden (niet verzonden), kan de bestelling alleen via uw [!DNL Amazon Seller Central] account. Als het object is verzonden, moeten geretourneerde en uitgewisselde gegevens ook in uw [!DNL Amazon Seller Central] Account.
 
 >[!NOTE]
 >
 >Voor andere taken dan het annuleren van een bestelling:
 >
->- Als u [orde invoer](./order-settings.md) toegelaten hebt, worden de orden beheerd in [[!DNL Commerce] ordeswerkschema](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}.
->- Als [order import](./order-settings.md) is uitgeschakeld, moet u uw bestellingen beheren in [!DNL Amazon Seller Central].
+>- Als u [orderimport](./order-settings.md) ingeschakeld, worden bestellingen beheerd in het dialoogvenster [[!DNL Commerce] orderwerkstroom](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}.
+>- Indien [orderimport](./order-settings.md) is uitgeschakeld, moet u uw bestellingen beheren in [!DNL Amazon Seller Central].
 
 
-## Een bestelling in de status `Unshipped` annuleren
+## Een bestelling annuleren in `Unshipped` status
 
-1. Klik op **[!UICONTROL View Store]** op de winkelkaart.
+1. Klikken **[!UICONTROL View Store]** op de winkelkaart.
 
-1. Klik in de sectie _[!UICONTROL Recent Orders]_van het opslagdashboard op een bestelnummer.
+1. In de _[!UICONTROL Recent Orders]_klikt u op een bestelnummer in het opslagdashboard.
 
-   De pagina _[!UICONTROL Amazon Order Details]_wordt weergegeven.
+   De _[!UICONTROL Amazon Order Details]_wordt weergegeven.
 
-1. Klik **[!UICONTROL Cancel Order]** in de kopbalbar.
+1. Klikken **[!UICONTROL Cancel Order]** in de koptekstbalk.
 
-   Deze optie wordt alleen weergegeven voor bestellingen met de status `Unshipped`.
+   Deze optie wordt alleen weergegeven voor opdrachten in `Unshipped` status.
 
-1. Kies voor **[!UICONTROL Reason for cancellation]** een optie.
+1. Voor **[!UICONTROL Reason for cancellation]** kiest u een optie.
 
-1. Klik op **[!UICONTROL Confirm]**.
+1. Klikken **[!UICONTROL Confirm]**.
 
-   De volgorde wordt geannuleerd en de status wordt in de orderdetails bijgewerkt naar `Canceled`.
+   De volgorde wordt geannuleerd en de status wordt bijgewerkt naar `Canceled` in de ordergegevens.
 
-Het annuleringsbericht wordt naar uw [!DNL Amazon Seller Central]-account verzonden en de klant die aan de order is gekoppeld, wordt ook op de hoogte gesteld. De status van de corresponderende [!DNL Commerce]-volgorde, indien aanwezig, verandert in `Complete`.
+Het annuleringsbericht wordt naar uw verzonden [!DNL Amazon Seller Central] en de klant die aan de order is gekoppeld, wordt hiervan op de hoogte gesteld. De status van de overeenkomstige [!DNL Commerce] eventuele wijzigingen in de volgorde van `Complete`.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De sectie Prijsaanpassing wijkt enigszins af voor de regels voor standaardprijzen en intelligente prijsaanpassingen. **[!UICONTROL Match Competitor Price]** is alleen beschikbaar onder  _[!UICONTROL Price Action]_wanneer **[!UICONTROL Rule Type]**deze is ingesteld op  `Intelligent repricing rule`.
+>De sectie Prijsaanpassing wijkt enigszins af voor de regels voor standaardprijzen en intelligente prijsaanpassingen. **[!UICONTROL Match Competitor Price]** is alleen beschikbaar onder _[!UICONTROL Price Action]_wanneer **[!UICONTROL Rule Type]**is ingesteld op `Intelligent repricing rule`.
 
 Secties van een intelligente prijsstellingsregel omvatten:
 
@@ -27,32 +27,32 @@ De prijsaanpassing bepaalt de prijsberekening wanneer u de prijsbron van de conc
 
 ## Prijsaanpassing configureren
 
-Definieer uw prijsaanpassing in de sectie _[!UICONTROL Price Adjustment]_.
+Bepaal uw prijsaanpassing in _[!UICONTROL Price Adjustment]_sectie.
 
-1. Kies voor **[!UICONTROL Price Action]** een optie:
+1. Voor **[!UICONTROL Price Action]** kiest u een optie:
 
    - `Decrease By` - Kies wanneer u de waarde van de gedefinieerde prijsbron wilt aanpassen, zodat een lagere prijs voor de regel wordt verkregen, voordat u deze aanbiedt aan Amazon.
 
    - `Increase By` - Kies wanneer u de waarde van de gedefinieerde prijsbron wilt aanpassen, zodat een hogere prijs voor de regel wordt verkregen, voordat u deze aanbiedt aan Amazon.
 
-   - `Match Competitor Price` - (Alleen de regel voor intelligente prijsstelling) Kies wanneer u de prijs van je Amazon-aanbieding wilt aanpassen aan de  [laagste ](./lowest-competitor-pricing.md) prijs van een concurrent, op basis van feedback en variantieparameters. Wanneer ingesteld op `Match Competitor Price`, worden de velden _[!UICONTROL Apply]_en_[!UICONTROL Adjustment Amount]_ verwijderd.
+   - `Match Competitor Price` - (Alleen de regel voor intelligente prijsstelling) Kies wanneer je de prijs van je Amazon-aanbieding wilt aanpassen aan de [laagste concurrent](./lowest-competitor-pricing.md) prijs, op basis van feedback van uw concurrent en variantieparameters. Wanneer ingesteld op `Match Competitor Price`de _[!UICONTROL Apply]_en_[!UICONTROL Adjustment Amount]_ velden worden verwijderd.
 
-1. Kies voor **[!UICONTROL Apply]** een optie:
+1. Voor **[!UICONTROL Apply]** kiest u een optie:
 
-   - `Apply as percentage` - Kies wanneer je de gedefinieerde prijs in je  **[!UICONTROL Magento Price Source]** aanbieding met een percentage wilt  [ ](./listing-price.md) aanpassen.
+   - `Apply as percentage` - Kies wanneer u de definitie wilt **[!UICONTROL Magento Price Source]** gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) aangepast met een percentage.
 
-   - `Apply as fixed amount` - Kies wanneer je de gedefinieerde prijs in je  **[!UICONTROL Magento Price Source]** aanbieding wilt aanpassen met een vaste  [ ](./listing-price.md) prijs.
+   - `Apply as fixed amount` - Kies wanneer u de definitie wilt **[!UICONTROL Magento Price Source]** gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) aangepast met een vast bedrag.
 
-1. Voer bij **[!UICONTROL Adjustment Amount]** (verplicht) de numerieke waarde voor de prijsaanpassing in.
+1. Voor **[!UICONTROL Adjustment Amount]** (vereist), de numerieke waarde voor de prijsaanpassing invullen.
 
-   - Wanneer **[!UICONTROL Apply]** aan `Apply as percentage` wordt geplaatst, ga de percentagewaarde (voorbeeld: Voer `25` in voor een aanpassing van 25% procent).
+   - Wanneer **[!UICONTROL Apply]** is ingesteld op `Apply as percentage`Voer de percentagewaarde in (voorbeeld: enter `25` voor een aanpassing van 25%).
 
-   - Wanneer **[!UICONTROL Apply]** wordt geplaatst aan `Apply as fixed amount`, ga de numerieke waarde voor het vaste bedrag in (voorbeeld: Voer `25` in voor een vaste aanpassing van $25).
+   - Wanneer **[!UICONTROL Apply]** is ingesteld op `Apply as fixed amount`Voer de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: enter `25` voor een vaste correctie van $ 25).
 
 ![Intelligente prijsregel - prijsaanpassing](assets/amazon-price-adjustment.png)
 
 | Veld | Beschrijving |
 |---|---|
-| [!UICONTROL Price Action] | Kies een handeling voor het aanpassen van de prijzen. Opties:<br>**[!UICONTROL Decrease By]**- Kies wanneer u de gedefinieerde _[!UICONTROL Magento Price Source]_in uw [Aanbiedingsprijs](./listing-price.md) wilt aanpassen, zodat een lagere prijs voor de regel wordt gemaakt, voordat u deze aan Amazon aanbiedt.<br>**[!UICONTROL Increase By]**- Kies wanneer je de gedefinieerde prijs in je_[!UICONTROL Magento Price Source]_   [ ](./listing-price.md) aanbiedingsprijs wilt aanpassen, zodat je een hogere prijs voor de regel krijgt, voordat je een aanbieding naar Amazon doet.<br>**[!UICONTROL Match Competitor Price]**- (Alleen de regel voor intelligente prijsstelling) Kies wanneer u de prijs van je Amazon-aanbieding wilt aanpassen aan de  [laagste ](./lowest-competitor-pricing.md) prijs van een concurrent, op basis van feedback en variantieparameters. Als u deze optie kiest, worden de velden _Toepassen_ en _Aanpassingsbedrag_ verwijderd. |
-| [!UICONTROL Apply] | Opties:<br>**[!UICONTROL Apply as percentage]**- Kies wanneer u de gedefinieerde _[!UICONTROL Magento Price Source]_in uw [Aanbiedingsprijs](./listing-price.md) wilt aanpassen met een percentage.<br>**[!UICONTROL Apply as fixed amount]**- Kies wanneer je de gedefinieerde prijs in je_[!UICONTROL Magento Price Source]_ aanbieding wilt aanpassen met een vaste  [ ](./listing-price.md) prijs. |
-| [!UICONTROL Adjustment Amount] | Vereist.<br>Als u  `Apply as percentage` voor  **[!UICONTROL Apply]** kiest, voert u de percentagewaarde in (bijvoorbeeld: Voer een aanpassing  `25` van 25% in).<br>Als u  `Apply as fixed amount` voor  **[!UICONTROL Apply]** kiest, voert u de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: Voer  `25` een vaste correctie van € 25 in). |
+| [!UICONTROL Price Action] | Kies een handeling voor het aanpassen van de prijzen. Opties:<br>**[!UICONTROL Decrease By]**- Kies wanneer u de definitie wilt _[!UICONTROL Magento Price Source]_gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) om te worden aangepast, waardoor een lagere prijs voor de regel wordt gemaakt, voordat je de aanbieding aan Amazon aanbiedt.<br>**[!UICONTROL Increase By]**- Kies wanneer u de definitie wilt_[!UICONTROL Magento Price Source]_ gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) worden aangepast, waardoor een hogere prijs voor de regel wordt gecreëerd, voordat wordt aangeboden aan Amazon.<br>**[!UICONTROL Match Competitor Price]**- (Alleen de regel voor intelligente prijsstelling) Kies wanneer je de prijs van je Amazon-aanbieding wilt aanpassen aan de [laagste concurrent](./lowest-competitor-pricing.md) prijs, op basis van feedback van uw concurrent en variantieparameters. Wanneer u kiest, wordt _Toepassen_ en _Aanpassingsbedrag_ velden worden verwijderd. |
+| [!UICONTROL Apply] | Opties:<br>**[!UICONTROL Apply as percentage]**- Kies wanneer u de definitie wilt _[!UICONTROL Magento Price Source]_gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) aangepast met een percentage.<br>**[!UICONTROL Apply as fixed amount]**- Kies wanneer u de definitie wilt_[!UICONTROL Magento Price Source]_ gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) aangepast met een vast bedrag. |
+| [!UICONTROL Adjustment Amount] | Vereist.<br>Als u `Apply as percentage` for **[!UICONTROL Apply]** Voer de percentagewaarde in (voorbeeld: enter `25` voor een aanpassing van 25%).<br>Als u `Apply as fixed amount` for **[!UICONTROL Apply]** Voer de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: enter `25` voor een vaste correctie van $ 25). |

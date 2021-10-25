@@ -11,14 +11,14 @@ ht-degree: 0%
 
 # Objectdetails weergeven
 
-Op de pagina _[!UICONTROL Product Listing Details]_vindt u aanvullende informatie over actieve productaanbiedingen, waaronder het activiteitenlogboek van de aanbieding waarin de wijzigingen op een afzonderlijke SKU/product worden weergegeven. Deze informatie kan u helpen concurrerende metriek op uw producten en op individuele SKU/productveranderingen begrijpen. Aanvullende informatie op deze pagina is onder meer:
+De _[!UICONTROL Product Listing Details]_Deze pagina bevat aanvullende informatie over actieve productaanbiedingen, waaronder het activiteitenlogboek van de aanbieding waarin de wijzigingen op een afzonderlijke SKU/product worden weergegeven. Deze informatie kan u helpen concurrerende metriek op uw producten en op individuele SKU/productveranderingen begrijpen. Aanvullende informatie op deze pagina is onder meer:
 
 - **[!UICONTROL Listing Details]** - Productgegevens inclusief naam en SKU van Amazon-verkoper
 - **[!UICONTROL Listing Activity Log]** - Historisch overzicht van alle wijzigingen die zich voor deze aanbieding hebben voorgedaan, zoals prijswijzigingen en wijzigingen in aantal/voorraad. Er zijn geen verdere acties vereist. Dit logboek wordt verstrekt voor overzicht om de veranderingsgeschiedenis te begrijpen.
-- **[!UICONTROL Buy Box Competitor Pricing]** - Gegevens over de  [[!DNL Buy Box]](./buy-box-competitor-pricing.md) status van Amazon en de prijsstelling van concurrenten
+- **[!UICONTROL Buy Box Competitor Pricing]** - Gegevens voor Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) status en prijsstelling voor concurrenten
 - **[!UICONTROL Lowest Competitor Pricing]** - Informatie over de prijzen en feedback van de laagste Amazon-concurrent
 
-Amazon-homepages van verkoopkanalen hebben gemeenschappelijke [besturingselementen voor werkruimten](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
+Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 
 ## Aanbiedingsgegevens
 
@@ -40,15 +40,15 @@ Alle recente activiteiten voor de Amazon-aanbieding worden weergegeven. De getoo
 - Opmerkingen: Verstrekt extra details met betrekking tot het type van lijstactie die voorkwam.
 - Uitgevoerd om: Identificeert de datum en de tijd de actie voorkwam.
 
-![Gegevens van productaanbiedingen - logboek](assets/amazon-listing-activity-log.png)
- van aanbiedingsactiviteiten__
+![Gegevens van productaanbiedingen - logboek van aanbiedingsactiviteiten](assets/amazon-listing-activity-log.png)
+__
 
 ## Prijsstelling voor Buy Box-concurrent {#buy-box-competitor-pricing}
 
-Op dit tabblad wordt informatie weergegeven over de Amazon-handelaar die de positie [[!DNL Buy Box]](./buy-box-competitor-pricing.md) voor de lijst bevat. Deze informatie kan worden gebruikt om de prijsstelling van uw concurrenten op Amazon te begrijpen. De getoonde informatie omvat:
+Op dit tabblad wordt informatie weergegeven over de Amazon-handelaar die de [[!DNL Buy Box]](./buy-box-competitor-pricing.md) positie voor de aanbieding. Deze informatie kan worden gebruikt om de prijsstelling van uw concurrenten op Amazon te begrijpen. De getoonde informatie omvat:
 
 - ASIN: De 10-cijferige Amazon product identifier.
-- Is verkoper: Hiermee wordt aangegeven of u de [!DNL Buy Box]-verkoper bent. Opties Ja/Nee.
+- Is verkoper: Hiermee wordt aangegeven of u de [!DNL Buy Box] verkoper. Opties Ja/Nee.
 - Voorwaarde: Hiermee wordt de gedefinieerde voorwaarde voor de aanbieding aangegeven.
 - Aanbiedingsprijs: Hiermee wordt de prijs aangegeven waartegen de aanbieding is gepubliceerd.
 - Verzendprijs: Hiermee wordt de verzendprijs aangegeven die aan de aanbieding is toegevoegd.
@@ -59,7 +59,7 @@ Op dit tabblad wordt informatie weergegeven over de Amazon-handelaar die de posi
 
 ## Laagste concurrerende Prijs {#lowest-competitor-pricing}
 
-Op dit tabblad wordt informatie weergegeven over Amazon-concurrenten voor dezelfde aanbieding. Deze informatie kan worden gebruikt om prijspositionering en [laagste concurrerende prijsstelling](./lowest-competitor-pricing.md) te begrijpen. De getoonde informatie omvat:
+Op dit tabblad wordt informatie weergegeven over Amazon-concurrenten voor dezelfde aanbieding. Deze informatie kan worden gebruikt om prijsstelling te begrijpen en [laagste prijsstelling voor concurrenten](./lowest-competitor-pricing.md). De getoonde informatie omvat:
 
 - ASIN: De 10-cijferige Amazon product identifier.
 - Voorwaarde: Hiermee wordt de gedefinieerde voorwaarde voor de aanbieding aangegeven.

@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # Amazon-aanbiedingen beheren
 
-De instellingen voor productaanbiedingen kunnen op elk gewenst moment worden gewijzigd nadat uw [!DNL Commerce]-winkel is geïntegreerd. Je kunt je aanbiedingsinstellingen openen op het [opslagdashboard](./amazon-store-dashboard.md).
+De instellingen voor productaanbiedingen kunnen op elk gewenst moment na de [!DNL Commerce] store is geïntegreerd. Je kunt je aanbiedingsinstellingen bekijken op de [opslagdashboard](./amazon-store-dashboard.md).
 
-Als je je productaanbiedingen wilt bekijken op basis van hun aanbiedingsstatus, klik je op **[!UICONTROL Manage Listings]** in de sectie _[!UICONTROL Store Listings]_. De pagina[_ Productaanbiedingen _](./managing-listings-by-tab.md)wordt standaard geopend op het tabblad_[!UICONTROL Active]_.
+Klik op **[!UICONTROL Manage Listings]** in de _[!UICONTROL Store Listings]_sectie. De[_ Productaanbiedingen _](./managing-listings-by-tab.md)pagina wordt geopend voor de_[!UICONTROL Active]_ standaard.
 
-U kunt ook op **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** en **[!UICONTROL In Progress Listings]** in de sectie _[!UICONTROL Store Listings]_klikken om deze tabbladen rechtstreeks te openen.
+U kunt ook op **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]**, en **[!UICONTROL In Progress Listings]** in de _[!UICONTROL Store Listings]_voor directe toegang tot deze tabbladen.
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** zijn ofwel je  _aanbiedingen klaar voor_ aanbiedingen of je  _onvolledige aanbiedingen_, afhankelijk van de instellingen voor  [_acties voor_](./product-listing-actions.md) aanbiedingen. Zie de tabbeschrijvingen in [Aanbiedingen beheren op status / Tab](./managing-listings-by-tab.md).
+>**[!UICONTROL In Progress Listings]** zijn _Klaar voor lijst_ aanbiedingen of je _Onvolledige aanbiedingen_, afhankelijk van uw [_Handelingen voor productaanbiedingen_](./product-listing-actions.md) instellingen. Zie de tabbeschrijvingen in [Aanbiedingen beheren op status/tabblad](./managing-listings-by-tab.md).
 
-Zie [Aanbiedingen beheren op status / Tab](./managing-listings-by-tab.md) en [Aanbiedingen beheren op Handeling](./managing-listings-by-action.md).
+Zie [Aanbiedingen beheren op status/tabblad](./managing-listings-by-tab.md) en [Aanbiedingen beheren via actie](./managing-listings-by-action.md).
 
 ## Productlijsten openen
 
-1. Ga op de zijbalk _Admin_ naar **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Op de _Beheer_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Klik op **[!UICONTROL View Store]** op een winkelkaart.
+1. Klikken **[!UICONTROL View Store]** op een winkelkaart.
 
-1. Klik op het opslagdashboard op **[!UICONTROL Manage Listings]** in de sectie _[!UICONTROL Store Listings]_.
+1. Klik op het opslagdashboard op **[!UICONTROL Manage Listings]** in de _[!UICONTROL Store Listings]_sectie.
 
 1. Klik op een tabblad om lijsten met die status weer te geven.
 
-   Het tabblad _[!UICONTROL Active]_wordt standaard weergegeven.
+   De _[!UICONTROL Active]_wordt standaard weergegeven.

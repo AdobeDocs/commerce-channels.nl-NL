@@ -16,20 +16,20 @@ Met Prijsregelacties worden de aanpassingsberekeningen gedefinieerd die op de pr
 
 ## Standaardprijsregel
 
-Met een [standaardprijsregel](./standard-price-rules.md) kunt u een Amazon-prijs verhogen of verlagen met een bepaald percentage of een vast dollarbedrag ten opzichte van de catalogusprijs (of prijsbron) van [!DNL Commerce].
+A [standaardprijsregel](./standard-price-rules.md) biedt je de mogelijkheid om een Amazon-prijs te verhogen of te verlagen met een bepaald percentage of een bepaald bedrag in dollar ten opzichte van [!DNL Commerce] catalogusprijs (of prijsbron).
 
 | Sectie | Beschrijving |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Plaats het regeltype aan `Standard price rule`. |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Regeltype instellen op `Standard price rule`. |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | Bepaal de aanpassingsberekeningen die op de prijsbron worden toegepast om de aanbiedingsprijs te bepalen |
 
 ## Intelligente prijsregel
 
-Een [intelligente prijsregel](./intelligent-repricing-rules.md) gebruikt de prijsstelling van Amazon-concurrenten om de aanbiedingsprijs te bepalen. Concurrenten zijn andere verkopers die dezelfde producten aanbieden die je op Amazon aanbiedt.
+An [intelligente prijzingsregel](./intelligent-repricing-rules.md) bepaalt de prijs van je aanbieding door Amazon-concurrenten. Concurrenten zijn andere verkopers die dezelfde producten aanbieden die je op Amazon aanbiedt.
 
 | Sectie | Beschrijving |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Plaats het regeltype aan `Intelligent repricing rule` samen met uw Bron van de Prijs van de Concurrent en de vereisten van de Terugkoppeling. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Regeltype instellen op `Intelligent repricing rule` samen met de vereisten voor de prijsbron en feedback voor uw concurrent. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definieer variaties voor de voorwaarden van hetzelfde product dat door concurrenten wordt verkocht. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Bepaal de aanpassingsberekeningen die op de prijsbron worden toegepast om de aanbiedingsprijs te bepalen |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Geef de laagste prijs voor een product op om te voorkomen dat meerdere prijsregels een aanbiedingsprijs te laag maken. |

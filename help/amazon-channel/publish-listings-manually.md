@@ -13,14 +13,14 @@ ht-degree: 0%
 
 Je kunt een of meer afgelopen Amazon-aanbiedingen handmatig publiceren.
 
-1. Bekijk een of meer aanbiedingen op het tabblad _[!UICONTROL Ended]_op de pagina [Productaanbiedingen](./managing-product-listings.md) (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_of_[!UICONTROL Ineligible]_).
+1. Een of meer aanbiedingen weergeven op de _[!UICONTROL Ended]_op het tabblad [Productaanbiedingen](./managing-product-listings.md) pagina (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, of_[!UICONTROL Ineligible]_ ).
 
 1. Klik in de linkerkolom om alle aanbiedingen te controleren die u opnieuw wilt publiceren.
 
-1. Klik onder _[!UICONTROL Actions]_op **[!UICONTROL Publish Product to Amazon]**.
+1. Onder _[!UICONTROL Actions]_, klikt u op **[!UICONTROL Publish Product to Amazon]**.
 
-1. Klik **[!UICONTROL OK]** in het bevestigingsbericht.
+1. Klikken **[!UICONTROL OK]** in het bevestigingsbericht.
 
    Er wordt een bericht weergegeven ter bevestiging dat de geselecteerde aanbiedingen worden verwerkt om naar Amazon te publiceren.
 
-   Aanbiedingsgegevens worden op basis van je uitsnijdinstellingen naar Amazon gepubliceerd. Aanbiedingsgegevens worden bij de volgende gegevenssynchronisatie naar Amazon verzonden. Totdat Amazon antwoordt met de bevestiging van de aanbieding, blijven de handmatig gepubliceerde aanbiedingen op het tabblad _Klaar voor lijst_ met de status `List in Progress` staan. Wanneer de bevestiging van de aanbieding door Amazon wordt ontvangen, gaan de aanbiedingen naar het tabblad _Actief_ met de status `Active`.
+   Aanbiedingsgegevens worden op basis van je uitsnijdinstellingen naar Amazon gepubliceerd. Aanbiedingsgegevens worden bij de volgende gegevenssynchronisatie naar Amazon verzonden. Totdat Amazon reageert met de bevestiging van de aanbieding, blijven de handmatig gepubliceerde aanbiedingen op de _Klaar voor lijst_ met een `List in Progress` status. Wanneer de bevestiging van de aanbieding van Amazon is ontvangen, worden de aanbiedingen verplaatst naar _Actief_ met een `Active` status.
