@@ -11,11 +11,11 @@ ht-degree: 4%
 
 # Logica voor prijsprioriteiten
 
-In het volgende voorbeeld, hoe bepaalt het systeem als u $31.99, $24.99, of $27.99 zou moeten publiceren?
+In the following example, how does the system determine if you should publish $31.99, $24.99, or $27.99?
 
-![Omvang van de handelsprijs](assets/amazon-price-scope.png)
+![Commerce price scope](assets/amazon-price-scope.png)
 
-Om te bepalen welke prijs wordt gebruikt als een product op twee websites staat en een variabele prijs per website heeft, gebruikt u de logica voor prijsprioriteit (bepaald door de [Sorteervolgorde](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target=&quot;_blank&quot;} waarde).
+To determine which price is used if a product is on two websites and has a varying price per website, use price priority logic (determined by the [Sort Order](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target=&quot;_blank&quot;} value).
 
 Ga naar **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** in de _Beheer_ zijbalk. In de _[!UICONTROL Web Site]_klikt u op de naam van de website. De_[!UICONTROL Web Site Information]_ pagina toont de _[!UICONTROL Sort Order]_de website instellen, die de prioriteit van de website bepaalt. Een waarde van `1` geeft de hoogste prioriteit aan.
 
@@ -29,8 +29,8 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 | Winkel 1 | 1 | $ 24,99 | Nee |
 | Winkel 2 | 2 | $ 27,99 | Ja |
 
-- De **[!UICONTROL Magento Price Source]** (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) is ingesteld op `Price` kenmerk.
-- Kijk naar de website met de hoogste prioriteit voor de website, Store 1 (gedefinieerd door de [Sorteervolgorde](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target=&quot;_blank&quot;} waarde).
+- The **[!UICONTROL Magento Price Source]** (defined in your [Listing Price](./listing-price.md) is set to the `Price` attribute.
+- Look at the website with the highest website priority, which is Store 1 (defined by the [Sort Order](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target=&quot;_blank&quot;} value).
 - Aangezien Store 1 is ingesteld op het gebruik van de websiteprijs (Standaardinstelling gebruiken = Nee), is de gepubliceerde prijs $24,99.
 
 ## Voorbeeld 2
@@ -39,7 +39,7 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 |---|---|---|---|
 | Standaard | 0 | $ 31,99 | — |
 | Winkel 1 | 1 | $ 24,99 | Ja |
-| Winkel 2 | 2 | $ 27,99 | Nee |
+| Winkel 2 | 2 | $ 27,99 | No |
 
 - De **[!UICONTROL Magento Price Source]** (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) is ingesteld op `Price` kenmerk.
 - Kijk naar de website met de hoogste prioriteit voor de website, Store 1 (gedefinieerd door de [sorteervolgorde](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target=&quot;_blank&quot;} waarde).
@@ -48,13 +48,13 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 
 ## Voorbeeld 3
 
-|  | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
+|  | Prioriteit website | Prijswebsite | Use Default |
 |---|---|---|---|
-| Standaard | 0 | $ 31,99 | $ 30,00 |
-| Winkel 1 | 1 | $ 24,99 | — |
-| Winkel 2 | 2 | $ 27,99 | $ 20,00 |
+| Standaard | 0 | $ 31,99 | $30.00 |
+| Store 1 | 1 | $ 24,99 | — |
+| Winkel 2 | 2 | $27.99 | $20.00 |
 
-In dit voorbeeld wordt de niet-prijswaarde toegevoegd. Deze waarde wordt gebruikt wanneer u een andere waarde voor de _ selecteert[!UICONTROL Magento Price Source_] (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) instellingen). De niet-prijswaarde gebruikt altijd de prijs als terugvalprijs.
+This example adds the non-price value, which is used if you select another value for the _[!UICONTROL Magento Price Source_] (defined in your [Listing Price](./listing-price.md) settings). De niet-prijswaarde gebruikt altijd de prijs als terugvalprijs.
 
 - De **[!UICONTROL Magento Price Source]** (gedefinieerd in uw [[!UICONTROL Listing Price]](./listing-price.md) (instellingen) is ingesteld op `Non-Price`.
 - Kijk naar de website met de hoogste prioriteit voor de website, namelijk `Store 1`(gedefinieerd door de [Sorteervolgorde](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){target=&quot;_blank&quot;} waarde).

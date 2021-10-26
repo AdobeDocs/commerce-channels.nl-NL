@@ -9,15 +9,15 @@ ht-degree: 0%
 
 ---
 
-# Intelligente prijsregel: facultatieve maximumprijs
+# Intelligent repricing rule: optional ceiling price
 
-Secties van een intelligente prijsstellingsregel omvatten:
+Sections of an intelligent repricing rule include:
 
-- [Regeltype selecteren](./intelligent-repricing-rules.md)
+- [Select Rule Type](./intelligent-repricing-rules.md)
 - [Voorwaardelijke variaties van concurrent](./competitor-conditional-variances.md)
-- [Prijsaanpassing](./price-adjustment.md)
+- [Price Adjustment](./price-adjustment.md)
 - [Floor Price](./floor-price.md)
-- Optionele maximumprijs
+- Optional Ceiling Price
 
 De geautomatiseerde prijsmontages van de plafondprijs beschermen automatisch uw hoogste productprijs tegen de intelligente prijsregels, toelatend u om een plafond (hoogste prijs) voor uw intelligente prijsregels te bepalen.
 
@@ -25,29 +25,29 @@ De geautomatiseerde prijsmontages van de plafondprijs beschermen automatisch uw 
 
 Definieer de optionele hoogste prijsinstellingen in het dialoogvenster _[!UICONTROL Optional Ceiling Price]_sectie.
 
-1. Voor **[!UICONTROL Ceiling Price Source]**, kiest u een kenmerk.
+1. For **[!UICONTROL Ceiling Price Source]**, choose an attribute.
 
    Selecteer uw [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} waarmee uw relatieve plafondlimiet wordt aangegeven. Als je bijvoorbeeld niet wilt dat de Amazon-aanbiedingsprijs boven de MSRP van je object komt, kies je de `Manufacturer's Suggested Retail Price` kenmerk.
 
-1. Voor **[!UICONTROL Ceiling Price Action]** kiest u een optie.
+1. For **[!UICONTROL Ceiling Price Action]**, choose an option.
 
    - `Decrease By` - Kies wanneer u de definitie wilt _[!UICONTROL Ceiling Price Source]_Waarde die moet worden aangepast, waardoor een lagere maximumprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.
 
    - `Increase By` - Kies wanneer u de definitie wilt _[!UICONTROL Ceiling Price Source]_Waarde die moet worden aangepast, waardoor een hogere maximumprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.
 
-   - `Match` - Kies wanneer je de prijs van de aanbieding niet boven de gedefinieerde prijs wilt laten schommelen _[!UICONTROL Ceiling Price Source]_waarde. Wanneer ingesteld op `Match`de_[!UICONTROL Apply]_ en _[!UICONTROL Ceiling Adjustment Amount]_velden zijn uitgeschakeld.
+   - `Match` - Choose when you do not want the listing price to fluctuate above the defined _[!UICONTROL Ceiling Price Source]_value. When set to `Match`, the_[!UICONTROL Apply]_ and _[!UICONTROL Ceiling Adjustment Amount]_fields are disabled.
 
-1. Laat de **[!UICONTROL Apply]** standaard als `Apply as percentage`.
+1. Leave the **[!UICONTROL Apply]** default as `Apply as percentage`.
 
 1. Voor **[!UICONTROL Ceiling Adjustment Price]** Voer de numerieke waarde in voor het percentage dat u wilt gebruiken om uw _[!UICONTROL Ceiling Price Source]_waarde.
 
 In dit voorbeeld, wordt de plafondprijs geplaatst om 2% onder MSRP van het punt te zijn.
 
-![Intelligente prijsregeling - optionele maximumprijs](assets/ob-intelligent-price-rule-ceiling.png)
+![Intelligent repricing rule - optional ceiling price](assets/ob-intelligent-price-rule-ceiling.png)
 
-| Veld | Beschrijving |
+| Veld | Description |
 |---|---|
-| [!UICONTROL Ceiling Price Source] | Kies de optie [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} waarmee uw relatieve plafondlimiet wordt aangegeven. Als je bijvoorbeeld niet wilt dat de prijs van je productaanbieding boven de MSRP van je object komt, kies je de `Manufacturer's Suggested Retail Price` kenmerk. |
-| [!UICONTROL Ceiling Price Action] | Kies een handeling voor het aanpassen van de prijzen. Opties:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer u de definitie wilt _[!UICONTROL Ceiling Price Source]_Waarde die moet worden aangepast, waardoor een lagere maximumprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Increase By]** - Kies wanneer u de definitie wilt _[!UICONTROL Ceiling Price Source]_Waarde die moet worden aangepast, waardoor een hogere maximumprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Match]** - Kies wanneer je de prijs van de aanbieding niet boven de gedefinieerde prijs wilt laten schommelen _[!UICONTROL Ceiling Price Source]_waarde. Wanneer ingesteld op `Match`de_[!UICONTROL Apply]_ en _[!UICONTROL Ceiling Adjustment Amount]_velden zijn uitgeschakeld.</li></ul> |
+| [!UICONTROL Ceiling Price Source] | Choose the [!DNL Commerce] [product attribute](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} that indicates your relative ceiling limit. Als je bijvoorbeeld niet wilt dat de prijs van je productaanbieding boven de MSRP van je object komt, kies je de `Manufacturer's Suggested Retail Price` kenmerk. |
+| [!UICONTROL Ceiling Price Action] | Kies een handeling voor het aanpassen van de prijzen. Options:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer u de definitie wilt _[!UICONTROL Ceiling Price Source]_Waarde die moet worden aangepast, waardoor een lagere maximumprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Increase By]** - Kies wanneer u de definitie wilt _[!UICONTROL Ceiling Price Source]_Waarde die moet worden aangepast, waardoor een hogere maximumprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Match]** - Choose when you do not want the listing price to fluctuate above the defined _[!UICONTROL Ceiling Price Source]_value. Wanneer ingesteld op `Match`de_[!UICONTROL Apply]_ en _[!UICONTROL Ceiling Adjustment Amount]_velden zijn uitgeschakeld.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Een procentuele aanpassing ten opzichte van de _[!UICONTROL Ceiling Price Source]_waarde. |
 | [!UICONTROL Ceiling Price Adjustment] | Voer de numerieke waarde voor het percentage in om uw _[!UICONTROL Ceiling Price Source]_waarde. |

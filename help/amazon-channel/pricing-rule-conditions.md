@@ -1,6 +1,6 @@
 ---
-title: Voorwaarden voor prijsregels
-description: Gebruik de prijsregelvoorwaarden om te bepalen welke producten in aanmerking komen voor de prijsregel voor aanbiedingen.
+title: Price Rule Conditions
+description: Use the price rule conditions to determine which products are eligible for the listing price rule.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Prijsregelvoorwaarden
 
-De voorwaarden bepalen welke producten in aanmerking komen voor de prijsregel. Als u de voorwaarden voor uw prijsregels voor Amazon definieert, volgt u dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} in [!DNL Commerce].
+Conditions determine which products are eligible for the price rule. Als u de voorwaarden voor uw prijsregels voor Amazon definieert, volgt u dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -40,19 +40,19 @@ De regelinstructie heeft twee vette koppelingen, die, wanneer erop wordt geklikt
 - Klikken **[!UICONTROL TRUE]** en kiest u een van `TRUE` of `FALSE`.
 - Als u de regel op alle producten wilt toepassen, laat u de voorwaarde ongewijzigd.
 
-U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wijzigen. In dit voorbeeld wordt de volgende voorwaarde gebruikt:
+U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wijzigen. For this example, the following condition is used:
 
 `If ALL of these conditions are TRUE:`
 
-1. Klik op Toevoegen (![Pictogram toevoegen](assets/btn-add-grn.png)) aan het begin van de voorwaardelijn en selecteer een kenmerk waarop u de voorwaarde wilt baseren.
+1. To show available attributes for which the condition applies, click the Add (![Add icon](assets/btn-add-grn.png)) icon at the beginning of the condition line and select an attribute on which to base the condition.
 
-   **[!UICONTROL Conditions Combination]** - Maak een andere set `All/Any` en `True/False` in de bestaande voorwaarde.
+   **[!UICONTROL Conditions Combination]** -  Choose to create another set of `All/Any` and `True/False` conditions inside the existing condition.
 
    ![Combinatie van prijsregelvoorwaarden](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]** - De beschikbare productkenmerken zijn afhankelijk van de [instellen van het kenmerk](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}. Voor een kenmerk dat in de lijst moet worden weergegeven, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in uw [storefront, eigenschappen](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}.
+   **[!UICONTROL Product Attribute]** - The available product attributes depend on the [setup of the attribute](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}. Voor een kenmerk dat in de lijst moet worden weergegeven, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in uw [storefront, eigenschappen](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}.
 
-   - Voor **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u wilt definiëren als basis voor de voorwaarde. In dit voorbeeld is de geselecteerde voorwaarde: `Category`.
+   - Voor **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u wilt definiëren als basis voor de voorwaarde. For this example, the selected condition is `Category`.
 
       ![Prijsregelvoorwaarde - regel 2, deel 2](assets/ob-price-rule-condition-2.png)
 
@@ -74,8 +74,8 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
       ![Prijsregelvoorwaarde - regel 2, deel 4](assets/ob-price-rule-condition-4.png)
 
-      Deze voorbeeldvoorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus met een gedefinieerde categorie Boeken (`4`) komt in aanmerking voor deze prijsregel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
+      Deze voorbeeldvoorwaarde is voltooid. As stated, this condition means that any product in your [!DNL Commerce] catalog that has a defined category of Books (`4`) is eligible for this pricing rule. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
 
-1. Als u nog een voorwaardelijn aan de instructie wilt toevoegen, gaat u terug naar Stap 1 en herhaalt u het proces totdat alle gewenste voorwaarden zijn voltooid.
+1. To add another condition line to the statement, return to Step 1 and repeat the process until all desired conditions are complete.
 
    U kunt op elk gewenst moment een regel van de instructie condition verwijderen door op Verwijderen te klikken (![Pictogram Verwijderen](assets/btn-del-red.png)) aan het einde van de regel.
