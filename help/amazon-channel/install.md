@@ -1,10 +1,10 @@
 ---
 title: De extensie installeren
-description: Om uw [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] en verkopen via [!DNL Amazon Marketplace], downloadt en installeert u de Amazon Sales Channel-extensie.
+description: Om uw [!DNL Commerce] catalogus met [!DNL Amazon Seller Accounts] en verkopen via [!DNL Amazon Marketplace], downloadt en installeert u de Amazon Sales Channel-extensie.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Alleen [!DNL Amazon Sales Channel] extensie 4.0+-versies worden ondersteund voor Adobe Commerce- en Magento Open Source 2.4.x-versies. Als u een versie van 2.3.x uitvoert, raadpleegt u de documentatie voor het [compatibele Amazon-verkoopkanaalrelease](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}. Zie voor meer informatie over versiecompatibiliteit de [Beschikbaarheid](https://devdocs.magento.com/release/availability.html)pagina {target=&quot;_blank&quot;} in de ontwikkelaarsdocumentatie.
 
-De [!UICONTROL Amazon Sales Channel] extensie installeert en voegt functies toe om uw handelscatalogus te integreren met [!DNL Amazon Seller Accounts] om via [!DNL Amazon Marketplace]. Als u aanvullende informatie wilt bekijken, raadpleegt u de [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) pagina in [!DNL Commerce Marketplace] en de [releaseopmerkingen](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) in de ontwikkelaarsdocumentatie.
+De [!UICONTROL Amazon Sales Channel] extensie installeert en voegt functies toe om uw handelscatalogus te integreren met [!DNL Amazon Seller Accounts] om via [!DNL Amazon Marketplace]. Als u aanvullende informatie wilt bekijken, raadpleegt u de [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) pagina in [!DNL Commerce Marketplace] en de [releaseopmerkingen](release-notes.md).
 
 ## Vereisten
 
@@ -76,7 +76,7 @@ U hebt de volgende opties om het verkoopkanaal van Amazon te vormen. U hoeft dez
 
    Deze instelling wordt aanbevolen voor **_geavanceerde gebruikers/beheerders_**.
 
-1. Klikken **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]**.
 
 ## De extensie bijwerken
 

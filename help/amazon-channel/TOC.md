@@ -1,10 +1,10 @@
 ---
 user-guide-title: Amazon Sales Channel Handboek
 user-guide-description: Verkoop genereren via Amazon door Adobe Commerce of Magento Open Source te integreren met uw [!DNL Amazon Seller Central] account.
-breadcrumb-title: Kanaalbeheerder voor handel
-source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
+breadcrumb-title: Amazon-verkoopkanaal
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,9 @@ ht-degree: 0%
 
 # Verkoopkanaal van Amazon - [!DNL channel manager] voor Adobe Commerce {#amazon}
 
-- [Amazon-verkoopkanaal](overview.md)
+- [Overzicht van hulplijnen](guide-overview.md)
+- [Inleiding tot Amazon-verkoopkanaal](overview.md)
+- [Opmerkingen bij de release](release-notes.md)
 - Aan de slag {#getting-started}
    - [Over Amazon-verkoopkanaal](about-amazon-sales-channel.md)
    - [Informatie over Amazon Marketplace](about-amazon-marketplace.md)
