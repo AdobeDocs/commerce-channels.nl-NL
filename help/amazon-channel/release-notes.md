@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] Opmerkingen bij de release'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
+source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,19 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Amazon sales channe
 
 Zie [Volgende releases](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} voor versioning, ondersteuning en compatibiliteit.
 
-## v4.4.2
+## v4.4.3
 
-[!DNL Amazon sales channel]  4.4.2 is compatibel met Adobe Commerce versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur
+[!DNL Amazon sales channel]  4.4.3 is compatibel met Adobe Commerce-versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
 
 Deze versie van [!DNL Amazon sales channel] bevat de volgende correctie.
+
+![Repareren](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.4.
+
+## v4.4.2
+
+[!DNL Amazon sales channel]  4.4.2 is compatibel met Adobe Commerce-versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+
+Deze versie van [!DNL Amazon sales channel] bevat de volgende oplossingen.
 
 ![Repareren](../assets/fix.svg) Bijgewerkte afhankelijkheden ter ondersteuning van andere bijgewerkte extensies.
 ![Repareren](../assets/fix.svg) Toegevoegde ondersteuning voor PHP 8.1.
