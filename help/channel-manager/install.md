@@ -1,13 +1,13 @@
 ---
 title: Installeren [!DNL Channel Manager]
 description: Installeer de extensie Kanaalbeheer.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Kanaalbeheer installeren
 
@@ -28,7 +28,7 @@ Als u de configuratie wilt bijwerken, voegt u de volgende regels toe aan de `com
 
 ## De extensie installeren
 
-De installatie-instructies zijn afhankelijk van het feit of u Channel Manager installeert op een exemplaar voor on-premisse of cloud Commerce:
+De installatie-instructies voor Channel Manager zijn afhankelijk van het feit of Adobe Commerce of Magento Open Source wordt geïmplementeerd op locatie of op een cloudinfrastructuur.
 
 - Installeren op een [Instantie ter plaatse](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ Werk in een ontwikkelingsvertakking wanneer u een extensie toevoegt aan uw cloud
 
 Voor hulp bij het gebruiken van takken, zie [Aan de slag met het maken van vertakkingen](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} in de documentatie voor Adobe Commerce-ontwikkelaars.
 
-Wanneer u een extensie installeert, wordt de naam van de extensie (&lt;vendorname>\_&lt;componentname>) wordt automatisch ingevoegd in het dialoogvenster [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} bestand. U hoeft het bestand niet rechtstreeks te bewerken.
+Tijdens de installatie wordt de extensienaam (`&lt;VendorName>\_&lt;ComponentName>`) wordt automatisch ingevoegd in het dialoogvenster [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} bestand. U hoeft het bestand niet rechtstreeks te bewerken.
 
 1. Wijzig op uw lokale werkstation de hoofdmap van het Cloud-project.
 
-1. Maak of check een ontwikkelingsvertakking uit. Zie [vertakking](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
-1. Voeg met de naam Composer de extensie toe aan de `require` van het bestand composer.json.
+1. Een ontwikkeling maken of uitchecken [vertakking](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+
+1. Voeg met de naam Composer de extensie toe aan de `require` van de `composer.json` bestand.
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ Wanneer u een extensie installeert, wordt de naam van de extensie (&lt;vendornam
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. Nadat de bouw en de implementatie voltooit, gebruik SSH aan login aan het verre milieu en verifieer dat de uitbreiding correct installeerde.
@@ -197,7 +198,7 @@ Controleer de sleutelconfiguratie:
    $ cat /path/to/auth.json
    ```
 
-1. Controleren of de gegevens in auth.json overeenkomen[ de sleutels verbonden aan MAGE identiteitskaart](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} gebruikt om te registreren voor de service Channel Manager.
+1. Controleren of de gegevens in auth.json overeenkomen [de sleutels verbonden aan MAGE identiteitskaart](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} gebruikt om te registreren voor de service Channel Manager.
 
 ### Onvoldoende geheugen voor PHP
 
@@ -223,6 +224,14 @@ Gebruik een van de volgende methoden om het geheugenprobleem op te lossen:
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### Ontbrekende weergave
+
+Als er een fout optreedt bij een ontbrekende `process_catalog_exporter_view` tijdens de installatie van Channel Manager probeert u [indexeerprogramma&#39;s vernieuwen](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### Implementatiefouten in cloud
 
-Voor problemen met de implementatie van de extensie in de cloud raadpleegt u[implementatiefout extensie](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Voor problemen met de implementatie van de extensie in de cloud raadpleegt u [implementatiefout extensie](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.

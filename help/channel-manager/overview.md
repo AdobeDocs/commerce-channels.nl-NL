@@ -1,15 +1,15 @@
 ---
-title: '"Inleiding tot [!DNL Channel Manager]"'
+title: Info [!DNL Channel Manager]
 description: Leer installeren en gebruiken [!DNL Channel Manager] om Adobe Commerce- en Magento Open Source-winkels te integreren met externe markten en een verkoopkanaal te creëren voor het naadloos beheren van aanbiedingen op de markt, prijzen, voorraden en verkopen van uw Commerce Admin.
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht
 
@@ -65,7 +65,7 @@ U hebt de volgende informatie van Walmart nodig om Handel met de Marketplace van
 
    * Selecteer Adobe als oplossingsleverancier.
 
-   * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de _Help bij Marketplace Walmart_.
+   * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de *Help bij Marketplace Walmart*.
 
 |    **Adobe API sleutelconfiguratie voor Walmart**
 | **Machtiging** | **Instelling** | |—|—| | Inhoud | Volledige toegang | | Feeds ophalen | Alleen weergeven | | Inventaris | Volledige toegang | | Items | Volledige toegang | | Lag Time | Volledige toegang | | Volgorde | Volledige toegang | | Prijs | Volledige toegang | | Rapporten | Alleen weergeven | | Retourzendingen | Volledige toegang | | Regels | Volledige toegang | | Verzending | Volledige toegang |

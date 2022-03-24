@@ -1,12 +1,14 @@
 ---
-title: 'Sales Channel verbinden met [!DNL Walmart Marketplace] '
+title: Sales Channel verbinden met [!DNL Walmart Marketplace]
 description: Vorm het verkoopkanaal en verbind met de Marketplace van de Markeren van de Markeren.
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
+
 
 # Verbinden met [!DNL Walmart Marketplace]
 
@@ -56,7 +58,7 @@ Na installatie van Channel Manager op uw [!DNL Commerce] bijvoorbeeld, verbind e
 
       >[!NOTE]
       >
-      >Als u geen [!DNL Adobe Inc] in het Developer Portal selecteert u **[!UICONTROL Add New Key for a Solution Provider]** om toestemmingen te vormen en de sleutel te produceren. Voor configuratiedetails, zie [Een [!DNL Walmart Marketplace API Key]](overview.md#generate-a-walmart-marketplace-api-key).
+      >Als de [!DNL Adobe Inc] De sleutel wordt niet vermeld in het Developer Portal. Selecteer **[!UICONTROL Add New Key for a Solution Provider]** om toestemmingen te vormen en de sleutel te produceren. Voor configuratiedetails, zie [Een [!DNL Walmart Marketplace API Key]](walmart-prerequisites.md#generate-a-walmart-marketplace-api-key).
 
    - Terug naar [!DNL Channel Manager] om de geloofsbrieven aan toe te voegen **[!UICONTROL Walmart Connection]** informatie.
 
@@ -75,29 +77,6 @@ Als de verbinding met Walmart ontbreekt, zie [Veelgestelde vragen over Walmart M
 
 - Van de [!DNL Walmart Developer Portal], controleert u of u de juiste gegevens voor de productie-API-sleutel hebt gekopieerd voor [!UICONTROL Adobe Inc.]
 
-- Verifieer dat de toegangsconfiguratie voor de sleutel van de Adobe API van het Smarm de correcte toestemmingen heeft. Zie [Walmart-vereisten](overview.md#walmart-prerequisites).
+- Verifieer dat de toegangsconfiguratie voor de sleutel van de Adobe API van het Smarm de correcte toestemmingen heeft. Zie [Walmart-vereisten](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Bevestig dat de dienst van de Marm API beschikbaar is bij [De statuspagina van de Walmart-API](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
-
-
-## Volledige installatie van de winkel
-
-Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], kunt u de installatie van de winkel voltooien vanuit de [!DNL Channel Manager Stores] weergeven.
-
-Opslaginstellingen voltooien:
-
-1. Selecteer **[!UICONTROL Marketing** > **Kanaalbeheer**].
-
-   ![[!DNL Walmart Marketplace API key] configuratiepagina](assets/connect-commerce-store-config.png)
-
-1. Open een verbonden verkoopkanaal door het potloodpictogram in een rij van de archiefingang te selecteren.
-
-1. Begin verkoopkanaalbewerkingen.
-
-   - Producten uit uw handelscatalogus toevoegen aan Channel Manager
-
-   - Producten naar Walmart publiceren met productmatching
-
-   - Overzicht en prijzen bekijken en beheren
-
-   - De bevelen van het Spoor van de Handel van mening en beheren Admin

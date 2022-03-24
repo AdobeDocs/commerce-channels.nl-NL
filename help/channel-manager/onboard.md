@@ -1,20 +1,21 @@
 ---
-title: '"Aan boord [!DNL Channel Manager]"'
+title: Aan boord [!DNL Channel Manager]
 description: Sluit uw instantie aan [!DNL Channel Manager] door enkele instapstappen te voltooien.
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
+source-git-commit: f57c6db4c0314272d10bb5483d2c8a0ae396a9fc
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
 # Aan boord [!DNL Channel Manager]
 
-De online Manager van het Kanaal door de uitbreiding van de Manager van het Kanaal op uw te installeren [!DNL Commerce] instantie en het vormen API verbindingen om mededeling en gegevenssynchronisatie tussen uw instantie van de Handel en de Marketplace van de Markering van de Markering toe te laten.
+De online Manager van het Kanaal door de uitbreiding van de Manager van het Kanaal op uw te installeren [!DNL Commerce] -instantie en API-verbindingen configureren. Deze verbindingen laten communicatie en gegevenssynchronisatie tussen uw instantie van de Handel en de Marketplace van de Markt van de Markeren toe.
 
-Nadat u het aan boord gaan hebt voltooid, kunt u verkoopkanaalbewerkingen configureren en beheren vanuit de [!UICONTROL Channel Manager] de optie [!UICONTROL Commerce Admin Marketing] -menu.
+Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal van [!UICONTROL Channel Manager] de optie [!UICONTROL Commerce Admin Marketing] -menu.
 
 ![[!DNL Channel Manager] optie in de beheerweergave](assets/channel-manager-admin-view.png)
 
@@ -26,31 +27,36 @@ Nadat u het aan boord gaan hebt voltooid, kunt u verkoopkanaalbewerkingen config
 
 1. [Verbind uw [!DNL Commerce] opslaan naar [!DNL Walmart Marketplace]](connect.md).
 
+1. [Volledige installatie van de winkel](complete-store-setup.md).
+
 ## Vereisten
 
-- Verifieer dat je account bij Walmart MarketplaceMarketplaceMarmart-vereisten hebt voor verkopen op Walmart Marketplace
+- Controleer of u de vereiste [Voorwaarden voor Walmart Marketplace](walmart-prerequisites.md) om te integreren met Kanaalbeheer.
 
-- **Informatie over handelsrekeningen**-Downloaden en installeren [!DNL Channel Manager] vereist een id en referenties van een [Handelsrekening](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;} met de eigenaar toegang tot de [!DNL Adobe Commerce] of [!DNL Magento Open Source] -instantie.
+- **Informatie over handelsrekeningen**-Downloaden en installeren [!DNL Channel Manager] vereist een [Handelsrekening](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. U hebt een account-id en gebruikersgegevens nodig met de toegang tot de [!DNL Adobe Commerce] of [!DNL Magento Open Source] -instantie.
 
-   - **ID MAGE**-[Aanmelden](https://account.magento.com/customer/account/login/) naar de Commerce-account om de id op te halen van [!UICONTROL My Account - Magento settings]. U hebt deze id nodig om u te registreren voor de [!DNL Channel Manager] service-bètaprogramma.
+   - **ID MAGE**-[Aanmelden](https://account.magento.com/customer/account/login/) naar de Commerce-account om de id op te halen van **[!UICONTROL My Account - Magento settings]**. U hebt deze id nodig om u te registreren voor de [!DNL Channel Manager] service-bètaprogramma.
 
       ![[!DNL MAGEID] over de accountinstellingen voor de handel](assets/mageid-my-commerce-account.png)
 
-   - **Toegangstoetsen-** Haal verificatietoetsen op om Commerce-extensies te downloaden uit de Composer-opslagplaats voor handel ([!DNL repo.magento.com]).
+   - **Toegangstoetsen-** Vraag verificatietoetsen aan om Commerce-extensies te downloaden van de Composer-opslagplaats voor handel `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 
-      Bij Adobe Commerce- en Magento Open Source-projecten kan de Eigenaar [Gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html) om vertrouwde werknemers en serviceproviders toe te staan extensies te downloaden met hun aanmeldingsgegevens van de Eigenaar of de account van de Licentiehouder.
+      Bij Adobe Commerce- en Magento Open Source-projecten kan de eigenaar [Gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html) om vertrouwde werknemers en serviceproviders toe te staan extensies te downloaden met hun aanmeldingsgegevens van de Eigenaar of de account van de Licentiehouder.
 
-      Aan [!DNL Adobe Commerce] in het geval van cloud-infrastructuurprojecten moeten gebruikers over de volgende machtigingen beschikken om software te installeren op de [!DNL Commerce] instantie:
+      Aan [!DNL Adobe Commerce] bij cloudinfrastructuurprojecten moeten softwareinstallateurs de volgende toegang hebben tot [!DNL Commerce] instantie:
 
       - Toegang van supergebruikers tot het Cloud-project
       - Beheerders krijgen toegang tot een specifieke omgeving
-      - een [!DNL Adobe Commerce] of [!DNL Magento Open Source] account met toegangsrechten tot de Composer-opslagplaats. Zie [Gebruikerstoegang beheren](https://devdocs.magento.com/cloud/project/user-admin.html).
+      - een [!DNL Adobe Commerce] of [!DNL Magento Open Source] account met toegangsrechten tot de Composer-opslagplaats.
+
+      Zie [Gebruikerstoegang beheren](https://devdocs.magento.com/cloud/project/user-admin.html).
+
 
 - **Autorisatie voor het downloaden van het pakket Channel Manager Composer**- Geef de MAGE-id op van de Commerce-account die wordt gebruikt om de service te beheren, aan de Adobe-vertegenwoordiger die het Beta-programma voor uw organisatie coördineert.
-- **Ervaring met Composer en de[!DNL Commerce CLI]** -Zie [Algemene installatie van CLI](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} voor informatie over het gebruik van deze gereedschappen voor het installeren en beheren van extensies op A[!DNL Adobe Commerce] of [!DNL Magento Open Source] platforms.
-- Voor instanties van de Handel die de Sales Channel van Amazon hebben geïnstalleerd, verifieer dat [Amazon Sales Channel versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) wordt geïnstalleerd voordat Channel Manager wordt geïnstalleerd.
+- **Ervaring met Composer en de[!DNL Commerce CLI]** -Zie [Algemene installatie van CLI](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} voor informatie over het gebruik van deze gereedschappen voor het installeren en beheren van extensies op [!DNL Adobe Commerce] of [!DNL Magento Open Source] platforms.
+- **[Amazon Sales Channel versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)- Als u Amazon Sales Channel voor uw plaatsen van de Handel hebt geactiveerd, verifieer dat uw platform van de Handel versie 4.42 heeft geïnstalleerd alvorens u de Manager van het Kanaal installeert.
 
 
 ### Vereisten
