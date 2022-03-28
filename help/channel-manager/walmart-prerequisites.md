@@ -1,13 +1,13 @@
 ---
 title: Walmart-vereisten
 description: Verifieer dat u de vereiste Marketplace informatie en de middelen van de Markt van de Markt hebt om met de Manager van het Kanaal te integreren.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
+source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Walmart-voorwaarden
 
@@ -34,8 +34,21 @@ De Manager van het kanaal vereist de volgende middelen en de informatie om een d
 
    * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de _Help bij Marketplace Walmart_.
 
-|    **Adobe API sleutelconfiguratie voor Walmart**
-| **Machtiging** | **Instelling** | |—|—| | Inhoud | Volledige toegang | | Feeds ophalen | Alleen weergeven | | Inventaris | Volledige toegang | | Items | Volledige toegang | | Lag Time | Volledige toegang | | Volgorde | Volledige toegang | | Prijs | Volledige toegang | | Rapporten | Alleen weergeven | | Retourzendingen | Volledige toegang | | Regels | Volledige toegang | | Verzending | Volledige toegang |
+   **Adobe API sleutelconfiguratie voor Walmart**
+
+   | **Machtiging** | **Instelling** |
+   |----------------|-------------|
+   | Inhoud | Volledige toegang |
+   | Feeds ophalen | Alleen weergeven |
+   | Inventaris | Volledige toegang |
+   | Items | Volledige toegang |
+   | Laagtijd | Volledige toegang |
+   | Volgorde | Volledige toegang |
+   | Prijs | Volledige toegang |
+   | Rapporten | Alleen weergeven |
+   | Retourneert | Volledige toegang |
+   | Regels | Volledige toegang |
+   | Verzending | Volledige toegang |
 
 ## Status van Walmart Marketplace Store
 
