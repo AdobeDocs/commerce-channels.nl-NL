@@ -1,35 +1,35 @@
 ---
 title: Update van voorraad en prijs
-description: '"[!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen de Commerce Store en [!DNL Walmart Marketplace] zodat kunt u uw verkoopkanaalverrichtingen van uw Admin van de Handel beheren"'
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+description: '''[!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen de Commerce Store en [!DNL Walmart Marketplace] zodat kunt u de bewerkingen van uw verkoopkanalen beheren vanuit de Admin van de Handel'
+exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
+source-git-commit: a1944052f02968c36495275cd5ddfb2ca43ce967
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
-
 # Update van voorraad en prijs
 
-Channel Manager volgt de inventarisatie en prijzen voor gepubliceerde producten en synchroniseert de wijzigingen in Channel Manager en de Walmart Marketplace om de huidige hoeveelheid en prijs van de voorraad in productaanbiedingen weer te geven.**
+[!DNL Channel Manager] volgt inventaris en tarifering voor producten in de kanaalopslag. Wanneer de voorraad of de prijs verandert, synchroniseert aan allebei [!DNL Channel Manager] en [!DNL Walmart Marketplace] om de huidige voorraadhoeveelheid en prijzen in productaanbiedingen weer te geven.
 
 ## Inventarisupdates
 
-Wanneer de inventarisniveaus veranderen, synchroniseert de Manager van het Kanaal updates tussen de het productcatalogus van de Handel en de Marketplace van de Markt van de Markt van de Markt van de Markt zodat zowel de Manager van het Kanaal als de Marketplace van de Markt van de Markt de huidige voorraadhoeveelheid tonen.
+Wanneer de inventarisniveaus veranderen, synchroniseert de Manager van het Kanaal updates tussen de Handel en de Marketplace van de Markt van de Markt van de Markt om ervoor te zorgen dat de Manager van het Kanaal en de Markt van de Markt van de Markt van de Markt van de Markt de correcte voorraadhoeveelheid hebben.
 
-Het kan tot 5 minuten voor inventarisveranderingen aan vertoning in de Manager van het Kanaal en de Marketplace van het Walmart duren.
+Het kan tot 10 minuten duren voor inventarisupdates voor synchronisatie tussen Channel Manager en Marketplace.
 
-* **Updates van de voorraadhoeveelheid in de productcatalogus**- Als de voorraadhoeveelheid van de Handel verandert voor een product dat op Walmart wegens [handmatig wijzigen van voorraadhoeveelheid](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html) of bij terugbetaling of annulering van een bestelling synchroniseert Channel Manager de wijziging met het verbonden verkoopkanaal en de [!DNL Walmart Marketplace].
+* **Updates van de voorraadhoeveelheid in de productcatalogus**-Wanneer de voorraadhoeveelheid van de Handel verandert wegens [wijzigingen in de hoeveelheid handmatige voorraad](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), terugbetalingen of annuleringen, wordt de wijziging in verbonden kanalen gesynchroniseerd en [!DNL Walmart Marketplace].
 
-* **De voorraad verminderen om de orders van de Marketplace van Walmart weer te geven**- Nadat de de ordesync van de Marketplace van het Spoor aan de Manager van het Kanaal, verzendt de Manager van het Kanaal de update naar het de ordesysteem van de Handel. De handel past de voorraadhoeveelheden op de orde aan. Vervolgens wordt de bijgewerkte hoeveelheid gesynchroniseerd met Walmart Marketplace. Dit kunnen enkele verschillen zijn in de voorraadhoeveelheid die wordt weergegeven in Channel Manager en de Marketplace tot de synchronisatiebewerkingen zijn voltooid.
+* **De voorraad verminderen om de orders van de Marketplace van Walmart weer te geven**- Nadat de de ordesync van de Marketplace van het Spoor aan de Manager van het Kanaal, verzendt de Manager van het Kanaal de update naar het de ordesysteem van de Handel. De handel past de voorraadhoeveelheden op de orde aan. Vervolgens wordt de bijgewerkte hoeveelheid gesynchroniseerd met Walmart Marketplace. Totdat de synchronisatiebewerkingen zijn voltooid, kunnen er kwantitatieve verschillen optreden tussen Kanaalbeheer en Marketplace.
 
 >[!IMPORTANT]
 >
-> Nadat een Walmart Marktorder synchroon aan de Manager van het Kanaal, wordt de inventarishoeveelheden en andere informatie van de ordeverwerking bijgewerkt slechts voor terugbetalingen en annuleringen die van Handel in werking worden gesteld. Als een bestelling wordt terugbetaald of geannuleerd van de Walmart Marketplace, verwerkt de verandering van Handel om ervoor te zorgen dat de de inventarishoeveelheden van de Handel en de ordeinformatie nauwkeurig zijn.
+> Nadat een Walmart Marktorder aan de Manager van het Kanaal synchroniseert, worden de inventarishoeveelheden en de ordeinformatie bijgewerkt slechts voor terugbetalingen en annuleringen die van de Handel in werking worden gesteld. Als een bestelling wordt terugbetaald of geannuleerd van de Walmart Marketplace, verwerkt u de wijziging van de handel om de nauwkeurigheid van de inventarishoeveelheden en de ordergegevens van de handel te waarborgen.
 
 ## Prijsupdates
 
-Wanneer de productprijs in de Handel verandert, synchroniseert de Manager van het Kanaal de update van de het productcatalogus van de Handel aan de Marketplace van de Markering. Het kan tot 5 minuten duren voor inventariswijzigingen worden weergegeven.
+Wanneer de productprijs in de Handel verandert, synchroniseert de Manager van het Kanaal de update van [!DNL Commerce] productcatalogus naar [!DNL Walmart Marketplace]. Het kan tot vijf minuten duren voordat de markt de prijswijzigingen weergeeft.
 
 ### Prijzen voor een gepubliceerd product beheren
 
@@ -37,7 +37,5 @@ Wanneer de productprijs in de Handel verandert, synchroniseert de Manager van he
 1. Zoek in het productraster het product dat u wilt bijwerken en selecteer **[!UICONTROL Edit]**.
 1. Controleer en werk de prijs zo nodig bij.
 1. **[!UICONTROL Save]** de wijziging.
-
-Channel Manager synchroniseert eventuele prijsupdates naar de kanaalwinkel en [!DNL Walmart Marketplace]. Deze bewerking kan maximaal 5 minuten duren.
 
 Voor details over het beheren van de configuratie van de productprijs in de Handel, zie [Prijsbeheer](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
