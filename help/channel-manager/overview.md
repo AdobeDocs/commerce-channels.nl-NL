@@ -75,8 +75,8 @@ U hebt de volgende informatie van Walmart nodig om Handel met de Marketplace van
 
    * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de *Help bij Marketplace Walmart*.
 
-|    **Adobe API sleutelconfiguratie voor Walmart**
-| **Machtiging** | **Instelling** | |—|—| | Inhoud | Volledige toegang | | Feeds ophalen | Alleen weergeven | | Inventaris | Volledige toegang | | Items | Volledige toegang | | Lag Time | Volledige toegang | | Volgorde | Volledige toegang | | Prijs | Volledige toegang | | Rapporten | Alleen weergeven | | Retourzendingen | Volledige toegang | | Regels | Volledige toegang | | Verzending | Volledige toegang |
+&#x200B;|    **Adobe API sleutelconfiguratie voor Walmart**
+&#x200B;| **Machtiging** | **Instelling** | |—|—| | Inhoud | Volledige toegang | | Feeds ophalen | Alleen weergeven | | Inventaris | Volledige toegang | | Items | Volledige toegang | | Lag Time | Volledige toegang | | Volgorde | Volledige toegang | | Prijs | Volledige toegang | | Rapporten | Alleen weergeven | | Retourzendingen | Volledige toegang | | Regels | Volledige toegang | | Verzending | Volledige toegang |
 
 ## Status van Walmart Marketplace Store
 
