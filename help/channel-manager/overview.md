@@ -4,9 +4,9 @@ description: Leer installeren en gebruiken [!DNL Channel Manager] om Adobe Comme
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,21 @@ U hebt de volgende informatie van Walmart nodig om Handel met de Marketplace van
 
    * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de *Help bij Marketplace Walmart*.
 
-&#x200B;|    **Adobe API sleutelconfiguratie voor Walmart**
-&#x200B;| **Machtiging** | **Instelling** | |—|—| | Inhoud | Volledige toegang | | Feeds ophalen | Alleen weergeven | | Inventaris | Volledige toegang | | Items | Volledige toegang | | Lag Time | Volledige toegang | | Volgorde | Volledige toegang | | Prijs | Volledige toegang | | Rapporten | Alleen weergeven | | Retourzendingen | Volledige toegang | | Regels | Volledige toegang | | Verzending | Volledige toegang |
+   **Adobe API sleutelconfiguratie voor Walmart**
+
+   | **Machtiging** | **Instelling** |
+   |----------------|-------------|
+   | Inhoud | Volledige toegang |
+   | Feeds ophalen | Alleen weergeven |
+   | Inventaris | Volledige toegang |
+   | Items | Volledige toegang |
+   | Laagtijd | Volledige toegang |
+   | Volgorde | Volledige toegang |
+   | Prijs | Volledige toegang |
+   | Rapporten | Alleen weergeven |
+   | Retourneert | Volledige toegang |
+   | Regels | Volledige toegang |
+   | Verzending | Volledige toegang |
 
 ## Status van Walmart Marketplace Store
 
