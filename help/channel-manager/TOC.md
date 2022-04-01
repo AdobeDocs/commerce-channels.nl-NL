@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] Hulplijn"'
 user-guide-description: Verhoog de verkoop en vergroot uw klantenbasis door Adobe Commerce of Magento Open Source met uw [!DNL Walmart Marketplace Seller Central] account.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: acfaea198067790b1f4183b36e2090c47a07a8d2
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,10 @@ ht-degree: 0%
    - [Verbinden met [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [Volledige kanaalinstelling](complete-store-setup.md)
 - Producten weergeven {#list-products}
+   - [Aanbiedingen beheren](manage-listings.md)
    - [Producten aan de Kanaalwinkel toevoegen](add-products-to-connected-channel.md)
    - [Overeenkomende producten configureren](map-product-attributes-for-matching.md)
    - [Aanbiedingen publiceren naar Walmart](publish-listings-to-marketplace.md)
-- [Inventaris en prijzen] {#inventory-pricing}
-   - [Update van voorraad en prijs](inventory-and-price-updates.md)
+- Inventaris en prijzen {#inventory-pricing}
+   - [Inventaris en prijzen bijwerken](inventory-and-price-updates.md)
 

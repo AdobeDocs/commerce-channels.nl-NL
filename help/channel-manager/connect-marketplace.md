@@ -2,9 +2,9 @@
 title: Sales Channel verbinden met [!DNL Walmart Marketplace]
 description: Vorm het verkoopkanaal en verbind met de Marketplace van de Markeren van de Markeren.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Na installatie van Channel Manager op uw [!DNL Commerce] bijvoorbeeld, verbind e
    - Een **[!UICONTROL email address]** om dienstberichten te ontvangen met betrekking tot [!DNL Channel Manager].
 
       ![Verbinding tussen Handel en vormen [!DNL Walmart Marketplace] van [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
-
 
 ## Verbind het kanaal met de Marketplace van het Slim
 
@@ -80,3 +79,25 @@ Als de verbinding met Walmart ontbreekt, zie [Veelgestelde vragen over Walmart M
 - Verifieer dat de toegangsconfiguratie voor de sleutel van de Adobe API van het Smarm de correcte toestemmingen heeft. Zie [Walmart-vereisten](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Bevestig dat de dienst van de Marm API beschikbaar is bij [De statuspagina van de Walmart-API](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+
+## Volledige installatie van de winkel
+
+Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], kunt u de installatie van de winkel voltooien vanuit de [!DNL Channel Manager Stores] weergeven.
+
+Opslaginstellingen voltooien:
+
+1. Selecteer **[!UICONTROL Marketing** > **Kanaalbeheer**].
+
+   ![[!DNL Walmart Marketplace API key] configuratiepagina](assets/connect-commerce-store-config.png)
+
+1. Open een verbonden verkoopkanaal door het potloodpictogram in een rij van de archiefingang te selecteren.
+
+1. Begin verkoopkanaalbewerkingen.
+
+   - [Producten uit uw handelscatalogus toevoegen aan Channel Manager](add-products-to-connected-channel.md)
+
+   - [Producten naar Walmart publiceren met productmatching](publish-listings-to-marketplace.md)
+
+   - [Overzicht en prijzen bekijken en beheren](inventory-and-price-updates.md)
+
+   - De bevelen van het Spoor van de Handel van mening en beheren Admin
