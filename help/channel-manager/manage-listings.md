@@ -2,7 +2,7 @@
 title: Aanbiedingen beheren
 description: Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -41,28 +41,28 @@ U kunt productaanbiedingen maken op de Marketplace van het type Walmart met prod
 
 * **[Nieuwe aanbiedingen handmatig uploaden](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Voor producten die niet overeenkomen met een bestaande aanbieding op Marketplace, gebruikt u een Excel-sjabloon voor de Walmart-productcategorie om productaanbiedingen in bulk te uploaden.
 
-## Besturingselementen voor lijsten en veldbeschrijvingen
+## Besturingselementen voor lijsten en kolombeschrijvingen
 
-In de volgende tabellen worden de besturingselementen en velden beschreven die beschikbaar zijn in de [!UICONTROL Listings] pagina.
+In de volgende tabellen worden de besturingselementen en kolommen beschreven die beschikbaar zijn voor [!UICONTROL Listings].
 
 **Besturingselementen voor[!UICONTROL Listings]**
 
-| **Kenmerk** | **Vereiste niveau** |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Refresh products] | Hiermee werkt u de weergave bij met de meest recente vermelding en status |
-| [!UICONTROL Add Products ] | Hiermee opent u de [!UICONTROL  Admin Product Catalog] pagina voor het selecteren van producten die u aan uw [!DNL Walmart Marketplace] assorment, of om productattributen bij te werken om aan de vereisten van de de lijstaanbieding van de Marketplace van het Markeren te voldoen. |
-| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten in de conceptstatus hebt geselecteerd, selecteert u [!UICONTROL Match products on Walmart] om te controleren op productaanbiedingen die kunnen worden toegevoegd aan een bestaande [!DNL Walmart Marketplace] aanbieding. |
+| **Control** | **Beschrijving** |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Refresh products] | Hiermee werkt u de weergave bij met de meest recente aanbieding en status. |
+| [!UICONTROL Add Products] | Hiermee opent u de [!UICONTROL Admin Product Catalog] pagina voor het selecteren van producten die u aan uw [!DNL Walmart Marketplace] assorment, of om productattributen bij te werken om aan de vereisten van de de lijstaanbieding van de Marketplace van het Markeren te voldoen. |
+| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten in de conceptstatus hebt geselecteerd, selecteert u Producten afstemmen op Walmart om te controleren op productaanbiedingen die aan een bestaand product kunnen worden toegevoegd [!DNL Walmart Marketplace] aanbieding. |
 
 
 **Kolombeschrijvingen**
 
 | **Veld** | **Beschrijving** |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | Naam van het product van de [!DNL Commerce] opslagcatalogus. |
-| [!UICONTROL SKU (Unique ID)] | Het toegewezen kenmerk dat wordt gebruikt om producten op de markt aan te passen. Deze veldnaam is afhankelijk van de configuratie van het toegewezen kenmerk voor [!DNL Channel Manager] aanbiedingen. In dit geval gebruikt de productmatchingbewerking de SKU van de [!DNL Commerce] catalogus om een [!DNL Walmart Marketplace]  Een aanbieding met een waarde SKU die de waarde SKU van de het productattributen van de Handel aanpast. |
+| [!UICONTROL SKU (Unique ID)] | Het toegewezen kenmerk dat wordt gebruikt om producten op de markt aan te passen. Deze veldnaam is afhankelijk van de configuratie van het toegewezen kenmerk voor [!DNL Channel Manager] aanbiedingen. In dit geval gebruikt de productmatchingbewerking de SKU van de [!DNL Commerce] catalogus om een [!DNL Walmart Marketplace]  Een aanbieding maken met een SKU-waarde die overeenkomt met de SKU-waarde van de [!DNL Commerce] productkenmerken. |
 | [!UICONTROL  Quantity] | De hoeveelheid voorraad beschikbaar in Adobe Commerce of Magento Open Source. |
 | [!UICONTROL Price] | De productprijs van de [!DNL Commerce] opslagcatalogus. Updates van catalogusprijzen worden gesynchroniseerd naar Channel Manager en vervolgens verzonden naar [!DNL Walmart Marketplace]  zodat de aangeboden objecten de huidige prijs aangeven. |
-| [!UICONTROL Status] | Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de markt aanpast. Als een bewerking mislukt, wordt de status Fout weergegeven. Nadat u de fout hebt verholpen, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
+| [!UICONTROL Status] | Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de markt aanpast. Als een bewerking mislukt, wordt een foutstatus weergegeven. Nadat u de fout hebt verholpen, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
 
 
 ### Over aanbiedingsstatus

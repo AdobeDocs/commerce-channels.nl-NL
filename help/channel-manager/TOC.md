@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] Hulplijn"'
 user-guide-description: Verhoog de verkoop en vergroot uw klantenbasis door Adobe Commerce of Magento Open Source met uw [!DNL Walmart Marketplace Seller Central] account.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: fa98401f4920ba437855b667614c763413a7b8cd
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
    - [Walmart-vereisten](walmart-prerequisites.md)
 - Aan boord [!DNL Channel Manager] {#on-boarding}
    - [Onboarding](onboard.md)
-   - [Installeer de [!DNL Channel Manager] extension](install.md)
+   - [Installeer de [!DNL Channel Manager] Extensie](install.md)
    - [Verbinden met de Diensten van de Handel](connect.md)
    - [Verbinden met [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [Volledige kanaalinstelling](complete-store-setup.md)
 - Producten weergeven {#list-products}
    - [Aanbiedingen beheren](manage-listings.md)
-   - [Producten toevoegen aan de kanaalwinkel](add-products-to-connected-channel.md)
-   - [Productovereenkomst configureren](map-product-attributes-for-matching.md)
+   - [Producten aan de Kanaalwinkel toevoegen](add-products-to-connected-channel.md)
+   - [Overeenkomende producten configureren](map-product-attributes-for-matching.md)
    - [Aanbiedingen publiceren naar Walmart](publish-listings-to-marketplace.md)
 - Inventaris en prijzen {#inventory-pricing}
-   - [Overzicht en prijzen bijwerken](inventory-and-price-updates.md)
-
+   - [Inventaris en prijzen bijwerken](inventory-and-price-updates.md)
+- [Marktorders beheren](manage-orders.md)
