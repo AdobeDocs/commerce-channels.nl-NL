@@ -1,15 +1,16 @@
 ---
-title: Overeenkomende producten configureren
+title: Productovereenkomst configureren
 description: Kenmerken toewijzen voor het afstemmen van producten van de Handel op bestaande aanbiedingen van de Marketplace van de Markt
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 
-# Overeenkomende producten configureren
+# Productovereenkomst configureren
 
 Voordat u een aanbieding publiceert naar Walmart Marketplace, moet u ten minste één unieke identificatie uit uw productcataloguskenmerken toewijzen aan een van de vereiste productid&#39;s van de Marketplace. Deze stap is vereist om producten op de Marketplace van het Markeren van de Markt van het Markeren aan te passen.
 
@@ -28,7 +29,7 @@ Als u een ander type product-id-kenmerk in uw catalogus hebt, zet u dit om in ee
 
 ## Instellingen voor productkenmerken configureren
 
-1. Selecteer op de pagina met productlijsten voor het verbonden verkoopkanaal een of meer producten in *Concept* status.
+1. Op de [!UICONTROL Listings] pagina voor het verbonden verkoopkanaal, selecteer één of meerdere producten in *Concept* status.
 
 1. Selecteren **[!UICONTROL Settings]**.
 

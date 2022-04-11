@@ -1,17 +1,17 @@
 ---
 title: Volledige kanaalinstelling
 description: Navigeer naar een verbonden verkoopkanaal voor het beheren van de weergave en het beheren van productaanbiedingen, voorraad- en prijsupdates en het volgen van bestellingen
-source-git-commit: 193eadda9b93d656bf799f9fb66a4cc3d6a40405
+exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
+# Volledige kanaalinstelling
 
-# Volledige installatie van de winkel
-
-Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], kunt u de installatie van de winkel voltooien vanuit de [!DNL Channel Manager Stores] weergeven.
+Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], volledige installatie van de winkel vanuit de [!DNL Channel Manager Stores] weergeven.
 
 1. Selecteer **[!UICONTROL Marketing** > **Kanaalbeheer**].
 
@@ -28,4 +28,3 @@ Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], kunt 
    - [Leer hoe Channel Manager inventarisatie en prijsupdates tussen Commerce en Walmart synchroniseert](inventory-and-price-updates.md)
 
    - De bevelen van het Spoor van de Handel van mening en beheren Admin
-

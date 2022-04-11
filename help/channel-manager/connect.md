@@ -1,17 +1,18 @@
 ---
-title: Verbinden met de Diensten van de Handel
-description: Connect Channel Manager-instantie naar [!DNL Commerce services] om gegevenssynchronisatie en communicatie tussen de instantie van de Handel, Manager van het Kanaal, en andere ondersteunende diensten toe te laten.
+title: Verbinden met [!DNL Commerce] diensten
+description: Kanaalbeheer verbinden met [!DNL Commerce] diensten om gegevenssynchronisatie en communicatie tussen de [!DNL Commerce] bijvoorbeeld Kanaalbeheer en andere ondersteunende services.
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Verbinden met de Diensten van de Handel
+
+# Verbinden met [!DNL Commerce] diensten
 
 De schakelaar van de Diensten van de Handel integreert de dienst van de Manager van het Kanaal met instanties Adobe Commerce en Magento Open Source. De schakelaar laat gegevenssynchronisatie en communicatie tussen toe [!DNL Commerce] instantie, [!DNL Channel Manager]en andere ondersteunende diensten.
 
@@ -21,12 +22,13 @@ De de schakelaaropstelling van de Diensten van de handel is een eenmalig proces 
 
 - **Handelsrekening**- Als u software wilt installeren op instanties van Commerce, moet u een account met Eigenaar of Admin toegang hebben tot het platform Commerce.
 
-   Accounteigenaars en Admin-gebruikers kunnen nieuwe Admin-accounts maken via de instantie Commerce of via de opdrachtregel [!DNL Commerce] CLI, opdracht `admin:user:create`.
+   Accounteigenaars en Admin-gebruikers kunnen Admin-accounts maken via de instantie Commerce of via de opdrachtregel [!DNL Commerce] CLI, opdracht `admin:user:create`.
 
 - **Adobe Commerce Production API Key**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
 
-   Om de geloofsbrieven te verstrekken, heeft een de vergunninghouder of rekeninghouder van de Handel opties om
-   [gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} of geef de [API-sleutel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} referenties naar een vertrouwde ontwikkelaar.
+>[!TIP]
+>
+>Om de geloofsbrieven te verstrekken, heeft een de vergunninghouder of rekeninghouder van de Handel opties om [gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} of geef de [API-sleutel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} referenties naar een vertrouwde ontwikkelaar.
 
 ## De Commerce Services Connector configureren
 
@@ -34,7 +36,7 @@ De de schakelaaropstelling van de Diensten van de handel is een eenmalig proces 
 
    - Selecteer bij Beheer de optie **[!UICONTROL Stores]**.
 
-   - Onder *Instellingen*, selecteert u **[!UICONTROL Configuration]**.
+   - Selecteer onder *[!UICONTROL Settings]* de optie **[!UICONTROL Configuration]**.
 
    - Uitbreiden **[!UICONTROL Services]** en selecteert u **[!UICONTROL Commerce Services Connector]**.
 

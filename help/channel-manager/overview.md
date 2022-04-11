@@ -1,17 +1,18 @@
 ---
 title: Info [!DNL Channel Manager]
-description: Leer installeren en gebruiken [!DNL Channel Manager] om Adobe Commerce- en Magento Open Source-winkels te integreren met externe markten en een verkoopkanaal te creëren voor het naadloos beheren van aanbiedingen op de markt, prijzen, voorraden en verkopen van uw Commerce Admin.
+description: Leer installeren en gebruiken [!DNL Channel Manager] om Adobe Commerce- en Magento Open Source-winkels te integreren met externe markten en een verkoopkanaal te creëren voor het naadloos beheren van aanbiedingen, prijzen, voorraden en verkopen op de markt van uw Commerce Admin.
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
-# Overzicht
+
+# Info [!DNL Channel Manager]
 
 Channel Manager voor Adobe Commerce en Magento Open Source biedt een handige werkruimte in de Admin voor het beheer van kanaalverkoop op markten van derden, zoals Walmart, Amazon en eBay. Verhoog de omzet en vergroot de omzet naar nieuwe markten terwijl u de verkoopkanaalbewerkingen naadloos beheert vanuit uw Commerce Admin.
 
@@ -19,7 +20,7 @@ Channel Manager voor Adobe Commerce en Magento Open Source biedt een handige wer
 
 ## Overzicht van bètaversie
 
-De bètaversie van Channel Manager ondersteunt verkopers van Adobe Commerce of Magento Open Source die producten willen aanbieden op de Walmart Marketplace.
+De bètaversie van Channel Manager biedt ondersteuning voor verkopers van Adobe Commerce of Magento Open Source die op willen verkopen [!DNL Walmart Marketplace].
 
 Deze release biedt ondersteuning voor de volgende mogelijkheden voor het beheer van verkoopkanaalbewerkingen:
 
@@ -27,7 +28,7 @@ Deze release biedt ondersteuning voor de volgende mogelijkheden voor het beheer 
 
 * Producten van Channel Manager naar Walmart publiceren met productmatching
 
-* De status van productaanbiedingen weergeven in Channel Manager, bijvoorbeeld *ontwerp*, *verwerking*, *overeenkomend*, *fout*.
+* Productaanbiedingen beheren en de status volgen
 
 * De inventarisatiehoeveelheden van de synchronisatie van afgedekte producten van de Handel aan Walmart
 
@@ -45,7 +46,7 @@ De processen van de gegevenssynchronisatie tussen [!DNL Channel Manager] en een 
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Producten toevoegen aan Channel Manager | Selecteer producten uit de productcatalogus van de Handel en voer hen in de Manager van het Kanaal in. | **Tot 5 minuten**- Als u bijvoorbeeld een groot aantal producten selecteert, duurt het importeren langer. |
 | Producten afstemmen op Walmart Marketplace | Selecteer productaanbiedingen in Channel Manager en verzend naar Walmart voor matching. | **Tot 30 minuten**-Als u veel producten selecteert, duurt het afstemmen langer afhankelijk van de geselecteerde hoeveelheid. |
-| Inventarisupdates | Wanneer de voorraadhoeveelheid in de Handel verandert. Channel Manager synchroniseert update naar Walmart. | **Tot 10 minuten** |
+| Inventarisupdates | Wanneer de voorraadhoeveelheid verandert in de handel, [!DNL Channel Manager] synchroniseert de update naar Walmart. | **Tot 10 minuten** |
 | Prijsupdates | Wanneer een productprijs verandert, synchroniseert de Manager van het Kanaal de update aan Walmart. | **Tot 5 minuten** |
 | Synoniemen bestellen van Walmart naar Commerce | De klant bestelt een product van de Handel op de Marketplace van het Martard Walmart. Walmart verzendt de orde naar de Manager van het Kanaal. De vertoningen van de orde in orde dashboard. | **Tot 30 minuten** |
 | Orde gemaakt in Commerce Order Management | De Manager van het kanaal leidt tot de orde van de Handel van de orde van de Maramslim en werkt het ordedashboard bij om het de ordeaantal van de Handel te omvatten. | **Tot 5 minuten** |
@@ -62,7 +63,7 @@ U hebt de volgende informatie van Walmart nodig om Handel met de Marketplace van
 
 ### Een verkopersaccount instellen
 
-1. [De toepassing Walmart-verkoper verzenden](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [De toepassing Walmart-verkoper verzenden](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 2. Na goedkeuring door Walmart, [je Walmart Seller-account instellen](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
 ### Een Walmart Marketplace API-sleutel genereren
@@ -73,7 +74,7 @@ U hebt de volgende informatie van Walmart nodig om Handel met de Marketplace van
 
    * Selecteer Adobe als oplossingsleverancier.
 
-   * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de *Help bij Marketplace Walmart*.
+   * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de *[!DNL Walmart Marketplace]Hulp van verkopers*.
 
    **Adobe API sleutelconfiguratie voor Walmart**
 
@@ -95,9 +96,9 @@ U hebt de volgende informatie van Walmart nodig om Handel met de Marketplace van
 
 Wanneer u producten aan Marketplace publiceert, hangt de beschikbaarheid van lijsten van de status van uw winkels van de Marketplace van de Markt van de Markt van de Markt van de Markt af:
 
-* Voor live winkels worden je productaanbiedingen aangeboden en te koop aangeboden zodra de match voltooid is.
+* Voor live winkels worden je productaanbiedingen aangeboden en te koop aangeboden wanneer de match voltooid is.
 
-* Voor winkels die niet live zijn, worden uw productaanbiedingen gefaseerd en niet zichtbaar voor klanten. Zodra de winkel live gaat, worden gefaseerde aanbiedingen automatisch naar de live winkel gestuurd.
+* Voor winkels die niet live zijn, worden uw productaanbiedingen gefaseerd en niet zichtbaar voor klanten. Wanneer de winkel live gaat, worden gefaseerde aanbiedingen automatisch naar de live winkel gestuurd.
 
 
 ![[!DNL Walmart Seller Central] gefaseerde producten](assets/walmart-seller-central-staged.png)

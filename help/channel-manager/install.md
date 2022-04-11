@@ -2,14 +2,15 @@
 title: Installeren [!DNL Channel Manager]
 description: Installeer de extensie Kanaalbeheer.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Kanaalbeheer installeren
+
+# Installeren [!DNL Channel Manager]
 
 Controleer de [voorwaarden](onboard.md#prerequisites) en verzamel de vereiste informatie voordat u Channel Manager installeert.
 
@@ -42,7 +43,7 @@ Beide methodes vereisen u om de Interface van de Lijn van het Bevel (CLI) te geb
 
 ### Installeren op een exemplaar ter plaatse
 
-Gebruik deze instructies om te installeren op Adobe Commerce- en Magento Open Source-platforms.
+Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Commerce en Magento Open Source naar een instantie ter plaatse.
 
 1. Aanmelden bij de [!DNL Commerce] server als een [gebruiker met machtigingen](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} om naar de [!DNL Commerce] bestandssysteem.
 
@@ -126,7 +127,7 @@ Werk in een ontwikkelingsvertakking wanneer u een extensie toevoegt aan uw cloud
 
 Voor hulp bij het gebruiken van takken, zie [Aan de slag met het maken van vertakkingen](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} in de documentatie voor Adobe Commerce-ontwikkelaars.
 
-Tijdens de installatie wordt de extensienaam (`&lt;VendorName>\_&lt;ComponentName>`) wordt automatisch ingevoegd in het dialoogvenster [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} bestand. U hoeft het bestand niet rechtstreeks te bewerken.
+Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt automatisch ingevoegd in het dialoogvenster [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;} bestand. U hoeft het bestand niet rechtstreeks te bewerken.
 
 1. Wijzig op uw lokale werkstation de hoofdmap van het Cloud-project.
 
@@ -158,7 +159,7 @@ Tijdens de installatie wordt de extensienaam (`&lt;VendorName>\_&lt;ComponentNam
    $ git push origin <branch-name>
    ```
 
-1. Nadat de bouw en de implementatie voltooit, gebruik SSH aan login aan het verre milieu en verifieer dat de uitbreiding correct installeerde.
+1. Nadat het bouwstijl en plaatsingsproces voltooit, gebruik SSH aan login aan het verre milieu en verifieer dat de uitbreiding correct geïnstalleerd was.
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ Tijdens de installatie wordt de extensienaam (`&lt;VendorName>\_&lt;ComponentNam
    Module is enabled
    ```
 
-1. Meld u aan bij de [!UICONTROL Admin] tot [Configureer de Commerce Services Connector](connect.md).
+1. Nadat u de extensie hebt geïnstalleerd, meldt u zich aan bij de [!UICONTROL Admin] tot [Configureer de Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >

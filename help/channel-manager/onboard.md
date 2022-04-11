@@ -4,16 +4,17 @@ description: Sluit uw instantie aan [!DNL Channel Manager] door enkele instapsta
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: f57c6db4c0314272d10bb5483d2c8a0ae396a9fc
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
+
 # Aan boord [!DNL Channel Manager]
 
-De online Manager van het Kanaal door de uitbreiding van de Manager van het Kanaal op uw te installeren [!DNL Commerce] -instantie en API-verbindingen configureren. Deze verbindingen laten communicatie en gegevenssynchronisatie tussen uw instantie van de Handel en de Marketplace van de Markt van de Markeren toe.
+De online Manager van het Kanaal door de uitbreiding van de Manager van het Kanaal op uw te installeren [!DNL Commerce] -instantie en API-verbindingen configureren. Deze verbindingen laten communicatie en gegevenssynchronisatie tussen uw instantie van de Handel en toe [!DNL Walmart Marketplace].
 
 Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal van [!UICONTROL Channel Manager] de optie [!UICONTROL Commerce Admin Marketing] -menu.
 
@@ -45,19 +46,18 @@ Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal va
 
       Bij Adobe Commerce- en Magento Open Source-projecten kan de eigenaar [Gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html) om vertrouwde werknemers en serviceproviders toe te staan extensies te downloaden met hun aanmeldingsgegevens van de Eigenaar of de account van de Licentiehouder.
 
-      Aan [!DNL Adobe Commerce] bij cloudinfrastructuurprojecten moeten softwareinstallateurs de volgende toegang hebben tot [!DNL Commerce] instantie:
+      Voor [!DNL Adobe Commerce] in het geval van cloudinfrastructuurprojecten moeten softwareinstallateurs de volgende toegang hebben tot de [!DNL Commerce] instantie:
 
       - Toegang van supergebruikers tot het Cloud-project
       - Beheerders krijgen toegang tot een specifieke omgeving
-      - een [!DNL Adobe Commerce] of [!DNL Magento Open Source] account met toegangsrechten tot de Composer-opslagplaats.
+      - een [!DNL Adobe Commerce] of [!DNL Magento Open Source] account met toegangsrechten tot de Composer-opslagplaats
 
       Zie [Gebruikerstoegang beheren](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **Autorisatie voor het downloaden van het pakket Channel Manager Composer**- Geef de MAGE-id op van de Commerce-account die wordt gebruikt om de service te beheren, aan de Adobe-vertegenwoordiger die het Beta-programma voor uw organisatie coördineert.
+- **Autorisatie voor het downloaden van het pakket Channel Manager Composer**- Geef de Bètecoördinator voor Adobe Channel de MAGE-id van de [!DNL Commerce] account gebruikt om de service voor uw organisatie te beheren.
 - **Ervaring met Composer en de[!DNL Commerce CLI]** -Zie [Algemene installatie van CLI](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} voor informatie over het gebruik van deze gereedschappen voor het installeren en beheren van extensies op [!DNL Adobe Commerce] of [!DNL Magento Open Source] platforms.
-- **[Amazon Sales Channel versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)- Als u Amazon Sales Channel voor uw plaatsen van de Handel hebt geactiveerd, verifieer dat uw platform van de Handel versie 4.42 heeft geïnstalleerd alvorens u de Manager van het Kanaal installeert.
-
+- [[!DNL Amazon Sales Channel] versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Als u hebt geactiveerd [!DNL Amazon Sales Channel] voor uw [!DNL Commerce] sites, controleer of uw [!DNL Commerce] -platform heeft versie 4.42 geïnstalleerd voordat u de installatie uitvoert [!DNL Channel Manager].
 
 ### Vereisten
 

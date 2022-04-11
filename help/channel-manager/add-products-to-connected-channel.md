@@ -1,37 +1,34 @@
 ---
-title: Producten aan de Kanaalwinkel toevoegen
+title: Producten toevoegen aan verbonden kanaal
 description: Productassortiment maken voor verkoop op de markt door producten uit de catalogus toe te voegen aan het verkoopkanaal
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# Producten aan de Kanaalwinkel toevoegen
+# Producten toevoegen aan verbonden kanaal
 
-Selecteer in Kanaalbeheer producten in het menu [!DNL Commerce] catalogus voor de verkoop van Walmart Marketplace.
-
-Om producten aan het verkoopkanaal te synchroniseren, moeten de geselecteerde producten de volgende attributenconfiguratie hebben:
+Als u producten wilt synchroniseren met het verkoopkanaal van de Walmart Marketplace, selecteert u producten in het menu [!DNL Commerce] productcatalogus en deze importeren in Channel Manager. De geselecteerde producten moeten de volgende attributenconfiguratie hebben:
 
 - **[!UICONTROL Publish to Channel Manager]** attribute is enabled
 
 - Ten minste één productkenmerk moet overeenkomen met een van de [vereiste Marketplace-kenmerken voor Marketplace](map-product-attributes-for-matching.md)-GTIN, ISBN, ISSN, UPC, EAN
 
-Nadat u selecties hebt opgeslagen, importeert de Channel Manager de productgegevens naar het kanaal. Dit proces kan tot 30 minuten duren.
+Het proces voor de invoer van producten uit [!DNL Commerce] naar Channel Manager kan maximaal 30 minuten of meer in beslag nemen, afhankelijk van het aantal producten dat u selecteert.
 
 ## Producten toevoegen aan verkoopkanaal
 
-1. Open de productcatalogus die bij de Channel Manager-winkel hoort.
-
-   Selecteer in een online verkoopkanaalwinkel de optie **Producten toevoegen**.
+1. Selecteer in een online verkoopkanaalwinkel de optie **Producten toevoegen** om de productcatalogus te openen.
 
    ![Producten toevoegen aan verbonden kanaal](assets/add-initial-products-to-connected-channel.png)
 
    De catalogus wordt op een nieuw tabblad geopend.
 
-1. Selecteer in het raster van het catalogusproduct de producten die u wilt verkopen op Walmart Marketplace.
+1. Selecteer in het productraster van de catalogus de producten waarop u wilt verkopen [!DNL Walmart Marketplace].
 
    ![Producten naar het aangesloten kanaal verzenden](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ Nadat u selecties hebt opgeslagen, importeert de Channel Manager de productgegev
 
 1. Terug naar het aangesloten verkoopkanaal in [!DNL Channel Manager].
 
-   Nadat het importeren is voltooid, kunt u producten weergeven vanuit **[!UICONTROL Listings]**. In eerste instantie bevinden de producten zich in *Concept* status. Selecteren [!UICONTROL Refresh products]** om de tabel bij te werken.
+1. Nadat het importeren is voltooid, kunt u producten weergeven vanuit **[!UICONTROL Listings]**.
 
    ![Producten geïmporteerd naar verbonden verkoopkanaal](assets/products-in-marketplace-sales-channel.png)
+
+   In eerste instantie bevinden de producten zich in *Concept* status. Selecteren **[!UICONTROL Refresh products]** om de tabel bij te werken.
+

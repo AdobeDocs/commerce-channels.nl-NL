@@ -2,25 +2,25 @@
 title: Aanbiedingen publiceren naar Walmart
 description: Publiceer aanbiedingen voor Commerce-producten naar Walmart Marketplace om te beginnen met verkopen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 # Aanbiedingen publiceren naar Walmart
 
-Net als andere markten biedt Walmart verkopers van derden de mogelijkheid om objecten aan te bieden die door anderen worden verkocht.
+Zoals andere markten, [!DNL Walmart] biedt verkopers van derden de mogelijkheid om objecten aan te bieden die door anderen worden verkocht.
 
-Het platform gebruikt product-id&#39;s zoals UPC en GTIN om overeen te komen met items die al te koop zijn.
-Voor gematchte producten wordt de bestaande lijst van de Marketplace van het Markeren bijgewerkt om de het productaanbod van de Handel te omvatten.
+Het platform gebruikt product-id&#39;s zoals UPC en GTIN om overeen te komen met bestaande [!DNL Walmart Marketplace] aanbiedingen.
+Voor gematchte producten wordt de aanbieding in de handelsplaats van de Markt bijgewerkt om de aanbieding van het product van de Handel te omvatten wanneer u een product van publiceert [!DNL Channel Manager].
 
-Doorgaans komen producten met de laagste prijzen eerst voor in de resultaten, maar andere factoren zoals recensies beïnvloeden ook de plaatsing.
+Meestal worden productaanbiedingen met de laagste prijzen het eerst weergegeven in de [!DNL Walmart Marketplace] aanbiedingen, maar andere factoren zoals revisies hebben ook invloed op plaatsing.
 
 ## Producten afstemmen
 
-Wanneer u producten aanpast, stuurt de Manager van het Kanaal de productgegevens naar Marketplace van de Markt van de Markt van de Markt om naar bestaande lijsten met attributenwaarden te zoeken die de in kaart gebrachte het productattribuut van de Handel aanpassen. Overeenkomstcriteria worden bepaald door de [kenmerktoewijzingsconfiguratie](map-product-attributes-for-matching.md) voor uw winkelkanaal.
+Wanneer u producten aanpast, verzendt de Manager van het Kanaal de productgegevens naar [!DNL Walmart Marketplace] om te zoeken naar bestaande aanbiedingen met kenmerkwaarden die overeenkomen met het toegewezen productkenmerk Commerce. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-product-attributes-for-matching.md) voor uw winkelkanaal.
 
 Als er een overeenkomst wordt gevonden, wordt de bestaande productaanbieding bijgewerkt en wordt je voorstel toegevoegd.
 

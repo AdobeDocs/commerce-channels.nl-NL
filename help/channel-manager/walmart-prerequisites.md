@@ -2,9 +2,9 @@
 title: Walmart-vereisten
 description: Verifieer dat u de vereiste Marketplace informatie en de middelen van de Markt van de Markt hebt om met de Manager van het Kanaal te integreren.
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ De Manager van het kanaal vereist de volgende middelen en de informatie om een d
 
 ## Een verkopersaccount instellen
 
-1. [De toepassing Walmart-verkoper verzenden](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [De toepassing Walmart-verkoper verzenden](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. Na goedkeuring door Walmart, [je Walmart Seller-account instellen](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Een Walmart Marketplace API-sleutel genereren
+## Een Walmart Marketplace Production API-sleutel genereren
 
 1. Ga naar Walmart Marketplace om een [productie-API-sleutel voor oplossingsprovider voor Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
