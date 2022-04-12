@@ -1,13 +1,13 @@
 ---
 title: Walmart Marketplace-bestellingen beheren
 description: Weergeven en beheren [!DNL Walmart Marketplace] bestellingen met [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
-source-git-commit: c6c204fa5f72a68c814f48163cb037f558a41de4
+exl-id: c2779c72-4793-445c-858a-867ea8389662
+source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Walmart Marketplace-bestellingen beheren
 
@@ -44,8 +44,8 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 
 **Kolombeschrijvingen**
 
-| **Veld** | **Beschrijving** |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Veld | Beschrijving |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL  Walmart Order Number] | Het inkoopordernummer dat aan de order in het [!DNL Walmart Marketplace]. Wanneer een bestelling voor het eerst wordt geïmporteerd in [!DNL Channel Manager], alleen het Walmart-ordernummer wordt weergegeven. Wanneer de [!DNL Commerce] order wordt gemaakt, de [!DNL Walmart] ordernummer wordt opgeslagen in het dialoogvenster [!UICONTROL External ID] productkenmerk. |
 | [!DNL Commerce]  Volgnummer | Het nummer dat aan de [!DNL Commerce]  bestelling gemaakt op basis van de [!DNL Walmart Marketplace] bestelling. |
 | Items | Aantal bestelde objecten op [!DNL Walmart Marketplace]. |
@@ -70,10 +70,10 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 
    Nadat de orderannulering is voltooid, worden de [!DNL Commerce] voorraadhoeveelheid wordt bijgewerkt om geretourneerde objecten weer te geven. Vervolgens [!DNL Channel Manager] synchroniseert de update naar de [!DNL Walmart Marketplace].
 
-   * **[!UICONTROL Refunded]**-Bestellingen die zijn terugbetaald uit de [!DNL Commerce] opslaan.
+* **[!UICONTROL Refunded]**-Bestellingen die zijn terugbetaald uit de [!DNL Commerce] opslaan.
+
    Nadat de restitutie is voltooid, wordt de [!DNL Commerce] voorraadhoeveelheid wordt bijgewerkt om de terugbetaalde objecten weer te geven. Vervolgens [!DNL Channel Manager] synchroniseert de update naar de [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Error]**- Bestellingen die niet naar de gegevensopslagplaats zijn geïmporteerd vanwege ontbrekende informatie of andere problemen.
 
    Houd de muisaanwijzer boven de knop *[!UICONTROL Error]* statusindicator. Nadat u de fout hebt opgelost, wordt de volgorde automatisch bijgewerkt om de huidige informatie en status weer te geven.
-

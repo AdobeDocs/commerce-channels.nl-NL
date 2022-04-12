@@ -2,7 +2,7 @@
 title: Verkoopkanaal verbinden met [!DNL Walmart Marketplace]
 description: Vorm het verkoopkanaal en verbind met de Marketplace van de Markeren van de Markeren.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -100,4 +100,4 @@ Opslaginstellingen voltooien:
 
    - [Overzicht en prijzen bekijken en beheren](inventory-and-price-updates.md)
 
-   - De bevelen van het Spoor van de Handel van mening en beheren Admin
+   - [De bevelen van het Spoor van de Handel van mening en beheren Admin](manage-orders.md)

@@ -4,9 +4,9 @@ description: Sluit uw instantie aan [!DNL Channel Manager] door enkele instapsta
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,9 @@ Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal va
 - **Autorisatie voor het downloaden van het pakket Channel Manager Composer**- Geef de Bètecoördinator voor Adobe Channel de MAGE-id van de [!DNL Commerce] account gebruikt om de service voor uw organisatie te beheren.
 - **Ervaring met Composer en de[!DNL Commerce CLI]** -Zie [Algemene installatie van CLI](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} voor informatie over het gebruik van deze gereedschappen voor het installeren en beheren van extensies op [!DNL Adobe Commerce] of [!DNL Magento Open Source] platforms.
 - [[!DNL Amazon Sales Channel] versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Als u hebt geactiveerd [!DNL Amazon Sales Channel] voor uw [!DNL Commerce] sites, controleer of uw [!DNL Commerce] -platform heeft versie 4.42 geïnstalleerd voordat u de installatie uitvoert [!DNL Channel Manager].
+- [!DNL Inventory Management] extensie voor Adobe Commerce en Magento Open Source
+
+   Als u Channel Manager wilt gebruiken voor inventarisatie- en bestelbeheer, moet de Inventory management-extensie zijn geïnstalleerd en ingeschakeld op uw Adobe Commerce- en Magento Open Source-exemplaar. Deze extensie wordt standaard geïnstalleerd en ingeschakeld op Adobe Commerce en Magento Open Source 2.3.x en hoger. Zie voor meer informatie [Inventory management installeren](https://devdocs.magento.com/extensions/inventory-management/) in de documentatie van Adobe Commerce Developer.
 
 ### Vereisten
 
@@ -66,7 +69,6 @@ Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal va
 - [Composer 1.x of hoger](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
 - [[!DNL Amazon Sales Channel] versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Als u hebt geactiveerd [!DNL Amazon Sales Channel] voor uw [!DNL Commerce] sites, controleer of uw [!DNL Commerce] -platform heeft versie 4.42 geïnstalleerd voordat u de installatie uitvoert [!DNL Channel Manager].
 - [!DNL Inventory Management]
-
 
 ### Ondersteunde platforms
 
