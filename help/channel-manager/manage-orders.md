@@ -2,14 +2,14 @@
 title: Walmart Marketplace-bestellingen beheren
 description: Weergeven en beheren [!DNL Walmart Marketplace] bestellingen met [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
-# Walmart Marketplace-bestellingen beheren
+# Walmart Marketplace-orders beheren
 
 [!DNL Walmart Marketplace] orders voor [!DNL Commerce] productaanbiedingen worden automatisch gesynchroniseerd met [!DNL Channel Manager] nadat Walmart de orde verwerkt. Wanneer de synchronisatie is voltooid, kunt u de orderinformatie weergeven door **[!UICONTROL Orders]** vanuit de online-kanaalwinkelweergave in [!DNL Channel Manager].
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Nadat een bestelling van de markt is ontvangen en in de Adobe Commerce of de Magento Open Source is geïmporteerd, gebruikt u de [!DNL Commerce] Order ID to view the order in Adobe Commerce.
 
-Van **[!UICONTROL Orders]**, selecteert u de [!UICONTROL Commerce Order Number] om de [!DNL Commerce]  orderdetails.
+Van **[!UICONTROL Orders]**, selecteert u de **[!UICONTROL Commerce Order Number]** om de [!DNL Commerce] orderdetails.
 
 ![Gedetailleerde weergave voor handelsorders voor een Walmart Marketplace-order](assets/order-detail-with-external-order-id.png)
 

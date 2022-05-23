@@ -1,30 +1,30 @@
 ---
-title: Volledige kanaalinstelling
+title: Volledige installatie verkoopkanaal
 description: Navigeer naar een verbonden verkoopkanaal voor het beheren van de weergave en het beheren van productaanbiedingen, voorraad- en prijsupdates en het volgen van bestellingen
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-# Volledige kanaalinstelling
+# Volledige installatie verkoopkanaal
 
-Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], volledige installatie van de winkel vanuit de [!DNL Channel Manager Stores] weergeven.
+Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], volledige installatie van de winkel vanuit de [!DNL Channel Manager] homepage.
 
 1. Selecteer **[!UICONTROL Marketing** > **Kanaalbeheer**].
 
-   ![[!DNL Walmart Marketplace API key] configuratiepagina](assets/connect-commerce-store-config.png)
+   ![Kanaalbeheerwinkels beheren](assets/channel-manager-setup-first-store.png)
 
-1. Open een verbonden verkoopkanaal door het potloodpictogram in een rij van de archiefingang te selecteren.
+1. Open de winkel met verkoopkanalen door het oogpictogram voor de winkel te selecteren.
 
 1. Begin verkoopkanaalbewerkingen.
 
-   - [Producten uit uw handelscatalogus toevoegen aan Channel Manager](add-products-to-connected-channel.md)
+   - [Producten toevoegen van uw [!DNL Commerce Catalog] naar Kanaalbeheer](add-products-to-connected-channel.md)
 
-   - [Aanbiedingen voor producten naar Walmart publiceren met productmatching](publish-listings-to-marketplace.md)
+   - [Productaanbiedingen publiceren naar [!DNL Walmart] productmatching gebruiken](publish-listings-to-marketplace.md)
 
-   - [Leer hoe Channel Manager inventarisatie en prijsupdates tussen Commerce en Walmart synchroniseert](inventory-and-price-updates.md)
+   - [Meer informatie [!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen Commerce en Walmart](inventory-and-price-updates.md)
 
-   - De bevelen van het Spoor van de Handel van mening en beheren Admin
+   - [Weergeven en beheren [!DNL Walmart] bestellingen van de [!DNL Commerce Admin]](manage-orders.md)

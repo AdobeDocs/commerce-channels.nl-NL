@@ -2,14 +2,14 @@
 title: Update van voorraad en prijs
 description: '''[!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen de Commerce Store en [!DNL Walmart Marketplace] zodat kunt u de bewerkingen van uw verkoopkanalen beheren vanuit de Admin van de Handel'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Inventarisatie en prijsupdates
+# Overzicht en prijzen bijwerken
 
 [!DNL Channel Manager] inventarisatie en prijsstelling volgen voor producten in de [!DNL Commerce] productcatalogus en syncs updates van het verbonden verkoopkanaal en [!DNL Walmart Marketplace]. De synchronisatie zorgt ervoor dat de aanbiedingen van producten de huidige hoeveelheid en prijs van de voorraad weerspiegelen.
 

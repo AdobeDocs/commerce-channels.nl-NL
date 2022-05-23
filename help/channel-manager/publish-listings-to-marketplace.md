@@ -2,9 +2,9 @@
 title: Aanbiedingen publiceren naar Walmart
 description: Publiceer aanbiedingen voor Commerce-producten naar Walmart Marketplace om te beginnen met verkopen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Als er een overeenkomst wordt gevonden, wordt de bestaande productaanbieding bij
 
 ### Vereisten
 
-Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de productcatalogus voldoen aan de vereisten van het Martard en attributenmontages vormen. Zie [Productovereenkomst configureren](map-product-attributes-for-matching.md)
+Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de productcatalogus voldoen aan de vereisten van het Martard en attributenmontages vormen. Zie [Productovereenkomst configureren](map-product-attributes-for-matching.md).
 
 #### Producten selecteren en afstemmen
 
@@ -40,27 +40,29 @@ Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de p
 
    Een bericht geeft het aantal producten aan dat voor matching is verzonden.
 
-   ![Producten naar het verbonden verkoopkanaal verzenden](assets/products-submit-for-matching.png)
+   ![Producten naar het verbonden verkoopkanaal verzenden](assets/products-submitted-for-matching.png)
 
    De status van geselecteerde producten verandert in [!UICONTROL *Verwerking*] totdat de overeenkomende bewerking is voltooid. Het kan tot 30 minuten voor Walmart Marketplace duren om de gelijke verrichting te voltooien.
 
 ### Overeenkomststatus controleren
 
-1. Selecteren **Producten vernieuwen** om de meest recente productstatus bij te werken.
+1. Selecteren **Producten vernieuwen** om de huidige productstatus weer te geven.
 
 1. Controleer de productstatus.
 
-   Nadat de overeenkomst is voltooid, kan de status *Overeenkomst* of *Fout*.
+Nadat de overeenkomst is voltooid, kan de status *Overeenkomst* of *Fout*.
 
-   * **[!UICONTROL Match]** geeft aan dat het product is gevonden. Je productaanbod is gepubliceerd naar een bestaande Walmart Marketplace-aanbieding.
+* **[!UICONTROL Match]** geeft aan dat het product is gevonden. Je productaanbod is gepubliceerd naar een bestaande Walmart Marketplace-aanbieding. Als de [Marktarchief is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wordt weergegeven in het dialoogvenster *[!UICONTROL Status detail]* kolom.
 
-   * **[!UICONTROL Error]** Hiermee wordt een van de volgende items aangegeven:
+Als uw [[!DNL Walmart Marketplace] store is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status)de *Statusdetails* de kolom geeft aan dat het product *Staand voor overeenkomst*. Geleidelijke producten worden automatisch gepubliceerd zodra de [!DNL Walmart Marketplace] store is geactiveerd.
 
-      * Er is een fout opgetreden en de overeenkomende bewerking is mislukt.
+* **[!UICONTROL Error]** Hiermee wordt een van de volgende items aangegeven:
 
-      * Er is geen overeenkomst gevonden.
+   * Er is een fout opgetreden en de overeenkomende bewerking is mislukt.
 
-      * Overeenkomst gevonden, maar product gepubliceerd als gefaseerd omdat [Marktarchief is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Er is geen overeenkomst gevonden.
+
+   * Overeenkomsten gevonden, maar de aanbieding kan niet worden gepubliceerd vanwege een fout die is geretourneerd door de Walmart-markt.  of het ontbreken van een attribuut, of gepubliceerd zoals gefaseerd omdat [Marktarchief is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### Aanbieding controleren op Walmart
 
@@ -68,9 +70,9 @@ Nadat je producten hebt gevonden, kun je de bijgewerkte productlijst bekijken en
 
 ### Problemen met overeenkomende productfouten oplossen
 
-Als de verrichting van de productgelijke ontbreekt, keert de Marketplace van de Markt van de Markeren een foutencode terug en de Manager van het Kanaal toont de foutenstatus in de informatie van de productlijst.
+Als de productvergelijkingsbewerking mislukt vanwege een fout, wordt het foutbericht weergegeven in het dialoogvenster *[!UICONTROL Status detail]* in de [!UICONTROL Channel Manager] productaanbieding.
 
-Geef de details van foutberichten weer door de muisaanwijzer op de knop **Fout** statuslabel. Gangbare geretourneerde fouten zijn onjuist opgemaakte product-id-waarden of ontbrekende vereiste kenmerken.
+Gangbare geretourneerde fouten zijn onjuist opgemaakte product-id-waarden of ontbrekende vereiste kenmerken.
 
 #### ID-waarden van product corrigeren
 

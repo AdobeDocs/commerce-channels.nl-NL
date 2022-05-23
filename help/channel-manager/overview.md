@@ -4,9 +4,9 @@ description: Leer installeren en gebruiken [!DNL Channel Manager] om Adobe Comme
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # Info [!DNL Channel Manager]
 
-Channel Manager voor Adobe Commerce en Magento Open Source biedt een handige werkruimte in de Admin voor het beheer van kanaalverkoop op markten van derden, zoals Walmart, Amazon en eBay. Verhoog de omzet en vergroot de omzet naar nieuwe markten terwijl u de verkoopkanaalbewerkingen naadloos beheert vanuit uw Commerce Admin.
+[!DNL Channel Manager] helpt u uw verkoop te verhogen en nieuwe klanten te bereiken door uw Adobe Commerce of Magento Open Source te integreren productcatalogus met [!DNL Walmart US Marketplace].
 
-![[!DNL Channel Manager] extensiebeheerweergave](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] extensiebeheerweergave](assets/channel-manager-home.png)
 
-## Overzicht van bètaversie
+Nadat u hebt geïnstalleerd en geconfigureerd [!DNL Channel Manager]de [!DNL Commerce] Admin wordt uitgebreid zodat u kunt beheren [!DNL Walmart Marketplace] verkooptransacties naadloos vanuit uw omgeving van de Handel.
 
-De bètaversie van Channel Manager biedt ondersteuning voor verkopers van Adobe Commerce of Magento Open Source die op willen verkopen [!DNL Walmart Marketplace].
+* **Aanbiedingsbeheer**-Publiceer eenvoudig productaanbiedingen door producten uit uw handelscatalogus te koppelen aan bestaande aanbiedingen op de Marketplace in het winkelwagentje.
 
-Deze release biedt ondersteuning voor de volgende mogelijkheden voor het beheer van verkoopkanaalbewerkingen:
+* **Inventory management**-Objecten op de verkopersaccount van de handelaar worden automatisch gesynchroniseerd en bijgewerkt bij Handel om een nauwkeurig voorraadniveau te garanderen.
 
-* Een API-verbinding tot stand brengen tussen Adobe Commerce of Magento Open Source en Walmart Marketplace
+* **Prijswijzigingen**- Handhaaf nauwkeurige prijzen voor aanbiedingen op de markt met automatische prijssynchronisatie. Wanneer een prijs in Adobe Commerce verandert, worden de wijzigingen binnen 10 minuten op de markt doorgevoerd.
 
-* Producten van Channel Manager naar Walmart publiceren met productmatching
+* **Orderbeheer**- Wanneer de nieuwe orden in een markt worden gecreeerd, synchroniseert de Manager van het Kanaal orden met Adobe Commerce en verzendt ordererkenning naar de markt om ervoor te zorgen dat de inventaris voor elke orde wordt gereserveerd.
 
-* Productaanbiedingen beheren en de status volgen
+* **Verzendbeheer**-Als orders zijn gemarkeerd als verzonden in Adobe Commerce, wordt de update van de verzending verzonden naar de [!DNL Walmart Marketplace]. Deze melding zorgt ervoor dat verkopers voldoen aan hun SLA-vereisten en dat klanten verzendupdatemeldingen ontvangen voor hun huidige bestellingen.
 
-* De inventarisatiehoeveelheden van de synchronisatie van afgedekte producten van de Handel aan Walmart
+* **Annuleringen**-Als orders in Adobe Commerce worden geannuleerd, stuurt Channel Manager bijgewerkte ordergegevens naar de marketingplaats om de handeling voor de corresponderende marktplaatsorder te repliceren.
 
-* Catalogusprijzen synchroniseren voor gematchte producten van de Handel aan Walmart
+[!DNL Channel Manager] biedt ondersteuning voor verkopers met een Adobe Commerce of Magento Open Source die op willen verkopen [!DNL Walmart Marketplace].
 
-* Ontvang bestellingen van Walmart Marketplace en bekijk deze in de [!DNL Commerce] ordedashboard
-
-### Verwachte vertraging voor Channel Manager-bewerkingen
+## Verwachte vertraging voor Channel Manager-bewerkingen
 
 De processen van de gegevenssynchronisatie tussen [!DNL Channel Manager] en een gekoppeld [!DNL Walmart Marketplace] opslag moet enige tijd worden voltooid. Bekijk de verwachte verwerkingstijd voor [!DNL Channel Manager] de verrichtingen helpen de verrichtingen van het verkoopkanaal plannen werken.
 

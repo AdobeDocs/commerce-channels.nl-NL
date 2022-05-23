@@ -2,9 +2,9 @@
 title: Verkoopkanaal verbinden met [!DNL Walmart Marketplace]
 description: Vorm het verkoopkanaal en verbind met de Marketplace van de Markeren van de Markeren.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 06affb78c30086e11dd9ead70e6538ef3d1ff95b
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,7 @@ Na installatie van Channel Manager op uw [!DNL Commerce] bijvoorbeeld, verbind e
 
    - Selecteer in Beheer de optie **[!UICONTROL Marketing** > _Kanalen _> **Kanaalbeheer]**.
 
-   - Selecteren **[!UICONTROL Connect New Store]**.
-
-      ![Connect Commerce-winkel naar [!DNL Walmart Marketplace] van [!DNL Channel Manager]](assets/connect-commerce-store-to-marketplace.png)
-
-1. Via de startpagina van Channel Manager in het dialoogvenster [!UICONTROL Marketplaces available to connect] sectie, selecteert u [!UICONTROL Get Started].
+1. In de **[!UICONTROL Marketplaces available to connect]** sectie, selecteert u **[!UICONTROL Get Started]**.
 
    ![Nieuwe Walmart-winkel verbinden met [!DNL Channel Manager]](assets/channel-manager-home.png)
 
@@ -39,9 +35,9 @@ Na installatie van Channel Manager op uw [!DNL Commerce] bijvoorbeeld, verbind e
 
    - Selecteren **[!UICONTROL Add Credentials]**.
 
-      ![Verbinding tussen Handel en vormen [!DNL Walmart Marketplace] van [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+   - Op de [!UICONTROL Connect New Walmart Store] Selecteer de Winkelweergave Commerce om verbinding te maken met de Marketplace.
 
-   - Selecteer de winkelweergave Handel om verbinding te maken met Marketplace.
+      ![Verbinding tussen Handel en vormen [!DNL Walmart Marketplace] van [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - Voer een unieke waarde in **[!UICONTROL store name]**.
 
@@ -73,7 +69,7 @@ Na installatie van Channel Manager op uw [!DNL Commerce] bijvoorbeeld, verbind e
 
 1. Selecteren **[!UICONTROL Save Store]** om de configuratie toe te passen en met [!DNL Walmart marketplace].
 
-Nadat de verbinding is gelukt, beheert u het kanaal vanuit **[!UICONTROL Channel Manager > Marketplace Stores]**.
+1. Na verbinding met succes, [volledige installatie van de winkel](complete-store-setup.md) van de **[!UICONTROL Channel Manager]** winkellijstpagina.
 
 ![Eerste winkel instellen](assets/channel-manager-setup-first-store.png)
 
@@ -86,25 +82,3 @@ Als de verbinding met Walmart ontbreekt, zie [Veelgestelde vragen over Walmart M
 - Verifieer dat de toegangsconfiguratie voor de sleutel van de Adobe API van het Smarm de correcte toestemmingen heeft. Zie [Walmart-vereisten](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Bevestig dat de [!DNL Walmart API] de dienst is beschikbaar bij [De statuspagina van de Walmart-API](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
-
-## Volledige installatie van de winkel
-
-Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], kunt u de installatie van de winkel voltooien vanuit de [!DNL Channel Manager Stores] weergeven.
-
-Opslaginstellingen voltooien:
-
-1. Selecteer **[!UICONTROL Marketing** > **Kanaalbeheer**].
-
-   ![Eerste winkel instellen](assets/channel-manager-setup-first-store.png)
-
-1. Open de winkel door op het oogpictogram in de kolom helemaal rechts te klikken.
-
-1. Begin verkoopkanaalbewerkingen.
-
-   - [Producten uit uw handelscatalogus toevoegen aan Channel Manager](add-products-to-connected-channel.md)
-
-   - [Producten naar Walmart publiceren met productmatching](publish-listings-to-marketplace.md)
-
-   - [Overzicht en prijzen bekijken en beheren](inventory-and-price-updates.md)
-
-   - [De bevelen van het Spoor van de Handel van mening en beheren Admin](manage-orders.md)
