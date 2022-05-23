@@ -4,9 +4,9 @@ description: Leer installeren en gebruiken [!DNL Channel Manager] om Adobe Comme
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 [!DNL Channel Manager] helpt u uw verkoop te verhogen en nieuwe klanten te bereiken door uw Adobe Commerce of Magento Open Source te integreren productcatalogus met [!DNL Walmart US Marketplace].
 
 ![[!DNL Channel Manager] extensiebeheerweergave](assets/channel-manager-home.png)
+
+Channel Manager ondersteunt verkopers van Adobe Commerce of Magento Open Source die willen verkopen op Walmart Marketplace.
 
 Nadat u hebt geïnstalleerd en geconfigureerd [!DNL Channel Manager]de [!DNL Commerce] Admin wordt uitgebreid zodat u kunt beheren [!DNL Walmart Marketplace] verkooptransacties naadloos vanuit uw omgeving van de Handel.
 
@@ -32,8 +34,6 @@ Nadat u hebt geïnstalleerd en geconfigureerd [!DNL Channel Manager]de [!DNL Com
 
 * **Annuleringen**-Als orders in Adobe Commerce worden geannuleerd, stuurt Channel Manager bijgewerkte ordergegevens naar de marketingplaats om de handeling voor de corresponderende marktplaatsorder te repliceren.
 
-[!DNL Channel Manager] biedt ondersteuning voor verkopers met een Adobe Commerce of Magento Open Source die op willen verkopen [!DNL Walmart Marketplace].
-
 ## Verwachte vertraging voor Channel Manager-bewerkingen
 
 De processen van de gegevenssynchronisatie tussen [!DNL Channel Manager] en een gekoppeld [!DNL Walmart Marketplace] opslag moet enige tijd worden voltooid. Bekijk de verwachte verwerkingstijd voor [!DNL Channel Manager] de verrichtingen helpen de verrichtingen van het verkoopkanaal plannen werken.
@@ -41,13 +41,13 @@ De processen van de gegevenssynchronisatie tussen [!DNL Channel Manager] en een 
 **Geschatte vertraging voor Channel Manager-bewerkingen**
 
 | **Bewerking** | **Beschrijving** | **Verwachte vertraging** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Producten toevoegen aan Channel Manager | Selecteer producten uit de productcatalogus van de Handel en voer hen in de Manager van het Kanaal in. | **Tot 5 minuten**- Als u bijvoorbeeld een groot aantal producten selecteert, duurt het importeren langer. |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Producten toevoegen aan Channel Manager | Selecteer producten uit de productcatalogus van de Handel en voer hen in de Manager van het Kanaal in. | **Tot vijf minuten**- Als u bijvoorbeeld een groot aantal producten selecteert, duurt het importeren langer. |
 | Producten afstemmen op Walmart Marketplace | Selecteer productaanbiedingen in Channel Manager en verzend naar Walmart voor matching. | **Tot 30 minuten**-Als u veel producten selecteert, duurt het afstemmen langer afhankelijk van de geselecteerde hoeveelheid. |
 | Inventarisupdates | Wanneer de voorraadhoeveelheid verandert in de handel, [!DNL Channel Manager] synchroniseert de update naar Walmart. | **Tot 10 minuten** |
-| Prijsupdates | Wanneer een productprijs verandert, synchroniseert de Manager van het Kanaal de update aan Walmart. | **Tot 5 minuten** |
+| Prijsupdates | Wanneer een productprijs verandert, synchroniseert de Manager van het Kanaal de update aan Walmart. | **Tot vijf minuten** |
 | Synoniemen bestellen van Walmart naar Commerce | De klant bestelt een product van de Handel op de Marketplace van het Martard Walmart. Walmart verzendt de orde naar de Manager van het Kanaal. De vertoningen van de orde in orde dashboard. | **Tot 30 minuten** |
-| Orde gemaakt in Commerce Order Management | De Manager van het kanaal leidt tot de orde van de Handel van de orde van de Maramslim en werkt het ordedashboard bij om het de ordeaantal van de Handel te omvatten. | **Tot 5 minuten** |
+| Orde gemaakt in Commerce Order Management | De Manager van het kanaal leidt tot de orde van de Handel van de orde van de Maramslim en werkt het ordedashboard bij om het de ordeaantal van de Handel te omvatten. | **Tot vijf minuten** |
 
 ## Walmart-voorwaarden
 

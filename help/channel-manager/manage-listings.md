@@ -2,9 +2,9 @@
 title: Aanbiedingen beheren
 description: Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ U kunt de volgende taken uitvoeren vanuit de lijstweergave.
 
 Creeer het productassortiment voor het kanaal van de Marketplace van de Markeren van de Markt door de volgende taken te voltooien:
 
-* [Producten uit uw productcatalogus voor handel toevoegen aan Channel Manager](add-products-to-connected-channel.md)
+* [Producten uit uw productcatalogus voor handel toevoegen aan Channel Manager](add-products-to-channel-store.md)
 
-* [Productovereenkomst configureren](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [Kenmerken van catalogus toewijzen](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## Producten publiceren naar Walmart
 
 U kunt productaanbiedingen maken op de Marketplace van het type Walmart met productmatching of door handmatig productaanbiedingen voor nieuwe producten te uploaden. Zie voor instructies [Aanbiedingen publiceren naar Walmart Marketplace](publish-listings-to-marketplace.md) zoals beschreven in de volgende onderwerpen:
 
-* **[Producten afstemmen op Walmart](publish-listings-to-marketplace.md)**-Publiceer productaanbiedingen van je kanaal naar [!DNL Walmart Marketplace] door bestaande aanbiedingen die hetzelfde product verkopen bij te werken. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-product-attributes-for-matching.md) voor uw kanaal.
+* **[Producten afstemmen op Walmart](publish-listings-to-marketplace.md)**-Publiceer productaanbiedingen van je kanaal naar [!DNL Walmart Marketplace] door bestaande aanbiedingen die hetzelfde product verkopen bij te werken. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw kanaal.
 
 * **[Nieuwe aanbiedingen handmatig uploaden](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Voor producten die niet overeenkomen met een bestaande aanbieding op Marketplace, gebruikt u een Excel-sjabloon voor de Walmart-productcategorie om productaanbiedingen in bulk te uploaden.
 
@@ -97,6 +97,8 @@ In de werkruimte van de aanbieding geeft het label Status aan waar een product z
 
 * **[!UICONTROL Match - Match in Stage]**-Identificeert producten die overeenkomen met [!DNL Walmart] die pas gepubliceerd kunnen worden na de [!DNL Walmart Marketplace] de winkel is live. Producten met deze status publiceren automatisch wanneer de [!DNL Walmart Marketplace] winkel gaat live.
 
-* **[!UICONTROL Error]**-Identificeert producten die niet aan een bestaand [!DNL Walmart Marketplace] aanbieding. Foutgegevens weergeven door de muisaanwijzer op de knop *Fout* statuslabel.
+* **[!UICONTROL Error]**-Identificeert producten die niet aan een bestaand [!DNL Walmart Marketplace] aanbieding.
+
+* **[!UICONTROL Error description]**-Biedt gedetailleerde informatie over de lijstfout.
 
    Nadat u de fout hebt verholpen, dient u het product opnieuw in voor overeenkomst. Zie [Problemen met overeenkomende productfouten oplossen](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

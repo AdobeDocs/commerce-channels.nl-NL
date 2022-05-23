@@ -2,9 +2,9 @@
 title: Aanbiedingen publiceren naar Walmart
 description: Publiceer aanbiedingen voor Commerce-producten naar Walmart Marketplace om te beginnen met verkopen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Meestal worden productaanbiedingen met de laagste prijzen het eerst weergegeven 
 
 ## Producten afstemmen
 
-Wanneer u producten aanpast, verzendt de Manager van het Kanaal de productgegevens naar [!DNL Walmart Marketplace] om te zoeken naar bestaande aanbiedingen met kenmerkwaarden die overeenkomen met het toegewezen productkenmerk Commerce. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-product-attributes-for-matching.md) voor uw winkelkanaal.
+Wanneer u producten aanpast, verzendt de Manager van het Kanaal de productgegevens naar [!DNL Walmart Marketplace] om te zoeken naar bestaande aanbiedingen met kenmerkwaarden die overeenkomen met het toegewezen productkenmerk Commerce. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw winkelkanaal.
 
 Als er een overeenkomst wordt gevonden, wordt de bestaande productaanbieding bijgewerkt en wordt je voorstel toegevoegd.
 
 ### Vereisten
 
-Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de productcatalogus voldoen aan de vereisten van het Martard en attributenmontages vormen. Zie [Productovereenkomst configureren](map-product-attributes-for-matching.md).
+Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de productcatalogus voldoen aan de vereisten van het Martard en attributenmontages vormen. Zie [Kenmerken van catalogus toewijzen](map-catalog-attributes.md).
 
 #### Producten selecteren en afstemmen
 
@@ -54,15 +54,15 @@ Nadat de overeenkomst is voltooid, kan de status *Overeenkomst* of *Fout*.
 
 * **[!UICONTROL Match]** geeft aan dat het product is gevonden. Je productaanbod is gepubliceerd naar een bestaande Walmart Marketplace-aanbieding. Als de [Marktarchief is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wordt weergegeven in het dialoogvenster *[!UICONTROL Status detail]* kolom.
 
-Als uw [[!DNL Walmart Marketplace] store is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status)de *Statusdetails* de kolom geeft aan dat het product *Staand voor overeenkomst*. Geleidelijke producten worden automatisch gepubliceerd zodra de [!DNL Walmart Marketplace] store is geactiveerd.
+Als uw [[!DNL Walmart Marketplace] store is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status)de *Statusdetails* de kolom geeft aan dat het product *Staand voor overeenkomst*. Producten in het werkgebied worden automatisch gepubliceerd wanneer de [!DNL Walmart Marketplace] store is geactiveerd.
 
-* **[!UICONTROL Error]** Hiermee wordt een van de volgende items aangegeven:
+* **[!UICONTROL Error]** geeft aan dat de overeenkomende bewerking is mislukt door een van de volgende problemen:
 
-   * Er is een fout opgetreden en de overeenkomende bewerking is mislukt.
+   * [!DNL Channel Manager] kan niet verzenden voor overeenkomst vanwege een verbindingsprobleem.
 
    * Er is geen overeenkomst gevonden.
 
-   * Overeenkomsten gevonden, maar de aanbieding kan niet worden gepubliceerd vanwege een fout die is geretourneerd door de Walmart-markt.  of het ontbreken van een attribuut, of gepubliceerd zoals gefaseerd omdat [Marktarchief is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Overeenkomst gevonden, maar de aanbieding kan niet worden gepubliceerd omdat [!DNL Walmart Marketplace] heeft een foutcode geretourneerd. Zie *Statusdetails** voor de beschrijving van de fout.
 
 ### Aanbieding controleren op Walmart
 
@@ -116,7 +116,7 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
 ### Vereisten
 
-* Controleren of u voldoet aan de [Walmart-voorwaarden](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* Controleren of u voldoet aan de [Walmart-voorwaarden](walmart-prerequisites.md).
 
 * Controleer in uw productcatalogus van de Handel of de catalogusconfiguratie voor de producten die op de Walmart Marketplace worden aangeboden, alle vereiste kenmerken heeft en voldoet aan de richtlijnen voor Inhoud van de Marketplace van het type Walmart.
 

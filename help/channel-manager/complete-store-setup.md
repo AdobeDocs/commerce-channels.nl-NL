@@ -2,9 +2,9 @@
 title: Volledige installatie verkoopkanaal
 description: Navigeer naar een verbonden verkoopkanaal voor het beheren van de weergave en het beheren van productaanbiedingen, voorraad- en prijsupdates en het volgen van bestellingen
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], volle
 
 1. Begin verkoopkanaalbewerkingen.
 
-   - [Producten toevoegen van uw [!DNL Commerce Catalog] naar Kanaalbeheer](add-products-to-connected-channel.md)
+   - [Producten toevoegen van uw [!DNL Commerce Catalog] naar Kanaalbeheer](add-products-to-channel-store.md)
 
    - [Productaanbiedingen publiceren naar [!DNL Walmart] productmatching gebruiken](publish-listings-to-marketplace.md)
 

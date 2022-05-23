@@ -2,9 +2,9 @@
 title: Walmart Marketplace-bestellingen beheren
 description: Weergeven en beheren [!DNL Walmart Marketplace] bestellingen met [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Het kan tot 35 minuten duren [!DNL Walmart Marketplace] in de [!DNL Channel Manager] orderlijst. [!DNL Walmart] vereist ongeveer 30 minuten om binnenkomende orders te verwerken en naar te sturen [!DNL Channel Manager].  Nadat Channel Manager de bestelling heeft ontvangen, duurt het nog 5 minuten om de bestelling te maken en weer te geven in Adobe Commerce of Magento Open Source.
+>Het kan tot 35 minuten duren [!DNL Walmart Marketplace] in de [!DNL Channel Manager] orderlijst. [!DNL Walmart] vereist ongeveer 30 minuten om binnenkomende orders te verwerken en naar te sturen [!DNL Channel Manager]. Nadat Channel Manager de bestelling heeft ontvangen, duurt het nog ongeveer vijf minuten om de bestelling te maken en weer te geven in Adobe Commerce of Magento Open Source.
 
 ## Bestellingen controleren
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. Open de archiefweergave door het potloodpictogram te selecteren in een rij met items in de winkel.
 
 1. Selecteer * om de ordergegevens weer te geven[!UICONTROL *Orders]**.
+
+1. Informatie ophalen over de bestelling en de volgende stappen bepalen door de **[Status](#about-order-status)** kolom om informatie over de orden te krijgen.
 
 ## Bestelgegevens weergeven
 
@@ -54,6 +56,8 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 | [!UICONTROL Ship By Date] | Datum waarop de bestelling moet worden verzonden door om te voldoen aan [!DNL Walmart Marketplace] eisen. |
 | [!UICONTROL Order Status] | Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de [!DNL Walmart Marketplace]. Als een bewerking mislukt, wordt de status Fout weergegeven. Nadat u de fout hebt verholpen, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
 
+| [!UICONTROL Error description]    | Verstrekt meer gedetailleerde informatie over orden met een *Fout* status.|
+
 ### Over Status van bestelling
 
 [!UICONTROL Order Status] bevat informatie over de huidige status van [!DNL Walmart Marketplace] bestellingen beheerd vanuit Adobe Commerce of Magento Open Source. De statusupdates van de orde komen voor wanneer [!DNL Channel Manager] ontvangt bijgewerkte orderinformatie van of [!DNL Walmart Marketplace] of de [!DNL Commerce] bestelsysteem. Orders kunnen de volgende statussen hebben:
@@ -74,6 +78,6 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 
    Nadat de restitutie is voltooid, wordt de [!DNL Commerce] voorraadhoeveelheid wordt bijgewerkt om de terugbetaalde objecten weer te geven. Vervolgens [!DNL Channel Manager] synchroniseert de update naar de [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Error]**- Bestellingen die niet naar de gegevensopslagplaats zijn geïmporteerd vanwege ontbrekende informatie of andere problemen.
+* **[!UICONTROL Error]**- Orders met fouten. Fouten kunnen optreden wanneer een bewerking voor het bijwerken van een bestelling mislukt. Er treden bijvoorbeeld fouten op als [!DNL Channel Manager] kan geen nieuwe bestelling van Walmart ontvangen. Ze kunnen ook voorkomen als [!DNL Channel Manager] kan geen update voor verzending of annulering van een bestelling verzenden naar de [!DNL Walmart Marketplace].
 
-   Houd de muisaanwijzer boven de knop *[!UICONTROL Error]* statusindicator. Nadat u de fout hebt opgelost, wordt de volgorde automatisch bijgewerkt om de huidige informatie en status weer te geven.
+* **[!UICONTROL Error description]**- Verstrekt gedetailleerde informatie over ordefouten die toe te schrijven aan kwesties zoals ontbrekende informatie of ongeldige waarden, onjuiste verzenddetails, of een ontbroken orde annuleren voorkomen. Aan de hand van de beschrijving kunt u bepalen of er een fout is opgetreden in het dialoogvenster [!DNL Commerce] of op de [!DNL Walmart Marketplace].
