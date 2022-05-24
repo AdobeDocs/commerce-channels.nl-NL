@@ -2,9 +2,9 @@
 title: Walmart Marketplace-bestellingen beheren
 description: Weergeven en beheren [!DNL Walmart Marketplace] bestellingen met [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 | [!UICONTROL Order Value] | Totale kosten van de bestelde objecten. |
 | [!UICONTROL Date Created] | De datum waarop de order is gemaakt op de [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | Datum waarop de bestelling moet worden verzonden door om te voldoen aan [!DNL Walmart Marketplace] eisen. |
-| [!UICONTROL Order Status] | Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de [!DNL Walmart Marketplace]. Als een bewerking mislukt, wordt de status Fout weergegeven. Nadat u de fout hebt verholpen, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
-
-| [!UICONTROL Error description]    | Verstrekt meer gedetailleerde informatie over orden met een *Fout* status.|
+| [!UICONTROL Deliver By Date] | Datum waarop de bestelling aan de klant moet worden geleverd om te voldoen [!DNL Walmart Marketplace] eisen. |
+| [!UICONTROL Last Update At] | Tijdstempel die aangeeft wanneer de bestelgegevens het laatst zijn bijgewerkt [!DNL Channel Manager] |
+| [!UICONTROL Status] | Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de [!DNL Walmart Marketplace]. Als een bewerking mislukt, wordt de status Fout weergegeven. Nadat u de fout hebt verholpen, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
+| [!UICONTROL Error Description] | Verstrekt meer gedetailleerde informatie over orden met een *Fout* status. |
 
 ### Over Status van bestelling
 

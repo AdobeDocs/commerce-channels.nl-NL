@@ -2,9 +2,9 @@
 title: Aanbiedingen beheren
 description: Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Creeer het productassortiment voor het kanaal van de Marketplace van de Markeren
 
 ## Producten publiceren naar Walmart
 
-U kunt productaanbiedingen maken op de Marketplace van het type Walmart met productmatching of door handmatig productaanbiedingen voor nieuwe producten te uploaden. Zie voor instructies [Aanbiedingen publiceren naar Walmart Marketplace](publish-listings-to-marketplace.md) zoals beschreven in de volgende onderwerpen:
+U kunt productaanbiedingen maken op de Marketplace van het type Walmart met productmatching of door handmatig productaanbiedingen voor nieuwe producten te uploaden.
 
-* **[Producten afstemmen op Walmart](publish-listings-to-marketplace.md)**-Publiceer productaanbiedingen van je kanaal naar [!DNL Walmart Marketplace] door bestaande aanbiedingen die hetzelfde product verkopen bij te werken. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw kanaal.
+* **[Producten afstemmen op Walmart](publish-listings-to-marketplace.md)**—Publiceer productaanbiedingen van je kanaal naar [!DNL Walmart Marketplace] door bestaande aanbiedingen die hetzelfde product verkopen bij te werken. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw kanaal.
 
-* **[Nieuwe aanbiedingen handmatig uploaden](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Voor producten die niet overeenkomen met een bestaande aanbieding op Marketplace, gebruikt u een Excel-sjabloon voor de Walmart-productcategorie om productaanbiedingen in bulk te uploaden.
+* **[Nieuwe aanbiedingen handmatig uploaden](publish-listings-to-marketplace.md#upload-new-product-listings)**—Voor producten die niet overeenkomen met een bestaande aanbieding op de Marketplace van Walmart, gebruik een sjabloon van de de productcategorie Excel van het Walmart om productaanbiedingen in bulk te uploaden.
 
 ## Besturingselementen voor lijsten en kolombeschrijvingen
 
@@ -87,18 +87,18 @@ In de werkruimte van de aanbieding geeft het label Status aan waar een product z
 
 * **[!UICONTROL Draft]**-Identificeert producten die niet zijn [ingediend bij [!DNL Walmart] voor matching](publish-listings-to-marketplace.md#match-products).
 
-* **[!UICONTROL Processing]**-Identificeert producten die worden ingediend voor matching op de [!DNL Walmart Marketplace]. Producten blijven in *Verwerking* status tot de [!DNL Walmart] retourneert een HTTP-statusbericht dat aangeeft of de overeenkomst is gelukt of dat er een fout is opgetreden. Het kan tot 30 minuten duren voor de gelijke verrichting op [!DNL Walmart Marketplace].
+* **[!UICONTROL Processing]**—Identificeert producten die worden ingediend voor matching op de [!DNL Walmart Marketplace]. Producten blijven in *Verwerking* status tot de [!DNL Walmart] retourneert een HTTP-statusbericht dat aangeeft of de overeenkomst is gelukt of dat er een fout is opgetreden. Het kan tot 30 minuten duren voor de gelijke verrichting op [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]**- Identificeert producten die met succes werden aangepast [!DNL Walmart].
 
-   Er treedt een overeenkomst op wanneer de waarde-UPC-code van het productkenmerk bijvoorbeeld overeenkomt met de UPC-waarde in een bestaand[!DNL Walmart Marketplace] aanbieding. Wanneer een product aanpast, wordt de het productaanbieding van de Handel toegevoegd aan de bestaande aanbieding van het Marsmarm.
+   Er is een overeenkomst wanneer de waarde van het productkenmerk (bijvoorbeeld de UPC-code) overeenkomt met de UPC-waarde in een bestaand kenmerk[!DNL Walmart Marketplace] aanbieding. Wanneer een product aanpast, wordt de het productaanbieding van de Handel toegevoegd aan de bestaande aanbieding van het Marsmarm.
 
    Controleer de [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard om de bijgewerkte productlijst te bekijken en de productgegevens, de prijs en de voorraad te controleren.
 
-* **[!UICONTROL Match - Match in Stage]**-Identificeert producten die overeenkomen met [!DNL Walmart] die pas gepubliceerd kunnen worden na de [!DNL Walmart Marketplace] de winkel is live. Producten met deze status publiceren automatisch wanneer de [!DNL Walmart Marketplace] winkel gaat live.
+* **[!UICONTROL Match - Match in Stage]**—Identificeert producten die overeenkomen met [!DNL Walmart] die pas gepubliceerd kunnen worden na de [!DNL Walmart Marketplace] de winkel is live. Producten met deze status publiceren automatisch wanneer de [!DNL Walmart Marketplace] winkel gaat live.
 
-* **[!UICONTROL Error]**-Identificeert producten die niet aan een bestaand [!DNL Walmart Marketplace] aanbieding.
+* **[!UICONTROL Error]**—Identificeert producten die niet aan een bestaand [!DNL Walmart Marketplace] aanbieding.
 
-* **[!UICONTROL Error description]**-Biedt gedetailleerde informatie over de lijstfout.
+* **[!UICONTROL Error description]**—Geeft gedetailleerde informatie over de lijstfout.
 
    Nadat u de fout hebt verholpen, dient u het product opnieuw in voor overeenkomst. Zie [Problemen met overeenkomende productfouten oplossen](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).
