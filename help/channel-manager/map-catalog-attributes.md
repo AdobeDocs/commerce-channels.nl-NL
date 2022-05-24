@@ -1,20 +1,20 @@
 ---
 title: Kenmerken van catalogus toewijzen
 description: Kenmerken toewijzen voor overeenkomsten [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart].
-source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
+exl-id: 6678d81f-d167-460d-b656-d082d56f670c
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-
 # Kenmerken van catalogus toewijzen
 
 Voordat u aanbiedingen publiceert vanuit [!DNL Commerce] tot [!DNL Walmart Marketplace], moet u ten minste één unieke id van uw [!DNL Commerce] catalogus aan het overeenkomstige herkenningsteken van Walmart.
 Deze stap is vereist voor [!DNL Commerce] producten naar bestaande [!DNL Walmart] aanbiedingen en productgegevens synchroniseren tussen [!DNL Commerce] en [!DNL Walmart].
 
-Voor productmatching moet het product van de Handel ten minste één productkenmerk hebben dat één van de volgende product-id&#39;s (Product ID&#39;s) aanpast die door [!DNL Walmart].
+Voor productmatching moet het product van de Handel minstens één productattribuut hebben dat één van de volgende Product Identifiers (Product IDs) aanpast die door [!DNL Walmart].
 
 **Vereiste product-id&#39;s van Walmart**
 
@@ -25,7 +25,7 @@ Voor productmatching moet het product van de Handel ten minste één productkenm
 | ISSN | Internationaal serienummer | Serienummer van 8 cijfers dat wordt gebruikt voor de identificatie van tijdschriften, tijdschriften, dagbladen en tijdschriften van alle soorten die worden geleverd op alle gedrukte en elektronische media | 8 cijfers |
 | UPC | Universele productcode | Standaardcode voor bijhouden van detailhandel | 12 cijfers |
 
-Als in uw catalogus geen kenmerk voorkomt dat overeenkomt met een van deze typen, [Een bestaand cataloguskenmerk toevoegen of omzetten](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Als uw catalogus geen overeenkomend kenmerk heeft, [Een bestaand cataloguskenmerk toevoegen of omzetten](https://docs.magento.com/user-guide/catalog/product-attributes.html).
 
 ## Unieke id&#39;s toewijzen
 
@@ -37,6 +37,7 @@ Als in uw catalogus geen kenmerk voorkomt dat overeenkomt met een van deze typen
 
       In het volgende voorbeeld wordt het kenmerk UPC van de Marketplace Walmart gekoppeld aan het kenmerk UPC in de productcatalogus.
    ![Kenmerken toewijzen voor productcriteria](assets/products-map-attributes-for-match.png)
+   - U kunt desgewenst meerdere kenmerken toewijzen om de overeenkomst te vergroten. Als u meerdere kenmerken toewijst, selecteert u een kenmerk als het **Primaire id**. Dit
 
    - Selecteren **[!UICONTROL Save]**.
 

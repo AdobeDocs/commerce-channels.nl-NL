@@ -1,23 +1,23 @@
 ---
 title: Procesopdrachten
 description: Instructies voor verzending en annulering [!DNL Walmart Marketplace] bestellingen van Adobe Commerce en Magento Open Source.
-source-git-commit: 90ccbecd6d1433ae1312d79f7ae2d34c8f381b97
+exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-
 # Procesopdrachten
 
-Als u Adobe Commerce en Magento Open Source Order Management gebruikt om uw [!DNL Commerce] winkelverkoop, proces [!DNL Walmart Marketplace] bestellingen van de Handel die een gelijkaardige werkschema gebruiken.
+Als u Adobe Commerce en Magento Open Source Order Management gebruikt om uw [!DNL Commerce] winkelverkoop, kunt u verwerken [!DNL Walmart Marketplace] bestellingen van de Handel die de zelfde werkschema gebruiken.
 
 Wanneer u een orde in Handel verwerkt, synchroniseert de Manager van het Kanaal updates aan [!DNL Walmart Marketplace]. Deze update zorgt ervoor dat de status van de bestelling en de verzendgegevens van de Handel overeenkomen met de gegevens die worden bijgehouden in het dialoogvenster [!DNL Walmart Marketplace].
 
-* **Overbrenging van orders**-Walmart vereist een volgnummer voor alle zendingen. Als de voorraadhoeveelheid ontoereikend is om een volledige orde te vullen, creeert u een gedeeltelijke verzending. Nadat u de verzending hebt verzonden, worden de orderupdates gesynchroniseerd met [!DNL Walmart Marketplace]. Dan, brengt het Walmart klanten over de ordestatus en verzenddetails op de hoogte.
+* **Overbrenging van orders**-Walmart vereist een volgnummer voor alle zendingen. U kunt gedeeltelijke verzendingen maken als u geen voorraad hebt voor alle items in de volgorde. Nadat u de verzending hebt verzonden, worden de orderupdates gesynchroniseerd met [!DNL Walmart Marketplace]. Dan, brengt het Walmart klanten over de ordestatus en verzenddetails op de hoogte.
 
-* **Opdrachten geannuleerd**-Wanneer u een [!DNL Walmart Marketplace] order, Walmart vereist een annuleringsreden. De reden voor annulering is opgenomen in het bericht voor annulering van bestelling dat naar de klant is verzonden. De reden voor annulering wordt ook weergegeven in het dialoogvenster [!DNL Commerce] betalingsgegevens.
+* **Opdrachten geannuleerd**-Wanneer u een [!DNL Walmart Marketplace] bestelling, vereist de Marm een annuleringsreden die in de bericht van de ordeverstoring inbegrepen is die aan de klant wordt verzonden. De reden voor annulering wordt ook weergegeven in het dialoogvenster [!DNL Commerce] betalingsgegevens.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Wanneer u een orde in Handel verwerkt, synchroniseert de Manager van het Kanaal 
 
    ![Gedetailleerde weergave voor handelsorders voor een Walmart Marketplace-order](assets/order-detail-with-external-order-id.png)
 
-   * Als u een vervoerder wilt kiezen en een trackingnummer wilt toevoegen, selecteert u **[!UICONTROL Add tracking number]**.
+   * Kies een vervoerder en voeg een trackingnummer toe door **[!UICONTROL Add tracking number]**.
 
    * Vul de rest van het verzendformulier naar wens in. Zie [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) voor gedetailleerde instructies.
 
@@ -53,7 +53,7 @@ Wanneer u een orde in Handel verwerkt, synchroniseert de Manager van het Kanaal 
 
 1. Open in de tabel Orders de pagina met orderdetails door het **Handelsordernummer** voor de order om te annuleren.
 
-![Gedetailleerde weergave voor handelsorders voor een Walmart Marketplace-order](assets/order-detail-with-external-order-id.png)
+   ![Gedetailleerde weergave voor handelsorders voor een Walmart Marketplace-order](assets/order-detail-with-external-order-id.png)
 
 1. Annuleer de bestelling.
 
@@ -66,4 +66,4 @@ Wanneer u een orde in Handel verwerkt, synchroniseert de Manager van het Kanaal 
    * Selecteren **Bestelling annuleren**.
 
 
-1. Controleren of updates zijn verzonden naar [!DNL Walmart Marketplace] door [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager].
+1. Na het verzenden van de annulering volgt u de [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] om te controleren of updates zijn verzonden naar [!DNL Walmart Marketplace].
