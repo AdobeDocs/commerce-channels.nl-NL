@@ -2,9 +2,9 @@
 title: Kenmerken van catalogus toewijzen
 description: Kenmerken toewijzen voor overeenkomsten [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 Voordat u aanbiedingen publiceert vanuit [!DNL Commerce] tot [!DNL Walmart Marketplace], moet u ten minste één unieke id van uw [!DNL Commerce] catalogus aan het overeenkomstige herkenningsteken van Walmart.
 Deze stap is vereist voor [!DNL Commerce] producten naar bestaande [!DNL Walmart] aanbiedingen en productgegevens synchroniseren tussen [!DNL Commerce] en [!DNL Walmart].
 
-Voor productmatching moet het product van de Handel minstens één productattribuut hebben dat één van de volgende Product Identifiers (Product IDs) aanpast die door [!DNL Walmart].
+Voor overeenkomende producten wordt de [!DNL Commerce] product moet ten minste één productkenmerk hebben dat overeenkomt met een van de volgende product-id&#39;s (Product ID&#39;s) die vereist zijn door [!DNL Walmart].
 
-**Vereiste product-id&#39;s van Walmart**
+**Vereist [!DNL Walmart] product-id&#39;s**
 
 | **Type geaccepteerd** | **Naam** | **Doel** | **Acceptabele cijfers** |
 |-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
@@ -31,11 +31,11 @@ Als uw catalogus geen overeenkomend kenmerk heeft, [Een bestaand cataloguskenmer
 
 1. Op de [!UICONTROL Listings] pagina voor de winkel van verkoopkanalen, selecteert u **[!UICONTROL Settings]**.
 
-   - Zoek het kenmerk Walmart Marketplace dat u wilt toewijzen.
+   - Zoek de [!DNL Walmart Marketplace] toe te wijzen kenmerk.
 
    - Selecteer het desbetreffende kenmerk in het menu [!DNL Commerce] opslagcatalogus.
 
-      In het volgende voorbeeld wordt het kenmerk UPC van de Marketplace Walmart gekoppeld aan het kenmerk UPC in de productcatalogus.
+      In het volgende voorbeeld worden de [!UICONTROL Walmart Marketplace UPC] aan het attribuut UPC in de productcatalogus.
    ![Kenmerken toewijzen voor productcriteria](assets/products-map-attributes-for-match.png)
    - U kunt desgewenst meerdere kenmerken toewijzen om de overeenkomst te vergroten. Als u meerdere kenmerken toewijst, selecteert u een kenmerk als het **Primaire id**. Dit
 

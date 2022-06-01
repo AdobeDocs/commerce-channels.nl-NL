@@ -2,9 +2,9 @@
 title: Volledige installatie verkoopkanaal
 description: Navigeer naar een verbonden verkoopkanaal voor het beheren van de weergave en het beheren van productaanbiedingen, voorraad- en prijsupdates en het volgen van bestellingen
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: 20ba244a656a13bad1637d27980331cdbd88bb69
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,6 @@ Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], volle
 
    - [Productaanbiedingen publiceren naar [!DNL Walmart] productmatching gebruiken](publish-listings-to-marketplace.md)
 
-   - [Meer informatie [!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen Commerce en Walmart](inventory-and-price-updates.md)
+   - [Meer informatie [!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen [!DNL Commerce] en [!DNL Walmart]](inventory-and-price-updates.md)
 
    - [Weergeven en beheren [!DNL Walmart] bestellingen van de [!DNL Commerce Admin]](manage-orders.md)

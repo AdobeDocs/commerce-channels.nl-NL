@@ -2,9 +2,9 @@
 title: Producten toevoegen aan verkoopkanaalwinkel
 description: Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten uit de catalogus aan het verkoopkanaal toe te voegen
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Producten toevoegen aan verkoopkanaalwinkel
 
-Als u producten wilt synchroniseren met het verkoopkanaal van de Walmart Marketplace, selecteert u producten in het menu [!DNL Commerce] productcatalogus en deze importeren in Channel Manager. De geselecteerde producten moeten de volgende attributenconfiguratie hebben:
+Producten synchroniseren met de [!DNL Walmart Marketplace] verkoopkanaal, selecteert u producten van [!DNL Commerce] productcatalogus en deze importeren in Channel Manager. De geselecteerde producten moeten de volgende attributenconfiguratie hebben:
 
 - **[!UICONTROL Publish to Channel Manager]** attribute is enabled
 
-- Ten minste één productkenmerk moet overeenkomen met een van de [vereiste Marketplace-kenmerken voor Marketplace](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Ten minste één productkenmerk moet overeenkomen met een van de [vereist [!DNL Walmart Marketplace] attributes](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
 
 Het proces voor de invoer van producten uit [!DNL Commerce] naar Channel Manager kan maximaal 30 minuten of meer in beslag nemen, afhankelijk van het aantal producten dat u selecteert.
 
@@ -38,7 +38,7 @@ Het proces voor de invoer van producten uit [!DNL Commerce] naar Channel Manager
 
    - Naar de **[!UICONTROL Publish to Channel Manager]** en inschakelen.
 
-   - Verifieer dat de productattributen minstens één van de vereiste Producten IDs van het Marm omvatten.
+   - Controleren of de productkenmerken ten minste een van de vereiste kenmerken bevatten [!DNL Walmart Product IDs].
 
    - Selecteren **[!UICONTROL Save]**.
 

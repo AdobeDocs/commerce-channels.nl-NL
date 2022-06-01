@@ -1,32 +1,32 @@
 ---
-title: Walmart-vereisten
-description: Verifieer dat u de vereiste Marketplace informatie en de middelen van de Markt van de Markt hebt om met de Manager van het Kanaal te integreren.
+title: '"[!DNL Walmart] Vereisten"'
+description: '"Controleer of u de vereiste [!DNL Walmart Marketplace] informatie en bronnen die met Channel Manager moeten worden geïntegreerd."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# Walmart-voorwaarden
+# [!DNL Walmart] voorwaarden
 
-De Manager van het kanaal vereist de volgende middelen en de informatie om een de verkoopkanaal van de Handel voor de Marketplace van de Markt van de Markt te vormen.
+[!DNL Channel Manager] vereist de volgende middelen en de informatie om een [!DNL Commerce] verkoopkanaal voor [!DNL Walmart Marketplace.]
 
-* Goedkeuring om te verkopen op Walmart en aanmeldingsgegevens voor de geregistreerde verkopersaccount
+* Goedkeuring om op te verkopen [!DNL Walmart] en aanmeldingsgegevens voor aanmelding bij de geregistreerde verkopersaccount
 
-* Een API-sleutel om Adobe Commerce of Magento Open Source te verbinden met Walmart Marketplace
+* Een API-sleutel om Adobe Commerce of Magento Open Source om te verbinden met [!DNL Walmart Marketplace]
 
-   De Walmart Marketplace API sleutel laat de integratie tussen de Manager van het Kanaal voor Adobe Commerce of Magento Open Source en de Marketplace van de Markeren toe. Stel de API-sleutel in Seller Central in voordat u Kanaalbeheer aan boord gaat.
+   De [!DNL Walmart Marketplace] API-sleutel maakt de integratie mogelijk tussen [!DNL Channel Manager] voor Adobe Commerce of Magento Open Source en de Walmart Marketplace. Stel de API-sleutel in Seller Central in voordat u Kanaalbeheer aan boord gaat.
 
 ## Een verkopersaccount instellen
 
 1. [De toepassing Walmart-verkoper verzenden](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Na goedkeuring door Walmart, [je Walmart Seller-account instellen](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Na goedkeuring van [!DNL Walmart], [je Walmart Seller-account instellen](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Een Walmart Marketplace Production API-sleutel genereren
+## Een [!DNL Walmart Marketplace] API-sleutel voor productie
 
-1. Ga naar Walmart Marketplace om een [productie-API-sleutel voor oplossingsprovider voor Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Ga naar [!DNL Walmart Marketplace] om een [productie-API-sleutel voor oplossingsprovider voor Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Maak de sleutel en configureer machtigingen:
 
@@ -50,12 +50,12 @@ De Manager van het kanaal vereist de volgende middelen en de informatie om een d
    | Regels | Volledige toegang |
    | Verzending | Volledige toegang |
 
-## Status van Walmart Marketplace Store
+## [!DNL Walmart Marketplace] Winkelstatus
 
-Wanneer u producten aan Marketplace publiceert, hangt de beschikbaarheid van lijsten van de status van uw winkels van de Marketplace van de Markt van de Markt van de Markt van de Markt af:
+Wanneer je producten op de markt publiceert, hangt de beschikbaarheid van aanbiedingen af van de status van je [!DNL Walmart Marketplace] winkels:
 
 * Voor live winkels worden je productaanbiedingen aangeboden en te koop aangeboden wanneer de match voltooid is.
 
-* Voor winkels die niet live zijn, worden uw productaanbiedingen gefaseerd en niet zichtbaar voor klanten. Wanneer de winkel live gaat, worden gefaseerde aanbiedingen automatisch naar de live winkel gestuurd.
+* Voor winkels die niet live zijn, worden uw productaanbiedingen gefaseerd en niet zichtbaar voor klanten. Wanneer de [!DNL Walmart Marketplace] Winkel gaat live, gefaseerde aanbiedingen worden automatisch naar de live winkel gestuurd.
 
 ![[!DNL Walmart Seller Central] gefaseerde producten](assets/walmart-seller-central-staged.png)

@@ -2,9 +2,9 @@
 title: Aanbiedingen beheren
 description: Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ U kunt de volgende taken uitvoeren vanuit de lijstweergave.
 
 ## Commerce-producten toevoegen aan Channel Manager
 
-Creeer het productassortiment voor het kanaal van de Marketplace van de Markeren van de Markt door de volgende taken te voltooien:
+Maak de productassortiment voor de [!DNL Walmart Marketplace] kanaal door de volgende taken uit te voeren:
 
-* [Producten uit uw productcatalogus voor handel toevoegen aan Channel Manager](add-products-to-channel-store.md)
+* [Producten toevoegen van uw [!DNL Commerce] productcatalogus naar [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [Kenmerken van catalogus toewijzen](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Producten publiceren naar Walmart
+## Producten publiceren naar [!DNL Walmart]
 
-U kunt productaanbiedingen maken op de Marketplace van het type Walmart met productmatching of door handmatig productaanbiedingen voor nieuwe producten te uploaden.
+U kunt productaanbiedingen maken op de [!DNL Walmart Marketplace] met productmatching of door handmatig productaanbiedingen voor nieuwe producten te uploaden.
 
 * **[Producten afstemmen op Walmart](publish-listings-to-marketplace.md)**—Publiceer productaanbiedingen van je kanaal naar [!DNL Walmart Marketplace] door bestaande aanbiedingen die hetzelfde product verkopen bij te werken. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw kanaal.
 
-* **[Nieuwe aanbiedingen handmatig uploaden](publish-listings-to-marketplace.md#upload-new-product-listings)**—Voor producten die niet overeenkomen met een bestaande aanbieding op de Marketplace van Walmart, gebruik een sjabloon van de de productcategorie Excel van het Walmart om productaanbiedingen in bulk te uploaden.
+* **[Nieuwe aanbiedingen handmatig uploaden](publish-listings-to-marketplace.md#upload-new-product-listings)**—Voor producten die niet overeenkomen met een bestaande aanbieding op [!DNL Walmart Marketplace], gebruikt u een [!DNL Walmart] productcategorie Excel-sjabloon om productaanbiedingen bulksgewijs te uploaden.
 
 ## Besturingselementen voor lijsten en kolombeschrijvingen
 
@@ -64,7 +64,7 @@ In de volgende tabellen worden de besturingselementen en kolommen beschreven die
 | **Control** | **Beschrijving** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Hiermee opent u de [!UICONTROL Admin Product Catalog] pagina voor het selecteren van producten die u aan uw [!DNL Walmart Marketplace] assorment, of om productattributen bij te werken om aan de vereisten van de de lijstaanbieding van de Marketplace van het Markeren te voldoen. |
-| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten in de conceptstatus hebt geselecteerd, selecteert u Producten afstemmen op Walmart om te controleren op productaanbiedingen die aan een bestaand product kunnen worden toegevoegd [!DNL Walmart Marketplace] aanbieding. |
+| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten in de conceptstatus hebt geselecteerd, selecteert u Producten afstemmen op [!DNL Walmart] om te controleren op productaanbiedingen die kunnen worden toegevoegd aan een bestaande [!DNL Walmart Marketplace] aanbieding. |
 | [!UICONTROL Refresh products] | Werk de weergave bij met de meest recente aanbieding en status. Met dit besturingselement wordt ook de standaardsorteervolgorde van de lijstweergave hersteld en worden eventuele filters verwijderd. |
 | [!UICONTROL Filter by *Status*] | Alleen aanbiedingen met een specifieke status weergeven door een van de statustelkaarten boven de tabel met aanbiedingen te selecteren. Gebruik de *Producten vernieuwen* om het filter te verwijderen. |
 | [!UICONTROL Sort products] | Wijzig de sorteervolgorde voor de aanbieding door een kolomkop te selecteren. |
@@ -91,7 +91,7 @@ In de werkruimte van de aanbieding geeft het label Status aan waar een product z
 
 * **[!UICONTROL Match]**- Identificeert producten die met succes werden aangepast [!DNL Walmart].
 
-   Er is een overeenkomst wanneer de waarde van het productkenmerk (bijvoorbeeld de UPC-code) overeenkomt met de UPC-waarde in een bestaand kenmerk[!DNL Walmart Marketplace] aanbieding. Wanneer een product aanpast, wordt de het productaanbieding van de Handel toegevoegd aan de bestaande aanbieding van het Marsmarm.
+   Er is een overeenkomst wanneer de waarde van het productkenmerk (bijvoorbeeld de UPC-code) overeenkomt met de UPC-waarde in een bestaand kenmerk[!DNL Walmart Marketplace] aanbieding. Wanneer een product overeenkomt met een ander product, wordt het aanbod van het product Commerce toegevoegd aan het bestaande [!DNL Walmart] aanbieding.
 
    Controleer de [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard om de bijgewerkte productlijst te bekijken en de productgegevens, de prijs en de voorraad te controleren.
 
