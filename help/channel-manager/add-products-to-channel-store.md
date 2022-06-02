@@ -2,9 +2,9 @@
 title: Producten toevoegen aan verkoopkanaalwinkel
 description: Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten uit de catalogus aan het verkoopkanaal toe te voegen
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,30 @@ ht-degree: 0%
 
 # Producten toevoegen aan verkoopkanaalwinkel
 
-Producten synchroniseren met de [!DNL Walmart Marketplace] verkoopkanaal, selecteert u producten van [!DNL Commerce] productcatalogus en deze importeren in Channel Manager. De geselecteerde producten moeten de volgende attributenconfiguratie hebben:
+U voegt product toe aan de [!DNL Walmart Marketplace] verkoopkanaal door producten van te selecteren [!DNL Commerce] productcatalogus en importeren in [!DNL Channel Manager].
+Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal producten dat u selecteert.
+
+## Vereiste
+
+**[Kenmerken van catalogus toewijzen](map-catalog-attributes.md)**—In de [!DNL Channel Settings] configuratie, kaart minstens één attribuut van [!DNL Commerce] productcatalogus naar een van de vereiste Walmart-product-id&#39;s—-GTIN, ISBN, ISSN, UPC, EAN.
+
+## Aanbiedingsvereisten
+
+[!DNL Commerce] productlijsten moeten de volgende vereiste kenmerkconfiguratie hebben:
 
 - **[!UICONTROL Publish to Channel Manager]** attribute is enabled
 
-- Ten minste één productkenmerk moet overeenkomen met een van de [vereist [!DNL Walmart Marketplace] attributes](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Verstrek geldige waarden voor de vereiste attributen van de Mara.
 
-Het proces voor de invoer van producten uit [!DNL Commerce] naar Channel Manager kan maximaal 30 minuten of meer in beslag nemen, afhankelijk van het aantal producten dat u selecteert.
+   - Ten minste één productkenmerk dat overeenkomt met een van de vereiste [!DNL Walmart Marketplace] product identifiers-GTIN, ISBN, ISSN, UPC, EAN.
+
+   - Productprijs tot maximaal twee decimalen opgegeven, bijvoorbeeld `9.99`
+
+   - Productgewicht gespecificeerd tot maximaal twee decimalen, bijvoorbeeld `1.25`
+
+>[!TIP]
+>
+>Voor meer informatie over het optimaliseren van aanbiedingen voor je verkoopkanaal raadpleegt u de [Handleiding voor de optimalisatie van de aanbiedingskwaliteit van Walmart Marketplace](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
 ## Producten toevoegen
 
