@@ -4,7 +4,7 @@ description: Kanaalbeheer verbinden met [!DNL Commerce] diensten om gegevenssync
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -22,7 +22,7 @@ De de schakelaaropstelling van de Diensten van de handel is een eenmalig proces 
 
 - **Handelsrekening**- Als u software wilt installeren op instanties van Commerce, moet u een account met Eigenaar of Admin toegang hebben tot het platform Commerce.
 
-   Accounteigenaars en Admin-gebruikers kunnen Admin-accounts maken via de instantie Commerce of via de opdrachtregel [!DNL Commerce] CLI, opdracht `admin:user:create`.
+   Accounteigenaars en Super-gebruikers kunnen Admin-accounts maken via de instantie Commerce of via de opdrachtregel [!DNL Commerce] CLI, opdracht `admin:user:create`.
 
 - **Adobe Commerce Production API Key**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
 

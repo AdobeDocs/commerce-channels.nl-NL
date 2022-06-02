@@ -4,17 +4,15 @@ description: Sluit uw instantie aan [!DNL Channel Manager] door enkele instapsta
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 
 # Aan boord [!DNL Channel Manager]
-
-De online Manager van het Kanaal door de uitbreiding van de Manager van het Kanaal op uw te installeren [!DNL Commerce] -instantie en API-verbindingen configureren. Deze verbindingen laten communicatie en gegevenssynchronisatie tussen uw instantie van de Handel en toe [!DNL Walmart Marketplace].
 
 Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal van [!UICONTROL Channel Manager] de optie [!UICONTROL Commerce Admin Marketing] -menu.
 
@@ -32,7 +30,7 @@ Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal va
 
 ## Vereisten
 
-- Controleer of u de vereiste [Voorwaarden voor Walmart Marketplace](walmart-prerequisites.md) om te integreren met Kanaalbeheer.
+- Controleren of u voldoet aan de [Vereisten voor de Marketplace van Walmart](walmart-requirements.md) om te integreren met Kanaalbeheer.
 
 - **Informatie over handelsrekeningen**-Downloaden en installeren [!DNL Channel Manager] vereist een [Handelsrekening](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. U hebt een account-id en gebruikersgegevens nodig met de toegang tot de [!DNL Adobe Commerce] of [!DNL Magento Open Source] -instantie.
 
@@ -62,7 +60,7 @@ Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal va
 
    Als u Channel Manager wilt gebruiken voor inventarisatie- en bestelbeheer, moet de Inventory management-extensie zijn geïnstalleerd en ingeschakeld op uw Adobe Commerce- en Magento Open Source-exemplaar. Deze extensie wordt standaard geïnstalleerd en ingeschakeld op Adobe Commerce en Magento Open Source 2.3.x en hoger. Zie voor meer informatie [Inventory management installeren](https://devdocs.magento.com/extensions/inventory-management/) in de documentatie van Adobe Commerce Developer.
 
-### Vereisten
+### Systeemvereisten
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)

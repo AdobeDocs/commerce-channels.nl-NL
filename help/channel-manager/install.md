@@ -2,9 +2,9 @@
 title: Installeren [!DNL Channel Manager]
 description: Installeer de extensie Kanaalbeheer.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Installeren [!DNL Channel Manager]
 
-Controleer de [voorwaarden](onboard.md#prerequisites) en verzamel de vereiste informatie voordat u Channel Manager installeert.
+Controleer de [vereisten](onboard.md#requirements) en verzamel de vereiste informatie voordat u Channel Manager installeert.
 
 ## Minimale stabiliteit bijwerken
 
@@ -56,7 +56,7 @@ Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Comme
 1. Van de [!DNL Commerce] projecthoofdmap, Kanaalbeheer toevoegen aan `composer.json`.
 
    ```bash
-    $ composer require magento/channel-manager --no-update
+    composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Voer desgevraagd de toegangstoetsen in uit uw [!DNL Commerce] account.
@@ -66,59 +66,55 @@ Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Comme
 1. Werk de gebiedsdelen bij en installeer de uitbreiding.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
 
-   De `composer update` alle afhankelijkheden worden bijgewerkt. Als u alleen afhankelijkheden wilt bijwerken die betrekking hebben op Kanaalbeheer, gebruikt u in plaats daarvan deze opdracht: `composer update magento/channel-manager`.
+   De `composer update` bevel werkt slechts de gebiedsdelen bij die voor worden vereist [!DNL Channel Manager]. Om alle gebiedsdelen bij te werken, gebruik in plaats daarvan dit bevel: `composer update`.
 
 1. Wacht tot Composer de projectafhankelijkheden heeft bijgewerkt en eventuele fouten heeft opgelost.
 
-1. De installatie controleren
+1. Controleer de installatie van de module:
+
+   - Controleer de modulestatus.
+
+      ```bash
+      bin/magento module:status Magento_SalesChannels
+      ```
+
+      Monsterrespons:
+
+      ```terminal
+      Module is enabled
+      ```
+
+   - Als de module niet wordt toegelaten, laat het toe.
 
    ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   Monsterrespons:
-
-   ```terminal
-   Module is disabled
+   bin/magento module:enable Magento_SalesChannels
    ```
 
 1. Registreer de extensie.
 
    ```bash
-   $ bin/magento setup:upgrade
+   bin/magento setup:upgrade
    ```
 
 1. Indien gevraagd, compileert u uw [!DNL Commerce] project.
 
    ```bash
-   $ bin/magento setup:di:compile
-   ```
-
-1. Controleer of de extensie is ingeschakeld:
-
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   Monsterrespons:
-
-   ```bash
-   Module is enabled
+   bin/magento setup:di:compile
    ```
 
 1. Maak de cache leeg.
 
    ```bash
-   $ bin/magento cache:clean
+   bin/magento cache:clean
    ```
 
 1. Onderhoudsmodus uitschakelen.
 
    ```bash
-    $ bin/magento maintenance:disable
+   bin/magento maintenance:disable
    ```
 
 ### Installeren in een Adobe Commerce op een Cloud Infrastructure-instantie
@@ -136,14 +132,16 @@ Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt a
 1. Voeg met de naam Composer de extensie toe aan de `require` van de `composer.json` bestand.
 
    ```bash
-   $ composer require magento/channel-manager --no-update
+   composer require require magento/module-sales-channels-extension --no-update
    ```
 
-1. Werk de projectgebiedsdelen bij.
+1. Werk de gebiedsdelen bij en installeer de uitbreiding.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
+
+   De `composer update` bevel werkt slechts de gebiedsdelen bij die voor worden vereist [!DNL Channel Manager]. Om alle gebiedsdelen bij te werken, gebruik in plaats daarvan dit bevel: `composer update`.
 
 1. Wijzigingen in code toevoegen, doorvoeren en pushcode doorvoeren, inclusief wijzigingen in het dialoogvenster `composer.lock` en `composer.json` bestand.
 
@@ -161,15 +159,18 @@ Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt a
 
 1. Nadat het bouwstijl en plaatsingsproces voltooit, gebruik SSH aan login aan het verre milieu en verifieer dat de uitbreiding correct geïnstalleerd was.
 
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
+```bash
+   bin/magento module:status Magento_SalesChannels
+```
 
-   Monsterrespons:
+Monsterrespons:
 
-   ```terminal
-   Module is enabled
-   ```
+```terminal
+Module is enabled
+```
+
+Als de module is uitgeschakeld, [inschakelen in uw lokale omgeving](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) en implementeer uw wijzigingen.
+
 
 1. Nadat u de extensie hebt geïnstalleerd, meldt u zich aan bij de [!UICONTROL Admin] tot [Configureer de Commerce Services Connector](connect.md).
 

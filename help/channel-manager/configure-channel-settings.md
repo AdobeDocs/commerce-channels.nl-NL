@@ -1,9 +1,9 @@
 ---
 title: Kanaalinstellingen configureren
 description: Kanaalbeheer- en verkoopkanaalinstellingen configureren voor verificatie, de cataloguskenmerken en verzenddragers toewijzen die nodig zijn voor de coördinatie van verkoopactiviteiten tussen [!DNL Commerce] en de [!DNL Walmart Marketplace].
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ In [!DNL Channel Manager], vormt u sommige verkoopkanaalmontages tijdens het aan
 
 * **[Verzendkosten toewijzen](map-shipping-carriers.md)**-Voordat u gaat verwerken [!DNL Walmart Marketplace] bestellingen van [!DNL Commerce], zorg ervoor dat je verzendingsdragers toewijst aan je [!DNL Commerce] instantie aan de betrokken luchtvaartmaatschappijen [!DNL Walmart Marketplace].
 
-* **Referenties van de Walmart API**-Tijdens de [!DNL Channel Manager] als u [Referenties van de Walmart-API](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) van uw [!DNL Walmart Marketplace Seller] account voor verbinding [!DNL Commerce] tot [!DNL Walmart Marketplace] voor communicatie en gegevenssynchronisatie. Indien nodig kunt u deze gegevens bijwerken via het dialoogvenster *Instellingen* pagina.
+* **Referenties van de Walmart API**-Tijdens de [!DNL Channel Manager] als u [Referenties van de Walmart-API](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) van uw [!DNL Walmart Marketplace Seller] account voor verbinding [!DNL Commerce] tot [!DNL Walmart Marketplace] voor communicatie en gegevenssynchronisatie. Indien nodig kunt u deze gegevens bijwerken via het dialoogvenster *Instellingen* pagina.

@@ -2,9 +2,9 @@
 title: Overzicht van instellingen
 description: Meer informatie over de [!DNL Channel Manager settings] om authentificatie te vormen en de attributen van de productcatalogus en verzendende dragers in kaart te brengen die worden vereist om verkoopverrichtingen tussen te coördineren [!DNL Commerce] en de [!DNL Walmart Marketplace].
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ In [!DNL Channel Manager], vormt u sommige verkoopkanaalmontages tijdens het aan
 
 * **[Verzendkosten toewijzen](map-shipping-carriers.md)**-Voordat u gaat verwerken [!DNL Walmart Marketplace] bestellingen van [!DNL Commerce], zorg ervoor dat je verzendingsdragers toewijst aan je [!DNL Commerce] instantie aan de betrokken luchtvaartmaatschappijen [!DNL Walmart Marketplace].
 
-* **Referenties van de Walmart API**-Tijdens de [!DNL Channel Manager] als u [Referenties van de Walmart-API](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) van uw[!DNL Walmart Marketplace] Verkopersaccount om verbinding te maken [!DNL Commerce] tot [!DNL Walmart Marketplace] voor communicatie en gegevenssynchronisatie. Indien nodig kunt u deze gegevens bijwerken via het dialoogvenster *Instellingen* pagina.
+* **Referenties van de Walmart API**-Tijdens de [!DNL Channel Manager] onboarding-proces, biedt u [API-referenties](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) van uw [!DNL Walmart Marketplace] Verkopersaccount om verbinding te maken [!DNL Commerce] tot [!DNL Walmart Marketplace] voor communicatie en gegevenssynchronisatie. Indien nodig kunt u deze gegevens bijwerken via het dialoogvenster *Instellingen* pagina.

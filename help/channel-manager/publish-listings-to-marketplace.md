@@ -2,9 +2,9 @@
 title: Aanbiedingen publiceren naar Walmart
 description: Aanbiedingen publiceren voor producten van de Handel naar [!DNL Walmart Marketplace]om te beginnen met verkopen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Als er een overeenkomst wordt gevonden, wordt de bestaande productaanbieding bij
 
 ### Vereisten
 
-Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de productcatalogus voldoen aan de vereisten van het Martard en attributenmontages vormen. Zie [Kenmerken van catalogus toewijzen](map-catalog-attributes.md).
+Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de productcatalogus aan de vereisten van het Martard voldoen en de montages van de productattributen vormen. Zie [Kenmerken van catalogus toewijzen](map-catalog-attributes.md).
 
 #### Producten selecteren en afstemmen
 
@@ -52,9 +52,7 @@ Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de p
 
 Nadat de overeenkomst is voltooid, kan de status *Overeenkomst* of *Fout*.
 
-* **[!UICONTROL Match]** geeft aan dat het product is gevonden. Je productaanbod is gepubliceerd naar een bestaande Walmart Marketplace-aanbieding. Als de [Marktarchief is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wordt weergegeven in het dialoogvenster *[!UICONTROL Status detail]* kolom.
-
-Als uw [[!DNL Walmart Marketplace] store is niet actief](walmart-prerequisites.md#walmart-marketplace-store-status)de *Statusdetails* de kolom geeft aan dat het product *Staand voor overeenkomst*. Producten in het werkgebied worden automatisch gepubliceerd wanneer de [!DNL Walmart Marketplace] store is geactiveerd.
+* **[!UICONTROL Match]** geeft aan dat het product is gevonden. Je productaanbod is gepubliceerd naar een bestaande Walmart Marketplace-aanbieding. Als de [Marktarchief is niet actief](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wordt weergegeven in het dialoogvenster *[!UICONTROL Status detail]* kolom. Producten in het werkgebied worden automatisch gepubliceerd wanneer de [!DNL Walmart Marketplace] store is geactiveerd.
 
 * **[!UICONTROL Error]** geeft aan dat de overeenkomende bewerking is mislukt door een van de volgende problemen:
 
@@ -116,7 +114,7 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
 ### Vereisten
 
-* Controleren of u voldoet aan de [Walmart-voorwaarden](walmart-prerequisites.md).
+* Controleren of u voldoet aan de [Walmart-vereisten](walmart-requirements.md).
 
 * Controleer in uw productcatalogus van de Handel of de catalogusconfiguratie voor de producten die op de Walmart Marketplace worden aangeboden, alle vereiste kenmerken heeft en voldoet aan de richtlijnen voor Inhoud van de Marketplace van het type Walmart.
 
