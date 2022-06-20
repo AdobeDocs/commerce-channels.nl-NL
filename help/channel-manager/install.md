@@ -2,7 +2,7 @@
 title: Installeren [!DNL Channel Manager]
 description: Installeer de extensie Kanaalbeheer.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
+source-git-commit: f3b4392824e5682cec2f7071445111373188808e
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -13,19 +13,6 @@ ht-degree: 0%
 # Installeren [!DNL Channel Manager]
 
 Controleer de [vereisten](onboard.md#requirements) en verzamel de vereiste informatie voordat u Channel Manager installeert.
-
-## Minimale stabiliteit bijwerken
-
-Voordat u de extensie installeert, moet u de `minimum-stability` vereist in uw `composer.json` zodat u eerdere versies van Channel Manager kunt installeren met Composer.
-
-Als u de configuratie wilt bijwerken, voegt u de volgende regels toe aan de `composer.json` bestand.
-
-```json
-{
-   "minimum-stability": "alpha",
-   "prefer-stable": true
-}
-```
 
 ## De extensie installeren
 

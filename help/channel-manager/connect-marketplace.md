@@ -2,9 +2,9 @@
 title: Verkoopkanaal verbinden met [!DNL Walmart Marketplace]
 description: Vorm het verkoopkanaal en verbind met de Marketplace van de Markeren van de Markeren.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Verkoopkanaal verbinden met [!DNL Walmart Marketplace]
 
 Na installatie van Channel Manager op uw [!DNL Commerce] -instantie, een [!DNL Commerce] opslaan naar [!DNL Walmart Marketplace].
+
+>[!NOTE]
+>
+>De Manager van het kanaal vereist een één-aan-één verbinding tussen een rekening van de Mara en een de opslagmening van de Handel. U kunt niet de zelfde archiefmening met veelvoudige rekeningen verbinden van de Mara.
 
 1. [Het verkoopkanaal maken](#create-the-sales-channel) door de winkel Commerce te selecteren voor productaanbiedingen.
 

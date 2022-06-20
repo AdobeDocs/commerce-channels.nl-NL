@@ -2,17 +2,17 @@
 title: Producten toevoegen aan verkoopkanaalwinkel
 description: Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten uit de catalogus aan het verkoopkanaal toe te voegen
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
+source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# Producten toevoegen aan verkoopkanaalwinkel
+# Producten toevoegen aan [!DNL Channel Manager]
 
-U voegt product toe aan de [!DNL Walmart Marketplace] verkoopkanaal door producten van te selecteren [!DNL Commerce] productcatalogus en importeren in [!DNL Channel Manager].
+Producten toevoegen aan de [!DNL Walmart Marketplace] verkoopkanaal, selecteer hen van [!DNL Commerce] productcatalogus en importeren naar [!DNL Channel Manager].
 Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal producten dat u selecteert.
 
 ## Vereiste
@@ -23,7 +23,7 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
 [!DNL Commerce] productlijsten moeten de volgende vereiste kenmerkconfiguratie hebben:
 
-- **[!UICONTROL Publish to Channel Manager]** attribute is enabled
+- **[!UICONTROL Connect to Channel Manager]** attribute is enabled
 
 - Verstrek geldige waarden voor de vereiste attributen van de Mara.
 
@@ -49,11 +49,11 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
    ![Producten naar de winkel van het verkoopkanaal verzenden](assets/select-products-from-catalog.png)
 
-1. De optie **[!UICONTROL Publish to Channel Manager]** voor de geselecteerde items.
+1. De optie **[!UICONTROL Connect to Channel Manager]** voor de geselecteerde items.
 
    - Van **[!UICONTROL Actions]**, selecteert u **[!UICONTROL Update attributes]**.
 
-   - Naar de **[!UICONTROL Publish to Channel Manager]** en inschakelen.
+   - Naar de **[!UICONTROL Connect to Channel Manager]** en inschakelen.
 
    - Controleren of de productkenmerken ten minste een van de vereiste kenmerken bevatten [!DNL Walmart Product IDs].
 

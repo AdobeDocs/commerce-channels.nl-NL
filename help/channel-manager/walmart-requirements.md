@@ -2,9 +2,9 @@
 title: '"[!DNL Walmart] Vereisten"'
 description: '"Controleer of u de vereiste[!DNL Walmart Marketplace]informatie en bronnen die met Channel Manager moeten worden geïntegreerd."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 
    De [!DNL Walmart Marketplace] API-sleutel maakt de integratie mogelijk tussen [!DNL Channel Manager] voor Adobe Commerce of Magento Open Source en de Walmart Marketplace. Stel de API-sleutel in Seller Central in voordat u Kanaalbeheer aan boord gaat.
 
-## Een verkopersaccount instellen
+## Een [!DNL Walmart Seller] account
 
 1. [De toepassing Walmart-verkoper verzenden](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. Na goedkeuring van [!DNL Walmart], [je Walmart Seller-account instellen](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
 ## Een [!DNL Walmart Marketplace] API-sleutel voor productie
 
-1. Ga naar [!DNL Walmart Marketplace]om een [productie-API-sleutel voor oplossingsprovider voor Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Ga naar [!DNL Walmart Marketplace] om een [productie-API-sleutel voor oplossingsprovider voor Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Maak de sleutel en configureer machtigingen:
 
@@ -52,10 +52,15 @@ ht-degree: 0%
 
 ## [!DNL Walmart Marketplace] Winkelstatus
 
-Wanneer je producten op de markt publiceert, hangt de beschikbaarheid van aanbiedingen af van de status van je [!DNL Walmart Marketplace] winkels:
+Wanneer je producten verbindt met de markt, hangt de beschikbaarheid van aanbiedingen af van de status van je [!DNL Walmart Marketplace] winkels:
 
 * Voor live winkels worden je productaanbiedingen aangeboden en te koop aangeboden wanneer de match voltooid is.
 
 * Voor winkels die niet live zijn, worden uw productaanbiedingen gefaseerd en niet zichtbaar voor klanten. Wanneer de [!DNL Walmart Marketplace] Winkel gaat live, gefaseerde aanbiedingen worden automatisch naar de live winkel gestuurd.
 
 ![[!DNL Walmart Seller Central] gefaseerde producten](assets/walmart-seller-central-staged.png)
+
+>[!IMPORTANT]
+>
+>Na [!DNL Channel Manager] worden geïnstalleerd en geconfigureerd, worden alle voorraad-, prijs- en orderupdates automatisch gesynchroniseerd. Verbind de Manager van het Kanaal niet met een levende Marketplace opslag van de Markt van de Markt tot u een andere integratie hebt onbruikbaar gemaakt die het product en de ordegegevens bijwerken, en u klaar bent voor de updates van de Handel om worden gesynchroniseerd aan [!DNL Walmart Marketplace].
+

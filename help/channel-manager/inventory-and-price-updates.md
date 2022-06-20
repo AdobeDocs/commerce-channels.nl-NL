@@ -2,20 +2,26 @@
 title: Update van voorraad en prijs
 description: '''[!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen de Commerce Store en [!DNL Walmart Marketplace] zodat kunt u de bewerkingen van uw verkoopkanalen beheren vanuit de Admin van de Handel'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Overzicht en prijzen bijwerken
 
-[!DNL Channel Manager] inventarisatie en prijsstelling volgen voor producten in de [!DNL Commerce] productcatalogus en syncs updates van het verbonden verkoopkanaal en [!DNL Walmart Marketplace]. De synchronisatie zorgt ervoor dat de aanbiedingen van producten de huidige hoeveelheid en prijs van de voorraad weerspiegelen.
+[!DNL Channel Manager] inventarisatie en prijsstelling volgen voor producten in de [!DNL Commerce] productcatalogus en synchroniseert updates met het verbonden verkoopkanaal en [!DNL Walmart Marketplace]. De synchronisatiebewerking zorgt ervoor dat de huidige voorraadhoeveelheid en prijzen in de productaanbiedingen worden weergegeven.
+
+
+>[!IMPORTANT]
+>
+>Na [!DNL Channel Manager] worden geïnstalleerd en geconfigureerd, worden alle voorraad-, prijs- en orderupdates automatisch gesynchroniseerd. Als u reeds op Walmart Marketplace of direct of door een andere integratie verkoopt, zorg ervoor om de vorige integratie onbruikbaar te maken en te verifiëren dat de voorraadniveaus en de prijzen van de voorraad in de Opslag van de Handel nauwkeurig zijn en de gegevens in aanpassen [!DNL Walmart Marketplace] voordat u verbinding maakt [!DNL Channel Manager] naar de live winkel.
+
 
 ## Inventarisupdates
 
-Wanneer de niveaus van de productvoorraad veranderen in [!DNL Commerce], [!DNL Channel Manager] synchroniseert updates van het verkoopkanaal en aan [!DNL Walmart Marketplace]. Het kan 10 minuten duren voordat inventarisupdates via het verkoopkanaal worden gesynchroniseerd met de [!DNL Walmart marketplace].
+Wanneer de niveaus van de productvoorraad veranderen in [!DNL Commerce], [!DNL Channel Manager] synchroniseert updates aan [!DNL Walmart Marketplace]. Het kan 10 minuten duren voordat inventarisupdates via het verkoopkanaal worden gesynchroniseerd met de [!DNL Walmart marketplace].
 
 * **Updates van de voorraadhoeveelheid in de productcatalogus**—Wanneer [!DNL Commerce] wijziging van de voorraadhoeveelheid als gevolg van [wijzigingen in de hoeveelheid handmatige voorraad](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), terugbetalingen of annuleringen, [!DNL Channel Manager] synchroniseert de wijziging in verbonden kanalen en [!DNL Walmart Marketplace].
 
@@ -29,7 +35,7 @@ Wanneer de niveaus van de productvoorraad veranderen in [!DNL Commerce], [!DNL C
 
 Wanneer de productprijs verandert in [!DNL Commerce], [!DNL Channel Manager] synchroniseert de update naar de [!DNL Walmart Marketplace]. Het kan maximaal vijf minuten duren voordat de prijswijziging in de [!DNL Walmart Marketplace] aanbieding.
 
-### Prijzen voor een gepubliceerd product beheren
+### Prijzen voor een verbonden product beheren
 
 1. Van de [!UICONTROL Admin], selecteert u **[!UICONTROL Catalog > Products]**.
 1. Zoek in het productraster het product dat u wilt bijwerken en selecteer **[!UICONTROL Edit]**.

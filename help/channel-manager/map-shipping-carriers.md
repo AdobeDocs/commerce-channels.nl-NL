@@ -2,9 +2,9 @@
 title: Kaart met verzendende maatschappijen
 description: Kenmerken toewijzen voor overeenkomsten [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Voer de volgende taken uit voordat u verzenddragers toewijst:
 
 ## Kaart met verzendende maatschappijen
 
-1. Op de [!UICONTROL Listings] pagina voor de winkel van verkoopkanalen, selecteert u **[!UICONTROL Settings]**.
+1. Van de **[!UICONTROL Listings]** of **[!UICONTROL Orders]** pagina, selecteert u **[!UICONTROL Channel Settings]**.
 
-1. Van **[!UICONTROL Map Attributes]**, selecteert u **[!UICONTROL Shipping Carriers]**.
+1. Aan **[!UICONTROL Channel Settings]**, selecteert u **[!UICONTROL Shipping Carriers]**.
 
    ![Kaart met verzendende maatschappijen](assets/map-shipping-carriers.png)
 
