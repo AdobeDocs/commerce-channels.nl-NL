@@ -1,10 +1,10 @@
 ---
 title: '''[!DNL Channel Manager] Overzicht van hulplijnen'
-description: Uitgebreide informatie over [!DNL Channel Manager] voor Adobe Commerce- en Magento Open Source-beheerders, inclusief installatie en instapweigering
+description: '"Uitgebreide informatie over [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source-beheerders, met inbegrip van installatie en instapweigering."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Overzicht
 
-Deze handleiding is bedoeld voor beheerders van Adobe Commerce en Magento Open Source. Het bevat gedetailleerde informatie over [!DNL Channel Manager] installatie, aan boord nemen, configuratie, en beheer. De gids veronderstelt een basisbegrip van de basisconfiguratie en de functionaliteit van de Handel.
+Deze handleiding is bedoeld voor beheerders van Adobe Commerce en Magento Open Source. Het bevat gedetailleerde informatie over [!DNL Channel Manager] installatie, aan boord nemen, configuratie, en beheer. De gids veronderstelt een basisbegrip van kern [!DNL Commerce] configuratie en functionaliteit.
 
 [!DNL Channel Manager] heeft twee gebieden voor beheerders:
 
@@ -23,7 +23,7 @@ Deze handleiding is bedoeld voor beheerders van Adobe Commerce en Magento Open S
 
 Deze handleiding is van toepassing op:
 
-* Alles [!DNL Channel Manager]-specific taken die van Commerce Admin worden voltooid.
+* Alles [!DNL Channel Manager]-specifieke taken die van worden voltooid [!DNL Commerce] Admin.
 * Alles [!DNL Channel Manager]-specific taken die van de bevellijn worden voltooid.
 
 Voor meer informatie over het beheren van uw [!DNL Commerce] -platform, -projecten en -websites, raadpleegt u de handleidingen voor gebruikers en ontwikkelaars van Adobe Commerce en Magento Open Source.

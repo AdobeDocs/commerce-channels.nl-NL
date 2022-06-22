@@ -1,12 +1,12 @@
 ---
 title: Aan boord [!DNL Channel Manager]
-description: Sluit uw instantie aan [!DNL Channel Manager] door enkele instapstappen te voltooien.
+description: '''Sluit uw instantie aan op de [!DNL Channel Manager] de dienst door een paar onboarding stappen te voltooien."'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Nadat u aan boord gaat, vorm en beheer de verrichtingen van het verkoopkanaal va
 
 - **Informatie over handelsrekeningen**-Downloaden en installeren [!DNL Channel Manager] vereist een [Handelsrekening](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. U hebt een account-id en gebruikersgegevens nodig met de toegang tot de [!DNL Adobe Commerce] of [!DNL Magento Open Source] -instantie.
 
-   - **ID MAGE**-[Aanmelden](https://account.magento.com/customer/account/login/) naar de Commerce-account om de id op te halen van **[!UICONTROL My Account - Magento settings]**.
+   - **ID MAGE**-[Aanmelden](https://account.magento.com/customer/account/login/) aan de [!DNL Commerce] account om de id op te halen van **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] over de accountinstellingen voor de handel](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] op [!DNL Commerce] accountinstellingen](assets/mageid-my-commerce-account.png)
 
-   - **Toegangstoetsen-** Vraag verificatietoetsen aan om Commerce-extensies te downloaden van de Composer-opslagplaats voor handel `([!DNL repo.magento.com]`).
+   - **Toegangstoetsen-** Verificatietoetsen downloaden [!DNL Commerce] uitbreidingen van de [!DNL Commerce] Composer-opslagplaats `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

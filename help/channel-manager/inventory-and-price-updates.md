@@ -1,10 +1,10 @@
 ---
 title: Update van voorraad en prijs
-description: '''[!DNL Channel Manager] synchrone inventarisatie en prijsupdates tussen de Commerce Store en [!DNL Walmart Marketplace] zodat kunt u de bewerkingen van uw verkoopkanalen beheren vanuit de Admin van de Handel'
+description: '''[!DNL Channel Manager] syntheseinventarisatie en prijsupdates tussen de [!DNL Commerce] opslaan en [!DNL Walmart Marketplace] zodat u de verkoopkanaalbewerkingen kunt beheren via het [!DNL Commerce] Admin'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Na [!DNL Channel Manager] worden geïnstalleerd en geconfigureerd, worden alle voorraad-, prijs- en orderupdates automatisch gesynchroniseerd. Als u reeds op Walmart Marketplace of direct of door een andere integratie verkoopt, zorg ervoor om de vorige integratie onbruikbaar te maken en te verifiëren dat de voorraadniveaus en de prijzen van de voorraad in de Opslag van de Handel nauwkeurig zijn en de gegevens in aanpassen [!DNL Walmart Marketplace] voordat u verbinding maakt [!DNL Channel Manager] naar de live winkel.
+>Na [!DNL Channel Manager] worden geïnstalleerd en geconfigureerd, worden alle voorraad-, prijs- en orderupdates automatisch gesynchroniseerd. Als u al op Marketplace verkoopt, zorg ervoor om het even welke andere integraties onbruikbaar te maken die het product en de ordegegevens bijwerken. Controleer vervolgens of de voorraadvoorraadniveaus en -prijzen in de [!DNL Commerce] opslag is nauwkeurig en komt overeen met de gegevens in [!DNL Walmart Marketplace] voordat u verbinding maakt [!DNL Channel Manager] naar de live winkel.
 
 
 ## Inventarisupdates

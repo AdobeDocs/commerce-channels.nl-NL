@@ -1,27 +1,27 @@
 ---
-title: Verkoopkanaal verbinden met [!DNL Walmart Marketplace]
-description: Vorm het verkoopkanaal en verbind met de Marketplace van de Markeren van de Markeren.
+title: '''Verbinden [!DNL Channel Manager] tot [!DNL Walmart Marketplace]'''
+description: '"Verbind een de opslagmening van de Handel met [!DNL Walmart Marketplace] om het verkoopkanaal te creëren voor het beheren van aanbiedingen, voorraad, prijs en bestellingen van producten voor de handel in Walmart Marketplace."'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# Verkoopkanaal verbinden met [!DNL Walmart Marketplace]
+# Verbinden [!DNL Channel Manager] tot [!DNL Walmart Marketplace]
 
-Na installatie van Channel Manager op uw [!DNL Commerce] -instantie, een [!DNL Commerce] opslaan naar [!DNL Walmart Marketplace].
+Na installatie van Channel Manager op uw [!DNL Commerce] instantie, een verkoopkanaal in de Manager van het Kanaal creëren en de geloofsbrieven vormen om te verbinden [!DNL Channel Manager] tot [!DNL Walmart Marketplace].
 
->[!NOTE]
->
->De Manager van het kanaal vereist een één-aan-één verbinding tussen een rekening van de Mara en een de opslagmening van de Handel. U kunt niet de zelfde archiefmening met veelvoudige rekeningen verbinden van de Mara.
-
-1. [Het verkoopkanaal maken](#create-the-sales-channel) door de winkel Commerce te selecteren voor productaanbiedingen.
+1. [Het verkoopkanaal maken](#create-the-sales-channel) door [!DNL Commerce] winkel voor productaanbiedingen.
 
 1. [Het kanaal verbinden met [!DNL Walmart Marketplace] door toevoegen [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
 1. [Volledige installatie verkoopkanaal](#complete-store-setup) om aanbiedingen, voorraad, prijzen en bestellingen voor je [!DNL Walmart Marketplace] productassortiment.
+
+>[!NOTE]
+>
+>De Manager van het kanaal vereist een één-aan-één verbinding tussen een rekening van het Spoor en een [!DNL Commerce] winkelweergave. U kunt niet de zelfde archiefmening met veelvoudige rekeningen verbinden van de Mara.
 
 ## Het verkoopkanaal maken
 
@@ -37,15 +37,15 @@ Na installatie van Channel Manager op uw [!DNL Commerce] -instantie, een [!DNL C
 
    - Selecteren **[!UICONTROL Add Credentials]**.
 
-   - Selecteer [!DNL Commerce] winkelweergave om verbinding te maken met Marketplace.
+   - Selecteer [!DNL Commerce] Winkelweergave die de producten aanbiedt die je op de markt wilt verkopen.
 
-      ![Verbinding tussen Handel en vormen [!DNL Walmart Marketplace] van [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![Verbinding configureren tussen [!DNL Commerce] en [!DNL Walmart Marketplace] van [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - Voer een unieke waarde in **[!UICONTROL store name]**.
 
-   - Selecteer **[!UICONTROL Adobe Commerce site]** voor productaanbiedingen.
+   - Selecteer **[!UICONTROL Adobe [!DNL Commerce] site]** voor productaanbiedingen en orderverwerking.
 
-   - Een **[!UICONTROL email address]** om dienstberichten te ontvangen met betrekking tot [!DNL Channel Manager].
+   - Om meldingen te ontvangen met betrekking tot [!DNL Channel Manager], voegt u een **[!UICONTROL email address]**.
 
 1. Het kanaal verbinden met [!DNL Walmart Marketplace].
 
@@ -53,7 +53,7 @@ Na installatie van Channel Manager op uw [!DNL Commerce] -instantie, een [!DNL C
 
    - Als u niet de geloofsbrieven hebt, krijg hen van [!DNL Walmart Marketplace Developer Portal] door **[!UICONTROL Get API credentials]**.
 
-      Selecteer op het Developer Portal uw regio (VS en Canada) en meld u vervolgens aan.
+      Selecteer in het Developer Portal uw regio (VS en Canada) en meld u vervolgens aan.
 
       ![[!DNL Walmart Marketplace] accountaanmelding](assets/walmart-marketplace-login-page.png)
 

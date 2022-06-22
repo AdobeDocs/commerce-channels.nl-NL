@@ -1,10 +1,10 @@
 ---
 title: Aanbiedingen beheren
-description: Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.
+description: '''Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.'''
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt de volgende taken uitvoeren vanuit de lijstweergave.
 * Producten toevoegen
 * Producten afstemmen
 * Aanbiedingsstatus volgen
-* Foutbeschrijving voor productaanbiedingen met een foutstatus
+* Foutbeschrijving bekijken voor aanbiedingen met een foutstatus
 
 ## Objecten weergeven
 
@@ -40,7 +40,7 @@ U kunt de volgende taken uitvoeren vanuit de lijstweergave.
 
 1. De sorteervolgorde herstellen en filters verwijderen door **Producten vernieuwen**.
 
-## Commerce-producten toevoegen aan Channel Manager
+## Toevoegen [!DNL Commerce] producten naar Channel Manager
 
 Maak de productassortiment voor de [!DNL Walmart Marketplace] kanaal door de volgende taken uit te voeren:
 
@@ -93,7 +93,7 @@ In de werkruimte van de aanbieding geeft het label Status aan waar een product z
 
 * **[!UICONTROL Match]**- Identificeert producten die met succes werden aangepast [!DNL Walmart].
 
-   Er is een overeenkomst wanneer de waarde van het productkenmerk (bijvoorbeeld de UPC-code) overeenkomt met de UPC-waarde in een bestaand kenmerk [!DNL Walmart Marketplace] aanbieding. Wanneer een product overeenkomt met een ander product, wordt het aanbod van het product Commerce toegevoegd aan het bestaande [!DNL Walmart] aanbieding.
+   Er is een overeenkomst wanneer de waarde van het productkenmerk (bijvoorbeeld de UPC-code) overeenkomt met de UPC-waarde in een bestaand kenmerk [!DNL Walmart Marketplace] aanbieding. Wanneer een product overeenkomt, wordt het aanbod van het product van de Handel toegevoegd aan de bestaande aanbieding.
 
    Controleer de [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard om de bijgewerkte productlijst te bekijken en de productgegevens, de prijs en de voorraad te controleren.
 

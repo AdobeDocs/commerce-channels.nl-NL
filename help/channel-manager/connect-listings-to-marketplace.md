@@ -1,10 +1,10 @@
 ---
 title: Aanbiedingen verbinden met Walmart
-description: Aanbiedingen voor handelproducten verbinden met [!DNL Walmart Marketplace]om te beginnen met verkopen.
+description: '''Aanbiedingen verbinden voor [!DNL Commerce] producten naar [!DNL Walmart Marketplace]om te beginnen met verkopen.'''
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Zoals andere markten, [!DNL Walmart] biedt verkopers van derden de mogelijkheid 
 
 - [!DNL Walmart Marketplace] gebruikt product-id&#39;s zoals UPC en GTIN om producten af te stemmen op bestaande [!DNL Walmart Marketplace] aanbiedingen.
 
-- Voor gematchte producten wordt de lijst van de Marketplace van het Markeren bijgewerkt om de het productaanbieding van de Handel te omvatten wanneer u een product van aansluit [!DNL Channel Manager].
+- Voor overeenkomende producten wordt de vermelding in de lijst Walmart Marketplace bijgewerkt met de vermelding [!DNL Commerce] productaanbod wanneer u een product aansluit van [!DNL Channel Manager].
 
 - Meestal worden productaanbiedingen met de laagste prijzen het eerst weergegeven in de [!DNL Walmart Marketplace] aanbiedingen, maar andere factoren zoals revisies hebben ook invloed op plaatsing.
 
 ## Producten afstemmen
 
-Wanneer u producten aanpast, verzendt de Manager van het Kanaal de productgegevens naar [!DNL Walmart Marketplace] om te zoeken naar bestaande aanbiedingen met kenmerkwaarden die overeenkomen met het toegewezen productkenmerk Commerce. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw winkelkanaal.
+Wanneer u producten aanpast, verzendt de Manager van het Kanaal de productgegevens naar [!DNL Walmart Marketplace] naar bestaande aanbiedingen met kenmerkwaarden zoeken die overeenkomen met de toegewezen waarden [!DNL Commerce] productkenmerk. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw winkelkanaal.
 
 Als er een overeenkomst wordt gevonden, wordt de bestaande productaanbieding bijgewerkt en wordt je voorstel toegevoegd.
 
@@ -81,7 +81,7 @@ Voor meer informatie over de foutcodes van Walmart Marketplace raadpleegt u de [
 
 ## Nieuwe productaanbiedingen uploaden
 
-Voor producten die geen gelijke op Marketplace hebben, gebruik een sjabloon van de de productcategorie van het Walmart product Excel om productaanbiedingen bulksgewijs te uploaden. U bevolkt het malplaatje van de Marm gebruikend de gegevens van de productcatalogus die van uw instantie van de Handel worden uitgevoerd.
+Voor producten die geen gelijke op Marketplace hebben, gebruik een sjabloon van de de productcategorie van het Walmart product Excel om productaanbiedingen bulksgewijs te uploaden. U bevolkt het malplaatje van de Marm gebruikend de gegevens van de productcatalogus die uit uw worden uitgevoerd [!DNL Commerce] -instantie.
 
 Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zorgen dat producten die je op de Marketplace wilt verkopen, de kenmerken hebben die vereist zijn voor aanbiedingen op de Marketplace-markt.
 
@@ -113,7 +113,7 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
 - Controleren of u voldoet aan de [Walmart-vereisten](walmart-requirements.md).
 
-- Controleer in uw productcatalogus van de Handel of de catalogusconfiguratie voor de producten die op de Walmart Marketplace worden aangeboden, alle vereiste kenmerken heeft en voldoet aan de richtlijnen voor Inhoud van de Marketplace van het type Walmart.
+- In uw [!DNL Commerce] de productcatalogus, verifieert dat de catalogusconfiguratie voor de producten om op Marketplace van het Markeren te vermelden alle vereiste attributen heeft en aan de Richtlijnen van de Inhoud van de Markt van het Markeren voldoet.
 
 - Controleer of de uitsnijdtaak wordt uitgevoerd om de exportbewerking te voltooien.
 
@@ -135,16 +135,16 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
    - Controleer of de sjabloon de vereiste en aanbevolen kenmerken voor de productaanbieding bevat.
 
-1. Van de [!DNL Commerce] Beheer, selecteer de productgegevens die u wilt exporteren van uw Adobe Commerce-site.
+1. Van de [!DNL Commerce] Admin, selecteer de productgegevens om van uw Adobe uit te voeren [!DNL Commerce] site.
 
    - Selecteer bij Beheer de optie [!UICONTROL **Systeem** > Gegevensoverdracht > **Exporteren**].
 
    - Op de [!UICONTROL Export] pagina in de [!UICONTROL Entity Type] veld, selecteren [!UICONTROL **Producten**].
 
    - In de [!UICONTROL Entity Attributes] de lijst, vormt de selectiecriteria voor de uitvoer van productgegevens.
-   ![De productgegevenspagina exporteren in het dialoogvenster [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![De productgegevenspagina exporteren in het dialoogvenster [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt (zie [Gegevens exporteren](https://docs.magento.com/user-guide/system/data-export.html) in de Adobe Commerce-gebruikershandleiding voor gedetailleerde instructies.)
+   Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt (zie [Gegevens exporteren](https://docs.magento.com/user-guide/system/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
 
    Als u een kenmerk wilt weglaten uit het exportbestand, selecteert u de optie [!UICONTROL **Uitsluiten**] Schakel het selectievakje aan het begin van de rij in.
 

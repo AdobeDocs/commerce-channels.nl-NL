@@ -1,17 +1,17 @@
 ---
-title: Volledige installatie verkoopkanaal
-description: Navigeer naar een verbonden verkoopkanaal voor het beheren van de weergave en het beheren van productaanbiedingen, voorraad- en prijsupdates en het volgen van bestellingen
+title: Volledige kanaalinstelling
+description: '"Na het creëren van het verkoopkanaal dat een [!DNL Commerce] Winkelweergave naar [!DNL Walmart Marketplace], opent u het kanaal en voltooit u de kanaalconfiguratie. Start vervolgens het proces om producten toe te voegen, aanbiedingen, voorraad, prijzen en bestellingen te beheren vanuit [!DNL Channel Manager]."'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 174c4fa6da5f2b907a8dd1f96d9ca379770f848d
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # Volledige installatie verkoopkanaal
 
-Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], volledige installatie van de winkel vanuit de [!DNL Channel Manager] homepage.
+Nadat u een [!DNL Commerce] opslaan naar [!DNL Walmart Marketplace], volledige installatie van de winkel vanuit de [!DNL Channel Manager] homepage.
 
 1. Selecteer **[!UICONTROL Marketing** > **Kanaalbeheer**].
 
@@ -31,8 +31,8 @@ Nadat u een Commerce-winkel hebt verbonden met [!DNL Walmart Marketplace], volle
 
    - [Weergeven en beheren [!DNL Walmart] bestellingen van de [!DNL Commerce Admin]](manage-orders.md)
 
-Nadat u het verkoopkanaal creeert en producten aanpast aan [!DNL Walmart Marketplace], kunt u alle activiteiten voor het aanbieden, inventariseren, prijzen, bestellen, verzenden en annuleren van producten beheren vanuit [!DNL Commerce]. Product- en ordergegevens worden automatisch gesynchroniseerd vanuit [!DNL Commerce] tot [!DNL Walmart Marketplace]. Om conflicten of discrepanties tussen [!DNL Commerce] en [!DNL Walmart Marketplace] updates uitvoeren, product- of ordergegevens niet bijwerken voor [!DNL Commerce] producten uit de [!DNL Walmart Marketplace] account.
+Nadat u het verkoopkanaal creeert en producten aanpast aan [!DNL Walmart Marketplace], kunt u alle activiteiten voor het aanbieden, inventariseren, prijzen, bestellen, verzenden en annuleren van producten beheren vanuit [!DNL Commerce]. Gegevens van aanbiedingen, voorraden, prijzen en bestellingen worden automatisch gesynchroniseerd vanuit [!DNL Commerce] tot [!DNL Walmart Marketplace]. Om conflicten of discrepanties tussen [!DNL Commerce] en [!DNL Walmart Marketplace] updates uitvoeren, product- of ordergegevens niet bijwerken voor [!DNL Commerce] producten uit de [!DNL Walmart Marketplace] account.
 
 >[!IMPORTANT]
 >
->In sommige gevallen, wanneer [!DNL Channel Manager] retourneert fouten tijdens de verwerking van de bestelling. Mogelijk moet u de bestelling, verzending of annuleringsbewerkingen van de [!DNL Walmart Marketplace]. Zie [Orderfouten herstellen](process-orders.md#fix-order-errors).
+>Indien [!DNL Channel Manager] retourneert fouten tijdens de verwerking van de bestelling, u kunt bestellingen, verzendingen of annuleringsbewerkingen uitvoeren vanuit de [!DNL Walmart Marketplace]. Zie [Orderfouten herstellen](process-orders.md#fix-order-errors).

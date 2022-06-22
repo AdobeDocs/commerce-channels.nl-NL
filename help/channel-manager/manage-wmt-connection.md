@@ -1,13 +1,13 @@
 ---
 title: Walmart Marketplace-verbinding beheren
-description: Werk de API-referenties bij om de verbinding tussen een [DNL!] te autoriseren Winkelweergave van de handel] en de [!DNL Walmart Marketplace]. De verbinding wordt vereist om de aanbiedingen van het product van de Handel met elkaar te verbinden en inventaris, prijs, orde, en verzendgegevens tussen Handel en de Mara te synchroniseren.
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+description: '''Werk de API-referenties bij om de verbinding tussen een [DNL!] te autoriseren Winkelweergave van de handel] en de [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] productaanbiedingen en synchroniseer voorraad-, prijs-, bestelling- en verzendgegevens tussen [!DNL Commerce] en de Walmart."'
+exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
+source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Kaart met verzendende maatschappijen
 
