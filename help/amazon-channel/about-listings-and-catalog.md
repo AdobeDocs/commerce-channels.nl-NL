@@ -2,9 +2,9 @@
 title: Informatie over Amazon en de handelscatalogus
 description: Het verkoopkanaal van Amazon importeert je Amazon-aanbiedingen in je Commerce-achtergrond en synchroniseert voortdurend met producten en verkopen.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Uw Adobe Commerce- of Magento Open Source-backend bevat een catalogus met alle producten en de bijbehorende instellingen en informatie (afbeeldingen, opties, prijzen en meer) en bestellingen en verzendconfiguraties. Uw [!DNL Amazon Seller Central] account heeft ook een catalogus en orderconfiguraties, waarbij uw verkoop strikt wordt bijgehouden via de [!DNL Amazon Marketplace].
 
-Amazon verkoopkanaal importeert je Amazon-aanbiedingen naar je eigen locatie om je productcatalogus en verkoop beter te beheren en te bekijken. [!DNL Commerce] back-end, wordt voortdurend gesynchroniseerd met producten en verkoop, en rapporteert problemen en trends. Het steunt integratie met veelvoudige [!DNL Amazon Seller Central] accounts, die alle gegevens bijhouden via de enkele interface voor meerdere opslagronten.
+Amazon verkoopkanaal importeert je Amazon-aanbiedingen in je [!DNL Commerce] back-end, wordt voortdurend gesynchroniseerd met producten en verkoop, en rapporteert problemen en trends. Het steunt integratie met veelvoudige [!DNL Amazon Seller Central] accounts, die alle gegevens bijhouden via de enkele interface voor meerdere opslagronten.
 
 ## Productkenmerken
 
-Adobe Commerce en Magento Open Source beheren catalogussynchronisaties met het gebruik van producten [attributes](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} om productinstellingen en gegevens te definiëren. Amazon gebruikt ook kenmerken die aan boord moeten worden gezet. Tijdens [vooraf ingestelde taken](./amazon-pre-setup-tasks.md) voor Amazon-verkoopkanaal definieert u (indien nodig) aanvullende Amazon-kenmerken om ervoor te zorgen dat de producttoewijzingen correct zijn wanneer u uw Amazon-aanbiedingen importeert in uw [!DNL Commerce] catalogus. Deze kenmerken omvatten UPC, EAN, ISBN en ASIN ([!DNL Amazon Standard Identification Number]). Door aan boord te gaan, synchroniseert de producten tussen Amazon en [!DNL Commerce] catalogi die uw kenmerken gebruiken. Correcte toewijzing van uw [!DNL Commerce] en Amazon-producten zorgen voor een continue synchronisatie van productinformatie, bestellingen en inventaris.
+Adobe Commerce en Magento Open Source beheren catalogussynchronisaties met het gebruik van producten [attributes](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} om productinstellingen en gegevens te definiëren. Amazon gebruikt ook kenmerken die aan boord moeten worden gezet. Tijdens [vooraf ingestelde taken](./amazon-pre-setup-tasks.md) voor Amazon-verkoopkanaal definieert u (indien nodig) extra Amazon-kenmerken om ervoor te zorgen dat de producttoewijzingen correct zijn wanneer u uw Amazon-aanbiedingen importeert in uw [!DNL Commerce] catalogus. Deze kenmerken omvatten UPC, EAN, ISBN en ASIN ([!DNL Amazon Standard Identification Number]). Door aan boord te gaan, synchroniseert de producten tussen Amazon en [!DNL Commerce] catalogi die uw kenmerken gebruiken. Correcte toewijzing van uw [!DNL Commerce] en Amazon-producten zorgen voor een continue synchronisatie van productinformatie, bestellingen en inventaris.
 
-Als deze kenmerken niet voor de catalogus zijn gemaakt of geconfigureerd, moet u een [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} en waarden aan uw producten toevoegen voordat ze worden opgenomen. Wanneer een Amazon-kenmerk wordt geïmporteerd, kan het worden gebruikt voor zoeken, navigatie, prijsregels en nog veel meer. Zie voor meer informatie over deze kenmerken [Amazon: Wat zijn UPCs, EANs, ISBNs, en ASINs?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+Als deze kenmerken niet voor de catalogus zijn gemaakt of geconfigureerd, moet u een [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} en waarden aan uw producten toevoegen voordat ze worden opgenomen. Wanneer een Amazon-kenmerk wordt geïmporteerd, kan het worden gebruikt voor zoeken, navigatie, prijsregels en nog veel meer. Zie [Wat betekenen ASIN, UPC, EAN, ISBN, SKU en andere streepjescodes?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
 Na het instappen, kunt u uw productattributen en afbeeldingen van Amazon op elk ogenblik beheren en bijwerken.
 
