@@ -1,10 +1,10 @@
 ---
 title: Aanbiedingen verbinden met Walmart
-description: '''Aanbiedingen verbinden voor [!DNL Commerce] producten naar [!DNL Walmart Marketplace]om te beginnen met verkopen.'''
+description: 'Aanbiedingen verbinden voor [!DNL Commerce] producten naar [!DNL Walmart Marketplace]om te beginnen met verkopen.'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de p
 1. Selecteren **[!UICONTROL Match Products]**.
 
    Een bericht geeft het aantal producten aan dat voor matching is verzonden.
-
-   ![Producten naar het verbonden verkoopkanaal verzenden](assets/products-submitted-for-matching.png)
 
    De status van geselecteerde producten verandert in [!UICONTROL *Verwerking*] totdat de overeenkomende bewerking is voltooid. Het kan tot 30 minuten voor Walmart Marketplace duren om de gelijke verrichting te voltooien.
 
@@ -144,7 +142,7 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
    - In de [!UICONTROL Entity Attributes] de lijst, vormt de selectiecriteria voor de uitvoer van productgegevens.
    ![De productgegevenspagina exporteren in het dialoogvenster [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt (zie [Gegevens exporteren](https://docs.magento.com/user-guide/system/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
+   Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt. (Zie [Gegevens exporteren](https://docs.magento.com/user-guide/system/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
 
    Als u een kenmerk wilt weglaten uit het exportbestand, selecteert u de optie [!UICONTROL **Uitsluiten**] Schakel het selectievakje aan het begin van de rij in.
 

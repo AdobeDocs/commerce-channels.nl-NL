@@ -2,9 +2,9 @@
 title: Procesopdrachten
 description: '''Instructies voor verzending en annulering [!DNL Walmart Marketplace] bestellingen van Adobe Commerce en Magento Open Source. "'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Kanaalbeheer synchroniseert updates met [!DNL Walmart Marketplace] om ervoor te 
 
    In de winkel moet u de volledige bestelling annuleren. [!DNL Commerce] staat gedeeltelijke annuleringen niet toe.
 
-Wanneer handelsorders worden verwerkt en [!DNL Channel Manager] synchroniseert de updates voor verzending, gedeeltelijke verzending en annulering met de [!DNL Walmart Marketplace], is de verwerking van de bestelling voltooid.
+* **Terugbetalingsaanvraag**- Als een Marketplace van het Walmart voor een verscheepte orde wordt gevraagd, [!UICONTROL Status details] bevat een koppeling naar de return. Retouren en terugbetalingen worden beheerd via de [Retourneert](return-refund-orders.md) dashboard.
+
+Wanneer handelsorders worden verwerkt en [!DNL Channel Manager] synchroniseert de updates voor verzending, gedeeltelijke verzending en annulering met de [!DNL Walmart Marketplace], is de verwerking van de bestelling voltooid. Terugbetalingsverzoeken en terugbetalingen voor verzonden bestellingen worden beheerd via de [Retourneert](return-refund-orders.md) dashboard.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Wanneer handelsorders worden verwerkt en [!DNL Channel Manager] synchroniseert d
 
 1. Open de winkelweergave door het oogpictogram voor een winkel met verkoopkanalen te selecteren.
 
-1. Naar weergave [!DNL Walmart Marketplace] bestellingen, selecteer *[!UICONTROL *Orders]**.
+1. Naar weergave [!DNL Walmart Marketplace] bestellingen, selecteren **[!UICONTROL Orders]**.
 
 1. In de lijst van Orden opent de orde om te verzenden door te selecteren **Handelsordernummer**.
 
@@ -49,6 +51,8 @@ Wanneer handelsorders worden verwerkt en [!DNL Channel Manager] synchroniseert d
    * Vul de rest van het verzendformulier naar wens in. Zie [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) voor gedetailleerde instructies.
 
 1. Na het verzenden van de zending, volg [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] om te controleren of updates zijn verzonden naar [!DNL Walmart Marketplace].
+
+Nadat een bestelling is verzonden, kunt u volledige of gedeeltelijke terugbetalingen van [!DNL Channel Manager] voor items die in de bestelling zijn opgenomen op basis van terugkeerverzoeken die zijn ontvangen van [!DNL Walmart Marketplace]. Zie [terugbetalingsopdrachten](return-refund-orders.md).
 
 ## Een bestelling annuleren
 

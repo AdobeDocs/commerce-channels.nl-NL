@@ -1,10 +1,10 @@
 ---
 title: Aanbiedingen beheren
-description: '''Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.'''
+description: 'Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ In de volgende tabellen worden de besturingselementen en kolommen beschreven die
 **Besturingselementen voor[!UICONTROL Listings]**
 
 | **Control** | **Beschrijving** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Hiermee opent u de [!UICONTROL Admin Product Catalog] pagina voor het selecteren van producten die u aan uw [!DNL Walmart Marketplace] assorment, of om productattributen bij te werken om aan de vereisten van de de lijstaanbieding van de Marketplace van het Markeren te voldoen. |
-| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten in de conceptstatus hebt geselecteerd, selecteert u Producten afstemmen op [!DNL Walmart] om te controleren op productaanbiedingen die kunnen worden toegevoegd aan een bestaande [!DNL Walmart Marketplace] aanbieding. |
+| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten hebt geselecteerd in [!UICONTROL Draft] status, selecteren [!UICONTROL Match products on Walmart] om te controleren op productaanbiedingen die kunnen worden toegevoegd aan een bestaande [!DNL Walmart Marketplace] aanbieding. |
 | [!UICONTROL Refresh products] | Werk de weergave bij met de meest recente aanbieding en status. Met dit besturingselement wordt ook de standaardsorteervolgorde van de lijstweergave hersteld en worden eventuele filters verwijderd. |
-| [!UICONTROL Filter by *Status*] | Alleen aanbiedingen met een specifieke status weergeven door een van de statustelkaarten boven de tabel met aanbiedingen te selecteren. Gebruik de *Producten vernieuwen* om het filter te verwijderen. |
+| [!UICONTROL Filter by *Status*] | Alleen aanbiedingen met een specifieke status weergeven door een van de statuskaarten boven de tabel met aanbiedingen te selecteren. Filter verwijderen door **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | Wijzig de sorteervolgorde voor de aanbieding door een kolomkop te selecteren. |
 
 
@@ -81,7 +81,6 @@ In de volgende tabellen worden de besturingselementen en kolommen beschreven die
 | [!UICONTROL Price] | De productprijs van de [!DNL Commerce] opslagcatalogus. Updates van catalogusprijzen worden gesynchroniseerd naar Channel Manager en vervolgens verzonden naar [!DNL Walmart Marketplace]  zodat de aangeboden objecten de huidige prijs aangeven. |
 | [!UICONTROL Status] | Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de markt aanpast. Als een bewerking mislukt, wordt een foutstatus weergegeven. Nadat u de fout hebt verholpen, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
 | [!UICONTROL Error Description] | Biedt aanvullende foutinformatie voor producten met een `[!DNL Error]` status. |
-| [!UICONTROL Status Detail] | Verstrekt extra informatie voor producten met *Fout* of *Overeenkomst* status. |
 
 ### Over aanbiedingsstatus
 

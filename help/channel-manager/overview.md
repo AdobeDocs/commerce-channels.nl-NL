@@ -1,18 +1,18 @@
 ---
-title: '''Info [!DNL Channel Manager]'''
-description: '''Meer informatie over installeren en gebruiken [!DNL Channel Manager] om Adobe Commerce- en Magento Open Source-winkels te integreren met externe markten en een verkoopkanaal te creëren voor het naadloos beheren van aanbiedingen, prijzen, voorraden en verkopen op de markt van uw Commerce Admin.'''
+title: '"Inleiding tot [!DNL Channel Manager]'''
+description: '''Meer informatie over installeren en gebruiken [!DNL Channel Manager] om Adobe Commerce en Magento Open Source winkels te integreren met de Marketplace van de Markt van het Markeren en een verkoopkanaal tot stand te brengen om aanbiedingen, prijzen, voorraad, en verkoop van de markt foutloos van uw Admin van de Handel te beheren. "'
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 2e3f8e51b765cda0559d8624d61e1ae9dc1c9667
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
 
 
-# Info [!DNL Channel Manager]
+# Inleiding tot [!DNL Channel Manager]
 
 [!DNL Channel Manager] helpt handelaren hun verkoop te verhogen, nieuwe klanten te bereiken, verkooptransacties te stroomlijnen en tijd te besparen door een Adobe Commerce- of Magento Open Source-productcatalogus te integreren met de [!DNL Walmart Marketplace].
 
@@ -28,13 +28,15 @@ Nadat u hebt geïnstalleerd en geconfigureerd [!DNL Channel Manager], kunt u de 
 
 * **Inventory management**-Objecten op de verkopersaccount worden automatisch gesynchroniseerd en bijgewerkt vanaf [!DNL Commerce] om te zorgen voor nauwkeurige inventarisniveaus.
 
-* **Prijswijzigingen**- Handhaaf nauwkeurige prijzen voor aanbiedingen op de markt met automatische prijssynchronisatie. Wanneer een prijs in Adobe Commerce verandert, worden de veranderingen weerspiegeld in de markt.
+* **Prijswijzigingen**—Handhaaf nauwkeurige prijzen voor aanbiedingen op de markt met automatische prijssynchronisatie. Wanneer een prijs in Adobe Commerce verandert, worden de veranderingen weerspiegeld in de markt.
 
-* **Orderbeheer**- Wanneer nieuwe orders op een markt worden gecreëerd, [!DNL Channel Manager] synchroniseert orders met Adobe Commerce en verzendt orderbevestigingen naar de markt. Deze erkenning zorgt ervoor dat de inventaris voor elke orde wordt gereserveerd. De laatste stap bestaat uit het maken van de corresponderende orders in de [!DNL Commerce] Bestelbeheersysteem voor verwerking.
+* **Orderbeheer**—Wanneer nieuwe orders op de markt worden gecreëerd, [!DNL Channel Manager] synchroniseert orders met Adobe Commerce en verzendt orderbevestigingen naar de markt. Deze erkenning zorgt ervoor dat de inventaris voor elke orde wordt gereserveerd. De laatste stap bestaat uit het maken van de corresponderende orders in de [!DNL Commerce] Bestelbeheersysteem voor verwerking.
 
-* **Verzendbeheer**-Als orders zijn gemarkeerd als verzonden in Adobe Commerce, wordt de update van de verzending verzonden naar de [!DNL Walmart Marketplace]. Deze melding zorgt ervoor dat verkopers voldoen aan hun SLA-vereisten en dat klanten verzendupdatemeldingen ontvangen voor hun huidige bestellingen.
+* **Verzendbeheer**—Als orders zijn gemarkeerd als verzonden in Adobe Commerce, wordt de update van de verzending verzonden naar de [!DNL Walmart Marketplace]. Deze melding zorgt ervoor dat verkopers voldoen aan hun SLA-vereisten en dat klanten verzendupdatemeldingen ontvangen voor hun huidige bestellingen.
 
-* **Annuleringen**-Als orders in Adobe Commerce worden geannuleerd, [!DNL Channel Manager] verzendt bijgewerkte orderinformatie naar de markt om de actie voor de overeenkomstige marktplaatsorde te herhalen. Nadat de orderannulering is voltooid, worden de [!DNL Commerce] voorraadkwantiteitsupdates voor geretourneerde objecten en voorraadupdates worden automatisch gesynchroniseerd naar [!DNL Walmart Marketplace].
+* **Annuleringen**—Wanneer orders in Adobe Commerce worden geannuleerd, [!DNL Channel Manager] verzendt bijgewerkte orderinformatie naar de markt om de actie voor de overeenkomstige marktplaatsorde te herhalen. Nadat de orderannulering is voltooid, worden de [!DNL Commerce] voorraadkwantiteitsupdates voor geretourneerde objecten en voorraadupdates worden automatisch gesynchroniseerd naar [!DNL Walmart Marketplace].
+
+* **Retourneert en terugbetaalt**—Wanneer Walmart Marketplace om een rendement voor voorwerpen verzoekt die door Adobe Commerce of Magento Open Source verkoopkanaal worden bevolen [!DNL Channel Manager] verzendt de informatie van het terugkeerverzoek naar de de verkoopkanaalopslag van de Handel om het terugkeerverzoek te herhalen. Vervolgens kan de restitutie worden verwerkt met behulp van de [!DNL Commerce] [terugbetalingsworkflow](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow), offlinemethode. Nadat de restitutie is voltooid, [!DNL Channel Manager] synchroniseert de update met Walmart zodat de status van de geretourneerde waarde op de verkopersaccount kan worden bijgewerkt met de terugbetaling.
 
 ## Verwachte vertraging voor [!DNL Channel Manager] bewerkingen
 

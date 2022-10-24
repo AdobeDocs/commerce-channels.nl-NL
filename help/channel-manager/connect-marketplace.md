@@ -1,8 +1,8 @@
 ---
-title: '''Verbinden [!DNL Channel Manager] tot [!DNL Walmart Marketplace]'''
-description: '"Verbind een de opslagmening van de Handel met [!DNL Walmart Marketplace] om het verkoopkanaal te creëren voor het beheren van aanbiedingen, voorraad, prijs en bestellingen van producten voor de handel in Walmart Marketplace."'
+title: 'Verbinden [!DNL Channel Manager] tot [!DNL Walmart Marketplace]'
+description: "Verbind een de opslagmening van de Handel met [!DNL Walmart Marketplace] om het verkoopkanaal te creëren voor het beheren van aanbiedingen, voorraad, prijs en bestellingen van producten voor de handel in Walmart Marketplace."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Na installatie van Channel Manager op uw [!DNL Commerce] instantie, een verkoopk
 
 1. [Het kanaal verbinden met [!DNL Walmart Marketplace] door toevoegen [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [Volledige installatie verkoopkanaal](#complete-store-setup) om aanbiedingen, voorraad, prijzen en bestellingen voor je [!DNL Walmart Marketplace] productassortiment.
+1. [Volledige installatie verkoopkanaal](#complete-sales-channel-store-setup) om aanbiedingen, voorraad, prijzen en bestellingen voor je [!DNL Walmart Marketplace] productassortiment.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Na installatie van Channel Manager op uw [!DNL Commerce] instantie, een verkoopk
 
 1. Selecteren **[!UICONTROL Save Store]** om de configuratie toe te passen en met [!DNL Walmart marketplace].
 
-1. Na verbinding met succes, [volledige installatie van de winkel](complete-store-setup.md) van de **[!UICONTROL Channel Manager]** winkelpagina.
+1. Na verbinding met succes, [volledige installatie van de winkel](complete-sales-channel-store-setup.md) van de **[!UICONTROL Channel Manager]** winkelpagina.
 
 ![Eerste winkel instellen](assets/channel-manager-setup-first-store.png)
 

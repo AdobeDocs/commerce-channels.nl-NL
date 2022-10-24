@@ -2,9 +2,9 @@
 title: Kaart met verzendende maatschappijen
 description: '''Map attributes for matching [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart]."'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,4 @@ Voer de volgende taken uit voordat u verzenddragers toewijst:
 1. Voor elke [!DNL Walmart] voorkeursprovider vermeld, selecteert u de [!DNL Commerce] de naam van de vervoerder uit het vervolgkeuzemenu, indien de draagstof beschikbaar is.
 
 1. Selecteren **[!UICONTROL Save]** om de configuratie toe te passen.
+

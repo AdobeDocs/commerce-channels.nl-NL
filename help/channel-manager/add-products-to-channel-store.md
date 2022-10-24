@@ -1,10 +1,10 @@
 ---
 title: Producten toevoegen aan Channel Manager
-description: '''Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten van de catalogus aan het verkoopkanaal toe te voegen dat in de Manager van het Kanaal wordt gevormd.'' '
+description: 'Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten van de catalogus aan het verkoopkanaal toe te voegen dat in de Manager van het Kanaal wordt gevormd.'
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
 1. Nadat het importeren is voltooid, controleert u de producten die u hebt toegevoegd door terug te keren naar [!DNL Channel Manager] en selecteren **[!UICONTROL Listings]**.
 
+   In eerste instantie bevinden de producten zich in *Concept* status. Selecteren **[!UICONTROL Refresh products]** om de tabel bij te werken.
+
+1. Werk de mening bij om de nieuwe producten te tonen die aan de Manager van het Kanaal worden toegevoegd door te selecteren **[!UICONTROL Draft]** statuskaart.
+
    ![Producten geïmporteerd naar verbonden verkoopkanaal](assets/products-in-marketplace-sales-channel.png)
 
-   In eerste instantie bevinden de producten zich in *Concept* status. Selecteren **[!UICONTROL Refresh products]** om de tabel bij te werken.
 
