@@ -1,9 +1,9 @@
 ---
-title: '''[!DNL Store Fulfillment by Walmart Commerce Technologies] Opmerkingen bij de release'
+title: Opmerkingen bij de release '[!DNLChannel Manager]'
 description: "De meest recente releasegegevens voor [!DNL Channel Manager] uit Adobe Commerce."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+source-git-commit: 501a76a126f090805f95e64078ec2c73de003aa4
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
