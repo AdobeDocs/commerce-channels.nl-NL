@@ -1,8 +1,8 @@
 ---
-title: '''Installeren [!DNL Channel Manager]'''
-description: '''Installeer de[!DNL Channel Manager] extensie.'''
+title: 'Installeren [!DNL Channel Manager]'
+description: 'Installeer de[!DNL Channel Manager] extensie.'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -67,7 +67,6 @@ Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Comme
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
-
       Monsterrespons:
 
       ```terminal
@@ -119,7 +118,7 @@ Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt a
 1. Voeg met de naam Composer de extensie toe aan de `require` van de `composer.json` bestand.
 
    ```bash
-   composer require require magento/module-sales-channels-extension --no-update
+   composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Werk de gebiedsdelen bij en installeer de uitbreiding.
