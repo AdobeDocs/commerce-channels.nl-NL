@@ -1,5 +1,5 @@
 ---
-title: '''Voorbeeld: Een voorwaarde definiëren'''
+title: 'Voorbeeld: Een voorwaarde definiëren'
 description: Wanneer je regels voor aanbiedingen maakt, moet je voorwaarden definiëren voor het identificeren van de catalogusproducten die op de Amazon Marketplace moeten worden aangeboden.
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Voorbeeld: Een voorwaarde definiëren
 
-## Conditions
+## Voorwaarden
 
 U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschillende opties weer te geven.
 
@@ -19,7 +19,7 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 
 >[!NOTE]
 >
->There is a complex set of back-end processes to communicate with Amazon&#39;s systems directly. Op basis van het aantal objecten dat je probeert aan te bieden en de manier waarop het druk is met Amazon-systemen (zoals &#39;Zwarte Vrijdag&#39;), kan het enige tijd duren voordat je objecten op Amazon worden aangeboden.
+>Er is een complexe reeks back-end processen om direct met Amazon-systemen te communiceren. Op basis van het aantal objecten dat je probeert aan te bieden en de manier waarop het druk is met Amazon-systemen (zoals &#39;Zwarte Vrijdag&#39;), kan het enige tijd duren voordat je objecten op Amazon worden aangeboden.
 
 Zie de sectie Voorwaarden van [Een regel voor een startprijs maken](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target=&quot;_blank&quot;}.
 
@@ -40,22 +40,22 @@ De regel in dit voorbeeld definieert een regel die stelt dat Amazon in aanmerkin
 De regelinstructie heeft twee vette koppelingen, die, wanneer erop wordt geklikt, de opties voor dat gedeelte van de instructie weergeven. Als u de voorwaarde opslaat zonder een vetgedrukte optie te wijzigen, geldt de regel voor al uw producten.
 
 - Klikken **[!UICONTROL ALL]** en kiest u `ALL` of `ANY`.
-- Click **[!UICONTROL TRUE]** and choose either `TRUE` or `FALSE`.
-- To apply the rule to all products, leave the condition unchanged.
+- Klikken **[!UICONTROL TRUE]** en kiest u `TRUE` of `FALSE`.
+- Als u de regel op alle producten wilt toepassen, laat u de voorwaarde ongewijzigd.
 
 U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wijzigen. In dit voorbeeld wordt de volgende voorwaarde gebruikt:
 
 `If ALL of these conditions are TRUE:`
 
-1. Click the Add (![Add icon](assets/btn-add-grn.png)) icon at the beginning of the condition line and select an attribute on which to base the condition, such as a conditions combination or a product attribute.
+1. Klik op Toevoegen (![Pictogram toevoegen](assets/btn-add-grn.png)) aan het begin van de voorwaardelijn en selecteer een kenmerk waarop de voorwaarde moet worden gebaseerd, zoals een voorwaardencombinatie of een productkenmerk.
 
    - **[!UICONTROL Conditions Combination]** - Kies deze optie om een andere set `All/Any` en `True/False` voorwaarden binnen de bestaande set.
 
       ![Combinatie van voorwaarden](assets/ob-conditions-combinations.png)
 
-   - **[!UICONTROL Product Attribute]** - The product attributes depend on the setup of the attribute. For an attribute to appear in the list, it must be configured for usage in promotional rule conditions. See the _Use for Promo Rule Conditions_ in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}.
+   - **[!UICONTROL Product Attribute]** - De productkenmerken zijn afhankelijk van de instelling van het kenmerk. Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Zie de _Voorwaarden voor promotieregels gebruiken_ in [Productkenmerken](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}.
 
-      In de lijst onder **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u als basis voor de voorwaarde wilt gebruiken. For this example, the selected condition is `Amazon FBA`.
+      In de lijst onder **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u als basis voor de voorwaarde wilt gebruiken. In dit voorbeeld is de geselecteerde voorwaarde: `Amazon FBA`.
 
       ![Voorwaardelijke regel 2, deel 2](assets/ob-condition-attribute-dropdown.png)
 
@@ -73,8 +73,8 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
          Het geselecteerde item wordt weergegeven in de instructie om de voorwaarde te voltooien.
 
-         ![Condition line 2, part 3](assets/ob-listing-rule-condition-is.png)
-   This condition is complete. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus waarvan het Amazon FBA-kenmerk is ingesteld op een waarde van `Yes` komt in aanmerking voor aanbieding aan Amazon voor de regio en winkel. You can add more condition lines to further narrow your eligible products.
+         ![Voorwaardelijke regel 2, deel 3](assets/ob-listing-rule-condition-is.png)
+   Deze voorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus waarvan het Amazon FBA-kenmerk is ingesteld op een waarde van `Yes` komt in aanmerking voor aanbieding aan Amazon voor de regio en winkel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
 
 1. Als u nog een voorwaardelijn aan de instructie wilt toevoegen, gaat u terug naar stap 1 en herhaalt u het proces totdat alle gewenste voorwaarden zijn voltooid.
 

@@ -35,7 +35,7 @@ Amazon-orders kunnen alleen worden geannuleerd als ze zich in een `Unshipped` st
 
 1. Voor **[!UICONTROL Reason for cancellation]** kiest u een optie.
 
-1. Klikken **[!UICONTROL Confirm]**.
+1. Klik op **[!UICONTROL Confirm]**.
 
    De volgorde wordt geannuleerd en de status wordt bijgewerkt naar `Canceled` in de ordergegevens.
 

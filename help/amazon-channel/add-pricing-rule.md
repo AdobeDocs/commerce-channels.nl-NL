@@ -5,7 +5,7 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Met een standaardprijsregel kun je een Amazon-prijs verhogen of verlagen met een
 
 1. Klikken **[!UICONTROL Pricing rules]** op het opslagdashboard.
 
-1. Klikken **[!UICONTROL Add new pricing rule]**.
+1. Klik op **[!UICONTROL Add new pricing rule]**.
 
 1. Voltooi de **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** voor de regel.
 
@@ -39,7 +39,7 @@ Een intelligente prijsstellingsregel gebruikt de prijs van Amazon-concurrenten o
 
 1. Klikken **[!UICONTROL Pricing rules]** op het opslagdashboard.
 
-1. Klikken **[!UICONTROL Add new pricing rule]**.
+1. Klik op **[!UICONTROL Add new pricing rule]**.
 
 1. Voltooi de **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** voor de regel.
 

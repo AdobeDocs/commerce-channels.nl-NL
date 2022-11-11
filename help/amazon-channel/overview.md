@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Amazon Sales Channel] Handboek"'
-description: '"[!DNL Channel manager] voor Adobe Commerce biedt de Amazon-uitbreiding voor verkoopkanalen zodat handelaren naadloos producten kunnen verkopen in de [!DNL Amazon Marketplace]."'
+title: "[!DNL Amazon Sales Channel] Handboek"
+description: "[!DNL Channel manager] voor Adobe Commerce biedt de Amazon-uitbreiding voor verkoopkanalen zodat handelaren naadloos producten kunnen verkopen in de [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
 source-git-commit: 71a59d85334127cb494b79e3079b6d4eba68990d

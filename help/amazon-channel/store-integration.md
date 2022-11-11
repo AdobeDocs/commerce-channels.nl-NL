@@ -25,7 +25,7 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
    Als je de eerste Amazon-winkel voor verkoopkanalen toevoegt, _Taken vooraf instellen_ wordt weergegeven. Nadat uw eerste winkel is toegevoegd, kunnen taken die vooraf zijn ingesteld, worden geopend op het tabblad [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina onder _Leren en voorbereiden_ in het linkerzijmenu.
 
-1. Klikken **[!UICONTROL Add Amazon Store]**.
+1. Klik op **[!UICONTROL Add Amazon Store]**.
 
    De _[!UICONTROL Add Amazon sales channel]_pagina wordt geopend.
 
@@ -60,13 +60,13 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
       [Toewijzingskenmerken](./ob-creating-magento-attributes.md) helpt ervoor te zorgen dat je Amazon-aanbieding correct overeenkomt met het corresponderende product in je [!DNL Commerce] catalogus.
 
-1. Klikken **[!UICONTROL Connect]**.
+1. Klik op **[!UICONTROL Connect]**.
 
    Het dialoogvenster wordt gesloten en de nieuwe winkel wordt weergegeven op het tabblad [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina met een bevestigingsbericht.
 
 ## Een winkel verbinden met [!DNL Amazon Seller Central]
 
-1. Klik op het opslagdashboard op **[!UICONTROL Connect store]** op de winkelkaart die moet worden gestart [!DNL Amazon Seller Central] op een nieuw tabblad.
+1. Klik op het opslagdashboard op **[!UICONTROL Connect store]** op de winkelkaart die u wilt starten [!DNL Amazon Seller Central] op een nieuw tabblad.
 
 1. Voer uw [!DNL Amazon Seller Central] accountgegevens en klik op **[!UICONTROL Sign in]**.
 

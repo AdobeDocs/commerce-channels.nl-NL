@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ### Volgende regels negeren
 
-De capaciteit om verdere regels te verwerpen is een grote eigenschap binnen het tarief regels die veelvoudige het tarief regels verhinderen te stapelen en onbedoelde extra kortingen te verstrekken. Om verdere regels te verwerpen, moet een prijsregel de prioriteiten gebruiken die in _[!UICONTROL Priority]_deel van [Algemene instellingen prijsregel](./pricing-rule-general-settings.md).
+De capaciteit om verdere regels te verwerpen is een grote eigenschap binnen het tarief regels die veelvoudige het tarief regels verhinderen te stapelen en onbedoelde extra kortingen te verstrekken. Om verdere regels te verwerpen, moet een prijsregel de prioriteiten gebruiken die in worden geplaatst _[!UICONTROL Priority]_deel van [Algemene instellingen prijsregel](./pricing-rule-general-settings.md).
 
 Indien **[!UICONTROL Discard Subsequent Rules]** is ingesteld op `Yes`, zijn de regels met lagere prioriteit (hogere aantallen) niet van toepassing op de in aanmerking komende producten.
 

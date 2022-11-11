@@ -1,10 +1,10 @@
 ---
 title: Algemene taken voor het verwerken van orders
-description: Gebruik de bijbehorende [!DNL Commerce] orders created for Amazon orders to manage order activity and processing in the [!UICONTROL Commerce] Admin.
+description: Gebruik de bijbehorende [!DNL Commerce] bestellingen die zijn gemaakt voor Amazon bestellingen om orderactiviteiten en verwerking in de [!UICONTROL Commerce] Admin.
 exl-id: a44f36f0-db18-4de5-9c5b-cc68f4793008
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---

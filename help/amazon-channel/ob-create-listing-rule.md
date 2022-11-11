@@ -19,7 +19,7 @@ Lijstregels kunnen tijdens het instappen worden gedefinieerd, maar kunnen ook op
 
    De winkel [dashboard](./amazon-store-dashboard.md) wordt weergegeven met de `No products listed to Amazon` bericht.
 
-1. Klikken **[!UICONTROL Preview and List Eligible Products]**.
+1. Klik op **[!UICONTROL Preview and List Eligible Products]**.
 
    De _[!UICONTROL Listing Rules]_wordt weergegeven.
 

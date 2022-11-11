@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Manage Amazon pricing
+# Amazon-prijzen beheren
 
 Met het verkoopkanaal van Amazon kunt u prijsregels instellen waarmee je de prijs van je Amazon-aanbieding kunt wijzigen. **[!UICONTROL Magento Price Source]** in uw [aanbiedingsprijs](./listing-price.md). Je kunt ook meerdere regels stapelen en zelfs de intelligente prijs gebruiken om de prijs van je Amazon-aanbieding aan te passen op basis van de prijs van je concurrenten. [[!DNL Buy Box]](./buy-box-competitor-pricing.md) de [laagste prijs van de concurrent](./lowest-competitor-pricing.md).
 
@@ -37,13 +37,13 @@ Met de prijsregels kun je een andere prijs voor je Amazon-aanbieding instellen d
 
 Voor een prijsstellings-/prijsstellingsregel zijn drie sets gegevens vereist tijdens de installatie:
 
-- [General settings](./pricing-rule-general-settings.md): Defines the name, description, active dates, priority for a rule and sets the behavior of subsequent rules, based on its priority setting.
-- [Conditions](./pricing-rule-conditions.md): Determine which products are eligible for the price rule.
+- [Algemene instellingen](./pricing-rule-general-settings.md): Bepaalt de naam, de beschrijving, de actieve data, de prioriteit voor een regel en plaatst het gedrag van verdere regels, die op zijn prioritaire plaatsen worden gebaseerd.
+- [Voorwaarden](./pricing-rule-conditions.md): Bepalen welke producten in aanmerking komen voor de prijsregel.
 - [Handelingen](./pricing-rule-actions.md): Definieer de aanpassingsberekeningen die op de prijsbron worden toegepast om de aanbiedingsprijs te bepalen.
 
 U kunt [standaardprijsregels](./standard-price-rules.md) waarmee je Amazon-aanbiedingsprijs automatisch wordt aangepast ten opzichte van de geselecteerde **[!UICONTROL Magento Price Source]** in uw [aanbiedingsprijs](./listing-price.md) instellingen. Met deze functie kun je je Amazon-prijzen op een vergelijkbare manier manipuleren als met de [!DNL Commerce] [catalogusprijsregels](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;}. U kunt complexe regels maken die automatisch de prijzen voor specifieke producten, producten binnen specifieke categorieën of producten met specifieke kenmerken wijzigen. U kunt traditionele instellingen voltooien en de prijs van uw producten wijzigen om deze te verhogen of te verlagen op basis van een vaste hoeveelheid of een percentage.
 
-Another powerful tool is the [Intelligent Repricing](./intelligent-repricing-rules.md) feature that adjusts your Amazon listing price based on competitor [[!DNL Buy Box]](./buy-box-competitor-pricing.md) price or [Lowest Competitor Price](./lowest-competitor-pricing.md). Vergelijkbaar met de [!DNL Commerce] [catalogusprijsregels](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;} kunt u met deze geavanceerde functie uw Amazon-prijzen manipuleren door complexe regels te maken. Rules can define the scope for a price change for specific products, products inside of specific categories, or even with specific product attributes.
+Een ander krachtig gereedschap is het [Intelligente reparatie](./intelligent-repricing-rules.md) functie waarmee je Amazon-aanbiedingsprijs op basis van een concurrent wordt aangepast [[!DNL Buy Box]](./buy-box-competitor-pricing.md) prijs of [Laagste concurrent](./lowest-competitor-pricing.md). Vergelijkbaar met de [!DNL Commerce] [catalogusprijsregels](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;} kunt u met deze geavanceerde functie uw Amazon-prijzen manipuleren door complexe regels te maken. De regels kunnen de mogelijkheid van een prijswijziging voor specifieke producten, producten binnen specifieke categorieën of zelfs met specifieke productkenmerken bepalen.
 
 Intelligente prijsstelling gebruiken om je Amazon-aanbiedingsprijzen aan te passen op basis van de prijs van de concurrent. Het verkoopkanaal van Amazon heeft ingebouwde waarborgen voor u gebouwd om marges te beschermen te vormen of te vermijden aanpassing van de prijzen van een handelaar met laag terugkoppelt. Gebruiken [intelligente tariefregels](./intelligent-repricing-rules.md), Amazon-aanbiedingsprijzen kunnen automatisch worden gemanipuleerd als een vast bedrag of als een percentage (omhoog of omlaag) of zelfs worden gesynchroniseerd met de [[!DNL Buy Box]](./buy-box-competitor-pricing.md) prijs of [Laagste concurrent](./lowest-competitor-pricing.md) per post. Regels kunnen zelfs worden gestapeld om onbeperkte flexibiliteit te bieden.
 
@@ -66,4 +66,4 @@ Een andere prijsstellingsoptie is een [prijsoverschrijving](./overrides.md), die
 | [!UICONTROL Stop Further Rules Processing] | Geeft aan of verdere prijsregels worden verwerkt voor producten die in aanmerking komen voor deze regel, zoals vastgesteld in [algemene prijsregel](./pricing-rule-general-settings.md) |
 | [!UICONTROL From Date] | Het begin van de periode waarin de regel actief is |
 | [!UICONTROL To Date] | Het einde van de periode waarin de regel actief is |
-| [!UICONTROL Action] | Hiermee worden alle acties weergegeven die op een specifieke aanbieding kunnen worden toegepast. To apply an action, click **[!UICONTROL Select]** in the _[!UICONTROL Action]_column. Opties: `Edit Price Rule` / `Delete Price Rule` |
+| [!UICONTROL Action] | Hiermee worden alle acties weergegeven die op een specifieke aanbieding kunnen worden toegepast. Als u een handeling wilt toepassen, klikt u op **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom. Opties: `Edit Price Rule` / `Delete Price Rule` |

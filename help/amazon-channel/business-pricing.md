@@ -1,11 +1,11 @@
 ---
 title: (B2B) Bedrijfsprijs
-description: Je kunt je [!DNL Commerce] store products on the Amazon Business (B2B) site by enabling business in your Amazon [!DNL Seller Central] account.
+description: Je kunt je [!DNL Commerce] producten opslaan op de Amazon Business-site (B2B) door bedrijven in uw Amazon mogelijk te maken [!DNL Seller Central] account.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Om uw producten op te nemen op [!DNL Amazon Business (B2B)] site: u moet eerst z
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Breid uit _[!UICONTROL (B2B) Business Price]_sectie.
+1. Vouw de sectie _[!UICONTROL (B2B) Business Price]_uit.
 
 1. Voor **[!UICONTROL Enable Business Pricing]** kiest u een optie.
 

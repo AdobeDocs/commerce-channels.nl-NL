@@ -1,6 +1,6 @@
 ---
 title: Catalogus zoeken
-description: Als u de kenmerkovereenkomst wilt instellen die u helpt in aanmerking komende producten uit de handelscatalogus toe te wijzen aan Amazon-aanbiedingen, werkt u de zoekinstellingen van de catalogus bij.
+description: Als u de kenmerkovereenkomst wilt instellen die helpt in aanmerking komende producten uit de handelscatalogus toe te wijzen aan Amazon-aanbiedingen, werkt u de zoekinstellingen van de catalogus bij.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -32,7 +32,7 @@ Als u kenmerken wilt toevoegen, raadpleegt u [Productkenmerken maken voor Amazon
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Breid uit _[!UICONTROL Catalog Search]_sectie.
+1. Vouw de sectie _[!UICONTROL Catalog Search]_uit.
 
 1. Voor **[!UICONTROL ASIN]**, kiest u het productkenmerk dat u voor de Amazon ASIN-waarde hebt gemaakt.
 

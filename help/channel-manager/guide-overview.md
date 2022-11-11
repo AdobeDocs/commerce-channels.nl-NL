@@ -1,6 +1,6 @@
 ---
 title: '''[!DNL Channel Manager] Overzicht van hulplijnen'
-description: '"Uitgebreide informatie over [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source-beheerders, met inbegrip van installatie en instapweigering."'
+description: "Uitgebreide informatie over [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source-beheerders, met inbegrip van installatie en instapweigering."
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae

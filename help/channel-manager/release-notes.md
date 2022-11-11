@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release '[!DNLChannel Manager]'
-description: "De meest recente releasegegevens voor [!DNL Channel Manager] uit Adobe Commerce."
-source-git-commit: 501a76a126f090805f95e64078ec2c73de003aa4
+description: De meest recente releasegegevens voor [!DNL Channel Manager] uit Adobe Commerce.
+exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
+source-git-commit: 151cce44d1107e351a1db012e89114cf95a977e7
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 1%

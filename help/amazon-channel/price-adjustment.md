@@ -31,7 +31,7 @@ Bepaal uw prijsaanpassing in _[!UICONTROL Price Adjustment]_sectie.
 
 1. Voor **[!UICONTROL Price Action]** kiest u een optie:
 
-   - `Decrease By` - Kies wanneer u de waarde van de gedefinieerde prijsbron wilt aanpassen, zodat een lagere prijs voor de regel wordt verkregen, voordat u deze aanbiedt aan Amazon.
+   - `Decrease By` - Kies wanneer u de waarde van de gedefinieerde prijsbron wilt aanpassen, zodat de prijs voor de regel lager wordt, voordat u de aanbieding aan Amazon uitvoert.
 
    - `Increase By` - Kies wanneer u de waarde van de gedefinieerde prijsbron wilt aanpassen, zodat een hogere prijs voor de regel wordt verkregen, voordat u deze aanbiedt aan Amazon.
 

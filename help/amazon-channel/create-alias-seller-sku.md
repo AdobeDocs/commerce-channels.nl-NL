@@ -17,7 +17,7 @@ Deze functie kan worden gebruikt om twee functies uit te voeren:
 
 - Een [!DNL Alias Amazon Seller SKU] voor een van uw [!DNL Commerce] catalogusproducten om regiospecifieke aanbiedingsgegevens te beheren.
 
-   **Voorbeeld**: Je bent een verkoper in zowel de VS als Canada. Vergeet niet dat elk van uw Amazon-winkels voor verkoopkanalen tijdens de installatie slechts één Amazon-regio kan worden toegewezen. U hebt dus een Amazon-winkel voor verkoopkanalen met een bepaalde regio in de VS en een andere winkel met een bepaalde regio in Canada. Beide winkels delen uw [!DNL Commerce] catalogus voor aanbiedingsgegevens in beide regio&#39;s, waaronder de productkenmerken Amazon Seller SKU en ASIN. Aanbiedingen voor het catalogusproduct zouden dus hetzelfde zijn in zowel winkels als winkels, waar prijzen, voorraad/hoeveelheid en andere productkenmerken worden gedeeld. Maar uw voorraad voor uw Canada slaat schepen op vanaf een locatie in Canada, en uw Amerikaanse winkelschepen vanaf een locatie in de VS. Je moet dus voor elke winkel afzonderlijk het aantal aanbiedingen bepalen. Voor dit type regiospecifiek besturingselement kunt u een Alias Amazon Seller SKU maken.
+   **Voorbeeld**: Je bent een verkoper in zowel de VS als Canada. Vergeet niet dat elk van uw Amazon-winkels voor verkoopkanalen tijdens de installatie slechts één Amazon-regio kan worden toegewezen. U hebt dus een Amazon-winkel voor verkoopkanalen met een bepaalde regio in de VS en een andere winkel met een bepaalde regio in Canada. Beide winkels delen uw [!DNL Commerce] catalogus voor aanbiedingsgegevens in beide regio&#39;s, waaronder de productkenmerken Amazon Seller SKU en ASIN. Aanbiedingen voor het catalogusproduct zouden dus hetzelfde zijn in zowel winkels als winkels, waar prijzen, voorraad/hoeveelheid en andere productkenmerken worden gedeeld. Maar uw voorraad voor uw Canada slaat schepen op van een locatie in Canada en uw Amerikaanse winkelschepen van een locatie in de VS. Je moet dus voor elke winkel afzonderlijk het aantal aanbiedingen bepalen. Voor dit type regiospecifiek besturingselement kunt u een Alias Amazon Seller SKU maken.
 
    In feite kunt u een SKU voor Alias Amazon-verkopers maken die is gekoppeld aan hetzelfde catalogusproduct en kan worden gebruikt om dezelfde aanbieding in dat gebied opnieuw te publiceren.
 
@@ -49,7 +49,7 @@ De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTRO
 
    - `No` - Kies of je een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten.
 
-1. Klikken **[!UICONTROL Save Listing Update]**.
+1. Klik op **[!UICONTROL Save Listing Update]**.
 
 ## Wordt gebruikt om één catalogusproduct aan twee Amazon-aanbiedingen te koppelen
 
@@ -71,12 +71,12 @@ De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTRO
 
    - `No` - Kies of je nog een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten.
 
-1. Klikken **[!UICONTROL Save Listing Update]**.
+1. Klik op **[!UICONTROL Save Listing Update]**.
 
 ![een Alias Amazon Seller SKU maken](assets/amazon-alias-sku-create.png)
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Assign New Seller SKU] | Voer een nieuwe, unieke alfanumerieke waarde in die moet worden gekoppeld aan de oorspronkelijke SKU van de Amazon-verkoper. Dit nummer wordt alleen gebruikt door het verkoopkanaal van Amazon om overeen te komen met het catalogusproduct. U kunt om het even welke waarde van SKU gebruiken, maar de waarde kan slechts eenmaal in uw catalogus worden gebruikt. |
+| [!UICONTROL Assign New Seller SKU] | Voer een nieuwe, unieke alfanumerieke waarde in die moet worden gekoppeld aan de oorspronkelijke SKU van de Amazon-verkoper. Dit nummer wordt alleen gebruikt door het verkoopkanaal van Amazon en komt overeen met het catalogusproduct. U kunt om het even welke waarde van SKU gebruiken, maar de waarde kan slechts eenmaal in uw catalogus worden gebruikt. |
 | [!UICONTROL Assign New ASIN] | Voer de ASIN-waarde in voor de aanbieding waaraan u het catalogusproduct wilt aanpassen. Pas dit veld alleen aan als een enkel catalogusproduct overeenkomt met de ASIN voor een andere vermelding voor hetzelfde product. Deze waarde moet overeenkomen met de ASIN die door Amazon is toegewezen, anders wordt de aanbieding niet door Amazon afgewezen. |
 | [!UICONTROL Remove Existing Seller SKU] | Opties:<ul><li>**[!UICONTROL Yes]** - Kies of u de aanbieding wilt verwijderen en een aanbieding wilt maken met de nieuwe gegevens die u opgeeft. De nieuwe aanbieding wordt weergegeven in het dialoogvenster _[!UICONTROL Active]_en de oude lijst wordt naar de_ Beëindigd _tab.</li><li>**[!UICONTROL No]** - Kies of je nog een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten. Beide aanbiedingen worden weergegeven op het tabblad Actief nadat de nieuwe aanbieding is gemaakt.</li></ul> |

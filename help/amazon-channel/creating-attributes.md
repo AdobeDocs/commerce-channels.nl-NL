@@ -92,7 +92,7 @@ Na het opslaan wilt u mogelijk het kenmerk bewerken om de instellingen te bekijk
 
 1. Geef aan of u de bestaande kenmerkwaarde van de binnenkomende Amazon wilt overschrijven.
 
-   Je kunt bijvoorbeeld de prijzen van Amazon naar [!DNL Commerce].
+   U wilt bijvoorbeeld de prijzen van Amazon naar [!DNL Commerce].
 
    - **[!UICONTROL Do Not Overwrite Existing Magento Values]** - Behoudt de waarde en bewaart verschillende waarden voor uw [!DNL Commerce] en Amazon winkels.
 

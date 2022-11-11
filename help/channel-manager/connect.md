@@ -1,6 +1,6 @@
 ---
 title: '''Verbinden met [!DNL Commerce] diensten'
-description: '''Kanaalbeheer verbinden met [!DNL Commerce] diensten om gegevenssynchronisatie en communicatie tussen de [!DNL Commerce] bijvoorbeeld Channel Manager en andere ondersteunende services.'''
+description: 'Kanaalbeheer verbinden met [!DNL Commerce] diensten om gegevenssynchronisatie en communicatie tussen de [!DNL Commerce] bijvoorbeeld Channel Manager en andere ondersteunende services.'
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31

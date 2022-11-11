@@ -1,10 +1,10 @@
 ---
 title: Homepage
-description: De Amazon-homepage van verkoopkanalen gebruiken in uw [!DNL Commerce] Admin to access your [!DNL Amazon Marketplace] aanbiedingen en activiteiten.
+description: De Amazon-homepage van verkoopkanalen gebruiken in uw [!DNL Commerce] Beheerder heeft toegang tot uw [!DNL Amazon Marketplace] aanbiedingen en activiteiten.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---

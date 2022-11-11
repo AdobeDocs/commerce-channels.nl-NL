@@ -26,7 +26,7 @@ De eerste aanbieding wordt geïmporteerd wanneer [winkelintegratie](./store-inte
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Breid uit _[!UICONTROL Third Party Listings]_sectie.
+1. Vouw de sectie _[!UICONTROL Third Party Listings]_uit.
 
 1. Voor **[!UICONTROL Import Third Party Listings]** (vereist) kiest u een optie:
 

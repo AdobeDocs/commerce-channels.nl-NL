@@ -27,7 +27,7 @@ Na het integreren van uw opslag, herzie en vorm de montages van de opslagintegra
 
    Het wordt gebruikt als een [!DNL Commerce] en identificeert de winkel in de lijst op de homepage van het verkoopkanaal van Amazon. Het zou iets moeten zijn uw team gemakkelijk kan identificeren. De naam van je Amazon-winkel die in de Verenigde Staten verkoopt, kan bijvoorbeeld worden vermeld `Amazon Store USA`.
 
-1. Klikken **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

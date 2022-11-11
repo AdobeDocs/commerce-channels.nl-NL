@@ -82,7 +82,7 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 
 1. Wijzig uw [Voorwaarden voor aanbiedingsregels](./ob-define-condition-example.md).
 
-1. Klikken **[!UICONTROL Preview Changes]**.
+1. Klik op **[!UICONTROL Preview Changes]**.
 
 1. Je aanbiedingen bekijken en bevestigen in de _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_, en _[!UICONTROL New Listings]_tabs.
 

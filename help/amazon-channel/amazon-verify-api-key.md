@@ -1,6 +1,6 @@
 ---
 title: De Amazon API-sleutel toevoegen of verifiëren
-description: Met de gevalideerde Amazon API-sleutel in uw configuratie voor handel kunt u uw winkels integreren met uw Amazon Seller-account.
+description: Met de gevalideerde Amazon API-sleutel in uw configuratie voor handel kunt u uw winkels integreren met uw Amazon-verkopersaccount.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -51,7 +51,7 @@ De API-sleutel wordt telkens gevalideerd wanneer u uw Amazon-verkoopkanaal opent
 
 1. Plak de gekopieerde sleutel voor **[!UICONTROL Production Api key]**.
 
-1. Klikken **[!UICONTROL Save Config]**. Je kunt nu terugkeren naar het verkoopkanaal van Amazon.
+1. Klik op **[!UICONTROL Save Config]**. Je kunt nu terugkeren naar het verkoopkanaal van Amazon.
 
    ![API-sleutel toevoegen in de configuratie van uw winkel](assets/config-magento-services-api-screen.png)
 

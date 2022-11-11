@@ -41,7 +41,7 @@ De [!DNL Amazon Sales Channel] De extensie ondersteunt beide opties en ontvangt 
 
 ## Voor verkoop op Amazon
 
-Amazon volgt een reeks beleidsregels en workflows om ervoor te zorgen dat alle verkopers en producten zich aan bepaalde richtlijnen houden. Om ervoor te zorgen dat je producten en account worden goedgekeurd en in aanmerking komen voor aanbieding, moet je de volgende Amazon-informatie en -beleid bekijken:
+Amazon volgt een reeks beleidsregels en workflows om ervoor te zorgen dat alle verkopers en producten zich aan bepaalde richtlijnen houden. Om ervoor te zorgen dat je producten en account worden goedgekeurd en in aanmerking komen voor aanbieding, moet je de volgende Amazon-informatie en -beleidsregels doornemen:
 
 - [Help voor verkopers in Amazon](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/){target=&quot;_blank&quot;}
 - [Verzendbeleid](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target=&quot;_blank&quot;}

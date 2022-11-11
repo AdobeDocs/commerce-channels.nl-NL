@@ -25,7 +25,7 @@ De _[!UICONTROL Buy Box Competitor Pricing]_op het tabblad_[!UICONTROL Product L
 
    De [_[!UICONTROL Product Listing]_](./managing-product-listings.md) pagina wordt geopend.
 
-1. Klik op een van de tabbladen met de status van de aanbieding op de naam van de productaanbieding voor een aanbieding.
+1. Klik op een van de tabbladen met de status van de aanbieding op de naam van een product voor een aanbieding.
 
    De _[!UICONTROL Product Listing Details]_pagina wordt geopend.
 

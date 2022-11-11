@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Logboek met communicatiefouten
 
-In het Communication Errors Log worden alle gerapporteerde communicatiefouten met Amazon weergegeven. De informatie omvat de beïnvloede opslag van het verkoopkanaal van Amazon, foutencode en korte beschrijving, en de datum en de tijd van de fout.
+In het Communication Errors Log worden alle gerapporteerde communicatiefouten met Amazon weergegeven. De informatie omvat de getroffen de verkoopkanaalopslag van Amazon, foutencode en korte beschrijving, en de datum en de tijd van de fout.
 
 Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
 

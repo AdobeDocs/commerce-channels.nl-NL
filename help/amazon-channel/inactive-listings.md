@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Inactieve aanbiedingen
 
-De _[!UICONTROL Inactive]_toont de producten die naar Amazon zijn gepubliceerd, maar die niet actief zijn op het tabblad [!DNL Amazon Marketplace]. Your listings could be inactive for a few different reasons. U komt bijvoorbeeld mogelijk niet in aanmerking om dat specifieke merk aan te bieden. Niet-actieve aanbiedingen worden bepaald door de aanbiedingsnormen van Amazon en je [!DNL Amazon Seller Central] accountmachtigingen.
+De _[!UICONTROL Inactive]_toont de producten die naar Amazon zijn gepubliceerd, maar die niet actief zijn op het tabblad [!DNL Amazon Marketplace]. Je aanbiedingen kunnen om verschillende redenen inactief zijn. U komt bijvoorbeeld mogelijk niet in aanmerking om dat specifieke merk aan te bieden. Niet-actieve aanbiedingen worden bepaald door de aanbiedingsnormen van Amazon en je [!DNL Amazon Seller Central] accountmachtigingen.
 
 Onder _[!UICONTROL Actions]_:
 
 - **[!UICONTROL End Listing(s) on Amazon]**: Kies ervoor om alle geselecteerde aanbiedingen te verwijderen uit de [!DNL Amazon Marketplace]. Zie [Een Amazon-aanbieding beëindigen](./end-listings-manually.md).
 
-- **[!UICONTROL Edit Listing Overrides]**: Kies of u de overschrijvingsinstellingen voor de aanbieding wilt wijzigen. See [Overrides](./overrides.md) or [Edit or remove an override](./creating-editing-overrides.md#edit-override-single-listing).
+- **[!UICONTROL Edit Listing Overrides]**: Kies of u de overschrijvingsinstellingen voor de aanbieding wilt wijzigen. Zie [Overschrijvingen](./overrides.md) of [Een overschrijving bewerken of verwijderen](./creating-editing-overrides.md#edit-override-single-listing).
 
 Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 
@@ -44,7 +44,7 @@ Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](
 | Kolom | Beschrijving |
 |--- |--- |
 | [!UICONTROL Amazon Seller SKU] | De SKU (Stock Keeping Unit) die door Amazon aan een product wordt toegewezen om het product, de opties, de prijs, en de fabrikant te identificeren. |
-| [!UICONTROL ASIN] | A unique block of 10 letters and/or numbers that identify items.<br><br>ASIN staat voor de Amazon Standard Identification Numbers. An ASIN is a unique block of 10 letters and/or numbers that identify items. Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan hun catalogus wordt geupload. You can find an items ASIN on the product detail page on Amazon, along with further details relating to the item. |
+| [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert.<br><br>ASIN staat voor de Amazon Standard Identification Numbers. Een ASIN is een uniek blok van 10 letters en/of getallen dat items identificeert. Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan hun catalogus wordt geupload. Je vindt een artikel in ASIN op de productdetailpagina op Amazon, samen met meer informatie over het object. |
 | [!UICONTROL Product Listing Name] | De naam van het product. |
 | [!UICONTROL Condition] | De [voorwaarde](./product-listing-condition.md) van het product. |
 | [!UICONTROL Landed Price] | De prijs van de aanbieding voor het product plus de verzendprijs. |

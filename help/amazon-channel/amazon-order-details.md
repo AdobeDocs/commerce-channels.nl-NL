@@ -52,7 +52,6 @@ De _[!UICONTROL Order and Shipping Details]_bevat gedetailleerde ordergegevens, 
 >- `Shipping region`
 >- `Shipping postal code`
 >- `Shipping country`
-
 >
 >Vergeet niet op **Volgorde opslaan** nadat u bewerkingen hebt uitgevoerd.
 

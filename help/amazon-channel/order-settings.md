@@ -85,7 +85,7 @@ Uit Amazon geïmporteerde bestellingen kunnen worden beheerd in het dialoogvenst
 
 [!DNL Commerce] voor Amazon-bestellingen worden bestellingen gemaakt op basis van de volgende status en inventarisvoorwaarden.
 
-### Maken van bestellingen met inventarisbeheer
+### Maken van bestellingen met Inventory management
 
 >[!NOTE]
 >
@@ -115,4 +115,4 @@ Uit Amazon geïmporteerde bestellingen kunnen worden beheerd in het dialoogvenst
 >[!NOTE]
 >Als een Amazon-bestelling wordt geïmporteerd in een `Partially Shipped` of `Shipped` status, de voorraadboeking die wordt gemaakt, geldt voor alle items in de bestelling. Amazon biedt geen compensatie voor objecten die eerder zijn verzonden.
 >
->Als een bestelling wordt vervuld door Amazon (FBA), maar een item zich bevindt in `out of stock` status, [!DNL Commerce] kan geen corresponderende volgorde maken. Dit is een beperking van de integratie van voorraadbeheer.
+>Als een bestelling wordt vervuld door Amazon (FBA), maar een item zich bevindt in `out of stock` status, [!DNL Commerce] kan geen corresponderende volgorde maken. Dit is een beperking van de integratie van Inventory management.

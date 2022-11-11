@@ -1,7 +1,8 @@
 ---
 title: Terugbetalings- en terugbetalingsopdrachten
-description: "Instructies voor de afgifte van volledige of gedeeltelijke terugbetalingen voor terugkeerverzoeken die zijn ontvangen van [!DNL Walmart Marketplace] van [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: Instructies voor de afgifte van volledige of gedeeltelijke terugbetalingen voor terugkeerverzoeken die zijn ontvangen van [!DNL Walmart Marketplace] van [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: 151cce44d1107e351a1db012e89114cf95a977e7
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -189,5 +190,3 @@ U kunt informatie over retourverzoeken en terugbetalingsverwerking bekijken via 
 Er kunnen fouten optreden wanneer de retourinformatie wordt ontvangen van [!DNL Walmart Marketplace]of wanneer [!DNL Channel Manager] synchroniseert statusupdates van [!DNL Commerce] tot [!DNL Walmart Marketplace].
 
 Als de synchronisatiebewerking voor een retourupdate mislukt, wordt [!DNL Channel Manager] Geeft dashboard een *[!UICONTROL Error]* status voor de terugkeeringang. Om ervoor te zorgen dat de terugkeer en terugbetalingsinformatie correct in de rekening van de Marketplace van de Markeren wordt weerspiegeld, werk manueel de orde in uw [!DNL Walmart Marketplace] opslaan.
-
-

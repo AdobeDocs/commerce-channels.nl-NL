@@ -20,13 +20,13 @@ Hoeveelheid is een regionaal kenmerk en is gebaseerd op de **[!UICONTROL Amazon 
 
 >[!NOTE]
 >
->Voor Adobe Commerce- en Magento Open Source 2.3.x-gebruikers ondersteunt het verkoopkanaal van Amazon het gebruik van de uitbreiding voor voorraadbeheer zonder extra installatie. Zie [Inventaris beheren](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target=&quot;_blank&quot;}.
+>Voor Adobe Commerce- en Magento Open Source 2.3.x-gebruikers biedt Amazon-verkoopkanalen ondersteuning voor het gebruik van de Inventory management-extensie zonder extra installatie. Zie [Inventaris beheren](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target=&quot;_blank&quot;}.
 
 ## Instellingen voor voorraad/hoeveelheid configureren {#configure-stock--quantity-settings}
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Breid uit **[!UICONTROL Stock / Quantity]** sectie.
+1. Vouw de sectie **[!UICONTROL Stock / Quantity]** uit.
 
 1. Voor **[!UICONTROL Out-of-Stock Threshold]** (vereist), voert u een numerieke waarde in voor de laagste hoeveelheid van een product om het product in aanmerking te laten komen voor de Amazon-aanbieding.
 

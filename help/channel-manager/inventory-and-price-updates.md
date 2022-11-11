@@ -1,6 +1,6 @@
 ---
 title: Update van voorraad en prijs
-description: '''[!DNL Channel Manager] syntheseinventarisatie en prijsupdates tussen de [!DNL Commerce] opslaan en [!DNL Walmart Marketplace] zodat u de verkoopkanaalbewerkingen kunt beheren via het [!DNL Commerce] Admin'''
+description: '[!DNL Channel Manager] syntheseinventarisatie en prijsupdates tussen de [!DNL Commerce] opslaan en [!DNL Walmart Marketplace] zodat u de verkoopkanaalbewerkingen kunt beheren via het [!DNL Commerce] Admin'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
 source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
