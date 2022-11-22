@@ -2,9 +2,9 @@
 title: '''[!DNL Walmart] Vereisten'
 description: '"Controleer of u de vereiste [!DNL Walmart Marketplace]informatie en bronnen die met Channel Manager moeten worden geïntegreerd.'''
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
+source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] vereist de volgende middelen en de informatie om een [!DNL Commerce] verkoopkanaal voor [!DNL Walmart Marketplace.]
 
-* Goedkeuring om op te verkopen [!DNL Walmart] en aanmeldingsgegevens voor aanmelding bij de geregistreerde verkopersaccount
+* A [!DNL Walmart] Verkopersaccount
 
 * Een API-sleutel om Adobe Commerce of Magento Open Source om te verbinden met [!DNL Walmart Marketplace]
 
@@ -21,8 +21,7 @@ ht-degree: 0%
 
 ## Een [!DNL Walmart Seller] account
 
-1. [De toepassing Walmart-verkoper verzenden](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Na goedkeuring van [!DNL Walmart], [je Walmart Seller-account instellen](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+Ga naar de [!DNL Walmart Seller Center] om uw [Walmart-verkopersaccount](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Een [!DNL Walmart Marketplace] API-sleutel voor productie
 
