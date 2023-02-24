@@ -2,7 +2,7 @@
 title: Overzicht van instellingen
 description: '''Meer informatie over de [!DNL Channel Manager settings] om authentificatie te vormen en de attributen van de productcatalogus en verzendende dragers in kaart te brengen die worden vereist om verkoopverrichtingen tussen te coördineren [!DNL Commerce] en de [!DNL Walmart Marketplace]."'
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

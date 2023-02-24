@@ -2,14 +2,14 @@
 title: Volledige kanaalinstelling
 description: "Na het creëren van het verkoopkanaal dat een [!DNL Commerce] Winkelweergave naar [!DNL Walmart Marketplace], opent u het kanaal en voltooit u de kanaalconfiguratie. Start vervolgens het proces om producten toe te voegen, aanbiedingen, voorraad, prijzen en bestellingen te beheren vanuit [!DNL Channel Manager]."
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Volledige installatie verkoopkanaal
+# Volledige Sales Channel instellen
 
 Nadat u een [!DNL Commerce] opslaan naar [!DNL Walmart Marketplace], volledige installatie van de winkel vanuit de [!DNL Channel Manager] homepage.
 

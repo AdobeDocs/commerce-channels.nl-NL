@@ -2,14 +2,14 @@
 title: Terugbetalings- en terugbetalingsopdrachten
 description: Instructies voor de afgifte van volledige of gedeeltelijke terugbetalingen voor terugkeerverzoeken die zijn ontvangen van [!DNL Walmart Marketplace] van [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: 151cce44d1107e351a1db012e89114cf95a977e7
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Terugbetalingsopdrachten
+# Terugbetalings- en terugbetalingsopdrachten
 
 Wanneer een koper een retournering aanvraagt voor bestellingen die zijn gekocht via [!DNL Walmart Marketplace], Walmart leidt tot een terugkeerverzoek. [!DNL Channel Manager] controleert het marktplace kanaal voor deze verzoeken en synchroniseert automatisch de informatie van het terugkeerverzoek aan de Manager van het Kanaal.
 

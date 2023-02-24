@@ -2,14 +2,14 @@
 title: 'Bestellingen weergeven en beheren vanuit [!DNL Channel Manager]'
 description: '''Weergeven en beheren [!DNL Walmart Marketplace] bestellingen met [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# Bestellingen weergeven en volgen van [!DNL Channel Manager]
+# Bestellingen weergeven en bijhouden via [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] ordergegevens voor [!DNL Commerce] producten worden automatisch gesynchroniseerd met [!DNL Channel Manager] na [!DNL Walmart] verwerkt de volgorde.
 
@@ -175,6 +175,3 @@ In de winkel Commerce worden bestellingen geïmporteerd uit [!DNL Walmart Market
    ![Status historie van geordende items voor ordergegevens [!DNL Walmart Marketplace] orders](assets/order-detail-status-history.png)
 
 Je kunt de gegevens van de objectfactuur en de restitutie bekijken door de [!UICONTROL Invoice] en [!UICONTROL Credit Memo] in het navigatiemenu. U kunt het creditmemo ook rechtstreeks openen vanuit de [[!UICONTROL Returns]](return-refund-orders.md) dashboard in uw verkoopkanaalwinkel.
-
-
-

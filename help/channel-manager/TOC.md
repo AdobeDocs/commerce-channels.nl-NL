@@ -2,7 +2,7 @@
 user-guide-title: '''[!DNL Channel Manager] Hulplijn'
 user-guide-description: 'Verhoog uw omzet en vergroot uw klantenbasis door Adobe Commerce of Magento Open Source te integreren met uw [!DNL Walmart Marketplace] Verkoper Central]-account.'
 breadcrumb-title: '[!DNL Channel Manager Guide]'
-source-git-commit: 8cfc006e295d12fce9edafed0806c2899368ef64
+source-git-commit: dc84f36fd7054bbd11a7492574bb662eaf097c4a
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
    - [Walmart-verbinding beheren](manage-wmt-connection.md)
 - Producten weergeven {#list-products}
    - [Aanbiedingen beheren](manage-listings.md)
-   - [Producten toevoegen aan Channel Store](add-products-to-channel-store.md)
+   - [Producten toevoegen aan de kanaalwinkel](add-products-to-channel-store.md)
    - [Aanbiedingen verbinden met Walmart](connect-listings-to-marketplace.md)
 - Inventaris en prijzen {#inventory-pricing}
    - [Overzicht en prijzen bijwerken](inventory-and-price-updates.md)

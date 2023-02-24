@@ -1,22 +1,22 @@
 ---
-title: '''Verbinden met [!DNL Commerce] diensten'
+title: '''Verbinden met [!DNL Commerce] Diensten'
 description: 'Kanaalbeheer verbinden met [!DNL Commerce] diensten om gegevenssynchronisatie en communicatie tussen de [!DNL Commerce] bijvoorbeeld Channel Manager en andere ondersteunende services.'
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 7e7a3e854bbc6062e2d15c1962ddf787451e7275
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 
-# Verbinden met [!DNL Commerce] diensten
+# Verbinden met [!DNL Commerce] Services
 
 De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegreerd met Adobe Commerce- en Magento Open Source-instanties. De schakelaar laat gegevenssynchronisatie en communicatie tussen toe [!DNL Commerce] instantie, [!DNL Channel Manager]en andere ondersteunende diensten.
 
-[!DNL Commerce Services Connector] Setup is een eenmalig proces dat vereist is voor gebruik [Adobe Commerce SaaS-services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} zoals [!DNL Channel Manager], [!DNL Live Search], en [!DNL Product Recommendations]. Als u reeds de schakelaar voor een andere dienst hebt gevormd, sla deze stap over.
+[!DNL Commerce Services Connector] Setup is een eenmalig proces dat vereist is voor gebruik [Adobe Commerce SaaS-services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} zoals [!DNL Channel Manager], [!DNL Live Search], en [!DNL Product Recommendations]. Als u reeds de schakelaar voor een andere dienst hebt gevormd, sla deze stap over.
 
 ## Vereisten
 
@@ -24,11 +24,11 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 
    Accounteigenaars en Super-gebruikers kunnen beheerdersaccounts maken via de [!DNL Commerce] instantie of vanaf de opdrachtregel met behulp van de [!DNL Commerce] CLI, opdracht `admin:user:create`.
 
-- **Adobe Commerce Production API Key**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
+- **Adobe Commerce Production API Key**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
 
 >[!TIP]
 >
->Om de geloofsbrieven te verstrekken, a [!DNL Commerce] vergunninghouder of rekeninghouder beschikt over opties om [gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} of geef de [API-sleutel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} referenties naar een vertrouwde ontwikkelaar.
+>Om de geloofsbrieven te verstrekken, a [!DNL Commerce] vergunninghouder of rekeninghouder beschikt over opties om [gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} referenties voor een vertrouwde ontwikkelaar.
 
 ## Configureer de [!DNL Commerce Services Connector]
 
@@ -36,7 +36,7 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 
    - Selecteer bij Beheer de optie **[!UICONTROL Stores]**.
 
-   - Selecteer onder *[!UICONTROL Settings]* de optie **[!UICONTROL Configuration]**.
+   - Onder *[!UICONTROL Settings]*, selecteert u **[!UICONTROL Configuration]**.
 
    - Uitbreiden **[!UICONTROL Services]** en selecteert u **[!UICONTROL Commerce Services Connector]**.
 

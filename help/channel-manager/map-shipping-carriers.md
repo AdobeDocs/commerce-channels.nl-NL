@@ -1,8 +1,8 @@
 ---
-title: Kaart met verzendende maatschappijen
+title: Verzendkosten toewijzen
 description: '''Map attributes for matching [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart]."'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Kaart met verzendende maatschappijen
+# Verzendkosten toewijzen
 
 Voor u [procesorderoverbrengingen](process-orders.md#ship-an-order) for [!DNL Walmart Marketplace] bestellingen, de voorkeur van Walmart aan vervoerders aan de overeenkomstige vervoerder in kaart brengen [!DNL Commerce] zodat de verzendgegevens gesynchroniseerd kunnen worden tussen [!DNL Walmart] en [!DNL Commerce].
 

@@ -2,14 +2,14 @@
 title: Update van voorraad en prijs
 description: '[!DNL Channel Manager] syntheseinventarisatie en prijsupdates tussen de [!DNL Commerce] opslaan en [!DNL Walmart Marketplace] zodat u de verkoopkanaalbewerkingen kunt beheren via het [!DNL Commerce] Admin'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# Overzicht en prijzen bijwerken
+# Inventaris en prijzen bijwerken
 
 [!DNL Channel Manager] inventarisatie en prijsstelling volgen voor producten in de [!DNL Commerce] productcatalogus en synchroniseert updates met het verbonden verkoopkanaal en [!DNL Walmart Marketplace]. De synchronisatiebewerking zorgt ervoor dat de huidige voorraadhoeveelheid en prijzen in de productaanbiedingen worden weergegeven.
 
@@ -42,4 +42,4 @@ Wanneer de productprijs verandert in [!DNL Commerce], [!DNL Channel Manager] syn
 1. Controleer en werk de prijs zo nodig bij.
 1. **[!UICONTROL Save]** de wijziging.
 
-Voor hulp bij het beheren van de productprijsconfiguratie in [!DNL Commerce], zie [Prijsbeheer](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
+Voor hulp bij het beheren van de productprijsconfiguratie in [!DNL Commerce], zie [Prijsbeheer](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.
