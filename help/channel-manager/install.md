@@ -2,9 +2,9 @@
 title: 'Installeren [!DNL Channel Manager]'
 description: 'Installeer de[!DNL Channel Manager] extensie.'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Beide methodes vereisen u om de Interface van de Lijn van het Bevel (CLI) te geb
 
 >[!NOTE]
 >
->Voor hulp bij het installeren [!DNL Commerce] software die CLI gebruikt, zie [Algemene installatie van CLI](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
+>Voor hulp bij het installeren [!DNL Commerce] software die CLI gebruikt, zie [Algemene installatie van CLI](https://devdocs.magento.com/extensions/install/){target="_blank"}.
 
 ### Installeren op een exemplaar ter plaatse
 
 Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Commerce en Magento Open Source naar een instantie ter plaatse.
 
-1. Aanmelden bij de [!DNL Commerce] server als een [gebruiker met machtigingen](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} om naar de [!DNL Commerce] bestandssysteem.
+1. Aanmelden bij de [!DNL Commerce] server als een [gebruiker met machtigingen](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} om te schrijven naar [!DNL Commerce] bestandssysteem.
 
-1. Plaats uw website in [onderhoudsmodus](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target=&quot;_blank&quot;}.
+1. Plaats uw website in [onderhoudsmodus](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
 
    ```bash
    $ bin/magento maintenance:enable
@@ -108,18 +108,18 @@ Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Comme
 
 Werk in een ontwikkelingsvertakking wanneer u een extensie toevoegt aan uw cloudinstantie.
 
-Voor hulp bij het gebruiken van takken, zie [Aan de slag met het maken van vertakkingen](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} in de documentatie voor Adobe Commerce-ontwikkelaars.
+Voor hulp bij het gebruiken van takken, zie [Aan de slag met het maken van vertakkingen](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} in de documentatie voor ontwikkelaars van Adobe Commerce.
 
-Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt automatisch ingevoegd in het dialoogvenster [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;} bestand. U hoeft het bestand niet rechtstreeks te bewerken.
+Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt automatisch ingevoegd in het dialoogvenster [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} bestand. U hoeft het bestand niet rechtstreeks te bewerken.
 
 1. Wijzig op uw lokale werkstation de hoofdmap van het Cloud-project.
 
-1. Een ontwikkeling maken of uitchecken [vertakking](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+1. Een ontwikkeling maken of uitchecken [vertakking](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
 
 1. Voeg met de naam Composer de extensie toe aan de `require` van de `composer.json` bestand.
 
    ```bash
-   composer require require magento/module-sales-channels-extension --no-update
+   composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Werk de gebiedsdelen bij en installeer de uitbreiding.
@@ -137,7 +137,7 @@ Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt a
    ```
 
    ```bash
-   $ git commit -m “Install channel manager extension” 
+   $ git commit -m "Install channel manager extension" 
    ```
 
    ```bash
@@ -163,7 +163,7 @@ Als de module is uitgeschakeld, [inschakelen in uw lokale omgeving](https://devd
 
    >[!NOTE]
    >
-   >Ga voor instructies voor het bijwerken van Channel Manager naar een nieuwe versie naar [Modules en extensies upgraden](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target=&quot;_blank&quot;}.
+   >Ga voor instructies voor het bijwerken van Channel Manager naar een nieuwe versie naar [Modules en extensies upgraden](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
 
 
 ## Problemen oplossen
@@ -172,7 +172,7 @@ Gebruik de volgende informatie om fouten op te lossen die tijdens het installati
 
 ### Onjuiste Composer-sleutels
 
-Als de [toegangstoets](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} gebruikt om te verifiëren bij de Composer-opslagplaats, is ongeldig of is niet gekoppeld aan de [!DNL MAGE ID] gebruikt om u aan te melden voor de [!DNL Channel Manager] -service, wordt de volgende fout weergegeven.
+Als de [toegangstoets](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} gebruikt om te verifiëren bij de Composer-gegevensopslagruimte ongeldig is of niet is gekoppeld aan de [!DNL MAGE ID] gebruikt om u aan te melden voor de [!DNL Channel Manager] -service, wordt de volgende fout weergegeven.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -192,7 +192,7 @@ Controleer de sleutelconfiguratie:
    $ cat /path/to/auth.json
    ```
 
-1. Controleren of de gegevens in auth.json overeenkomen [de sleutels verbonden aan MAGE identiteitskaart](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} gebruikt om te registreren voor de service Channel Manager.
+1. Controleren of de gegevens in auth.json overeenkomen [de sleutels verbonden aan MAGE identiteitskaart](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} gebruikt om zich te registreren voor de service Channel Manager.
 
 ### Onvoldoende geheugen voor PHP
 
@@ -204,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 Gebruik een van de volgende methoden om het geheugenprobleem op te lossen:
 
-- [De geheugenlimiet voor PHP verhogen](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target=&quot;_blank&quot;} in de omgeving `php.ini` bestand. Controleer ook of de instantie Commerce de [aanbevolen waarden](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target=&quot;_blank&quot;} voor andere PHP-instellingen.
+- [De geheugenlimiet voor PHP verhogen](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} voor andere PHP instellingen.
 
 - Geef de geheugenlimiet op vanaf de opdrachtregel.
 
@@ -220,7 +220,7 @@ Gebruik een van de volgende methoden om het geheugenprobleem op te lossen:
 
 ### Ontbrekende weergave
 
-Als er een fout optreedt bij een ontbrekende `process_catalog_exporter_view` tijdens de installatie van Channel Manager probeert u [indexeerprogramma&#39;s vernieuwen](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+Als er een fout optreedt bij een ontbrekende `process_catalog_exporter_view` tijdens de installatie van Channel Manager probeert u [indexeerprogramma&#39;s vernieuwen](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
 
 ```bash
 php bin/magento indexer:refresh
@@ -228,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### Implementatiefouten in cloud
 
-Voor problemen met de implementatie van de extensie in de cloud raadpleegt u [implementatiefout extensie](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Voor problemen met de implementatie van de extensie in de cloud raadpleegt u [implementatiefout extensie](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
