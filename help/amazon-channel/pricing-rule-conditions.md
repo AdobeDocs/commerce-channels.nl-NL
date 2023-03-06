@@ -3,16 +3,16 @@ title: Voorwaarden voor prijsregels
 description: Gebruik de prijsregelvoorwaarden om te bepalen welke producten in aanmerking komen voor de prijsregel voor aanbiedingen.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
-# Prijsregelvoorwaarden
+# Voorwaarden voor prijsregels
 
-De voorwaarden bepalen welke producten in aanmerking komen voor de prijsregel. Als u de voorwaarden voor uw prijsregels voor Amazon definieert, volgt u dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} in [!DNL Commerce].
+De voorwaarden bepalen welke producten in aanmerking komen voor de prijsregel. Als u de voorwaarden voor uw prijsregels voor Amazon definieert, volgt u dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 
 Dit proces kan eenvoudig of gedetailleerd zijn, afhankelijk van uw catalogusconfiguratie. U kunt uw voorwaarden zodanig definiëren dat wanneer `ALL` of `ANY` van de voorwaarden: `TRUE` of `FALSE` voor een product komt het product in aanmerking voor toepassing van de prijsregel.
 
-Voorwaarden zijn gebaseerd op uw [productkenmerken](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. Laat de sectie voor voorwaarden leeg als u de regel op alle producten wilt toepassen.
+Voorwaarden zijn gebaseerd op uw [productkenmerken](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Laat de sectie voor voorwaarden leeg als u de regel op alle producten wilt toepassen.
 
 >[!NOTE]
 >
->Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **Voorwaarden voor promotieregels gebruiken** for the attribute must be set to `Yes` in uw [Eigenschappen van Storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;} voor het kenmerk.
+>Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **Voorwaarden voor promotieregels gebruiken** for the attribute must be set to `Yes` in uw [Eigenschappen van Storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} voor het kenmerk.
 
 ![Prijsregelvoorwaarde - regel 1](assets/ob-price-rules-condition-1.png)
 
@@ -50,7 +50,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
    ![Combinatie van prijsregelvoorwaarden](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]** - De beschikbare productkenmerken zijn afhankelijk van de [instellen van het kenmerk](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}. Voor een kenmerk dat in de lijst moet worden weergegeven, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in uw [storefront, eigenschappen](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}.
+   **[!UICONTROL Product Attribute]** - De beschikbare productkenmerken zijn afhankelijk van de [instellen van het kenmerk](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
 
    - Voor **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u wilt definiëren als basis voor de voorwaarde. In dit voorbeeld is de geselecteerde voorwaarde: `Category`.
 

@@ -2,14 +2,14 @@
 title: Toewijzing Amazon-kenmerk weergeven
 description: Verifieer waarden voor uw verbonden attributen van de Handel aan correcte synchronisatie tussen Handel en Amazon.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# Amazon-kenmerktoewijzing weergeven
+# Toewijzing Amazon-kenmerk weergeven
 
 Als u Amazon-kenmerken toewijst aan [!DNL Commerce] kenmerken, houdt Amazon het verkoopkanaal bij en biedt een filterbare lijst met alle Amazon-waarden. Op deze pagina kunt u waarden voor de gekoppelde waarden verifiëren [!DNL Commerce] kenmerken correct synchroniseren tussen [!DNL Commerce] en Amazon. U kunt gesynchroniseerde waarden controleren voor Amazon-kenmerken die zijn gekoppeld aan een [!DNL Commerce] kenmerk. Als u uw Amazon-kenmerken wilt maken of bewerken, raadpleegt u [Kenmerken maken en bewerken](./creating-attributes.md).
 

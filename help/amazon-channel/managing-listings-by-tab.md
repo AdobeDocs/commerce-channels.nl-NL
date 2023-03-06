@@ -1,15 +1,15 @@
 ---
-title: Productaanbiedingen beheren op Status / Tab
+title: Productaanbiedingen beheren op status/tabblad
 description: Wanneer je je Amazon-aanbiedingen beheert, kun je acties op je aanbiedingen toepassen op basis van status.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# Productaanbiedingen beheren op status / tabblad
+# Productaanbiedingen beheren op status/tabblad
 
 De _[!UICONTROL Product Listings]_Deze pagina bevat verschillende tabbladen waarmee je de status van al je aanbiedingen kunt bekijken en je producten kunt afstemmen op aanbiedingen op Amazon.
 

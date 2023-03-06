@@ -3,9 +3,9 @@ title: Aanbiedingen van derden
 description: Werk de aanbiedingsinstellingen van derden bij om te bepalen of in de handelscatalogus producten uit je bestaande Amazon Seller Central-aanbiedingen worden geïmporteerd.
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ De eerste aanbieding wordt geïmporteerd wanneer [winkelintegratie](./store-inte
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Vouw de sectie _[!UICONTROL Third Party Listings]_uit.
+1. Breid uit _[!UICONTROL Third Party Listings]_sectie.
 
 1. Voor **[!UICONTROL Import Third Party Listings]** (vereist) kiest u een optie:
 
    - `Import Listing` - (Standaard) Kies wanneer je productinformatie uit je Amazon-aanbiedingen wilt importeren in je [!DNL Commerce] productcatalogus. Dit is de standaardoptie en wordt aanbevolen.
 
-   - `Do Not Import Listing` - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.
+   - `Do Not Import Listing` - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.
    >[!NOTE]
    >De volgende optievelden zijn alleen actief wanneer deze zijn ingesteld op `Import Listing`.
 
@@ -49,7 +49,7 @@ De eerste aanbieding wordt geïmporteerd wanneer [winkelintegratie](./store-inte
 
 | Veld | Beschrijving |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | Vereist. Opties:<ul><li>**[!UICONTROL Import Listing]** - (Standaard) Kies wanneer je productinformatie uit je Amazon-aanbiedingen wilt importeren in je [!DNL Commerce] productcatalogus. </li><li>**[!UICONTROL Do Not Import Listing]** - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.</li></ul> |
+| [!UICONTROL Import Third Party Listings] | Vereist. Opties:<ul><li>**[!UICONTROL Import Listing]** - (Standaard) Kies wanneer je productinformatie uit je Amazon-aanbiedingen wilt importeren in je [!DNL Commerce] productcatalogus. </li><li>**[!UICONTROL Do Not Import Listing]** - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | Alleen actief wanneer ingesteld op `Import Listing`.<br>Kies de optie [!DNL Commerce] -kenmerk als een overeenkomst met het Amazon-kenmerk voor de SKU van de Amazon-verkoper. Als dit kenmerk niet bestaat, raadpleegt u [Amazon-productkenmerken voor Amazon Matching maken](./ob-creating-magento-attributes.md). Controleer indien nodig uw [!DNL Commerce] [attributes](./managing-attributes.md) en maak of bewerk een kenmerk dat aansluit bij deze Amazon-gegevens. |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | Alleen actief wanneer ingesteld op `Import Listing`.<br>Kies de optie [!DNL Commerce] kenmerk dat overeenkomt met het Amazon-kenmerk voor de Amazon ASIN. Als dit kenmerk niet bestaat, raadpleegt u [Amazon-productkenmerken voor Amazon Matching maken](./ob-creating-magento-attributes.md). Controleer indien nodig uw [!DNL Commerce] [attributes](./managing-attributes.md) en maak of bewerk een kenmerk dat aansluit bij deze Amazon-gegevens. |
 

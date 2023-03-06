@@ -2,9 +2,9 @@
 title: Taken vooraf instellen
 description: Controleer de vereiste taken die moeten worden voltooid voordat u uw Adobe Commerce- of Magento Open Source-winkel in Amazon Sales Channel integreert.
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -17,33 +17,33 @@ Wanneer u uw eerste Amazon-winkel instelt in Amazon-verkoopkanaal, wordt een lij
 
 ## 1. Achtergrondtaken inschakelen in [!DNL Commerce]
 
-Alle producten en gegevens gesynchroniseerd tussen [!DNL Commerce] en Amazon wordt beheerd door een [snijtaak](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}. Wanneer u alle taken hebt voltooid, zoals het toevoegen of bijwerken van aanbiedingen en het ontvangen van bestellingen, verzendt en ontvangt een uitsnijdtaak gegevens tussen uw [!DNL Commerce] en uw [!DNL Amazon Seller Central] account.
+Alle producten en gegevens gesynchroniseerd tussen [!DNL Commerce] en Amazon wordt beheerd door een [snijtaak](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. Wanneer u alle taken hebt voltooid, zoals het toevoegen of bijwerken van aanbiedingen en het ontvangen van bestellingen, verzendt en ontvangt een uitsnijdtaak gegevens tussen uw [!DNL Commerce] en uw [!DNL Amazon Seller Central] account.
 
-- [Inschakelen [!DNL Commerce] kraan](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}.
+- [Inschakelen [!DNL Commerce] kraan](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
 
-- Voor maximale prestaties [set [!DNL Commerce] kraan](https://docs.magento.com/user-guide/configuration/advanced/system.html){target=&quot;_blank&quot;} om de vijf minuten uit te voeren.
+- Voor maximale prestaties [set [!DNL Commerce] kraan](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} om de vijf minuten te draaien.
 
 ## 2. Maak uw [!DNL Amazon Seller Central] account
 
-Voordat je een verkoopkanaal voor Amazon instelt, moet je over een actieve [!DNL Amazon Seller Central] account. Als je geen bestaande Amazon-verkopersaccount hebt in het dialoogvenster [Noord-Amerika (VS, CA, MX)](https://sell.amazon.com/){target=&quot;_blank&quot;} of [Europees (VK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target=&quot;_blank&quot;} gebied, kunt u het installatieproces van een Amazon-verkopersaccount voltooien.
+Voordat je een verkoopkanaal voor Amazon instelt, moet je over een actieve [!DNL Amazon Seller Central] account. Als je geen bestaande Amazon-verkopersaccount hebt in het dialoogvenster [Noord-Amerika (VS, CA, MX)](https://sell.amazon.com/){target="_blank"} or [European (UK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target="_blank"} -regio, kunt u het installatieproces van een Amazon-verkopersaccount voltooien.
 
-Amazon-verkoopkanaal vereist een [!DNL Professional Seller] account op [!DNL Amazon Seller Central]. Amazon brengt maandelijks een abonnement en verkoopkosten in rekening. Zie [Amazon: Kies je verkoopplan](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}.
+Amazon-verkoopkanaal vereist een [!DNL Professional Seller] account op [!DNL Amazon Seller Central]. Amazon brengt maandelijks een abonnement en verkoopkosten in rekening. Zie [Amazon: Kies je verkoopplan](https://sell.amazon.com/pricing.html){target="_blank"}.
 
 ## 3. Ervoor zorgen dat je een goedgekeurde Amazon-verkoper bent
 
-Voor integratie moet u beschikken over een goedgekeurd [!DNL Amazon Seller Central] account. Je account mag geen beperkingen hebben voor producten of rubrieken. Voor sommige producten en categorieën is goedkeuring vereist voordat aanbiedingen worden gemaakt. Bekijk het Amazon-beleid voor rubriek en productgoedkeuring om te controleren of je producten zijn goedgekeurd. Zie [Amazon: Categorieën en producten waarvoor goedkeuring vereist is](https://sellercentral.amazon.com/gp/help/200333160){target=&quot;_blank&quot;} (Aanmelden bij verkoper centraal vereist).
+Voor integratie moet u beschikken over een goedgekeurd [!DNL Amazon Seller Central] account. Je account mag geen beperkingen hebben voor producten of rubrieken. Voor sommige producten en categorieën is goedkeuring vereist voordat aanbiedingen worden gemaakt. Bekijk het Amazon-beleid voor rubriek en productgoedkeuring om te controleren of je producten zijn goedgekeurd. Zie [Amazon: Categorieën en producten waarvoor goedkeuring vereist is](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} (Aanmelden bij Verkoper is vereist).
 
 Het is ook belangrijk om ervoor te zorgen dat u het volgende in uw hebt gevormd [!DNL Amazon Seller Central] account:
 
-- Zorg ervoor dat je retourbeleid even goed is als of beter is dan het retourbeleid van Amazon. Zie [Amazon: Retourbeleid](https://www.amazon.com/gp/help/customer/display.html){target=&quot;_blank&quot;}.
+- Zorg ervoor dat je retourbeleid even goed is als of beter is dan het retourbeleid van Amazon. Zie [Amazon: Retourbeleid](https://www.amazon.com/gp/help/customer/display.html){target="_blank"}.
 
-- Zorg ervoor dat de belastinginstellingen zijn geconfigureerd. Zie [Amazon: Belastingbeleid](https://sellercentral.amazon.com/gp/help/external/help.html){target=&quot;_blank&quot;} (Aanmelden bij verkoper centraal vereist).
+- Zorg ervoor dat de belastinginstellingen zijn geconfigureerd. Zie [Amazon: Belastingbeleid](https://sellercentral.amazon.com/gp/help/external/help.html){target="_blank"} (Aanmelden bij Verkoper is vereist).
 
-- Zorg ervoor dat uw verzendmethoden correct zijn geconfigureerd. De verzendmethoden instellen die [!DNL Commerce] worden aangeboden aan klanten om aan uw Amazon-bestellingen te voldoen, de [Amazon: Verzendinstellingen](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target=&quot;_blank&quot;} in uw [!DNL Amazon Seller Central] account.
+- Zorg ervoor dat uw verzendmethoden correct zijn geconfigureerd. De verzendmethoden instellen die [!DNL Commerce] worden aangeboden aan klanten om aan uw Amazon-bestellingen te voldoen, de [Amazon: Verzendinstellingen](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target="_blank"} in uw [!DNL Amazon Seller Central] account.
 
 ## 4. Zorg ervoor dat de BTW is geconfigureerd voor uw winkels
 
-(Hoofdzakelijk gebruikt door verkopers in het Verenigd Koninkrijk.) Amazon raadt u aan zich aan te melden voor de [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon){target=&quot;_blank&quot;}. Als u een andere methode kiest, bent u verantwoordelijk voor de naleving van de BTW.
+(Hoofdzakelijk gebruikt door verkopers in het Verenigd Koninkrijk.) Amazon raadt u aan zich aan te melden voor de [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon){target="_blank"}. Als u een andere methode kiest, bent u verantwoordelijk voor de naleving van de BTW.
 
 >[!NOTE]
 >
@@ -57,9 +57,9 @@ Het hoogste aantal [!DNL Commerce] producten komen automatisch overeen met Amazo
 
 ## 6. Uw valuta en conversie configureren (indien nodig)
 
-Als je Amazon-winkel een andere valuta gebruikt dan voor jouw configuratie [!DNL Commerce] opslaan, [de munt](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target=&quot;_blank&quot;} en stelt de [valutakoers](https://docs.magento.com/user-guide/stores/currency-update.html){target=&quot;_blank&quot;}.
+Als je Amazon-winkel een andere valuta gebruikt dan voor jouw configuratie [!DNL Commerce] opslaan, [de munt](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
 
-## 7. Een productvoorwaardelement maken (indien nodig)
+## 7. Een kenmerk voor de productvoorwaarde maken (indien nodig)
 
 Als je Amazon-aanbiedingen meer dan één productvoorwaarde bevatten, zoals _new_, _gebruikt_, of _zoals nieuw_), een [!DNL Commerce] en wijs voorwaardenwaarden toe. U moet dit kenmerk tijdens het instappen toewijzen aan het Amazon Condition-productkenmerk. Zie [Kenmerken maken voor Amazon](./ob-creating-magento-attributes.md).
 
@@ -73,7 +73,7 @@ Als je Amazon-account is ingesteld en geactiveerd, zijn er verschillende [!DNL C
 
 ### Bekijk en noteer alle producten die u wilt uitsluiten
 
-Mogelijk wilt u niet dat bepaalde producten op Amazon worden vermeld. Het verkoopkanaal van Amazon heeft een regelengine voor aanbiedingen die wordt gebruikt om te bepalen welke producten in aanmerking komen voor publicatie naar Amazon. [Aanbiedingsregels](./listing-rules.md) u toestaan om ondergroepen van producten te selecteren die (of niet gepubliceerd) aan uw [!DNL Amazon Seller Central] -account, bijvoorbeeld op categorie of door een of meer productkenmerken te definiëren. leuk [!DNL Commerce] [catalogus](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;} of [winkelwagentje](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} prijsregels, productkenmerken die worden gebruikt om in aanmerking te komen voor Amazon-aanbiedingen, moeten **[!UICONTROL Use for Promo Rule Conditions]** instellen op `Yes`. Zie de **[!UICONTROL Use for Promo Rule Conditions]** in [Productkenmerken](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}.
+Mogelijk wilt u niet dat bepaalde producten op Amazon worden vermeld. Het verkoopkanaal van Amazon heeft een regelengine voor aanbiedingen die wordt gebruikt om te bepalen welke producten in aanmerking komen voor publicatie naar Amazon. [Aanbiedingsregels](./listing-rules.md) u toestaan om ondergroepen van producten te selecteren die (of niet gepubliceerd) aan uw [!DNL Amazon Seller Central] -account, bijvoorbeeld op categorie of door een of meer productkenmerken te definiëren. leuk [!DNL Commerce] [catalogus](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
 
 ### Stel uw [!DNL Amazon Seller Central] regio naar inactief
 

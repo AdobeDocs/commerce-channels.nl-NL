@@ -3,14 +3,14 @@ title: Amazon-Sales Channel aan boord
 description: Meer informatie over de vooraf ingestelde taken, instapstappen en de manier waarop Amazon werkt met Amazon Sales Channel in Adobe Commerce en Magento Open Source.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
-# Onboard Amazon-verkoopkanaal
+# Amazon-Sales Channel aan boord
 
 In deze sectie worden de vooraf ingestelde taken, de stappen voor instapweigering en enkele belangrijke concepten beschreven van hoe Amazon werkt met het Amazon-verkoopkanaal in Adobe Commerce en Magento Open Source.
 
@@ -18,7 +18,7 @@ De [!DNL Amazon Sales Channel] -extensie ondersteunt meerdere Amazon-winkels. Vo
 
 >[!TIP]
 >
->A [Professional-verkopersaccount](https://sell.amazon.com/){target=&quot;_blank&quot;} aan [!DNL Amazon Seller Central] in Noord-Amerika of de Europese regio (VK) is vereist. Amazon brengt maandelijks een abonnement en verkoopkosten in rekening. Zie [Amazon: Kies je verkoopplan](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}.<br><br>
+>A [Professional-verkopersaccount](https://sell.amazon.com/){target="_blank"} on [!DNL Amazon Seller Central] in the North America or European (UK) region is required. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan](https://sell.amazon.com/pricing.html){target="_blank"}.<br><br>
 >Onboarding is eenvoudig: maak uw winkel en sluit deze aan op uw [!DNL Amazon Seller Central] account.
 >Wanneer je winkel is verbonden, probeert het Amazon-kanaal je Amazon-aanbiedingen te importeren en deze aan te passen aan je catalogus, op basis van je [kenmerktoewijzing](./attributes-view.md).<br><br>
 >De instellingen van het verkoopkanaal van Amazon zijn van invloed op je Amazon-aanbiedingen. Je eerste aanbieding, prijs en productinstellingen worden standaard voor jou gebruikt. U kunt uw [opslaginstellingen](./ob-store-review.md) (aanbieding, prijs, bestelling en rapportage) nadat je winkel is verbonden met je [!DNL Amazon Seller Central] account.

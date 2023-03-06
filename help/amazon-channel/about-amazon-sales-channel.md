@@ -1,15 +1,15 @@
 ---
-title: Over Amazon-verkoopkanaal
+title: Informatie over Amazon Sales Channel
 description: Met de Amazon-extensie voor verkoopkanalen kunt u Adobe Commerce of Magento Open Source naadloos integreren met uw Amazon Seller Central-account.
 exl-id: 11752491-d0da-4ff7-a0a7-d17d4fa1bfc9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
-# Het Amazon-verkoopkanaal
+# Over de Amazon-Sales Channel
 
 Channel Manager voor Adobe Commerce biedt de Amazon Sales Channel-extensie, die uw [!DNL Commerce] Beheerder met uw [!DNL Amazon Seller Central] account. Na [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] wordt een &quot;centraal commandocentrum&quot; voor het beheer en de controle van je aanbiedingen, bestellingen en voorraad van Amazon en de prijzen voor je Amazon-winkel.
 
@@ -121,7 +121,7 @@ Met de [!DNL Amazon Sales Channel] extensie kunt u:
 
 - Meerdere beheerfuncties [!DNL Amazon Marketplace] regio&#39;s (landen).
 
-- Meerdere valuta&#39;s ondersteunen met de [[!DNL Commerce] valutaomrekeningsinstrument](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}.
+- Meerdere valuta&#39;s ondersteunen met de [[!DNL Commerce] valutaomrekeningsinstrument](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}.
 
 - Beheer verzendingen vanuit uw productlocaties en Amazon-uitvoeringscentra.
 

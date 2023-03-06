@@ -3,14 +3,14 @@ title: Handelingen met prijsregels
 description: Gebruik de acties voor prijsregels om de aanpassingsberekeningen te definiëren die op de prijsbron worden toegepast om de Amazon-prijs voor de aanbieding te bepalen.
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# Prijsregelacties
+# Handelingen met prijsregels
 
 Met Prijsregelacties worden de aanpassingsberekeningen gedefinieerd die op de prijsbron worden toegepast om de prijs van de aanbieding te bepalen.
 

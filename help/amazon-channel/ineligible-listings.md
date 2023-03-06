@@ -2,7 +2,7 @@
 title: Niet-subsidiabele aanbiedingen
 description: Amazon-verkoopkanaal biedt [!UICONTROL Ineligible] om je te helpen objecten te beheren, komen niet in aanmerking als een aanbieding op basis van je huidige aanbiedingsregels.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%

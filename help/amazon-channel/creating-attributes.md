@@ -2,9 +2,9 @@
 title: Kenmerken maken en bewerken
 description: Amazon Sales Channel biedt de weergave Kenmerken om u te helpen de huidige Amazon-kenmerken en gekoppelde Commerce-kenmerken te bekijken.
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Deze stappen maken een [!DNL Commerce] en toewijzen aan een Amazon-kenmerk. Afha
 
 1. Voor **[!UICONTROL Comparable on Storefront]**, ingesteld op `Yes` als de kenmerkwaarde kan worden gebruikt in de Amazon-functie &quot;Vergelijken via&quot;.
 
-1. Kies de optie [!DNL Commerce] [bereik](https://docs.magento.com/user-guide/configuration/scope.html){target=&quot;_blank&quot;} voor het kenmerk en selecteer een of meer winkelweergaven waarin u Amazon-waarden wilt importeren.
+1. Kies de optie [!DNL Commerce] [bereik](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} voor het kenmerk en selecteer een of meer winkelweergaven waarin u Amazon-waarden wilt importeren.
 
    Als het bereik is ingesteld op `Global`de _[!UICONTROL Store View]_kan niet worden gewijzigd nadat het kenmerk is gemaakt.
 
@@ -75,8 +75,8 @@ Na het opslaan wilt u mogelijk het kenmerk bewerken om de instellingen te bekijk
 | [!UICONTROL Use for Promo Rule Conditions] | Schakelen tussen `Yes` om toe te staan dat het attribuut voor een parameter binnen uw promotionele voorwaarden beschikbaar is. |
 | [!UICONTROL Used in Search] | Geeft aan of het kenmerk en de waarde kunnen worden gebruikt in productzoekopdrachten. |
 | [!UICONTROL Comparable on Storefront] | Geeft aan of de kenmerkwaarde kan worden gebruikt in de Amazon-functionaliteit &quot;Vergelijken door&quot;. |
-| [!UICONTROL Magento Product Attribute Scope] | Hiermee wordt de [bereik](https://docs.magento.com/user-guide/configuration/scope.html){target=&quot;_blank&quot;} voor het kenmerk. Opties: Globale weergave/Winkelweergave<br>Wanneer ingesteld op `Global`, kan de winkelweergave niet worden bewerkt nadat het kenmerk is gemaakt. |
-| [!UICONTROL Store Views (to import values into to)] | Wordt alleen weergegeven wanneer het bereik is ingesteld op `Store View`. Kies de optie [winkelweergave](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} waarnaar de Amazon-kenmerkwaarden worden gesynchroniseerd. Kiezen `All Store Views (Global)` Hiermee wordt de waarde voor alle [!DNL Commerce] archiefweergaven. |
+| [!UICONTROL Magento Product Attribute Scope] | Hiermee wordt de [bereik](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} voor het kenmerk. Opties: Globale weergave/Winkelweergave<br>Wanneer ingesteld op `Global`, kan de winkelweergave niet worden bewerkt nadat het kenmerk is gemaakt. |
+| [!UICONTROL Store Views (to import values into to)] | Wordt alleen weergegeven wanneer het bereik is ingesteld op `Store View`. Kies de optie [winkelweergave](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} waarop de Amazon-kenmerkwaarden worden gesynchroniseerd. Kiezen `All Store Views (Global)` Hiermee wordt de waarde voor alle [!DNL Commerce] archiefweergaven. |
 
 ## Een kenmerk bewerken {#edit-an-attribute}
 
@@ -114,5 +114,5 @@ Na het opslaan wilt u mogelijk het kenmerk bewerken om de instellingen te bekijk
 | [!UICONTROL Select Magento Product Attribute] | Hiermee wordt de geselecteerde [!DNL Commerce] kenmerk dat u wilt koppelen aan de vermelde Amazon-kenmerknaam. Als u de gekoppelde [!DNL Commerce] een ander kenmerk kiezen in de vervolgkeuzelijst. De waarden worden gesynchroniseerd op basis van configuraties. |
 | [!UICONTROL Amazon Attribute Name] | Hiermee wordt de naam van het Amazon-kenmerk weergegeven, zoals gedefinieerd in [!DNL Amazon Seller Central]. De geselecteerde [!DNL Commerce] kenmerkkoppelingen naar dit Amazon-kenmerk. U kunt deze waarde niet bewerken via [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | Geeft aan of de Amazon-kenmerkwaarden het bestaande overschrijven [!DNL Commerce] waarden, die van invloed zijn op alle producten met dit [!DNL Commerce] kenmerk.<ul><li>**Bestaande Magento-waarden niet overschrijven** - (Standaard) De instelling [!DNL Commerce] waarde, verschillende waarden behouden voor [!DNL Commerce] en Amazon winkels.</li><li>**Bestaande Magento-waarden overschrijven** - Hiermee slaat u de Amazon-waarde op over de [!DNL Commerce] in de [!DNL Commerce] productcatalogus.</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | Wordt niet weergegeven wanneer u een kenmerk bewerkt als het kenmerk is gemaakt met het gereedschap `Global` bereik. Hiermee wordt de [!DNL Commerce] [bereik](https://docs.magento.com/user-guide/configuration/scope.html){target=&quot;_blank&quot;} is gemaakt en ingesteld op `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | Kies uw [!DNL Commerce] [winkelweergave](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} waarnaar de Amazon-kenmerkwaarden moeten worden gesynchroniseerd. Kiezen `All Store Views (Global)` werkt de waarde in alle opslagweergaven bij. |
+| [!UICONTROL Magento Product Attribute Scope] | Wordt niet weergegeven wanneer u een kenmerk bewerkt als het kenmerk is gemaakt met het gereedschap `Global` bereik. Hiermee wordt de [!DNL Commerce] [bereik](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} is gemaakt en ingesteld op `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | Kies uw [!DNL Commerce] [winkelweergave](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} waarop de Amazon-kenmerkwaarden moeten worden gesynchroniseerd. Kiezen `All Store Views (Global)` werkt de waarde in alle opslagweergaven bij. |

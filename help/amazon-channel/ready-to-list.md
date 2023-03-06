@@ -2,7 +2,7 @@
 title: Klaar voor lijst
 description: Het verkoopkanaal van Amazon verstrekt Klaar aan Lijst tabel om u te helpen producten herzien van de Handel die aan geschiktheid maar niet automatisch vermeld zijn.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U hebt enkele opties om handmatig [een nieuwe aanbieding naar Amazon publiceren]
 | [!UICONTROL Status] | De status van de aanbieding, gedefinieerd door Amazon. |
 | [!UICONTROL Action] | Lijst met beschikbare acties die kunnen worden toegepast op een specifieke aanbieding. Als u een handeling wilt toepassen, klikt u op **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom en kies een optie:<ul><li>[[!UICONTROL Publish on Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
 
-### Algemene oorzaken van aanbiedingen die je wilt aanbieden
+### Algemene oorzaken van aanbiedingen die je kunt aanbieden
 
 - **[!UICONTROL Ready to List]** - Het product komt overeen met een Amazon ASIN en is gepland voor aanbieding. Indien [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) in je aanbieding zijn de instellingen ingesteld op `Do Not Automatically List Eligible Products`Deze status vertegenwoordigt de producten die klaar zijn om handmatig te worden vermeld.
 

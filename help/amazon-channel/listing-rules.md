@@ -3,14 +3,14 @@ title: Lijstregels
 description: Met de aanbiedingsregels van het gebruik bepaalt u de catalogusproducten die als Amazon Marketplace-aanbiedingen worden gepubliceerd.
 redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
-# Aanbiedingsregels
+# Lijstregels
 
 Je hebt toegang tot de aanbiedingsregels voor winkelobjecten in het dialoogvenster [opslagdashboard](./amazon-store-dashboard.md).
 
@@ -20,7 +20,7 @@ Je aanbiedingsregels worden voortdurend gesynchroniseerd met je [!DNL Commerce] 
 
 - Als je alle producten naar een Amazon-aanbieding wilt publiceren, moet je geen voorwaarden voor je aanbieding definiëren.
 
-- Als je wilt beperken welke catalogusproducten naar Amazon worden gepubliceerd, definieert je de regelvoorwaarden voor aanbiedingen. Als je de voorwaarden voor je Amazon-aanbiedingsregels definieert, volg je dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+- Als je wilt beperken welke catalogusproducten naar Amazon worden gepubliceerd, definieert je de regelvoorwaarden voor aanbiedingen. Als je de voorwaarden voor je Amazon-aanbiedingsregels definieert, volg je dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 - Als een product volgens de aanbiedingsregels niet in aanmerking komt, verandert de status van dat product in `Ineligible`. Niet-subsidiabele producten worden niet gepubliceerd naar Amazon.
 
@@ -40,7 +40,7 @@ Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md).
 
 | Veld | Beschrijving |
 |---|---|
-| [!UICONTROL Websites] | Welke opties beschikbaar zijn, is afhankelijk van de [websites](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} die u hebt ingesteld in uw [!DNL Commerce] configuratie. Selecteer de website voor de in aanmerking komende producten die op Amazon worden vermeld. Er kan slechts één website worden geselecteerd, omdat voor elke website een unieke Amazon-winkel nodig is die in Amazon-verkoopkanalen is gemaakt. |
+| [!UICONTROL Websites] | Welke opties beschikbaar zijn, is afhankelijk van de [websites](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} u hebt in uw [!DNL Commerce] configuratie. Selecteer de website voor de in aanmerking komende producten die op Amazon worden vermeld. Er kan slechts één website worden geselecteerd, omdat voor elke website een unieke Amazon-winkel nodig is die in Amazon-verkoopkanalen is gemaakt. |
 | [!UICONTROL Conditions] | Hiermee definieert u de [!DNL Commerce] -kenmerken voor producten die in uw Amazon-regio in aanmerking komen. Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md). |
 
 ## Functie Voorwaarden
@@ -50,7 +50,7 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 - Voeg geen voorwaarden toe als alle producten binnen de geselecteerde websites in aanmerking komen.
 - Er is een complexe reeks back-end processen om direct met Amazon-systemen te communiceren. Op basis van het aantal objecten dat je probeert aan te bieden en de manier waarop het druk is met Amazon-systemen (zoals &#39;Zwarte Vrijdag&#39;), kan het enige tijd duren voordat je objecten op Amazon worden aangeboden.
 
-Zie voor meer informatie over voorwaarden [Beschrijf de Voorwaarden](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+Zie voor meer informatie over voorwaarden [Beschrijf de Voorwaarden](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 ## Voorvertoning van aanbiedingsregel
 
@@ -82,7 +82,7 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 
 1. Wijzig uw [Voorwaarden voor aanbiedingsregels](./ob-define-condition-example.md).
 
-1. Klik op **[!UICONTROL Preview Changes]**.
+1. Klikken **[!UICONTROL Preview Changes]**.
 
 1. Je aanbiedingen bekijken en bevestigen in de _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_, en _[!UICONTROL New Listings]_tabs.
 
@@ -98,7 +98,7 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 |--- |--- |
 | [!UICONTROL Product ID] | Het unieke, opeenvolgende nummer dat aan een [!DNL Commerce] catalogusproduct wanneer het wordt toegevoegd. |
 | [!UICONTROL Thumbnail] | Geeft een miniatuur van de hoofdafbeelding van het product weer. |
-| [!UICONTROL Name] | De naam van het product, beheerd in de [!DNL Commerce] [productraster](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Name] | De naam van het product, beheerd in de [!DNL Commerce] [productraster](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
 | [!UICONTROL Type] | Het type product, beheerd in de [!DNL Commerce] productraster. |
 | [!UICONTROL Attribute Set] | De naam van de kenmerkenreeks die als malplaatje voor het product wordt gebruikt, in wordt beheerd [!DNL Commerce] productraster. |
 | [!UICONTROL SKU] | De unieke voorraadbewaareenheid die aan het product wordt toegewezen, die in [!DNL Commerce] productraster. |

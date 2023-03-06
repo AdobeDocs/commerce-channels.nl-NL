@@ -2,7 +2,7 @@
 title: Overschrijvingen maken en bewerken
 description: Met Amazon Sales Channel overschrijven kun je je wijzigingen toepassen op één Amazon-aanbieding of op meerdere aanbiedingen.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -34,7 +34,7 @@ De _[!UICONTROL Create Override]_actie is beschikbaar als je aanbiedingen bekijk
    - **Voorwaarde** - Klik **[!UICONTROL Change Condition]** en kiest u de juiste optie voor de **[!UICONTROL Condition Override]**.
    - **Opmerkingen van verkoper** - Klik **[!UICONTROL Change Seller Notes]** en voer de tekst van uw notities in voor **[!UICONTROL Seller Notes Override]**.
 
-1. Klik op **[!UICONTROL Save Listing Override]**.
+1. Klikken **[!UICONTROL Save Listing Override]**.
 
    De _[!UICONTROL Product Listing Overrides]_pagina wordt gesloten. De status van de aanbieding verandert in `Relist in Progress`. De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). De aanbieding wordt ook toegevoegd aan de_[!UICONTROL Overrides]_ tab.
 
@@ -67,7 +67,7 @@ De _[!UICONTROL Edit Overrides]_actie is beschikbaar als je aanbiedingen bekijkt
 
 1. Als u een overschrijvingstype wilt verwijderen, klikt u op **Verwijderen** voor elk type dat u wilt verwijderen. Als deze niet wordt verwijderd, blijft de eerder gedefinieerde waarde in de overschrijving staan.
 
-1. Klik op **[!UICONTROL Save Listing Override]**.
+1. Klikken **[!UICONTROL Save Listing Override]**.
 
    De _[!UICONTROL Product Listing Overrides]_pagina wordt gesloten. De status van de aanbieding verandert in `Relist in Progress`. De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). Als de aanbiedingen nog niet zijn vermeld, worden ze ook toegevoegd aan de_[!UICONTROL Overrides]_ tab.
 
@@ -105,7 +105,7 @@ De _[!UICONTROL Edit Listing Overrides]_actie is beschikbaar op_[!UICONTROL Inac
 
 1. Als u een overschrijvingstype wilt verwijderen, klikt u op **[!UICONTROL Remove]** voor elk type dat u wilt verwijderen. Als deze niet wordt verwijderd, blijft de eerder gedefinieerde waarde in de overschrijving staan.
 
-1. Klik op **[!UICONTROL Save Listing Override]**.
+1. Klikken **[!UICONTROL Save Listing Override]**.
 
    De _[!UICONTROL Product Listing Overrides]_pagina wordt gesloten. De status van de aanbiedingen verandert in `Relist in Progress`. De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). Als de aanbiedingen nog niet zijn vermeld, worden ze ook toegevoegd aan de_[!UICONTROL Overrides]_ tab.
 

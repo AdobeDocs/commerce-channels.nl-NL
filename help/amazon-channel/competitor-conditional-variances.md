@@ -2,14 +2,14 @@
 title: '"Intelligente prijsregel: Voorwaardelijke variaties van concurrent'
 description: Bepaal de prijs van je Amazon-aanbieding op basis van de prijs van een concurrent en de conditie van het product door een intelligente prijsregel te maken.
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
 
-# Intelligente prijsregel: voorwaardelijke variaties van concurrent
+# Intelligente prijsregel: Voorwaardelijke variaties van concurrent
 
 Secties van een intelligente prijsstellingsregel omvatten:
 
@@ -39,15 +39,15 @@ Voor **[!UICONTROL Conditional Variance]** kiest u een optie:
 
    Wanneer de _[!UICONTROL Apply Variance]_-functie is gekozen, worden extra variatievelden weergegeven voor elk van uw Amazon-voorwaarden. Met deze functie kunt u intelligente prijsstellingsregels gebruiken wanneer u producten aanbiedt die zich in een andere situatie bevinden dan uw concurrenten. Om de berekening achter voorwaardelijke variantie te begrijpen, moet u eerst begrijpen dat alle variantie wordt bepaald van een basis gelijke prijs.
 
-   Opties voor voorwaardelijke variatie die worden weergegeven, zijn gebaseerd op de instellingen voor je aanbieding voor `Condition` die zijn toegewezen aan voorwaardenwaarden met behulp van een [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. Voor alle omgezette voorwaarden kunt u een variatiepercentage van 1-100 opgeven. De uitzondering is &#39;collectibles&#39;, in welk geval een percentage groter dan 100 mag worden toegepast.
+   Opties voor voorwaardelijke variatie die worden weergegeven, zijn gebaseerd op de instellingen voor je aanbieding voor `Condition` die zijn toegewezen aan voorwaardenwaarden met behulp van een [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Voor alle omgezette voorwaarden kunt u een variatiepercentage van 1-100 opgeven. De uitzondering is &#39;collectibles&#39;, in welk geval een percentage groter dan 100 mag worden toegepast.
 
 ![Intelligente prijsregel - voorwaardelijke variaties voor concurrenten](assets/amazon-competitor-cond-variances.png)
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Competitor Conditional Variances] | Opties: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Als er geen overeenkomst is voor de voorwaarde waarmee je het product aanbiedt, komt deze optie overeen met elke beschikbare voorwaarde. Het probeert eerst uw voorwaarde aan te passen en dan zijn weg van `New` voorwaarde aan `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Deze optie komt overeen met de voorwaarde van uw product. Als er geen overeenkomst bestaat, worden de productprijzen op de _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Met deze optie wordt eerst geprobeerd een overeenkomst te bereiken met uw productvoorwaarde. Als er geen overeenkomstige voorwaarde bestaat, wordt een variantie (als een percentage) toegepast ten opzichte van de toestand van het product en de toestand van de laagste concurrent.</li></ul><br><br>De opties voor voorwaardelijke variantie die worden weergegeven op basis van de aanbiedingsinstellingen voor Voorwaarde die aan voorwaardenwaarden zijn toegewezen met behulp van een [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. Voor alle omgezette voorwaarden kunt u een variatiepercentage tussen 1 en 100 opgeven. De uitzondering is &#39;collectibles&#39;, in welk geval een percentage groter dan 100 mag worden toegepast.<br><br>Met deze functie kunt u intelligente prijsstellingsregels gebruiken wanneer u producten aanbiedt die zich in een andere situatie bevinden dan uw concurrenten. Om de berekening achter voorwaardelijke variantie te begrijpen, moet u eerst begrijpen dat alle variantie wordt bepaald van een basis gelijke prijs. |
+| [!UICONTROL Competitor Conditional Variances] | Opties: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Als er geen overeenkomst is voor de voorwaarde waarmee je het product aanbiedt, komt deze optie overeen met elke beschikbare voorwaarde. Het probeert eerst uw voorwaarde aan te passen en dan zijn weg van `New` voorwaarde aan `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Deze optie komt overeen met de voorwaarde van uw product. Als er geen overeenkomst bestaat, worden de productprijzen op de _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Met deze optie wordt eerst geprobeerd een overeenkomst te bereiken met uw productvoorwaarde. Als er geen overeenkomstige voorwaarde bestaat, wordt een variantie (als een percentage) toegepast ten opzichte van de toestand van het product en de toestand van de laagste concurrent.</li></ul><br><br>De opties voor voorwaardelijke variantie die worden weergegeven op basis van de aanbiedingsinstellingen voor Voorwaarde die aan voorwaardenwaarden zijn toegewezen met behulp van een [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Voor alle omgezette voorwaarden kunt u een variatiepercentage tussen 1 en 100 opgeven. De uitzondering is &#39;collectibles&#39;, in welk geval een percentage groter dan 100 mag worden toegepast.<br><br>Met deze functie kunt u intelligente prijsstellingsregels gebruiken wanneer u producten aanbiedt die zich in een andere situatie bevinden dan uw concurrenten. Om de berekening achter voorwaardelijke variantie te begrijpen, moet u eerst begrijpen dat alle variantie wordt bepaald van een basis gelijke prijs. |
 
-## De voorwaardelijke variantiebasis berekenen
+## De basis voor voorwaardelijke variantie berekenen
 
 - De Verandering van de Voorwaarde van de Overeenkomst van de Basis (BMC) = de variantie voor de voorwaarde van uw concurrent van de basisgelijke prijs. Met behulp van het eerdere voorbeeld is BMC de variatie voor de `New` voorwaarde.
 - Merchant Condition Variance (MCV) = De variantie voor de conditie van uw product. Met behulp van het eerdere voorbeeld, MCV = de variantie voor het `Used; Good` voorwaarde.

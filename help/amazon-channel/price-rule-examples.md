@@ -2,7 +2,7 @@
 title: Voorbeelden van prijsregels
 description: Bekijk deze voorbeelden op basis van algemene scenario's om je prijsregels voor Amazon-aanbiedingen te helpen ontwerpen.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## Voorbeelden van standaardprijsregels
 
-### Volgende regels negeren
+### Verdere regels negeren
 
 De capaciteit om verdere regels te verwerpen is een grote eigenschap binnen het tarief regels die veelvoudige het tarief regels verhinderen te stapelen en onbedoelde extra kortingen te verstrekken. Om verdere regels te verwerpen, moet een prijsregel de prioriteiten gebruiken die in worden geplaatst _[!UICONTROL Priority]_deel van [Algemene instellingen prijsregel](./pricing-rule-general-settings.md).
 
@@ -144,7 +144,7 @@ Omdat [Buy Box](./buy-box-competitor-pricing.md) prijs is hoger dan Berekend [Fl
 
 De uiteindelijke prijs na toepassing van de regel: $ 15
 
-### Laagste prijs met Alle prijzen van de concurrent en Alle productvoorwaarden van de concurrent gebruiken
+### Laagste prijs met alle prijzen van de concurrent en gebruik alle productvoorwaarden van de concurrent
 
 | Veld | Instelling |
 |----------|-----|
@@ -160,10 +160,10 @@ De uiteindelijke prijs na toepassing van de regel: $ 15
 
 | Prijs | Voorwaarde |
 |----------|----|
-| $ 17 | Nieuw |
-| $ 15 | Nieuw |
-| $ 14 | gebruikt; Zeer goed |
-| $ 13 | gebruikt; Goed |
+| $17 | Nieuw |
+| $15 | Nieuw |
+| $14 | gebruikt; Zeer goed |
+| $13 | gebruikt; Goed |
 
 #### Product 1
 
@@ -190,7 +190,7 @@ De uiteindelijke prijs na toepassing van de regel: $ 13
 | Veld | Instelling |
 |----------|-----|
 | [!UICONTROL VAT] | 10% |
-| [!UICONTROL Ceiling price source] | $ 10 |
+| [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 EUR:1 USD |
 
 [Maximumprijs](./optional-ceiling-price.md) op de Europese markt (BTW): $ 10 x 1,25 = $ 12,50
@@ -207,7 +207,7 @@ Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
 |----------|----|
 | Prioriteit | 1 |
 | BTW | 10% |
-| Maximumprijs | $ 10 |
+| Maximumprijs | $10 |
 | Omrekening in valuta | 1,25 EUR:1 USD |
 
 [Maximumprijs](./optional-ceiling-price.md) op de Europese markt (BTW): $ 10 x 1,25 = $ 12,50
@@ -221,7 +221,7 @@ Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Vergroten met |
 | [!UICONTROL Apply] | Toepassen als vast bedrag |
-| [!UICONTROL Adjustment Amount] | $ 5,00 |
+| [!UICONTROL Adjustment Amount] | $5.00 |
 
 Wanneer de [maximumprijs](./optional-ceiling-price.md) wordt geraakt, wordt de standaardprijsregel toegepast bovenop de intelligente prijsregel.
 

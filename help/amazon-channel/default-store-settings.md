@@ -2,14 +2,14 @@
 title: Standaardinstellingen opslaan
 description: Wijzig de standaardinstellingen voor Handel om de Amazon-Sales Channel voor je winkel aan te passen.
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
-# Standaardopslaginstellingen
+# Standaardinstellingen opslaan
 
 Nadat je winkel is verbonden en je regel voor eerste aanbieding hebt ingesteld, kun je gegevens synchroniseren tussen Amazon en [!DNL Commerce] start. Er zijn verschillende soorten opslaginstellingen waarmee u uw winkel naar wens kunt aanpassen. De montages van de opslag worden betreden in de opslag [dashboard](./amazon-store-dashboard.md).
 
@@ -33,7 +33,7 @@ Opslaginstellingen zijn:
 
 | Instelling | Standaard | Beschrijving | Locatie |
 |--- |--- |--- |--- |
-| [!UICONTROL Import Amazon Orders] | `Enabled` | Maakt overeenkomende [!DNL Commerce] orders bij ontvangst van nieuwe orders van Amazon, zodat orders in de [[!DNL Commerce] Orders](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;} workflow. Wanneer `Disabled`, Amazon bestelt importordergegevens ter controle, maar bestellingen moeten in uw [!DNL Amazon Seller Central] account. | [Orderinstellingen](./order-settings.md) |
+| [!UICONTROL Import Amazon Orders] | `Enabled` | Maakt overeenkomende [!DNL Commerce] orders bij ontvangst van nieuwe orders van Amazon, zodat orders in de [[!DNL Commerce] Orders](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workflow. Wanneer `Disabled`, Amazon bestelt importordergegevens ter controle, maar bestellingen moeten in uw [!DNL Amazon Seller Central] account. | [Orderinstellingen](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Klantgegevens van Amazon-orders worden niet geïmporteerd in uw [!DNL Commerce] database. Geïmporteerde Amazon-bestellingen worden verwerkt als een uitcheckbewerking voor gasten. Als u uw [!DNL Commerce] de klantengegevensbestand, zou u dit het plaatsen moeten veranderen in `Build New Customer Account`. | [Orderinstellingen](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] catalogusproducten (die voldoen aan de Amazon-voorwaarden) om automatisch te publiceren naar Amazon en Amazon-aanbiedingen te maken. Als u uw producten handmatig wilt bekijken en publiceren, wijzigt u deze instelling in `Do Not Automatically List Eligible Products`. Producten die wachten op handmatige publicatie worden weergegeven op de [_Klaar voor lijst_](./ready-to-list.md) tab. | [Handelingen voor productaanbiedingen](./product-listing-actions.md) |
 | [!UICONTROL Magento Price Source] | `Price` | Definieert het kenmerk prijsbron dat wordt gebruikt als basis voor je Amazon-aanbiedingen. Als u de [!DNL Commerce] `Price` kenmerk als de basisprijs waarop uw prijsregels zijn gebaseerd, moet u deze instelling wijzigen in een ander kenmerk. | [Aanbiedingsprijs](./listing-price.md) |

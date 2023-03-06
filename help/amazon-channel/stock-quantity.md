@@ -3,9 +3,9 @@ title: Voorraad/Aantal
 description: De synchronisatie van de gegevens over de hoeveelheid producten van je winkel voor Koophandel met je [!DNL Amazon Seller Central] de voorraad/hoeveelheid-instellingen bijwerken.
 redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Hoeveelheid is een regionaal kenmerk en is gebaseerd op de **[!UICONTROL Amazon 
 
 >[!NOTE]
 >
->Voor Adobe Commerce- en Magento Open Source 2.3.x-gebruikers biedt Amazon-verkoopkanalen ondersteuning voor het gebruik van de Inventory management-extensie zonder extra installatie. Zie [Inventaris beheren](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target=&quot;_blank&quot;}.
+>Voor Adobe Commerce- en Magento Open Source 2.3.x-gebruikers biedt Amazon-verkoopkanalen ondersteuning voor het gebruik van de Inventory management-extensie zonder extra installatie. Zie [Inventaris beheren](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
 
 ## Instellingen voor voorraad/hoeveelheid configureren {#configure-stock--quantity-settings}
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Vouw de sectie **[!UICONTROL Stock / Quantity]** uit.
+1. Breid uit **[!UICONTROL Stock / Quantity]** sectie.
 
 1. Voor **[!UICONTROL Out-of-Stock Threshold]** (vereist), voert u een numerieke waarde in voor de laagste hoeveelheid van een product om het product in aanmerking te laten komen voor de Amazon-aanbieding.
 

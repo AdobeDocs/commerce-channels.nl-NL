@@ -2,14 +2,14 @@
 title: '"Intelligente prijsregel: Floor Price'''
 description: Gebruik instellingen voor de laagste prijs om de laagste prijs te bepalen voor een intelligente prijsregel voor het beheren van je Amazon-aanbiedingen.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-# Intelligente prijsregel: bodemprijs
+# Intelligente prijsregel: Floor Price
 
 Secties van een intelligente prijsstellingsregel omvatten:
 
@@ -31,7 +31,7 @@ Geef de laagste prijsinstelling op in het dialoogvenster _[!UICONTROL Floor Pric
 
 1. Voor **[!UICONTROL Floor Price Source]**, kiest u een kenmerk van een prijsbron.
 
-   Kies de optie [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} waarmee de relatieve ondergrens wordt aangegeven. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kosten van je object ligt, kies je de *Kosten* kenmerk.
+   Kies de optie [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} dat uw relatieve vlottlimiet aangeeft. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kosten van je object ligt, kies je de *Kosten* kenmerk.
 
 1. Voor **[!UICONTROL Floor Price Action]** kiest u een optie.
 

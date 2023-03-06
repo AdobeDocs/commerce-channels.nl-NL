@@ -2,9 +2,9 @@
 title: De Amazon API-sleutel toevoegen of verifiëren
 description: Met de gevalideerde Amazon API-sleutel in uw configuratie voor handel kunt u uw winkels integreren met uw Amazon-verkopersaccount.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ De API-sleutel wordt telkens gevalideerd wanneer u uw Amazon-verkoopkanaal opent
 
    - Als u niet bent aangemeld, wordt u gevraagd uw [!DNL Commerce] gebruikersnaam en wachtwoord voor de _[!UICONTROL API Portal]_wordt weergegeven.
 
-   - Als u geen account hebt, gaat u naar [de [!DNL Commerce] accountpagina](https://account.magento.com/customer/account/login/){target=&quot;_blank&quot;} en registreren. Deze account moet onderdeel zijn van uw bedrijf of bedrijf.
+   - Als u geen account hebt, gaat u naar [de [!DNL Commerce] accountpagina](https://account.magento.com/customer/account/login/){target="_blank"} en registeren. Deze account moet onderdeel zijn van uw bedrijf of bedrijf.
 
 1. Indien nodig kunt u API-sleutels weergeven en genereren op de _[!UICONTROL API Portal]_in uw [!DNL Commerce] account.
 
@@ -51,7 +51,7 @@ De API-sleutel wordt telkens gevalideerd wanneer u uw Amazon-verkoopkanaal opent
 
 1. Plak de gekopieerde sleutel voor **[!UICONTROL Production Api key]**.
 
-1. Klik op **[!UICONTROL Save Config]**. Je kunt nu terugkeren naar het verkoopkanaal van Amazon.
+1. Klikken **[!UICONTROL Save Config]**. Je kunt nu terugkeren naar het verkoopkanaal van Amazon.
 
    ![API-sleutel toevoegen in de configuratie van uw winkel](assets/config-magento-services-api-screen.png)
 

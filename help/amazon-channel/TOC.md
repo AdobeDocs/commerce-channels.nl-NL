@@ -2,7 +2,7 @@
 user-guide-title: Amazon Sales Channel Handboek
 user-guide-description: Verkoop genereren via Amazon door Adobe Commerce of Magento Open Source te integreren met uw [!DNL Amazon Seller Central] account.
 breadcrumb-title: Amazon-verkoopkanaal
-source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
+source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -40,21 +40,21 @@ ht-degree: 0%
       - [Kenmerken maken en bewerken](creating-attributes.md)
       - [Kenmerkentoewijzing weergeven](amazon-matching-attributes-values.md)
    - [Beheerinstellingen verkoopkanaal](sales-channel-settings.md)
-   - [Amazon Store-dashboard](amazon-store-dashboard.md)
+   - [Amazon-opslagdashboard](amazon-store-dashboard.md)
    - [Opslaginstellingen](ob-store-review.md)
 - Aanbiedingsinstellingen {#listing-settings}
    - [Aanbiedingsinstellingen weergeven](listing-settings.md)
    - [Handelingen voor productaanbiedingen](product-listing-actions.md)
    - [Aanbiedingen van derden](third-party-listing-settings.md)
    - [Aanbiedingsprijs](listing-price.md)
-   - [(B2B) Prijsstelling voor bedrijven](business-pricing.md)
-   - [Voorraad/Aantal](stock-quantity.md)
+   - [(B2B) business pricing](business-pricing.md)
+   - [Voorraad/hoeveelheid](stock-quantity.md)
    - [Betaald door](fulfilled-by.md)
    - [Catalogus zoeken](catalog-search.md)
-   - [Aanbiedingsvoorwaarde product](product-listing-condition.md)
+   - [Voorwaarde voor aanbieding van producten](product-listing-condition.md)
    - [Vernieuwde producten](renewed-products.md)
 - [Orderinstellingen](order-settings.md)
-- [Instellingen voor winkelintegratie](store-integration-settings.md)
+- [Integratie-instellingen opslaan](store-integration-settings.md)
 - Aanbiedings- en prijsregels {#rules}
    - [Aanbiedingsregels](listing-rules.md)
    - Prijsregels {#pricing-rules}
@@ -82,7 +82,7 @@ ht-degree: 0%
       - [Concurrentieprijsanalyse](competitive-price-analysis.md)
       - [Aanbiedingsverbeteringen](listing-improvements.md)
    - Logboeken {#logs}
-      - [Logboek Wijzigingen in aanbieding](listing-changes-log.md)
+      - [Logbestand voor wijzigingen in aanbieding](listing-changes-log.md)
       - [Logboek met communicatiefouten](communication-errors-log.md)
 - Aanbiedingen beheren {#admin-listings}
    - [Amazon-aanbiedingen beheren](managing-product-listings.md)

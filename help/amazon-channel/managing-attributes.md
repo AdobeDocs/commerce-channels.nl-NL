@@ -2,9 +2,9 @@
 title: Kenmerken beheren
 description: U kunt de toewijzing van de productkenmerken van de Handel aan de attributen van Amazon beheren om nauwkeurige productinformatie tussen de systemen te verzekeren.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Met Amazon-verkoopkanaal hebt u toegang tot kenmerken in het dialoogvenster [_[!
 
 Meer informatie over [!DNL Commerce] en Amazon-kenmerksets en -waarden, zie:
 
-- [Grondbeginselen van kenmerken beheren](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
+- [Grondbeginselen van kenmerken beheren](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
 - [Een kenmerk maken](./creating-attributes.md#create-an-attribute)
 - [Een bestaand kenmerk bewerken](./creating-attributes.md#edit-an-attribute)
 - [Kenmerktoewijzing weergeven](./amazon-matching-attributes-values.md)

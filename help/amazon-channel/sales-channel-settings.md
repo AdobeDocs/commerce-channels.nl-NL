@@ -2,9 +2,9 @@
 title: Sales Channel-instellingen
 description: Om registreren, cron bron, en synchronisatie voor de functies van het verkoopkanaal van Amazon te beheren, werk de configuratie van de Handel bij.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden
 
 1. Voor **[!UICONTROL Enable Debug Logging]** kiest u `Enabled` om extra synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is.
 
-   Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. Logboekregistratie dient alleen plaats te vinden `Enabled` tijdens het oplossen van problemen en moet `Disabled` wanneer het oplossen van problemen volledig is.
+   Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. Logboekregistratie dient alleen plaats te vinden `Enabled` tijdens het oplossen van problemen en moet `Disabled` wanneer het oplossen van problemen volledig is.
 
 1. Voor **[!UICONTROL Read-Only Mode]**, selecteert u `Enabled` om alle uitgaande status-veranderende API verzoeken te blokkeren.
 
@@ -47,8 +47,8 @@ Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden
    >
    >[!UICONTROL Read-Only Mode] is ontworpen voor kopieën van de instantie Production, zoals ophaling of QA, en mag niet worden gebruikt op het productieexemplaar.
    >
-   >Wanneer een database wordt gemigreerd naar een nieuwe kopie van de instantie (wordt gedetecteerd wanneer de URL van een winkel in de configuratie verandert), [!UICONTROL Read-Only Mode] wordt automatisch ingeschakeld.
+   >Wanneer een database wordt gemigreerd naar een nieuwe kopie van de instantie (gedetecteerd wanneer de URL van een winkel in de configuratie verandert), [!UICONTROL Read-Only Mode] wordt automatisch ingeschakeld.
 
-1. Klik op **[!UICONTROL Save Config]**.
+1. Klikken **[!UICONTROL Save Config]**.
 
 ![Sales Channel-configuratie-instellingen](assets/config-sales-channel-global-settings.png)

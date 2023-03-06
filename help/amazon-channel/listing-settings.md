@@ -3,7 +3,7 @@ title: Aanbiedingsinstellingen weergeven
 description: Gebruik de aanbiedingsinstellingen om te bepalen hoe je [!DNL Commerce] catalogusproducten worden vermeld op [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -39,6 +39,6 @@ Breid elk van de secties uit en vorm zonodig.
    - [[!UICONTROL Catalog Search]](./catalog-search.md): Definieer de zoekparameters voor een betrouwbaar proces voor het afstemmen van uw [!DNL Commerce] catalogiseer producten met je Amazon-productaanbiedingen.
    - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Definieer de instellingen en waarden voor product &quot;condition&quot;. Voorwaarde is een productdetail dat door Amazon wordt vereist, maar niet voor uw [!DNL Commerce] catalogusproducten.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klikken **[!UICONTROL Save]**.
 
 ![Aanbiedingsinstellingen](assets/amazon-listing-settings.png)

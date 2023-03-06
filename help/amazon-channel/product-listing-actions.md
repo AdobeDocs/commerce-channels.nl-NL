@@ -3,7 +3,7 @@ title: Handelingen voor productaanbiedingen
 description: Met de instellingen voor acties voor het aanbieden van producten kunt u bepalen hoe de handelscatalogus reageert op Amazon.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Met deze instellingen wordt gedefinieerd hoe uw catalogus reageert op Amazon. De
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Vouw de sectie _[!UICONTROL Product Listing Actions]_uit.
+1. Breid uit _[!UICONTROL Product Listing Actions]_sectie.
 
 1. Voor **[!UICONTROL Automatic List Action]** (vereist) kiest u een optie:
 

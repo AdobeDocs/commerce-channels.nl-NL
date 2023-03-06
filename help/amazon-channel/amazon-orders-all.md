@@ -2,7 +2,7 @@
 title: Amazon-bestellingen weergeven
 description: Bekijk uw Amazon Marketplace-bestellingen in Adobe Commerce of Magento Open Source Admin.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%

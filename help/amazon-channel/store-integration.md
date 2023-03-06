@@ -2,14 +2,14 @@
 title: Opslagintegratie
 description: Voordat u het instapproces start, moet u een Amazon Sales Channel-winkel maken (toevoegen) en deze koppelen aan uw Amazon-verkopersaccount.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
-# Integratie van winkels
+# Opslagintegratie
 
 Als je aan de slag wilt met Amazon-verkoopkanalen, moet je een Amazon-winkel voor verkoopkanalen maken (toevoegen) en deze koppelen aan je Amazon-verkopersaccount. Deze twee stappen integreren uw [!DNL Commerce] en Amazon-accounts kunnen gegevens delen, producten synchroniseren en nog veel meer.
 
@@ -25,7 +25,7 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
    Als je de eerste Amazon-winkel voor verkoopkanalen toevoegt, _Taken vooraf instellen_ wordt weergegeven. Nadat uw eerste winkel is toegevoegd, kunnen taken die vooraf zijn ingesteld, worden geopend op het tabblad [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina onder _Leren en voorbereiden_ in het linkerzijmenu.
 
-1. Klik op **[!UICONTROL Add Amazon Store]**.
+1. Klikken **[!UICONTROL Add Amazon Store]**.
 
    De _[!UICONTROL Add Amazon sales channel]_pagina wordt geopend.
 
@@ -60,7 +60,7 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
       [Toewijzingskenmerken](./ob-creating-magento-attributes.md) helpt ervoor te zorgen dat je Amazon-aanbieding correct overeenkomt met het corresponderende product in je [!DNL Commerce] catalogus.
 
-1. Klik op **[!UICONTROL Connect]**.
+1. Klikken **[!UICONTROL Connect]**.
 
    Het dialoogvenster wordt gesloten en de nieuwe winkel wordt weergegeven op het tabblad [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina met een bevestigingsbericht.
 

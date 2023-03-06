@@ -2,7 +2,7 @@
 title: Vereiste gegevens bijwerken (onvolledige aanbieding)
 description: Amazon-verkoopkanaal bevat het tabblad Onvolledig voor het controleren van producten in de handelscatalogus waarvoor Amazon vereiste informatie ontbreekt.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Aanbiedingen weergegeven op de _[!UICONTROL Incomplete]_tab bevat uw [!DNL Commerce] Catalogusproducten die voldoen aan de Amazon-voorwaarden zoals die in je aanbiedingsregels zijn gedefinieerd, maar die niet beschikken over de informatie die Amazon nodig heeft voor de aanbieding.
 
-## Vereiste gegevens bijwerken (kan niet worden toegewezen aan Amazon-aanbieding) {#update-required-info-unable-to-assign-to-amazon-listing}
+## Vereiste gegevens bijwerken (kan geen Amazon-aanbieding toewijzen) {#update-required-info-unable-to-assign-to-amazon-listing}
 
 1. De aanbiedingen weergeven op de _[!UICONTROL Incomplete]_tab in [Aanbiedingen beheren](./managing-product-listings.md).
 

@@ -2,7 +2,7 @@
 title: Opslaginstellingen
 description: Nadat u het Amazon-verkoopkanaal voor instaptoegang hebt voltooid, kunt u de [!DNL Commerce] opslaginstellingen.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%

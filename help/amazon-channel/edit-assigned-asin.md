@@ -2,9 +2,9 @@
 title: Een toegewezen ASIN bewerken
 description: Wijzig de ASIN-waarde voor een Koophandel-product als dit niet goed overeenkomt met een van je Amazon-aanbiedingen.
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Wanneer een toegewezen ASIN wordt gewijzigd:
 - Hiermee maakt u een lijst voor de bijgewerkte ASIN
 - Hiermee werkt u aanbiedingsgegevens bij in het verkoopkanaal van Amazon
 
-## Een toegewezen ASIN bewerken
+Een toegewezen ASIN bewerken:
 
 1. De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, of_[!UICONTROL Ineligible]_ ).
 

@@ -2,9 +2,9 @@
 title: Producten maken en toewijzen
 description: Amazon Sales Channel biedt de [!UICONTROL New Third Party] gebruiken om te helpen bij het maken en toewijzen van overeenkomstige producten uit de handelscatalogus aan Amazon-aanbiedingen.
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Je product en aanbieding komen nu overeen. Verkoopkanaal van Amazon kan nu produ
 
    - Voor **[!UICONTROL Website Ids]** kiest u de website (winkel) waaraan het product moet worden gekoppeld.
 
-      De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} instellingen.
+      De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} instellingen.
 
    - Voor **[!UICONTROL Attribute Set Id]** (vereist), kiest u een optie.
 
-      `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;} die u hebt geconfigureerd.
+      `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} u hebt gevormd.
 
    - Voor **[!UICONTROL Visibility]** kiest u een optie voor het nieuwe product.
 
@@ -71,7 +71,7 @@ Je product en aanbieding komen nu overeen. Verkoopkanaal van Amazon kan nu produ
 
    - Voor **[!UICONTROL Assign Tax Class]** kiest u een optie voor het product.
 
-      Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;} die u hebt geconfigureerd.
+      Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} u hebt gevormd.
 
    - Klik op **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ Het catalogusproduct wordt gemaakt in uw [!DNL Commerce] en toegewezen aan de Am
 
    - Voor **[!UICONTROL Website Ids]** kiest u de website (winkel) waaraan het product moet worden gekoppeld.
 
-      De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} instellingen.
+      De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} instellingen.
 
    - Voor **[!UICONTROL Attribute Set Id]** (vereist), kiest u een optie.
 
-      `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;} die u hebt geconfigureerd.
+      `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} u hebt gevormd.
 
    - Voor **[!UICONTROL Visibility]** kiest u een optie voor het nieuwe product.
 
@@ -116,7 +116,7 @@ Het catalogusproduct wordt gemaakt in uw [!DNL Commerce] en toegewezen aan de Am
 
    - Voor **[!UICONTROL Assign Tax Class]** kiest u een optie voor het product.
 
-      Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;} die u hebt geconfigureerd.
+      Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} u hebt gevormd.
 
    - Klik op **[!UICONTROL Create Catalog Products]**.
 
@@ -127,8 +127,8 @@ De catalogusproducten worden gemaakt in uw [!DNL Commerce] en toegewezen aan de 
 | Veld | Beschrijving |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | (Vereist) Indien ingeschakeld, is het product zichtbaar in uw [!DNL Commerce] storefront. Indien uitgeschakeld, wordt het product niet weergegeven in uw [!DNL Commerce] storefront. |
-| [!UICONTROL Categories] | U kunt de naam van de categorie voor het nieuwe product invoeren of een categorie selecteren door op de pijl-omlaag te klikken om de opties weer te geven. Welke opties u hebt, is afhankelijk van uw [categorieën](https://docs.magento.com/user-guide/catalog/category-create.html){target=&quot;_blank&quot;} configuratie. |
-| [!UICONTROL Website Ids] | (Vereist) Kies de website (winkel) waaraan het product moet worden gekoppeld. Welke opties u hebt, is afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} instellingen |
-| Kenmerkset-id | Kies een kenmerkset. De opties hangen van uw gevormd af [!DNL Commerce] [kenmerksets](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Categories] | U kunt de naam van de categorie voor het nieuwe product invoeren of een categorie selecteren door op de pijl-omlaag te klikken om de opties weer te geven. Welke opties u hebt, is afhankelijk van uw [categorieën](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} configuratie. |
+| [!UICONTROL Website Ids] | (Vereist) Kies de website (winkel) waaraan het product moet worden gekoppeld. Welke opties u hebt, is afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} instellingen |
+| Kenmerkset-id | Kies een kenmerkset. De opties hangen van uw gevormd af [!DNL Commerce] [kenmerksets](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
 | [!UICONTROL Visibility] | Opties:<ul><li>**[!UICONTROL Not Visible Individually]** - Het product is niet zichtbaar in uw [!DNL Commerce] storefront (meest voor variantproducten).</li><li>**[!UICONTROL Catalog]** - Hiermee krijgt u toegang tot het product via de categorie waaraan het is gekoppeld op de website.</li><li>**Zoeken** - Hiermee kan het product alleen worden gevonden met het zoekprogramma.</li><li>**[!UICONTROL Catalog and Search]** - Hiermee kunt u de producten openen via de categoriestructuur en met het zoekgereedschap.</li></ul> |
-| [!UICONTROL Assign Tax Class] | Wijs een belastingklasse aan het nieuwe product toe. De opties hangen van uw gevormd af [belastingklassen](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Assign Tax Class] | Wijs een belastingklasse aan het nieuwe product toe. De opties hangen van uw gevormd af [belastingklassen](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |

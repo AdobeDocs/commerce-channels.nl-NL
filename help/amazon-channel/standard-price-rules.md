@@ -2,14 +2,14 @@
 title: Handelingen voor standaardprijsregels
 description: Gebruik de standaardhandelingen voor prijsregels om een Amazon-aanbiedingsprijs te verhogen of te verlagen ten opzichte van de catalogusprijs (of de prijsbron) van de Handel.
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Standaardprijzenregel
+# Handelingen voor standaardprijsregels
 
 Met een standaardprijsregel kun je een Amazon-prijs verhogen of verlagen met een bepaald percentage of een bepaald bedrag in dollar ten opzichte van de [!DNL Commerce] catalogusprijs (of prijsbron).
 
