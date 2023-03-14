@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] Opmerkingen bij de release'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
+source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2258'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,29 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Amazon sales channe
 ![Probleem opgelost](../assets/fix.svg) Oplossingen en verbeteringen
 ![Bekend probleem](../assets/bug.svg) Bekende problemen
 
-Zie [Volgende releases](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} voor versioning, ondersteuning en compatibiliteit.
+Zie [Volgende releases](https://devdocs.magento.com/release/){target="_blank"} voor versioning, ondersteuning en compatibiliteit.
+
+## v4.4.4
+
+[!DNL Amazon sales channel]  4.4.4 is compatibel met Adobe Commerce-versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+
+![Probleem opgelost](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.6 en PHP 8.2.
+
+![Probleem opgelost](../assets/fix.svg) Minder ruis in logboeken.
+
+![Probleem opgelost](../assets/fix.svg) Verbeterde stabiliteit bij het ophalen van updates.
+
+![Probleem opgelost](../assets/fix.svg) Vereenvoudigd het proces voor het runnen van enige actie-als trekkracht of voor het toepassen van van CLI.
+
+![Probleem opgelost](../assets/fix.svg) Bijgewerkt gebiedsdeel voor `magento/services-connector`.
+
+![Probleem opgelost](../assets/fix.svg) Correctie van problemen met synchronisatie in Britse accounts met ongeldige landcode.
+
+![Probleem opgelost](../assets/fix.svg) Hardcoded entity_type_id for catalog product entity cause issues with Magento Price Source.
+
+![Probleem opgelost](../assets/fix.svg) Correctie een kwestie verhinderend rekeningen die op een achtergrond van een andere instantie worden geschrapt van UI eveneens.
+
+![Probleem opgelost](../assets/fix.svg) Probleem verholpen met bepaalde regels voor winkelwagentjes die het importeren van bestellingen verbreken.
 
 ## v4.4.3
 
@@ -100,7 +122,7 @@ Deze versie van [!DNL Amazon sales channel] bevat een nieuwe functie, samen met 
 
 ![Repareren](../assets/fix.svg) <!--CHAN-4431-->Correctie van een probleem dat een _Toegang geweigerd_ fout voor klanten in het Verenigd Koninkrijk.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4394-->Correctie van een probleem waardoor de verzendstatus van Amazon niet kon worden gesynchroniseerd met de corresponderende kooporder, waardoor de verzendstatus van de order als &quot;vergrendeld&quot; werd beschouwd `Pending` in de handel en `Unshipped` in Amazon. Met de nieuwe gestandaardiseerde adresfunctie zijn deze verzendstatusfouten opgelost.
+![Repareren](../assets/fix.svg) <!--CHAN-4394-->Correctie van een probleem waardoor de verzendstatus van Amazon niet kon worden gesynchroniseerd met de corresponderende handelsorder, waardoor de verzendstatus van de order als &quot;vergrendeld&quot; werd `Pending` in de handel en `Unshipped` in Amazon. Met de nieuwe gestandaardiseerde adresfunctie zijn deze verzendstatusfouten opgelost.
 
 ![Repareren](../assets/fix.svg) <!--ticket#-->De bijgewerkte synchronisatie van de orde (synchronisatie) om ontbroken ordeinvoer te negeren, waarbij veelvoudige synchronisatiepogingen worden verminderd en verdere invoer toe te staan om te verwerken, met de verzoeken van de ordesynchronisatie die om de vijf minuten worden voorgelegd. De fouten van de synchronisatie worden nog geregistreerd in het foutenlogboek, maar duidelijk als &quot;verwerkt&quot;om verdere registrerenfuncties toe te staan. Ook, [!DNL Amazon sales channel] verwijdert nu automatisch overtollige gegevens die voor orden worden verzameld die er niet in slagen om in de Handel tot stand te brengen.
 
@@ -172,9 +194,9 @@ Amazon Sales Channel 3.0.0 is compatibel met Adobe Commerce versies 2.2.4+ en 2.
 
 ![Nieuw](../assets/new.svg) **Amazon UK Marketplace Nu beschikbaar**: Gebruikers kunnen de markt van het Verenigd Koninkrijk kiezen bij het maken en integreren van een Commerce-winkel. Deze upgrade naar het Verenigd Koninkrijk biedt extra ondersteuning voor:
 
-- [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources){target=&quot;_blank&quot;}
+- [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
-- [Productbelastingcode](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;} informatie.
+- [Productbelastingcode](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} informatie.
 
 ![Nieuw](../assets/new.svg) **Verbeterde logboekregistratie**: <!--CHAN-3642, 3672-->Geïmplementeerd **Foutopsporingsregistratie inschakelen** functie om aanvullende synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is. Zie de [Sales Channel-instellingen](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) onderwerp in de Verwijzing van de Configuratie.
 
