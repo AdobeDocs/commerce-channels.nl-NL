@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] Opmerkingen bij de release'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
+source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Zie [Volgende releases](https://devdocs.magento.com/release/){target="_blank"} v
 
 ## v4.4.4
 
-[!DNL Amazon sales channel]  4.4.4 is compatibel met Adobe Commerce-versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*7 maart 2023*
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Probleem opgelost](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.6 en PHP 8.2.
 
@@ -49,34 +51,34 @@ Zie [Volgende releases](https://devdocs.magento.com/release/){target="_blank"} v
 
 ## v4.4.3
 
-[!DNL Amazon sales channel]  4.4.3 is compatibel met Adobe Commerce-versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*7 maart 2023*
 
-Deze versie van [!DNL Amazon sales channel] bevat de volgende correctie.
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Repareren](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.4.
 
 ## v4.4.2
 
-[!DNL Amazon sales channel]  4.4.2 is compatibel met Adobe Commerce-versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*11 november 2021*
 
-Deze versie van [!DNL Amazon sales channel] bevat de volgende oplossingen.
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Repareren](../assets/fix.svg) Bijgewerkte afhankelijkheden ter ondersteuning van andere bijgewerkte extensies.
 ![Repareren](../assets/fix.svg) Toegevoegde ondersteuning voor PHP 8.1.
 
 ## v4.4.1
 
-[!DNL Amazon sales channel] 4.4.1 is compatibel met Adobe Commerce-versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*11 november 2021*
 
-Deze versie van [!DNL Amazon sales channel]  bevat de volgende correctie.
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Repareren](../assets/fix.svg) De manier waarop Adobe Commerce de _Gebruikersnaam_ veld uit Amazon. Er is eerder een fout opgetreden tijdens het maken van de bestelling toen de _Gebruikersnaam_ veld bevat speciale tekens. Adobe Commerce ontvangt nu de _Gebruikersnaam_ gegevens en filters uit de speciale karakters zodat kan de orde met succes worden gecreeerd.
 
 ## v4.4.0
 
-[!DNL Amazon sales channel] 4.4.0 is compatibel met Adobe Commerce versies 2.3.x en 2.4.0, maar wordt alleen ondersteund voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*9 april 2021*
 
-Deze versie van [!DNL Amazon sales channel] bevat de volgende verbeteringen en correcties.
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Nieuw](../assets/new.svg) Toegevoegde steun voor read-only Wijze aan de configuratie. Zie [verkoopkanaalinstellingen](sales-channel-settings.md).
 
@@ -92,9 +94,9 @@ Deze versie van [!DNL Amazon sales channel] bevat de volgende verbeteringen en c
 
 ## v4.3.0
 
-[!DNL Amazon sales channel] 4.3.0 is compatibel met Adobe Commerce versies 2.3.x en 2.4.0. Ondersteuning is alleen beschikbaar voor versies 2.4.1+, van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*3 maart 2021*
 
-Deze versie van [!DNL Amazon sales channel] bevat de volgende verbeteringen en correcties.
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Repareren](../assets/fix.svg) <!--CHAN-xxxx-->De _Bestelgegevens_ is opnieuw ontworpen en is niet meer afhankelijk van de _Orders importeren_ instellen. De gegevens van de orde verschijnen nu in de interface van de Sales Channel van Amazon voor alle orden.
 
@@ -108,9 +110,11 @@ Deze versie van [!DNL Amazon sales channel] bevat de volgende verbeteringen en c
 
 ## v4.2.0
 
-[!DNL Amazon sales channel] 4.2.0 is compatibel met Adobe Commerce versie 2.3.x, maar alleen ondersteund voor versie 2.4.x van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur. Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Adobe Commerce bij te werken naar versie 2.4.0, wordt u gevraagd de extensie bij te werken voordat u de Adobe Commerce-update kunt voltooien.
+*3 maart 2021*
 
-Deze versie van [!DNL Amazon sales channel] bevat een nieuwe functie, samen met verbeteringen en correcties.
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Adobe Commerce bij te werken naar versie 2.4.0, wordt u gevraagd de extensie bij te werken voordat u de Adobe Commerce-update kunt voltooien.
 
 ![Bekend probleem](../assets/bug.svg) Wanneer [!DNL Amazon sales channel] 4.2.0 is geïntegreerd met versie 2.4.0 en [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) is ingeschakeld, is er een bekend probleem dat het toevoegen van producten in uw handelscatalogus verhindert. Deze kwestie zal in een toekomstige mededeling van de Handel worden behandeld.
 
@@ -136,7 +140,9 @@ Deze versie van [!DNL Amazon sales channel] bevat een nieuwe functie, samen met 
 
 ## v4.1.0
 
-Amazon Sales Channel 4.1.0 is compatibel met Adobe Commerce 2.3.x of Commerce Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur. Deze versie van Amazon Sales Channel bevat verbeteringen in de gebruikersinterface en kleine opgeloste problemen.
+*7 mei 2020*
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Nieuw](../assets/new.svg) <!--4247, 4230-->Veranderde het proces van de ordeinvoer om zich aan de ordevereisten van de Handel te richten. Met deze wijzigingen worden problemen verholpen die ertoe hebben geleid dat de handel de corresponderende volgorde voor een geïmporteerde order niet kon maken. Zie [Bestellingen beheren](managing-orders.md) voor informatie over orderblokkers en oplossingen.
 
@@ -164,7 +170,9 @@ Amazon Sales Channel 4.1.0 is compatibel met Adobe Commerce 2.3.x of Commerce Op
 
 ## v4.0.0
 
-Amazon Sales Channel 4.0.0 is compatibel met de versies 2.3.0, 2.3.1, 2.3.2, 2.3.3 en 2.3.4 van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur. Deze versie van Amazon Sales Channel bevat veel upgrades voor de gebruikersinterface, samen met kleine opgeloste problemen.
+*25 maart 2020*
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 >[!IMPORTANT]
 >
@@ -180,7 +188,9 @@ Amazon Sales Channel 4.0.0 is compatibel met de versies 2.3.0, 2.3.1, 2.3.2, 2.3
 
 ## v3.0.1
 
-Amazon Sales Channel 3.0.1 is compatibel met Adobe Commerce versies 2.2.4+ en 2.3.x van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*11 november 2019*
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Repareren](../assets/fix.svg) **Instellingen numeriek veld**: <!--CHAN-3779-->Velden waarvoor een numerieke waarde nodig is, zijn bijgewerkt en bevatten alleen numerieke tekens. Voorbeeld: Instellingen voor prijsregel > veld Hoeveelheid aanpassing
 
@@ -190,7 +200,9 @@ Amazon Sales Channel 3.0.1 is compatibel met Adobe Commerce versies 2.2.4+ en 2.
 
 ## v3.0.0
 
-Amazon Sales Channel 3.0.0 is compatibel met Adobe Commerce versies 2.2.4+ en 2.3.x van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+*7 oktober 2019*
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 ![Nieuw](../assets/new.svg) **Amazon UK Marketplace Nu beschikbaar**: Gebruikers kunnen de markt van het Verenigd Koninkrijk kiezen bij het maken en integreren van een Commerce-winkel. Deze upgrade naar het Verenigd Koninkrijk biedt extra ondersteuning voor:
 
@@ -208,7 +220,7 @@ Amazon Sales Channel 3.0.0 is compatibel met Adobe Commerce versies 2.2.4+ en 2.
 
 ## v2.0.0
 
-Amazon Sales Channel 2.0.0 is compatibel met versie 2.2.4+ en 2.3.x van Magento Open Source, Adobe Commerce en Adobe Commerce op cloudinfrastructuur.
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
 
 >[!NOTE]
 >
