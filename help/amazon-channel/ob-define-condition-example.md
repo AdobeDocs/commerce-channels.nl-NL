@@ -4,7 +4,7 @@ description: Wanneer je regels voor aanbiedingen maakt, moet je voorwaarden defi
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
 source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 >
 >Er is een complexe reeks back-end processen om direct met Amazon-systemen te communiceren. Op basis van het aantal objecten dat je probeert aan te bieden en de manier waarop het druk is met Amazon-systemen (zoals &#39;Zwarte Vrijdag&#39;), kan het enige tijd duren voordat je objecten op Amazon worden aangeboden.
 
-Zie de sectie Voorwaarden van [Een regel voor een startprijs maken](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target=&quot;_blank&quot;}.
+Zie de sectie Voorwaarden van [Een regel voor een startprijs maken](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target="_blank"}.
 
 ## Een voorwaarde definiëren
 
@@ -31,7 +31,7 @@ Voorwaarden zijn gebaseerd op bestaande productkenmerkwaarden. Laat de sectie vo
 
 >[!NOTE]
 >
->Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, plaats **[!UICONTROL Use for Promo Rule Conditions]** instellen voor het kenmerk op `Yes`. U kunt deze instelling openen op het tabblad [Eigenschappen van Storefront](https://docs.magento.com/user-guide/catalog/product-attributes-add.html)pagina {target=&quot;_blank&quot;} voor het kenmerk.
+>Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, plaats **[!UICONTROL Use for Promo Rule Conditions]** instellen voor het kenmerk op `Yes`. U kunt deze instelling openen op het tabblad [Eigenschappen van Storefront](https://docs.magento.com/user-guide/catalog/product-attributes-add.html){target="_blank"} pagina voor het kenmerk.
 
 ![Voorwaarde - regel 1](assets/ob-listing-rule-conditions-start.png)
 
@@ -53,7 +53,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
       ![Combinatie van voorwaarden](assets/ob-conditions-combinations.png)
 
-   - **[!UICONTROL Product Attribute]** - De productkenmerken zijn afhankelijk van de instelling van het kenmerk. Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Zie de _Voorwaarden voor promotieregels gebruiken_ in [Productkenmerken](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}.
+   - **[!UICONTROL Product Attribute]** - De productkenmerken zijn afhankelijk van de instelling van het kenmerk. Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Zie de _Voorwaarden voor promotieregels gebruiken_ in [Productkenmerken](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
 
       In de lijst onder **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u als basis voor de voorwaarde wilt gebruiken. In dit voorbeeld is de geselecteerde voorwaarde: `Amazon FBA`.
 

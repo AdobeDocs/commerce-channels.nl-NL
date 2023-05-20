@@ -4,14 +4,14 @@ description: Met de Alias Amazon Seller SKU kunt u multiregionale Amazon-aanbied
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
 
 # Alias Amazon Seller SKU maken
 
-An [!DNL Alias Amazon Seller SKU] wordt gebruikt om een Amazon-aanbieding te maken van hetzelfde product in je [!DNL Commerce] catalogus. Als je een ervaren Amazon-verkoper bent, ben je wellicht bekend met de [Amazon Global SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target=&quot;_blank&quot;} en Marktspecifieke SKU voor voorraad en verzending. Volgens soortgelijke beginselen voor Amazon-verkoopkanalen controleert de Amazon Seller SKU productinformatie op multiregionaal niveau en de [!DNL Alias Amazon Seller SKU] kan worden gebruikt om productlijstinformatie op een regionaal specifiek niveau te controleren.
+An [!DNL Alias Amazon Seller SKU] wordt gebruikt om een Amazon-aanbieding te maken van hetzelfde product in je [!DNL Commerce] catalogus. Als je een ervaren Amazon-verkoper bent, ben je wellicht bekend met de [Amazon Global SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target="_blank"} en Marktspecifieke SKU voor voorraad en verzending. Volgens soortgelijke beginselen voor Amazon-verkoopkanalen controleert de Amazon Seller SKU productinformatie op multiregionaal niveau en de [!DNL Alias Amazon Seller SKU] kan worden gebruikt om productlijstinformatie op een regionaal specifiek niveau te controleren.
 
 Deze functie kan worden gebruikt om twee functies uit te voeren:
 
@@ -49,7 +49,7 @@ De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTRO
 
    - `No` - Kies of je een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten.
 
-1. Klik op **[!UICONTROL Save Listing Update]**.
+1. Klikken **[!UICONTROL Save Listing Update]**.
 
 ## Wordt gebruikt om één catalogusproduct aan twee Amazon-aanbiedingen te koppelen
 
@@ -71,7 +71,7 @@ De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTRO
 
    - `No` - Kies of je nog een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten.
 
-1. Klik op **[!UICONTROL Save Listing Update]**.
+1. Klikken **[!UICONTROL Save Listing Update]**.
 
 ![een Alias Amazon Seller SKU maken](assets/amazon-alias-sku-create.png)
 

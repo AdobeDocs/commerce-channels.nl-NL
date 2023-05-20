@@ -4,7 +4,7 @@ description: '''Instructies voor verzending en annulering [!DNL Walmart Marketpl
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---

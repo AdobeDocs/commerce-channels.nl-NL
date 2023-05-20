@@ -32,7 +32,7 @@ Als u kenmerken wilt toevoegen, raadpleegt u [Productkenmerken maken voor Amazon
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Vouw de sectie _[!UICONTROL Catalog Search]_uit.
+1. Breid uit _[!UICONTROL Catalog Search]_sectie.
 
 1. Voor **[!UICONTROL ASIN]**, kiest u het productkenmerk dat u voor de Amazon ASIN-waarde hebt gemaakt.
 

@@ -5,7 +5,7 @@ redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 [!DNL B2B Business Pricing] kunnen handelaren met een zakelijke account bij elkaar kopen met de verwachte prestaties van de Amazon shopping experience. Met B2B-prijzen voor bedrijven kunnen bedrijven gedifferentieerde prijzen aanbieden op basis van de aangeschafte hoeveelheid.
 
-Om uw producten op te nemen op [!DNL Amazon Business (B2B)] site: u moet eerst zaken inschakelen in uw [!DNL Amazon Seller Central] account. Voor meer informatie over de functie B2B raadpleegt u [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target=&quot;_blank&quot;} (vereist de aanmelding bij Verkoper Central).
+Om uw producten op te nemen op [!DNL Amazon Business (B2B)] site: u moet eerst zaken inschakelen in uw [!DNL Amazon Seller Central] account. Voor meer informatie over de functie B2B raadpleegt u [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (vereist aanmelden bij Verkoper).
 
 ## Bedrijfsprijsinstellingen configureren (B2B)
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Vouw de sectie _[!UICONTROL (B2B) Business Price]_uit.
+1. Breid uit _[!UICONTROL (B2B) Business Price]_sectie.
 
 1. Voor **[!UICONTROL Enable Business Pricing]** kiest u een optie.
 

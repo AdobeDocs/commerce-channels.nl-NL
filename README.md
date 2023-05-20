@@ -2,7 +2,7 @@
 source-git-commit: 139bfba8155461ddf4471793c13e0b87f4a0b263
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 # Adobe Commerce-gebruikersdocumentatie
@@ -11,7 +11,7 @@ Wij verwelkomen de bijdragen van onze gemeenschap en van Adobe werknemers van bu
 
 ## Adobe Open-Source-gedragscode
 
-Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
+Dit project heeft het [Adobe Open-Source-gedragscode](code-of-conduct.md) of de [.NET de Gedragscode van de Stichting](https://dotnetfoundation.org/code-of-conduct). Zie voor meer informatie de [Bijdragen](contributing.md) artikel.
 
 ## Over uw bijdragen aan Adobe-inhoud
 

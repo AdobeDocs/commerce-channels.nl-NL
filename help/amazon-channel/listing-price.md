@@ -5,7 +5,7 @@ redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Deze instellingen bepalen welke [!DNL Commerce] Het prijskenmerk dat als je prij
 
 U kunt uw [prijsbereik](./price-scope.md) als globaal of website. Als uw prijsbereik is ingesteld op `Global`, is er één prijsbron voor al uw winkels/websites. Als uw prijsbereik is ingesteld op `Website`De prijsbron gebruikt een fallback-logica van de websiteprijs (indien beschikbaar) gevolgd door de standaardprijs (global).
 
-Als een aanbiedingsregel op meer dan één website van toepassing is, wordt de volgorde waarin de websiteprijs wordt gebruikt bepaald door de instelling voor de prioriteit van de website die in het dialoogvenster [aanbiedingsregel](./listing-rules.md). Met deze regels kunt u productprijzen in de hele catalogus definiëren. Ga voor meer informatie over het prijsbereik van websites naar [Bereik catalogusprijs](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target=&quot;_blank&quot;}.
+Als een aanbiedingsregel op meer dan één website van toepassing is, wordt de volgorde waarin de websiteprijs wordt gebruikt bepaald door de instelling voor de prioriteit van de website die in het dialoogvenster [aanbiedingsregel](./listing-rules.md). Met deze regels kunt u productprijzen in de hele catalogus definiëren. Ga voor meer informatie over het prijsbereik van websites naar [Bereik catalogusprijs](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target="_blank"}.
 
-De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, en _[!UICONTROL Strike Through Price (MSRP)]_omvat uw gevormde het Prijsattributen. Prijskenmerken zijn [!DNL Commerce] productkenmerken met de waarde voor Invoertype catalogus voor Winkeleigenaar ingesteld op `Price`. Zie [Kenmerkinvoertypen](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target=&quot;_blank&quot;}.
+De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, en _[!UICONTROL Strike Through Price (MSRP)]_omvat uw gevormde het Prijsattributen. Prijskenmerken zijn [!DNL Commerce] productkenmerken met de waarde voor Invoertype catalogus voor Winkeleigenaar ingesteld op `Price`. Zie [Kenmerkinvoertypen](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target="_blank"}.
 
 ## Instellingen voor aanbiedingsprijs configureren {#configure-listing-price-settings}
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Vouw de sectie _[!UICONTROL Listing Price]_uit.
+1. Breid uit _[!UICONTROL Listing Price]_sectie.
 
 1. Voor **[!UICONTROL Magento Price Source]** (vereist), kiest u een optie.
 
@@ -51,7 +51,7 @@ De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised
    - `Enabled` - Kies wanneer je BTW op je aanbiedingsprijs wilt toepassen. BTW wordt in Europese landen doorgaans als BTW gebruikt en wordt toegevoegd aan de uiteindelijke verkoopprijs in Amazon. BTW is niet van toepassing op de uiteindelijke prijs voor aanbiedingen die binnen een intelligente prijsregel worden gebruikt, tenzij de [bodemprijs](./floor-price.md) is geraakt.
    >[!NOTE]
    >
-   >Bedrijven in de Europese Unie (EU) zijn verplicht facturen naar zakelijke kopers te sturen, zodat de klant belasting kan terugbetalen. U kunt deze facturen genereren en de belastingen zelf berekenen of een service voor belastingberekening gebruiken, zoals Amazon Btw Berekening Service. Amazon raadt u aan zich aan te melden voor de [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target=&quot;_blank&quot;}. Als u een andere methode kiest, bent u verantwoordelijk voor de naleving van de BTW.>
+   >Bedrijven in de Europese Unie (EU) zijn verplicht facturen naar zakelijke kopers te sturen, zodat de klant belasting kan terugbetalen. U kunt deze facturen genereren en de belastingen zelf berekenen of een service voor belastingberekening gebruiken, zoals Amazon Btw Berekening Service. Amazon raadt u aan zich aan te melden voor de [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target="_blank"}. Als u een andere methode kiest, bent u verantwoordelijk voor de naleving van de BTW.>
    >
    >Het kan 10-14 dagen duren voordat Amazon je rekening voor de BTW-berekeningsservice heeft gecontroleerd en geactiveerd.
 
@@ -68,11 +68,11 @@ De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised
       - Voor **[!UICONTROL Default PTC]**, voert u de standaard PTC in die moet worden gebruikt voor alle in aanmerking komende Amazon-aanbiedingen. Als uw standaard-PTC is ingesteld in uw [!DNL Amazon Seller Central] account, laat dit veld leeg. Wijzigingen in dit veld hebben geen invloed op bestaande Amazon-aanbiedingen. Als u de standaard-PTC voor een bestaande aanbieding wilt wijzigen, moet de aanbieding [beëindigd](./end-listings-manually.md) en een nieuwe aanbieding gemaakt.
    >[!NOTE]
    >
-   >Als je gebruik maakt van de Amazon Btw-berekeningsservice, moet je weten wat de belastingcategorie voor je producten is. Een PTC is de identificatiecode van de belastingcategorie Amazon voor B2B-aankopen in de EU. Zie [Amazon - Productbelastingcodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}.
+   >Als je gebruik maakt van de Amazon Btw-berekeningsservice, moet je weten wat de belastingcategorie voor je producten is. Een PTC is de identificatiecode van de belastingcategorie Amazon voor B2B-aankopen in de EU. Zie [Amazon - Productbelastingcodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
 
 1. Voor **[!UICONTROL Currency Conversion]** kiest u een optie.
 
-   De standaardwaarde is `Disabled`. Deze opties zijn afhankelijk van uw [!DNL Commerce] [valuta](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target=&quot;_blank&quot;} instellingen. Als er geen opties beschikbaar zijn, stelt u de valuta-instellingen in.
+   De standaardwaarde is `Disabled`. Deze opties zijn afhankelijk van uw [!DNL Commerce] [valuta](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} instellingen. Als er geen opties beschikbaar zijn, stelt u de valuta-instellingen in.
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
@@ -85,9 +85,9 @@ De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised
 | [!UICONTROL Strike Through Price (MSRP)] | De [!DNL Commerce] attribuut dat het tarief MSRP vertegenwoordigt. Als de Amazon-aanbiedingsprijs lager is dan het MSRP, wordt een doorhaling van de MSRP-prijs en de aanbiedingsprijs weergegeven. Deze instelling wordt ook gebruikt om het bedrag en het percentage voor Opslaan te berekenen, maar deze functie is alleen van toepassing op aanbiedingen waarvoor de [Buy Box](./buy-box-competitor-pricing.md) positie. |
 | [!UICONTROL Apply Value Added Tax (VAT)] | BTW wordt gebruikt door verkopers in de Europese Unie.<br><br>Kies `Disabled` als je geen BTW wilt toevoegen aan de aanbiedingsprijzen.<br><br>Kies `Enabled` en voer vervolgens het BTW-percentage in voor de toepassing van BTW op je aanbiedingsprijzen. |
 | [!UICONTROL VAT Percentage] | Geef het percentage op dat moet worden gebruikt om het BTW-bedrag te berekenen dat aan de aanbiedingsprijs voor je Amazon-aanbiedingen moet worden toegevoegd. <br><br>Als u `5`Vervolgens wordt een BTW van 5% toegepast op de uiteindelijke prijs van de aanbieding nadat alle prijsregels zijn toegepast. BTW is niet van toepassing op de uiteindelijke prijs voor aanbiedingen die binnen een intelligente prijsregel worden gebruikt, tenzij de [verdieping](./floor-price.md) of [maximum](./optional-ceiling-price.md) is geraakt. |
-| [!UICONTROL Amazon Product Tax Code (PTC)] | (Wordt alleen weergegeven voor Britse winkels) Hiermee wordt bepaald of de gegevens van de productbelastingcode door het verkoopkanaal van Amazon naar je worden verzonden [!DNL Amazon Seller Central] account. <br><br>Selecteren **PTC niet beheren** als u een service voor de berekening van BTW van derden gebruikt of al uw belastingberekeningen hebt ingesteld in uw [!DNL Amazon Seller Central] account. Wanneer deze optie is ingeschakeld, stuurt het verkoopkanaal van Amazon geen gegevens over de productbelastingcode naar je [!DNL Amazon Seller Central] account.<br><br>Selecteren **Standaard PTC instellen** als je een universele productbelastingcode hebt, wil je deze gebruiken voor al je producten.<br><br>Zie [Amazon - Productbelastingcodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}. |
+| [!UICONTROL Amazon Product Tax Code (PTC)] | (Wordt alleen weergegeven voor Britse winkels) Hiermee wordt bepaald of de gegevens van de productbelastingcode door het verkoopkanaal van Amazon naar je worden verzonden [!DNL Amazon Seller Central] account. <br><br>Selecteren **PTC niet beheren** als u een service voor de berekening van BTW van derden gebruikt of al uw belastingberekeningen hebt ingesteld in uw [!DNL Amazon Seller Central] account. Wanneer deze optie is ingeschakeld, stuurt het verkoopkanaal van Amazon geen gegevens over de productbelastingcode naar je [!DNL Amazon Seller Central] account.<br><br>Selecteren **Standaard PTC instellen** als je een universele code voor productbelasting hebt, wil je deze gebruiken voor al je producten.<br><br>Zie [Amazon - Productbelastingcodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
 | [!UICONTROL Default PTC] | Wordt alleen weergegeven als **Amazon-productbelastingcode (PTC)** is ingesteld op `Set Default PTC`. Voer de standaard PTC in die moet worden gebruikt voor alle in aanmerking komende Amazon-aanbiedingen. Als uw standaard-PTC is ingesteld in uw [!DNL Amazon Seller Central] account, laat dit veld leeg. <br><br>Wijzigingen in dit veld hebben geen invloed op bestaande aanbiedingen. De aanbieding moet [beëindigd](./end-listings-manually.md) en een nieuwe aanbieding die is gemaakt om de wijziging van kracht te laten worden. |
-| [!UICONTROL Currency Conversion] | Staat uw [!DNL Commerce] de standaardvaluta van je winkel wijzigen om de standaard Amazon-valuta correct om te zetten om je aanbiedingsprijzen in de juiste valuta te publiceren. De valutaomrekening is altijd gebaseerd op uw [!DNL Commerce] standaardvaluta.<br><br>U kunt de standaardinstelling nog steeds bekijken [!DNL Commerce] en Amazon-valuta&#39;s wanneer andere valuta&#39;s beschikbaar zijn. Als uw standaard [!DNL Commerce] valuta komt overeen met uw standaard Amazon-valuta, valutaconversie uitgeschakeld laten.<br><br>Als uw [!DNL Commerce] De standaardvaluta is CAD (Canadese dollars) en de standaardvaluta van Amazon is USD, moet u Valutaconversie inschakelen en de CAD Conversion Rate CAD naar USD kiezen. De voorgestelde opties zijn gebaseerd op de ingebouwde [!DNL Commerce] valutaomrekeningen. Als u de gewenste optie niet ziet, [de munteenheid in [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Currency Conversion] | Staat uw [!DNL Commerce] de standaardvaluta van je winkel wijzigen om de standaard Amazon-valuta correct om te zetten om je aanbiedingsprijzen in de juiste valuta te publiceren. De valutaomrekening is altijd gebaseerd op uw [!DNL Commerce] standaardvaluta.<br><br>U kunt de standaardinstelling nog steeds bekijken [!DNL Commerce] en Amazon-valuta&#39;s wanneer andere valuta&#39;s beschikbaar zijn. Als uw standaard [!DNL Commerce] valuta komt overeen met uw standaard Amazon-valuta, valutaconversie uitgeschakeld laten.<br><br>Als uw [!DNL Commerce] De standaardvaluta is CAD (Canadese dollars) en de standaardvaluta van Amazon is USD, moet u Valutaconversie inschakelen en de CAD Conversion Rate CAD naar USD kiezen. De voorgestelde opties zijn gebaseerd op de ingebouwde [!DNL Commerce] valutaomrekeningen. Als u de gewenste optie niet ziet, [de munteenheid in [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}. |
 
 **Snelle toegang** - [!UICONTROL Listing Settings] secties
 

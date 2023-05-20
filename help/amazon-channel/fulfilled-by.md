@@ -32,7 +32,7 @@ De uitvoeringsmethode is een regionaal kenmerk en is gebaseerd op de **[!UICONTR
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Vouw de sectie _[!UICONTROL Fulfilled By]_uit.
+1. Breid uit _[!UICONTROL Fulfilled By]_sectie.
 
 1. Voor **[!UICONTROL Product Fulfilled By]**, kiest u wie aan de order voldoet (schepen):
 

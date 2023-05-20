@@ -49,7 +49,7 @@ De controle van de Mening is gebaseerd op de standaardkolommen voor pagina, zo w
 
 Wanneer u kolommen hebt toegevoegd of uit de paginaweergave verwijderd:
 
-1. Klik op **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. Klikken **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
 1. Voer een naam in voor weergave.
 
