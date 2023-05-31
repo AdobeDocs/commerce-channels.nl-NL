@@ -1,15 +1,15 @@
 ---
-title: Sales Channel-instellingen
+title: Instellingen verkoopkanaal
 description: Om registreren, cron bron, en synchronisatie voor de functies van het verkoopkanaal van Amazon te beheren, werk de configuratie van de Handel bij.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Sales Channel-instellingen
+# Instellingen verkoopkanaal
 
 Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden standaardwaarden ingesteld in het verkoopkanaal Admin for Amazon. Deze instellingen kunnen worden gewijzigd in de configuratie-instellingen voor uw Amazon-winkel. Deze instellingen zijn:
 
@@ -33,11 +33,11 @@ Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden
 
 1. Voor **[!UICONTROL Background Tasks (CRON) Source]** kiest u `Magento CRON`.
 
-   Met deze optie kan Amazon je verkoopkanaal gebruiken [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) instellingen om de communicatie- en gegevenssynchronisatieintervallen te bepalen met [!DNL Amazon Seller Central].
+   Met deze optie kan Amazon je verkoopkanaal gebruiken [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) instellingen om de communicatie- en gegevenssynchronisatieintervallen te bepalen met [!DNL Amazon Seller Central].
 
 1. Voor **[!UICONTROL Enable Debug Logging]** kiest u `Enabled` om extra synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is.
 
-   Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. Logboekregistratie dient alleen plaats te vinden `Enabled` tijdens het oplossen van problemen en moet `Disabled` wanneer het oplossen van problemen volledig is.
+   Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). Logboekregistratie dient alleen plaats te vinden `Enabled` tijdens het oplossen van problemen en moet `Disabled` wanneer het oplossen van problemen volledig is.
 
 1. Voor **[!UICONTROL Read-Only Mode]**, selecteert u `Enabled` om alle uitgaande status-veranderende API verzoeken te blokkeren.
 
@@ -51,4 +51,4 @@ Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden
 
 1. Klikken **[!UICONTROL Save Config]**.
 
-![Sales Channel-configuratie-instellingen](assets/config-sales-channel-global-settings.png)
+![Sales Channel-configuratie-instellingen](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

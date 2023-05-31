@@ -1,15 +1,15 @@
 ---
-title: Beste praktijken en Beperkingen voor het verkoopkanaal van Amazon
+title: Aanbevolen werkwijzen en beperkingen voor [!DNL Amazon sales channel]
 description: Bekijk de beste praktijken en beperkingen wanneer het gebruiken van het verkoopkanaal van Amazon voor Adobe Commerce en Magento Open Source.
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Beste praktijken en Beperkingen voor de Sales Channel van Amazon
+# Aanbevolen werkwijzen en beperkingen voor [!DNL Amazon sales channel]
 
 De beste praktijken omvatten:
 
@@ -17,7 +17,7 @@ De beste praktijken omvatten:
 
 - Verkoopkanaal van Amazon kan je prijsregels zodanig instellen dat je de objectprijs automatisch aanpast. De geautomatiseerde prijswaarborgen omvatten [bodemprijs](./floor-price.md) en [facultatieve maximumprijs](./optional-ceiling-price.md) kenmerken van [Intelligente prijsstellingsregels](./intelligent-repricing-rules.md). Met deze voorzorgsmaatregelen kun je ervoor zorgen dat je aanbiedingsprijzen niet onder je kosten of boven een bepaalde prijs liggen.
 
-- Gegevenssynchronisatie tussen Amazon-verkoopkanaal en Amazon wordt beheerd door uw [[!DNL Commerce] kraan](https://docs.magento.com/user-guide/system/cron.html){target="_blank"} instellingen. Ingebouwde vertraging tussen [!DNL Commerce] en Amazon draagt bij aan een soepele en efficiënte gegevensoverdracht, maar bij hoge eCommerce-tijden (zoals de Zwarte Vrijdag) kan het langer duren dan gewoonlijk om Amazon-systemen bij te werken. Stel uw [!DNL Commerce] kroon om de vijf minuten.
+- Gegevenssynchronisatie tussen Amazon-verkoopkanaal en Amazon wordt beheerd door uw [[!DNL Commerce] kraan](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) instellingen. Ingebouwde vertraging tussen [!DNL Commerce] en Amazon draagt bij aan een soepele en efficiënte gegevensoverdracht, maar bij hoge eCommerce-tijden (zoals de Zwarte Vrijdag) kan het langer duren dan gewoonlijk om Amazon-systemen bij te werken. Stel uw [!DNL Commerce] kroon om de vijf minuten.
 
 - Amazon-verkoopkanaal importeert uw Amazon-ordergegevens. Als u uw Amazon-bestellingen in Amazon-verkoopkanalen wilt beheren, moet u ervoor zorgen dat uw [orderinstellingen](./order-settings.md) zijn gedefinieerd voor het importeren en maken van een corresponderende [!DNL Commerce] volgorde voor elke Amazon-bestelling. Als deze niet is gedefinieerd, kunt u alleen de Amazon-ordergegevens bekijken. Alle verkoopbelastingen via Amazon worden nog steeds beheerd en kwijtgescholden via je [!DNL Amazon Seller Central] account. In sommige landen is Amazon verplicht om automatisch belastingen te innen en terug te betalen. In andere staten kunnen verkopers de belastingen handmatig of automatisch berekenen. Zie [Amazon: Belastingbeleid](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. Mogelijk moet u zich aanmelden bij uw [!DNL Amazon Seller Central] -account voor de belastingbeleidsdocumentatie van Amazon.
 

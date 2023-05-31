@@ -1,15 +1,15 @@
 ---
-title: Actieve aanbiedingen
+title: Aanbiedingen van Active Amazon
 description: Het Amazon-verkoopkanaal biedt het tabblad Actief voor het volgen van actieve Amazon-aanbiedingen die overeenkomen met een product in uw Adobe Commerce-catalogus.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# Actieve aanbiedingen
+# Aanbiedingen van Active Amazon
 
 De _[!UICONTROL Active]_toont je Amazon-aanbiedingen die actief zijn op het tabblad [!DNL Amazon Marketplace] en die overeenkomen met een product in uw [!DNL Commerce] catalogus.
 
@@ -39,7 +39,7 @@ Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 >
 >Als je aanbiedingen in behandeling hebt, wordt het aantal aanbiedingen weergegeven in een bericht boven de tabbladen.
 
-![Actieve aanbiedingen](assets/amazon-active-listings.png)
+![Actieve aanbiedingen](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

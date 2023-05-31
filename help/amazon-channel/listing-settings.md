@@ -1,11 +1,11 @@
 ---
-title: Aanbiedingsinstellingen weergeven
+title: Aanbiedingsinstellingen voor Amazon weergeven
 description: Gebruik de aanbiedingsinstellingen om te bepalen hoe je [!DNL Commerce] catalogusproducten worden vermeld op [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Breid elk van de secties uit en vorm zonodig.
 
 1. Klikken **[!UICONTROL Save]**.
 
-![Aanbiedingsinstellingen](assets/amazon-listing-settings.png)
+![Aanbiedingsinstellingen](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

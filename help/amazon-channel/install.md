@@ -1,19 +1,19 @@
 ---
-title: De extensie installeren
+title: "Installeer de [!DNL Amazon Sales Channel] extension"
 description: Om uw [!DNL Commerce] catalogus met [!DNL Amazon Seller Accounts] en verkopen via [!DNL Amazon Marketplace], downloadt en installeert u de Amazon Sales Channel-extensie.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# De extensie installeren
+# Installeer de [!DNL Amazon Sales Channel] extension
 
 >[!IMPORTANT]
 >
->Alleen [!DNL Amazon Sales Channel] extensie 4.0+-versies worden ondersteund voor Adobe Commerce- en Magento Open Source 2.4.x-versies. Als u een versie van 2.3.x uitvoert, raadpleegt u de documentatie voor het [compatibele Amazon-verkoopkanaalrelease](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target="_blank"}. For more information about version compatibility, see the [Availability](https://devdocs.magento.com/release/availability.html){target="_blank"} in de ontwikkelaarsdocumentatie.
+>Alleen [!DNL Amazon Sales Channel] extensie 4.0+-versies worden ondersteund voor Adobe Commerce- en Magento Open Source 2.4.x-versies. Als u een versie van 2.3.x uitvoert, raadpleegt u de documentatie voor het [compatibele Amazon-verkoopkanaalrelease](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Zie voor meer informatie over versiecompatibiliteit de [Beschikbaarheid](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) in de ontwikkelaarsdocumentatie.
 
 De [!UICONTROL Amazon Sales Channel] extensie installeert en voegt functies toe om uw handelscatalogus te integreren met [!DNL Amazon Seller Accounts] om via [!DNL Amazon Marketplace]. Als u aanvullende informatie wilt bekijken, raadpleegt u de [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) pagina in [!DNL Commerce Marketplace] en de [releaseopmerkingen](release-notes.md).
 
@@ -25,9 +25,9 @@ De [!UICONTROL Amazon Sales Channel] extensie installeert en voegt functies toe 
 
 ## Installeren
 
-Voor meer gedetailleerde informatie over het gebruik van Composer voor dit proces raadpleegt u de [extensieinstallatie](https://devdocs.magento.com/extensions/install/){target="_blank"} instructies in de ontwikkelaarsdocumentatie.
+Voor meer gedetailleerde informatie over het gebruik van Composer voor dit proces raadpleegt u de [extensieinstallatie](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) instructies in de ontwikkelaarsdocumentatie.
 
-1. Aanmelden bij de [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
+1. Aanmelden bij de [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
 1. Klik op de knop **[!UICONTROL Marketplace]** en klikt u op **[!UICONTROL My Purchases]**.
 
@@ -47,12 +47,12 @@ Voor meer gedetailleerde informatie over het gebruik van Composer voor dit proce
    composer require magento/services-connector:~1.0.3
    ```
 
-   - Voer uw [verificatietoetsen](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"}. Uw openbare sleutel is uw gebruikersnaam; uw persoonlijke sleutel is uw wachtwoord.
+   - Voer uw [verificatietoetsen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Uw openbare sleutel is uw gebruikersnaam; uw persoonlijke sleutel is uw wachtwoord.
 
    - Wacht op Composer om uw projectgebiedsdelen te beëindigen en ervoor te zorgen dat er geen fouten zijn.
 
 
-1. [De extensie verifiëren](https://devdocs.magento.com/extensions/install/#verify-the-extension){target="_blank"}.
+1. [De extensie verifiëren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ## De API-sleutel voor het Amazon-verkoopkanaal toevoegen
 
@@ -80,7 +80,7 @@ U hebt de volgende opties om het verkoopkanaal van Amazon te vormen. U hoeft dez
 
 ## De extensie bijwerken
 
-1. Aanmelden bij de [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
+1. Aanmelden bij de [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
 1. Klik op de knop **[!UICONTROL Marketplace]** en klikt u op **[!UICONTROL My Purchases]**.
 
@@ -90,4 +90,4 @@ U hebt de volgende opties om het verkoopkanaal van Amazon te vormen. U hoeft dez
 
 1. Klik voor de naam en versie van de component op **[!UICONTROL Technical Details]**.
 
-1. Voltooi de [extensie, upgrade-instructies](https://devdocs.magento.com/extensions/install/#upgrade-an-extension){target="_blank"} in de ontwikkelaarsdocumentatie.
+1. Voltooi de [extensie, upgrade-instructies](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in de _Installatiehandleiding_.

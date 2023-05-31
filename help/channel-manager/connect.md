@@ -4,9 +4,9 @@ description: 'Kanaalbeheer verbinden met [!DNL Commerce] diensten om gegevenssyn
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegreerd met Adobe Commerce- en Magento Open Source-instanties. De schakelaar laat gegevenssynchronisatie en communicatie tussen toe [!DNL Commerce] instantie, [!DNL Channel Manager]en andere ondersteunende diensten.
 
-[!DNL Commerce Services Connector] Setup is een eenmalig proces dat vereist is voor gebruik [Adobe Commerce SaaS-services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} zoals [!DNL Channel Manager], [!DNL Live Search], en [!DNL Product Recommendations]. Als u reeds de schakelaar voor een andere dienst hebt gevormd, sla deze stap over.
+[!DNL Commerce Services Connector] Setup is een eenmalig proces dat vereist is voor gebruik [Adobe Commerce SaaS-services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) zoals [!DNL Channel Manager], [!DNL Live Search], en [!DNL Product Recommendations]. Als u reeds de schakelaar voor een andere dienst hebt gevormd, sla deze stap over.
 
 ## Vereisten
 
@@ -24,11 +24,11 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 
    Accounteigenaars en Super-gebruikers kunnen beheerdersaccounts maken via de [!DNL Commerce] instantie of vanaf de opdrachtregel met behulp van de [!DNL Commerce] CLI, opdracht `admin:user:create`.
 
-- **Adobe Commerce Production API Key**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
+- **Adobe Commerce Production API Key**-This [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
 
 >[!TIP]
 >
->Om de geloofsbrieven te verstrekken, a [!DNL Commerce] vergunninghouder of rekeninghouder beschikt over opties om [gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} referenties voor een vertrouwde ontwikkelaar.
+>Om de geloofsbrieven te verstrekken, a [!DNL Commerce] vergunninghouder of rekeninghouder beschikt over opties om [gedeelde toegang](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)of geeft de [API-sleutel](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) referenties voor een vertrouwde ontwikkelaar.
 
 ## Configureer de [!DNL Commerce Services Connector]
 
@@ -42,7 +42,7 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 
 1. Voeg de belangrijkste referenties voor de productie-API van uw Adobe Commerce-account toe.
 
-   ![[!DNL Commerce Services Connector] in de [!DNL Admin] weergave](assets/commerce-services-connector-admin-service-view.png)
+   ![[!DNL Commerce Services Connector] in de [!DNL Admin] weergave](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
 
 
    >[!NOTE]
@@ -51,5 +51,5 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 
 1. Vorm het project SaaS en gegevensruimte zodat de Diensten van de Handel gegevens naar de dienst van de Manager van het Kanaal kunnen verzenden.
 
-   ![[!DNL Commerce Services Connector] SaaS-id-configuratie in de [!DNL Admin] weergave](assets/commerce-services-connector-saas-config.png)
+   ![[!DNL Commerce Services Connector] SaaS-id-configuratie in de [!DNL Admin] weergave](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
 

@@ -1,10 +1,10 @@
 ---
-title: Voorbeelden van prijsregels
+title: Verkoopkanaal voor Amazon - Voorbeelden van prijsregels
 description: Bekijk deze voorbeelden op basis van algemene scenario's om je prijsregels voor Amazon-aanbiedingen te helpen ontwerpen.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ Eindprijs na toepassing van de standaardprijsregel: $ 13,75 + $ 5,00 = $ 18,75
 
 In dit voorbeeld wordt de meest concurrerende prijs gedefinieerd door naar de Amazon te kijken [laagste prijs van concurrent](./lowest-competitor-pricing.md) met een positieve feedback van 95% en een minimale feedbackscore van 1.000 beoordelingen door bedrijven.
 
-![Voorbeeld van prijsaanpassing](assets/amazon-price-adjustment-example.png)
+![Voorbeeld van prijsaanpassing](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 Nadat deze zoekopdracht op basis van deze parameters is uitgevoerd, komt de concurrerende prijs terug op $25.
 

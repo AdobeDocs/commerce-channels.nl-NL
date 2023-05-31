@@ -1,15 +1,15 @@
 ---
-title: Nieuwe aanbiedingen van derden
+title: Nieuwe Amazon-aanbiedingen van derden
 description: Nieuwe Amazon-aanbiedingen beheren door deze aan te passen aan een product in je handelscatalogus.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Nieuwe aanbiedingen van derden
+# Nieuwe Amazon-aanbiedingen van derden
 
 De _[!UICONTROL New Third Party]_toont je bestaande Amazon-aanbiedingen die niet overeenkomen met een product in je [!DNL Commerce] catalogus. Als je het beheer van aanbiedingen wilt gebruiken voor hoeveelheden, prijzen, verwerkingstijd en meer, moet elk van je Amazon-aanbiedingen overeenkomen met een product in je [!DNL Commerce] catalogus. U hebt een aantal opties om een aanbieding toe te wijzen aan een product in uw [!DNL Commerce] catalogus.
 
@@ -31,7 +31,7 @@ Onder _[!UICONTROL Select]_:
 >
 >Als je aanbiedingen in behandeling hebt, wordt boven de tabbladen een bericht weergegeven waarin het aantal aanbiedingen wordt aangegeven.
 
-![Nieuwe aanbiedingen van derden](assets/amazon-listings-new-third-party.png)
+![Nieuwe aanbiedingen van derden](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

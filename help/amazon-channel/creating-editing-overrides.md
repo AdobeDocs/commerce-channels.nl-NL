@@ -1,10 +1,10 @@
 ---
-title: Overschrijvingen maken en bewerken
+title: Overschrijvingen van Amazon-verkoopkanalen maken en bewerken
 description: Met Amazon Sales Channel overschrijven kun je je wijzigingen toepassen op één Amazon-aanbieding of op meerdere aanbiedingen.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De _[!UICONTROL Create Override]_actie is beschikbaar als je aanbiedingen bekijk
 
 1. In de _[!UICONTROL Action]_kolom, klikt u op **[!UICONTROL Select]**>**[!UICONTROL Create Override]**om de pagina Overschrijvingen van aanbiedingen te openen.
 
-   ![Amazon-aanbieding overschrijven](assets/amazon-select-create-override.png)
+   ![Amazon-aanbieding overschrijven](assets/amazon-select-create-override.png){width="220"}
 
 1. Controleer de _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ De _[!UICONTROL Create Override]_actie is beschikbaar als je aanbiedingen bekijk
 
 In het volgende voorbeeld wordt een overschrijving getoond die een nieuwe prijs van `$55`, een nieuwe verwerkingstijd van `1 day`, een nieuwe voorwaarde van `Used; Like New`en nieuwe tekst in Opmerking van verkoper.
 
-![Voorbeeld Amazon-aanbieding overschrijven](assets/amazon-overrides-edit.png)
+![Voorbeeld Amazon-aanbieding overschrijven](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## Een overschrijving voor één aanbieding bewerken of verwijderen {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ De _[!UICONTROL Edit Overrides]_actie is beschikbaar als je aanbiedingen bekijkt
 
    De _[!UICONTROL Product Listing Overrides]_pagina wordt geopend.
 
-   ![Overschrijving Amazon-aanbieding selecteren](assets/amazon-select-edit-overrides.png)
+   ![Overschrijving Amazon-aanbieding selecteren](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. Controleer de _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ De _[!UICONTROL Edit Overrides]_actie is beschikbaar als je aanbiedingen bekijkt
 
 Piggydrager op de _Een overschrijving maken_ voorbeeld. In het volgende voorbeeld wordt een bewerking getoond van de eerder gemaakte overschrijving die een nieuwe prijs van `$50`, verwijdert de handeling Tijd overschrijven en zorgt ervoor dat de vorige voorwaarde en verkopersnotities worden genegeerd.
 
-![Een overschrijving bewerken of verwijderen](assets/amazon-overrides-edit-2.png)
+![Een overschrijving bewerken of verwijderen](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Een overschrijving voor meerdere aanbiedingen bewerken of verwijderen {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ De _[!UICONTROL Edit Listing Overrides]_actie is beschikbaar op_[!UICONTROL Inac
 
    De _[!UICONTROL Product Listing Overrides]_pagina wordt geopend.
 
-   ![Overschrijving Amazon-aanbieding selecteren](assets/amazon-actions-edit-listing-overrides.png)
+   ![Overschrijving Amazon-aanbieding selecteren](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. Als u uw _[!UICONTROL Override]_, definieert u de secties voor het type dat u wilt wijzigen (Prijs, Verwerkingstijd, Voorwaarde, Opmerkingen van verkoper).
 

@@ -1,15 +1,15 @@
 ---
-title: Logboeken en winkelrapporten
+title: Logboeken en winkelrapporten voor Amazon-aanbiedingen
 description: Gebruik de logboeken en winkelrapporten om te zien wat er gebeurt in je Adobe Commerce- of Magento Open Source-winkel en in je Amazon Marketplace-aanbiedingen.
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# Logboeken en winkelrapporten
+# Logboeken en winkelrapporten voor Amazon-aanbiedingen
 
 De Amazon-extensie voor verkoopkanalen bevat enkele waardevolle logboeken en winkelrapporten waarmee u de wijzigingen kunt bekijken die van invloed zijn op uw Amazon-aanbiedingen en -bestellingen. Met deze rapporten kun je zien wat er in je winkel gebeurt en verschillende statussen van aanbiedingen begrijpen.
 
@@ -29,4 +29,4 @@ De volgende store-specific rapporten kunnen van worden betreden [opslagdashboard
 
 >[!TIP]
 >
->U kunt het logboekdossier voor extra informatie ook controleren wanneer het oplossen van problemen nodig is. Zie [Beheerinstellingen verkoopkanaal](./sales-channel-settings.md). Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>U kunt het logboekdossier voor extra informatie ook controleren wanneer het oplossen van problemen nodig is. Zie [Beheerinstellingen verkoopkanaal](./sales-channel-settings.md). Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

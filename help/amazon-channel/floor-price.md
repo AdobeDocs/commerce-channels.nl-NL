@@ -2,9 +2,9 @@
 title: '"Intelligente prijsregel: Floor Price'''
 description: Gebruik instellingen voor de laagste prijs om de laagste prijs te bepalen voor een intelligente prijsregel voor het beheren van je Amazon-aanbiedingen.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Geef de laagste prijsinstelling op in het dialoogvenster _[!UICONTROL Floor Pric
 
 1. Voor **[!UICONTROL Floor Price Source]**, kiest u een kenmerk van een prijsbron.
 
-   Kies de optie [!DNL Commerce] [productkenmerk](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} dat uw relatieve vlottlimiet aangeeft. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kosten van je object ligt, kies je de *Kosten* kenmerk.
+   Kies de optie [!DNL Commerce] [productkenmerk](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) dat uw relatieve vlottlimiet aangeeft. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kosten van je object ligt, kies je de *Kosten* kenmerk.
 
 1. Voor **[!UICONTROL Floor Price Action]** kiest u een optie.
 
@@ -47,7 +47,7 @@ Geef de laagste prijsinstelling op in het dialoogvenster _[!UICONTROL Floor Pric
 
 In dit voorbeeld is de laagste prijs ingesteld op 3% boven de prijs van het object.
 
-![Voorbeeld van een intelligente prijsregel - minimumprijs](assets/ob-intelligent-pricde-rule-floor-price.png)
+![Voorbeeld van een intelligente prijsregel - minimumprijs](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |

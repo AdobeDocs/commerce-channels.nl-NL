@@ -2,7 +2,7 @@
 title: Aanbiedingen beheren
 description: 'Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Productaanbiedingen beheren voor de [!DNL Walmart Marketplace] verkoopkanaal van
 
 De status van een afzonderlijke aanbieding geeft aan waar het product zich bevindt in de [!DNL Channel Manager] zodat u de volgende stappen kunt bepalen en eventuele fouten kunt oplossen.
 
-![Pagina met aanbiedingen voor een verbonden verkoopkanaal](assets/listings-dashboard-view.png)
+![Pagina met aanbiedingen voor een verbonden verkoopkanaal](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 U kunt de volgende taken uitvoeren vanuit de lijstweergave.
 

@@ -1,19 +1,19 @@
 ---
-title: Attributen
+title: Kenmerken voor Amazon-aanbiedingen
 description: Amazon Sales Channel biedt de [!UICONTROL Attributes] om de lijst met Amazon- en handelskenmerken te controleren en te bepalen hoe deze worden toegewezen voor productmatching.
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Attributen
+# Kenmerken voor Amazon-aanbiedingen
 
 De _[!UICONTROL Attributes]_toont je lijst met Amazon en [!DNL Commerce] kenmerken. De lijst geeft ook kenmerken aan die zijn toegewezen voor overeenkomende producten. Zie voor meer informatie [Kenmerken beheren](./managing-attributes.md).
 
-![Kenmerken, weergave](assets/amazon-attributes-view.png)
+![Kenmerken, weergave](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
 Van de _[!UICONTROL Attributes]_bekijk, u en herzie uw attributenmontages in de lijst en [maken of bewerken](./creating-attributes.md) een kenmerk.
 

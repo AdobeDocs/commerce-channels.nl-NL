@@ -1,15 +1,15 @@
 ---
-title: Overschrijvingen
+title: Verkoopkanaal van Amazon - [!UICONTROL Overrides]
 description: Amazon Sales Channel biedt het tabblad Overschrijvingen om te bepalen en te beheren hoe u overschrijvingen toepast in uw Amazon-aanbiedingen.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Overschrijvingen
+# [!UICONTROL Overrides]
 
 De _[!UICONTROL Overrides]_toont je Amazon-aanbiedingen waarop je een overschrijving hebt toegepast. Een overschrijving is een specifieke instelling voor lijsten die u kunt gebruiken om een gedefinieerde waarde in te stellen op een aanbieding. Een overschrijving die wordt toegepast op een aanbieding, definieert de instelling voor de aanbieding, ongeacht andere gedefinieerde aanbiedingsinstellingen of regels waarvoor de aanbieding in aanmerking komt. Wanneer een overschrijving wordt toegepast op een aanbieding, wordt de vermelding weergegeven op het tabblad_[!UICONTROL Overrides]_ tab. De waarde die in de overschrijving is gedefinieerd, wordt in de desbetreffende kolom voor de lijst weergegeven. Er zijn vier soorten overschrijvingen die kunnen worden toegepast: Prijs, Verwerkingstijd, Voorwaarde en Opmerkingen voor verkopers.
 
@@ -36,7 +36,7 @@ Zie [Overschrijvingen maken en bewerken](./creating-editing-overrides.md).
 >
 >Als je aanbiedingen in behandeling hebt, wordt het aantal aanbiedingen weergegeven in een bericht boven de tabbladen.
 
-![Het tabblad Overschrijvingen](assets/amazon-overrides.png)
+![Het tabblad Overschrijvingen](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

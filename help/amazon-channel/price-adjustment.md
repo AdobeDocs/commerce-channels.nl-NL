@@ -1,15 +1,15 @@
 ---
-title: Prijsaanpassing
+title: Verkoopkanaal van Amazon - [!UICONTROL Price Adjustment]
 description: Prijsaanpassingen configureren om de prijsberekening te bepalen wanneer u de prijsbron van de Amazon-concurrent hebt geïdentificeerd.
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# Prijsaanpassing
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Bepaal uw prijsaanpassing in _[!UICONTROL Price Adjustment]_sectie.
 
    - Wanneer **[!UICONTROL Apply]** is ingesteld op `Apply as fixed amount`Voer de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: enter `25` voor een vaste correctie van $ 25).
 
-![Intelligente prijsregel - prijsaanpassing](assets/amazon-price-adjustment.png)
+![Intelligente prijsregel - prijsaanpassing](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |---|---|

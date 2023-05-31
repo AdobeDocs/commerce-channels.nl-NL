@@ -1,23 +1,23 @@
 ---
-title: Logboek met communicatiefouten
+title: Logboek voor communicatiefouten in Amazon
 description: In het Communication Errors Log worden communicatiefouten weergegeven tussen Amazon en [!DNL Commerce].
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# Logboek met communicatiefouten
+# Logboek voor communicatiefouten in Amazon
 
-In het Communication Errors Log worden alle gerapporteerde communicatiefouten met Amazon weergegeven. De informatie omvat de getroffen de verkoopkanaalopslag van Amazon, foutencode en korte beschrijving, en de datum en de tijd van de fout.
+De [!UICONTROL Communication Errors] In het logbestand worden alle gerapporteerde communicatiefouten met Amazon weergegeven. De informatie omvat de getroffen de verkoopkanaalopslag van Amazon, foutencode en korte beschrijving, en de datum en de tijd van de fout.
 
 Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 
-![Logboek met communicatiefouten](assets/amazon-comm-errors-log.png)
+![Logboek met communicatiefouten](assets/amazon-comm-errors-log.png){width="600" zoomable="yes"}
 
 ## Standaardkolommen
 

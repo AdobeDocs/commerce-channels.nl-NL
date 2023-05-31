@@ -1,10 +1,10 @@
 ---
-title: Besturingselementen werkruimte
+title: Amazon-verkoopkanaal - Besturingselementen voor werkruimte
 description: Amazon Sales Channel biedt besturingselementen in de werkruimte waarmee u lijsten kunt zoeken, informatie kunt bekijken en eenvoudig handelingen kunt toepassen.
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Het verkoopkanaal van Amazon [homepage](./amazon-sales-channel-home.md) bevat enkele algemene besturingselementen voor werkruimten, zoals Filters, Standaardweergave, Kolommen en Exporteren. Niet alle pagina&#39;s hebben dezelfde besturingsopties.
 
-![Voorbeelden van besturingselementen voor de Amazon-werkruimte](assets/amazon-workspace-controls.png)
+![Voorbeelden van besturingselementen voor de Amazon-werkruimte](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Handelingen
 
@@ -21,7 +21,7 @@ De _[!UICONTROL Actions]_biedt een lijst met acties die beschikbaar zijn voor ee
 
 Wanneer de kiezer bijvoorbeeld wordt weergegeven op het tabblad _[!UICONTROL Attributes]_pagina, bevat de_[!UICONTROL Re-import Product Attribute Values]_ handeling. Als u deze handeling kiest, wordt de bijbehorende [!DNL Amazon Seller Central] en vernieuwt de [!DNL Commerce] gegevens voor elk van de Amazon-winkelitems die in de linkerkolom worden gecontroleerd.
 
-![Voorbeeld van het menu Handelingen](assets/amazon-sales-channel-home-actions-option.png)
+![Voorbeeld van het menu Handelingen](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## Filters
 
@@ -37,11 +37,11 @@ In het volgende voorbeeld worden de instellingen getoond voor het filteren van d
 
 Wanneer u filteropties hebt ingesteld, klikt u op **[!UICONTROL Apply Filters]** om de vermelde gegevens te filteren. Klik op Annuleren om het besturingselement Filters af te sluiten zonder het toe te passen.
 
-![Voorbeeld van filterbesturing](assets/workspace-controls-filters.png)
+![Voorbeeld van filterbesturing](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
 Nadat u filters op uw gegevens toepast, **[!UICONTROL Active Filters]** de informatie wordt weergegeven. U kunt op de knop ![Filterpictogram wissen](assets/x-icon-clear-filters.png) pictogram om een specifieke filteroptie te wissen of klik op **[!UICONTROL Clear All]** om alle toegepaste filters te wissen.
 
-![Voorbeeld van actieve filters](assets/applied-filters-line.png)
+![Voorbeeld van actieve filters](assets/applied-filters-line.png){width="700"}
 
 ## Weergave
 
@@ -72,7 +72,7 @@ In het volgende voorbeeld ziet u een besturingselement Kolommen. De geselecteerd
 - Schakel het selectievakje in om een gegevenskolom aan de pagina toe te voegen.
 - Als u een gegevenskolom van de pagina wilt verwijderen, schakelt u het selectievakje niet in.
 
-![Kolommen, controlevoorbeeld](assets/workspace-controls-columns.png)
+![Kolommen, controlevoorbeeld](assets/workspace-controls-columns.png){width="400"}
 
 Wijzigingen in selectievakje worden direct weergegeven. Als u wijzigingen aanbrengt en de pagina afsluit, keert de pagina terug naar de standaardkolomweergave. Voor veranderingen die u regelmatig aanbrengt, kunt u de kolomveranderingen als douanemening in de controle van de Mening bewaren. Dan kunt u in de controle van de Mening van een knevel voorzien zonder het moeten kolommen toevoegen of manueel verwijderen.
 
@@ -89,4 +89,4 @@ Kies een optie voor de exportindeling als u uw gegevens wilt exporteren en klik 
 
 Het gegenereerde gegevensbestand wordt automatisch voor downloads opgeslagen naar de door u aangewezen map.
 
-![Exportcontrole](assets/workspace-controls-export.png)
+![Exportcontrole](assets/workspace-controls-export.png){width="250"}

@@ -1,15 +1,15 @@
 ---
-title: '''[!DNL Amazon Sales Channel] Opmerkingen bij de release'
+title: '''[!DNL Amazon Sales Channel] opmerkingen vrijgeven'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
-# Opmerkingen bij de release
+# [!DNL Amazon Sales Channel] releaseopmerkingen
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Amazon sales channe
 ![Probleem opgelost](../assets/fix.svg) Oplossingen en verbeteringen
 ![Bekend probleem](../assets/bug.svg) Bekende problemen
 
-Zie [Volgende releases](https://devdocs.magento.com/release/){target="_blank"} voor versioning, ondersteuning en compatibiliteit.
+Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versioning, ondersteuning en compatibiliteit.
 
 ## v4.4.4
 
@@ -116,13 +116,13 @@ Zie [Volgende releases](https://devdocs.magento.com/release/){target="_blank"} v
 
 Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Adobe Commerce bij te werken naar versie 2.4.0, wordt u gevraagd de extensie bij te werken voordat u de Adobe Commerce-update kunt voltooien.
 
-![Bekend probleem](../assets/bug.svg) Wanneer [!DNL Amazon sales channel] 4.2.0 is geïntegreerd met versie 2.4.0 en [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) is ingeschakeld, is er een bekend probleem dat het toevoegen van producten in uw handelscatalogus verhindert. Deze kwestie zal in een toekomstige mededeling van de Handel worden behandeld.
+![Bekend probleem](../assets/bug.svg) Wanneer [!DNL Amazon sales channel] 4.2.0 is geïntegreerd met versie 2.4.0 en [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) is ingeschakeld, is er een bekend probleem dat het toevoegen van producten in uw handelscatalogus verhindert. Deze kwestie zal in een toekomstige mededeling van de Handel worden behandeld.
 
 ![Nieuw](../assets/new.svg) [!DNL Amazon sales channel] is verbeterd voor het accepteren van op tekst gebaseerde adresgegevens en het aanpassen aan gestandaardiseerde adresnotaties, zoals plaats, provincie en postcode. Met deze update kunnen bestellingen en verzendgegevens zonder adresfouten worden gesynchroniseerd (gesynchroniseerd) met Amazon.<br/>Een winkelier voert bijvoorbeeld de plaats, de staat en de postcode in als `Escondido, californiA 92025-1501`. Amazon Sales Channel importeert en stemt overeen met de standaardnotatie `Escondido, CA 92025`en synchroniseert het vervolgens terug naar Amazon in deze gestandaardiseerde indeling.
 
 ![Nieuw](../assets/new.svg) Extra ondersteuning voor PHP 7.4.
 
-![Nieuw](../assets/new.svg) <!--CHAN-4334-->Extra ondersteuning voor Adobe Commerce 2.4.x. Eerdere versies zijn mogelijk compatibel met Commerce 2.4.x, maar worden niet ondersteund. Zie [Volgende releases](https://devdocs.magento.com/release/){:target=&quot;_blank&quot;} voor versiecompatibiliteit. Amazon Sales Channel moet worden bijgewerkt naar 4.2.0 voordat de Adobe Commerce 2.4.0-update kan worden voltooid.
+![Nieuw](../assets/new.svg) <!--CHAN-4334-->Extra ondersteuning voor Adobe Commerce 2.4.x. Eerdere versies zijn mogelijk compatibel met Commerce 2.4.x, maar worden niet ondersteund. Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versiecompatibiliteit. Amazon Sales Channel moet worden bijgewerkt naar 4.2.0 voordat de Adobe Commerce 2.4.0-update kan worden voltooid.
 
 ![Repareren](../assets/fix.svg) <!--CHAN-4431-->Correctie van een probleem dat een _Toegang geweigerd_ fout voor klanten in het Verenigd Koninkrijk.
 
@@ -210,7 +210,7 @@ Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Ado
 
 - [Productbelastingcode](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} informatie.
 
-![Nieuw](../assets/new.svg) **Verbeterde logboekregistratie**: <!--CHAN-3642, 3672-->Geïmplementeerd **Foutopsporingsregistratie inschakelen** functie om aanvullende synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is. Zie de [Sales Channel-instellingen](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) onderwerp in de Verwijzing van de Configuratie.
+![Nieuw](../assets/new.svg) **Verbeterde logboekregistratie**: <!--CHAN-3642, 3672-->Geïmplementeerd **Foutopsporingsregistratie inschakelen** functie om aanvullende synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is. Zie de [Sales Channel-instellingen](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) onderwerp in de Verwijzing van de Configuratie.
 
 ![Repareren](../assets/fix.svg) **Productcatalogus**: <!--CHAN-3687-->Correctie van een probleem dat ervoor zorgde dat afbeeldingen die met een Amazon-lijst zijn geïmporteerd, niet konden worden toegepast op het corresponderende product uit de handelscatalogus.
 

@@ -1,18 +1,18 @@
 ---
-title: Voorwaarden voor prijsregels
+title: Verkoopkanaal in Amazon - Prijsregelvoorwaarden
 description: Gebruik de prijsregelvoorwaarden om te bepalen welke producten in aanmerking komen voor de prijsregel voor aanbiedingen.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
-# Voorwaarden voor prijsregels
+# Prijsregelvoorwaarden
 
-De voorwaarden bepalen welke producten in aanmerking komen voor de prijsregel. Als u de voorwaarden voor uw prijsregels voor Amazon definieert, volgt u dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
+De voorwaarden bepalen welke producten in aanmerking komen voor de prijsregel. Als u de voorwaarden voor uw prijsregels voor Amazon definieert, volgt u dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,13 +24,13 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 
 Dit proces kan eenvoudig of gedetailleerd zijn, afhankelijk van uw catalogusconfiguratie. U kunt uw voorwaarden zodanig definiëren dat wanneer `ALL` of `ANY` van de voorwaarden: `TRUE` of `FALSE` voor een product komt het product in aanmerking voor toepassing van de prijsregel.
 
-Voorwaarden zijn gebaseerd op uw [productkenmerken](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Laat de sectie voor voorwaarden leeg als u de regel op alle producten wilt toepassen.
+Voorwaarden zijn gebaseerd op uw [productkenmerken](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Laat de sectie voor voorwaarden leeg als u de regel op alle producten wilt toepassen.
 
 >[!NOTE]
 >
->Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **Voorwaarden voor promotieregels gebruiken** for the attribute must be set to `Yes` in uw [Eigenschappen van Storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} voor het kenmerk.
+>Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, **Voorwaarden voor promotieregels gebruiken** for the attribute must be set to `Yes` in uw [Eigenschappen van Storefront](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) voor het kenmerk.
 
-![Prijsregelvoorwaarde - regel 1](assets/ob-price-rules-condition-1.png)
+![Prijsregelvoorwaarde - regel 1](assets/ob-price-rules-condition-1.png){width="600" zoomable="yes"}
 
 In dit voorbeeld wordt een regel gedefinieerd die een korting van 25% toepast op alle producten die in het dialoogvenster `Books` categorie.
 
@@ -48,13 +48,13 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
    **[!UICONTROL Conditions Combination]** - Maak een andere set `All/Any` en `True/False` in de bestaande voorwaarde.
 
-   ![Combinatie van prijsregelvoorwaarden](assets/ob-conditions-combinations.png)
+   ![Combinatie van prijsregelvoorwaarden](assets/ob-conditions-combinations.png){width="500"}
 
-   **[!UICONTROL Product Attribute]** - De beschikbare productkenmerken zijn afhankelijk van de [instellen van het kenmerk](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
+   **[!UICONTROL Product Attribute]** - De beschikbare productkenmerken zijn afhankelijk van de [instellen van het kenmerk](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). Voor een kenmerk dat in de lijst moet worden weergegeven, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in uw winkeleigenschappen.
 
    - Voor **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u wilt definiëren als basis voor de voorwaarde. In dit voorbeeld is de geselecteerde voorwaarde: `Category`.
 
-      ![Prijsregelvoorwaarde - regel 2, deel 2](assets/ob-price-rule-condition-2.png)
+      ![Prijsregelvoorwaarde - regel 2, deel 2](assets/ob-price-rule-condition-2.png){width="500"}
 
       De geselecteerde voorwaarde wordt weergegeven in de instructie, gevolgd door nog twee vette koppelingen. Welke opties beschikbaar zijn, is afhankelijk van het productkenmerk dat u selecteert.
 
@@ -68,11 +68,11 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
       Mogelijk wordt u gevraagd een optie te selecteren of een waarde voor de voorwaarde in te voeren. In dit voorbeeld wordt het veld leeg weergegeven. Als u de categorie(ën) voor de regel wilt selecteren, klikt u op het pictogram van de kiezer (![Pictogram Kiezer](assets/btn-chooser.png)) om de selectieopties weer te geven. Deze regel geldt voor _Boeken_, selecteert u de **[!UICONTROL Books]** selectievakje. Het categorienummer wordt gevuld. Als je rubriekselecties wilt accepteren, klik je op het groene vinkje (![Pictogram vinkje](assets/btn-check-mark-green.png)).
 
-      ![Prijsregelvoorwaarde - regel 2, deel 3](assets/ob-price-rule-condition-3.png)
+      ![Prijsregelvoorwaarde - regel 2, deel 3](assets/ob-price-rule-condition-3.png){width="500"}
 
       Het geselecteerde item wordt weergegeven in de instructie om de voorwaarde te voltooien.
 
-      ![Prijsregelvoorwaarde - regel 2, deel 4](assets/ob-price-rule-condition-4.png)
+      ![Prijsregelvoorwaarde - regel 2, deel 4](assets/ob-price-rule-condition-4.png){width="500"}
 
       Deze voorbeeldvoorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus met een gedefinieerde categorie Boeken (`4`) komt in aanmerking voor deze prijsregel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
 

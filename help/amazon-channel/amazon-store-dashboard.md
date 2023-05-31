@@ -1,15 +1,15 @@
 ---
-title: Amazon Store Dashboard
+title: Amazon-opslagdashboard
 description: Bekijk de activiteit voor je Amazon-winkels via Commerce Admin met behulp van het Amazon store dashboard.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Amazon Store Dashboard
+# Amazon-opslagdashboard
 
 In de _[!UICONTROL Amazon Stores]_op de homepage van het verkoopkanaal van Amazon kunt u klikken **[!UICONTROL View Store]**op een winkelkaart om het winkeldashboard te openen.
 
@@ -17,7 +17,7 @@ Het opslagdashboard is de primaire locatie waar u de activiteit voor elk van uw 
 
 U hebt ook toegang tot uw [opslaginstellingen](./ob-store-review.md), [je aanbiedingen beheren](./managing-product-listings.md)en verkoopgegevens en recente ordergegevens weergeven.
 
-![Amazon Store-dashboard](assets/amazon-store-dashboard.png)
+![Amazon Store-dashboard](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 De kopbal van het opslagdashboard toont de zelfde basisopslaginformatie die op de opslagkaart wordt getoond:
 

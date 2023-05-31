@@ -1,15 +1,15 @@
 ---
-title: Prijsstelling voor Buy Box-concurrent
+title: "[!DNL Buy Box] prijsstelling voor concurrenten voor aanbiedingen in Amazon"
 description: Amazon Sales Channel biedt de [!UICONTROL Buy Box Competitor Pricing] om u te helpen de prijsstelling van uw concurrenten op Amazon te begrijpen.
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] Prijzen voor concurrenten
+# [!DNL Buy Box] prijsstelling voor concurrenten voor Amazon-aanbiedingen
 
 De [!DNL Buy Box] wordt door Amazon toegekend aan de verkoper die het product gewoonlijk tegen de beste prijs heeft aangeboden, samen met andere factoren zoals de FBA/First Shipping, de beschikbaarheid en de prestaties van de verkoper.
 
@@ -17,9 +17,9 @@ De _[!UICONTROL Buy Box Competitor Pricing]_op het tabblad_[!UICONTROL Product L
 
 [Intelligente prijsstellingsregels](./intelligent-repricing-rules.md) kan worden gevormd om uw prijs aan te passen die op [!DNL Amazon Buy Box] prijs.
 
-![Gegevens over prijzen voor concurrenten Buy Box](assets/amazon-listing-details-buy-box.png)
+![Gegevens over prijzen voor concurrenten Buy Box](assets/amazon-listing-details-buy-box.png){width="600" zoomable="yes"}
 
-## Toegang [!DNL Buy Box] Prijsgegevens concurrent
+## Toegang [!DNL Buy Box] prijsgegevens concurrent
 
 1. Klikken **[!UICONTROL Manage Listings]** op het opslagdashboard.
 

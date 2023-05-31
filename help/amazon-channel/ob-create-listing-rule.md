@@ -1,15 +1,15 @@
 ---
-title: '"Aan boord: Aanbiedingsregel maken'''
+title: Een regel voor Amazon-aanbiedingen maken
 description: Wanneer je het Amazon-verkoopkanaal voor instapkaarten voltooit, moet je de regels voor eerste aanbiedingen maken voor het genereren van Amazon-aanbiedingen voor je [!DNL Commerce] producten.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Aan boord: Aanbiedingsregel maken
+# Een regel voor Amazon-aanbiedingen maken
 
 Lijstregels kunnen tijdens het instappen worden gedefinieerd, maar kunnen ook op elk moment worden gewijzigd. Na het instappen, kunt u tot [aanbiedingsregels](./listing-rules.md) in de winkel [dashboard](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ Lijstregels kunnen tijdens het instappen worden gedefinieerd, maar kunnen ook op
 
 1. Je aanbiedingen bekijken in de voorvertoning van de aanbieding:
 
-   ![Voorvertoning van aanbieding](assets/amazon-ob-listing-preview.png)
+   ![Voorvertoning van aanbieding](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** - Producten die op dit tabblad worden aangeboden, komen niet in aanmerking voor Amazon-aanbiedingen op basis van de huidige standaardinstellingen voor aanbiedingen.
 

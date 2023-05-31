@@ -1,16 +1,15 @@
 ---
-title: Lijstregels
+title: Verkoopkanaal van Amazon - [!UICONTROL Listing Rules]
 description: Met de aanbiedingsregels van het gebruik bepaalt u de catalogusproducten die als Amazon Marketplace-aanbiedingen worden gepubliceerd.
-redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# Lijstregels
+# [!UICONTROL Listing Rules]
 
 Je hebt toegang tot de aanbiedingsregels voor winkelobjecten in het dialoogvenster [opslagdashboard](./amazon-store-dashboard.md).
 
@@ -20,7 +19,7 @@ Je aanbiedingsregels worden voortdurend gesynchroniseerd met je [!DNL Commerce] 
 
 - Als je alle producten naar een Amazon-aanbieding wilt publiceren, moet je geen voorwaarden voor je aanbieding definiëren.
 
-- Als je wilt beperken welke catalogusproducten naar Amazon worden gepubliceerd, definieert je de regelvoorwaarden voor aanbiedingen. Als je de voorwaarden voor je Amazon-aanbiedingsregels definieert, volg je dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+- Als je wilt beperken welke catalogusproducten naar Amazon worden gepubliceerd, definieert je de regelvoorwaarden voor aanbiedingen. Als je de voorwaarden voor je Amazon-aanbiedingsregels definieert, volg je dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - Als een product volgens de aanbiedingsregels niet in aanmerking komt, verandert de status van dat product in `Ineligible`. Niet-subsidiabele producten worden niet gepubliceerd naar Amazon.
 
@@ -28,7 +27,7 @@ Je aanbiedingsregels worden voortdurend gesynchroniseerd met je [!DNL Commerce] 
 
 Wijzigingen in aantal en status van geschiktheid beïnvloeden alle aanbiedingen die de SKU van de verkoper van Amazon delen op markten die bestaan voor winkels die in dezelfde regio verkopen (zoals gedefinieerd in _[!UICONTROL Amazon Marketplace Country]_tijdens [winkelintegratie](./store-integration.md)). Een wijziging in een gedeelde [!DNL Amazon Seller SKU] in één regio heeft dit geen invloed op de Amazon-aanbiedingen van het product in een ander land.
 
-![Aanbiedingsregels](assets/ob-listing-rules.png)
+![Aanbiedingsregels](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## Instellingen voor aanbiedingsregels configureren
 
@@ -40,7 +39,7 @@ Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md).
 
 | Veld | Beschrijving |
 |---|---|
-| [!UICONTROL Websites] | Welke opties beschikbaar zijn, is afhankelijk van de [websites](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} u hebt in uw [!DNL Commerce] configuratie. Selecteer de website voor de in aanmerking komende producten die op Amazon worden vermeld. Er kan slechts één website worden geselecteerd, omdat voor elke website een unieke Amazon-winkel nodig is die in Amazon-verkoopkanalen is gemaakt. |
+| [!UICONTROL Websites] | Welke opties beschikbaar zijn, is afhankelijk van de [websites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) u hebt in uw [!DNL Commerce] configuratie. Selecteer de website voor de in aanmerking komende producten die op Amazon worden vermeld. Er kan slechts één website worden geselecteerd, omdat voor elke website een unieke Amazon-winkel nodig is die in Amazon-verkoopkanalen is gemaakt. |
 | [!UICONTROL Conditions] | Hiermee definieert u de [!DNL Commerce] -kenmerken voor producten die in uw Amazon-regio in aanmerking komen. Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md). |
 
 ## Functie Voorwaarden
@@ -50,7 +49,7 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 - Voeg geen voorwaarden toe als alle producten binnen de geselecteerde websites in aanmerking komen.
 - Er is een complexe reeks back-end processen om direct met Amazon-systemen te communiceren. Op basis van het aantal objecten dat je probeert aan te bieden en de manier waarop het druk is met Amazon-systemen (zoals &#39;Zwarte Vrijdag&#39;), kan het enige tijd duren voordat je objecten op Amazon worden aangeboden.
 
-Zie voor meer informatie over voorwaarden [Beschrijf de Voorwaarden](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+Zie voor meer informatie over voorwaarden [Beschrijf de Voorwaarden](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 ## Voorvertoning van aanbiedingsregel
 
@@ -90,7 +89,7 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 
    Als je aanbiedingen niet zoals verwacht worden weergegeven, klikt u op **[!UICONTROL Back]** en wijzig je regels en voorwaarden totdat je aanbiedingen aan je verwachtingen voldoen.
 
-![Voorvertoning van aanbiedingsregel](assets/amazon-listing-rule-preview.png)
+![Voorvertoning van aanbiedingsregel](assets/amazon-listing-rule-preview.png){width="600" zoomable="yes"}
 
 ### Records met aanbiedingsvoorvertoningen
 
@@ -98,11 +97,11 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 |--- |--- |
 | [!UICONTROL Product ID] | Het unieke, opeenvolgende nummer dat aan een [!DNL Commerce] catalogusproduct wanneer het wordt toegevoegd. |
 | [!UICONTROL Thumbnail] | Geeft een miniatuur van de hoofdafbeelding van het product weer. |
-| [!UICONTROL Name] | De naam van het product, beheerd in de [!DNL Commerce] [productraster](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
+| [!UICONTROL Name] | De naam van het product, beheerd in de [!DNL Commerce] [productraster](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |
 | [!UICONTROL Type] | Het type product, beheerd in de [!DNL Commerce] productraster. |
 | [!UICONTROL Attribute Set] | De naam van de kenmerkenreeks die als malplaatje voor het product wordt gebruikt, in wordt beheerd [!DNL Commerce] productraster. |
 | [!UICONTROL SKU] | De unieke voorraadbewaareenheid die aan het product wordt toegewezen, die in [!DNL Commerce] productraster. |
 | [!UICONTROL Visibility] | Geeft aan waar het product zichtbaar is en wordt beheerd in het dialoogvenster [!DNL Commerce] productraster. Opties:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
 | Status | Geeft de status van het product aan, beheerd in de [!DNL Commerce] productraster. Opties: `Enabled` / `Disabled` |
 
-![Workflow voor aanbiedingsvoorvertoningen](assets/listing-preview-flowchart.png)
+![Workflow voor aanbiedingsvoorvertoningen](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}

@@ -1,17 +1,17 @@
 ---
-title: Amazon-bestellingsgegevens
+title: Amazon-ordergegevens
 description: Bekijk details voor je Amazon Marketplace-bestellingen in Adobe Commerce of Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Amazon-bestellingsgegevens
+# Amazon-ordergegevens
 
-![Amazon-ordergegevens](assets/amazon-order-details-header.png)
+![Amazon-ordergegevens](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Amazon-ordergegevens weergeven
 
@@ -55,16 +55,16 @@ De _[!UICONTROL Order and Shipping Details]_bevat gedetailleerde ordergegevens, 
 >
 >Vergeet niet op **Volgorde opslaan** nadat u bewerkingen hebt uitgevoerd.
 
-![Bestelling en verzendgegevens](assets/amazon-order-details.png)
+![Bestelling en verzendgegevens](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Items bestellen, tabblad
 
 De _[!UICONTROL Order Items]_worden alle items weergegeven die aan de Amazon-order zijn gekoppeld, zoals deze van Amazon zijn ontvangen.
 
-![Itemdetails bestellen](assets/amazon-order-item-details.png)
+![Itemdetails bestellen](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Tabblad Tekstspatiëring
 
 De _[!UICONTROL Tracking]_wordt informatie over het bijhouden van de Amazon-volgorde weergegeven.
 
-![Trackinggegevens](assets/amazon-order-tracking-details.png)
+![Trackinggegevens](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

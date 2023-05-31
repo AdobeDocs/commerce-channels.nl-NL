@@ -2,9 +2,9 @@
 user-guide-title: Amazon Sales Channel Handboek
 user-guide-description: Verkoop genereren via Amazon door Adobe Commerce of Magento Open Source te integreren met uw [!DNL Amazon Seller Central] account.
 breadcrumb-title: Amazon-verkoopkanaal
-source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,11 @@ ht-degree: 0%
 
 # Verkoopkanaal van Amazon - [!DNL channel manager] voor Adobe Commerce {#amazon}
 
-- [Overzicht van hulplijnen](guide-overview.md)
+- [Amazon Sales Channel Handboek](guide-overview.md)
 - [Inleiding tot Amazon-verkoopkanaal](overview.md)
-- [Opmerkingen bij de release](release-notes.md)
 - Aan de slag {#getting-started}
-   - [Over Amazon-verkoopkanaal](about-amazon-sales-channel.md)
    - [Informatie over Amazon Marketplace](about-amazon-marketplace.md)
-   - [Over Amazon en je handelscatalogus](about-listings-and-catalog.md)
+   - [Amazon en de handelscatalogus](about-listings-and-catalog.md)
    - [Aanbevolen werkwijzen en beperkingen](amazon-best-practices.md)
    - [De extensie installeren](install.md)
 - Onboarding {#onboarding}
@@ -113,3 +111,4 @@ ht-degree: 0%
    - [Algemene taken voor het verwerken van orders](common-order-processing.md)
    - [Workflows voor afhandeling](fulfillment-workflows.md)
    - [Niet-verzonden bestellingen annuleren](cancel-unshipped-order.md)
+- [Opmerkingen bij de release](release-notes.md)

@@ -2,9 +2,9 @@
 title: Verzendkosten toewijzen
 description: '''Map attributes for matching [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart]."'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voer de volgende taken uit voordat u verzenddragers toewijst:
 
 1. Controleer de [De Methoden van de drager en de Verzending Beste praktijken voor On-Time Levering](https://sellerhelp.walmart.com/s/guide?article=000009473) for [!DNL Walmart Marketplace].
 
-1. Controleer de [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) en [[!UICONTROL Shipping Settings]](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html) configuratie in uw [!DNL Commerce] opslaan om ervoor te zorgen dat u de configuratie voor [!DNL Walmart Marketplace sales].
+1. Controleer de [[!UICONTROL Shipping Carrier]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html) en [[!UICONTROL Shipping Settings]](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/shipping-settings.html) configuratie in uw [!DNL Commerce] opslaan om ervoor te zorgen dat u de configuratie voor [!DNL Walmart Marketplace sales].
 
 ## Kaart met verzendende maatschappijen
 
@@ -30,7 +30,7 @@ Voer de volgende taken uit voordat u verzenddragers toewijst:
 
 1. Aan **[!UICONTROL Channel Settings]**, selecteert u **[!UICONTROL Shipping Carriers]**.
 
-   ![Kaart met verzendende maatschappijen](assets/map-shipping-carriers.png)
+   ![Kaart met verzendende maatschappijen](assets/map-shipping-carriers.png){width="600" zoomable="yes"}
 
 1. Voor elke [!DNL Walmart] voorkeursprovider vermeld, selecteert u de [!DNL Commerce] de naam van de vervoerder uit het vervolgkeuzemenu, indien de draagstof beschikbaar is.
 

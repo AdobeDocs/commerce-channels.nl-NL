@@ -1,16 +1,15 @@
 ---
-title: Algemene instellingen prijsregel
+title: Amazon-verkoopkanaal - Algemene instellingen prijsregel
 description: Met de algemene instellingen van de prijsregel definieert u de primaire kenmerken van een prijsregel voor aanbiedingen.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
 
-# Algemene instellingen prijsregel
+# Algemene instellingen voor prijsregel
 
 Definieer de naam, beschrijving, actieve datums en prioriteit voor de regel.
 
@@ -48,7 +47,7 @@ Definieer de naam, beschrijving, actieve datums en prioriteit voor de regel.
 >
 >Als u volgende regels wilt verwijderen, moet een prijsregel een definitie hebben **Prioriteit** waarde.
 
-![Algemene instellingen voor prijsregel](assets/amazon-pricing-rule-general.png)
+![Algemene instellingen voor prijsregel](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |---|---|

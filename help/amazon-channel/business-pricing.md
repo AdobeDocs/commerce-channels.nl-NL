@@ -1,18 +1,18 @@
 ---
-title: (B2B) Bedrijfsprijs
+title: "[!DNL (B2B) Business Price] voor Amazon-aanbiedingen"
 description: Je kunt je [!DNL Commerce] producten opslaan op de Amazon Business-site (B2B) door bedrijven in uw Amazon mogelijk te maken [!DNL Seller Central] account.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B) Bedrijfsprijs
+# [!DNL (B2B) Business Price] voor Amazon-aanbiedingen
 
-(B2B) Zakelijke prijsinstellingen maken deel uit van de aanbiedingsinstellingen van je winkel. Lijstinstellingen zijn toegankelijk via de [opslagdashboard](./amazon-store-dashboard.md).
+(B2B) Zakelijke prijsinstellingen maken deel uit van de aanbiedingsinstellingen van je winkel. Lijstinstellingen zijn toegankelijk via de [Amazon-opslagdashboard](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] is een markt die exclusief is voor geregistreerde zakelijke accounts van Amazon en alleen beschikbaar is in de Verenigde Staten, Frankrijk, Duitsland en het Verenigd Koninkrijk. Als de markt B2B-prijzen toestaat, is deze binnen je aanbiedingsinstellingen bewerkbaar.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Om uw producten op te nemen op [!DNL Amazon Business (B2B)] site: u moet eerst zaken inschakelen in uw [!DNL Amazon Seller Central] account. Voor meer informatie over de functie B2B raadpleegt u [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (vereist aanmelden bij Verkoper).
 
-## Bedrijfsprijsinstellingen configureren (B2B)
+## Configureren [!DNL (B2B) Business Price] instellingen
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
@@ -44,7 +44,7 @@ Om uw producten op te nemen op [!DNL Amazon Business (B2B)] site: u moet eerst z
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
-![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png)
+![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |

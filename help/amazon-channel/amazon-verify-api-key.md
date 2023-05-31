@@ -2,9 +2,9 @@
 title: De Amazon API-sleutel toevoegen of verifiëren
 description: Met de gevalideerde Amazon API-sleutel in uw configuratie voor handel kunt u uw winkels integreren met uw Amazon-verkopersaccount.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Als de Amazon API-sleutel ontbreekt, ongeldig of verlopen is, moet u de sleutel 
 
 De API-sleutel wordt telkens gevalideerd wanneer u uw Amazon-verkoopkanaal opent.
 
-1. Aanmelden bij [!DNL Commerce] Admin.
+1. Aanmelden bij de [!DNL Commerce] Admin.
 
 1. Op de _[!UICONTROL Admin]_zijbalk, ga naar **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
    Als u voor het eerst Amazon-verkoopkanaal opent of als uw API-sleutel moet worden bijgewerkt, wordt u door het proces gevraagd.
 
-   ![Vraag over Amazon API-sleutel ophalen en toevoegen](assets/amazon-api-verification-prompt.png)
+   ![Vraag over Amazon API-sleutel ophalen en toevoegen](assets/amazon-api-verification-prompt.png){width="500"}
 
 1. Klikken **[!UICONTROL Sign in]** om toegang te krijgen tot uw [!DNL Commerce] webaccount.
 
@@ -39,9 +39,9 @@ De API-sleutel wordt telkens gevalideerd wanneer u uw Amazon-verkoopkanaal opent
 
 1. Indien nodig kunt u API-sleutels weergeven en genereren op de _[!UICONTROL API Portal]_in uw [!DNL Commerce] account.
 
-   Als u een API-sleutel wilt maken, voert u een beschrijving in zoals `Amazon Sales Channel` en klik op **[!UICONTROL Add New]**. De nieuwe sleutel wordt geproduceerd en getoond met de naam u inging. Klikken **[!UICONTROL Copy]** om de nieuwe sleutel te kopiëren.
+   Als u een API-sleutel wilt maken, voert u een beschrijving in zoals `Amazon Sales Channel` en klik op **[!UICONTROL Add New]**. De nieuwe sleutel wordt geproduceerd en getoond met de naam die u inging. Klikken **[!UICONTROL Copy]** om de nieuwe sleutel te kopiëren.
 
-   ![Een API-sleutel genereren of kopiëren](assets/amazon-add-api-key.png)
+   ![Een API-sleutel genereren of kopiëren](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
 1. Als de nieuwe sleutel is gegenereerd en gekopieerd, gaat u terug naar de _[!UICONTROL Amazon Sales Channel]_in de browser.
 
@@ -53,11 +53,11 @@ De API-sleutel wordt telkens gevalideerd wanneer u uw Amazon-verkoopkanaal opent
 
 1. Klikken **[!UICONTROL Save Config]**. Je kunt nu terugkeren naar het verkoopkanaal van Amazon.
 
-   ![API-sleutel toevoegen in de configuratie van uw winkel](assets/config-magento-services-api-screen.png)
+   ![API-sleutel toevoegen in de configuratie van uw winkel](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
 1. Op de _[!UICONTROL Admin]_zijbalk, ga naar **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-   Toegang tot Amazon-triggers voor verkoopkanalen herstellen [!DNL Commerce] Controleer en valideer de API-sleutel en zorg dat u kunt doorgaan.
+   Amazon-triggers voor verkoopkanalen opnieuw openen [!DNL Commerce] Controleer en valideer de API-sleutel en zorg dat u kunt doorgaan.
 
    Als u wordt gevraagd om de sleutel opnieuw te verifiëren, herhaalt u dit _Toevoegen en verifiëren_ proces.
 

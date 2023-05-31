@@ -2,7 +2,7 @@
 title: Amazon-bestellingen weergeven
 description: Bekijk uw Amazon Marketplace-bestellingen in Adobe Commerce of Magento Open Source Admin.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_de mening voegt het filtreren opties voor ordeonderzoek
 
 U kunt uw meest recente bestellingen weergeven in het dialoogvenster _[!UICONTROL Recent Orders]_van de [opslagdashboard](./amazon-store-dashboard.md).
 
-![Recente bestellingen](assets/amazon-recent-orders-imported.png)
+![Recente bestellingen](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### Recente Amazon-bestellingen weergeven
 
@@ -54,7 +54,7 @@ U kunt al uw Amazon-bestellingen weergeven op de _[!UICONTROL Amazon orders]_pag
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon-orders](assets/amazon-orders-list-all.png)
+![Amazon-orders](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### Alle Amazon-bestellingen weergeven
 
@@ -72,7 +72,7 @@ U kunt al uw Amazon-bestellingen weergeven op de _[!UICONTROL Amazon orders]_pag
 
 U kunt filters toepassen op uw orderlijst in het dialoogvenster _[!UICONTROL Filter by]_sectie. Maak uw selecties en klik op **[!UICONTROL Apply filters]**. De toegepaste filters verschijnen boven het orderraster.
 
-![Filters voor het weergeven van Amazon-orders](assets/amazon-orders-filter-view.png)
+![Filters voor het weergeven van Amazon-orders](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Toegepaste filters wijzigen
 

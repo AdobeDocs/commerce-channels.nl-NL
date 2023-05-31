@@ -1,16 +1,16 @@
 ---
-title: Aanbiedingsvoorwaarde product
+title: Verkoopkanaal in Amazon - Voorwaarde voor aanbieding van producten
 description: Met de instellingen voor de aanbiedingsvoorwaarde voor producten kunt u de producten van de Handel toewijzen aan een Amazon-productvoorwaarde, zoals "Nieuw" of "Gereviseerd".
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Aanbiedingsvoorwaarde product
+# Voorwaarde voor aanbieding van producten
 
 De instellingen voor de aanbiedingsvoorwaarden van producten maken deel uit van de aanbiedingsinstellingen van je winkel. U kunt de aanbiedingsinstellingen openen op de knop [opslagdashboard](./amazon-store-dashboard.md).
 
@@ -57,7 +57,7 @@ Tijdens [Taken vooraf instellen](./amazon-pre-setup-tasks.md), wordt u aangerade
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
-![Voorwaarde voor aanbieding van producten](assets/amazon-product-listing-condition.png)
+![Voorwaarde voor aanbieding van producten](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |---|---|

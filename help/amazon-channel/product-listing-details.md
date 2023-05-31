@@ -1,15 +1,15 @@
 ---
-title: Aanbiedingsgegevens weergeven
+title: Objectgegevens van Amazon bekijken
 description: Bekijk de pagina Productaanbiedingsgegevens voor meer informatie over de concurrentiepositie van je Amazon-aanbiedingen en over afzonderlijke wijzigingen in SKU/product.
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# Aanbiedingsgegevens weergeven
+# Objectgegevens van Amazon bekijken
 
 De _[!UICONTROL Product Listing Details]_Deze pagina bevat aanvullende informatie over actieve productaanbiedingen, waaronder het activiteitenlogboek van de aanbieding waarin de wijzigingen op een afzonderlijke SKU/product worden weergegeven. Deze informatie kan u helpen concurrerende metriek op uw producten en op individuele SKU/productveranderingen begrijpen. Aanvullende informatie op deze pagina is onder meer:
 
@@ -28,7 +28,7 @@ De weergegeven productinformatie bevat:
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Aanbiedingsgegevens](assets/amazon-product-listing-details.png)
+![Aanbiedingsgegevens](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## Logbestand met aanbiedingsactiviteiten {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Alle recente activiteiten voor de Amazon-aanbieding worden weergegeven. De getoo
 - Opmerkingen: Verstrekt extra details met betrekking tot het type van lijstactie die voorkwam.
 - Uitgevoerd om: Identificeert de datum en de tijd de actie voorkwam.
 
-![Gegevens van productaanbiedingen - logboek van aanbiedingsactiviteiten](assets/amazon-listing-activity-log.png)
+![Gegevens van productaanbiedingen - logboek van aanbiedingsactiviteiten](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Buy Box concurrent {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ Op dit tabblad wordt informatie weergegeven over de Amazon-handelaar die de [[!D
 - Aanlandingsprijs: Hiermee wordt de aanbiedingsprijs plus de verzendprijs voor de aanbieding aangegeven.
 - Laatst bijgewerkt: Geeft de datum en tijd aan waarop de prijsinformatie van Amazon is bijgewerkt.
 
-![Productaanbiedingsgegevens: Buy Box concurrent](assets/amazon-listing-details-buy-box-2.png)
+![Productaanbiedingsgegevens: Buy Box concurrent](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Laagste prijsstelling voor concurrenten {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ Op dit tabblad wordt informatie weergegeven over Amazon-concurrenten voor dezelf
 - Aantal feedback: Hiermee wordt de Amazon-feedbacktelling aangegeven voor de laagste prijs.
 - Laatst bijgewerkt: Geeft de datum en tijd aan waarop de prijsinformatie van Amazon is bijgewerkt.
 
-![Gegevens over productlijsten - laagste prijsstelling voor concurrenten](assets/amazon-listing-details-lowest-comp.png)
+![Gegevens over productlijsten - laagste prijsstelling voor concurrenten](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

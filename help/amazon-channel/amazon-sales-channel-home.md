@@ -1,15 +1,15 @@
 ---
-title: Startpagina
+title: Homepage van Amazon-verkoopkanalen
 description: De Amazon-homepage van verkoopkanalen gebruiken in uw [!DNL Commerce] Beheerder heeft toegang tot uw [!DNL Amazon Marketplace] aanbiedingen en activiteiten.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# Startpagina
+# Homepage van Amazon-verkoopkanalen
 
 De Amazon-homepage van verkoopkanalen is uw bestemmingspagina wanneer u uw Amazon-verkoopkanaal opent.
 

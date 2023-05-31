@@ -2,9 +2,9 @@
 title: Aanbiedingen verbinden met Walmart
 description: 'Aanbiedingen verbinden voor [!DNL Commerce] producten naar [!DNL Walmart Marketplace]om te beginnen met verkopen.'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Alvorens producten aan te passen, verifieer dat uw de attributenwaarden van de p
 
 1. Van **[!UICONTROL Listings]**, selecteer de producten die overeenkomen met de producten in *[!UICONTROL Draft]* status.
 
-   ![Producten uit aanbiedingen selecteren en verzenden voor overeenkomst](assets/products-in-marketplace-sales-channel.png)
+   ![Producten uit aanbiedingen selecteren en verzenden voor overeenkomst](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
 1. Selecteren **[!UICONTROL Match Products]**.
 
@@ -115,9 +115,9 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
 - Controleer of de uitsnijdtaak wordt uitgevoerd om de exportbewerking te voltooien.
 
-   - Zie voor informatie op locatie [Uitsnede configureren en uitvoeren](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
+   - Zie voor informatie op locatie [Uitsnede configureren en uitvoeren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - Voor Adobe cloud-infrastructuur raadpleegt u [Uitsnijdtaken instellen](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
+   - Voor Adobe cloud-infrastructuur raadpleegt u [Uitsnijdtaken instellen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### Het te uploaden productgegevensbestand maken
 
@@ -125,11 +125,11 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
    - Selecteer op de pagina Items in productcatalogus de optie **[!UICONTROL Add Items]**. Selecteer vervolgens **[!UICONTROL Add items in bulk]**.
 
-      ![Voeg punten in bulkoptie toe optie in de het puntconfiguratie van de Marketplace van de Markeren](assets/walmart-seller-account-add-items-bulk.png)
+      ![Voeg punten in bulkoptie toe optie in de het puntconfiguratie van de Marketplace van de Markeren](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - Selecteer op de downloadpagina de optie **[!UICONTROL Full Setup]**. Selecteer vervolgens een objectcategorie en download de rubrieksjabloon.
 
-      ![Categoriesjabloonoptie downloaden in de configuratie van items in de Marketplace-indeling van het programma](assets/walmart-seller-account-full-setup-download.png)
+      ![Categoriesjabloonoptie downloaden in de configuratie van items in de Marketplace-indeling van het programma](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - Controleer of de sjabloon de vereiste en aanbevolen kenmerken voor de productaanbieding bevat.
 
@@ -140,15 +140,14 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
    - Op de [!UICONTROL Export] pagina in de [!UICONTROL Entity Type] veld, selecteren [!UICONTROL **Producten**].
 
    - In de [!UICONTROL Entity Attributes] de lijst, vormt de selectiecriteria voor de uitvoer van productgegevens.
-   ![De productgegevenspagina exporteren in het dialoogvenster [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt. (Zie [Gegevens exporteren](https://docs.magento.com/user-guide/system/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
+      Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt. (Zie [Gegevens exporteren](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
 
-   Als u een kenmerk wilt weglaten uit het exportbestand, selecteert u de optie [!UICONTROL **Uitsluiten**] Schakel het selectievakje aan het begin van de rij in.
+      Als u een kenmerk wilt weglaten uit het exportbestand, selecteert u de optie [!UICONTROL **Uitsluiten**] Schakel het selectievakje aan het begin van de rij in.
 
 1. Naar het einde van de tabel met kenmerken bladeren en [!UICONTROL **Doorgaan**] om de gegevensexport te starten.
 
-   Het CSV-exportbestand wordt verwerkt via een wachtrij met snijtaken en opgeslagen in de `var/export/folder`. (Zie [Berichtenrijen beheren](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) in de *Handleiding voor ontwikkelaars van handel*.)
+   Het CSV-exportbestand wordt verwerkt via een wachtrij met snijtaken en opgeslagen in de `var/export/folder`. (Zie [Berichtenrijen beheren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in de *Configuratiegids*.)
 
 1. Open het malplaatje van Excel voor de het productcategorie van de Marketplace van de Markt van de Markt, en gebruik de macromogelijkheden van Excel om de uitgevoerde productgegevens in het malplaatje van Excel samen te voegen.
 

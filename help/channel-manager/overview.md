@@ -4,9 +4,9 @@ description: '''Meer informatie over installeren en gebruiken [!DNL Channel Mana
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] helpt handelaren hun verkoop te verhogen, nieuwe klanten te bereiken, verkooptransacties te stroomlijnen en tijd te besparen door een Adobe Commerce- of Magento Open Source-productcatalogus te integreren met de [!DNL Walmart Marketplace].
 
-![[!DNL Channel Manager] extensiebeheerweergave](assets/channel-manager-home.png)
+![[!DNL Channel Manager] extensiebeheerweergave](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 [!DNL Channel Manager] biedt ondersteuning voor Adobe Commerce- of Magento Open Source-handelaren die willen doorverkopen [!DNL Walmart Marketplace] door de [!DNL Commerce] Admin. Met [!DNL Channel Manager] geïnstalleerd, opslagbeheerders en operationele medewerkers kunnen beheren [!DNL Walmart Marketplace] de verkoop, de inventaris, en de productprijzen naadloos van de omgeving van de Handel.
 
@@ -36,7 +36,7 @@ Nadat u hebt geïnstalleerd en geconfigureerd [!DNL Channel Manager], kunt u de 
 
 * **Annuleringen**—Wanneer orders in Adobe Commerce worden geannuleerd, [!DNL Channel Manager] verzendt bijgewerkte orderinformatie naar de markt om de actie voor de overeenkomstige marktplaatsorde te herhalen. Nadat de orderannulering is voltooid, worden de [!DNL Commerce] voorraadkwantiteitsupdates voor geretourneerde objecten en voorraadupdates worden automatisch gesynchroniseerd naar [!DNL Walmart Marketplace].
 
-* **Retourneert en terugbetaalt**—Wanneer Walmart Marketplace om een rendement voor voorwerpen verzoekt die door Adobe Commerce of Magento Open Source verkoopkanaal worden bevolen [!DNL Channel Manager] verzendt de informatie van het terugkeerverzoek naar de de verkoopkanaalopslag van de Handel om het terugkeerverzoek te herhalen. Vervolgens kan de restitutie worden verwerkt met behulp van de [!DNL Commerce] [terugbetalingsworkflow](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow), offlinemethode. Nadat de restitutie is voltooid, [!DNL Channel Manager] synchroniseert de update met Walmart zodat de status van de geretourneerde waarde op de verkopersaccount kan worden bijgewerkt met de terugbetaling.
+* **Retourneert en terugbetaalt**—Wanneer Walmart Marketplace om een rendement voor voorwerpen verzoekt die door Adobe Commerce of Magento Open Source verkoopkanaal worden bevolen [!DNL Channel Manager] verzendt de informatie van het terugkeerverzoek naar de de verkoopkanaalopslag van de Handel om het terugkeerverzoek te herhalen. Vervolgens kan de restitutie worden verwerkt met behulp van de [!DNL Commerce] [terugbetalingsworkflow](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html#refund-workflow), offlinemethode. Nadat de restitutie is voltooid, [!DNL Channel Manager] synchroniseert de update met Walmart zodat de status van de geretourneerde waarde op de verkopersaccount kan worden bijgewerkt met de terugbetaling.
 
 ## Verwachte vertraging voor [!DNL Channel Manager] bewerkingen
 

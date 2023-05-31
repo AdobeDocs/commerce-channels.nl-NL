@@ -2,9 +2,9 @@
 title: Terugbetalings- en terugbetalingsopdrachten
 description: Instructies voor de afgifte van volledige of gedeeltelijke terugbetalingen voor terugkeerverzoeken die zijn ontvangen van [!DNL Walmart Marketplace] van [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Aan de kant van de Handel, stelt het terugkeerverzoek het volgende werkschema in
 
 1. De Manager van het kanaal leidt tot een overeenkomstig terugkeerverzoek met een ontvangen status en voegt het aantal van terugkeeridentiteitskaart toe ([!UICONTROL RMA #]) aan de [!UICONTROL Returns] dashboard. Op de [!DNL Orders] dashboard, de statusdetails voor de orde verbonden aan de terugkeerupdates om a te omvatten [!UICONTROL Return requested] koppeling gebruiken om de return weer te geven en te verwerken.
 
-1. Handelaren verwerken de aan de return gekoppelde terugbetaling door een creditcard te maken na de [Adobe Commerce-workflow voor restitutie](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Alle restituties worden verwerkt gebruikend de off-line methode.
+1. Handelaren verwerken de aan de return gekoppelde terugbetaling door een creditcard te maken na de [Adobe Commerce-workflow voor restitutie](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). Alle restituties worden verwerkt gebruikend de off-line methode.
 
 1. [!DNL Channel Manager] stuurt een terugbetalingsupdate naar Walmart Marketplace zodat de retourstatus kan worden bijgewerkt met de voltooide terugbetaling van Adobe Commerce.
 
 In opslagbeheerder, kunt u terugkeren van de Manager van het Kanaal bekijken en verwerken door de opslag van het verkoopkanaal te openen en te selecteren **[!UICONTROL Returns]**.
 
-![De Manager van het kanaal keert dashboard terug om terugbetalingen te verwerken die van terugkeerverzoeken worden ontvangen van [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![De Manager van het kanaal keert dashboard terug om terugbetalingen te verwerken die van terugkeerverzoeken worden ontvangen van [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ De volgende scenario&#39;s beschrijven hoe te om terugbetalingen voor verschille
 
    * Van de [!UICONTROL Status Details] kolom, selecteren **[!UICONTROL Create credit memo]** om de pagina met gegevens over de volgorde te openen in [!DNL Commerce].
 
-      Als de volgorde niet is gefactureerd, wordt op de pagina Bestelling-details een foutbericht weergegeven waarin u wordt gevraagd een bestelling te maken. Selecteren **[!UICONTROL Create invoice]**. Vervolgens [de factuur maken en opslaan](https://docs.magento.com/user-guide/sales/invoices.html).
+      Als de volgorde niet is gefactureerd, wordt op de pagina Bestelling-details een foutbericht weergegeven waarin u wordt gevraagd een bestelling te maken. Selecteren **[!UICONTROL Create invoice]**. Vervolgens [de factuur maken en opslaan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Selecteer op de pagina Order detail **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ U kunt informatie over retourverzoeken en terugbetalingsverwerking bekijken via 
 
 1. Terugbetalingsgegevens voor een retourzending bekijken door op **[!UICONTROL View credit memo]**.
 
-   ![Creditnota voor terugbetaalde objecten voor een [!DNL Walmart Marketplace] bestellen](assets/refund-credit-memo-for-marketplace-order.png)
+   ![Creditnota voor terugbetaalde objecten voor een [!DNL Walmart Marketplace] bestellen](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

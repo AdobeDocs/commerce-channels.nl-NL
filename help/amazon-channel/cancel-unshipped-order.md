@@ -1,15 +1,15 @@
 ---
-title: Een niet-verzonden bestelling annuleren
+title: Een niet-verzonden Amazon-bestelling annuleren
 description: Een lopende of gedeeltelijk verzonden (niet-verzonden) bestelling via je Amazon annuleren [!DNL Seller Central] account.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Een niet-verzonden bestelling annuleren
+# Een niet-verzonden Amazon-bestelling annuleren
 
 Amazon-orders kunnen alleen worden geannuleerd als ze zich in een `Unshipped` status. Als de bestelling in behandeling is of gedeeltelijk wordt verzonden (niet verzonden), kan de bestelling alleen via uw [!DNL Amazon Seller Central] account. Als het object is verzonden, moeten geretourneerde en uitgewisselde gegevens ook in uw [!DNL Amazon Seller Central] Account.
 
@@ -17,7 +17,7 @@ Amazon-orders kunnen alleen worden geannuleerd als ze zich in een `Unshipped` st
 >
 >Voor andere taken dan het annuleren van een bestelling:
 >
->- Als u [orderimport](./order-settings.md) ingeschakeld, worden bestellingen beheerd in het dialoogvenster [[!DNL Commerce] orderwerkstroom](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- Als u [orderimport](./order-settings.md) ingeschakeld, worden bestellingen beheerd in het dialoogvenster [[!DNL Commerce] orderwerkstroom](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- Indien [orderimport](./order-settings.md) is uitgeschakeld, moet u uw bestellingen beheren in [!DNL Amazon Seller Central].
 
 

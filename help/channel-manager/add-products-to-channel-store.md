@@ -2,7 +2,7 @@
 title: Producten toevoegen aan Channel Manager
 description: 'Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten van de catalogus aan het verkoopkanaal toe te voegen dat in de Manager van het Kanaal wordt gevormd.'
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,13 +41,13 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
 1. Selecteer in een online verkoopkanaalwinkel de optie **Producten toevoegen** om de productcatalogus te openen.
 
-   ![Producten toevoegen aan verkoopkanaalwinkel](assets/add-initial-products-to-connected-channel.png)
+   ![Producten toevoegen aan verkoopkanaalwinkel](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    De catalogus wordt op een nieuw tabblad geopend.
 
 1. Selecteer in het productraster van de catalogus de producten waarop u wilt verkopen [!DNL Walmart Marketplace].
 
-   ![Producten naar de winkel van het verkoopkanaal verzenden](assets/select-products-from-catalog.png)
+   ![Producten naar de winkel van het verkoopkanaal verzenden](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. De optie **[!UICONTROL Connect to Channel Manager]** voor de geselecteerde items.
 
@@ -61,9 +61,9 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
       Er wordt een bevestigingsbericht weergegeven.
 
-      ![Bevestigingsbericht voor het importeren van producten uit catalogus naar verkoopkanaal](assets/product-import-from-catalog-confirmation.png)
+      ![Bevestigingsbericht voor het importeren van producten uit catalogus naar verkoopkanaal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Als het bericht aangeeft dat de update is gepland, gebruikt u de [wachtrij:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] gebruiken om de update onmiddellijk te verwerken.
+      Als het bericht aangeeft dat de update is gepland, gebruikt u de [wachtrij:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] gebruiken om de update onmiddellijk te verwerken.
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
 1. Werk de mening bij om de nieuwe producten te tonen die aan de Manager van het Kanaal worden toegevoegd door te selecteren **[!UICONTROL Draft]** statuskaart.
 
-   ![Producten geïmporteerd naar verbonden verkoopkanaal](assets/products-in-marketplace-sales-channel.png)
+   ![Producten geïmporteerd naar verbonden verkoopkanaal](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

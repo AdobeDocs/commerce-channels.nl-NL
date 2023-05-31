@@ -2,7 +2,7 @@
 title: Volledige kanaalinstelling
 description: "Na het creëren van het verkoopkanaal dat een [!DNL Commerce] Winkelweergave naar [!DNL Walmart Marketplace], opent u het kanaal en voltooit u de kanaalconfiguratie. Start vervolgens het proces om producten toe te voegen, aanbiedingen, voorraad, prijzen en bestellingen te beheren vanuit [!DNL Channel Manager]."
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Nadat u een [!DNL Commerce] opslaan naar [!DNL Walmart Marketplace], volledige i
 
 1. Selecteer **[!UICONTROL Marketing** > **Kanaalbeheer**].
 
-   ![Kanaalbeheerwinkels beheren](assets/channel-manager-setup-first-store.png)
+   ![Kanaalbeheerwinkels beheren](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 1. Open de winkel met verkoopkanalen door het oogpictogram voor de winkel te selecteren.
 

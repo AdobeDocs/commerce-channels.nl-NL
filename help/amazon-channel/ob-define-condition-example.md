@@ -1,10 +1,10 @@
 ---
-title: 'Voorbeeld: Een voorwaarde definiëren'
+title: 'Voorbeeld: Voorwaarde voor Amazon-aanbiedingsregels definiëren'
 description: Wanneer je regels voor aanbiedingen maakt, moet je voorwaarden definiëren voor het identificeren van de catalogusproducten die op de Amazon Marketplace moeten worden aangeboden.
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 >
 >Er is een complexe reeks back-end processen om direct met Amazon-systemen te communiceren. Op basis van het aantal objecten dat je probeert aan te bieden en de manier waarop het druk is met Amazon-systemen (zoals &#39;Zwarte Vrijdag&#39;), kan het enige tijd duren voordat je objecten op Amazon worden aangeboden.
 
-Zie de sectie Voorwaarden van [Een regel voor een startprijs maken](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target="_blank"}.
+Zie de sectie Voorwaarden van [Een regel voor een startprijs maken](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html).
 
 ## Een voorwaarde definiëren
 
@@ -31,9 +31,9 @@ Voorwaarden zijn gebaseerd op bestaande productkenmerkwaarden. Laat de sectie vo
 
 >[!NOTE]
 >
->Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, plaats **[!UICONTROL Use for Promo Rule Conditions]** instellen voor het kenmerk op `Yes`. U kunt deze instelling openen op het tabblad [Eigenschappen van Storefront](https://docs.magento.com/user-guide/catalog/product-attributes-add.html){target="_blank"} pagina voor het kenmerk.
+>Als u een voorwaarde wilt bepalen die op een specifiek productattribuut wordt gebaseerd, plaats **[!UICONTROL Use for Promo Rule Conditions]** instellen voor het kenmerk op `Yes`. U kunt deze instelling openen op het tabblad [Eigenschappen van Storefront](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes-add.html) pagina voor het kenmerk.
 
-![Voorwaarde - regel 1](assets/ob-listing-rule-conditions-start.png)
+![Voorwaarde - regel 1](assets/ob-listing-rule-conditions-start.png){width="500"}
 
 De regel in dit voorbeeld definieert een regel die stelt dat Amazon in aanmerking komt voor alle catalogusproducten die de _Amazon FBA_ kenmerk ingesteld op `Yes`.
 
@@ -51,13 +51,13 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
    - **[!UICONTROL Conditions Combination]** - Kies deze optie om een andere set `All/Any` en `True/False` voorwaarden binnen de bestaande set.
 
-      ![Combinatie van voorwaarden](assets/ob-conditions-combinations.png)
+      ![Combinatie van voorwaarden](assets/ob-conditions-combinations.png){width="500"}
 
-   - **[!UICONTROL Product Attribute]** - De productkenmerken zijn afhankelijk van de instelling van het kenmerk. Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Zie de _Voorwaarden voor promotieregels gebruiken_ in [Productkenmerken](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+   - **[!UICONTROL Product Attribute]** - De productkenmerken zijn afhankelijk van de instelling van het kenmerk. Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Zie de _Voorwaarden voor promotieregels gebruiken_ in [Productkenmerken](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
       In de lijst onder **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u als basis voor de voorwaarde wilt gebruiken. In dit voorbeeld is de geselecteerde voorwaarde: `Amazon FBA`.
 
-      ![Voorwaardelijke regel 2, deel 2](assets/ob-condition-attribute-dropdown.png)
+      ![Voorwaardelijke regel 2, deel 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
       De geselecteerde voorwaarde wordt weergegeven in de instructie, gevolgd door nog twee vette koppelingen. Welke opties beschikbaar zijn, is afhankelijk van het productkenmerk dat u selecteert.
 
@@ -73,7 +73,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
          Het geselecteerde item wordt weergegeven in de instructie om de voorwaarde te voltooien.
 
-         ![Voorwaardelijke regel 2, deel 3](assets/ob-listing-rule-condition-is.png)
+         ![Voorwaardelijke regel 2, deel 3](assets/ob-listing-rule-condition-is.png){width="500"}
    Deze voorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus waarvan het Amazon FBA-kenmerk is ingesteld op een waarde van `Yes` komt in aanmerking voor aanbieding aan Amazon voor de regio en winkel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
 
 1. Als u nog een voorwaardelijn aan de instructie wilt toevoegen, gaat u terug naar stap 1 en herhaalt u het proces totdat alle gewenste voorwaarden zijn voltooid.

@@ -2,7 +2,7 @@
 title: '"Intelligente prijsregel: Regeltype selecteren'
 description: Bepaal de prijs van je Amazon-aanbieding op basis van de prijs van een concurrent door een intelligente prijsregel te maken.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Definieer het regeltype in het dialoogvenster _[!UICONTROL Select Rule Type]_sec
 >
 >U kunt deze prijsstellings- en feedbackopties van concurrenten gebruiken om te voorkomen dat uw prijzen worden gebaseerd op een concurrent die weinig feedback heeft en een product van lagere kwaliteit verkoopt.
 
-![Intelligente prijsregel - selecteer regeltype](assets/ob-intelligent-price-rule-type.png)
+![Intelligente prijsregel - selecteer regeltype](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |

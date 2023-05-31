@@ -2,7 +2,7 @@
 title: 'Bestellingen weergeven en beheren vanuit [!DNL Channel Manager]'
 description: '''Weergeven en beheren [!DNL Walmart Marketplace] bestellingen met [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Op de [!DNL Commerce] Als de synchronisatie succesvol is, worden de volgende act
 
 In de opslagbeheerder kunt u ordegegevens weergeven vanuit [!DNL Channel Manager] door de winkel met verkoopkanalen te openen en **[!UICONTROL Orders]**.
 
-![Weergave voor bestellingen kanaalbeheer die moet worden beheerd [!DNL Walmart Marketplace] orders](assets/orders-dashboard-view.png)
+![Weergave voor bestellingen kanaalbeheer die moet worden beheerd [!DNL Walmart Marketplace] orders](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Nadat een bestelling van de markt is ontvangen en in uw verkoopkanaalwinkel is g
 
 Van **[!UICONTROL Orders]**, selecteert u de **[!UICONTROL Commerce Order Number]** om de [!DNL Commerce] orderdetails.
 
-![Gedetailleerde weergave voor handelsorders voor een [!DNL Walmart Marketplace] bestellen](assets/order-detail-with-external-order-id.png)
+![Gedetailleerde weergave voor handelsorders voor een [!DNL Walmart Marketplace] bestellen](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 In de winkel Commerce worden bestellingen geïmporteerd uit [!DNL Walmart Marketplace] de volgende aanvullende informatie in de ordergegevens hebben opgenomen:
 
@@ -172,6 +172,6 @@ In de winkel Commerce worden bestellingen geïmporteerd uit [!DNL Walmart Market
 
 - **Geordende objecten**—Deze sectie maakt een lijst van de ordepunten op alle orden van de Handel. De [!UICONTROL Qty] bevat de statushistorie voor orderitems. Als een bestelling bijvoorbeeld is gefactureerd, verzonden en terugbetaald, kunt u de statusovergangen zien.
 
-   ![Status historie van geordende items voor ordergegevens [!DNL Walmart Marketplace] orders](assets/order-detail-status-history.png)
+   ![Status historie van geordende items voor ordergegevens [!DNL Walmart Marketplace] orders](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Je kunt de gegevens van de objectfactuur en de restitutie bekijken door de [!UICONTROL Invoice] en [!UICONTROL Credit Memo] in het navigatiemenu. U kunt het creditmemo ook rechtstreeks openen vanuit de [[!UICONTROL Returns]](return-refund-orders.md) dashboard in uw verkoopkanaalwinkel.

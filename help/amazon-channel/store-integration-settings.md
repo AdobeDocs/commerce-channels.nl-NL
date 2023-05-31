@@ -1,15 +1,15 @@
 ---
-title: Instellingen voor winkelintegratie
+title: Verkoopkanaal van Amazon - [!UICONTROL Store Integration Settings]
 description: Nadat u het Amazon-verkoopkanaal voor instaptoegang hebt voltooid, kunt u de instellingen voor de integratie van de winkel bekijken en configureren via de [!UICONTROL Amazon Store] dashboard
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Instellingen voor winkelintegratie
+# [!UICONTROL Store Integration Settings]
 
 Na het integreren van uw opslag, herzie en vorm de montages van de opslagintegratie door [!UICONTROL Amazon Store] dashboard. Deze instellingen worden weergegeven voor *Inactief* en *Actief* winkels. Hier kunt u de naam van uw Amazon-winkel en het e-mailadres wijzigen dat u tijdens de integratie in de winkel hebt gekoppeld.
 
@@ -33,4 +33,4 @@ Na het integreren van uw opslag, herzie en vorm de montages van de opslagintegra
 >
 >De _[!UICONTROL Amazon Marketplace Country]_instellen tijdens [winkelintegratie](./store-integration.md) kan niet worden bijgewerkt. Als u de landinstelling wilt bewerken, moet u de winkel verwijderen (onder_[!UICONTROL Action]_ op de winkelkaart) en een winkel voor het andere land toevoegen.
 
-![Integratie-instellingen opslaan](assets/amazon-store-settings.png)
+![Integratie-instellingen opslaan](assets/amazon-store-settings.png){width="600" zoomable="yes"}

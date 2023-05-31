@@ -2,9 +2,9 @@
 title: Kenmerken van catalogus toewijzen
 description: '''Map attributes for matching [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart]."'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Deze stap is vereist voor [!DNL Commerce] producten naar bestaande [!DNL Walmart
 | ISSN | Internationaal serienummer | Serienummer van 8 cijfers dat wordt gebruikt voor de identificatie van tijdschriften, tijdschriften, dagbladen en tijdschriften van alle soorten die worden geleverd op alle gedrukte en elektronische media | 8 cijfers |
 | UPC | Universele productcode | Standaardcode voor bijhouden van detailhandel | 12 cijfers |
 
-Als uw catalogus geen overeenkomend kenmerk heeft, [Een bestaand cataloguskenmerk toevoegen of omzetten](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Als uw catalogus geen overeenkomend kenmerk heeft, [Een bestaand cataloguskenmerk toevoegen of omzetten](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## Unieke id&#39;s toewijzen
 
@@ -38,6 +38,6 @@ Als uw catalogus geen overeenkomend kenmerk heeft, [Een bestaand cataloguskenmer
 
       In het volgende voorbeeld worden de [!UICONTROL Walmart Marketplace UPC] aan het attribuut UPC in de productcatalogus.
 
-      ![Kenmerken toewijzen voor productcriteria](assets/products-map-attributes-for-match.png)
+      ![Kenmerken toewijzen voor productcriteria](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Selecteren **[!UICONTROL Save]**.

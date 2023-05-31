@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] Vereisten'
 description: '"Controleer of u de vereiste [!DNL Walmart Marketplace]informatie en bronnen die met Channel Manager moeten worden geïntegreerd.'''
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Wanneer je producten verbindt met de markt, hangt de beschikbaarheid van aanbied
 
 * Voor winkels die niet live zijn, worden uw productaanbiedingen gefaseerd en niet zichtbaar voor klanten. Wanneer de [!DNL Walmart Marketplace] Winkel gaat live, gefaseerde aanbiedingen worden automatisch naar de live winkel gestuurd.
 
-![[!DNL Walmart Seller Central] gefaseerde producten](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] gefaseerde producten](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

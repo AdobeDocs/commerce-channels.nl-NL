@@ -1,17 +1,17 @@
 ---
-title: Opslagintegratie
+title: Integratie met een [!DNL Amazon Seller Account]
 description: Voordat u het instapproces start, moet u een Amazon Sales Channel-winkel maken (toevoegen) en deze koppelen aan uw Amazon-verkopersaccount.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Opslagintegratie
+# Integratie met een [!DNL Amazon Seller Account]
 
-Als je aan de slag wilt met Amazon-verkoopkanalen, moet je een Amazon-winkel voor verkoopkanalen maken (toevoegen) en deze koppelen aan je Amazon-verkopersaccount. Deze twee stappen integreren uw [!DNL Commerce] en Amazon-accounts kunnen gegevens delen, producten synchroniseren en nog veel meer.
+Als u aan de slag wilt met Amazon-verkoopkanalen, moet u een Amazon-winkel voor verkoopkanalen maken (toevoegen) en deze koppelen aan uw [!DNL Amazon Seller Account]. Deze twee stappen integreren uw [!DNL Commerce] en Amazon-accounts kunnen gegevens delen, producten synchroniseren en nog veel meer.
 
 _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -account (het e-mailadres of telefoonnummer waarmee de verkopersaccount wordt aangemaakt) om verbinding te maken met je winkel._
 
@@ -29,7 +29,7 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
    De _[!UICONTROL Add Amazon sales channel]_pagina wordt geopend.
 
-   ![De Amazon-winkel voor verkoopkanalen toevoegen](assets/amazon-store-integration.png)
+   ![De Amazon-winkel voor verkoopkanalen toevoegen](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. Voor **[!UICONTROL Magento Website to use for Amazon Listing]**, kiest u welke van uw [!DNL Commerce] websites om verbinding te maken voor deze Amazon-winkel voor verkoopkanalen.
 
@@ -84,7 +84,7 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
    Als u het opslagdashboard wilt weergeven, klikt u op **[!UICONTROL View Store]** op de winkelkaart.
 
-![Amazon verkoopkanaal naar huis met nieuwe winkelkaart](assets/asc-dashboard-after-2fa.png)
+![Amazon verkoopkanaal naar huis met nieuwe winkelkaart](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 Je nieuwe Amazon-winkel voor verkoopkanalen is nu verbonden met je [!DNL Amazon Seller Central] account.
 

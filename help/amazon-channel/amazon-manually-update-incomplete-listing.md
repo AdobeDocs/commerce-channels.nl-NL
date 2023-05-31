@@ -1,10 +1,10 @@
 ---
-title: Vereiste gegevens bijwerken (onvolledige aanbieding)
+title: Vereiste gegevens voor Amazon bijwerken
 description: Amazon-verkoopkanaal bevat het tabblad Onvolledig voor het controleren van producten in de handelscatalogus waarvoor Amazon vereiste informatie ontbreekt.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Aanbiedingen weergegeven op de _[!UICONTROL Incomplete]_tab bevat uw [!DNL Comme
 
 De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens bijgewerkt en gepubliceerd naar Amazon op basis van je instellingen voor uitsnijden en aanbieden. Het wordt ook verwijderd uit de _[!UICONTROL Incomplete]_tab.
 
-![ASIN handmatig toewijzen voor geen overeenkomend item](assets/amazon-listing-update-assign-asin.png)
+![ASIN handmatig toewijzen voor geen overeenkomend item](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Vereiste gegevens bijwerken (meerdere overeenkomsten gevonden) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
 1. Klik op **[!UICONTROL Save Listing Update]**.
 
-![Handmatig ASIN selecteren uit meerdere mogelijke overeenkomsten](assets/amazon-listing-update-multiple-matches.png)
+![Handmatig ASIN selecteren uit meerdere mogelijke overeenkomsten](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## Vereiste gegevens bijwerken (heeft varianten) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
 1. Klik op **[!UICONTROL Save Listing Update]**.
 
-![Handmatig ASIN selecteren uit mogelijke overeenkomende varianten](assets/amazon-listing-update-multiple-matches.png)
-
 ## Vereiste gegevens bijwerken (voorwaarde ontbreekt) {#update-required-info-missing-condition}
 
 1. De aanbiedingen weergeven op de _[!UICONTROL Incomplete]_tab in [Aanbiedingen beheren](./managing-product-listings.md).
@@ -79,4 +77,4 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
 1. Klik op **[!UICONTROL Save Listing Update]** .
 
-![Ontbrekende voorwaarde handmatig bijwerken](assets/amazon-update-listing-missing-condition.png)
+![Ontbrekende voorwaarde handmatig bijwerken](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

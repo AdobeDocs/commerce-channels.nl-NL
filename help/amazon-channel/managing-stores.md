@@ -1,19 +1,19 @@
 ---
-title: Weergave Amazon-winkels
+title: "[!UICONTROL Amazon Stores] bekijken"
 description: Ga naar de weergave Amazon-winkels om snel de basisstatistieken van al uw Amazon-winkels en toegangsbeheeropties te bekijken.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Weergave Amazon-winkels
+# [!UICONTROL Amazon Stores] weergave
 
 Wanneer u de Amazon-homepage van het verkoopkanaal weergeeft, kunt u _Amazon-winkels_ wordt standaard geopend.
 
-![Weergave Amazon-winkels](assets/amazon-sales-channel-home-tabs.png)
+![Weergave Amazon-winkels](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 De _[!UICONTROL Amazon Stores]_in deze weergave ziet u een &quot;winkelkaart&quot; voor elk van uw Amazon-winkels, samen met enkele basisstatistieken en beheeropties. De samenvattingsgegevens die op elke kaart worden weergegeven, omvatten elke winkelstatus, gemaakte datum, laatst bijgewerkte datum, aanbiedingen die aandacht behoeven (voorbeeld: Onvolledige aanbiedingen) en toegewezen [!DNL Commerce] website.
 

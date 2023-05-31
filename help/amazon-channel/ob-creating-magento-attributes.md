@@ -1,17 +1,17 @@
 ---
-title: Maken [!DNL Commerce] Attributen voor Amazon
+title: Handelskenmerken maken voor Amazon
 description: Voordat u het Amazon-verkoopkanaal voor instapkaarten voltooit, moet u controleren of u over de vereiste [!UICONTROL Commerce] productkenmerken.
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Maken [!DNL Commerce] Attributen voor Amazon
+# Handelskenmerken maken voor Amazon
 
-Voordat u uw [!DNL Amazon Seller Central] accounts, kunt u het beste [!DNL Commerce] [productkenmerken](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} om je productaanbiedingen toe te wijzen. Nadat u het instapproces hebt voltooid, kunt u de productkenmerken beheren via de [Attributen](./managing-attributes.md) tabblad van het dialoogvenster [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina.
+Voordat u uw [!DNL Amazon Seller Central] accounts, kunt u het beste [!DNL Commerce] [productkenmerken](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) om je productaanbiedingen toe te wijzen. Nadat u het instapproces hebt voltooid, kunt u de productkenmerken beheren via de [Attributen](./managing-attributes.md) tabblad van het dialoogvenster [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina.
 
 In deze instructies wordt gedetailleerd beschreven hoe u kunt maken [!DNL Commerce] kenmerken voor Amazon ASIN en Amazon Condition. Het wordt aanbevolen aanvullende kenmerken te maken, zoals Amazon EAN, Amazon ISBN en Amazon UPC. Je kunt ook een Amazon Price-kenmerk maken als je de prijs van je Amazon-aanbieding wilt gebruiken als prijsbron voor prijsregels. Deze kenmerken worden gebruikt bij het configureren van de instellingen voor aanbiedingen en prijzen tijdens het instappen. Gebruik deze kenmerken ook bij het maken van Amazon-aanbiedingen en bij het bijwerken en synchroniseren van je [!DNL Commerce] catalogus met je Amazon-aanbiedingen.
 
@@ -59,7 +59,7 @@ Als u alleen het Amazon ASIN-kenmerk maakt (zonder ASIN-waarden per product toe 
 
 1. Klikken **[!UICONTROL Save Attribute]**.
 
-![Amazon ASIN, kenmerk](assets/creating-asin-attribute.png)
+![Amazon ASIN, kenmerk](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## Het productkenmerk Amazon Condition maken
 
@@ -116,6 +116,6 @@ Als u alleen het Amazon ASIN-kenmerk maakt (zonder ASIN-waarden per product toe 
 
 1. Klikken **[!UICONTROL Save Attribute]**.
 
-![Amazon Condition, kenmerk](assets/creating-amazon-condition-attribute.png)
+![Amazon Condition, kenmerk](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![Volgende pictogram](assets/btn-next.png) [**API-sleutel toevoegen of verifiëren**](./amazon-verify-api-key.md)

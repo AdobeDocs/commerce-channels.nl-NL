@@ -1,15 +1,15 @@
 ---
-title: Productaanbiedingen beheren via actie
+title: Aanbiedingen voor Amazon-producten beheren op Handeling
 description: Terwijl je je Amazon-aanbiedingen beheert, kun je een actie op afzonderlijke of meerdere aanbiedingen toepassen.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Productaanbiedingen beheren via actie
+# Aanbiedingen voor Amazon-producten beheren op Handeling
 
 De _[!UICONTROL Product Listings]_Deze pagina bevat verschillende tabbladen waarmee je de status van al je aanbiedingen kunt bekijken en je producten kunt afstemmen op aanbiedingen op Amazon.
 

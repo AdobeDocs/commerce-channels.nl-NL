@@ -1,19 +1,19 @@
 ---
-title: Prijsbereik
+title: Verkoopkanaal in Amazon - Prijsbereik
 description: Gebruik het prijsbereik van de Handel om prijzen volgens veelvoudige websites of globaal te beheren.
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
 # Prijsbereik
 
-[!DNL Commerce] verstrekt configuratie voor uw [prijsbereik](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} to be set to `Global` or `Website`. If pricing is set to `Global`, there is a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} in de kerngids voor de gebruiker van de Handel.
+[!DNL Commerce] verstrekt configuratie voor uw [prijsbereik](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) in te stellen op `Global` of `Website`. Als de prijsstelling is ingesteld op `Global`Er is echter één prijsbron voor alle websites. Als de prijsstelling is ingesteld op `Website`, kunnen uw websites hun prijzen variëren en hebben ook een terugvalstandaard prijswaarde (zie [Prijsbereik](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)).
 
-Als u het prijsbereik van de catalogus wijzigt van `Global` tot `Website`, veranderen ook alle kenmerken van het prijstype in `Website`. Zie [Websites toevoegen](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"}.
+Als u het prijsbereik van de catalogus wijzigt van `Global` tot `Website`, veranderen ook alle kenmerken van het prijstype in `Website`. Zie [Websites toevoegen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 
 Wanneer een websiteprijs wordt gekozen, zijn er twee prijsbronnen:
 

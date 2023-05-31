@@ -1,21 +1,21 @@
 ---
-title: Laagste concurrerende Prijs
+title: Verkoopkanaal van Amazon - [!UICONTROL Lowest Competitor Pricing]
 description: De [!UICONTROL Amazon Sales Channel] verstrekt [!UICONTROL Lowest Competitor Pricing] om u te helpen de prijsstelling van uw concurrenten op Amazon te begrijpen.
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# Laagste concurrerende Prijs
+# [!UICONTROL Lowest Competitor Pricing]
 
 De _[!UICONTROL Lowest Competitor Pricing]_op het tabblad_[!UICONTROL Product Listing Details]_ op de pagina wordt de laagste aanlandingsprijs vermeld, maar deze wordt uitgesplitst in de verzendprijs en de aanbiedingsprijs. Deze informatie kan worden gebruikt om de prijsstelling van uw concurrenten op Amazon te begrijpen.
 
 [Intelligente prijsstellingsregels](./intelligent-repricing-rules.md) kan worden geconfigureerd om uw prijzen aan te passen op basis van de prijzen van de concurrent.
 
-![Laagste prijsstelling voor concurrenten](assets/amazon-listing-details-lowest-comp.png)
+![Laagste prijsstelling voor concurrenten](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
 
 ## Toegang tot de laagste prijsgegevens van concurrenten
 

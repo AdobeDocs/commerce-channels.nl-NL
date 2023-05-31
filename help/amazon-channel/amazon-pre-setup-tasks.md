@@ -1,15 +1,15 @@
 ---
-title: Taken vooraf instellen
+title: Taken vooraf instellen voor [!DNL Amazon sales channel]
 description: Controleer de vereiste taken die moeten worden voltooid voordat u uw Adobe Commerce- of Magento Open Source-winkel in Amazon Sales Channel integreert.
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
 
-# Taken vooraf instellen
+# Taken vooraf instellen voor [!DNL Amazon sales channel]
 
 Voor [Opslagintegratie](./store-integration.md)moet u ervoor zorgen dat uw [!DNL Amazon Seller Central] account en uw [!DNL Commerce] -account is klaar voor integratie. Voor een geslaagde integratie zijn er enkele vereiste voorbereidingstaken nodig.
 
@@ -17,11 +17,11 @@ Wanneer u uw eerste Amazon-winkel instelt in Amazon-verkoopkanaal, wordt een lij
 
 ## 1. Achtergrondtaken inschakelen in [!DNL Commerce]
 
-Alle producten en gegevens gesynchroniseerd tussen [!DNL Commerce] en Amazon wordt beheerd door een [snijtaak](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. Wanneer u alle taken hebt voltooid, zoals het toevoegen of bijwerken van aanbiedingen en het ontvangen van bestellingen, verzendt en ontvangt een uitsnijdtaak gegevens tussen uw [!DNL Commerce] en uw [!DNL Amazon Seller Central] account.
+Alle producten en gegevens gesynchroniseerd tussen [!DNL Commerce] en Amazon wordt beheerd door een [snijtaak](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). Wanneer u alle taken hebt voltooid, zoals het toevoegen of bijwerken van aanbiedingen en het ontvangen van bestellingen, verzendt en ontvangt een uitsnijdtaak gegevens tussen uw [!DNL Commerce] en uw [!DNL Amazon Seller Central] account.
 
-- [Inschakelen [!DNL Commerce] kraan](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
+- [Inschakelen [!DNL Commerce] kraan](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html).
 
-- Voor maximale prestaties [set [!DNL Commerce] kraan](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} om de vijf minuten te draaien.
+- Voor maximale prestaties [set [!DNL Commerce] kraan](https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html) om de vijf minuten te draaien.
 
 ## 2. Maak uw [!DNL Amazon Seller Central] account
 
@@ -57,7 +57,7 @@ Het hoogste aantal [!DNL Commerce] producten komen automatisch overeen met Amazo
 
 ## 6. Uw valuta en conversie configureren (indien nodig)
 
-Als je Amazon-winkel een andere valuta gebruikt dan voor jouw configuratie [!DNL Commerce] opslaan, [de munt](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
+Als je Amazon-winkel een andere valuta gebruikt dan voor jouw configuratie [!DNL Commerce] opslaan, [de munt](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) en stelt de [valutakoers](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html).
 
 ## 7. Een kenmerk voor de productvoorwaarde maken (indien nodig)
 
@@ -65,7 +65,7 @@ Als je Amazon-aanbiedingen meer dan één productvoorwaarde bevatten, zoals _new
 
 ## 8. Configureer uw [!DNL Amazon Seller Central] verzendmethode
 
-Als u verzendmethoden wilt instellen om aan uw Amazon-bestellingen te voldoen, raadpleegt u [Instellingen en verzendinstellingen][10] in uw [!DNL Amazon Seller Central] account.
+Als u verzendmethoden wilt instellen om aan uw Amazon-bestellingen te voldoen, raadpleegt u _Instellingen en verzendinstellingen_ in uw [!DNL Amazon Seller Central] account.
 
 ## Aanvullende configuraties
 
@@ -73,10 +73,10 @@ Als je Amazon-account is ingesteld en geactiveerd, zijn er verschillende [!DNL C
 
 ### Bekijk en noteer alle producten die u wilt uitsluiten
 
-Mogelijk wilt u niet dat bepaalde producten op Amazon worden vermeld. Het verkoopkanaal van Amazon heeft een regelengine voor aanbiedingen die wordt gebruikt om te bepalen welke producten in aanmerking komen voor publicatie naar Amazon. [Aanbiedingsregels](./listing-rules.md) u toestaan om ondergroepen van producten te selecteren die (of niet gepubliceerd) aan uw [!DNL Amazon Seller Central] -account, bijvoorbeeld op categorie of door een of meer productkenmerken te definiëren. leuk [!DNL Commerce] [catalogus](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+Mogelijk wilt u niet dat bepaalde producten op Amazon worden vermeld. Het verkoopkanaal van Amazon heeft een regelengine voor aanbiedingen die wordt gebruikt om te bepalen welke producten in aanmerking komen voor publicatie naar Amazon. [Aanbiedingsregels](./listing-rules.md) u toestaan om ondergroepen van producten te selecteren die (of niet gepubliceerd) aan uw [!DNL Amazon Seller Central] -account, bijvoorbeeld op categorie of door een of meer productkenmerken te definiëren. leuk [!DNL Commerce] [catalogus](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) of [winkelwagentje](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) prijsregels, productkenmerken die worden gebruikt om in aanmerking te komen voor Amazon-aanbiedingen, moeten **[!UICONTROL Use for Promo Rule Conditions]** instellen op `Yes`. Zie de **[!UICONTROL Use for Promo Rule Conditions]** in [Productkenmerken](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ### Stel uw [!DNL Amazon Seller Central] regio naar inactief
 
-Als u de overgang van foutloze gegevens tijdens de integratie wilt vergemakkelijken, kunt u het beste de Amazon-regio instellen op `Inactive` status in Instellingen > Accountinformatie > Vakantie-instellingen. Zie [Amazon: Aanbiedingsstatus voor vakanties][11]. Wanneer de installatie is voltooid, wijzigt u de status weer in `Active` in Amazon.
+Als u de overgang van foutloze gegevens tijdens de integratie wilt vergemakkelijken, kunt u het beste de Amazon-regio instellen op `Inactive` status in Instellingen > Accountinformatie > Vakantie-instellingen. Wanneer de installatie is voltooid, wijzigt u de status weer in `Active` in Amazon.
 
 ![Volgende pictogram](assets/btn-next.png) [**Doorgaan met maken [!DNL Commerce] Attributen**](./ob-creating-magento-attributes.md)

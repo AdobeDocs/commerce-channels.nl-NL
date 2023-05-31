@@ -1,15 +1,15 @@
 ---
-title: Onvolledige aanbiedingen
+title: Onvolledige Amazon-aanbiedingen
 description: Amazon-verkoopkanaal biedt [!UICONTROL Incomplete] om je te helpen bepalen welke objecten in aanmerking komen voor je onvolledige Amazon-aanbiedingen en om aan deze voorwaarden te voldoen.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Onvolledige aanbiedingen
+# Onvolledige Amazon-aanbiedingen
 
 De _[!UICONTROL Incomplete]_wordt weergegeven [!DNL Commerce] catalogusproducten die voldoen aan uw Amazon-vereisten (gedefinieerd in uw [aanbiedingsregels](./listing-rules.md)), maar ontbreekt de door Amazon vereiste informatie (zoals de Amazon ASIN of een bepaalde productvoorwaarde).
 
@@ -41,7 +41,7 @@ Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 >
 >Als je aanbiedingen in behandeling hebt, verschijnt het aantal aanbiedingen in een bericht boven de tabbladen.
 
-![Onvolledige Amazon-aanbiedingen](assets/amazon-incomplete-listings.png)
+![Onvolledige Amazon-aanbiedingen](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

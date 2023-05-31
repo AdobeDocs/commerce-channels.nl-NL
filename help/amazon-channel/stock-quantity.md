@@ -1,16 +1,15 @@
 ---
-title: Voorraad/Aantal
+title: Verkoopkanaal van Amazon - [!UICONTROL Stock/Quantity]
 description: De synchronisatie van de gegevens over de hoeveelheid producten van je winkel voor Koophandel met je [!DNL Amazon Seller Central] de voorraad/hoeveelheid-instellingen bijwerken.
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Voorraad/Aantal
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* Deze instellingen maken deel uit van de aanbiedingsinstellingen van je winkel. Lijstinstellingen zijn toegankelijk via de [opslagdashboard](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ Hoeveelheid is een regionaal kenmerk en is gebaseerd op de **[!UICONTROL Amazon 
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
-![Instellingen voor voorraad/aantal](assets/amazon-stock-quantity.png)
+![Instellingen voor voorraad/aantal](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |---|---|
@@ -67,10 +66,10 @@ Wanneer een object wordt verkocht, wordt het door de Amazon-aanbieding opnieuw o
 
 Als u bijvoorbeeld *[!UICONTROL Maximum Listed Quantity]* als `12`In de Amazon-aanbieding wordt een hoeveelheid van 12 getoond, ook al heeft het product een [!DNL Commerce] hoeveelheid van 80:
 
-![Maximum aantal in de lijst, voorbeeld 1](assets/amazon-max-listed-quantity.png)
+![Maximum aantal in de lijst, voorbeeld 1](assets/amazon-max-listed-quantity.png){width="300"}
 
 Als u uw *[!UICONTROL Maximum Listed Quantity]* als `1`alle in aanmerking komende producten worden vermeld met een hoeveelheid `1`. Wanneer een object wordt verkocht, zoekt het systeem naar je [!DNL Commerce] -product en als er nog meer voorraad is, wordt het object op Amazon opnieuw aangeboden met een hoeveelheid `1`.
 
 Deze optie kan nuttig zijn voor producten die doorgaans met een hoeveelheid van 1 worden geordend. Het verhoogt ook de urgentie voor de verkoper bij het bekijken van je Amazon-aanbieding.
 
-![Voorbeeld van maximaal aangeboden hoeveelheid 2](assets/amazon-max-listed-quantity-1.png)
+![Voorbeeld van maximaal aangeboden hoeveelheid 2](assets/amazon-max-listed-quantity-1.png){width="300"}

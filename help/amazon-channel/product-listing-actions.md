@@ -1,11 +1,11 @@
 ---
-title: Handelingen voor productaanbiedingen
+title: Verkoopkanaal in Amazon - Handelingen voor productaanbiedingen
 description: Met de instellingen voor acties voor het aanbieden van producten kunt u bepalen hoe de handelscatalogus reageert op Amazon.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Met deze instellingen wordt gedefinieerd hoe uw catalogus reageert op Amazon. De
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
-![Handelingen voor productaanbiedingen](assets/amazon-product-listing-actions.png)
+![Handelingen voor productaanbiedingen](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |

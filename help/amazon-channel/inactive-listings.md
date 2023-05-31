@@ -1,15 +1,15 @@
 ---
-title: Niet-actieve aanbiedingen
+title: Inactieve Amazon-aanbiedingen
 description: Amazon-verkoopkanaal biedt [!UICONTROL Inactive] tab om uw huidige inactieve systeem te controleren [!DNL Amazon Marketplace] aanbiedingen.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# Niet-actieve aanbiedingen
+# Inactieve Amazon-aanbiedingen
 
 De _[!UICONTROL Inactive]_toont de producten die naar Amazon zijn gepubliceerd, maar die niet actief zijn op het tabblad [!DNL Amazon Marketplace]. Je aanbiedingen kunnen om verschillende redenen inactief zijn. U komt bijvoorbeeld mogelijk niet in aanmerking om dat specifieke merk aan te bieden. Niet-actieve aanbiedingen worden bepaald door de aanbiedingsnormen van Amazon en je [!DNL Amazon Seller Central] accountmachtigingen.
 
@@ -37,7 +37,7 @@ Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 >
 >Als je aanbiedingen in behandeling hebt, verschijnt er een bericht boven de tabbladen waarin het aantal aanbiedingen wordt aangegeven.
 
-![Inactieve Amazon-aanbiedingen](assets/amazon-inactive-listings.png)
+![Inactieve Amazon-aanbiedingen](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

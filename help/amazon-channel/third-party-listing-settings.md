@@ -1,16 +1,16 @@
 ---
-title: Aanbiedingen van derden
+title: Verkoopkanaal van Amazon - [!UICONTROL Third-party Listings]
 description: Werk de aanbiedingsinstellingen van derden bij om te bepalen of in de handelscatalogus producten uit je bestaande Amazon Seller Central-aanbiedingen worden geïmporteerd.
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
-# Aanbiedingen van derden
+# [!UICONTROL Third-party Listings]
 
 De instellingen voor aanbiedingen van derden maken deel uit van de aanbiedingsinstellingen van je winkel. Lijstinstellingen zijn toegankelijk via de [opslagdashboard](./amazon-store-dashboard.md).
 
@@ -32,7 +32,7 @@ De eerste aanbieding wordt geïmporteerd wanneer [winkelintegratie](./store-inte
 
    - `Import Listing` - (Standaard) Kies wanneer je productinformatie uit je Amazon-aanbiedingen wilt importeren in je [!DNL Commerce] productcatalogus. Dit is de standaardoptie en wordt aanbevolen.
 
-   - `Do Not Import Listing` - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.
+   - `Do Not Import Listing` - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.
    >[!NOTE]
    >De volgende optievelden zijn alleen actief wanneer deze zijn ingesteld op `Import Listing`.
 
@@ -45,11 +45,11 @@ De eerste aanbieding wordt geïmporteerd wanneer [winkelintegratie](./store-inte
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
-![Aanbiedingen van derden](assets/amazon-third-party-listings.png)
+![Aanbiedingen van derden](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | Vereist. Opties:<ul><li>**[!UICONTROL Import Listing]** - (Standaard) Kies wanneer je productinformatie uit je Amazon-aanbiedingen wilt importeren in je [!DNL Commerce] productcatalogus. </li><li>**[!UICONTROL Do Not Import Listing]** - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.</li></ul> |
+| [!UICONTROL Import Third Party Listings] | Vereist. Opties:<ul><li>**[!UICONTROL Import Listing]** - (Standaard) Kies wanneer je productinformatie uit je Amazon-aanbiedingen wilt importeren in je [!DNL Commerce] productcatalogus. </li><li>**[!UICONTROL Do Not Import Listing]** - Kies wanneer u handmatig wilt [nieuwe producten maken en toewijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) aan uw [!DNL Commerce] catalogus voor je Amazon-aanbiedingen.</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | Alleen actief wanneer ingesteld op `Import Listing`.<br>Kies de optie [!DNL Commerce] -kenmerk als een overeenkomst met het Amazon-kenmerk voor de SKU van de Amazon-verkoper. Als dit kenmerk niet bestaat, raadpleegt u [Amazon-productkenmerken voor Amazon Matching maken](./ob-creating-magento-attributes.md). Controleer indien nodig uw [!DNL Commerce] [attributes](./managing-attributes.md) en maak of bewerk een kenmerk dat aansluit bij deze Amazon-gegevens. |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | Alleen actief wanneer ingesteld op `Import Listing`.<br>Kies de optie [!DNL Commerce] kenmerk dat overeenkomt met het Amazon-kenmerk voor de Amazon ASIN. Als dit kenmerk niet bestaat, raadpleegt u [Amazon-productkenmerken voor Amazon Matching maken](./ob-creating-magento-attributes.md). Controleer indien nodig uw [!DNL Commerce] [attributes](./managing-attributes.md) en maak of bewerk een kenmerk dat aansluit bij deze Amazon-gegevens. |
 

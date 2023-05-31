@@ -1,15 +1,15 @@
 ---
-title: Afgelopen aanbiedingen
+title: Afgelopen Amazon-aanbiedingen
 description: Amazon Sales Channel biedt het tabblad Beëindigd om afgelopen Amazon Marketplace-aanbiedingen te bekijken. Deze kun je desgewenst opnieuw publiceren.
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# Afgelopen aanbiedingen
+# Afgelopen Amazon-aanbiedingen
 
 De _[!UICONTROL Ended]_worden alle Amazon-producten weergegeven die handmatig zijn beëindigd (verwijderd) uit uw [!DNL Amazon Seller Central] account. Deze producten voldoen aan alle aanbiedingsvereisten en kunnen op elk moment opnieuw worden gepubliceerd en vereisen geen aanvullende informatie. Als een product in de_[!UICONTROL Ineligible]_ kunt u desgewenst uw [aanbiedingsinstellingen](./listing-settings.md) zodat je product voldoet aan de voorwaarden voor aanbieding.
 
@@ -33,7 +33,7 @@ Voor afgelopen aanbiedingen raadpleegt u [Een Amazon-aanbieding beëindigen](./e
 
 Zie voor publicatieaanbiedingen [Een Amazon-aanbieding handmatig publiceren](./publish-listings-manually.md).
 
-![Afgelopen Amazon-aanbiedingen](assets/amazon-ended-listings.png)
+![Afgelopen Amazon-aanbiedingen](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

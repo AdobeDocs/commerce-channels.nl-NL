@@ -4,9 +4,9 @@ description: '''Sluit uw instantie aan op de [!DNL Channel Manager] de dienst do
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Nadat u het proces van de Manager van het Kanaal op het instappen voltooit, kunt u tot de verkoopverrichtingen van het kanaal van de Marketplace van de Markt toegang hebben, vormen en beheren van Adobe Commerce. Kanaalbeheer is beschikbaar via de [!UICONTROL Channel Manager] de optie [!UICONTROL Commerce Admin Marketing] -menu.
 
-![[!DNL Channel Manager] optie in de beheerweergave](assets/channel-manager-admin-view.png)
+![[!DNL Channel Manager] optie in de beheerweergave](assets/channel-manager-admin-view.png){width="500"}
 
 ## Vereisten
 
@@ -24,17 +24,17 @@ Controleer de vereisten voor het gebruik van Channel Manager en verzamel de vere
 
 - **[Vereisten voor de Marketplace van Walmart](walmart-requirements.md)**-Verifieer dat u aan vereisten om met de Manager van het Kanaal met inbegrip van te integreren voldoet [Je verkopersaccount instellen](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) en het genereren van de API-sleutel om integratie mogelijk te maken.
 
-- **Informatie over handelsrekeningen**-Downloaden en installeren [!DNL Channel Manager] vereist een [Handelsrekening](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. U hebt een account-id en gebruikersgegevens nodig met de toegang tot de [!DNL Adobe Commerce] of [!DNL Magento Open Source] -instantie.
+- **Informatie over handelsrekeningen**-Downloaden en installeren [!DNL Channel Manager] vereist een [Handelsrekening](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html). U hebt een account-id en gebruikersgegevens nodig met de toegang tot de [!DNL Adobe Commerce] of [!DNL Magento Open Source] -instantie.
 
    - **ID MAGE**-[Aanmelden](https://account.magento.com/customer/account/login/) aan de [!DNL Commerce] account om de id op te halen van **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] op [!DNL Commerce] accountinstellingen](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] op [!DNL Commerce] accountinstellingen](assets/mageid-my-commerce-account.png){width="250"}
 
    - **Toegangstoetsen-** Verificatietoetsen downloaden [!DNL Commerce] uitbreidingen van de [!DNL Commerce] Composer-opslagplaats `([!DNL repo.magento.com]`).
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
+      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      Bij Adobe Commerce- en Magento Open Source-projecten kan de eigenaar [Gedeelde toegang](https://docs.magento.com/user-guide/magento/magento-account-share.html) om vertrouwde werknemers en serviceproviders toe te staan extensies te downloaden met hun aanmeldingsgegevens van de Eigenaar of de account van de Licentiehouder.
+      Bij Adobe Commerce- en Magento Open Source-projecten kan de eigenaar [Gedeelde toegang](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) om vertrouwde werknemers en serviceproviders toe te staan extensies te downloaden met hun aanmeldingsgegevens van de Eigenaar of de account van de Licentiehouder.
 
       Voor [!DNL Adobe Commerce] in het geval van cloudinfrastructuurprojecten moeten softwareinstallateurs de volgende toegang hebben tot de [!DNL Commerce] instantie:
 
@@ -42,10 +42,10 @@ Controleer de vereisten voor het gebruik van Channel Manager en verzamel de vere
       - Beheerders krijgen toegang tot een specifieke omgeving
       - een [!DNL Adobe Commerce] account met toegangsrechten tot de Composer-opslagplaats
 
-      Zie [Gebruikerstoegang beheren](https://devdocs.magento.com/cloud/project/user-admin.html).
+      Zie [Gebruikerstoegang beheren](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) in de *Handel in de infrastructuurgids voor de cloud*.
 
 
-- **Ervaring met Composer en de[!DNL Commerce CLI]**-Zie [Algemene installatie van CLI](https://devdocs.magento.com/extensions/install/){target="_blank"} voor informatie over het gebruik van deze gereedschappen om extensies te installeren en te beheren op [!DNL Adobe Commerce] of [!DNL Magento Open Source] platforms.
+- **Ervaring met Composer en de[!DNL Commerce CLI]**-Zie [Een extensie installeren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in de *Installatiehandleiding* voor informatie over het gebruik van deze gereedschappen om extensies te installeren en te beheren op [!DNL Adobe Commerce] of [!DNL Magento Open Source] platforms.
 
 - **[[!DNL Amazon Sales Channel] versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)**-Als u hebt geactiveerd [!DNL Amazon Sales Channel] voor uw [!DNL Commerce] sites, controleer of uw [!DNL Commerce] platform heeft versie 4.4.2 of hoger geïnstalleerd voordat u de installatie uitvoert [!DNL Channel Manager].
 
@@ -53,15 +53,15 @@ Controleer de vereisten voor het gebruik van Channel Manager en verzamel de vere
 
    Als u Channel Manager wilt gebruiken voor inventarisatie- en bestelbeheer, moet de Inventory management-extensie zijn geïnstalleerd en ingeschakeld op uw Adobe Commerce- en Magento Open Source-exemplaar. Deze extensie wordt standaard geïnstalleerd en ingeschakeld op Adobe Commerce en [!DNL Magento Open Source] 2.3.x en hoger.
 
-   Als u Commerce hebt geüpgraded vanaf 2.2.x, of als u Inventory management hebt uitgeschakeld, werkt u uw installatie bij om de vereiste modules op te nemen. Zie [Inventory management installeren](https://devdocs.magento.com/extensions/inventory-management/) in de documentatie van Adobe Commerce Developer.
+   Als u Commerce hebt geüpgraded vanaf 2.2.x, of als u Inventory management hebt uitgeschakeld, werkt u uw installatie bij om de vereiste modules op te nemen. Zie [Inventory management installeren](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) in de *Inventory management Guide*.
 
 ### Systeemvereisten
 
-- [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
-- [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
-- [Composer 1.x of hoger](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [Adobe Commerce 2.4.x](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)
+- [PHP 7.3 / 7.4](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)
+- [Composer 1.x of hoger](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/overview.html)
 - [[!DNL Amazon Sales Channel] versie 4.4.2 of hoger](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Als u hebt geactiveerd [!DNL Amazon Sales Channel] voor uw [!DNL Commerce] sites, controleer of uw [!DNL Commerce] platform heeft versie 4.4.2 geïnstalleerd voordat u de installatie uitvoert [!DNL Channel Manager].
-- [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
+- [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html)
 
 ### Ondersteunde platforms
 

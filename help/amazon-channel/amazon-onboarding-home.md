@@ -1,16 +1,16 @@
 ---
-title: Amazon-Sales Channel aan boord
+title: "Aan boord [!DNL Amazon Sales Channel]"
 description: Meer informatie over de vooraf ingestelde taken, instapstappen en de manier waarop Amazon werkt met Amazon Sales Channel in Adobe Commerce en Magento Open Source.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Amazon-Sales Channel aan boord
+# Aan boord [!DNL Amazon Sales Channel]
 
 In deze sectie worden de vooraf ingestelde taken, de stappen voor instapweigering en enkele belangrijke concepten beschreven van hoe Amazon werkt met het Amazon-verkoopkanaal in Adobe Commerce en Magento Open Source.
 

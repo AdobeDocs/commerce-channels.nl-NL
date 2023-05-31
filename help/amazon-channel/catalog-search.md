@@ -1,16 +1,16 @@
 ---
-title: Catalogus zoeken
+title: Cataloguszoekopdracht voor Amazon-aanbiedingen
 description: Als u de kenmerkovereenkomst wilt instellen die helpt in aanmerking komende producten uit de handelscatalogus toe te wijzen aan Amazon-aanbiedingen, werkt u de zoekinstellingen van de catalogus bij.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Catalogus zoeken
+# Cataloguszoekopdracht voor Amazon-aanbiedingen
 
 _Catalogus zoeken_ Deze instellingen maken deel uit van de aanbiedingsinstellingen van je winkel. Lijstinstellingen zijn toegankelijk via de [opslagdashboard](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ Als u kenmerken wilt toevoegen, raadpleegt u [Productkenmerken maken voor Amazon
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
-![Catalogus zoeken](assets/amazon-catalog-search.png)
+![Catalogus zoeken](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |

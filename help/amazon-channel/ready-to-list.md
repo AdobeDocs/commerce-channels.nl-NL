@@ -1,8 +1,8 @@
 ---
-title: Klaar voor lijst
+title: Verkoopkanaal van Amazon - [!UICONTROL Ready to List]
 description: Het verkoopkanaal van Amazon verstrekt Klaar aan Lijst tabel om u te helpen producten herzien van de Handel die aan geschiktheid maar niet automatisch vermeld zijn.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ U hebt enkele opties om handmatig [een nieuwe aanbieding naar Amazon publiceren]
 >[!NOTE]
 >Als je aanbiedingen in behandeling hebt, wordt het aantal aanbiedingen weergegeven in een bericht boven de tabbladen.
 
-![Klaar voor lijst](assets/amazon-ready-to-list.png)
+![Klaar voor lijst](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## Standaardkolommen
 

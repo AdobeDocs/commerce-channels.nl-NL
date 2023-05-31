@@ -1,18 +1,18 @@
 ---
-title: '''[!DNL Channel Manager] Overzicht van hulplijnen'
+title: '''[!DNL Channel Manager] Hulplijn'
 description: "Uitgebreide informatie over [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source-beheerders, met inbegrip van installatie en instapweigering."
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 
-# Overzicht
+# Channel Manager Guide
 
 Deze handleiding is bedoeld voor beheerders van Adobe Commerce en Magento Open Source. Het bevat gedetailleerde informatie over [!DNL Channel Manager] installatie, aan boord nemen, configuratie, en beheer. De gids veronderstelt een basisbegrip van kern [!DNL Commerce] configuratie en functionaliteit.
 
@@ -30,10 +30,14 @@ Voor meer informatie over het beheren van uw [!DNL Commerce] -platform, -project
 
 ## Aanvullende documentatie
 
-| Hulplijn | Beschrijving |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Adobe Commerce 2.4 Handboek](https://docs.magento.com/user-guide) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
-| [Adobe Commerce 2.4-handleiding voor ontwikkelaars](https://devdocs.magento.com) | Documentatie gericht op ontwikkelaars die wordt gebruikt voor het maken en aanpassen van Adobe Commerce of Magento Open Source |
+
+| Documentatiebron | Beschrijving |
+|----------------------- | ----------- |
+| [Adobe Commerce 2.4 Handelsdocumentatie](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
+| [Services voor Adobe Commerce-documentatie](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentatie om een inzameling van de diensten te steunen die handelaren helpen zeer belangrijke componenten van hun zaken met hun opslag integreren. |
+| [Handel in de infrastructuurgids voor de cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stapsgewijze procedures voor de implementatie van Adobe Commerce op een beheerd, geautomatiseerd hostingplatform voor de cloud. |
+| [Adobe Commerce 2.4-handleidingen](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Documentatie van systemen over de concepten, processen, hulpmiddelen, en beste praktijken om, projecten te ontwikkelen op Adobe Commerce en de platforms van de Magento Open Source op te stellen en te handhaven. |
+| [Adobe Commerce 2.4-documentatie voor ontwikkelaars](https://developer.adobe.com/commerce/docs) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce of Magento Open Source te bouwen en aan te passen |
 
 ## Ondersteuning
 

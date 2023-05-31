@@ -1,15 +1,15 @@
 ---
-title: Toewijzing Amazon-kenmerk weergeven
+title: Amazon-kenmerktoewijzing weergeven
 description: Verifieer waarden voor uw verbonden attributen van de Handel aan correcte synchronisatie tussen Handel en Amazon.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Toewijzing Amazon-kenmerk weergeven
+# Amazon-kenmerktoewijzing weergeven
 
 Als u Amazon-kenmerken toewijst aan [!DNL Commerce] kenmerken, houdt Amazon het verkoopkanaal bij en biedt een filterbare lijst met alle Amazon-waarden. Op deze pagina kunt u waarden voor de gekoppelde waarden verifiëren [!DNL Commerce] kenmerken correct synchroniseren tussen [!DNL Commerce] en Amazon. U kunt gesynchroniseerde waarden controleren voor Amazon-kenmerken die zijn gekoppeld aan een [!DNL Commerce] kenmerk. Als u uw Amazon-kenmerken wilt maken of bewerken, raadpleegt u [Kenmerken maken en bewerken](./creating-attributes.md).
 
@@ -23,12 +23,12 @@ De _Amazon Value_ verschilt afhankelijk van het kenmerktype en het Amazon-kenmer
 
 1. Klik op de knop **[!UICONTROL Matching Attribute Values]** tab.
 
-   Aanbiedingen met een overeenkomende [!DNL Commerce] catalogusproduct bevat een gekoppelde waarde in het dialoogvenster _Magento Product SKU_ kolom. Als u op een koppeling klikt, wordt de bijbehorende pagina met productdetails voor de catalogus geopend. Wijzigingen in Amazon-kenmerken op de productdetailpagina worden niet gesynchroniseerd met Amazon-verkoopkanaal.
+   Aanbiedingen met een overeenkomende [!DNL Commerce] catalogusproduct bevat een gekoppelde waarde in het dialoogvenster _[!UICONTROL Magento Product SKU]_kolom. Als u op een koppeling klikt, wordt de bijbehorende pagina met productdetails voor de catalogus geopend. Wijzigingen in Amazon-kenmerken op de productdetailpagina worden niet gesynchroniseerd met Amazon-verkoopkanaal.
 
 >[!TIP]
 >Als u de toewijzing voor een aanbieding wilt bewerken of toewijzen aan een catalogusproduct, raadpleegt u [Vereiste gegevens bijwerken](./amazon-manually-update-incomplete-listing.md).
 
-![Kenmerkwaarden weergeven](assets/amazon-managing-attribute-values.png)
+![Kenmerkwaarden weergeven](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |--- |--- |

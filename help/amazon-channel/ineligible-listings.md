@@ -1,15 +1,15 @@
 ---
-title: Niet-subsidiabele aanbiedingen
+title: Niet in aanmerking komende Amazon-aanbiedingen
 description: Amazon-verkoopkanaal biedt [!UICONTROL Ineligible] om je te helpen objecten te beheren, komen niet in aanmerking als een aanbieding op basis van je huidige aanbiedingsregels.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Niet-subsidiabele aanbiedingen
+# Niet in aanmerking komende Amazon-aanbiedingen
 
 De _[!UICONTROL Ineligible]_bevat een lijst met alle producten die momenteel op Amazon zijn gepubliceerd maar die niet in aanmerking komen voor een aanbieding op basis van de huidige aanbiedingsregels. Als een eerder product in aanmerking kwam en de aanbiedingsregels zijn gewijzigd om het nu niet in aanmerking te laten komen, daalt de hoeveelheid die aan een product is gekoppeld tot 0 en wordt het product gemarkeerd als_ niet-subsidiabel _. Het is echter nog steeds aanwezig op uw [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 >[!NOTE]
 >Als je aanbiedingen in behandeling hebt, wordt het aantal aanbiedingen weergegeven in een bericht boven de tabbladen.
 
-![Niet in aanmerking komende Amazon-aanbiedingen](assets/amazon-ineligible-listings.png)
+![Niet in aanmerking komende Amazon-aanbiedingen](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

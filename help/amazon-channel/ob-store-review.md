@@ -1,15 +1,15 @@
 ---
-title: Opslaginstellingen
+title: Winkelinstellingen voor Amazon-verkoopkanaal bekijken
 description: Nadat u het Amazon-verkoopkanaal voor instaptoegang hebt voltooid, kunt u de [!DNL Commerce] opslaginstellingen.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Opslaginstellingen
+# Winkelinstellingen voor Amazon-verkoopkanaal bekijken
 
 Nadat u de Amazon-winkel voor verkoopkanalen hebt gemaakt en geïntegreerd, controleert u de standaardinstellingen van uw winkel om te controleren of uw product, aanbieding, prijs en andere instellingen correct zijn.
 
@@ -27,4 +27,4 @@ Nadat u de Amazon-winkel voor verkoopkanalen hebt gemaakt en geïntegreerd, cont
    - **[!UICONTROL Logs]** - [Aanbiedingswijzigingen](./listing-changes-log.md) en [communicatiefouten](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Geef de instellingen voor de naam van e-mail- en Amazon-verkoopkanalen weer in de [!DNL Commerce] Admin.
 
-![Winkeldashboard](assets/ob-store-review.png)
+![Winkeldashboard](assets/ob-store-review.png){width="600" zoomable="yes"}

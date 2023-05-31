@@ -1,15 +1,15 @@
 ---
-title: Prijsregels toevoegen
+title: Prijsregels voor Amazon toevoegen
 description: Gebruik prijsregels om de prijzen van aanbiedingen te beheren op de Amazon Marketplace voor je productcatalogus voor Handel.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Prijsregels toevoegen
+# Prijsregels voor Amazon toevoegen
 
 De prijsstellingsregels kunnen op elk ogenblik worden gevormd of worden gewijzigd nadat uw opslag wordt geïntegreerd. Prijsregels maken deel uit van [Aanbiedingsinstellingen](./listing-settings.md) en kan worden benaderd in de [opslagdashboard](./amazon-store-dashboard.md).
 
