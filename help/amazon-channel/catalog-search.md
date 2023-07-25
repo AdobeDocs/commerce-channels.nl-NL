@@ -1,9 +1,9 @@
 ---
 title: Cataloguszoekopdracht voor Amazon-aanbiedingen
 description: Als u de kenmerkovereenkomst wilt instellen die helpt in aanmerking komende producten uit de handelscatalogus toe te wijzen aan Amazon-aanbiedingen, werkt u de zoekinstellingen van de catalogus bij.
-redirect_from: /sales-channels/asc/ob-catalog-search.html
+feature: Sales Channels, Search, Catalogs, Products, Configuration
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Als u kenmerken wilt toevoegen, raadpleegt u [Productkenmerken maken voor Amazon
 ![Catalogus zoeken](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert.<br><br>ASIN staat voor de [!DNL Amazon Standard Identification Number]. Een ASIN is een uniek blok van 10 letters en/of getallen dat items identificeert. Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan hun catalogus wordt geupload. Je vindt een artikel in ASIN op de productdetailpagina op Amazon, samen met meer informatie over het object. |
 | [!UICONTROL EAN (European Article Number)] | Een 12- of 13-cijferige productidentificatiecode. Het Europese artikelnummer (EAN) is een norm voor streepjescodes, een productidentificatiecode van twaalf of dertien cijfers. Elk EAN identificeert het product, de fabrikant en zijn kenmerken op unieke wijze; Doorgaans wordt het EAN als streepjescode afgedrukt op een etiket of verpakking van het product. Amazon heeft EAN-codes nodig om de kwaliteit van de zoekresultaten en de kwaliteit van de catalogus te verbeteren. U kunt EANs van de fabrikant verkrijgen. |
 | [!UICONTROL GCID (Global Catalog Identifier)] | De globale catalogus-id (GCID) is een id voor producten die geen UPC-code of ISBN hebben. Met het Amazon-merkregister kunt u zich registreren als merkeigenaar en een unieke id maken voor producten die geen UPC of ISBN hebben. |

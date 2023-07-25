@@ -1,8 +1,9 @@
 ---
 title: Amazon-bestellingen weergeven
 description: Bekijk uw Amazon Marketplace-bestellingen in Adobe Commerce of Magento Open Source Admin.
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ U kunt filters toepassen op uw orderlijst in het dialoogvenster _[!UICONTROL Fil
 >- Afhankelijk van de breedte van het weergavevenster ziet u mogelijk overlappende tekst in de kolommen. Als u de kolommen voor de omloop van tekst wilt uitvouwen, verbreedt u de vensterweergave.
 >- Wanneer filteren op _[!UICONTROL Total]_, filtreer met hele getallen. Als u een decimaal getal invoert, kunnen er fouten in de resultaten optreden.
 
-
 ### Standaardkolommen
 
 | Kolom | Beschrijving |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | Alleen beschikbaar in het dialoogvenster _[!UICONTROL All Orders]_weergeven.<br>Versmal de lijst met bestellingen op basis van:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | De datum van de aankoop, zoals ontvangen van Amazon. |
 | [!UICONTROL Order Number] | Het ordernummer dat is gegenereerd door en ontvangen van Amazon. Klik op de koppeling als u het scherm Amazon Order Details wilt weergeven. |

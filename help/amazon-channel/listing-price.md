@@ -1,9 +1,10 @@
 ---
 title: Verkoopkanaal van Amazon - [!UICONTROL Listing Price]
 description: Gebruik de instellingen voor de aanbiedingsprijs om de prijsbron en de basisprijs (standaardprijs) voor je Amazon-aanbiedingen te bepalen.
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -49,6 +50,7 @@ De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised
    - `Disabled` - (Standaard) Kies wanneer je geen BTW op je aanbiedingsprijs wilt toepassen.
 
    - `Enabled` - Kies wanneer je BTW op je aanbiedingsprijs wilt toepassen. BTW wordt in Europese landen doorgaans als BTW gebruikt en wordt toegevoegd aan de uiteindelijke verkoopprijs in Amazon. BTW is niet van toepassing op de uiteindelijke prijs voor aanbiedingen die binnen een intelligente prijsregel worden gebruikt, tenzij de [bodemprijs](./floor-price.md) is geraakt.
+
    >[!NOTE]
    >
    >Bedrijven in de Europese Unie (EU) zijn verplicht facturen naar zakelijke kopers te sturen, zodat de klant belasting kan terugbetalen. U kunt deze facturen genereren en de belastingen zelf berekenen of een service voor belastingberekening gebruiken, zoals Amazon Btw Berekening Service. Amazon raadt u aan zich aan te melden voor de [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Als u een andere methode kiest, bent u verantwoordelijk voor de naleving van de BTW.>
@@ -66,6 +68,7 @@ De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised
    - `Set Default PTC` - Kies of je een PTC (Universal Product Tax Code) hebt die je voor al je producten wilt gebruiken. Wanneer u kiest, moet u voltooien _[!UICONTROL Default PTC]_.
 
       - Voor **[!UICONTROL Default PTC]**, voert u de standaard PTC in die moet worden gebruikt voor alle in aanmerking komende Amazon-aanbiedingen. Als uw standaard-PTC is ingesteld in uw [!DNL Amazon Seller Central] account, laat dit veld leeg. Wijzigingen in dit veld hebben geen invloed op bestaande Amazon-aanbiedingen. Als u de standaard-PTC voor een bestaande aanbieding wilt wijzigen, moet de aanbieding [beëindigd](./end-listings-manually.md) en een nieuwe aanbieding gemaakt.
+
    >[!NOTE]
    >
    >Als je gebruik maakt van de Amazon Btw-berekeningsservice, moet je weten wat de belastingcategorie voor je producten is. Een PTC is de identificatiecode van de belastingcategorie Amazon voor B2B-aankopen in de EU. Zie [Amazon - Productbelastingcodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ De opties in _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised
 ![Aanbiedingsprijs](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | Hiermee bepaalt u de prijsbron die wordt gebruikt bij het maken van je Amazon-aanbiedingen. De standaardwaarde is `Price`. Als u een ander kenmerk kiest, bijvoorbeeld `Amazon Price` of `Special Price`, wordt de gedefinieerde waarde voor het kenmerk gebruikt voor je Amazon-aanbieding. Als het geselecteerde kenmerk echter niet is gedefinieerd, `Price` wordt gebruikt. |
 | [!UICONTROL Minimum Advertised Price (MAP)] | De [!DNL Commerce] kenmerk voor MAP-prijzen. Als je de optie Winkelbasis kiest, wordt je Amazon-aanbieding automatisch ingesteld op de MAP-prijs als de prijs van de aanbieding lager is dan de MAP-prijs. |
 | [!UICONTROL Strike Through Price (MSRP)] | De [!DNL Commerce] attribuut dat het tarief MSRP vertegenwoordigt. Als de Amazon-aanbiedingsprijs lager is dan het MSRP, wordt een doorhaling van de MSRP-prijs en de aanbiedingsprijs weergegeven. Deze instelling wordt ook gebruikt om het bedrag en het percentage voor Opslaan te berekenen, maar deze functie is alleen van toepassing op aanbiedingen waarvoor de [Buy Box](./buy-box-competitor-pricing.md) positie. |

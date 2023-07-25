@@ -1,8 +1,9 @@
 ---
 title: Amazon-opslagdashboard
 description: Bekijk de activiteit voor je Amazon-winkels via Commerce Admin met behulp van het Amazon store dashboard.
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ Het opslagdashboard bevat ook opslaggegevens en koppelingen naar instellingen of
 
 - **[!UICONTROL Store Listings]** - Toont een grafische vertegenwoordiging voor de archiefverkoop voor de laatste 7 of 30 dagen samen met levensduurverkoopgegevens.
 
-   In dit gedeelte worden ook de aantallen aanbiedingen voor je [actieve aanbiedingen](./active-listings.md), [inactieve aanbiedingen](./inactive-listings.md)en lopende aanbiedingen, samen met koppelingen naar hun overeenkomstige _[!UICONTROL Product Listings]_pagina. U kunt ook op **[!UICONTROL Manage Listings]**om de_[!UICONTROL Product Listings]_ pagina. Zie [Amazon-aanbiedingen beheren](./managing-product-listings.md).
+  In dit gedeelte worden ook de aantallen aanbiedingen voor je [actieve aanbiedingen](./active-listings.md), [inactieve aanbiedingen](./inactive-listings.md)en lopende aanbiedingen, samen met koppelingen naar hun overeenkomstige _[!UICONTROL Product Listings]_pagina. U kunt ook op **[!UICONTROL Manage Listings]**om de_[!UICONTROL Product Listings]_ pagina. Zie [Amazon-aanbiedingen beheren](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** - Hiermee geeft u informatie weer voor de meest recente Amazon-bestellingen. De vermelde informatie is gebaseerd op de informatie die van Amazon is ontvangen. Deze tabel wordt niet bijgewerkt met [!DNL Commerce] bestellingsinformatie, zelfs wanneer [orderimport](./order-settings.md) is ingeschakeld. Als u al uw Amazon-bestellingen wilt weergeven, klikt u op **Alle bestellingen**.
 
-   Zie [Amazon-bestellingen weergeven](./amazon-orders-all.md) voor kolombeschrijvingen, en zie [Bestellingen beheren](./managing-orders.md) voor meer informatie .
+  Zie [Amazon-bestellingen weergeven](./amazon-orders-all.md) voor kolombeschrijvingen, en zie [Bestellingen beheren](./managing-orders.md) voor meer informatie .
 
 - **[!UICONTROL Seller Central links]** - Verzekert verbindingen met belangrijk [!DNL Amazon Seller Central] informatie.

@@ -1,9 +1,9 @@
 ---
 title: Verkoopkanaal in Amazon - Voorwaarde voor aanbieding van producten
 description: Met de instellingen voor de aanbiedingsvoorwaarde voor producten kunt u de producten van de Handel toewijzen aan een Amazon-productvoorwaarde, zoals "Nieuw" of "Gereviseerd".
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html
+feature: Sales Channels, Products, Merchandising
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Tijdens [Taken vooraf instellen](./amazon-pre-setup-tasks.md), wordt u aangerade
 ![Voorwaarde voor aanbieding van producten](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|---|---|
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Listing Product Condition] | De conditie van je productaanbiedingen. Opties: `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>Als je één productvoorwaarde verkoopt, kies je een van de standaard Amazon-voorwaarden. Als uw [!DNL Commerce] de catalogus bevat producten onder verschillende omstandigheden, kies `Assign Condition Using Product Attribute`. |
 | [!UICONTROL Condition Attribute] | De [!DNL Commerce] -kenmerk dat de voorwaarde voor uw producten definieert. Selecteer het Magneto-kenmerk dat u hebt gemaakt om toe te wijzen aan het Amazon-voorwaardeltribuut. In de [Vooraf ingestelde Taken, voorbeeld](./ob-creating-magento-attributes.md) beveelt aan de naam ervan te wijzigen `Amazon Condition`. Als u deze optie kiest, worden extra velden weergegeven voor het toewijzen van de standaard Amazon-voorwaarden. |
 | [!UICONTROL Additional Condition fields] | Kies voor elke standaard Amazon-voorwaarde de bijbehorende voorwaarde. De opties zijn de voorwaardelabels die u hebt toegevoegd toen u [Amazon-voorwaardelement maken](./ob-creating-magento-attributes.md).<br><br>Als u producten hebt in de `Used` of `Collectible` voorwaarde maar u maakt geen onderscheid meer, u kunt toewijzen aan één voorwaarde `Used` of `Collectible` Amazon-voorwaarde en laat de overige leeg. Deze methode wijst alle `Used` of `Collectible` voorwaarden voor de enige gebruikte Amazon of de verzamelbare toestand. |

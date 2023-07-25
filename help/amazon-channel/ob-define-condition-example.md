@@ -1,8 +1,9 @@
 ---
 title: 'Voorbeeld: Voorwaarde voor Amazon-aanbiedingsregels definiëren'
 description: Wanneer je regels voor aanbiedingen maakt, moet je voorwaarden definiëren voor het identificeren van de catalogusproducten die op de Amazon Marketplace moeten worden aangeboden.
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
    - **[!UICONTROL Conditions Combination]** - Kies deze optie om een andere set `All/Any` en `True/False` voorwaarden binnen de bestaande set.
 
-      ![Combinatie van voorwaarden](assets/ob-conditions-combinations.png){width="500"}
+     ![Combinatie van voorwaarden](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]** - De productkenmerken zijn afhankelijk van de instelling van het kenmerk. Voor een attribuut om in de lijst te verschijnen, moet het voor gebruik in promotionele regelvoorwaarden worden gevormd. Zie de _Voorwaarden voor promotieregels gebruiken_ in [Productkenmerken](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      In de lijst onder **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u als basis voor de voorwaarde wilt gebruiken. In dit voorbeeld is de geselecteerde voorwaarde: `Amazon FBA`.
+     In de lijst onder **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u als basis voor de voorwaarde wilt gebruiken. In dit voorbeeld is de geselecteerde voorwaarde: `Amazon FBA`.
 
-      ![Voorwaardelijke regel 2, deel 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![Voorwaardelijke regel 2, deel 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      De geselecteerde voorwaarde wordt weergegeven in de instructie, gevolgd door nog twee vette koppelingen. Welke opties beschikbaar zijn, is afhankelijk van het productkenmerk dat u selecteert.
+     De geselecteerde voorwaarde wordt weergegeven in de instructie, gevolgd door nog twee vette koppelingen. Welke opties beschikbaar zijn, is afhankelijk van het productkenmerk dat u selecteert.
 
-      Nadat u het kenmerk hebt ingesteld, kunt u het niet meer wijzigen. Als u het kenmerk wilt wijzigen, moet u de regel verwijderen en het nieuwe kenmerk toevoegen. U kunt een voorwaardenlijn schrappen door Schrapping te klikken (![Pictogram Verwijderen](assets/btn-del-red.png)) aan het einde van de regel.
+     Nadat u het kenmerk hebt ingesteld, kunt u het niet meer wijzigen. Als u het kenmerk wilt wijzigen, moet u de regel verwijderen en het nieuwe kenmerk toevoegen. U kunt een voorwaardenlijn schrappen door Schrapping te klikken (![Pictogram Verwijderen](assets/btn-del-red.png)) aan het einde van de regel.
 
       1. Klikken **[!UICONTROL is]** en kiest u de vergelijkingsoperator die de voorwaarde beschrijft waaraan producten moeten voldoen.
 
@@ -74,6 +75,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
          Het geselecteerde item wordt weergegeven in de instructie om de voorwaarde te voltooien.
 
          ![Voorwaardelijke regel 2, deel 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    Deze voorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus waarvan het Amazon FBA-kenmerk is ingesteld op een waarde van `Yes` komt in aanmerking voor aanbieding aan Amazon voor de regio en winkel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
 
 1. Als u nog een voorwaardelijn aan de instructie wilt toevoegen, gaat u terug naar stap 1 en herhaalt u het proces totdat alle gewenste voorwaarden zijn voltooid.

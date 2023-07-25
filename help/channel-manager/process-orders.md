@@ -1,8 +1,9 @@
 ---
 title: Procesvolgorde
 description: '''Instructies voor verzending en annulering [!DNL Walmart Marketplace] bestellingen van Adobe Commerce en Magento Open Source. "'
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Kanaalbeheer synchroniseert updates met [!DNL Walmart Marketplace] om ervoor te 
 
 * **Opdrachten geannuleerd**-Wanneer u een [!DNL Walmart Marketplace] bestelling, vereist de Marm een annuleringsreden die in de bericht van de ordeverstoring inbegrepen is die aan de klant wordt verzonden. De reden voor annulering wordt ook weergegeven in het dialoogvenster [!DNL Commerce] betalingsgegevens. Nadat u de annulering hebt verzonden, worden inventarisupdates gesynchroniseerd met [!DNL Walmart Marketplace]. Dan, brengt het Walmart klanten over de ordestatus en verzenddetails op de hoogte.
 
-   In de winkel moet u de volledige bestelling annuleren. [!DNL Commerce] staat gedeeltelijke annuleringen niet toe.
+  In de winkel moet u de volledige bestelling annuleren. [!DNL Commerce] staat gedeeltelijke annuleringen niet toe.
 
 * **Terugbetalingsaanvraag**- Als een Marketplace van het Walmart voor een verscheepte orde wordt gevraagd, [!UICONTROL Status details] bevat een koppeling naar de return. Retouren en terugbetalingen worden beheerd via de [Retourneert](return-refund-orders.md) dashboard.
 
@@ -45,7 +46,7 @@ Wanneer handelsorders worden verwerkt en [!DNL Channel Manager] synchroniseert d
 
    * Kies een vervoerder en voeg een trackingnummer toe door **[!UICONTROL Add tracking number]**.
 
-      ![Gedetailleerde weergave voor handelsorders voor een [!DNL Walmart Marketplace] bestellen](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![Gedetailleerde weergave voor handelsorders voor een [!DNL Walmart Marketplace] bestellen](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * Vul de rest van het verzendformulier naar wens in. Zie [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) voor gedetailleerde instructies.
 
@@ -70,10 +71,10 @@ Nadat een bestelling is verzonden, kunt u volledige of gedeeltelijke terugbetali
    * Selecteren **Annuleren** in het menu Order Detail.
 
    * Op de [!UICONTROL Cancel Order] formulier, selecteert u de **[!UICONTROL Cancellation reason]**.
+
    ![Gedetailleerde weergave voor handelsorders voor een [!DNL Walmart Marketplace] bestellen](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * Selecteren **[!UICONTROL Cancel Order]**.
-
 
 1. Na het verzenden van de annulering volgt u de [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] om te controleren of updates zijn verzonden naar [!DNL Walmart Marketplace].
 

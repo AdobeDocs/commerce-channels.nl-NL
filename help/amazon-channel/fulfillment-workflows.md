@@ -1,8 +1,9 @@
 ---
 title: Workflows voor Amazon-vervulling
 description: Voor een bestelling uit een Amazon-aanbieding wordt een specifieke volgorde aangehouden, van het verzenden van bestellingen tot verzending.
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
@@ -14,7 +15,7 @@ ht-degree: 2%
 ## Voorbeeld: voldaan door handelaar
 
 | Stap | Beschrijving |
-|----|----|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Op Amazon wordt een order geplaatst die voldoet aan de eisen van de handel.** Amazon wijst de status van `Pending` totdat de creditcardgegevens van de klant zijn geverifieerd. Orders in `Pending` status wordt automatisch geïmporteerd in Amazon-verkoopkanaal, maar niet weergegeven op _[!UICONTROL Orders]_tab. |
 | 2 | **De bestelling wordt geverifieerd door Amazon.** Na verificatie wijzigt Amazon de status in `Unshipped`. Met deze statuswijziging wordt de bestelling bijgewerkt in Amazon-verkoopkanaal en wordt deze weergegeven in het dialoogvenster _[!UICONTROL Orders]_tab. |
 | 3 | **De ordergegevens worden bijgewerkt.** Amazon-verkoopkanaal werkt de bestelgegevens bij met de prijs, de e-mail van de klant en de naam van de klant. Tijdens deze update maakt de Amazon-order de corresponderende [!DNL Commerce] volgorde op de pagina voor orderbeheer. De [!DNL Commerce] het ordernummer wordt weergegeven met de orderinformatie op de _[!UICONTROL Orders]_tab. |
@@ -24,7 +25,7 @@ ht-degree: 2%
 ## Voorbeeld: vervuld door Amazon (FBA)
 
 | Stap | Beschrijving |
-|---|---|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Op Amazon wordt een volgorde geplaatst die voldoet aan Amazon.** |
 | 2 | **De volgorde wordt geïmporteerd.** De bestelling wordt pas geïmporteerd in het verkoopkanaal van Amazon als aan de bestelling de volgende voorwaarden zijn toegewezen: `Shipped` status door Amazon. Aangezien Amazon over de voorraad voor dit product beschikt, voorkomt dit interferentie met het beheer van de opslagplaats/voorraad. |
 | 3 | **De ordergegevens worden bijgewerkt.** Indien geconfigureerd in uw [orderinstellingen](./order-settings.md), wordt in de Amazon-volgorde de corresponderende [!DNL Commerce] bestellen en aanmaken als een bestelling met de status `Complete`. |

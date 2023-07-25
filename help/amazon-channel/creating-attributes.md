@@ -1,8 +1,9 @@
 ---
 title: Kenmerken voor Amazon-verkoopkanalen maken en bewerken
 description: Amazon Sales Channel biedt de weergave Kenmerken om u te helpen de huidige Amazon-kenmerken en gekoppelde Commerce-kenmerken te bekijken.
+feature: Sales Channels, Products, Configuration
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -64,7 +65,7 @@ Na het opslaan wilt u mogelijk het kenmerk bewerken om de instellingen te bekijk
 ![kenmerkinstellingen maken](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | Geeft aan of dit kenmerk live en actief synchroon is tussen Amazon en [!DNL Commerce]. Instellen op `Yes` om de kenmerkwaarden van Amazon en [!DNL Commerce] synchroon blijven voor het geselecteerde kenmerk. |
 | Magento-productkenmerk selecteren | Geeft het geselecteerde kenmerk aan dat u wilt koppelen aan de vermelde Amazon-kenmerknaam. Kies bij het maken van een kenmerk de optie `Create New Magento Attribute`. |
 | [!UICONTROL Amazon Attribute Name] | Hiermee geeft u de naam weer van het Amazon-kenmerk dat u hebt gekozen. De geselecteerde kenmerkkoppelingen naar dit Amazon-kenmerk. U kunt deze waarde niet bewerken via [!DNL Commerce]. |
@@ -109,7 +110,7 @@ Na het opslaan wilt u mogelijk het kenmerk bewerken om de instellingen te bekijk
 ![kenmerkinstellingen bewerken](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | Geeft aan of dit kenmerk live en actief synchroon is tussen Amazon en [!DNL Commerce]. Instellen op `Yes` om de kenmerkwaarden van Amazon en [!DNL Commerce] synchroon blijven voor het geselecteerde kenmerk. |
 | [!UICONTROL Select Magento Product Attribute] | Hiermee wordt de geselecteerde [!DNL Commerce] kenmerk dat u wilt koppelen aan de vermelde Amazon-kenmerknaam. Als u de gekoppelde [!DNL Commerce] een ander kenmerk kiezen in de vervolgkeuzelijst. De waarden worden gesynchroniseerd op basis van configuraties. |
 | [!UICONTROL Amazon Attribute Name] | Hiermee wordt de naam van het Amazon-kenmerk weergegeven, zoals gedefinieerd in [!DNL Amazon Seller Central]. De geselecteerde [!DNL Commerce] kenmerkkoppelingen naar dit Amazon-kenmerk. U kunt deze waarde niet bewerken via [!DNL Commerce]. |

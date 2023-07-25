@@ -1,8 +1,9 @@
 ---
 title: Aanbiedingen verbinden met Walmart
 description: 'Aanbiedingen verbinden voor [!DNL Commerce] producten naar [!DNL Walmart Marketplace]om te beginnen met verkopen.'
+feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -125,11 +126,11 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
    - Selecteer op de pagina Items in productcatalogus de optie **[!UICONTROL Add Items]**. Selecteer vervolgens **[!UICONTROL Add items in bulk]**.
 
-      ![Voeg punten in bulkoptie toe optie in de het puntconfiguratie van de Marketplace van de Markeren](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![Voeg punten in bulkoptie toe optie in de het puntconfiguratie van de Marketplace van de Markeren](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - Selecteer op de downloadpagina de optie **[!UICONTROL Full Setup]**. Selecteer vervolgens een objectcategorie en download de rubrieksjabloon.
 
-      ![Categoriesjabloonoptie downloaden in de configuratie van items in de Marketplace-indeling van het programma](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
+     ![Categoriesjabloonoptie downloaden in de configuratie van items in de Marketplace-indeling van het programma](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - Controleer of de sjabloon de vereiste en aanbevolen kenmerken voor de productaanbieding bevat.
 
@@ -141,9 +142,9 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
    - In de [!UICONTROL Entity Attributes] de lijst, vormt de selectiecriteria voor de uitvoer van productgegevens.
 
-      Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt. (Zie [Gegevens exporteren](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
+     Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt. (Zie [Gegevens exporteren](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
 
-      Als u een kenmerk wilt weglaten uit het exportbestand, selecteert u de optie [!UICONTROL **Uitsluiten**] Schakel het selectievakje aan het begin van de rij in.
+     Als u een kenmerk wilt weglaten uit het exportbestand, selecteert u de optie [!UICONTROL **Uitsluiten**] Schakel het selectievakje aan het begin van de rij in.
 
 1. Naar het einde van de tabel met kenmerken bladeren en [!UICONTROL **Doorgaan**] om de gegevensexport te starten.
 

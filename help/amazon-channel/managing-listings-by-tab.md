@@ -1,8 +1,9 @@
 ---
 title: Aanbiedingen voor Amazon-producten beheren op status/tabblad
 description: Wanneer je je Amazon-aanbiedingen beheert, kun je acties op je aanbiedingen toepassen op basis van status.
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Zie ook [Aanbiedingen beheren via actie](./managing-listings-by-action.md).
 ![Tabbladen met productaanbiedingen](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Tab | Beschrijving | Handelingen |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | Toont uw [!DNL Commerce] catalogusproducten die voldoen aan de door Amazon voor een aanbieding opgegeven aanbiedingsinstellingen, maar die geen gegevens bevatten.<br><br>Indien _[!UICONTROL Automatic List Action]_is ingesteld op `Automatically List Eligible Products` in uw [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) instellingen, deze items zijn uw **[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | Toont je bestaande Amazon-aanbiedingen (op basis van informatie die je van Amazon hebt ontvangen) die niet overeenkomen met een product in je [!DNL Commerce] catalogus. | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>Automatisch afstemmen proberen<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | Hiermee worden uw catalogusproducten weergegeven die klaar zijn om Amazon-aanbiedingen te maken, maar in je winkel worden nieuwe aanbiedingen niet automatisch gepubliceerd. Dit tabblad wordt gebruikt om nieuwe aanbiedingen handmatig te publiceren.<br><br>Indien _[!UICONTROL Automatic List Action]_is ingesteld op `Do Not Automatically List Eligible Products` in uw [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) instellingen, deze items zijn uw **[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

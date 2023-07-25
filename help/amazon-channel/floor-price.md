@@ -1,8 +1,9 @@
 ---
 title: '"Intelligente prijsregel: Floor Price'''
 description: Gebruik instellingen voor de laagste prijs om de laagste prijs te bepalen voor een intelligente prijsregel voor het beheren van je Amazon-aanbiedingen.
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ In dit voorbeeld is de laagste prijs ingesteld op 3% boven de prijs van het obje
 ![Voorbeeld van een intelligente prijsregel - minimumprijs](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | Kies de optie [!DNL Commerce] kenmerk dat uw relatieve ondergrens (laagste prijs) aangeeft. Als je bijvoorbeeld niet wilt dat de prijs van je Amazon-aanbieding onder de kosten van je object ligt, kies je de `Cost` kenmerk. |
 | [!UICONTROL Floor Price Action] | Kies een handeling voor het aanpassen van de prijzen. Opties:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer u de definitie wilt _[!UICONTROL Floor Price Source]_Waarde die moet worden aangepast, waardoor een lagere bodemprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Increase By]** - Kies wanneer u de definitie wilt _[!UICONTROL Floor Price Source]_Waarde die moet worden aangepast, waardoor een hogere bodemprijs voor de regel wordt verkregen, voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Match]** - Kies wanneer je de prijs van de aanbieding niet onder de gedefinieerde prijs wilt laten schommelen _[!UICONTROL Floor Price Source]_waarde. Wanneer u kiest, wordt_[!UICONTROL Apply]_ en _[!UICONTROL Floor Adjustment Amount]_velden zijn uitgeschakeld.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Een procentuele aanpassing ten opzichte van de _[!UICONTROL Floor Price Source]_waarde. |

@@ -1,8 +1,9 @@
 ---
 title: Amazon-orders beheren
 description: U kunt het importeren van bestellingen inschakelen in uw Orderinstellingen om uw Amazon-bestellingen eenvoudiger te beheren via uw Commerce Admin.
+feature: Sales Channels, Orders
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Geïmporteerde Amazon-orders worden beheerd in het dialoogvenster [[!DNL Commerc
 Wanneer een order op Amazon wordt geplaatst en [orderimport](./order-settings.md) is ingeschakeld, wordt het volgende proces gestart.
 
 | Wijzigen | Handelingen |
-|---|---|
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Er wordt een bestelling geplaatst op Amazon. | <ul><li>Amazon stelt de orderstatus in op `Pending`.</li><li>Bestelgegevens worden verzonden naar [!DNL Commerce].</li><li>Volgorde wordt toegevoegd aan [_Amazon-orders_ table](./amazon-orders-all.md) met een `Pending` status.</li></ul> |
 | Amazon wijzigt de orderstatus in `Unshipped`. | <ul><li>De statuswijziging wordt verzonden naar [!DNL Commerce].</li><li>In de [_Amazon-orders_ table](./amazon-orders-all.md), verandert de orderstatus in `Unshipped`.</li><li>In de [[!DNL Commerce] orderwerkstroom](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), een overeenkomstige [!DNL Commerce] order wordt gemaakt met een `Processing` status.</li></ul> |
 | In [[!DNL Commerce] orderwerkstroom](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html)de [!DNL Commerce] bestelling wordt verwerkt en de status wordt gewijzigd in `Shipped`. | <ul><li>In de [_Amazon-orders_ table](./amazon-orders-all.md), verandert de orderstatus in `Shipped`.</li><li>Bij de volgende uitsnijdtaak verandert de orderstatus in `Complete` in de [[!DNL Commerce] orderwerkstroom](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
@@ -40,7 +41,7 @@ Wanneer een order op Amazon wordt geplaatst en [orderimport](./order-settings.md
 Er zijn een paar scenario&#39;s die de verwezenlijking van overeenkomstige verhinderen [!DNL Commerce] bestelling. [!DNL Commerce] orders worden niet gemaakt voor orders die worden ontvangen wanneer zich een van de volgende problemen voordoet.
 
 | Scenario | Oplossing |
-|---|---|
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Het item bestaat niet in het dialoogvenster [!DNL Commerce] catalogus. | [Het product maken](./creating-assigning-catalog-products.md) in uw [!DNL Commerce] catalogus en [handmatig afstemmen](./creating-assigning-catalog-products.md) aan het product. |
 | Het item in de catalogus is uitgeschakeld. | Zorg ervoor dat de [productstatus](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) is ingeschakeld. |
 | Het geordende item is uit voorraad. | Werk of vorm de [productopties](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) voor hoeveelheid en bron. |

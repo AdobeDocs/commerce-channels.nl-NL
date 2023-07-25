@@ -1,8 +1,9 @@
 ---
 title: Onvolledige Amazon-aanbiedingen
 description: Amazon-verkoopkanaal biedt [!UICONTROL Incomplete] om je te helpen bepalen welke objecten in aanmerking komen voor je onvolledige Amazon-aanbiedingen en om aan deze voorwaarden te voldoen.
+feature: Sales Channels, Products
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -16,7 +17,7 @@ De _[!UICONTROL Incomplete]_wordt weergegeven [!DNL Commerce] catalogusproducten
 Er zijn vier mogelijke oorzaken voor een onvolledige aanbieding, elk geïdentificeerd door zijn status.
 
 | Status | Reden | Handeling |
-|--- |--- |--- |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ontbrekende voorwaarde | Amazon accepteert aanbiedingen onder verschillende voorwaarden (zoals _Nieuw_, _Gereviseerd_, _Gebruikt: Als nieuw_) vereist een bepaalde voorwaarde. | Vereiste gegevens bijwerken en handmatig [een voorwaarde toewijzen](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) aan een aanbieding. |
 | Kan niet toewijzen aan Amazon-aanbieding | Automatisch overeenkomst van deze aanbieding met uw catalogus is mislukt. Als er geen overeenkomst wordt gevonden, kan de aanbieding niet worden beheerd door Amazon Sales Channel | Vereiste gegevens bijwerken en handmatig [een ASIN toewijzen](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) op het catalogusproduct voor overeenkomende objecten met de aanbieding. |
 | Meerdere overeenkomsten gevonden | Automatisch overeenkomst van deze aanbieding met uw catalogus is mislukt. Als er meerdere mogelijke overeenkomsten worden gevonden, moet u de juiste overeenkomst voor uw product selecteren. | Vereiste gegevens bijwerken en handmatig [een productovereenkomst kiezen](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) voor het product en de aanbieding. |
@@ -46,7 +47,7 @@ Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 
 | Kolom | Beschrijving |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | De SKU (Stock Keeping Unit) die door Amazon aan een product wordt toegewezen om het product, de opties, de prijs, en de fabrikant te identificeren. |
 | [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert.<br><br>ASIN staat voor de [!DNL Amazon Standard Identification Number]. Een ASIN is een uniek blok van 10 letters en/of getallen dat items identificeert. Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan hun catalogus wordt geupload. Je vindt een artikel in ASIN op de productdetailpagina op Amazon, samen met meer informatie over het object. |
 | [!UICONTROL Product Listing Name] | De naam van het product. |

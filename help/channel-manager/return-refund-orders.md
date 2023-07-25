@@ -1,8 +1,9 @@
 ---
 title: Terugbetalings- en terugbetalingsopdrachten
 description: Instructies voor de afgifte van volledige of gedeeltelijke terugbetalingen voor terugkeerverzoeken die zijn ontvangen van [!DNL Walmart Marketplace] van [!DNL Channel Manager] voor Adobe Commerce en Magento Open Source.
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ De volgende scenario&#39;s beschrijven hoe te om terugbetalingen voor verschille
 
    * U kunt de geretourneerde waarden bekijken door de **[!UICONTROL Returns]** tab.
 
-      U hebt ook toegang tot de geretourneerde gegevens van het dialoogvenster [!UICONTROL Orders] pagina. Zoeken naar [!UICONTROL Shipped] orders die een retourverzoek hebben. Selecteer vervolgens de `Return requested` in de [!UICONTROL Status Details] om de aanvraag te bekijken en te verwerken.
+     U hebt ook toegang tot de geretourneerde gegevens van het dialoogvenster [!UICONTROL Orders] pagina. Zoeken naar [!UICONTROL Shipped] orders die een retourverzoek hebben. Selecteer vervolgens de `Return requested` in de [!UICONTROL Status Details] om de aanvraag te bekijken en te verwerken.
 
 1. Zoek in de tabel Returns een return met de opdracht *[!UICONTROL Received]* status.
 
@@ -148,13 +149,13 @@ De volgende scenario&#39;s beschrijven hoe te om terugbetalingen voor verschille
 
    * Van de [!UICONTROL Status Details] kolom, selecteren **[!UICONTROL Create credit memo]** om de pagina met gegevens over de volgorde te openen in [!DNL Commerce].
 
-      Als de volgorde niet is gefactureerd, wordt op de pagina Bestelling-details een foutbericht weergegeven waarin u wordt gevraagd een bestelling te maken. Selecteren **[!UICONTROL Create invoice]**. Vervolgens [de factuur maken en opslaan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     Als de volgorde niet is gefactureerd, wordt op de pagina Bestelling-details een foutbericht weergegeven waarin u wordt gevraagd een bestelling te maken. Selecteren **[!UICONTROL Create invoice]**. Vervolgens [de factuur maken en opslaan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Selecteer op de pagina Order detail **[!UICONTROL Credit Memo]**.
 
    * In [!UICONTROL Items to Refund] van de [!UICONTROL Credit Memo], werkt u de **[!UICONTROL Qty to refund]** en **[!UICONTROL Return to Stock]** informatie over de items die in het retourverzoek zijn opgenomen.
 
-      Zorg ervoor dat alleen de items worden geretourneerd die in het retourverzoek worden vermeld.
+     Zorg ervoor dat alleen de items worden geretourneerd die in het retourverzoek worden vermeld.
 
    * Als u een opmerking wilt toevoegen, voert u de tekst in het dialoogvenster **[!UICONTROL Credit Memo Comments]**
 

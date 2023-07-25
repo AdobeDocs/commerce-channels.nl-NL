@@ -1,9 +1,10 @@
 ---
 title: "Aan boord [!DNL Amazon Sales Channel]"
 description: Meer informatie over de vooraf ingestelde taken, instapstappen en de manier waarop Amazon werkt met Amazon Sales Channel in Adobe Commerce en Magento Open Source.
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ De [!DNL Amazon Sales Channel] -extensie ondersteunt meerdere Amazon-winkels. Vo
 >De instellingen van het verkoopkanaal van Amazon zijn van invloed op je Amazon-aanbiedingen. Je eerste aanbieding, prijs en productinstellingen worden standaard voor jou gebruikt. U kunt uw [opslaginstellingen](./ob-store-review.md) (aanbieding, prijs, bestelling en rapportage) nadat je winkel is verbonden met je [!DNL Amazon Seller Central] account.
 
 | Stappen | Wat gebeurt er? |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Taken vooraf instellen](./amazon-pre-setup-tasks.md) | Voordat u aan boord gaat, moet u ervoor zorgen dat u een actieve en goedgekeurde [!DNL Amazon Seller Central] account. Er zijn ook enkele [!DNL Commerce] eisen en aanbevelingen die vóór de instapprocedure moeten worden voltooid. |
 | [De Amazon API-sleutel controleren](./amazon-verify-api-key.md) | Bij toegang tot Amazon-verkoopkanaal [!DNL Commerce] controleert en valideert automatisch de Amazon API-sleutel die u in uw winkelconfiguratie hebt toegevoegd. Als de API-sleutel niet is toegevoegd of ongeldig is, wordt u gevraagd [Amazon API-sleutel toevoegen of bijwerken](./amazon-verify-api-key.md). |
 | [Opslagintegratie](./store-integration.md) | Deze stap omvat het maken van een Amazon-winkel voor verkoopkanalen en het vervolgens verbinden met uw [!DNL Amazon Seller Central] account. U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -account (het e-mailadres of telefoonnummer waarmee de verkopersaccount is gemaakt) voor deze stap. |

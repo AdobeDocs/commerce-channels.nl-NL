@@ -1,8 +1,9 @@
 ---
 title: Producten maken en toewijzen voor Amazon-verkoopkanaal
 description: Amazon Sales Channel biedt de [!UICONTROL New Third Party] gebruiken om te helpen bij het maken en toewijzen van overeenkomstige producten uit de handelscatalogus aan Amazon-aanbiedingen.
+feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -51,27 +52,27 @@ Je product en aanbieding komen nu overeen. Verkoopkanaal van Amazon kan nu produ
 
    - Set **[!UICONTROL Enable Product(s)]** schakelen naar `Yes` of `No` (vereist).
 
-      |Ja|Kies of u het product in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.| |Nee|Kies of u het product niet in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.|
+     |Ja|Kies of u het product in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.| |Nee|Kies of u het product niet in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.|
 
    - Voor **[!UICONTROL Categories]**, een categorie voor het product toewijzen (optioneel).
 
-      Als u de categorie van het product wilt selecteren, klikt u op de pijl omlaag en schakelt u een selectievakje voor de categorie in. Klikken **[!UICONTROL Done]** wanneer gereed.
+     Als u de categorie van het product wilt selecteren, klikt u op de pijl omlaag en schakelt u een selectievakje voor de categorie in. Klikken **[!UICONTROL Done]** wanneer gereed.
 
    - Voor **[!UICONTROL Website Ids]** kiest u de website (winkel) waaraan het product moet worden gekoppeld.
 
-      De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) instellingen.
+     De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) instellingen.
 
    - Voor **[!UICONTROL Attribute Set Id]** (vereist), kiest u een optie.
 
-      `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) u hebt gevormd.
+     `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) u hebt gevormd.
 
    - Voor **[!UICONTROL Visibility]** kiest u een optie voor het nieuwe product.
 
-      |**[!UICONTROL Not Visible Individually]** (standaard)|Het product wordt niet in je winkelaanbiedingen opgenomen, hoewel het mogelijk beschikbaar is als een variatie op een ander product.| |**[!UICONTROL Catalog]**|Het product wordt weergegeven in uw catalogusaanbiedingen.| |**[!UICONTROL Search]**|Het product is beschikbaar voor zoekacties.| |**[!UICONTROL Catalog and Search]**|Het product is opgenomen in cataloguslijsten en beschikbaar voor zoekacties.|
+     |**[!UICONTROL Not Visible Individually]** (standaard)|Het product wordt niet in je winkelaanbiedingen opgenomen, hoewel het mogelijk beschikbaar is als een variatie op een ander product.| |**[!UICONTROL Catalog]**|Het product wordt weergegeven in uw catalogusaanbiedingen.| |**[!UICONTROL Search]**|Het product is beschikbaar voor zoekacties.| |**[!UICONTROL Catalog and Search]**|Het product is opgenomen in cataloguslijsten en beschikbaar voor zoekacties.|
 
    - Voor **[!UICONTROL Assign Tax Class]** kiest u een optie voor het product.
 
-      Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) u hebt gevormd.
+     Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) u hebt gevormd.
 
    - Klik op **[!UICONTROL Create Catalog Products]**.
 
@@ -96,27 +97,27 @@ Het catalogusproduct wordt gemaakt in uw [!DNL Commerce] en toegewezen aan de Am
 
    - Set **[!UICONTROL Enable Product(s)]** schakelen naar `Yes` of `No` (vereist).
 
-      |Ja|Kies of u het product in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.| |Nee|Kies of u het product niet in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.|
+     |Ja|Kies of u het product in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.| |Nee|Kies of u het product niet in aanmerking wilt laten komen voor uw [!DNL Commerce] winkelverkoop.|
 
    - Voor **[!UICONTROL Categories]**, een categorie voor het product toewijzen (optioneel).
 
-      Als u de categorie van het product wilt selecteren, klikt u op de pijl omlaag en schakelt u een selectievakje voor de categorie in. Klikken **Gereed** wanneer gereed.
+     Als u de categorie van het product wilt selecteren, klikt u op de pijl omlaag en schakelt u een selectievakje voor de categorie in. Klikken **Gereed** wanneer gereed.
 
    - Voor **[!UICONTROL Website Ids]** kiest u de website (winkel) waaraan het product moet worden gekoppeld.
 
-      De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) instellingen.
+     De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) instellingen.
 
    - Voor **[!UICONTROL Attribute Set Id]** (vereist), kiest u een optie.
 
-      `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) u hebt gevormd.
+     `Default` is de standaardselectie. De opties in deze lijst zijn afhankelijk van uw [!DNL Commerce] [kenmerksets](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) u hebt gevormd.
 
    - Voor **[!UICONTROL Visibility]** kiest u een optie voor het nieuwe product.
 
-      |**[!UICONTROL Not Visible Individually]** (standaard)|Het product wordt niet in je winkelaanbiedingen opgenomen, hoewel het mogelijk beschikbaar is als een variatie op een ander product.| |**[!UICONTROL Catalog]**|Het product wordt weergegeven in uw catalogusaanbiedingen.| |**[!UICONTROL Search]**|Het product is beschikbaar voor zoekacties.| |**[!UICONTROL Catalog and Search]**|Het product is opgenomen in cataloguslijsten en beschikbaar voor zoekacties.|
+     |**[!UICONTROL Not Visible Individually]** (standaard)|Het product wordt niet in je winkelaanbiedingen opgenomen, hoewel het mogelijk beschikbaar is als een variatie op een ander product.| |**[!UICONTROL Catalog]**|Het product wordt weergegeven in uw catalogusaanbiedingen.| |**[!UICONTROL Search]**|Het product is beschikbaar voor zoekacties.| |**[!UICONTROL Catalog and Search]**|Het product is opgenomen in cataloguslijsten en beschikbaar voor zoekacties.|
 
    - Voor **[!UICONTROL Assign Tax Class]** kiest u een optie voor het product.
 
-      Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) u hebt gevormd.
+     Welke opties in deze lijst worden weergegeven, is afhankelijk van de [belastingklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) u hebt gevormd.
 
    - Klik op **[!UICONTROL Create Catalog Products]**.
 
@@ -125,7 +126,7 @@ De catalogusproducten worden gemaakt in uw [!DNL Commerce] en toegewezen aan de 
 ![Catalogusproduct voor handel maken](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Product(s)] | (Vereist) Indien ingeschakeld, is het product zichtbaar in uw [!DNL Commerce] storefront. Indien uitgeschakeld, wordt het product niet weergegeven in uw [!DNL Commerce] storefront. |
 | [!UICONTROL Categories] | U kunt de naam van de categorie voor het nieuwe product invoeren of een categorie selecteren door op de pijl-omlaag te klikken om de opties weer te geven. Welke opties u hebt, is afhankelijk van uw [categorieën](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) configuratie. |
 | [!UICONTROL Website Ids] | (Vereist) Kies de website (winkel) waaraan het product moet worden gekoppeld. Welke opties u hebt, is afhankelijk van uw [!DNL Commerce] [winkelconfiguratie](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) instellingen |

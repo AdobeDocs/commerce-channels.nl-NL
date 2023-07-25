@@ -1,8 +1,10 @@
 ---
 title: Integratie met een [!DNL Amazon Seller Account]
 description: Voordat u het instapproces start, moet u een Amazon Sales Channel-winkel maken (toevoegen) en deze koppelen aan uw Amazon-verkopersaccount.
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
    - Voor **[!UICONTROL Product ID on the Amazon market]**, kiest u het Amazon-kenmerk dat u wilt toewijzen aan de [!DNL Commerce] hieronder geselecteerd kenmerk.
 
-      Met deze id kunnen overeenkomende producten in uw [!DNL Commerce] catalogus.
+     Met deze id kunnen overeenkomende producten in uw [!DNL Commerce] catalogus.
 
    - Voor **[!UICONTROL Map a Magento attribute]**, kiest u de [!DNL Commerce] productkenmerk dat moet worden toegewezen aan het Amazon-kenmerk dat hierboven is geselecteerd.
 
-      [Toewijzingskenmerken](./ob-creating-magento-attributes.md) helpt ervoor te zorgen dat je Amazon-aanbieding correct overeenkomt met het corresponderende product in je [!DNL Commerce] catalogus.
+     [Toewijzingskenmerken](./ob-creating-magento-attributes.md) helpt ervoor te zorgen dat je Amazon-aanbieding correct overeenkomt met het corresponderende product in je [!DNL Commerce] catalogus.
 
 1. Klikken **[!UICONTROL Connect]**.
 

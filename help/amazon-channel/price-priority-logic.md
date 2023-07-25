@@ -1,8 +1,9 @@
 ---
 title: Amazon-verkoopkanaal - Prijsprioriteitslogica
 description: Verkoopkanaal in Amazon past prioriteitstelling toe bij het bepalen van de gepubliceerde prijs voor een Amazon-aanbieding.
+feature: Sales Channels, Price Rules
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -23,8 +24,8 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 
 ## Voorbeeld 1
 
-|  | Prioriteit website | Prijs (website) | Standaardinstellingen gebruiken |
-|---|---|---|---|
+|         | Prioriteit website | Prijs (website) | Standaardinstellingen gebruiken |
+|---------|------------------|-----------------|-------------|
 | Standaard | 0 | $31.99 | -- |
 | Winkel 1 | 1 | $24.99 | Nee |
 | Winkel 2 | 2 | $27.99 | Ja |
@@ -35,8 +36,8 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 
 ## Voorbeeld 2
 
-|  | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
-|---|---|---|---|
+|         | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
+|---------|------------------|---------------|-------------|
 | Standaard | 0 | $31.99 | -- |
 | Winkel 1 | 1 | $24.99 | Ja |
 | Winkel 2 | 2 | $27.99 | Nee |
@@ -48,8 +49,8 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 
 ## Voorbeeld 3
 
-|  | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
-|---|---|---|---|
+|         | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
+|---------|------------------|---------------|-------------|
 | Standaard | 0 | $31.99 | $30.00 |
 | Winkel 1 | 1 | $24.99 | -- |
 | Winkel 2 | 2 | $27.99 | $20.00 |

@@ -9,7 +9,7 @@ feature-set: Commerce
 git-repo: https://github.com/AdobeDocs/commerce-channels.nl-NL
 role: User
 index: true
-source-git-commit: da94226111c658048824453bb8f448b0f1e4c3b8
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 De `metadata.md` Het bestand bevat metagegevens op repo-niveau die worden doorgegeven aan de gebruikershandleiding `TOC.md` in de revisie. Als u de inhoud metadata.md voor een gebruikersgids wilt wijzigen, doet u dit in om het even welke `TOC.md` bestand.
 
 | metagegevens | wat het doet |
-|--- |--- |
+|---------------------|---------------------------------------------------------------------------------|
 | titel oplossing | Gebruikt in artikelkoptekst als koppeling |
 | oplossing-hub-url | Opent helpx-hubpagina |
 | oplossingspictogram | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd |
@@ -34,6 +34,6 @@ De `metadata.md` Het bestand bevat metagegevens op repo-niveau die worden doorge
 In bestand TOC.md
 
 | metagegevens | wat het doet |
-|--- |--- |
+|------------------|--------------------------------|
 | user-guide-title | Gebruikt in artikelkoptekst als koppeling |
 | gebruikershandleiding-url | Opent helpx-hubpagina |

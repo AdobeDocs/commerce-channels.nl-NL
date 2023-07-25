@@ -1,8 +1,9 @@
 ---
 title: Verkoopkanaal van Amazon - [!UICONTROL Lowest Competitor Pricing]
 description: De [!UICONTROL Amazon Sales Channel] verstrekt [!UICONTROL Lowest Competitor Pricing] om u te helpen de prijsstelling van uw concurrenten op Amazon te begrijpen.
+feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -32,7 +33,7 @@ De _[!UICONTROL Lowest Competitor Pricing]_op het tabblad_[!UICONTROL Product Li
    Toont een lijst van de concurrerende handelaren op Amazon en hun respectieve prijzen.
 
 | Kolom | Beschrijving |
-|---|---|
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert.<br><br>Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan uw catalogus wordt geupload. U vindt de ASIN van een item op de pagina met productdetails en aanvullende gegevens over het item (zoals grootte, aantal pagina&#39;s of aantal schijven). |
 | [!UICONTROL Condition] | De [voorwaarde](./product-listing-condition.md) van het product. |
 | [!UICONTROL Fulfillment Channel] | De uitvoeringsmethode. |

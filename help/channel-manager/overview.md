@@ -1,10 +1,10 @@
 ---
 title: '"Inleiding tot [!DNL Channel Manager]'''
 description: '''Meer informatie over installeren en gebruiken [!DNL Channel Manager] om Adobe Commerce en Magento Open Source winkels te integreren met de Marketplace van de Markt van het Markeren en een verkoopkanaal tot stand te brengen om aanbiedingen, prijzen, voorraad, en verkoop van de markt foutloos van uw Admin van de Handel te beheren. "'
-role: User
+role: Leader, Admin, User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%

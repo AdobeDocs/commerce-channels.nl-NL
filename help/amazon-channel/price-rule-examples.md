@@ -1,8 +1,9 @@
 ---
 title: Verkoopkanaal voor Amazon - Voorbeelden van prijsregels
 description: Bekijk deze voorbeelden op basis van algemene scenario's om je prijsregels voor Amazon-aanbiedingen te helpen ontwerpen.
+feature: Sales Channels, Price Rules
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 2%
@@ -22,7 +23,7 @@ Indien **[!UICONTROL Discard Subsequent Rules]** is ingesteld op `Yes`, zijn de 
 Stel dat er drie prijsregels zijn:
 
 | Voorbeeld | Naam van regel | Prioriteit | Volgende regel negeren |
-|----------|----|----|----|
+|---------|-----------------------|----------|-------------------------|
 | 1 | 10% van de verkochte producten | 1 | Nee |
 | 2 | $2 aan uitverkoop producten | 2 | Ja |
 | 3 | 5% van alle producten | 3 | Nee |
@@ -32,7 +33,7 @@ In dit scenario zijn de regels 1 en 2 van toepassing op de in aanmerking komende
 ### Twee standaardprijsregels toepassen
 
 | Veld | Instelling - Artikel 1 | Instelling - Artikel 2 |
-|----------|----|----|
+|--------------------------------|---------------------|-----------------------|
 | [!UICONTROL Rule Name] | Artikel 1 | Artikel 2 |
 | [!UICONTROL Priority] | 1 | 2 |
 | [!UICONTROL Rule Type] | Standaardprijsregel | Standaardprijsregel |
@@ -65,7 +66,7 @@ De uiteindelijke prijs na regel 1 en regel 2 wordt toegepast: $ 32,98
 ### Buy Box prijs met variabele prijs Bron = Prijs
 
 | Veld | Instelling |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Artikel 1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligente prijsregel |
@@ -97,7 +98,7 @@ De uiteindelijke prijs na toepassing van de regel: $ 10
 ### Buy Box prijs met variabele prijs Bron = Prijs en een prijsdaling van 20%
 
 | Veld | Instelling |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Artikel 1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligente prijsregel |
@@ -147,7 +148,7 @@ De uiteindelijke prijs na toepassing van de regel: $ 15
 ### Laagste prijs met alle prijzen van de concurrent en gebruik alle productvoorwaarden van de concurrent
 
 | Veld | Instelling |
-|----------|-----|
+|----------------------------------------|-----------------------------------------|
 | [!UICONTROL Rule Name] | Artikel 1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligente prijsregel |
@@ -159,7 +160,7 @@ De uiteindelijke prijs na toepassing van de regel: $ 15
 | [!UICONTROL Floor Price Action] | Overeenkomst |
 
 | Prijs | Voorwaarde |
-|----------|----|
+|-------|-----------------|
 | $17 | Nieuw |
 | $15 | Nieuw |
 | $14 | gebruikt; Zeer goed |
@@ -188,7 +189,7 @@ De uiteindelijke prijs na toepassing van de regel: $ 13
 ### Intelligente prijsregel die plafondprijs, valutaomrekening en btw combineert
 
 | Veld | Instelling |
-|----------|-----|
+|-----------------------------------|---------------|
 | [!UICONTROL VAT] | 10% |
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 EUR:1 USD |
@@ -204,7 +205,7 @@ Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
 #### Intelligente prijsregel (uit vorige voorbeeld)
 
 | Veld | Instelling |
-|----------|----|
+|----------------------|---------------|
 | Prioriteit | 1 |
 | BTW | 10% |
 | Maximumprijs | $10 |
@@ -217,7 +218,7 @@ Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
 #### Standaardprijsregel
 
 | Veld | Instelling |
-|----------|-----|
+|--------------------------------|-----------------------|
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Vergroten met |
 | [!UICONTROL Apply] | Toepassen als vast bedrag |
@@ -238,7 +239,7 @@ Nadat deze zoekopdracht op basis van deze parameters is uitgevoerd, komt de conc
 Van hier zijn er drie verschillende [prijsregel](./pricing-rule-actions.md) op basis van deze laagste prijs.
 
 | Veld | Beschrijving |
-|--- |--- |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Opties:<ul><li>**[!UICONTROL Decrease By]** - Met deze optie verlaagt u de prijs van je aanbieding ten opzichte van de [laagste prijs van de concurrent](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Met deze optie verhoogt u de prijs van je aanbieding in verhouding tot de [laagste prijs van de concurrent](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Met deze optie wordt de prijs van je Amazon-aanbieding aangepast aan de laagste prijs op basis van de parameters. In het voorbeeld is de Amazon-prijs $25.</li></ul> |
 | [!UICONTROL Apply] | Opties: Toepassen als percentage / Toepassen als vaste hoeveelheid |
 | [!UICONTROL Adjustment Amount] | Numerieke waarde om het percentage of vaste bedrag voor de toe te passen korting te bepalen. <br>Deze selecties resulteren in het nemen van de laagste prijs en het plaatsen van het op $0.01 minder. |
@@ -246,7 +247,7 @@ Van hier zijn er drie verschillende [prijsregel](./pricing-rule-actions.md) op b
 ### Floor Price
 
 | Veld | Instelling |
-|----------|----|
+|--------------------------------------|---------------------|
 | [!UICONTROL Floor Price Source] | Kosten = $5 |
 | [!UICONTROL Floor Price Action] | Vergroten met |
 | [!UICONTROL Apply] | Toepassen als percentage |

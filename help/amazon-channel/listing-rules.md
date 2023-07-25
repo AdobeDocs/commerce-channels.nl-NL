@@ -1,8 +1,9 @@
 ---
 title: Verkoopkanaal van Amazon - [!UICONTROL Listing Rules]
 description: Met de aanbiedingsregels van het gebruik bepaalt u de catalogusproducten die als Amazon Marketplace-aanbiedingen worden gepubliceerd.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Wijzigingen in aantal en status van geschiktheid beïnvloeden alle aanbiedingen 
 Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md).
 
 | Veld | Beschrijving |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | Welke opties beschikbaar zijn, is afhankelijk van de [websites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) u hebt in uw [!DNL Commerce] configuratie. Selecteer de website voor de in aanmerking komende producten die op Amazon worden vermeld. Er kan slechts één website worden geselecteerd, omdat voor elke website een unieke Amazon-winkel nodig is die in Amazon-verkoopkanalen is gemaakt. |
 | [!UICONTROL Conditions] | Hiermee definieert u de [!DNL Commerce] -kenmerken voor producten die in uw Amazon-regio in aanmerking komen. Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 
 - **[!UICONTROL Ineligible Listings]** - Aangeboden producten komen niet in aanmerking voor Amazon-aanbieding op basis van de huidige aanbiedingsregels en -voorwaarden.
 
-   Niet-subsidiabele producten worden niet gepubliceerd naar Amazon. Als een product dat niet in aanmerking komt al op Amazon wordt aangeboden en je de Amazon-aanbieding afstemt op je [!DNL Commerce] catalogusproduct, de hoeveelheid voor de Amazon-aanbieding verandert in `0` om verkoop van het product te voorkomen. Als u een aanbieding handmatig wilt verwijderen, raadpleegt u [Een Amazon-aanbieding beëindigen](./end-listings-manually.md). Producten die niet in aanmerking komen voor Amazon-vereisten worden hier niet vermeld. Deze producten zijn opgenomen in de [Tabblad Niet-actieve aanbiedingen](./inactive-listings.md).
+  Niet-subsidiabele producten worden niet gepubliceerd naar Amazon. Als een product dat niet in aanmerking komt al op Amazon wordt aangeboden en je de Amazon-aanbieding afstemt op je [!DNL Commerce] catalogusproduct, de hoeveelheid voor de Amazon-aanbieding verandert in `0` om verkoop van het product te voorkomen. Als u een aanbieding handmatig wilt verwijderen, raadpleegt u [Een Amazon-aanbieding beëindigen](./end-listings-manually.md). Producten die niet in aanmerking komen voor Amazon-vereisten worden hier niet vermeld. Deze producten zijn opgenomen in de [Tabblad Niet-actieve aanbiedingen](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - Aangeboden producten komen in aanmerking voor Amazon-aanbieding op basis van de huidige aanbiedingsregels en -voorwaarden en komen ook in aanmerking voor Amazon-vereisten. Deze lijst bevat de bestaande Amazon-aanbiedingen die worden geïmporteerd (als je **Aanbiedingen van derden importeren** instellen op `Import Listing` in [Aanbiedingsinstellingen](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 ### Records met aanbiedingsvoorvertoningen
 
 | Veld | Beschrijving |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | Het unieke, opeenvolgende nummer dat aan een [!DNL Commerce] catalogusproduct wanneer het wordt toegevoegd. |
 | [!UICONTROL Thumbnail] | Geeft een miniatuur van de hoofdafbeelding van het product weer. |
 | [!UICONTROL Name] | De naam van het product, beheerd in de [!DNL Commerce] [productraster](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

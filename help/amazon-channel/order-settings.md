@@ -1,10 +1,11 @@
 ---
 title: Amazon-orderinstellingen
 description: Gebruik de Orde-instellingen om te bepalen hoe Amazon-orders worden geïmporteerd in en verwerkt in uw Commerce-winkel.
+feature: Sales Channels, Orders, Inventory, Configuration
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: a93ba31a95f32cc6ea285aed2399255021985693
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -35,9 +36,9 @@ Uit Amazon geïmporteerde bestellingen kunnen worden beheerd in het dialoogvenst
 
    - `Enabled` - (Standaard) Kies wanneer u de corresponderende tekst wilt maken [!DNL Commerce] bestellingen wanneer nieuwe bestellingen van Amazon worden ontvangen. [!DNL Commerce] bestellingen worden aangemaakt op basis van Amazon-status en aandelenniveaus.
 
-      >[!NOTE]
-      >
-      >Amazon-orders importeren moet zijn ingesteld op `Enabled` om Amazon-orders te beheren in het dialoogvenster [!DNL Commerce] [orders](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) workflow. Wanneer ingesteld op `Disabled`, hebben uw Amazon-bestellingen geen overeenkomende [!DNL Commerce] ordernummer en kan niet worden beheerd in [!DNL Commerce]. U beheert deze bestellingen in uw [!DNL Amazon Seller Central] account.
+     >[!NOTE]
+     >
+     >Amazon-orders importeren moet zijn ingesteld op `Enabled` om Amazon-orders te beheren in het dialoogvenster [!DNL Commerce] [orders](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) workflow. Wanneer ingesteld op `Disabled`, hebben uw Amazon-bestellingen geen overeenkomende [!DNL Commerce] ordernummer en kan niet worden beheerd in [!DNL Commerce]. U beheert deze bestellingen in uw [!DNL Amazon Seller Central] account.
 
 1. Voor **[!UICONTROL Import Amazon Orders Into Magento Store]**, kiest u welke [!DNL Commerce] de Amazon-orders opslaan als er een corresponderende volgorde wordt gemaakt in [!DNL Commerce].
 
@@ -54,6 +55,7 @@ Uit Amazon geïmporteerde bestellingen kunnen worden beheerd in het dialoogvenst
    - `Build Using Magento Order Number` - (Standaard) Kies wanneer u een unieke [!DNL Commerce] ordernummer voor de bijbehorende Amazon-order met behulp van de [!DNL Commerce] incrementeel toegewezen order-id.
 
    - `Build Using Amazon Order Number` - Kies wanneer u de [!DNL Commerce] volgordenummer met het corresponderende door Amazon toegewezen ordernummer.
+
    >[!NOTE]
    >
    >Nadat een bestelling is geïmporteerd, wordt het Amazon-ordernummer weergegeven in het dialoogvenster _[!UICONTROL Recent Orders]_op het opslagdashboard. De [!DNL Commerce] het ordernummer wordt weergegeven wanneer u de ordergegevens in het dialoogvenster [!DNL Commerce] [Orders](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) werkruimte.
@@ -71,15 +73,14 @@ Uit Amazon geïmporteerde bestellingen kunnen worden beheerd in het dialoogvenst
 ![Orderinstellingen](assets/amazon-order-settings.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|---|---|
+|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | Opties:<ul><li>**[!UICONTROL Disabled]** - Kies wanneer u geen corresponderende bestellingen wilt maken in [!DNL Commerce] wanneer nieuwe bestellingen van Amazon worden ontvangen. Als u deze optie kiest, worden alle andere velden op deze pagina uitgeschakeld.</li><li>**[!UICONTROL Enabled]** - (Standaard) Kies wanneer u de corresponderende tekst wilt maken [!DNL Commerce] bestellingen wanneer nieuwe bestellingen van Amazon worden ontvangen. [!DNL Commerce] bestellingen worden aangemaakt op basis van Amazon-status en aandelenniveaus.</li></ul><br><br>`Enabled` moet worden gekozen voor het beheren van Amazon-orders in [!DNL Commerce]. Wanneer `Disabled` wordt gekozen, worden uw Amazon-bestellingen weergegeven op het opslagdashboard, maar de bestellingen moeten worden beheerd in uw [!DNL Amazon Seller Central] account. |
 | [!UICONTROL Import Amazon Orders Into Magento Store] | Kiezen welke [!DNL Commerce] bestellingen van Amazon opslaan waaraan wordt gekoppeld wanneer ze worden gemaakt in het dialoogvenster [!DNL Commerce] [Orders](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) werkruimte. Deze instelling wordt standaard ingesteld in de winkelweergave voor de [!DNL Commerce] website geselecteerd wanneer u [toegevoegd aan de Amazon-winkel](./store-integration.md). Als u deze instelling wilt wijzigen, is de lijst met opties afhankelijk van de optie [!DNL Commerce] slaat u opstelling in uw configuratie op. Zie [Winkels](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html). |
 | [!UICONTROL Customer Creation] | Opties:<ul><li>**[!UICONTROL No Customer Creation (guest)]** - (Standaard) Kies wanneer u geen klantenaccount wilt maken in [!DNL Commerce] de geïmporteerde klantgegevens uit de Amazon-bestelling gebruiken. Als u deze optie kiest, krijgt deze de volgende informatie [!DNL Commerce] om een geïmporteerde Amazon-bestelling te verwerken op dezelfde manier als een uitcheckbewerking voor gasten.</li><li>**[!UICONTROL Build New Customer Account]** - Kies wanneer u een nieuwe klantenaccount wilt maken in uw [!DNL Commerce] met de klantgegevens die met de Amazon-order zijn geïmporteerd. Met deze optie kunt u uw [!DNL Commerce] van uw Amazon-bestellingen.</li></ul> |
 | Bron van ordernummer | Opties:<ul><li>**[!UICONTROL Build Using Magento Order Number]** - (Standaard) Kies wanneer u een unieke [!DNL Commerce] ordernummer voor de bijbehorende Amazon-order met behulp van de [!DNL Commerce] incrementeel toegewezen order-id. </li><li>**Samenstellen met Amazon Order Number** - Kies wanneer u de [!DNL Commerce] volgordenummer met het corresponderende door Amazon toegewezen ordernummer.</li></ul> |
 | In behandeling zijnde bestellingen | Opties:<ul><li>**[!UICONTROL Do Not Reserve Quantity]** - Kies wanneer u uw [!DNL Commerce] voorraadhoeveelheid die wordt beïnvloed door je Amazon-bestellingen. Kies of u Amazon gebruikt voor uw uitvoeringsproces (FBA). Wanneer je kiest en je een Amazon-bestelling ontvangt, heeft het bestelde aantal geen invloed op je [!DNL Commerce] voorraadhoeveelheid.</li><li>**[!UICONTROL Reserve Quantity]** - Kies wanneer u het orderaantal in de Amazon-volgorde wilt &quot;gereserveerd&quot; in uw [!DNL Commerce] voorraadhoeveelheid. Wanneer je kiest en je een Amazon-bestelling ontvangt, wordt het bestelde aantal in je [!DNL Commerce] voorraadhoeveelheid om je [!DNL Commerce] voorraad van &#39;over-sales&#39;. De hoeveelheid &quot;gereserveerd&quot; kan niet worden aangeschaft via uw [!DNL Commerce] storefront.</li></ul> |
-| [!UICONTROL Order Status] | Opties:<ul><li>**[!UICONTROL Default Order Status]** - (Standaardinstelling) Kies wanneer u wilt dat aan nieuw gemaakte bestellingen die u uit Amazon hebt geïmporteerd, de status van de standaardvolgorde wordt toegewezen voor nieuwe bestellingen. De standaardstatus voor nieuwe orders (tenzij u een aangepaste orderstatus voor nieuwe orders hebt gemaakt) is `Pending`. Zie [Bezig met verwerken van bestellingen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>>**[!UICONTROL Custom Order Status]** - Kies wanneer u wilt dat nieuwe orders die u uit Amazon hebt geïmporteerd, een andere status krijgen dan de standaardstatus. Indien gekozen, **[!UICONTROL Processing Order Status]** Hiermee kunt u de status kiezen die u wilt gebruiken voor nieuwe bestellingen die uit Amazon zijn geïmporteerd.</li></ul> |
-| [!UICONTROL Processing Orders Status] | Ingeschakeld als _[!UICONTROL Order Status]_is ingesteld op `Custom Order Status`. Kies de orderstatus die u wilt toewijzen aan nieuwe bestellingen. De opties in dit veld zijn afhankelijk van de standaardstatusopties in het veld [!DNL Commerce]. Zie [Status van bestelling](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). U kunt ook een aangepaste orderstatus maken die hier wordt weergegeven. Als u een aangepaste orderstatus wilt maken, raadpleegt u [Status van aangepaste bestelling]( | [!UICONTROL Processing Orders Status] | Ingeschakeld als _[!UICONTROL Order Status]_is ingesteld op `Custom Order Status`. Kies de orderstatus die u wilt toewijzen aan nieuwe bestellingen. De opties in dit veld zijn afhankelijk van de standaardstatusopties in het veld [!DNL Commerce]. Zie [Status van bestelling](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). U kunt ook een aangepaste orderstatus maken die hier wordt weergegeven. Als u een aangepaste orderstatus wilt maken, raadpleegt u [Status van aangepaste bestelling](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html#custom-order-status). |
-| ). |
+| [!UICONTROL Order Status] | Opties:<ul><li>**[!UICONTROL Default Order Status]** - (Standaardinstelling) Kies wanneer u wilt dat aan nieuw gemaakte bestellingen die u uit Amazon hebt geïmporteerd, de status van de standaardvolgorde wordt toegewezen voor nieuwe bestellingen. De standaardstatus voor nieuwe orders (tenzij u een aangepaste orderstatus voor nieuwe orders hebt gemaakt) is `Pending`. Zie [Bezig met verwerken van bestellingen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).</li><li>**[!UICONTROL Custom Order Status]** - Kies wanneer u wilt dat nieuwe orders die u uit Amazon hebt geïmporteerd, een andere status krijgen dan de standaardstatus. Indien gekozen, **[!UICONTROL Processing Order Status]** Hiermee kunt u de status kiezen die u wilt gebruiken voor nieuwe bestellingen die uit Amazon zijn geïmporteerd.</li></ul> |
+| [!UICONTROL Processing Orders Status] | Ingeschakeld als _[!UICONTROL Order Status]_is ingesteld op `Custom Order Status`. Kies de orderstatus die u wilt toewijzen aan nieuwe bestellingen. De opties in dit veld zijn afhankelijk van de standaardstatusopties in het veld [!DNL Commerce]. Zie [Status van bestelling](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-status.html). U kunt ook een aangepaste orderstatus maken die hier wordt weergegeven. Als u een aangepaste orderstatus wilt maken, raadpleegt u [Status van aangepaste bestelling] |
 
 ## [!DNL Commerce] bestellen
 
@@ -92,7 +93,7 @@ Uit Amazon geïmporteerde bestellingen kunnen worden beheerd in het dialoogvenst
 >Alleen ondersteund in Adobe Commerce en Magento Open Source 2.3.x-integratie.
 
 | Afuitvoeringskanaal | [!DNL Commerce] Inventarisstatus | Status Amazon-bestelling | [!UICONTROL Create Magento Order] Instelling | Voorraad gereserveerd |
-|---|---|---|---|---|
+|---------------------|-------------------------------------------|---------------------|-------------------------------------------|--------------------|
 | FBA | In voorraad<br>Buiten de voorraad<br>Niet beheren | In behandeling | Nee | Nee |
 | FBA | In voorraad<br>Buiten de voorraad<br>Niet beheren | PendingAvailability | Nee | Nee |
 | FBA | In voorraad<br>Buiten de voorraad<br>Niet beheren | Geannuleerd | Nee | Nee |

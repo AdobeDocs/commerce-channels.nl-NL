@@ -1,8 +1,9 @@
 ---
 title: '"Intelligente prijsregel: Regeltype selecteren'
 description: Bepaal de prijs van je Amazon-aanbieding op basis van de prijs van een concurrent door een intelligente prijsregel te maken.
+feature: Sales Channels, Products, Price Rules
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Definieer het regeltype in het dialoogvenster _[!UICONTROL Select Rule Type]_sec
 ![Intelligente prijsregel - selecteer regeltype](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Selecteer een regeltype. Opties:<ul><li>**[!UICONTROL Standard price rule]** - Met dit soort regels kun je de Amazon-prijs verhogen of verlagen met een bepaald percentage of een bepaald bedrag in dollar ten opzichte van _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]** - Met dit soort regels kun je de prijs van je Amazon-aanbieding aanpassen op basis van de prijs van de concurrent. Wanneer u kiest, wordt _[!UICONTROL Minimum Positive Feedback]_en_[!UICONTROL Minimum Feedback Count]_ velden zijn ingeschakeld.</li></ul> |
 | [!UICONTROL Competitor Price Source] | Selecteer de gewenste prijsbron. Opties:<ul><li>**[!UICONTROL Use "Buy Box" Price]** - Kies deze optie als u de Amazon-prijs wilt aanpassen op basis van de Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) verkoopprijs. A [!DNL Buy Box] Er is een prijs wanneer meerdere verkopers op Amazon hetzelfde product aanbieden. Amazon definieert de [!DNL Buy Box] verkoper op basis van prestatievereisten. Handelaren willen de [!DNL Buy Box] de status van de verkoper en de maximale zichtbaarheid van hun productaanbiedingen.</li><li>**[!UICONTROL Use Lowest Competitor Price]** - Kies deze optie als je de prijs van je aanbieding wilt vergelijken en aanpassen aan de [laagste prijsstelling voor concurrenten](./lowest-competitor-pricing.md) voor hetzelfde product. Wanneer u kiest, wordt _[!UICONTROL Minimum Positive Feedback]_en_[!UICONTROL Minimum Feedback Count]_ velden zijn ingeschakeld.</li></ul> |
 | [!UICONTROL Minimum Positive Feedback] | Alleen actief als `Use Lowest Competitor Price` wordt gekozen. Opties:<ul><li>**[!UICONTROL All Competitor's Prices]** - Kies wanneer u uw prijzen wilt vergelijken en aanpassen op basis van alle prijzen van concurrenten voor hetzelfde product.</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]** - Kies wanneer u de concurrenten wilt beperken tot wie u vergelijkt en pas uw prijzen aan. Met deze instelling worden uw concurrenten verder beperkt doordat hun aanbieding een minimum van het gekozen percentage positieve feedback moet hebben en vervolgens de laagste prijs van die subset concurrenten moet gebruiken.</li></ul> |

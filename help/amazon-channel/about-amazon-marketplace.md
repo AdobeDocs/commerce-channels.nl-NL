@@ -1,8 +1,10 @@
 ---
 title: "Info [!DNL Amazon Marketplace]"
 description: Vergroot het bereik van je Adobe Commerce- of Magento Open Source-winkel door je productcatalogus te gebruiken als aanbiedingen op de Amazon Marketplace.
+role: Leader, Admin, User
+feature: Sales Channels, Tools and External Services
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%

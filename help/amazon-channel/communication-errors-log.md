@@ -1,8 +1,9 @@
 ---
 title: Logboek voor communicatiefouten in Amazon
 description: In het Communication Errors Log worden communicatiefouten weergegeven tussen Amazon en [!DNL Commerce].
+feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](
 ## Standaardkolommen
 
 | Kolom | Beschrijving |
-|--- |--- |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | De naam van de winkel die is gedefinieerd toen de Amazon Store werd ingesteld. Zie [Opslagintegratie](./store-integration.md). |
 | [!UICONTROL Error Code] | De code die van Amazon wordt ontvangen om het fouttype te identificeren. |
 | [!UICONTROL Message] | Het bericht dat de fout beschrijft verbonden aan de foutencode. |

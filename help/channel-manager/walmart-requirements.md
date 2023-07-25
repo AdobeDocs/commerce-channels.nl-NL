@@ -1,8 +1,10 @@
 ---
 title: '''[!DNL Walmart] Vereisten'
 description: '"Controleer of u de vereiste [!DNL Walmart Marketplace]informatie en bronnen die met Channel Manager moeten worden geïntegreerd.'''
+role: Leader, Admin, Developer
+feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 * Een API-sleutel om Adobe Commerce of Magento Open Source om te verbinden met [!DNL Walmart Marketplace]
 
-   De [!DNL Walmart Marketplace] API-sleutel maakt de integratie mogelijk tussen [!DNL Channel Manager] voor Adobe [!DNL Commerce] of Magento Open Source en de Walmart Marketplace. Stel de API-sleutel in Seller Central in voordat u Kanaalbeheer aan boord gaat.
+  De [!DNL Walmart Marketplace] API-sleutel maakt de integratie mogelijk tussen [!DNL Channel Manager] voor Adobe [!DNL Commerce] of Magento Open Source en de Walmart Marketplace. Stel de API-sleutel in Seller Central in voordat u Kanaalbeheer aan boord gaat.
 
 ## Een [!DNL Walmart Seller] account
 

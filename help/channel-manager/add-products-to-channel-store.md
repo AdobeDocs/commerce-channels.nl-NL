@@ -1,8 +1,9 @@
 ---
 title: Producten toevoegen aan Channel Manager
 description: 'Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten van de catalogus aan het verkoopkanaal toe te voegen dat in de Manager van het Kanaal wordt gevormd.'
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
    - Selecteren **[!UICONTROL Save]**.
 
-      Er wordt een bevestigingsbericht weergegeven.
+     Er wordt een bevestigingsbericht weergegeven.
 
-      ![Bevestigingsbericht voor het importeren van producten uit catalogus naar verkoopkanaal](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![Bevestigingsbericht voor het importeren van producten uit catalogus naar verkoopkanaal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Als het bericht aangeeft dat de update is gepland, gebruikt u de [wachtrij:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] gebruiken om de update onmiddellijk te verwerken.
+     Als het bericht aangeeft dat de update is gepland, gebruikt u de [wachtrij:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] gebruiken om de update onmiddellijk te verwerken.
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. Nadat het importeren is voltooid, controleert u de producten die u hebt toegevoegd door terug te keren naar [!DNL Channel Manager] en selecteren **[!UICONTROL Listings]**.
 

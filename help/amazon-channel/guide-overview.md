@@ -3,8 +3,11 @@ title: '''[!DNL Amazon Sales Channel] Hulplijn'
 description: Uitgebreide informatie over [!DNL Amazon sales channel] voor Adobe Commerce- en Magento Open Source-beheerders, inclusief installatie en instapweigering
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +30,7 @@ Deze handleiding bevat enkele basisbeginselen [!DNL Amazon Seller Central] infor
 >Deze handleiding heeft geen betrekking op de kernmogelijkheden van Adobe Commerce en Magento Open Source.
 
 | Gebied | Beschrijving |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Inleiding tot Amazon-verkoopkanaal](./overview.md) | Meer informatie over de basisbeginselen van Amazon-verkoopkanalen, belangrijke functies, aanbevolen procedures en meer. |
 | [Onboard Amazon-verkoopkanaal](./amazon-onboarding-home.md) | Snel Amazon-winkels maken en integreren met [!DNL Amazon Seller Central]. Je verkoopkanaal van Amazon is aan de slag om te beginnen met verkopen. |
 | [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) | Meer weten over de homepage van het verkoopkanaal van Amazon en de beschikbare opties en taken? Beknopte informatie weergeven over je Amazon-winkels en toegang tot winkelgegevens en -instellingen. |
@@ -40,7 +43,7 @@ Deze handleiding bevat enkele basisbeginselen [!DNL Amazon Seller Central] infor
 ## Aanvullende documentatie
 
 | Documentatiebron | Beschrijving |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4 Handelsdocumentatie](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
 | [Services voor Adobe Commerce-documentatie](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Documentatie om een inzameling van de diensten te steunen die handelaren helpen zeer belangrijke componenten van hun zaken met hun opslag integreren. |
 | [Handel in de infrastructuurgids voor de cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Stapsgewijze procedures voor de implementatie van Adobe Commerce op een beheerd, geautomatiseerd hostingplatform voor de cloud. |

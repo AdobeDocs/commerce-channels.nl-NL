@@ -1,8 +1,10 @@
 ---
 title: Aanbevolen werkwijzen en beperkingen voor [!DNL Amazon sales channel]
 description: Bekijk de beste praktijken en beperkingen wanneer het gebruiken van het verkoopkanaal van Amazon voor Adobe Commerce en Magento Open Source.
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ De beste praktijken omvatten:
 
 - Voor Britse regio&#39;s is het de beste praktijk om zich in te schrijven in de [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} voordat het verkoopkanaal van Amazon wordt ingeschakeld.
 
-
-   >[!NOTE]
-   >
-   >Het kan 10-14 dagen duren voordat Amazon je rekening voor de BTW-berekeningsservice heeft gecontroleerd en geactiveerd.
+  >[!NOTE]
+  >
+  >Het kan 10-14 dagen duren voordat Amazon je rekening voor de BTW-berekeningsservice heeft gecontroleerd en geactiveerd.
 
 De beperkingen omvatten:
 

@@ -1,8 +1,9 @@
 ---
 title: Kenmerken voor Amazon-aanbiedingen
 description: Amazon Sales Channel biedt de [!UICONTROL Attributes] om de lijst met Amazon- en handelskenmerken te controleren en te bepalen hoe deze worden toegewezen voor productmatching.
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ Van de _[!UICONTROL Attributes]_bekijk, u en herzie uw attributenmontages in de 
 
    - Om te deactiveren of [de instellingen bewerken](./creating-attributes.md#edit-an-attribute) of Overeenkomende kenmerkwaarden voor het kenmerk klikt u op **[!UICONTROL Edit]**.
 
-      Het uitgeven van een attribuut omvat het veranderen van de attributenafbeelding voor product aanpassing.
+     Het uitgeven van een attribuut omvat het veranderen van de attributenafbeelding voor product aanpassing.
 
 | Veld | Beschrijving |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | Het land van verkoop als omschreven in  **[!DNL Amazon Marketplace]Land** tijdens [winkelintegratie](./store-integration.md). |
 | [!UICONTROL ID] | Algemene kenmerkwaarde gegenereerd door [!DNL Commerce] wanneer het kenmerk wordt gemaakt. |
 | [!UICONTROL Amazon Attribute Name] | De naam van het kenmerk dat uit Amazon is geïmporteerd. |

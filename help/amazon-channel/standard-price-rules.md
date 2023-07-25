@@ -1,8 +1,9 @@
 ---
 title: Verkoopkanaal in Amazon - Handelingen met standaardprijsregels
 description: Gebruik de standaardhandelingen voor prijsregels om een Amazon-aanbiedingsprijs te verhogen of te verlagen ten opzichte van de catalogusprijs (of de prijsbron) van de Handel.
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ De volgende onderdelen van een standaardprijsregel zijn:
 ![Standaardprijsregel](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Selecteren `Standard price rule`. |
 | [!UICONTROL Price Action] | Opties:<ul><li>**[!UICONTROL Decrease By]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron moet worden verlaagd voordat deze aan Amazon wordt aangeboden.</li><li>**[!UICONTROL Increase By]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron moet worden verhoogd voordat deze aan Amazon wordt aangeboden.</li></ul> |
 | [!UICONTROL Apply] | Opties:<ul><li>**[!UICONTROL Apply as percentage]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron gecorrigeerd met een percentage.</li><li>**[!UICONTROL Apply as fixed amount]** - Kies wanneer u de definitie wilt [!DNL Commerce] de waarde van de prijsbron aangepast met een vast bedrag.</li></ul> |

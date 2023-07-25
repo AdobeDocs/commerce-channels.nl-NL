@@ -1,8 +1,9 @@
 ---
 title: "Installeer de [!DNL Amazon Sales Channel] extension"
 description: Om uw [!DNL Commerce] catalogus met [!DNL Amazon Seller Accounts] en verkopen via [!DNL Amazon Marketplace], downloadt en installeert u de Amazon Sales Channel-extensie.
-exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, Developer
+feature: Sales Channels, Install, Integration, Tools and External Services
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -50,7 +51,6 @@ Voor meer gedetailleerde informatie over het gebruik van Composer voor dit proce
    - Voer uw [verificatietoetsen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). Uw openbare sleutel is uw gebruikersnaam; uw persoonlijke sleutel is uw wachtwoord.
 
    - Wacht op Composer om uw projectgebiedsdelen te beëindigen en ervoor te zorgen dat er geen fouten zijn.
-
 
 1. [De extensie verifiëren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 

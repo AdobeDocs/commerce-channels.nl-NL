@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Amazon Sales Channel] opmerkingen vrijgeven'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
+feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 0%
@@ -16,6 +17,7 @@ ht-degree: 0%
 > [!DNL Amazon sales channel] kan worden geïnstalleerd op instanties met Magento Open Source, Adobe Commerce en Adobe Commerce op versie 2.3.x en 2.4.x van de wolkeninfrastructuur. De extensie wordt niet meer ondersteund in Adobe Commerce 2.1, Magento Open Source 2.2 of Magento 1.
 > <br>Ondersteuning is beschikbaar voor [!DNL Amazon sales channel]  Alleen versies 4.0.0 en 4.1.0 op Adobe Commerce 2.3.x.
 > <br>[!DNL Amazon sales channel] versie 4.2.0+ is compatibel met Adobe Commerce 2.3.x-versies, maar ondersteuning is alleen beschikbaar voor Adobe Commerce 2.4.x-versies.
+>
 
 In deze releaseopmerkingen wordt de eerste release van [!DNL Amazon sales channel] en omvatten:
 

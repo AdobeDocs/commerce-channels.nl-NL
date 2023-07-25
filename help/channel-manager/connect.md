@@ -1,10 +1,11 @@
 ---
 title: '''Verbinden met [!DNL Commerce] Diensten'
 description: 'Kanaalbeheer verbinden met [!DNL Commerce] diensten om gegevenssynchronisatie en communicatie tussen de [!DNL Commerce] bijvoorbeeld Channel Manager en andere ondersteunende services.'
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 
 - **Handelsrekening**-Om software te installeren op [!DNL Commerce] exemplaren, moet u een rekening met Eigenaar of Admin toegang tot hebben [!DNL Commerce] platform.
 
-   Accounteigenaars en Super-gebruikers kunnen beheerdersaccounts maken via de [!DNL Commerce] instantie of vanaf de opdrachtregel met behulp van de [!DNL Commerce] CLI, opdracht `admin:user:create`.
+  Accounteigenaars en Super-gebruikers kunnen beheerdersaccounts maken via de [!DNL Commerce] instantie of vanaf de opdrachtregel met behulp van de [!DNL Commerce] CLI, opdracht `admin:user:create`.
 
 - **Adobe Commerce Production API Key**-This [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
 

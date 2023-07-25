@@ -1,8 +1,9 @@
 ---
 title: Kenmerken van catalogus toewijzen
 description: '''Map attributes for matching [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart]."'
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ Als uw catalogus geen overeenkomend kenmerk heeft, [Een bestaand cataloguskenmer
 
    - Selecteer het desbetreffende kenmerk in het menu [!DNL Commerce] opslagcatalogus.
 
-      In het volgende voorbeeld worden de [!UICONTROL Walmart Marketplace UPC] aan het attribuut UPC in de productcatalogus.
+     In het volgende voorbeeld worden de [!UICONTROL Walmart Marketplace UPC] aan het attribuut UPC in de productcatalogus.
 
-      ![Kenmerken toewijzen voor productcriteria](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![Kenmerken toewijzen voor productcriteria](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Selecteren **[!UICONTROL Save]**.

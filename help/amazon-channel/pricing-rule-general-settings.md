@@ -1,8 +1,9 @@
 ---
-title: Amazon-verkoopkanaal - Algemene instellingen prijsregel
+title: Amazon Sales Channel - Algemene instellingen prijsregel
 description: Met de algemene instellingen van de prijsregel definieert u de primaire kenmerken van een prijsregel voor aanbiedingen.
+feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Definieer de naam, beschrijving, actieve datums en prioriteit voor de regel.
 ![Algemene instellingen voor prijsregel](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|---|---|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Vereist) Voer een naam voor de regel in die wordt gebruikt voor interne identificatie. Hoe beschrijvender de regelnaam, hoe beter. Bijvoorbeeld: &quot;25% korting op jaarultimo.&quot; |
 | [!UICONTROL Description] | Voer een gedetailleerde beschrijving in die de regel (die ook voor interne doeleinden wordt gebruikt) uitlegt. Bijvoorbeeld: &quot;Verkoop einde jaar, 25% korting op alle objecten in de categorie Boeken.&quot; |
 | [!UICONTROL Status] | Opties:<ul><li>**[!UICONTROL Inactive]** - De prijsregel geldt niet voor je aanbiedingen. Deze optie kan worden gebruikt wanneer u een prijsregel wijzigt of deze uitschakelt na een beperkte promotie.</li><li>**[!UICONTROL Active]** - De prijsregel geldt voor je aanbiedingen en pas de prijs van je aanbieding aan voordat je op Amazon publiceert.</li></ul> |

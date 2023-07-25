@@ -1,9 +1,9 @@
 ---
 title: Amazon-prijzen beheren
 description: Je kunt de prijzen voor je Amazon-aanbiedingen op basis van de prijsregels instellen zodat ze afwijken van je winkels.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Er zijn twee soorten prijsregels:
 - [Standaardprijsregel](./standard-price-rules.md)
 - [Intelligente regel voor herstelling](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Intelligente prijsstellingsregels functioneren niet naar behoren als de Amazon-regio is ingesteld op `Inactive` status, zoals tijdens het instappen. Je prijsberekeningen zijn afhankelijk van je verzendkosten en je regio moet binnen zijn `Active` status voor je verzendkosten die je vanaf Amazon wilt synchroniseren.
-   >
-   >Ga naar Instellingen > Accountinformatie > Vakantie-instellingen om de status van uw regio in uw Amazon-account bij te werken. Zie [Amazon: Aanbiedingsstatus voor vakanties](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Aanmelden bij Verkoper is vereist).
+  >[!IMPORTANT]
+  >
+  >Intelligente prijsstellingsregels functioneren niet naar behoren als de Amazon-regio is ingesteld op `Inactive` status, zoals tijdens het instappen. Je prijsberekeningen zijn afhankelijk van je verzendkosten en je regio moet binnen zijn `Active` status voor je verzendkosten die je vanaf Amazon wilt synchroniseren.
+  >
+  >Ga naar Instellingen > Accountinformatie > Vakantie-instellingen om de status van uw regio in uw Amazon-account bij te werken. Zie [Amazon: Aanbiedingsstatus voor vakanties](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Aanmelden bij Verkoper is vereist).
 
 Met deze functie kun je je Amazon-prijzen op een vergelijkbare manier manipuleren als met de [!DNL Commerce] [catalogusprijsregels](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). U kunt complexe regels maken waarmee u de prijzen voor specifieke producten, producten binnen specifieke categorieën of zelfs met specifieke kenmerken kunt wijzigen.
 
@@ -58,7 +58,7 @@ Een andere prijsstellingsoptie is een [prijsoverschrijving](./overrides.md), die
 ## Standaardkolommen
 
 | Kolom | Beschrijving |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | De naam van de prijsregel, zoals ingesteld in [Algemene instellingen prijsregel](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | Het regeltype, zoals ingesteld in [Handelingen voor prijsregel](./pricing-rule-actions.md) (Standaardprijsregel of Intelligent repricing rule) |
 | [!UICONTROL Is Active] | Of de regel actief is, zoals ingesteld in [Algemene instellingen prijsregel](./pricing-rule-general-settings.md) |

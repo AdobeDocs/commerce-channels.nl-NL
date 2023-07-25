@@ -1,8 +1,9 @@
 ---
-title: Verkoopkanaal van Amazon - [!UICONTROL Stock/Quantity]
+title: Amazon Sales Channel - [!UICONTROL Stock/Quantity]
 description: De synchronisatie van de gegevens over de hoeveelheid producten van je winkel voor Koophandel met je [!DNL Amazon Seller Central] de voorraad/hoeveelheid-instellingen bijwerken.
+feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Hoeveelheid is een regionaal kenmerk en is gebaseerd op de **[!UICONTROL Amazon 
 ![Instellingen voor voorraad/aantal](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|---|---|
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Out-of-Stock Threshold] | Voer een numerieke waarde in voor de laagste hoeveelheid van een product om het product in aanmerking te laten komen voor de Amazon-aanbieding (standaard is `0`).<br><br>Als uw [!DNL Commerce] De voorraad van het product is lager dan dit aantal. De desbetreffende Amazon-aanbieding komt niet in aanmerking voor verkoop via Amazon. |
 | [!UICONTROL Maximum Listed Quantity] | Voer een numerieke waarde in voor het aantal dat je in de Amazon-aanbieding wilt weergeven.<br><br>Wanneer een object wordt verkocht, wordt de aanbieding opnieuw gepubliceerd met de hier opgegeven hoeveelheid. Deze instelling wordt doorgaans gebruikt wanneer u de productvoorraad niet beheert.<br><br>Je voert bijvoorbeeld de waarde Maximum aantal aangeboden objecten in als `10`. De werkelijke hoeveelheid voor een product is `80`. Omdat u deze waarde hebt ingesteld op `10`, de Amazon-aanbieding geeft altijd een beschikbare hoeveelheid weer van `10`. De beschikbare hoeveelheid wordt altijd weergegeven met de gedefinieerde waarde, zelfs als het voorraadaantal lager is. |
 | [!UICONTROL "Do Not Manage Stock" Quantity] | Voer een waarde in voor het weergaveaantal voor je Amazon-aanbiedingen.<br><br>Amazon vereist dat je een beschikbaar aantal publiceert. Voor [!DNL Commerce] producten die zijn ingesteld om geen voorraad te beheren maar die je op Amazon wilt aanbieden, worden gepubliceerd met een beschikbare hoeveelheid van de hier ingevoerde waarde. |

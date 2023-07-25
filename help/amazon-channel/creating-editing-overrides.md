@@ -1,8 +1,9 @@
 ---
 title: Overschrijvingen van Amazon-verkoopkanalen maken en bewerken
 description: Met Amazon Sales Channel overschrijven kun je je wijzigingen toepassen op één Amazon-aanbieding of op meerdere aanbiedingen.
+feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -112,7 +113,7 @@ De _[!UICONTROL Edit Listing Overrides]_actie is beschikbaar op_[!UICONTROL Inac
 ### Typen overschrijven
 
 | Negeren | Beschrijving |
-|--- |--- |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Override] | Een prijsoverschrijving definieert de prijs voor de aanbiedingen. Deze overschrijving heeft voorrang op alle geautomatiseerde instellingen totdat de overschrijving wordt verwijderd.<br><br>Kies **[!UICONTROL Change Listing Price]** en voer de nieuwe prijs in voor **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | Met een overschrijvingstijd van de verwerkingstijd wordt de tijd (in dagen) voor het verwerken en verzenden van producten gedefinieerd. Een het behandelen tijdopheffing neemt voorrang over alle geautomatiseerde en standaard behandelingstijdinstellingen tot de opheffing wordt verwijderd.<br><br>De waarde in het dialoogvenster _[!UICONTROL Handling Time Override]_is de standaardverwerkingstijd die in uw [aanbiedingsinstellingen](./listing-settings.md) of de door u gedefinieerde verwerkingstijd voor overschrijven. Als je een overschrijving van de afhandelingstijd verwijdert, wordt de aanbieding standaard afgehandeld volgens de verwerkingstijd die in de aanbiedingsinstellingen is opgegeven.<br><br>Als u een overschrijving wilt definiëren, kiest u **[!UICONTROL Change Handling Time]**en voer de nieuwe verwerkingstijd (in dagen) in voor **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Kies **[!UICONTROL Change Condition]** en kies de nieuwe voorwaarde van **Voorwaarde overschrijven**. |

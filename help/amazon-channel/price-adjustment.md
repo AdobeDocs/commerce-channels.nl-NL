@@ -1,8 +1,9 @@
 ---
 title: Verkoopkanaal van Amazon - [!UICONTROL Price Adjustment]
 description: Prijsaanpassingen configureren om de prijsberekening te bepalen wanneer u de prijsbron van de Amazon-concurrent hebt geïdentificeerd.
+feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Bepaal uw prijsaanpassing in _[!UICONTROL Price Adjustment]_sectie.
 ![Intelligente prijsregel - prijsaanpassing](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|---|---|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Kies een handeling voor het aanpassen van de prijzen. Opties:<br>**[!UICONTROL Decrease By]**- Kies wanneer u de definitie wilt _[!UICONTROL Magento Price Source]_gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) om te worden aangepast, waardoor een lagere prijs voor de regel wordt gemaakt, voordat je de aanbieding aan Amazon aanbiedt.<br>**[!UICONTROL Increase By]**- Kies wanneer u de definitie wilt_[!UICONTROL Magento Price Source]_ gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) worden aangepast, waardoor een hogere prijs voor de regel wordt gecreëerd, voordat wordt aangeboden aan Amazon.<br>**[!UICONTROL Match Competitor Price]**- (Alleen de regel voor intelligente prijsstelling) Kies wanneer je de prijs van je Amazon-aanbieding wilt aanpassen aan de [laagste concurrent](./lowest-competitor-pricing.md) prijs, op basis van feedback van uw concurrent en variantieparameters. Wanneer u kiest, wordt _Toepassen_ en _Aanpassingsbedrag_ velden worden verwijderd. |
 | [!UICONTROL Apply] | Opties:<br>**[!UICONTROL Apply as percentage]**- Kies wanneer u de definitie wilt _[!UICONTROL Magento Price Source]_gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) aangepast met een percentage.<br>**[!UICONTROL Apply as fixed amount]**- Kies wanneer u de definitie wilt_[!UICONTROL Magento Price Source]_ gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) aangepast met een vast bedrag. |
 | [!UICONTROL Adjustment Amount] | Vereist.<br>Als u `Apply as percentage` for **[!UICONTROL Apply]** Voer de percentagewaarde in (voorbeeld: enter `25` voor een aanpassing van 25%).<br>Als u `Apply as fixed amount` for **[!UICONTROL Apply]** Voer de numerieke waarde voor het vaste bedrag in (bijvoorbeeld: enter `25` voor een vaste correctie van $ 25). |

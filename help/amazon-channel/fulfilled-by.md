@@ -1,9 +1,9 @@
 ---
 title: Op instellingen voor Amazon-aanbiedingen ingevuld door
 description: Gebruik de instellingen van het venster Betaald door om te bepalen hoe de bestellingen van Amazon-aanbiedingen zijn uitgevoerd (verzonden).
-redirect_from: /sales-channels/asc/ob-fulfilled-by.html
+feature: Sales Channels, Products
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -42,14 +42,14 @@ De uitvoeringsmethode is een regionaal kenmerk en is gebaseerd op de **[!UICONTR
 
    - `Assign Fulfilled By Using Magento Product Attribute` - A [!DNL Commerce] geeft aan wie de volgorde per product heeft.
 
-      Kies desgewenst de optie [!DNL Commerce] kenmerk waarin u wilt toewijzen **[!UICONTROL Fulfilled by Attribute]**.
+     Kies desgewenst de optie [!DNL Commerce] kenmerk waarin u wilt toewijzen **[!UICONTROL Fulfilled by Attribute]**.
 
 1. Klik op **[!UICONTROL Save listing settings]**.
 
 ![Betaald door instellingen](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product Fulfilled By] | Opties:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Kies of u aan de bestellingen voldoet. Wanneer een bestelling wordt geplaatst, wordt de voorraad van uw [!DNL Commerce] catalogus. Wanneer een nieuw product wordt gecreeerd, wordt de uitvoeringsmethode van Merchant Fulfill toegewezen.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Kies of Amazon aan de bestellingen voldoet. Met deze uitvoeringsmethode wordt de productvoorraad niet afgetrokken van uw [!DNL Commerce] catalogus wanneer een bestelling wordt geplaatst. Wanneer een product wordt gemaakt, wordt het gemaakt met _[!UICONTROL Fulfilled by Amazon (FBA)]_als het afhandelingstype. Zorg ervoor dat uw producten in aanmerking komen voor FBA-conformiteit binnen uw [!DNL Amazon Seller Central] account. De FBA-voorraad wordt ook rechtstreeks beheerd via uw [!DNL Amazon Seller Central] account. Met deze uitvoeringsmethode worden updates van het aantal niet uitgeduwd ten opzichte van uw [!DNL Commerce] catalogus, dus u kunt niet een aantal marketinggereedschappen gebruiken die worden beschreven in [Instellingen voor voorraad/hoeveelheid](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Kies een bestaande [!DNL Commerce] attribuut dat bepaalt of het door de handelaar wordt vervuld of door Amazon wordt vervuld. Indien gekozen, **[!UICONTROL Fulfilled by Attribute]** schakelt.</li></ul> |
 | [!UICONTROL Fulfilled By Attribute] | Kies de optie [!DNL Commerce] kenmerk dat wordt gebruikt om de uitvoeringsmethode te bepalen.<br><br>Als het kenmerk bijvoorbeeld _Betaald door_ en u kiest de kenmerkwaarde als `Fulfilled By Merchant` of `Fulfilled By Amazon (FBA)`, gebruikt het systeem die waarde als het afhandelingstype voor een nieuw product. Als verkoper moet u ervoor zorgen dat uw producten in aanmerking komen voor FBA-afhandeling binnen uw [!DNL Amazon Seller Central] account. De FBA-voorraad wordt ook rechtstreeks beheerd via je Amazon-verkopersaccount.<br><br>Welke opties beschikbaar zijn, is afhankelijk van de kenmerken die u instelt voor uw Amazon-producten. |
 

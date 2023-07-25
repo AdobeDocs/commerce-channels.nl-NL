@@ -1,8 +1,9 @@
 ---
 title: Aanbiedingen beheren
 description: 'Aanbiedingen in verkoopkanalen beheren voor een [!DNL Commerce] Opslaan met Channel Manager voor Adobe Commerce en Magento Open Source.'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ In de werkruimte van de aanbieding geeft het label Status aan waar een product z
 
 * **[!UICONTROL Match]**- Identificeert producten die met succes werden aangepast [!DNL Walmart].
 
-   Er is een overeenkomst wanneer de waarde van het productkenmerk (bijvoorbeeld de UPC-code) overeenkomt met de UPC-waarde in een bestaand kenmerk [!DNL Walmart Marketplace] aanbieding. Wanneer een product overeenkomt, wordt het aanbod van het product van de Handel toegevoegd aan de bestaande aanbieding.
+  Er is een overeenkomst wanneer de waarde van het productkenmerk (bijvoorbeeld de UPC-code) overeenkomt met de UPC-waarde in een bestaand kenmerk [!DNL Walmart Marketplace] aanbieding. Wanneer een product overeenkomt, wordt het aanbod van het product van de Handel toegevoegd aan de bestaande aanbieding.
 
-   Controleer de [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard om de bijgewerkte productlijst te bekijken en de productgegevens, de prijs en de voorraad te controleren.
+  Controleer de [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) dashboard om de bijgewerkte productlijst te bekijken en de productgegevens, de prijs en de voorraad te controleren.
 
 * **[!UICONTROL Match - Match in Stage]**—Identificeert producten die overeenkomen met [!DNL Walmart] die niet kunnen worden aangesloten tot de [!DNL Walmart Marketplace] de winkel is live. Producten met deze status maken automatisch verbinding wanneer de [!DNL Walmart Marketplace] winkel gaat live.
 
@@ -102,4 +103,4 @@ In de werkruimte van de aanbieding geeft het label Status aan waar een product z
 
 * **[!UICONTROL Error description]**—Geeft gedetailleerde informatie over de lijstfout.
 
-   Nadat u de fout hebt verholpen, dient u het product opnieuw in voor overeenkomst. Zie [Problemen met overeenkomende productfouten oplossen](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  Nadat u de fout hebt verholpen, dient u het product opnieuw in voor overeenkomst. Zie [Problemen met overeenkomende productfouten oplossen](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

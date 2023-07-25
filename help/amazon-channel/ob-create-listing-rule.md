@@ -1,8 +1,10 @@
 ---
 title: Een regel voor Amazon-aanbiedingen maken
 description: Wanneer je het Amazon-verkoopkanaal voor instapkaarten voltooit, moet je de regels voor eerste aanbiedingen maken voor het genereren van Amazon-aanbiedingen voor je [!DNL Commerce] producten.
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ Lijstregels kunnen tijdens het instappen worden gedefinieerd, maar kunnen ook op
 
    - **[!UICONTROL Ineligible Listings]** - Producten die op dit tabblad worden aangeboden, komen niet in aanmerking voor Amazon-aanbiedingen op basis van de huidige standaardinstellingen voor aanbiedingen.
 
-      Niet-subsidiabele producten worden niet gepubliceerd naar Amazon. Als een product dat niet in aanmerking komt al op Amazon wordt aangeboden en je de Amazon-aanbieding afstemt op je [!DNL Commerce] catalogusproduct, de hoeveelheid voor de Amazon-aanbieding verandert in `0` om verkoop van het product te voorkomen. Als je een aanbieding handmatig uit Amazon wilt verwijderen, raadpleegt u [Een Amazon-aanbieding beëindigen](./end-listings-manually.md). Producten die niet in aanmerking komen voor Amazon-vereisten worden hier niet vermeld. Deze producten zijn opgenomen in de [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
+     Niet-subsidiabele producten worden niet gepubliceerd naar Amazon. Als een product dat niet in aanmerking komt al op Amazon wordt aangeboden en je de Amazon-aanbieding afstemt op je [!DNL Commerce] catalogusproduct, de hoeveelheid voor de Amazon-aanbieding verandert in `0` om verkoop van het product te voorkomen. Als je een aanbieding handmatig uit Amazon wilt verwijderen, raadpleegt u [Een Amazon-aanbieding beëindigen](./end-listings-manually.md). Producten die niet in aanmerking komen voor Amazon-vereisten worden hier niet vermeld. Deze producten zijn opgenomen in de [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
 
-      Als u een `Ineligible` aanbieding aan een `Eligible` aanbieden, dit proces herhalen en je aanbiedingsregels wijzigen.
+     Als u een `Ineligible` aanbieding aan een `Eligible` aanbieden, dit proces herhalen en je aanbiedingsregels wijzigen.
 
    - **[!UICONTROL Eligible Listings]** - Producten die op dit tabblad worden aangeboden, komen in aanmerking voor Amazon-aanbieding op basis van de huidige instelling van de aanbiedingsregel en komen in aanmerking voor Amazon-vereisten. Dit tabblad bevat de bestaande Amazon-aanbiedingen die zijn geïmporteerd (als je **[!UICONTROL Import Third Party Listings]** instellen op `Import Listing` in uw [Aanbiedingsinstellingen](./listing-settings.md)).
 

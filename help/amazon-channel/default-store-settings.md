@@ -1,8 +1,10 @@
 ---
 title: Standaardinstellingen voor winkel voor Amazon-aanbiedingen
 description: Wijzig de standaardinstellingen voor Handel om de Amazon-Sales Channel voor je winkel aan te passen.
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Opslaginstellingen zijn:
 ## Enkele belangrijke standaardinstellingen
 
 | Instelling | Standaard | Beschrijving | Locatie |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | Maakt overeenkomende [!DNL Commerce] orders bij ontvangst van nieuwe orders van Amazon, zodat orders in de [[!DNL Commerce] Orders](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) workflow. Wanneer `Disabled`, Amazon bestelt importordergegevens ter controle, maar bestellingen moeten in uw [!DNL Amazon Seller Central] account. | [Orderinstellingen](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Klantgegevens van Amazon-orders worden niet geïmporteerd in uw [!DNL Commerce] database. Geïmporteerde Amazon-bestellingen worden verwerkt als een uitcheckbewerking voor gasten. Als u uw [!DNL Commerce] de klantengegevensbestand, zou u dit het plaatsen moeten veranderen in `Build New Customer Account`. | [Orderinstellingen](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] catalogusproducten (die voldoen aan de Amazon-voorwaarden) om automatisch te publiceren naar Amazon en Amazon-aanbiedingen te maken. Als u uw producten handmatig wilt bekijken en publiceren, wijzigt u deze instelling in `Do Not Automatically List Eligible Products`. Producten die wachten op handmatige publicatie worden weergegeven op de [_Klaar voor lijst_](./ready-to-list.md) tab. | [Handelingen voor productaanbiedingen](./product-listing-actions.md) |

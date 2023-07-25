@@ -1,9 +1,11 @@
 ---
 title: "[!DNL (B2B) Business Price] voor Amazon-aanbiedingen"
 description: Je kunt je [!DNL Commerce] producten opslaan op de Amazon Business-site (B2B) door bedrijven in uw Amazon mogelijk te maken [!DNL Seller Central] account.
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -47,7 +49,7 @@ Om uw producten op te nemen op [!DNL Amazon Business (B2B)] site: u moet eerst z
 ![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | Opties: <ul><li>**[!UICONTROL Disabled]** - (Standaard) Kies wanneer u geen zakelijke verkoop wilt inschakelen. Als u deze optie kiest, worden alle andere velden in deze sectie uitgeschakeld.</li><li>**[!UICONTROL Enabled]** - Kies wanneer u uw bedrijf wilt inschakelen voor zakelijke verkoop. Wanneer gekozen, wordt de bedrijfsprijs gelijk aan de lijstprijs na alle prijsregels toegepast. De bedrijfsprijs volgt, indien ingeschakeld, het prijsbereik voor websites. Een zakelijke prijs mag niet lager zijn dan $1.</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | (Vereist) opties: <ul><li>**[!UICONTROL Disabled]** - (Standaardinstelling) Kies wanneer u voor alle bestellingen dezelfde aanbiedingsprijs wilt gebruiken. Alle _[!UICONTROL Pricing Level]_velden in deze sectie zijn uitgeschakeld.</li><li>**[!UICONTROL Enabled]** - Kies wanneer u de prijsstelling wilt inschakelen die wordt aangepast op basis van het aantal bestellingen. Wanneer u kiest, wordt _[!UICONTROL Pricing Level]_velden zijn ingeschakeld.</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | Als Gelaagde prijsstelling is ingeschakeld, kunt u maximaal vijf instellingen voor aantal/korting definiëren waarmee de prijzen op de laag voor je zakelijke aanbiedingen worden ingesteld. Voer in elke rij de drempelwaarde voor de hoeveelheid en het kortingspercentage in dat u wilt toepassen. Als u bijvoorbeeld `5` in het eerste veld van de eerste rij en `5` in het tweede veld wordt een korting van 5 % toegepast wanneer een ander bedrijf een hoeveelheid van vijf of meer koopt . |

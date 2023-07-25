@@ -1,17 +1,18 @@
 ---
 title: Aanbiedingen van Active Amazon
 description: Het Amazon-verkoopkanaal biedt het tabblad Actief voor het volgen van actieve Amazon-aanbiedingen die overeenkomen met een product in uw Adobe Commerce-catalogus.
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Aanbiedingen van Active Amazon
 
-De _[!UICONTROL Active]_toont je Amazon-aanbiedingen die actief zijn op het tabblad [!DNL Amazon Marketplace] en die overeenkomen met een product in uw [!DNL Commerce] catalogus.
+De _[!UICONTROL Active]_op het tabblad worden actieve aanbiedingen op het tabblad weergegeven [!DNL Amazon Marketplace] die overeenkomen met een product in uw [!DNL Commerce] catalogus.
 
 De beschikbare acties op de _[!UICONTROL Active]_include:
 
@@ -44,7 +45,7 @@ Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 
 | Kolom | Beschrijving |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | De SKU (Stock Keeping Unit) die door Amazon aan een product wordt toegewezen om het product, de opties, de prijs, en de fabrikant te identificeren. |
 | [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert. <br><br>ASIN staat voor de [!DNL Amazon Standard Identification Number]. Een ASIN is een uniek blok van 10 letters en/of getallen dat items identificeert. Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan hun catalogus wordt geupload. Je vindt een artikel in ASIN op de productdetailpagina op Amazon, samen met meer informatie over het object. |
 | [!UICONTROL Product Listing Name] | De naam van het product. |

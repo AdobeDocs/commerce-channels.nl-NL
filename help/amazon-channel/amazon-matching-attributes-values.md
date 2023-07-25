@@ -1,8 +1,9 @@
 ---
 title: Amazon-kenmerktoewijzing weergeven
 description: Verifieer waarden voor uw verbonden attributen van de Handel aan correcte synchronisatie tussen Handel en Amazon.
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ De _Amazon Value_ verschilt afhankelijk van het kenmerktype en het Amazon-kenmer
 ![Kenmerkwaarden weergeven](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | Het gebied voor verkoopactiviteiten zoals gedefinieerd in **[!DNL Amazon Marketplace]Land** tijdens de integratie van de winkel. |
 | [!UICONTROL Magento Product SKU] | Hiermee wordt de [!DNL Commerce] producten gesynchroniseerd met de Amazon Store. De waarde is een product-id die is toegewezen door [!DNL Commerce] en zijn gekoppeld aan een product in de catalogus. Als u het product wilt openen in [!DNL Commerce]klikt u op de koppeling. |
 | [!UICONTROL ASIN] | Hiermee wordt de unieke identificatiecode aangegeven die door Amazon is toegekend aan het product met een standaard Amazon-identificatienummer (ASIN) van 10 tekens dat uit een alfanumeriek identificatienummer bestaat. |

@@ -1,8 +1,10 @@
 ---
 title: De Amazon API-sleutel toevoegen of verifiëren
 description: Met de gevalideerde Amazon API-sleutel in uw configuratie voor handel kunt u uw winkels integreren met uw Amazon-verkopersaccount.
+role: Admin, Developer
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

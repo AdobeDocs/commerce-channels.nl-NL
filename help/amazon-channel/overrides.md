@@ -1,8 +1,9 @@
 ---
 title: Verkoopkanaal van Amazon - [!UICONTROL Overrides]
 description: Amazon Sales Channel biedt het tabblad Overschrijvingen om te bepalen en te beheren hoe u overschrijvingen toepast in uw Amazon-aanbiedingen.
+feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -16,7 +17,7 @@ De _[!UICONTROL Overrides]_toont je Amazon-aanbiedingen waarop je een overschrij
 ## Typen overschrijvingen
 
 | Type | Beschrijving |
-|---|---|
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Prijs | Een overschrijving waarmee de prijs van de aanbieding wordt ingesteld, waarbij alle andere prijsinstellingen voor de aanbieding worden genegeerd. <br><br>**Voorbeeld**: U hebt een prijsregel van 20% voor kortingen gedefinieerd die van toepassing is op alle producten in een specifieke categorie van uw catalogus. Je hebt een nieuw product op de markt en de vraag is hoog. Daarom wil je niet dat de verlaagde prijs op de aanbieding wordt toegepast, ook al valt het product in die categorie. Je kunt de aanbieding selecteren, [een prijsoverschrijving maken](./creating-editing-overrides.md#edit-override-single-listing)en definieer de aanbiedingsprijs in een prijsoverschrijving. |
 | Verwerkingstijd | Een overschrijving waarmee de verwerkingstijd voor een aanbieding wordt ingesteld, waarbij de standaardverwerkingstijd die in de aanbiedingsinstellingen is ingesteld, wordt genegeerd.<br><br>**Voorbeeld**: De standaardverwerkingstijd voor aanbiedingen is ingesteld op 2 dagen. Je hebt een product dat kwetsbaar is en een extra dag nodig heeft om de speciale verpakking voor de verzending te garanderen. Je kunt de aanbieding bekijken, [een verwerkingstijd overschrijven](./creating-editing-overrides.md#edit-override-single-listing)en definieert de verwerkingstijd op drie dagen.<br><br>**Opmerking:** Niet beschikbaar voor producten die zijn ingesteld op `Fulfilled by Amazon`. |
 | Voorwaarde | Een overschrijving waarmee de voorwaardenwaarde van een lijst wordt ingesteld, ongeacht het voorwaardelement dat aan de lijst is toegewezen.<br><br>**Voorbeeld**: De meeste producten in uw catalogus zijn Nieuwe voorwaarde, maar u hebt een product dat in Gereviseerde staat is. Je kunt de aanbieding bekijken, [een voorwaardenoverschrijving maken](./creating-editing-overrides.md#edit-override-single-listing)en definieer de voorwaarde Gereviseerd voor de aanbieding.<br><br>**Opmerking:** Niet beschikbaar voor producten die zijn ingesteld op `Fulfilled by Amazon`. |
@@ -43,7 +44,7 @@ Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](
 ## Standaardkolommen
 
 | Kolom | Beschrijving |
-|---|---|
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | De SKU (Stock Keeping Unit) die door Amazon aan een product wordt toegewezen om het product, de opties, de prijs, en de fabrikant te identificeren. |
 | [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert.<br><br>ASIN staat voor de Amazon Standard Identification Numbers. Een ASIN is een uniek blok van 10 letters en/of getallen dat items identificeert. Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan hun catalogus wordt geupload. Je vindt een artikel in ASIN op de productdetailpagina op Amazon, samen met meer informatie over het object. |
 | [!UICONTROL Condition Override] | De nieuwe voorwaarde die in de opheffing wordt bepaald. Als de overschrijving die op de lijst is toegepast geen voorwaardenoverschrijving is, `Not Selected` in deze kolom. |
