@@ -17,17 +17,17 @@ Lijstregels kunnen tijdens het instappen worden gedefinieerd, maar kunnen ook op
 
 ## Een regel voor aanbiedingen maken tijdens het instappen
 
-1. Klik op **[!UICONTROL View Store]** voor de toegevoegde winkel.
+1. Nadat uw winkel is verbonden, klikt u op **[!UICONTROL View Store]** voor de toegevoegde winkel.
 
    De winkel [dashboard](./amazon-store-dashboard.md) wordt weergegeven met de `No products listed to Amazon` bericht.
 
-1. Klikken **[!UICONTROL Preview and List Eligible Products]**.
+1. Klik op **[!UICONTROL Preview and List Eligible Products]**.
 
    De _[!UICONTROL Listing Rules]_wordt weergegeven.
 
-1. Bepaal de gewenste voorwaarden om in aanmerking te komen voor producten die op Amazon worden aangeboden en klik **[!UICONTROL Preview changes]** of klik op **[!UICONTROL Preview changes]** om deze stap over te slaan.
+1. Bepaal de gewenste voorwaarden om in aanmerking te komen voor producten die op Amazon worden aangeboden en klik op **[!UICONTROL Preview changes]** of klik op **[!UICONTROL Preview changes]** om deze stap over te slaan.
 
-   Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md).
+   Zie [Voorbeeld: een voorwaarde definiëren](./ob-define-condition-example.md).
 
 1. Je aanbiedingen bekijken in de voorvertoning van de aanbieding:
 

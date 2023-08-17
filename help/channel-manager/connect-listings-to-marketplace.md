@@ -73,8 +73,8 @@ Gangbare geretourneerde fouten zijn onjuist opgemaakte product-id-waarden of ont
 | Type | Beschrijving | Voorbeeld |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
 | UPC | GTIN-12, het 12-cijferige getal inclusief controlecijfer. </br></br>Als uw UPC minder dan 12 cijfers, zoals UPC-E heeft die 8 cijfers is, voeg beëindigende nullen toe om aan het vereiste te voldoen. | Wijzigen van `45678912345` tot `045678912345` |
-| GTIN | GTIN-14, het 14-cijferige getal inclusief controlecijfer. </br></br>Als de GTIN uit minder dan 14 cijfers bestaat, voegt u voorloopnullen toe </br>om aan deze eis te voldoen. | Wijzigen `456789123456` tot `0045678912345` |
-| EAN | GTIN-13, het 13-cijferige getal inclusief controlecijfer. </br></br>Als uw EAN minder dan 13 cijfers heeft, voeg belangrijke </br>nullen om aan de vereiste te voldoen. | Wijzigen van `4567891234` tot `0004567891234` |
+| GTIN | GTIN-14, het 14-cijferige getal inclusief controlecijfer. </br></br>Als uw GTIN minder dan 14 cijfers heeft, voeg belangrijke nullen toe </br>om aan deze eis te voldoen. | Wijzigen `456789123456` tot `0045678912345` |
+| EAN | GTIN-13, het 13-cijferige getal inclusief controlecijfer. </br></br>Als uw EAN minder dan 13 cijfers heeft, voeg belangrijke toe </br>nullen om aan de vereiste te voldoen. | Wijzigen van `4567891234` tot `0004567891234` |
 
 Voor meer informatie over de foutcodes van Walmart Marketplace raadpleegt u de [Help bij Walmart Seller](https://sellerhelp.walmart.com/s/guide?article=000005844).
 
@@ -126,7 +126,7 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
    - Selecteer op de pagina Items in productcatalogus de optie **[!UICONTROL Add Items]**. Selecteer vervolgens **[!UICONTROL Add items in bulk]**.
 
-     ![Voeg punten in bulkoptie toe optie in de het puntconfiguratie van de Marketplace van de Markeren](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![Voeg punten in bulkoptie toe optie in de het puntconfiguratie van de Marketplace van de Markt van de Markt](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - Selecteer op de downloadpagina de optie **[!UICONTROL Full Setup]**. Selecteer vervolgens een objectcategorie en download de rubrieksjabloon.
 
@@ -134,7 +134,7 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
    - Controleer of de sjabloon de vereiste en aanbevolen kenmerken voor de productaanbieding bevat.
 
-1. Van de [!DNL Commerce] Admin, selecteer de productgegevens om van uw Adobe uit te voeren [!DNL Commerce] site.
+1. Van de [!DNL Commerce] Beheerder, selecteer de productgegevens die u wilt exporteren uit uw Adobe [!DNL Commerce] site.
 
    - Selecteer bij Beheer de optie [!UICONTROL **Systeem** > Gegevensoverdracht > **Exporteren**].
 
@@ -142,7 +142,7 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
 
    - In de [!UICONTROL Entity Attributes] de lijst, vormt de selectiecriteria voor de uitvoer van productgegevens.
 
-     Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt. (Zie [Gegevens exporteren](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) in de Adobe [!DNL Commerce] Gebruikershandleiding voor gedetailleerde instructies.)
+     Gebruik filters om de kenmerkwaarden te selecteren en te configureren die van toepassing zijn op de productcategorieën waarin u verkoopt. Zorg ervoor dat u de vereiste en aanbevolen kenmerken van Walmart opneemt. (Zie [Gegevens exporteren](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) in de Adobe [!DNL Commerce] Handboek voor gedetailleerde instructies.)
 
      Als u een kenmerk wilt weglaten uit het exportbestand, selecteert u de optie [!UICONTROL **Uitsluiten**] Schakel het selectievakje aan het begin van de rij in.
 
@@ -159,6 +159,6 @@ Voor nieuwe productaanbiedingen raadpleegt u de productcatalogus om ervoor te zo
    - Selecteren [!UICONTROL **Items toevoegen** > **Objecten bulksgewijs toevoegen**].
    - Sleep de voltooide spreadsheet aan de Upload sectie.
    - Selecteren [!UICONTROL **Verzenden**].
-   - Selecteer [!UICONTROL  **Activiteitsfeed**] om de voortgang te bekijken.
+   - Selecteer de [!UICONTROL  **Activiteitsfeed**] om de voortgang weer te geven.
 
 Voor volledige instructies, zie [Items in bulk toevoegen met de specificaties Volledig item](https://sellerhelp.walmart.com/s/guide?article=000007680) in de [!DNL *Help bij Walmart Seller*].

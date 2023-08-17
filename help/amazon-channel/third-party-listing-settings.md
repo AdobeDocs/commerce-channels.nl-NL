@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Third-party Listings]
+title: Amazon-Sales Channel - [!UICONTROL Third-party Listings]
 description: Werk de aanbiedingsinstellingen van derden bij om te bepalen of in de handelscatalogus producten uit je bestaande Amazon Seller Central-aanbiedingen worden geïmporteerd.
 feature: Sales Channels, Products
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
@@ -18,15 +18,15 @@ Deze instellingen bepalen of uw [!DNL Commerce] uit catalogus geïmporteerde pro
 
 Wanneer het is geconfigureerd om je Amazon-aanbiedingen te importeren, importeert Amazon je Amazon-aanbiedingen naar je [!DNL Commerce] catalogus, proberen deze aan te passen aan bestaande producten. Als er niet automatisch een overeenkomst wordt gevonden, kunt u de Amazon-aanbieding als een nieuwe aanbieding importeren [!DNL Commerce] of de aanbieding handmatig aan een product aanpassen.
 
-Als je je Amazon-aanbiedingen wilt importeren, kies dan de optie [!DNL Commerce] kenmerken met waarden voor Amazon Seller SKU en Amazon ASIN. Als u [!DNL Commerce] [productkenmerken](./ob-creating-magento-attributes.md), kunt u ze maken en toewijzen. Door deze kenmerken toe te wijzen, kunt u geïmporteerde Amazon-aanbiedingen op de juiste wijze afstemmen op je [!DNL Commerce] producten.
+Als je je Amazon-aanbiedingen wilt importeren, kies dan de optie [!DNL Commerce] kenmerken met waarden voor Amazon Seller SKU en Amazon ASIN. Als u geen [!DNL Commerce] [productkenmerken](./ob-creating-magento-attributes.md), kunt u ze maken en toewijzen. Door deze kenmerken toe te wijzen, kunt u geïmporteerde Amazon-aanbiedingen op de juiste wijze afstemmen op je [!DNL Commerce] producten.
 
-De eerste aanbieding wordt geïmporteerd wanneer [winkelintegratie](./store-integration.md) is voltooid. Hierna en op basis van uw instellingen voor uitsnijden, [!DNL Commerce] controleert voortdurend op nieuw toegevoegde Amazon-aanbiedingen (die niet in Amazon Sales Channel zijn gemaakt) en werkt je [!DNL Commerce] catalogi uitvoeren op basis van de instellingen voor aanbiedingen van derden.
+De eerste aanbieding wordt geïmporteerd wanneer [winkelintegratie](./store-integration.md) is voltooid. Hierna en op basis van uw instellingen voor uitsnijden, [!DNL Commerce] controleert voortdurend op nieuw toegevoegde Amazon-aanbiedingen (die niet zijn gemaakt in de Sales Channel van Amazon) en werkt je [!DNL Commerce] catalogi uitvoeren op basis van de instellingen voor aanbiedingen van derden.
 
 ## Instellingen voor lijsten van derden configureren
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Breid uit _[!UICONTROL Third Party Listings]_sectie.
+1. Vouw de sectie _[!UICONTROL Third Party Listings]_uit.
 
 1. Voor **[!UICONTROL Import Third Party Listings]** (vereist) kiest u een optie:
 

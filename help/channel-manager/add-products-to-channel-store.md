@@ -18,7 +18,7 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
 ## Vereiste
 
-**[Kenmerken van catalogus toewijzen](map-catalog-attributes.md)**—In de [!DNL Channel Settings] configuratie, kaart minstens één attribuut van [!DNL Commerce] productcatalogus naar een van de vereiste Walmart-product-id&#39;s—-GTIN, ISBN, ISSN, UPC, EAN.
+**[Kenmerken van catalogus toewijzen](map-catalog-attributes.md)**—In de [!DNL Channel Settings] configuratie, kaart minstens één attribuut van [!DNL Commerce] productcatalogus naar een van de vereiste Walmart Product Identifiers—-GTIN, ISBN, ISSN, UPC, EAN.
 
 ## Aanbiedingsvereisten
 
@@ -40,7 +40,7 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
 ## Producten toevoegen
 
-1. Selecteer in een online verkoopkanaalwinkel de optie **Producten toevoegen** om de productcatalogus te openen.
+1. Selecteer in een online verkoopkanaalwinkel de optie **Producten toevoegen** de productcatalogus openen.
 
    ![Producten toevoegen aan verkoopkanaalwinkel](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
@@ -50,7 +50,7 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
    ![Producten naar de winkel van het verkoopkanaal verzenden](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
-1. De optie **[!UICONTROL Connect to Channel Manager]** voor de geselecteerde items.
+1. De optie **[!UICONTROL Connect to Channel Manager]** kenmerk voor de geselecteerde items.
 
    - Van **[!UICONTROL Actions]**, selecteert u **[!UICONTROL Update attributes]**.
 
@@ -72,9 +72,9 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
 1. Nadat het importeren is voltooid, controleert u de producten die u hebt toegevoegd door terug te keren naar [!DNL Channel Manager] en selecteren **[!UICONTROL Listings]**.
 
-   In eerste instantie bevinden de producten zich in *Concept* status. Selecteren **[!UICONTROL Refresh products]** om de tabel bij te werken.
+   In eerste instantie bevinden de producten zich in *Concept* status. Selecteren **[!UICONTROL Refresh products]** de tabel bijwerken.
 
-1. Werk de mening bij om de nieuwe producten te tonen die aan de Manager van het Kanaal worden toegevoegd door te selecteren **[!UICONTROL Draft]** statuskaart.
+1. Werk de weergave bij om de nieuwe producten weer te geven die aan Channel Manager zijn toegevoegd door de optie **[!UICONTROL Draft]** statuskaart.
 
    ![Producten geïmporteerd naar verbonden verkoopkanaal](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 

@@ -1,6 +1,6 @@
 ---
 title: Producten maken en toewijzen voor Amazon-verkoopkanaal
-description: Amazon Sales Channel biedt de [!UICONTROL New Third Party] gebruiken om te helpen bij het maken en toewijzen van overeenkomstige producten uit de handelscatalogus aan Amazon-aanbiedingen.
+description: Amazon-Sales Channel biedt de [!UICONTROL New Third Party] gebruiken om te helpen bij het maken en toewijzen van overeenkomstige producten uit de handelscatalogus aan Amazon-aanbiedingen.
 feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -32,11 +32,11 @@ Wanneer ze zijn gemaakt en gevonden, worden de aanbiedingen verwijderd uit de _[
 
 1. Zoek de aanbieding die u wilt toewijzen in de lijst en klik op **[!UICONTROL Select]** in de _[!UICONTROL Action]_en klik op **[!UICONTROL Assign Catalog Product]**.
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Assign Magento Catalog Product]_pagina.
+   Deze handeling opent de _[!UICONTROL Assign Magento Catalog Product]_pagina.
 
-1. Blader naar de lijst of filterde de lijst met de [besturingselementen voor werkruimte](./workspace-controls.md) en zoek het geschikte catalogusproduct dat overeenkomt met de aanbieding.
+1. Blader naar de lijst of filter deze met de [besturingselementen voor werkruimte](./workspace-controls.md) en zoek het geschikte catalogusproduct dat overeenkomt met de aanbieding.
 
-1. Wanneer het juiste product in de lijst wordt weergegeven, klikt u op **[!UICONTROL Assign Catalog Product]** in de _[!UICONTROL Action]_kolom.
+1. Wanneer het juiste product in de lijst staat, klikt u op **[!UICONTROL Assign Catalog Product]** in de _[!UICONTROL Action]_kolom.
 
 Je product en aanbieding komen nu overeen. Verkoopkanaal van Amazon kan nu product- en aanbiedingsgegevens delen met Amazon en je aanbieding en de bijbehorende informatie beheren, zoals de prijs van de aanbieding, de verzendprijs, het aantal voorraad/de hoeveelheid, de ordergegevens en status, enzovoort.
 
@@ -44,9 +44,9 @@ Je product en aanbieding komen nu overeen. Verkoopkanaal van Amazon kan nu produ
 
 1. Je productaanbiedingen weergeven op de [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) tab.
 
-1. Zoek de aanbieding die u in uw [!DNL Commerce] catalogus, klik **[!UICONTROL Select]** in de _[!UICONTROL Action]_en klik op **[!UICONTROL Create New Catalog Product]**.
+1. Zoek de aanbieding die u in uw [!DNL Commerce] catalogus, klik op **[!UICONTROL Select]** in de _[!UICONTROL Action]_en klik op **[!UICONTROL Create New Catalog Product]**.
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Create Magento Catalog Product]_pagina.
+   Deze handeling opent de _[!UICONTROL Create Magento Catalog Product]_pagina.
 
 1. Voltooi de catalogusinstellingen voor het product.
 
@@ -88,7 +88,7 @@ Het catalogusproduct wordt gemaakt in uw [!DNL Commerce] en toegewezen aan de Am
 
 1. Onder _[!UICONTROL Actions]_, klikt u op **[!UICONTROL Create New Catalog Product(s)]**.
 
-1. Als u het bevestigingsbericht wilt accepteren en het dialoogvenster _[!UICONTROL Create Magento Catalog Product]_pagina, klikt u op **[!UICONTROL OK]**.
+1. Als u het bevestigingsbericht wilt accepteren en het dialoogvenster _[!UICONTROL Create Magento Catalog Product]_pagina, klikt u **[!UICONTROL OK]**.
 
 1. Voltooi de catalogusinstellingen voor de producten.
 

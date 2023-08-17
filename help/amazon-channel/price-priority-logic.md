@@ -12,13 +12,13 @@ ht-degree: 4%
 
 # Logica voor prijsprioriteiten
 
-In het volgende voorbeeld, hoe bepaalt het systeem als u $31.99, $24.99, of $27.99 zou moeten publiceren?
+Hoe bepaalt het systeem in het volgende voorbeeld of u $31,99, $24,99 of $27,99 moet publiceren?
 
 ![Omvang van de handelsprijs](assets/amazon-price-scope.png){width="400"}
 
 Om te bepalen welke prijs wordt gebruikt als een product op twee websites staat en een variabele prijs per website heeft, gebruikt u de logica voor prijsprioriteit (bepaald door de [Sorteervolgorde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde).
 
-Ga naar **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** in de _Beheer_ zijbalk. In de _[!UICONTROL Web Site]_klikt u op de naam van de website. De_[!UICONTROL Web Site Information]_ pagina toont de _[!UICONTROL Sort Order]_de website instellen, die de prioriteit van de website bepaalt. Een waarde van `1` geeft de hoogste prioriteit aan.
+Ga naar **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** in de _Beheerder_ zijbalk. In de _[!UICONTROL Web Site]_klikt u op de naam van de website. De_[!UICONTROL Web Site Information]_ pagina toont de _[!UICONTROL Sort Order]_Hiermee stelt u de website in, die de prioriteit van de website bepaalt. Een waarde van `1` geeft de hoogste prioriteit aan.
 
 Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in plaats van de prijs van de website teruggebracht.
 
@@ -26,7 +26,7 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 
 |         | Prioriteit website | Prijs (website) | Standaardinstellingen gebruiken |
 |---------|------------------|-----------------|-------------|
-| Standaard | 0 | $31.99 | -- |
+| Standaard | 0 | $31.99 | — |
 | Winkel 1 | 1 | $24.99 | Nee |
 | Winkel 2 | 2 | $27.99 | Ja |
 
@@ -36,7 +36,7 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 
 ## Voorbeeld 2
 
-|         | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
+|         | Prioriteit website | Prijs website | Standaardinstellingen gebruiken |
 |---------|------------------|---------------|-------------|
 | Standaard | 0 | $31.99 | -- |
 | Winkel 1 | 1 | $24.99 | Ja |
@@ -49,7 +49,7 @@ Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in pl
 
 ## Voorbeeld 3
 
-|         | Prioriteit website | Prijswebsite | Standaardinstellingen gebruiken |
+|         | Prioriteit website | Prijs website | Standaardinstellingen gebruiken |
 |---------|------------------|---------------|-------------|
 | Standaard | 0 | $31.99 | $30.00 |
 | Winkel 1 | 1 | $24.99 | -- |

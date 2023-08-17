@@ -45,19 +45,19 @@ In dit scenario zijn de regels 1 en 2 van toepassing op de in aanmerking komende
 
 Prijs: $ 45,49
 
-Regel 1 toegepast: $ 45,49 x (0,9) = $ 40,94
+Regel 1 toegepast: $45.49 x (0.9) = $40.94
 
-Regel 2 toegepast: $ 40,94 - $ 10,00 = $ 30,94
+Regel 2 toegepast: $40.94 - $10.00 = $30.94
 
-De definitieve prijs na toepassing van de artikelen 1 en 2 wordt vastgesteld: $ 30,94
+De uiteindelijke prijs na regel 1 en regel 2 wordt toegepast: $ 30,94
 
 #### Product 2
 
 Prijs: $ 47,76
 
-Regel 1 toegepast: $ 47,76 x (0,9) = $ 42,98
+Regel 1 toegepast: $47,76 x (0,9) = $42,98
 
-Regel 2 toegepast: $ 42,98 - $ 10,00 = $ 32,98
+Regel 2 toegepast: $42.98 - $10.00 = $32.98
 
 De uiteindelijke prijs na regel 1 en regel 2 wordt toegepast: $ 32,98
 
@@ -77,23 +77,23 @@ De uiteindelijke prijs na regel 1 en regel 2 wordt toegepast: $ 32,98
 
 #### Product 1
 
-Prijs: $ 15
+Prijs: $15
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $ 10
+[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $10
 
-Omdat [Buy Box](./buy-box-competitor-pricing.md) de prijs is lager dan de oorspronkelijke prijs, het product wordt tegen de oorspronkelijke prijs vermeld.
+Omdat de [Buy Box](./buy-box-competitor-pricing.md) de prijs is lager dan de oorspronkelijke prijs, het product wordt tegen de oorspronkelijke prijs vermeld.
 
-De uiteindelijke prijs na toepassing van de regel: $ 15
+De uiteindelijke prijs na toepassing van de regel: $15
 
 #### Product 2
 
-Prijs: $ 5
+Prijs: $5
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $ 10
+[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $10
 
-Omdat [Buy Box](./buy-box-competitor-pricing.md) de prijs is hoger dan de oorspronkelijke prijs; het product wordt aangeboden tegen de prijs [Buy Box](./buy-box-competitor-pricing.md) prijs.
+Omdat de [Buy Box](./buy-box-competitor-pricing.md) de prijs is hoger dan de oorspronkelijke prijs; het product wordt aangeboden tegen de prijs [Buy Box](./buy-box-competitor-pricing.md) prijs.
 
-De uiteindelijke prijs na toepassing van de regel: $ 10
+De uiteindelijke prijs na toepassing van de regel: $10
 
 ### Buy Box prijs met variabele prijs Bron = Prijs en een prijsdaling van 20%
 
@@ -111,39 +111,39 @@ De uiteindelijke prijs na toepassing van de regel: $ 10
 
 #### Product 1
 
-Prijs: $ 20
+Prijs: $20
 
-Berekende bodemprijs: $ 16
+Berekende bodemprijs: $16
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $ 15
+[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $15
 
-Omdat [Buy Box](./buy-box-competitor-pricing.md) prijs is lager dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld bij Berekend [Floor Price](./floor-price.md).
+Omdat de [Buy Box](./buy-box-competitor-pricing.md) prijs is lager dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld bij Berekend [Floor Price](./floor-price.md).
 
-De uiteindelijke prijs na toepassing van de regel: $ 16
+De uiteindelijke prijs na toepassing van de regel: $16
 
 #### Product 2
 
-Prijs: $ 15
+Prijs: $15
 
-Berekend [Floor Price](./floor-price.md): $ 12
+Berekend [Floor Price](./floor-price.md): $12
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $ 15
+[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $15
 
-Omdat [Buy Box](./buy-box-competitor-pricing.md) prijs is hoger dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld op de [Buy Box](./buy-box-competitor-pricing.md) prijs.
+Omdat de [Buy Box](./buy-box-competitor-pricing.md) prijs is hoger dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld op de [Buy Box](./buy-box-competitor-pricing.md) prijs.
 
-De uiteindelijke prijs na toepassing van de regel: $ 15
+De uiteindelijke prijs na toepassing van de regel: $15
 
 #### Product 3
 
-Prijs: $ 17
+Prijs: $17
 
-Berekende bodemprijs: $ 13,60
+Berekende bodemprijs: $13,60
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $ 15
+[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $15
 
-Omdat [Buy Box](./buy-box-competitor-pricing.md) prijs is hoger dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld op de [Buy Box](./buy-box-competitor-pricing.md) prijs.
+Omdat de [Buy Box](./buy-box-competitor-pricing.md) prijs is hoger dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld op de [Buy Box](./buy-box-competitor-pricing.md) prijs.
 
-De uiteindelijke prijs na toepassing van de regel: $ 15
+De uiteindelijke prijs na toepassing van de regel: $15
 
 ### Laagste prijs met alle prijzen van de concurrent en gebruik alle productvoorwaarden van de concurrent
 
@@ -163,28 +163,28 @@ De uiteindelijke prijs na toepassing van de regel: $ 15
 |-------|-----------------|
 | $17 | Nieuw |
 | $15 | Nieuw |
-| $14 | gebruikt; Zeer goed |
-| $13 | gebruikt; Goed |
+| $14 | Gebruikt; Zeer goed |
+| $13 | Gebruikt; Goed |
 
 #### Product 1
 
-Prijs: $ 10
+Prijs: $10
 
 Voorwaarde: Nieuw
 
 Omdat de laagste concurrerende prijs voor de Nieuwe Voorwaarde $15 is, is het product vermeld bij $15.
 
-De uiteindelijke prijs na toepassing van de regel: $ 15
+De uiteindelijke prijs na toepassing van de regel: $15
 
 #### Product 2
 
-Prijs: $ 10
+Prijs: $10
 
-Voorwaarde: gebruikt; Aanvaardbaar
+Voorwaarde: gebruikt; acceptabel
 
-Omdat [laagste prijs van de concurrent](./lowest-competitor-pricing.md) Voor de Gebruikte voorwaarde is $13, is het product vermeld bij $13.
+Omdat de [laagste prijs van de concurrent](./lowest-competitor-pricing.md) Voor de Gebruikte voorwaarde is $13, is het product vermeld bij $13.
 
-De uiteindelijke prijs na toepassing van de regel: $ 13
+De uiteindelijke prijs na toepassing van de regel: $13
 
 ### Intelligente prijsregel die plafondprijs, valutaomrekening en btw combineert
 
@@ -194,11 +194,11 @@ De uiteindelijke prijs na toepassing van de regel: $ 13
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 EUR:1 USD |
 
-[Maximumprijs](./optional-ceiling-price.md) op de Europese markt (BTW): $ 10 x 1,25 = $ 12,50
+[Maximumprijs](./optional-ceiling-price.md) op de Europese (BTW)markt: $ 10 x 1,25 = $ 12,50
 
 Wanneer de [maximumprijs](./optional-ceiling-price.md) op de Europese (BTW)markt is de BTW-heffing berekend en opgeteld.
 
-Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
+Uiteindelijke prijs na BTW: $12,50 x (1,1) = $13,75
 
 ### Meerdere prijsregels, plafondprijs, valutaomrekening en btw combineren
 
@@ -208,12 +208,12 @@ Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
 |----------------------|---------------|
 | Prioriteit | 1 |
 | BTW | 10% |
-| Maximumprijs | $10 |
+| Maximumprijsbron | $10 |
 | Omrekening in valuta | 1,25 EUR:1 USD |
 
-[Maximumprijs](./optional-ceiling-price.md) op de Europese markt (BTW): $ 10 x 1,25 = $ 12,50
+[Maximumprijs](./optional-ceiling-price.md) op de Europese (BTW)markt: $ 10 x 1,25 = $ 12,50
 
-Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
+Uiteindelijke prijs na BTW: $12,50 x (1,1) = $13,75
 
 #### Standaardprijsregel
 
@@ -226,7 +226,7 @@ Uiteindelijke prijs na BTW: $ 12,50 x (1,1) = $ 13,75
 
 Wanneer de [maximumprijs](./optional-ceiling-price.md) wordt geraakt, wordt de standaardprijsregel toegepast bovenop de intelligente prijsregel.
 
-Eindprijs na toepassing van de standaardprijsregel: $ 13,75 + $ 5,00 = $ 18,75
+Uiteindelijke prijs na toepassing van de standaardprijsregel: $13,75 + $5,00 = $18,75
 
 ### Prijsaanpassing
 

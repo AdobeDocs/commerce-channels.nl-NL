@@ -18,7 +18,7 @@ Controleer de [vereisten](onboard.md#requirements) en verzamel de vereiste infor
 
 ## De extensie installeren
 
-De installatie-instructies voor Channel Manager zijn afhankelijk van het feit of Adobe Commerce of Magento Open Source wordt geïmplementeerd op locatie of op een cloudinfrastructuur.
+De installatie-instructies voor Channel Manager zijn afhankelijk van het feit of Adobe Commerce of Magento Open Source op locatie of op cloudinfrastructuur wordt geïmplementeerd.
 
 - Installeren op een [Instantie ter plaatse](#install-on-an-on-premises-instance).
 
@@ -32,7 +32,7 @@ Beide methodes vereisen u om de Interface van de Lijn van het Bevel (CLI) te geb
 
 ### Installeren op een exemplaar ter plaatse
 
-Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Commerce en Magento Open Source naar een instantie ter plaatse.
+Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Commerce en Magento Open Source aan een instantie ter plaatse.
 
 1. Aanmelden bij de [!DNL Commerce] server als een [gebruiker met machtigingen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) om te schrijven naar [!DNL Commerce] bestandssysteem.
 
@@ -110,7 +110,7 @@ Gebruik deze instructies om te installeren [!DNL Channel Manager] op Adobe Comme
 
 Werk in een ontwikkelingsvertakking wanneer u een extensie toevoegt aan uw cloudinstantie.
 
-Voor hulp bij het gebruiken van takken, zie [Aan de slag met het maken van vertakkingen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) in de _Handel in de infrastructuurgids voor de cloud_.
+Voor hulp bij het gebruiken van takken, zie [Aan de slag met vertakkingen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) in de _Handleiding voor handel in Cloud-infrastructuur_.
 
 Tijdens de installatie wordt de extensienaam (`magento\channel-manager`) wordt automatisch ingevoegd in het dialoogvenster [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) bestand. U hoeft het bestand niet rechtstreeks te bewerken.
 
@@ -161,7 +161,7 @@ Module is enabled
 Als de module is uitgeschakeld, [inschakelen in uw lokale omgeving](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) en implementeer uw wijzigingen.
 
 
-1. Nadat u de extensie hebt geïnstalleerd, meldt u zich aan bij de [!UICONTROL Admin] tot [Configureer de Commerce Services Connector](connect.md).
+1. Meld u aan bij de [!UICONTROL Admin] tot [Configureer de Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >
@@ -174,7 +174,7 @@ Gebruik de volgende informatie om fouten op te lossen die tijdens het installati
 
 ### Onjuiste Composer-sleutels
 
-Als de [toegangstoets](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) gebruikt om te verifiëren bij de Composer-gegevensopslagruimte ongeldig is of niet is gekoppeld aan de [!DNL MAGE ID] gebruikt om u aan te melden voor de [!DNL Channel Manager] -service, wordt de volgende fout weergegeven.
+Als de [toegangstoets](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) gebruikt om te verifiëren bij de Composer-gegevensopslagruimte ongeldig is of niet is gekoppeld aan de [!DNL MAGE ID] gebruikt voor aanmelden voor [!DNL Channel Manager] -service, wordt de volgende fout weergegeven.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -188,7 +188,7 @@ Controleer de sleutelconfiguratie:
    $ composer config –global home
    ```
 
-1. De weergave van `auth.json` bestand.
+1. De weergave `auth.json` bestand.
 
    ```bash
    $ cat /path/to/auth.json
@@ -206,7 +206,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 Gebruik een van de volgende methoden om het geheugenprobleem op te lossen:
 
-- [De geheugenlimiet voor PHP verhogen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) in het milieu `php.ini` bestand. Controleer ook of de instantie Commerce de [aanbevolen waarden](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) voor andere PHP instellingen.
+- [De geheugenlimiet voor PHP verhogen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) in het milieu `php.ini` bestand. Controleer ook of de instantie Commerce de [aanbevolen waarden](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) voor andere PHP-instellingen.
 
 - Geef de geheugenlimiet op vanaf de opdrachtregel.
 

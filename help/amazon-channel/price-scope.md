@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Prijsbereik
 
-[!DNL Commerce] verstrekt configuratie voor uw [prijsbereik](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) in te stellen op `Global` of `Website`. Als de prijsstelling is ingesteld op `Global`Er is echter één prijsbron voor alle websites. Als de prijsstelling is ingesteld op `Website`, kunnen uw websites hun prijzen variëren en hebben ook een terugvalstandaard prijswaarde (zie [Prijsbereik](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)).
+[!DNL Commerce] verstrekt configuratie voor uw [prijsbereik](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) in te stellen `Global` of `Website`. Als de prijsstelling is ingesteld op `Global`Er is echter één prijsbron voor alle websites. Als de prijsstelling is ingesteld op `Website`, kunnen uw websites hun prijzen variëren en hebben ook een terugvalstandaard prijswaarde (zie [Prijsbereik](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)).
 
 Als u het prijsbereik van de catalogus wijzigt van `Global` tot `Website`, veranderen ook alle kenmerken van het prijstype in `Website`. Zie [Websites toevoegen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 

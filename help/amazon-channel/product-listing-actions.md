@@ -19,13 +19,13 @@ Met deze instellingen wordt gedefinieerd hoe uw catalogus reageert op Amazon. De
 
 - Geef aan of uw [!DNL Commerce] catalogusproducten die voldoen aan de Amazon-voorwaarden worden automatisch naar je verzonden [!DNL Amazon Seller Central] account om aanbiedingen te maken.
 
-- Stel de standaardverwerkingstijd voor een bestelling in. Deze waarde definieert het aantal dagen dat u nodig hebt om een bestelling te verwerken en te verzenden. Als iemand bijvoorbeeld 2-dagen verzending selecteert, begint de tijd van de verzending niet voordat de verwerking is voltooid en worden de pakketten aan een vervoerder afgegeven. De totale levertijd is (verwerkingstijd + doorvoertijd + feestdagen).
+- Stel de standaardverwerkingstijd voor een bestelling in. Deze waarde definieert het aantal dagen dat u nodig hebt om een bestelling te verwerken en te verzenden. Als iemand bijvoorbeeld 2-dagen verzending selecteert, begint de tijd van de verzending niet voordat de verwerking is voltooid en worden de pakketten aan een vervoerder overhandigd. De totale levertijd is (verwerkingstijd + doorvoertijd + feestdagen).
 
 ## Instellingen configureren
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Breid uit _[!UICONTROL Product Listing Actions]_sectie.
+1. Vouw de sectie _[!UICONTROL Product Listing Actions]_uit.
 
 1. Voor **[!UICONTROL Automatic List Action]** (vereist) kiest u een optie:
 

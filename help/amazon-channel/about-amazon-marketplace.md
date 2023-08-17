@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Info [!DNL Amazon Marketplace]
 
-[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target="_blank"} is een e-commerceplatform dat eigendom is van en geëxploiteerd wordt door Amazon en dat verkopers van derde partijen in staat stelt nieuwe of gebruikte producten te verkopen. Gebruiken [!DNL Amazon Marketplace], krijgen verkopers van derden toegang tot de wereldwijde klantenbasis van Amazon. Handelaren die producten op Amazon aanbieden voor verkoop, waaronder Adobe Commerce- of Magento Open Source-gebruikers, worden door Amazon gedefinieerd als &quot;externe verkopers&quot;.
+[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target="_blank"} is een e-commerceplatform dat eigendom is van en geëxploiteerd wordt door Amazon en dat verkopers van derde partijen in staat stelt nieuwe of gebruikte producten te verkopen. Gebruiken [!DNL Amazon Marketplace], krijgen verkopers van derden toegang tot de wereldwijde klantenbasis van Amazon. Handelaren die producten op Amazon aanbieden voor verkoop, waaronder gebruikers van Adobe Commerce of Magento Open Sourcen, worden door Amazon gedefinieerd als &quot;verkopers van derden&quot;.
 
-Verkopers van elke grootte van derden kunnen een [!DNL Amazon Seller Central] account en gebruik de [!DNL Amazon Marketplace] om de wereldwijde klantenbasis van Amazon te bereiken. Nadat een account is gemaakt en actief is, kunnen verkopers producten toevoegen en aanbieden voor verkoop, bestellingen en voorraden beheren en bestellingen uitvoeren.
+Verkopers van elke grootte van derden kunnen een [!DNL Amazon Seller Central] account en gebruik de [!DNL Amazon Marketplace] om Amazon wereldwijd te bereiken. Nadat een account is gemaakt en actief is, kunnen verkopers producten toevoegen en aanbieden voor verkoop, bestellingen en voorraden beheren en bestellingen uitvoeren.
 
 ## Amazon-aanbiedingen
 
@@ -29,13 +29,13 @@ Productinformatie biedt algemene gegevens voor elk exemplaar van hetzelfde produ
 
 Aanbiedingsgegevens bevatten verkoperspecifieke informatie over producten. Deze details verschillen vaak van de aanbieding van andere verkopers voor hetzelfde product. Je kunt bijvoorbeeld dezelfde yoga-broek als een andere verkoper verkopen, maar het aantal objecten, de voorwaarde, de prijs of de verzendmethode/tijd kunnen verschillen. Deze details zijn uniek voor je aanbieding voor het product.
 
-Als u productinformatie wilt toevoegen of onjuiste informatie wilt corrigeren op een pagina met productdetails, raadpleegt u [Amazon: Productgegevens](https://sellercentral.amazon.com/gp/help/external/200335450){target="_blank"}.
+Als u productinformatie wilt toevoegen of onjuiste informatie wilt corrigeren op een pagina met productdetails, raadpleegt u [Amazon: productgegevens](https://sellercentral.amazon.com/gp/help/external/200335450){target="_blank"}.
 
 ## Amazon-vervulling
 
 Amazon biedt twee opties voor bestelling en verzending:
 
-- **Betaald door de handelaar (FBM)**: Verkopers van derden slaan hun eigen voorraad op. Wanneer een klant een bestelling plaatst, handelt de verkoper de verpakking en verzending naar de klant af. Met deze optie kunt u verzendingen voltooien via Adobe Commerce en Magento Open Source of een andere derde partij.
+- **Door de handelaar (FBM) vervuld**: Verkopers van derden slaan hun eigen voorraad op. Wanneer een klant een bestelling plaatst, handelt de verkoper de verpakking en verzending naar de klant af. Met deze optie kunt u verzendingen voltooien via Adobe Commerce en Magento Open Source of via een andere derde partij.
 
 - **Betaald door Amazon (FBA)**: Verkopers van derden slaan voorraad op in Amazon-uitvoeringscentra over de hele wereld. Wanneer een klant een bestelling plaatst, verwerkt Amazon de verpakking en de verzending naar de klant. De gegevens en status van de bestelling worden naar Adobe Commerce of Magento Open Source verzonden.
 

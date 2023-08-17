@@ -24,7 +24,7 @@ Op de [!DNL Commerce] Als de synchronisatie succesvol is, worden de volgende act
 
 In de opslagbeheerder kunt u ordegegevens weergeven vanuit [!DNL Channel Manager] door de winkel met verkoopkanalen te openen en **[!UICONTROL Orders]**.
 
-![Weergave voor bestellingen kanaalbeheer die moet worden beheerd [!DNL Walmart Marketplace] orders](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
+![Te beheren weergave voor bestellingen van Channel Manager [!DNL Walmart Marketplace] orders](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 
 <table>
 <tr>
-<td><strong>Control</strong></td>
+<td><strong>Besturing</strong></td>
 <td><strong>Beschrijving</strong></td>
 </tr>
 <tr>
@@ -51,11 +51,11 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 </tr>
 <tr>
 <td>[!UICONTROL View order detail]</td>
-<td>Selecteer de optie [!DNL Commerce] ordernummer in het [!UICONTROL Order] tabel. Gebruik vervolgens [!DNL Commerce] bestellen opties om de bestelling te verwerken.</td>
+<td>Selecteer de optie [!DNL Commerce] volgordenummer in de [!UICONTROL Order] tabel. Gebruik vervolgens [!DNL Commerce] bestellen opties om de bestelling te verwerken.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Channel Settings]</td>
-<td>Om de kanaalconfiguratie te wijzigen, selecteer de geloofsbrieven van de Verbinding van het kanaal de Slimme, in kaart gebrachte attributen, of verschepende herkenningstekens, montages selecteren [!DNL Commerce] ordernummer in het [!UICONTROL Order] tabel. Gebruik vervolgens [!DNL Commerce] bestellen opties om de bestelling te verwerken.</td>
+<td>Om de kanaalconfiguratie te wijzigen, selecteer de geloofsbrieven van de Verbinding van het kanaal de Slimme, in kaart gebrachte attributen, of verschepende herkenningstekens, montages selecteren [!DNL Commerce] volgordenummer in de [!UICONTROL Order] tabel. Gebruik vervolgens [!DNL Commerce] bestellen opties om de bestelling te verwerken.</td>
 </tr>
 </table>
 
@@ -89,12 +89,12 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 </tr>
 <tr>
 <td>[!UICONTROL Ship By (timezone)]</td>
-<td>De datum waarop de bestelling moet worden verzonden door om te voldoen aan [!DNL Walmart Marketplace] vereisten omgezet in de lokale tijdzone.
+<td>De datum waarop de bestelling moet worden verzonden door om te voldoen aan [!DNL Walmart Marketplace] vereisten worden omgezet in de lokale tijdzone.
 </td>
 </tr>
 <tr>
 <td>[!UICONTROL Deliver By (timezone)]</td>
-<td>De datum waarop de bestelling aan de klant moet worden geleverd om te voldoen [!DNL Walmart Marketplace] vereisten omgezet in de lokale tijdzone.</td>
+<td>De datum waarop de bestelling aan de klant moet worden geleverd om te voldoen [!DNL Walmart Marketplace] vereisten worden omgezet in de lokale tijdzone.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Ship Method]</td>
@@ -106,7 +106,7 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 </tr>
 <tr>
 <td>[!UICONTROL Status]</td>
-<td>Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De beginstatus van een bestelling die is geïmporteerd uit [!DNL Walmart Marketplace] is _Open_. Aanvullende statusupdates vinden plaats wanneer [!DNL Commerce] bestellingen worden verwerkt en [!DNL Channel Manager] synchroniseert de updates voor verzending, gedeeltelijke verzending en annulering met de [!DNL Walmart Marketplace].</td>
+<td>Hiermee wordt de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De beginstatus van een bestelling die is geïmporteerd uit [!DNL Walmart Marketplace] is _Open_. Aanvullende statusupdates vinden plaats wanneer [!DNL Commerce] bestellingen worden verwerkt en [!DNL Channel Manager] synchroniseert de updates voor verzending, gedeeltelijke verzending en annulering met de [!DNL Walmart Marketplace].</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status Details]</td>
@@ -124,7 +124,7 @@ De volgende lijsten beschrijven de controles en de kolommen beschikbaar voor Ord
 
 - **[!UICONTROL Canceled]**—Bestellingen die zijn geannuleerd van de [!DNL Commerce] opslaan.
 
-  Nadat de orderannulering is voltooid, worden de [!DNL Commerce] voorraadhoeveelheid wordt bijgewerkt om geretourneerde objecten weer te geven. Vervolgens [!DNL Channel Manager] synchroniseert de update naar de [!DNL Walmart Marketplace].
+  Nadat de orderannulering is voltooid, worden de [!DNL Commerce] voorraadhoeveelheid wordt bijgewerkt om geretourneerde objecten weer te geven. Dan, [!DNL Channel Manager] synchroniseert de update naar de [!DNL Walmart Marketplace].
 
 - **[!UICONTROL Return requested]**—Als Walmart Marketplace om een rendement voor bestellingen vraagt die zijn verzonden, `Return requested` de verbindingsvertoningen in [!UICONTROL Status details] kolom. Als u de koppeling selecteert, wordt het dialoogvenster [!UICONTROL Returns] dashboard om de teruggave te bekijken en het terugbetalingsproces te beheren.
 
@@ -164,7 +164,7 @@ In de winkel Commerce worden bestellingen geïmporteerd uit [!DNL Walmart Market
 
    - **[!UICONTROL Channel Shipping - Value]**-Geeft aan dat verzendkosten worden verwerkt via [!DNL Walmart Marketplace].
 
-   - **[!UICONTROL Cancellation Reason]**-Dit veld wordt alleen weergegeven als een bestelling is geïmporteerd uit [!DNL Walmart Marketplace] is geannuleerd. Tot de annuleringsredenen behoren:
+   - **[!UICONTROL Cancellation Reason]**-Dit veld wordt alleen weergegeven als een bestelling is geïmporteerd uit [!DNL Walmart Marketplace] is geannuleerd. De annuleringsredenen zijn onder meer:
 
       - [!UICONTROL Price or other listing errors.]
       - [!UICONTROL The item is out of stock.]
@@ -175,4 +175,4 @@ In de winkel Commerce worden bestellingen geïmporteerd uit [!DNL Walmart Market
 
   ![Status historie van geordende items voor ordergegevens [!DNL Walmart Marketplace] orders](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
-Je kunt de gegevens van de objectfactuur en de restitutie bekijken door de [!UICONTROL Invoice] en [!UICONTROL Credit Memo] in het navigatiemenu. U kunt het creditmemo ook rechtstreeks openen vanuit de [[!UICONTROL Returns]](return-refund-orders.md) dashboard in uw verkoopkanaalwinkel.
+Je kunt de gegevens van de objectfactuur en de restitutie bekijken door [!UICONTROL Invoice] en [!UICONTROL Credit Memo] in het navigatiemenu. U kunt het creditmemo ook rechtstreeks openen vanuit de [[!UICONTROL Returns]](return-refund-orders.md) dashboard in uw verkoopkanaalwinkel.

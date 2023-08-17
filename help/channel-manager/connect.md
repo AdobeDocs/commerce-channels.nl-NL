@@ -21,9 +21,9 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 
 ## Vereisten
 
-- **Handelsrekening**-Om software te installeren op [!DNL Commerce] exemplaren, moet u een rekening met Eigenaar of Admin toegang tot hebben [!DNL Commerce] platform.
+- **Handelsrekening**-Software installeren op [!DNL Commerce] exemplaren, moet u een rekening met Eigenaar of Admin toegang tot hebben [!DNL Commerce] platform.
 
-  Accounteigenaars en Super-gebruikers kunnen beheerdersaccounts maken via de [!DNL Commerce] instantie of vanaf de opdrachtregel met behulp van de [!DNL Commerce] CLI, opdracht `admin:user:create`.
+  Accounteigenaars en Super-gebruikers kunnen beheerdersaccounts maken via de [!DNL Commerce] instantie of vanaf de opdrachtregel met [!DNL Commerce] CLI, opdracht `admin:user:create`.
 
 - **Adobe Commerce Production API Key**-This [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) biedt API-toegang tot services die zijn vereist door Channel Manager. U hebt de openbare en privé geloofsbrieven voor deze sleutel nodig.
 
@@ -31,13 +31,13 @@ De [!DNL Commerce Services Connector] De Channel Manager-service wordt geïntegr
 >
 >Om de geloofsbrieven te verstrekken, a [!DNL Commerce] vergunninghouder of rekeninghouder beschikt over opties om [gedeelde toegang](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html)of geeft de [API-sleutel](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) referenties voor een vertrouwde ontwikkelaar.
 
-## Configureer de [!DNL Commerce Services Connector]
+## Vorm [!DNL Commerce Services Connector]
 
 1. Open de Configuratie van de Diensten van de Opslag.
 
    - Selecteer bij Beheer de optie **[!UICONTROL Stores]**.
 
-   - Onder *[!UICONTROL Settings]*, selecteert u **[!UICONTROL Configuration]**.
+   - Selecteer onder *[!UICONTROL Settings]* de optie **[!UICONTROL Configuration]**.
 
    - Uitbreiden **[!UICONTROL Services]** en selecteert u **[!UICONTROL Commerce Services Connector]**.
 

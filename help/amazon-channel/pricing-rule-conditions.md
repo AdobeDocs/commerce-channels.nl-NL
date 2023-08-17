@@ -24,7 +24,7 @@ U kunt op alle gebieden in de voorwaarden die vet zijn, klikken om de verschille
 
 Dit proces kan eenvoudig of gedetailleerd zijn, afhankelijk van uw catalogusconfiguratie. U kunt uw voorwaarden zodanig definiëren dat wanneer `ALL` of `ANY` van de voorwaarden: `TRUE` of `FALSE` voor een product komt het product in aanmerking voor toepassing van de prijsregel.
 
-Voorwaarden zijn gebaseerd op uw [productkenmerken](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Laat de sectie voor voorwaarden leeg als u de regel op alle producten wilt toepassen.
+Voorwaarden zijn gebaseerd op uw [productkenmerken](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Als u de regel op alle producten wilt toepassen, laat u de sectie Voorwaarden leeg.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ In dit voorbeeld wordt een regel gedefinieerd die een korting van 25% toepast op
 De regelinstructie heeft twee vette koppelingen, die, wanneer erop wordt geklikt, de opties voor dat gedeelte van de voorwaardelement weergeven. Als u de voorwaarde opslaat zonder een vette optie te wijzigen, geldt de regel voor al uw producten.
 
 - Klikken **[!UICONTROL ALL]** en kiest u `ALL` of `ANY`.
-- Klikken **[!UICONTROL TRUE]** en kiest u een van `TRUE` of `FALSE`.
+- Klikken **[!UICONTROL TRUE]** en kiest u `TRUE` of `FALSE`.
 - Als u de regel op alle producten wilt toepassen, laat u de voorwaarde ongewijzigd.
 
 U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wijzigen. In dit voorbeeld wordt de volgende voorwaarde gebruikt:
@@ -50,7 +50,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
    ![Combinatie van prijsregelvoorwaarden](assets/ob-conditions-combinations.png){width="500"}
 
-   **[!UICONTROL Product Attribute]** - De beschikbare productkenmerken zijn afhankelijk van de [instellen van het kenmerk](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). Voor een kenmerk dat in de lijst moet worden weergegeven, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in uw winkeleigenschappen.
+   **[!UICONTROL Product Attribute]** - De beschikbare productkenmerken zijn afhankelijk van de [opstelling van het attribuut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). Voor een kenmerk dat in de lijst moet worden weergegeven, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in uw winkeleigenschappen.
 
    - Voor **[!UICONTROL Product Attribute]** kiest u het kenmerk dat u wilt definiëren als basis voor de voorwaarde. In dit voorbeeld is de geselecteerde voorwaarde: `Category`.
 
@@ -62,7 +62,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
    - Klikken **[!UICONTROL is]** en kiest u de vergelijkingsoperator die de voorwaarde beschrijft waaraan producten moeten voldoen.
 
-     In dit voorbeeld is de vergelijkingsoperator `is`. De beschikbare opties zijn afhankelijk van het kenmerk dat u in de vorige stap hebt geselecteerd en kunnen verschillende vergelijkingsopties bevatten. Opties kunnen overeenkomende waarden bevatten, met uitzondering van of met inbegrip van ten minste een van een waarde, en groter dan, gelijk aan en kleiner dan een numeriek bedrag. In dit voorbeeld zijn de volgende opties beschikbaar: `is` en `is not`.
+     In dit voorbeeld is de vergelijkingsoperator `is`. De beschikbare opties zijn afhankelijk van het kenmerk dat u in de vorige stap hebt geselecteerd en kunnen verschillende vergelijkingsopties bevatten. Opties kunnen overeenkomende waarden bevatten, met uitzondering van of met inbegrip van ten minste een van een waarde, en groter dan, gelijk aan en kleiner dan een numeriek bedrag. In dit voorbeeld zijn de opties: `is` en `is not`.
 
    - Klikken **[!UICONTROL ...]** en kiest u de kenmerkwaarde waarop de voorwaarde is gebaseerd. Welke opties beschikbaar zijn, is afhankelijk van de instelling van het kenmerk.
 
@@ -74,7 +74,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
      ![Prijsregelvoorwaarde - regel 2, deel 4](assets/ob-price-rule-condition-4.png){width="500"}
 
-     Deze voorbeeldvoorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus met een gedefinieerde categorie Boeken (`4`) komt in aanmerking voor deze prijsregel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
+     Deze voorbeeldvoorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus met een gedefinieerde categorie Boeken (`4`) komt in aanmerking voor deze prijsregel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te beperken.
 
 1. Als u nog een voorwaardelijn aan de instructie wilt toevoegen, gaat u terug naar Stap 1 en herhaalt u het proces totdat alle gewenste voorwaarden zijn voltooid.
 

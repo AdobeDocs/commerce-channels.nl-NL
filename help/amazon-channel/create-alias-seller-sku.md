@@ -32,7 +32,7 @@ Deze functie kan worden gebruikt om twee functies uit te voeren:
 
 ## Wordt gebruikt voor een regiospecifiek doel {#region-specific}
 
-De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTROL Inactive]_, _Actief_, _Niet-subsidiabel_, of _Beëindigd_ ).
+De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTROL Inactive]_, _Actief_, _Niet-subsidiabel_, of _Afgelopen_ ).
 
 1. Onder _[!UICONTROL Actions]_, klikt u op **[!UICONTROL Create Alias Seller SKU]**.
 
@@ -50,7 +50,7 @@ De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTRO
 
    - `No` - Kies of je een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten.
 
-1. Klikken **[!UICONTROL Save Listing Update]**.
+1. Klik op **[!UICONTROL Save Listing Update]**.
 
 ## Wordt gebruikt om één catalogusproduct aan twee Amazon-aanbiedingen te koppelen
 
@@ -72,12 +72,12 @@ De aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTRO
 
    - `No` - Kies of je nog een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten.
 
-1. Klikken **[!UICONTROL Save Listing Update]**.
+1. Klik op **[!UICONTROL Save Listing Update]**.
 
 ![een Alias Amazon Seller SKU maken](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | Veld | Beschrijving |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Assign New Seller SKU] | Voer een nieuwe, unieke alfanumerieke waarde in die moet worden gekoppeld aan de oorspronkelijke SKU van de Amazon-verkoper. Dit nummer wordt alleen gebruikt door het verkoopkanaal van Amazon en komt overeen met het catalogusproduct. U kunt om het even welke waarde van SKU gebruiken, maar de waarde kan slechts eenmaal in uw catalogus worden gebruikt. |
+| [!UICONTROL Assign New Seller SKU] | Voer een nieuwe, unieke alfanumerieke waarde in die moet worden gekoppeld aan de oorspronkelijke SKU van de Amazon-verkoper. Dit nummer wordt alleen gebruikt door het verkoopkanaal van Amazon om overeen te komen met het catalogusproduct. U kunt om het even welke waarde van SKU gebruiken, maar de waarde kan slechts eenmaal in uw catalogus worden gebruikt. |
 | [!UICONTROL Assign New ASIN] | Voer de ASIN-waarde in voor de aanbieding waaraan u het catalogusproduct wilt aanpassen. Pas dit veld alleen aan als een enkel catalogusproduct overeenkomt met de ASIN voor een andere vermelding voor hetzelfde product. Deze waarde moet overeenkomen met de ASIN die door Amazon is toegewezen, anders wordt de aanbieding niet door Amazon afgewezen. |
-| [!UICONTROL Remove Existing Seller SKU] | Opties:<ul><li>**[!UICONTROL Yes]** - Kies of u de aanbieding wilt verwijderen en een aanbieding wilt maken met de nieuwe gegevens die u opgeeft. De nieuwe aanbieding wordt weergegeven in het dialoogvenster _[!UICONTROL Active]_en de oude lijst wordt naar de_ Beëindigd _tab.</li><li>**[!UICONTROL No]** - Kies of je nog een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten. Beide aanbiedingen worden weergegeven op het tabblad Actief nadat de nieuwe aanbieding is gemaakt.</li></ul> |
+| [!UICONTROL Remove Existing Seller SKU] | Opties:<ul><li>**[!UICONTROL Yes]** - Kies of u de aanbieding wilt verwijderen en een aanbieding wilt maken met de nieuwe gegevens die u opgeeft. De nieuwe aanbieding wordt weergegeven in het dialoogvenster _[!UICONTROL Active]_en de oude lijst wordt verplaatst naar de_ Afgelopen _tab.</li><li>**[!UICONTROL No]** - Kies of je nog een aanbieding wilt maken en de oude aanbieding ongewijzigd wilt laten. Beide aanbiedingen worden weergegeven op het tabblad Actief nadat de nieuwe aanbieding is gemaakt.</li></ul> |

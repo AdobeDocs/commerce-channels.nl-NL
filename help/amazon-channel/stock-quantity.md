@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Stock/Quantity]
+title: Amazon-Sales Channel - [!UICONTROL Stock/Quantity]
 description: De synchronisatie van de gegevens over de hoeveelheid producten van je winkel voor Koophandel met je [!DNL Amazon Seller Central] de voorraad/hoeveelheid-instellingen bijwerken.
 feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
@@ -26,9 +26,9 @@ Hoeveelheid is een regionaal kenmerk en is gebaseerd op de **[!UICONTROL Amazon 
 
 1. Klikken **[!UICONTROL Listing Settings]** op het opslagdashboard.
 
-1. Breid uit **[!UICONTROL Stock / Quantity]** sectie.
+1. Vouw de sectie **[!UICONTROL Stock / Quantity]** uit.
 
-1. Voor **[!UICONTROL Out-of-Stock Threshold]** (vereist), voert u een numerieke waarde in voor de laagste hoeveelheid van een product om het product in aanmerking te laten komen voor de Amazon-aanbieding.
+1. Voor **[!UICONTROL Out-of-Stock Threshold]** (vereist), voert u een numerieke waarde in voor de laagste hoeveelheid van een product om ervoor te zorgen dat het product in aanmerking komt voor de Amazon-aanbieding.
 
    De standaardwaarde is `0`. Als uw [!DNL Commerce] De voorraad van het product is lager dan dit aantal. De desbetreffende Amazon-aanbieding komt niet in aanmerking voor verkoop via Amazon.
 
@@ -36,7 +36,7 @@ Hoeveelheid is een regionaal kenmerk en is gebaseerd op de **[!UICONTROL Amazon 
 
    Met deze instelling worden al je in aanmerking komende Amazon-aanbiedingen tegen de opgegeven waarde weergegeven. Wanneer een object wordt verkocht, verandert het aantal aanbiedingen van Amazon niet. Deze waarde wordt altijd gebruikt voor de beschikbare aanbiedingshoeveelheid, zelfs als het werkelijke aantal producten hoger of lager is. Deze instelling wordt doorgaans gebruikt wanneer u de productvoorraad niet beheert. U hebt bijvoorbeeld een product met een hoeveelheid van 80 in uw [!DNL Commerce] catalogus. Met ingesteld op `10`, de Amazon-aanbieding geeft altijd een beschikbare hoeveelheid weer van `10` en verandert niet wanneer het product wordt verkocht.
 
-1. Voor **[!UICONTROL "Do Not Manage Stock" Quantity]** (vereist), voer een waarde in die je wilt weergeven voor je Amazon-aanbiedingen.
+1. Voor **[!UICONTROL "Do Not Manage Stock" Quantity]** (vereist), voer een waarde in die in aantal moet worden weergegeven voor je Amazon-aanbiedingen.
 
    Amazon vereist dat je een beschikbaar aantal publiceert. Voor [!DNL Commerce] producten die zijn ingesteld om geen voorraad te beheren maar die je wilt aanbieden op Amazon, worden gepubliceerd met de beschikbare hoeveelheid die hier wordt ingevoerd.
 
@@ -61,7 +61,7 @@ Hoeveelheid is een regionaal kenmerk en is gebaseerd op de **[!UICONTROL Amazon 
 - [[!UICONTROL Catalog Search]](./catalog-search.md)
 - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md)
 
-## Voorbeeld: Maximale vermelde hoeveelheid
+## Voorbeeld: Maximale aangeboden hoeveelheid
 
 Wanneer een object wordt verkocht, wordt het door de Amazon-aanbieding opnieuw op deze hoeveelheid geplaatst.
 
@@ -69,7 +69,7 @@ Als u bijvoorbeeld *[!UICONTROL Maximum Listed Quantity]* als `12`In de Amazon-a
 
 ![Maximum aantal in de lijst, voorbeeld 1](assets/amazon-max-listed-quantity.png){width="300"}
 
-Als u uw *[!UICONTROL Maximum Listed Quantity]* als `1`alle in aanmerking komende producten worden vermeld met een hoeveelheid `1`. Wanneer een object wordt verkocht, zoekt het systeem naar je [!DNL Commerce] -product en als er nog meer voorraad is, wordt het object op Amazon opnieuw aangeboden met een hoeveelheid `1`.
+Als u uw *[!UICONTROL Maximum Listed Quantity]* als `1`alle in aanmerking komende producten met een hoeveelheid `1`. Wanneer een object wordt verkocht, zoekt het systeem naar je [!DNL Commerce] -product en als er nog meer voorraad is, wordt het object op Amazon opnieuw aangeboden met een hoeveelheid `1`.
 
 Deze optie kan nuttig zijn voor producten die doorgaans met een hoeveelheid van 1 worden geordend. Het verhoogt ook de urgentie voor de verkoper bij het bekijken van je Amazon-aanbieding.
 

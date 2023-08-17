@@ -24,7 +24,7 @@ De volgende logbestanden zijn toegankelijk via de [opslagdashboard](./amazon-sto
 
 De volgende store-specific rapporten kunnen van worden betreden [opslagdashboard](./amazon-store-dashboard.md).
 
-- De [Concurrentieprijsanalyse](./competitive-price-analysis.md) toont aan dat je Amazon _aanlandingsprijs_ (aanbiedingsprijs plus verzendprijs) in verhouding tot de [Buy Box](./buy-box-competitor-pricing.md) prijs en [laagste concurrent](./lowest-competitor-pricing.md) prijs.
+- De [Concurrentieprijsanalyse](./competitive-price-analysis.md) toont aan dat je Amazon _aangelande prijs_ (aanbiedingsprijs plus verzendprijs) in verhouding tot de [Buy Box](./buy-box-competitor-pricing.md) prijs en [laagste concurrent](./lowest-competitor-pricing.md) prijs.
 
 - De [Aanbiedingsverbeteringen](./listing-improvements.md) In dit rapport worden alle voorstellen weergegeven die Amazon voor de geselecteerde winkel heeft gedaan.
 

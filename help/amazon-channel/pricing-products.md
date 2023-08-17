@@ -23,7 +23,7 @@ Er zijn twee soorten prijsregels:
   >
   >Intelligente prijsstellingsregels functioneren niet naar behoren als de Amazon-regio is ingesteld op `Inactive` status, zoals tijdens het instappen. Je prijsberekeningen zijn afhankelijk van je verzendkosten en je regio moet binnen zijn `Active` status voor je verzendkosten die je vanaf Amazon wilt synchroniseren.
   >
-  >Ga naar Instellingen > Accountinformatie > Vakantie-instellingen om de status van uw regio in uw Amazon-account bij te werken. Zie [Amazon: Aanbiedingsstatus voor vakanties](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Aanmelden bij Verkoper is vereist).
+  >Ga naar Instellingen > Accountinformatie > Vakantie-instellingen om de status van uw regio in uw Amazon-account bij te werken. Zie [Amazon: aanbiedingsstatus voor vakanties](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Aanmelden bij Verkoper is vereist).
 
 Met deze functie kun je je Amazon-prijzen op een vergelijkbare manier manipuleren als met de [!DNL Commerce] [catalogusprijsregels](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). U kunt complexe regels maken waarmee u de prijzen voor specifieke producten, producten binnen specifieke categorieën of zelfs met specifieke kenmerken kunt wijzigen.
 
@@ -37,8 +37,8 @@ Met prijsregels kun je een andere prijs voor aanbiedingen in Amazon instellen da
 
 Voor een prijsstellings-/prijsstellingsregel zijn drie sets gegevens vereist tijdens de installatie:
 
-- [Algemene instellingen](./pricing-rule-general-settings.md): Bepaalt de naam, de beschrijving, de actieve data, de prioriteit voor een regel en plaatst het gedrag van verdere regels, die op zijn prioritaire plaatsen worden gebaseerd.
-- [Voorwaarden](./pricing-rule-conditions.md): Bepalen welke producten in aanmerking komen voor de prijsregel.
+- [Algemene instellingen](./pricing-rule-general-settings.md): Definieert de naam, beschrijving, actieve datums, prioriteit voor een regel en stelt het gedrag van volgende regels in op basis van de instelling voor prioriteit.
+- [Voorwaarden](./pricing-rule-conditions.md): Bepaal welke producten in aanmerking komen voor de prijsregel.
 - [Handelingen](./pricing-rule-actions.md): Definieer de aanpassingsberekeningen die op de prijsbron worden toegepast om de aanbiedingsprijs te bepalen.
 
 U kunt [standaardprijsregels](./standard-price-rules.md) waarmee je Amazon-aanbiedingsprijs automatisch wordt aangepast ten opzichte van de geselecteerde **[!UICONTROL Magento Price Source]** in uw [aanbiedingsprijs](./listing-price.md) instellingen. Met deze functie kun je je Amazon-prijzen op een vergelijkbare manier manipuleren als met de [!DNL Commerce] [catalogusprijsregels](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html). U kunt complexe regels maken die automatisch de prijzen voor specifieke producten, producten binnen specifieke categorieën of producten met specifieke kenmerken wijzigen. U kunt traditionele instellingen voltooien en de prijs van uw producten wijzigen om deze te verhogen of te verlagen op basis van een vaste hoeveelheid of een percentage.
@@ -63,7 +63,7 @@ Een andere prijsstellingsoptie is een [prijsoverschrijving](./overrides.md), die
 | [!UICONTROL Rule Type] | Het regeltype, zoals ingesteld in [Handelingen voor prijsregel](./pricing-rule-actions.md) (Standaardprijsregel of Intelligent repricing rule) |
 | [!UICONTROL Is Active] | Of de regel actief is, zoals ingesteld in [Algemene instellingen prijsregel](./pricing-rule-general-settings.md) |
 | [!UICONTROL Priority] | De prioriteit boven andere prijsvoorwaarden, zoals vastgesteld in [Algemene instellingen prijsregel](./pricing-rule-general-settings.md) |
-| [!UICONTROL Stop Further Rules Processing] | Geeft aan of verdere prijsregels worden verwerkt voor producten die in aanmerking komen voor deze regel, zoals vastgesteld in [algemene prijsregel](./pricing-rule-general-settings.md) |
+| [!UICONTROL Stop Further Rules Processing] | Geeft aan of verdere prijsregels worden verwerkt voor producten die in aanmerking komen voor deze regel, zoals vastgesteld in [algemene instellingen voor prijsregel](./pricing-rule-general-settings.md) |
 | [!UICONTROL From Date] | Het begin van de periode waarin de regel actief is |
 | [!UICONTROL To Date] | Het einde van de periode waarin de regel actief is |
 | [!UICONTROL Action] | Hiermee worden alle acties weergegeven die op een specifieke aanbieding kunnen worden toegepast. Als u een handeling wilt toepassen, klikt u op **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom. Opties: `Edit Price Rule` / `Delete Price Rule` |

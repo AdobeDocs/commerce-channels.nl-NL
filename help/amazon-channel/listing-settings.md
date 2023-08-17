@@ -36,10 +36,10 @@ Breid elk van de secties uit en vorm zonodig.
    - [[!UICONTROL Listing Price]](./listing-price.md): Definiëren [!DNL Commerce] het tarief attributen en vormen prijsmontages.
    - [[!UICONTROL (B2B) Business Price]](./business-pricing.md): Definieer de instellingen voor gedifferentieerde prijzen bij verkoop aan een ander bedrijf.
    - [[!UICONTROL Stock / Quantity]](./stock-quantity.md): Definieer de drempelwaarden voor voorraadbeheer voor voorraadbeheer.
-   - [[!UICONTROL Fulfilled By]](./fulfilled-by.md)\: Bepaal wie orders uitvoert.
-   - [[!UICONTROL Catalog Search]](./catalog-search.md): Definieer de zoekparameters voor een betrouwbaar proces voor het afstemmen van uw [!DNL Commerce] catalogiseer producten met je Amazon-productaanbiedingen.
+   - [[!UICONTROL Fulfilled By]](./fulfilled-by.md)\: Definiëren wie aan bestellingen voldoet.
+   - [[!UICONTROL Catalog Search]](./catalog-search.md): Definieer uw zoekparameters voor een betrouwbaar proces voor het afstemmen van uw [!DNL Commerce] catalogiseer producten met je Amazon-productaanbiedingen.
    - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Definieer de instellingen en waarden voor product &quot;condition&quot;. Voorwaarde is een productdetail dat door Amazon wordt vereist, maar niet voor uw [!DNL Commerce] catalogusproducten.
 
-1. Klikken **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
 ![Aanbiedingsinstellingen](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

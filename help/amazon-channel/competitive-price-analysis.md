@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Concurrentieprijsanalyserapport
 
-In het rapport Concurrentieprijsanalyse worden je Amazon-aanbiedingen per marktplaats weergegeven met de respectievelijke [Buy Box](./buy-box-competitor-pricing.md) prijs en [laagste concurrent](./lowest-competitor-pricing.md) prijswaarden. Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
+In het rapport Concurrentieprijsanalyse worden je Amazon-aanbiedingen per marktplaats weergegeven met de respectievelijke [Buy Box](./buy-box-competitor-pricing.md) prijs en [laagste concurrent](./lowest-competitor-pricing.md) prijswaarden. Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen kan worden gecontroleerd.
 
 ![Concurrentieprijsanalyserapport](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 

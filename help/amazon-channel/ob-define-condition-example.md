@@ -1,5 +1,5 @@
 ---
-title: 'Voorbeeld: Voorwaarde voor Amazon-aanbiedingsregels definiëren'
+title: 'Voorbeeld: een voorwaarde definiëren voor Amazon-aanbiedingsregels'
 description: Wanneer je regels voor aanbiedingen maakt, moet je voorwaarden definiëren voor het identificeren van de catalogusproducten die op de Amazon Marketplace moeten worden aangeboden.
 feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Voorbeeld: Een voorwaarde definiëren
+# Voorbeeld: een voorwaarde definiëren
 
 ## Voorwaarden
 
@@ -28,7 +28,7 @@ Zie de sectie Voorwaarden van [Een regel voor een startprijs maken](https://expe
 
 Dit proces kan eenvoudig of gedetailleerd zijn, afhankelijk van de setup van de catalogus. U kunt de voorwaarden zodanig instellen dat wanneer `ALL` of `ANY` van de vastgestelde voorwaarden: `TRUE` of `FALSE` voor een product in aanmerking komt om op Amazon te worden vermeld.
 
-Voorwaarden zijn gebaseerd op bestaande productkenmerkwaarden. Laat de sectie voor voorwaarden leeg als u de regel op alle producten wilt toepassen.
+Voorwaarden zijn gebaseerd op bestaande productkenmerkwaarden. Als u de regel op alle producten wilt toepassen, laat u de sectie Voorwaarden leeg.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
 1. Klik op Toevoegen (![Pictogram toevoegen](assets/btn-add-grn.png)) aan het begin van de voorwaardelijn en selecteer een kenmerk waarop de voorwaarde moet worden gebaseerd, zoals een voorwaardencombinatie of een productkenmerk.
 
-   - **[!UICONTROL Conditions Combination]** - Kies deze optie om een andere set `All/Any` en `True/False` voorwaarden binnen de bestaande set.
+   - **[!UICONTROL Conditions Combination]** - Kies deze optie als u een andere set `All/Any` en `True/False` voorwaarden binnen de bestaande set.
 
      ![Combinatie van voorwaarden](assets/ob-conditions-combinations.png){width="500"}
 
@@ -66,7 +66,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
       1. Klikken **[!UICONTROL is]** en kiest u de vergelijkingsoperator die de voorwaarde beschrijft waaraan producten moeten voldoen.
 
-         In dit voorbeeld is de vergelijkingsoperator `is`. Welke opties beschikbaar zijn, is afhankelijk van het kenmerk dat u in de vorige stap hebt geselecteerd. Opties kunnen verschillende vergelijkingsopties bevatten, zoals overeenkomende waarden, met of zonder ten minste een waarde en groter dan, gelijk aan en kleiner dan een numeriek bedrag. In dit voorbeeld zijn de volgende opties beschikbaar: `is` en `is not`.
+         In dit voorbeeld is de vergelijkingsoperator `is`. Welke opties beschikbaar zijn, is afhankelijk van het kenmerk dat u in de vorige stap hebt geselecteerd. Opties kunnen verschillende vergelijkingsopties bevatten, zoals overeenkomende waarden, met of zonder ten minste een waarde en groter dan, gelijk aan en kleiner dan een numeriek bedrag. In dit voorbeeld zijn de opties: `is` en `is not`.
 
       1. Klikken **[!UICONTROL ...]** en kiest u de kenmerkwaarde waarop de voorwaarde is gebaseerd.
 
@@ -76,7 +76,7 @@ U kunt verschillende voorwaarden maken door de combinatie van deze waarden te wi
 
          ![Voorwaardelijke regel 2, deel 3](assets/ob-listing-rule-condition-is.png){width="500"}
 
-   Deze voorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus waarvan het Amazon FBA-kenmerk is ingesteld op een waarde van `Yes` komt in aanmerking voor aanbieding aan Amazon voor de regio en winkel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te verfijnen.
+   Deze voorwaarde is voltooid. Zoals gezegd betekent deze voorwaarde dat elk product in uw [!DNL Commerce] catalogus waarvan het Amazon FBA-kenmerk is ingesteld op een waarde van `Yes` komt in aanmerking voor aanbieding aan Amazon voor de regio en winkel. U kunt meer voorwaardenlijnen toevoegen om uw in aanmerking komende producten verder te beperken.
 
 1. Als u nog een voorwaardelijn aan de instructie wilt toevoegen, gaat u terug naar stap 1 en herhaalt u het proces totdat alle gewenste voorwaarden zijn voltooid.
 

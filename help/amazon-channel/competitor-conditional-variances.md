@@ -1,5 +1,5 @@
 ---
-title: '"Intelligente prijsregel: Voorwaardelijke variaties van concurrent'
+title: "Intelligent Repricing Rule: concurrent Conditional Variances"
 description: Bepaal de prijs van je Amazon-aanbieding op basis van de prijs van een concurrent en de conditie van het product door een intelligente prijsregel te maken.
 feature: Sales Channels, Configuration
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Intelligente prijsregel: Voorwaardelijke variaties van concurrent
+# Intelligente prijsregel: Voorwaardelijke variaties van concurrenten
 
 Secties van een intelligente prijsstellingsregel omvatten:
 
@@ -34,7 +34,7 @@ Voor **[!UICONTROL Conditional Variance]** kiest u een optie:
 
 - `Use all competitor's product conditions` - (Standaard) Kies wanneer je het product wilt vergelijken met een beschikbare voorwaarde (als er geen overeenkomst is voor de voorwaarde die je aanbiedt).
 
-- `Use Only Matching Competitor's Product Condition` - Kies wanneer u uw product alleen wilt vergelijken met de producten van de concurrent in dezelfde staat. Als er geen overeenkomst is, wordt het product geprijsd op _Magento-prijsbron_ gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md).
+- `Use Only Matching Competitor's Product Condition` - Kies wanneer u uw product alleen wilt vergelijken met de producten van de concurrent in dezelfde staat. Als er geen overeenkomst is, wordt het product geprijsd op de _Prijsbron Magento_ gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md).
 
 - `Apply Variance (if competitor's product condition differs)` - Kies ervoor eerst te proberen om te vergelijken met uw overeenkomende productvoorwaarde. Als er geen overeenkomstige voorwaarde bestaat, wordt een variantie (als een percentage) toegepast ten opzichte van uw productsituatie en de toestand van de laagste concurrent.
 
@@ -42,7 +42,7 @@ Voor **[!UICONTROL Conditional Variance]** kiest u een optie:
 
   Opties voor voorwaardelijke variatie die worden weergegeven, zijn gebaseerd op de instellingen voor je aanbieding voor `Condition` die zijn toegewezen aan voorwaardenwaarden met behulp van een [!DNL Commerce] [productkenmerk](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Voor alle omgezette voorwaarden kunt u een variatiepercentage van 1-100 opgeven. De uitzondering is &#39;collectibles&#39;, in welk geval een percentage groter dan 100 mag worden toegepast.
 
-![Intelligente prijsregel - voorwaardelijke variaties voor concurrenten](assets/amazon-competitor-cond-variances.png){width="500" zoomable="yes"}
+![Intelligente prijsstellingsregel - voorwaardelijke variaties voor concurrenten](assets/amazon-competitor-cond-variances.png){width="500" zoomable="yes"}
 
 | Veld | Beschrijving |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Voor **[!UICONTROL Conditional Variance]** kiest u een optie:
 
 De formule voor de berekening van de voorwaardelijke variantiebasis is als volgt:
 
-![formule voor berekening van de voorwaardelijke variabasis](assets/amazon-cond-variance-calc-1.png){width="300"}
+![formule voor de berekening van de voorwaardelijke variabasis](assets/amazon-cond-variance-calc-1.png){width="300"}
 
 ## Voorbeeld
 
@@ -65,7 +65,7 @@ De instellingen voor voorwaardelijke variantie zijn als volgt:
 ![voorbeeld voorwaardelijke variatie-instellingen](assets/amazon-cond-variances.png){width="500" zoomable="yes"}
 
 - BMC = 100 (Concurrentievoorwaarde = Nieuw)
-- MCV = 80 (Merchant condition = gebruikt; Goed)
+- MCV = 80 (Merchant condition = Used; Good)
 - BMP = $7,99 (basisprijs = de laagste prijs van de gematchte concurrent)
 
 ![voorbeeld van berekening van voorwaardelijke variabasis](assets/amazon-cond-variance-calc-2.png){width="300"}

@@ -24,7 +24,7 @@ De _[!UICONTROL Lowest Competitor Pricing]_op het tabblad_[!UICONTROL Product Li
 
    De [_[!UICONTROL Product Listing]_](./managing-product-listings.md) pagina wordt geopend.
 
-1. Klik op een van de tabbladen met de status van de aanbieding op de naam van een product voor een aanbieding.
+1. Klik op een van de tabbladen met de status van de aanbieding op de naam van de productaanbieding voor een aanbieding.
 
    De _[!UICONTROL Product Listing Details]_pagina wordt geopend.
 
@@ -35,7 +35,7 @@ De _[!UICONTROL Lowest Competitor Pricing]_op het tabblad_[!UICONTROL Product Li
 | Kolom | Beschrijving |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert.<br><br>Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan uw catalogus wordt geupload. U vindt de ASIN van een item op de pagina met productdetails en aanvullende gegevens over het item (zoals grootte, aantal pagina&#39;s of aantal schijven). |
-| [!UICONTROL Condition] | De [voorwaarde](./product-listing-condition.md) van het product. |
+| [!UICONTROL Condition] | De [conditie](./product-listing-condition.md) van het product. |
 | [!UICONTROL Fulfillment Channel] | De uitvoeringsmethode. |
 | [!UICONTROL Listing Price] | De prijs die wordt gebruikt voor je Amazon-aanbiedingen. |
 | [!UICONTROL Shipping Price] | De kosten om het product te verzenden. |

@@ -1,6 +1,6 @@
 ---
 title: Integratie met een [!DNL Amazon Seller Account]
-description: Voordat u het instapproces start, moet u een Amazon Sales Channel-winkel maken (toevoegen) en deze koppelen aan uw Amazon-verkopersaccount.
+description: Voordat u het instapproces start, moet u een Amazon Sales Channel Store maken (toevoegen) en deze koppelen aan uw Amazon-verkopersaccount.
 role: Admin, Developer
 feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
@@ -23,17 +23,17 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
 ## Een Amazon-winkel toevoegen
 
-1. Op de _Beheer_ zijbalk, ga naar **Marketing** > _Kanalen_ > **Amazon Sales Channel**.
+1. Op de _Beheerder_ zijbalk, ga naar **Marketing** > _Kanalen_ > **Amazon Sales Channel**.
 
    Als je de eerste Amazon-winkel voor verkoopkanalen toevoegt, _Taken vooraf instellen_ wordt weergegeven. Nadat uw eerste winkel is toegevoegd, kunnen taken die vooraf zijn ingesteld, worden geopend op het tabblad [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina onder _Leren en voorbereiden_ in het linkerzijmenu.
 
-1. Klikken **[!UICONTROL Add Amazon Store]**.
+1. Klik op **[!UICONTROL Add Amazon Store]**.
 
    De _[!UICONTROL Add Amazon sales channel]_pagina wordt geopend.
 
    ![De Amazon-winkel voor verkoopkanalen toevoegen](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
-1. Voor **[!UICONTROL Magento Website to use for Amazon Listing]**, kiest u welke van uw [!DNL Commerce] websites om verbinding te maken voor deze Amazon-winkel voor verkoopkanalen.
+1. Voor **[!UICONTROL Magento Website to use for Amazon Listing]**, kiest u welke [!DNL Commerce] websites om verbinding te maken voor deze Amazon-winkel voor verkoopkanalen.
 
    Deze instelling definieert ook de standaardinstelling [!DNL Commerce] opslaan voor [Amazon-orders importeren](./order-settings.md).
 
@@ -62,7 +62,7 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
      [Toewijzingskenmerken](./ob-creating-magento-attributes.md) helpt ervoor te zorgen dat je Amazon-aanbieding correct overeenkomt met het corresponderende product in je [!DNL Commerce] catalogus.
 
-1. Klikken **[!UICONTROL Connect]**.
+1. Klik op **[!UICONTROL Connect]**.
 
    Het dialoogvenster wordt gesloten en de nieuwe winkel wordt weergegeven op het tabblad [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) pagina met een bevestigingsbericht.
 
@@ -80,7 +80,7 @@ _U hebt de primaire aanmeldingsgegevens voor uw [!DNL Amazon Seller Central] -ac
 
 1. Op de _[!UICONTROL You are almost done]_bericht, klik **[!UICONTROL Continue]**.
 
-   U hebt Amazon-verkoopkanalen toestemming gegeven om gegevens te openen en te delen met uw [!DNL Amazon Seller Central] account. De Amazon-pagina wordt gesloten en er verschijnt een bevestigingsbericht.
+   U hebt Amazon-verkoopkanalen toestemming gegeven om gegevens te openen en met uw [!DNL Amazon Seller Central] account. De Amazon-pagina wordt gesloten en er verschijnt een bevestigingsbericht.
 
    De [Amazon-verkoopkanaal naar huis](./amazon-sales-channel-home.md) wordt weergegeven met je Amazon-winkelkaarten.
 

@@ -1,5 +1,5 @@
 ---
-title: '"Intelligente prijsregel: Floor Price'''
+title: "Intelligente prijsregel voor herstelling: prijs op de vloer"
 description: Gebruik instellingen voor de laagste prijs om de laagste prijs te bepalen voor een intelligente prijsregel voor het beheren van je Amazon-aanbiedingen.
 feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf

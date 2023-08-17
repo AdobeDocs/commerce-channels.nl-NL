@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Verzendkosten toewijzen
+# Verzenddragers toewijzen
 
-Voor u [procesorderoverbrengingen](process-orders.md#ship-an-order) for [!DNL Walmart Marketplace] bestellingen, de voorkeur van Walmart aan vervoerders aan de overeenkomstige vervoerder in kaart brengen [!DNL Commerce] zodat de verzendgegevens gesynchroniseerd kunnen worden tussen [!DNL Walmart] en [!DNL Commerce].
+Voor u [procesorderverzending](process-orders.md#ship-an-order) for [!DNL Walmart Marketplace] bestellingen, de voorkeur van Walmart aan vervoerders aan de overeenkomstige vervoerder in kaart brengen [!DNL Commerce] zodat de verzendgegevens gesynchroniseerd kunnen worden tussen [!DNL Walmart] en [!DNL Commerce].
 
 Handelsmaatschappijen die niet aan een voorkeursvervoerder zijn toegewezen, worden aangeduid als *[!UICONTROL Other Carrier]* op [!DNL Walmart].
 
@@ -27,10 +27,10 @@ Controleren [Walmart-vereisten](walmart-requirements.md) voor de [!DNL Marketpla
 
 1. Aan **[!UICONTROL Channel Settings]**, selecteert u **[!UICONTROL Walmart Connection]**.
 
-1. Selecteer **[!UICONTROL Change Credentials]**
+1. Als u de referenties wilt wijzigen, selecteert u **[!UICONTROL Change Credentials]**
 
-   ![Walmart API-referenties bijwerken om verbinding te autoriseren](assets/update-connection-credentials.png){width="700" zoomable="yes"}
+   ![Walmart API-referenties bijwerken om verbinding te verifiëren](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
 1. Voer de **[!UICONTROL Walmart Client ID]** en **[!UICONTROL Walmart Client Secret]**.
 
-1. Selecteren **[!UICONTROL Save]** om de configuratie toe te passen.
+1. Selecteren **[!UICONTROL Save]** de configuratie toepassen.

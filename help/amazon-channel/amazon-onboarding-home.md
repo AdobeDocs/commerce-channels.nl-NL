@@ -1,6 +1,6 @@
 ---
 title: "Aan boord [!DNL Amazon Sales Channel]"
-description: Meer informatie over de vooraf ingestelde taken, instapstappen en de manier waarop Amazon werkt met Amazon Sales Channel in Adobe Commerce en Magento Open Source.
+description: Leer meer over de vooraf ingestelde taken, de instapprocedure en de manier waarop Amazon werkt met de Amazon-Sales Channel in Adobe Commerce en Magento Open Source.
 role: Leader, Admin, User
 feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae

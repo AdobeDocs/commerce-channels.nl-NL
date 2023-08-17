@@ -44,13 +44,13 @@ Het opslagdashboard bevat ook opslaggegevens en koppelingen naar instellingen of
 
    - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) - [Aanbiedingswijzigingen](./listing-changes-log.md) en [communicatiefouten](./communication-errors-log.md).
 
-   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Geef de instellingen voor de naam van e-mail- en Amazon-verkoopkanalen weer in de [!DNL Commerce] Admin.
+   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Geef de instellingen voor de naam van e-mail- en Amazon-verkoopkanalen weer in het dialoogvenster [!DNL Commerce] Admin.
 
 - **[!UICONTROL Store Listings]** - Toont een grafische vertegenwoordiging voor de archiefverkoop voor de laatste 7 of 30 dagen samen met levensduurverkoopgegevens.
 
   In dit gedeelte worden ook de aantallen aanbiedingen voor je [actieve aanbiedingen](./active-listings.md), [inactieve aanbiedingen](./inactive-listings.md)en lopende aanbiedingen, samen met koppelingen naar hun overeenkomstige _[!UICONTROL Product Listings]_pagina. U kunt ook op **[!UICONTROL Manage Listings]**om de_[!UICONTROL Product Listings]_ pagina. Zie [Amazon-aanbiedingen beheren](./managing-product-listings.md).
 
-- **[!UICONTROL Recent Orders]** - Hiermee geeft u informatie weer voor de meest recente Amazon-bestellingen. De vermelde informatie is gebaseerd op de informatie die van Amazon is ontvangen. Deze tabel wordt niet bijgewerkt met [!DNL Commerce] bestellingsinformatie, zelfs wanneer [orderimport](./order-settings.md) is ingeschakeld. Als u al uw Amazon-bestellingen wilt weergeven, klikt u op **Alle bestellingen**.
+- **[!UICONTROL Recent Orders]** - Geeft informatie weer voor je meest recente Amazon-bestellingen. De vermelde informatie is gebaseerd op de informatie die van Amazon is ontvangen. Deze tabel wordt niet bijgewerkt met [!DNL Commerce] bestellingsinformatie, zelfs wanneer [orderimport](./order-settings.md) is ingeschakeld. Als u al uw Amazon-bestellingen wilt weergeven, klikt u op **Alle bestellingen**.
 
   Zie [Amazon-bestellingen weergeven](./amazon-orders-all.md) voor kolombeschrijvingen, en zie [Bestellingen beheren](./managing-orders.md) voor meer informatie .
 

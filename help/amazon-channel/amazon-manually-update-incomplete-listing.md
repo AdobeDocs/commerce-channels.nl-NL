@@ -18,7 +18,7 @@ Aanbiedingen weergegeven op de _[!UICONTROL Incomplete]_tab bevat uw [!DNL Comme
 
 1. De aanbiedingen weergeven op de _[!UICONTROL Incomplete]_tab in [Aanbiedingen beheren](./managing-product-listings.md).
 
-1. In de _[!UICONTROL Action]_kolom, klikt u op **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**voor de aanbieding die je wilt bijwerken.
+1. In de _[!UICONTROL Action]_kolom, klik **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**voor de aanbieding die je wilt bijwerken.
 
 1. Bekijk de productgegevens van de catalogus (SKU en productnaam) waarvoor u een Amazon-aanbieding wilt maken.
 
@@ -34,7 +34,7 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
 1. De aanbiedingen weergeven op de _[!UICONTROL Incomplete]_tab in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. In de _Handeling_ kolom, klikt u op **Selecteren** > **Vereiste gegevens bijwerken** voor de aanbieding die je wilt bijwerken.
+1. In de _Handeling_ kolom, klik **Selecteren** > **Vereiste gegevens bijwerken** voor de aanbieding die je wilt bijwerken.
 
 1. Bekijk de productgegevens van de catalogus (SKU en productnaam) waarvoor u een Amazon-aanbieding wilt maken.
 
@@ -42,7 +42,7 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
    De hier vermelde opties omvatten catalogusproducten die als mogelijke overeenkomsten worden geïdentificeerd. Als geen van de opties correct is, kunt u kiezen `Manually Enter Correct ASIN` en voer de ASIN voor het product handmatig in.
 
-1. Als u de ASIN handmatig invoert, voert u de juiste ASIN in voor **[!UICONTROL Manually Assign ASIN]**.
+1. Als het ingaan van ASIN manueel, ga correcte ASIN voor **[!UICONTROL Manually Assign ASIN]**.
 
 1. Klik op **[!UICONTROL Save Listing Update]**.
 
@@ -52,7 +52,7 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
 1. De aanbiedingen weergeven op de _[!UICONTROL Incomplete]_tab in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. In de _[!UICONTROL Action]_kolom, klikt u op **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**voor de aanbieding die je wilt bijwerken.
+1. In de _[!UICONTROL Action]_kolom, klik **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**voor de aanbieding die je wilt bijwerken.
 
 1. Bekijk de productgegevens van de catalogus (SKU en productnaam) waarvoor u een Amazon-aanbieding wilt maken.
 
@@ -60,7 +60,7 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
    De hier vermelde opties omvatten catalogusproducten die als mogelijke overeenkomsten worden geïdentificeerd. Als geen van de opties correct is, kunt u selecteren `Manually Enter Correct ASIN` en voer de ASIN voor het product handmatig in.
 
-1. Als u de ASIN handmatig invoert, voert u de juiste ASIN in voor **[!UICONTROL Manually Assign ASIN]**.
+1. Als het ingaan van ASIN manueel, ga correcte ASIN voor **[!UICONTROL Manually Assign ASIN]**.
 
 1. Klik op **[!UICONTROL Save Listing Update]**.
 
@@ -68,7 +68,7 @@ De aanbieding komt nu overeen met je catalogus en de aanbieding wordt vervolgens
 
 1. De aanbiedingen weergeven op de _[!UICONTROL Incomplete]_tab in [Aanbiedingen beheren](./managing-product-listings.md).
 
-1. In de _[!UICONTROL Action]_kolom, klikt u op **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**voor de aanbieding die je wilt bijwerken.
+1. In de _[!UICONTROL Action]_kolom, klik **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**voor de aanbieding die je wilt bijwerken.
 
 1. Bekijk de productgegevens van de catalogus (SKU en productnaam) waarvoor u een Amazon-aanbieding wilt maken.
 

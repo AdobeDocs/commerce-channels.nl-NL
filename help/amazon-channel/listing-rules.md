@@ -16,11 +16,11 @@ Je hebt toegang tot de aanbiedingsregels voor winkelobjecten in het dialoogvenst
 
 De aanbiedingsregels bepalen de regels om te bepalen welke producten Amazon verkoopt aan Amazon. Deze regels bieden veel mogelijkheden om eenvoudige tot complexe regels te maken om producten als aanbiedingen op te nemen of uit te sluiten. Elke regel bestaat uit voorwaarden die de voorwaarden bepalen waaraan producten moeten voldoen om in aanmerking te komen voor een productlijst.
 
-Je aanbiedingsregels worden voortdurend gesynchroniseerd met je [!DNL Commerce] catalogus. Wanneer u nieuwe [!DNL Commerce] producten die voldoen aan de voorwaarden om in aanmerking te komen voor je aanbieding, worden automatisch verwerkt voor aanbieding op Amazon.
+Je aanbiedingsregels worden voortdurend gesynchroniseerd met je [!DNL Commerce] catalogus. Wanneer u nieuwe [!DNL Commerce] producten die voldoen aan de voorwaarden om in aanmerking te komen voor je aanbieding, worden de producten automatisch verwerkt voor aanbieding op Amazon.
 
 - Als je alle producten naar een Amazon-aanbieding wilt publiceren, moet je geen voorwaarden voor je aanbieding definiëren.
 
-- Als je wilt beperken welke catalogusproducten naar Amazon worden gepubliceerd, definieert je de regelvoorwaarden voor aanbiedingen. Als je de voorwaarden voor je Amazon-aanbiedingsregels definieert, volg je dezelfde logica en hetzelfde proces als het definiëren van de voorwaarden voor [Lijnen met winkelprijzen](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
+- Als je wilt beperken welke catalogusproducten naar Amazon worden gepubliceerd, definieert je de regelvoorwaarden voor aanbiedingen. Als je de voorwaarden voor je Amazon-aanbiedingsregels definieert, volg je dezelfde logica en hetzelfde proces als de voorwaarden definiëren voor [Lijnen met winkelprijzen](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - Als een product volgens de aanbiedingsregels niet in aanmerking komt, verandert de status van dat product in `Ineligible`. Niet-subsidiabele producten worden niet gepubliceerd naar Amazon.
 
@@ -36,12 +36,12 @@ Wijzigingen in aantal en status van geschiktheid beïnvloeden alle aanbiedingen 
 
 1. Bepaal de voorwaarden die je wilt stellen om in aanmerking te komen voor producten die op Amazon worden aangeboden.
 
-Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md).
+Zie [Voorbeeld: een voorwaarde definiëren](./ob-define-condition-example.md).
 
 | Veld | Beschrijving |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Websites] | Welke opties beschikbaar zijn, is afhankelijk van de [websites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) u hebt in uw [!DNL Commerce] configuratie. Selecteer de website voor de in aanmerking komende producten die op Amazon worden vermeld. Er kan slechts één website worden geselecteerd, omdat voor elke website een unieke Amazon-winkel nodig is die in Amazon-verkoopkanalen is gemaakt. |
-| [!UICONTROL Conditions] | Hiermee definieert u de [!DNL Commerce] -kenmerken voor producten die in uw Amazon-regio in aanmerking komen. Zie [Voorbeeld: Een voorwaarde definiëren](./ob-define-condition-example.md). |
+| [!UICONTROL Websites] | Welke opties beschikbaar zijn, is afhankelijk van de [websites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) u hebt ingesteld in uw [!DNL Commerce] configuratie. Selecteer de website voor de in aanmerking komende producten die op Amazon worden vermeld. Er kan slechts één website worden geselecteerd, omdat voor elke website een unieke Amazon-winkel nodig is die in Amazon-verkoopkanalen is gemaakt. |
+| [!UICONTROL Conditions] | Hiermee definieert u de [!DNL Commerce] -kenmerken voor producten die in uw Amazon-regio in aanmerking komen. Zie [Voorbeeld: een voorwaarde definiëren](./ob-define-condition-example.md). |
 
 ## Functie Voorwaarden
 
@@ -59,7 +59,7 @@ Wanneer je de definities van je voorwaarden wijzigt voor je aanbiedingsregels, k
 Je Amazon-aanbiedingen worden vergeleken met je regels en voorwaarden. U kunt dan controleren:
 
 - Welke producten op basis van uw huidige situatie naar een status komen die niet in aanmerking komt [!DNL Amazon Seller Central] account
-- Welke producten van een staat die niet in aanmerking komt, naar een in aanmerking komende status worden verplaatst
+- Welke producten van een staat die niet in aanmerking komt, naar een status terugkeren die in aanmerking komt
 - Welke producten zijn Nieuwe Amazon-aanbiedingen en worden aan je Amazon-aanbieding toegevoegd vanuit je in aanmerking komende producten [!DNL Commerce] producten
 
 Met Voorvertoning van aanbieding kun je je potentiële Amazon-aanbiedingen bekijken en de regels voor aanbiedingen aanpassen.
@@ -72,7 +72,7 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 
 - **[!UICONTROL Eligible Listings]** - Aangeboden producten komen in aanmerking voor Amazon-aanbieding op basis van de huidige aanbiedingsregels en -voorwaarden en komen ook in aanmerking voor Amazon-vereisten. Deze lijst bevat de bestaande Amazon-aanbiedingen die worden geïmporteerd (als je **Aanbiedingen van derden importeren** instellen op `Import Listing` in [Aanbiedingsinstellingen](./third-party-listing-settings.md)).
 
-- **[!UICONTROL New Listings]** - De vermelde producten omvatten uw [!DNL Commerce] catalogusproducten die nieuw in aanmerking komen voor Amazon-aanbieding op basis van de huidige aanbiedingsregels en -voorwaarden, en nieuwe Amazon-aanbiedingen maken en publiceren.
+- **[!UICONTROL New Listings]** - De vermelde producten omvatten uw [!DNL Commerce] catalogiseer producten die nieuw in aanmerking komen voor Amazon-aanbieding op basis van de huidige aanbiedingsregels en -voorwaarden en maak en publiceer nieuwe Amazon-aanbiedingen.
 
 ### Je voorbeeld van een aanbieding bekijken
 
@@ -82,17 +82,17 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 
 1. Wijzig uw [Voorwaarden voor aanbiedingsregels](./ob-define-condition-example.md).
 
-1. Klikken **[!UICONTROL Preview Changes]**.
+1. Klik op **[!UICONTROL Preview Changes]**.
 
-1. Je aanbiedingen bekijken en bevestigen in de _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_, en _[!UICONTROL New Listings]_tabs.
+1. Je aanbiedingen bekijken en bevestigen in het dialoogvenster _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_, en _[!UICONTROL New Listings]_tabs.
 
-1. Klik op **[!UICONTROL Save and close]**.
+1. Als je aanbiedingen aan je verwachtingen voldoen, klik je op **[!UICONTROL Save and close]**.
 
    Als je aanbiedingen niet zoals verwacht worden weergegeven, klikt u op **[!UICONTROL Back]** en wijzig je regels en voorwaarden totdat je aanbiedingen aan je verwachtingen voldoen.
 
 ![Voorvertoning van aanbiedingsregel](assets/amazon-listing-rule-preview.png){width="600" zoomable="yes"}
 
-### Records met aanbiedingsvoorvertoningen
+### Records met aanbiedingsvoorbeelden
 
 | Veld | Beschrijving |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -105,4 +105,4 @@ Je potentiële Amazon-aanbiedingen worden ingevuld op het tabblad _[!UICONTROL L
 | [!UICONTROL Visibility] | Geeft aan waar het product zichtbaar is en wordt beheerd in het dialoogvenster [!DNL Commerce] productraster. Opties:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
 | Status | Geeft de status van het product aan, beheerd in de [!DNL Commerce] productraster. Opties: `Enabled` / `Disabled` |
 
-![Workflow voor aanbiedingsvoorvertoningen](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}
+![Workflow voor voorvertoningen](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}

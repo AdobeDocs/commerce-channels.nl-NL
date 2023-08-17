@@ -24,10 +24,10 @@ ht-degree: 0%
    - [De extensie installeren](install.md)
 - Onboarding {#onboarding}
    - [Onboard Amazon-verkoopkanaal](amazon-onboarding-home.md)
-   - [Taken vooraf instellen](amazon-pre-setup-tasks.md)
+   - [Pre-instellingstaken](amazon-pre-setup-tasks.md)
    - [Maken [!DNL Commerce] kenmerken voor Amazon](ob-creating-magento-attributes.md)
    - [De Amazon API-sleutel controleren](amazon-verify-api-key.md)
-   - [Integratie van winkels](store-integration.md)
+   - [Integratie van winkel](store-integration.md)
    - [Aanbiedingsregel maken](ob-create-listing-rule.md)
    - [Standaardopslaginstellingen](default-store-settings.md)
 - Het verkoopkanaal beheren {#manage}
@@ -54,7 +54,7 @@ ht-degree: 0%
    - [Catalogus zoeken](catalog-search.md)
    - [Voorwaarde voor aanbieding van producten](product-listing-condition.md)
    - [Vernieuwde producten](renewed-products.md)
-- [Orderinstellingen](order-settings.md)
+- [Instellingen voor bestelling](order-settings.md)
 - [Integratie-instellingen opslaan](store-integration-settings.md)
 - Aanbiedings- en prijsregels {#rules}
    - [Aanbiedingsregels](listing-rules.md)
@@ -72,7 +72,7 @@ ht-degree: 0%
       - [Facultatieve maximumprijs](optional-ceiling-price.md)
       - [Prijsbereik](price-scope.md)
       - [Logica voor prijsprioriteiten](price-priority-logic.md)
-      - [Buy Box concurrent](buy-box-competitor-pricing.md)
+      - [Buy Box concurrent, prijsstelling](buy-box-competitor-pricing.md)
       - [Laagste prijsstelling voor concurrenten](lowest-competitor-pricing.md)
    - Voorbeelden {#rules-examples}
       - [Een voorwaarde definiëren](ob-define-condition-example.md)

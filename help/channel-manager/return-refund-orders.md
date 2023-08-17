@@ -32,13 +32,13 @@ In opslagbeheerder, kunt u terugkeren van de Manager van het Kanaal bekijken en 
 
 ## Retourneert besturingselementen en kolombeschrijvingen
 
-In de volgende tabellen worden de besturingselementen en kolommen beschreven die beschikbaar zijn voor [!DNL Channel Manager] retourneert.
+De volgende tabellen beschrijven de besturingselementen en kolommen die beschikbaar zijn voor [!DNL Channel Manager] retourneert.
 
 **Besturingselementen voor[!UICONTROL Returns]**
 
 <table>
 <tr>
-<td><strong>Control</strong></td>
+<td><strong>Besturing</strong></td>
 <td><strong>Beschrijving</strong></td>
 </tr>
 <tr>
@@ -51,11 +51,11 @@ In de volgende tabellen worden de besturingselementen en kolommen beschreven die
 </tr>
 <tr>
 <td>[!UICONTROL View order detail]</td>
-<td>Selecteer de optie [!DNL Commerce] ordernummer in het [!UICONTROL Order] tabel om de handelsorder te openen.</td>
+<td>Selecteer de optie [!DNL Commerce] volgordenummer in de [!UICONTROL Order] tabel om de handelsorder te openen.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Channel Settings]</td>
-<td>Om de kanaalconfiguratie te wijzigen, selecteer de geloofsbrieven van de Verbinding van het kanaal de Slimme, in kaart gebrachte attributen, of verschepende herkenningstekens, montages selecteren [!DNL Commerce] ordernummer in het [!UICONTROL Order] tabel. Gebruik vervolgens [!DNL Commerce] bestellen opties om de bestelling te verwerken.</td>
+<td>Om de kanaalconfiguratie te wijzigen, selecteer de geloofsbrieven van de Verbinding van het kanaal de Slimme, in kaart gebrachte attributen, of verschepende herkenningstekens, montages selecteren [!DNL Commerce] volgordenummer in de [!UICONTROL Order] tabel. Gebruik vervolgens [!DNL Commerce] bestellen opties om de bestelling te verwerken.</td>
 </tr>
 </table>
 
@@ -93,7 +93,7 @@ omgezet in lokale tijd.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status]</td>
-<td>Geeft de huidige retourstatus in het dialoogvenster [!DNL Commerce] geretourneerde werkstroom-<i>Ontvangen</i>, <i>Geretourneerd</i>, of <i>Fout</i>.</td>
+<td>Geeft de huidige retourstatus in het dialoogvenster [!DNL Commerce] geretourneerde werkstroom-<i>Ontvangen</i>, <i>Terugbetaald</i>, of <i>Fout</i>.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status Details]</td>
@@ -103,7 +103,7 @@ omgezet in lokale tijd.</td>
 
 ## Retourstatus
 
-[!UICONTROL Return Status] bevat informatie over de huidige status van [!DNL Walmart Marketplace] retourverzoeken beheerd vanuit Adobe Commerce of Magento Open Source.
+[!UICONTROL Return Status] bevat informatie over de huidige status van [!DNL Walmart Marketplace] terugkeerverzoeken beheerd van Adobe Commerce of Magento Open Source.
 
 De statusupdates van de terugkeer komen voor wanneer [!DNL Channel Manager] ontvangt een terugkeerverzoek van [!DNL Walmart Marketplace] of wanneer de [!DNL Commerce] creditnota is gemaakt om de terugbetaling voor de geretourneerde objecten te verwerken.
 
@@ -139,7 +139,7 @@ De volgende scenario&#39;s beschrijven hoe te om terugbetalingen voor verschille
 
    * U kunt de geretourneerde waarden bekijken door de **[!UICONTROL Returns]** tab.
 
-     U hebt ook toegang tot de geretourneerde gegevens van het dialoogvenster [!UICONTROL Orders] pagina. Zoeken naar [!UICONTROL Shipped] orders die een retourverzoek hebben. Selecteer vervolgens de `Return requested` in de [!UICONTROL Status Details] om de aanvraag te bekijken en te verwerken.
+     U hebt ook toegang tot de geretourneerde gegevens van het dialoogvenster [!UICONTROL Orders] pagina. Zoeken naar [!UICONTROL Shipped] bestellingen die een retourverzoek hebben. Selecteer vervolgens de `Return requested` in de [!UICONTROL Status Details] om de aanvraag te bekijken en te verwerken.
 
 1. Zoek in de tabel Returns een return met de opdracht *[!UICONTROL Received]* status.
 
@@ -149,7 +149,7 @@ De volgende scenario&#39;s beschrijven hoe te om terugbetalingen voor verschille
 
    * Van de [!UICONTROL Status Details] kolom, selecteren **[!UICONTROL Create credit memo]** om de pagina met gegevens over de volgorde te openen in [!DNL Commerce].
 
-     Als de volgorde niet is gefactureerd, wordt op de pagina Bestelling-details een foutbericht weergegeven waarin u wordt gevraagd een bestelling te maken. Selecteren **[!UICONTROL Create invoice]**. Vervolgens [de factuur maken en opslaan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     Als de volgorde niet is gefactureerd, wordt op de pagina Bestelling-details een foutbericht weergegeven waarin u wordt gevraagd een bestelling te maken. Selecteren **[!UICONTROL Create invoice]**. Dan, [de factuur maken en opslaan](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Selecteer op de pagina Order detail **[!UICONTROL Credit Memo]**.
 
@@ -168,7 +168,7 @@ Na het voltooien van de restitutie, [!DNL Channel Manager] werkt de terugkeersta
 
 U kunt informatie over retourverzoeken en terugbetalingsverwerking bekijken via het [!UICONTROL Returns] dashboard.
 
-1. Open het dashboard van Terugkeren voor uw opslag van het verkoopkanaal.
+1. Open het dashboard van Keert voor uw opslag van het verkoopkanaal terug.
 
    * Selecteer bij Beheer de optie **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]**.
 
@@ -184,10 +184,10 @@ U kunt informatie over retourverzoeken en terugbetalingsverwerking bekijken via 
 
 >[!NOTE]
 >
->Nadat een bestelling is terugbetaald, [!UICONTROL Orders] op het dashboard worden geen retourgegevens weergegeven. Als u de retourinformatie wilt weergeven, gebruikt u de [!DNL Channel Manager] Retourneert het dashboard. Meer gedetailleerde informatie over retourneren en terugbetalen is ook beschikbaar op de pagina met gegevens over bestellingen.
+>Nadat een bestelling is terugbetaald, [!UICONTROL Orders] op het dashboard worden geen gegevens over de geretourneerde waarde weergegeven. Als u de retourinformatie wilt weergeven, gebruikt u de [!DNL Channel Manager] Retourneert het dashboard. Meer gedetailleerde informatie over retourneren en terugbetalen is ook beschikbaar op de pagina met gegevens over bestellingen.
 
-## Retourfouten herstellen
+## Retourfouten verhelpen
 
 Er kunnen fouten optreden wanneer de retourinformatie wordt ontvangen van [!DNL Walmart Marketplace]of wanneer [!DNL Channel Manager] synchroniseert statusupdates van [!DNL Commerce] tot [!DNL Walmart Marketplace].
 
-Als de synchronisatiebewerking voor een retourupdate mislukt, wordt [!DNL Channel Manager] Geeft dashboard een *[!UICONTROL Error]* status voor de terugkeeringang. Om ervoor te zorgen dat de terugkeer en terugbetalingsinformatie correct in de rekening van de Marketplace van de Markeren wordt weerspiegeld, werk manueel de orde in uw [!DNL Walmart Marketplace] opslaan.
+Als de synchronisatiebewerking voor een retourupdate mislukt, wordt [!DNL Channel Manager] Hiermee wordt een dashboard weergegeven *[!UICONTROL Error]* status voor de terugkeeringang. Om ervoor te zorgen dat de terugkeer en terugbetalingsinformatie correct in de rekening van de Marketplace van de Markeren wordt weerspiegeld, werk manueel de orde in uw bij [!DNL Walmart Marketplace] opslaan.

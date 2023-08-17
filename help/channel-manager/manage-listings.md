@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aanbiedingen beheren
 
-Productaanbiedingen beheren voor de [!DNL Walmart Marketplace] verkoopkanaal van de UI van de Manager van het Kanaal.
+Productaanbiedingen beheren voor de [!DNL Walmart Marketplace] verkoopkanaal vanuit de interface van Channel Manager.
 
 De status van een afzonderlijke aanbieding geeft aan waar het product zich bevindt in de [!DNL Channel Manager] zodat u de volgende stappen kunt bepalen en eventuele fouten kunt oplossen.
 
@@ -31,13 +31,13 @@ U kunt de volgende taken uitvoeren vanuit de lijstweergave.
 
 1. Ga vanuit de beheerder naar [!UICONTROL **Marketing** > **Kanaalbeheer**].
 
-1. Selecteer in de lijst Winkel het oogpictogram in de rij Winkelitem om de winkelweergave te openen.
+1. Selecteer in de lijst Winkel het oogpictogram in een rij met items in de winkel om de winkelweergave te openen.
 
-1. Selecteren [!UICONTROL **Aanbiedingen**].
+1. Selecteren [!UICONTROL **Aangeboden**].
 
 1. Sorteer de *Aanbieding* weergeven door een kolomkop te selecteren in het dialoogvenster *Aanbieding* tabel.
 
-1. Filter de *Aanbieding* door een van de statustelkaarten te selecteren.
+1. Filteren op *Aanbieding* door een van de statustelkaarten te selecteren.
 
 1. De sorteervolgorde herstellen en filters verwijderen door **Producten vernieuwen**.
 
@@ -55,18 +55,18 @@ U kunt productaanbiedingen maken op de [!DNL Walmart Marketplace] met productmat
 
 * **[Producten afstemmen op Walmart](connect-listings-to-marketplace.md)**—Verbind productaanbiedingen van uw kanaal met [!DNL Walmart Marketplace] door bestaande aanbiedingen die hetzelfde product verkopen bij te werken. Overeenkomstcriteria worden bepaald door de [configuratie voor kenmerktoewijzing](map-catalog-attributes.md) voor uw kanaal.
 
-* **[Nieuwe aanbiedingen handmatig uploaden](connect-listings-to-marketplace.md#upload-new-product-listings)**—Voor producten die niet overeenkomen met een bestaande aanbieding op [!DNL Walmart Marketplace], gebruikt u een [!DNL Walmart] productcategorie Excel-sjabloon om productaanbiedingen bulksgewijs te uploaden.
+* **[Nieuwe aanbiedingen handmatig uploaden](connect-listings-to-marketplace.md#upload-new-product-listings)**—Voor producten die niet overeenkomen met een bestaande aanbieding op [!DNL Walmart Marketplace], gebruikt u een [!DNL Walmart] productcategorie Excel-sjabloon voor bulkupload van productaanbiedingen.
 
 ## Besturingselementen voor lijsten en kolombeschrijvingen
 
-In de volgende tabellen worden de besturingselementen en kolommen beschreven die beschikbaar zijn voor [!UICONTROL Listings].
+De volgende tabellen beschrijven de besturingselementen en kolommen die beschikbaar zijn voor [!UICONTROL Listings].
 
 **Besturingselementen voor[!UICONTROL Listings]**
 
-| **Control** | **Beschrijving** |
+| **Besturing** | **Beschrijving** |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Hiermee opent u de [!UICONTROL Admin Product Catalog] pagina voor het selecteren van producten die u aan uw [!DNL Walmart Marketplace] assorment, of om productattributen bij te werken om aan de vereisten van de de lijstaanbieding van de Marketplace van het Markeren te voldoen. |
-| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten hebt geselecteerd in [!UICONTROL Draft] status, selecteren [!UICONTROL Match products on Walmart] om te controleren op productaanbiedingen die kunnen worden toegevoegd aan een bestaande [!DNL Walmart Marketplace] aanbieding. |
+| [!UICONTROL Match products on Walmart] | Nadat u een of meer producten hebt geselecteerd in [!UICONTROL Draft] status, selecteren [!UICONTROL Match products on Walmart] om te controleren op productaanbiedingen die aan een bestaand [!DNL Walmart Marketplace] aanbieding. |
 | [!UICONTROL Refresh products] | Werk de weergave bij met de meest recente aanbieding en status. Met dit besturingselement wordt ook de standaardsorteervolgorde van de lijstweergave hersteld en worden eventuele filters verwijderd. |
 | [!UICONTROL Filter by *Status*] | Alleen aanbiedingen met een specifieke status weergeven door een van de statuskaarten boven de tabel met aanbiedingen te selecteren. Filter verwijderen door **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | Wijzig de sorteervolgorde voor de aanbieding door een kolomkop te selecteren. |
@@ -80,7 +80,7 @@ In de volgende tabellen worden de besturingselementen en kolommen beschreven die
 | [!UICONTROL SKU (Unique ID)] | De SKU die aan het product in [!DNL Commerce] catalogus. |
 | [!UICONTROL  Quantity] | De hoeveelheid voorraad beschikbaar in Adobe Commerce of Magento Open Source. |
 | [!UICONTROL Price] | De productprijs van de [!DNL Commerce] opslagcatalogus. Updates van catalogusprijzen worden gesynchroniseerd naar Channel Manager en vervolgens verzonden naar [!DNL Walmart Marketplace]  zodat de aangeboden objecten de huidige prijs aangeven. |
-| [!UICONTROL Status] | Geeft de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de markt aanpast. Als een bewerking mislukt, wordt een foutstatus weergegeven. Nadat u de fout hebt verholpen, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
+| [!UICONTROL Status] | Hiermee wordt de huidige orderstatus in het dialoogvenster [!DNL Commerce] bestelworkflow. De status wordt bijgewerkt wanneer u producten toevoegt aan [!DNL Channel Manager] en wanneer u producten op de markt aanpast. Als een bewerking mislukt, wordt een foutstatus weergegeven. Nadat u de fout hebt hersteld, [!DNL Channel Manager] probeert de bewerking opnieuw en werkt de status bij. |
 | [!UICONTROL Error Description] | Biedt aanvullende foutinformatie voor producten met een `[!DNL Error]` status. |
 
 ### Over aanbiedingsstatus

@@ -1,5 +1,5 @@
 ---
-user-guide-title: '''[!DNL Channel Manager] Hulplijn'
+user-guide-title: '[!DNL Channel Manager] Handleiding'
 user-guide-description: 'Verhoog uw omzet en vergroot uw klantenbasis door Adobe Commerce of Magento Open Source te integreren met uw [!DNL Walmart Marketplace] Verkopersaccount.'
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 role: Admin, User
@@ -8,7 +8,7 @@ recommendations: noDisplay
 source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

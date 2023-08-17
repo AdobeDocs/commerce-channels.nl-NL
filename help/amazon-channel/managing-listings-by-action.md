@@ -1,5 +1,5 @@
 ---
-title: Aanbiedingen voor Amazon-producten beheren op Handeling
+title: Aanbiedingen voor Amazon-producten beheren via actie
 description: Terwijl je je Amazon-aanbiedingen beheert, kun je een actie op afzonderlijke of meerdere aanbiedingen toepassen.
 feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Aanbiedingen voor Amazon-producten beheren op Handeling
+# Aanbiedingen voor Amazon-producten beheren via actie
 
 De _[!UICONTROL Product Listings]_Deze pagina bevat verschillende tabbladen waarmee je de status van al je aanbiedingen kunt bekijken en je producten kunt afstemmen op aanbiedingen op Amazon.
 
 De beschikbare aanbiedingstaken verschillen enigszins op elk tabblad, maar de [besturingselementen voor werkruimte](./workspace-controls.md) zijn dezelfde en kunt u de gegevens aanpassen die worden weergegeven voor je aanbiedingen.
 
-Opties onder **[!UICONTROL Actions]** kan de handeling op meerdere aanbiedingen toepassen, terwijl opties onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_de handeling alleen op de afzonderlijke aanbieding toepassen.
+Opties onder **[!UICONTROL Actions]** kan de handeling op meerdere aanbiedingen toepassen, terwijl de opties onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_de handeling alleen op de afzonderlijke aanbieding toepassen.
 
 Zie ook [Aanbiedingen beheren op status/tabblad](./managing-listings-by-tab.md).
 
@@ -34,15 +34,15 @@ Zie ook [Aanbiedingen beheren op status/tabblad](./managing-listings-by-tab.md).
 | [[!UICONTROL End Listing(s) on Amazon]](./end-listings-manually.md) | (Massa-actie) Hiermee worden aanbiedingen voor producten die op Amazon bestaan, handmatig beëindigd en verwijderd. Afgelopen aanbiedingen kunnen opnieuw worden aangeboden als ze voldoen aan de voorwaarden voor aanbiedingen. | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL Edit Listing Overrides]](./creating-editing-overrides.md) | (Mass action) Bewerk handmatig een bestaande &#39;override&#39; die de tekst van de prijs, de verwerkingstijd, de voorwaarde en de verkopersnotities voor een afzonderlijke aanbieding instelt, waarbij andere standaardinstellingen, instellingen en regels voor aanbiedingen worden genegeerd. | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL Create Override]](./creating-editing-overrides.md) | Maak handmatig een &#39;override&#39; waarmee de tekst van de prijs, de verwerkingstijd, de voorwaarde en de verkoper voor een afzonderlijke aanbieding worden ingesteld, waarbij andere standaardinstellingen, instellingen en regels voor aanbiedingen worden genegeerd. | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | Wordt gebruikt als de ASIN die overeenkomt met uw catalogusproduct, moet worden gewijzigd (bijvoorbeeld: als het product overeenkomt met de verkeerde aanbieding (ASIN). | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
-| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | Kan twee functies hebben:<br><br>Kan worden gebruikt om een 1-op-2 relatie te maken tussen je catalogusproduct en twee Amazon-aanbiedingen. Voorbeeld: Amazon heeft het product aangegeven met verschillende ASIN-waarden. U kunt uw ene catalogusproduct aanpassen aan beide ASIN-aanbiedingen voor het product.<br><br>Kan worden gebruikt om een aanbieding in verschillende Amazon-regio&#39;s te beheren. Voorbeeld: U hebt een catalogusproduct waarvoor verschillende verzendmethoden zijn gedefinieerd op basis van de Amazon-regio (de regio VS is FBA en de regio Canada is FBM). Als je voorraad/aantal wilt beheren, kun je een alias verkoper-SKU maken en hetzelfde product in dat gebied opnieuw aanbieden met een andere verkoper-SKU. | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
-| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | Wordt gebruikt om de uitvoeringsmethode aan te passen die aan uw product is gekoppeld (wordt uitgevoerd door Amazon: FBA of volledig ingevuld door Merchant: FBM). | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md) | Wordt gebruikt als de ASIN die overeenkomt met uw catalogusproduct, moet worden gewijzigd (bijvoorbeeld: als het product overeenkomt met de onjuiste vermelding ASIN). | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
+| [[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md) | Kan twee functies hebben:<br><br>Kan worden gebruikt om een 1-op-2 relatie te maken tussen je catalogusproduct en twee Amazon-aanbiedingen. Voorbeeld: Amazon heeft het product aangegeven met verschillende ASIN-waarden. U kunt uw ene catalogusproduct aanpassen aan beide ASIN-aanbiedingen voor het product.<br><br>Kan worden gebruikt om een aanbieding in verschillende Amazon-regio&#39;s te beheren. Voorbeeld: u hebt een catalogusproduct waarvoor verschillende verzendmethoden zijn gedefinieerd op basis van de Amazon-regio (de regio VS is FBA en de regio Canada is FBM). Als je voorraad/aantal wilt beheren, kun je een alias verkoper-SKU maken en hetzelfde product in dat gebied opnieuw aanbieden met een andere verkoper-SKU. | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |
+| [[!UICONTROL Switch to Fulfilled by Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings) | Wordt gebruikt om de uitvoeringsmethode aan te passen die aan uw product is gekoppeld (gevuld door Amazon: FBA of Betaald door Merchant: FBM). | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL End Listing]](./end-listings-manually.md) | (Handeling voor één aanbieding) Wordt gebruikt om aanbiedingen voor producten die op Amazon bestaan, handmatig te beëindigen en te verwijderen. Afgelopen aanbiedingen kunnen opnieuw worden aangeboden als ze voldoen aan de voorwaarden voor aanbiedingen. | [[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md) |
 | [[!UICONTROL Edit Override]](./creating-editing-overrides.md) | (Handeling voor één aanbieding) Bewerk handmatig een bestaande &#39;override&#39; die de tekst van de prijs, de verwerkingstijd, de voorwaarde en de verkopersnotities voor een afzonderlijke aanbieding instelt, waarbij andere standaardinstellingen, instellingen en regels voor aanbiedingen worden genegeerd. | [[!UICONTROL Overrides]](./overrides.md) |
 
 ## Productlijsten openen
 
-1. Op de _Beheer_ zijbalk, ga naar **Marketing** > _Kanalen_ > **Amazon Sales Channel**.
+1. Op de _Beheerder_ zijbalk, ga naar **Marketing** > _Kanalen_ > **Amazon Sales Channel**.
 
 1. Klikken **Winkel bekijken** op de winkelkaart.
 

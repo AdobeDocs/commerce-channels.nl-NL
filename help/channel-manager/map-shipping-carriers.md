@@ -1,5 +1,5 @@
 ---
-title: Verzendkosten toewijzen
+title: Verzenddragers toewijzen
 description: '''Map attributes for matching [DNL! Handel] producten naar bestaande [!DNL Walmart Marketplace] lijsten en gegevens synchroniseren tussen [!DNL Channel Manager] en [!DNL Walmart]."'
 role: Admin
 feature: Sales Channels, Configuration, Shipping/Delivery
@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# Verzendkosten toewijzen
+# Verzenddragers toewijzen
 
-Voor u [procesorderoverbrengingen](process-orders.md#ship-an-order) for [!DNL Walmart Marketplace] bestellingen, de voorkeur van Walmart aan vervoerders aan de overeenkomstige vervoerder in kaart brengen [!DNL Commerce] zodat de verzendgegevens gesynchroniseerd kunnen worden tussen [!DNL Walmart] en [!DNL Commerce].
+Voor u [procesorderverzending](process-orders.md#ship-an-order) for [!DNL Walmart Marketplace] bestellingen, de voorkeur van Walmart aan vervoerders aan de overeenkomstige vervoerder in kaart brengen [!DNL Commerce] zodat de verzendgegevens gesynchroniseerd kunnen worden tussen [!DNL Walmart] en [!DNL Commerce].
 
 Handelsmaatschappijen die niet aan een voorkeursvervoerder zijn toegewezen, worden aangeduid als *[!UICONTROL Other Carrier]* op [!DNL Walmart].
 
@@ -36,5 +36,5 @@ Voer de volgende taken uit voordat u verzenddragers toewijst:
 
 1. Voor elke [!DNL Walmart] voorkeursprovider vermeld, selecteert u de [!DNL Commerce] de naam van de vervoerder uit het vervolgkeuzemenu, indien de draagstof beschikbaar is.
 
-1. Selecteren **[!UICONTROL Save]** om de configuratie toe te passen.
+1. Selecteren **[!UICONTROL Save]** de configuratie toepassen.
 

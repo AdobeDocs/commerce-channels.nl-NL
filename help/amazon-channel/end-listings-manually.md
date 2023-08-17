@@ -1,6 +1,6 @@
 ---
 title: Een Amazon-aanbieding beëindigen
-description: In Commerce Admin kunt u een Amazon-aanbieding beëindigen via het Amazon Sales Channel-dashboard.
+description: In Commerce Admin kunt u een Amazon-aanbieding beëindigen via het Amazon-dashboard voor Sales Channel.
 feature: Sales Channels, Products
 exl-id: 178c878b-89fb-4239-8d57-733d0884a73a
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 1. Een of meer aanbiedingen weergeven op de [[!UICONTROL Product Listings]](./managing-product-listings.md) pagina (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, of _[!UICONTROL Ineligible]_).
 
-1. In de _[!UICONTROL Action]_kolom, klikt u op **Selecteren**>**Aanbieding beëindigen**.
+1. In de _[!UICONTROL Action]_kolom, klik **Selecteren**>**Aanbieding beëindigen**.
 
 1. Klikken **[!UICONTROL OK]** in het bevestigingsbericht.
 
-Als je één aanbieding of meerdere aanbiedingen beëindigt, wordt bevestigd dat de geselecteerde aanbieding wordt verwerkt om te beëindigen. Afgelopen aanbiedingen kunnen worden beheerd op de [Beëindigd](./ended-listings.md) op het tabblad [_Productaanbiedingen_](./managing-product-listings.md) pagina. Wanneer je de aanbieding verwerkt en uit Amazon verwijdert, verandert de status van de aanbieding in `Manually Ended`. Afgelopen aanbiedingen worden uit Amazon verwijderd totdat je de aanbieding handmatig opnieuw publiceert met de [_Publiceren naar Amazon_](./publish-listings-manually.md) handeling.
+Als je één aanbieding of meerdere aanbiedingen beëindigt, wordt bevestigd dat de geselecteerde aanbieding wordt verwerkt om te beëindigen. Afgelopen aanbiedingen kunnen worden beheerd op de [Afgelopen](./ended-listings.md) op het tabblad [_Productaanbiedingen_](./managing-product-listings.md) pagina. Wanneer je de aanbieding verwerkt en uit Amazon verwijdert, verandert de status van de aanbieding in `Manually Ended`. Afgelopen aanbiedingen worden uit Amazon verwijderd totdat je de aanbieding handmatig opnieuw publiceert met de [_Publiceren naar Amazon_](./publish-listings-manually.md) handeling.

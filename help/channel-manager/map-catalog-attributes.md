@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Voordat je aanbiedingen verbindt van [!DNL Commerce] tot [!DNL Walmart Marketplace], moet u ten minste één unieke id van uw [!DNL Commerce] catalogus aan het overeenkomstige herkenningsteken van Walmart.
 
-Deze stap is vereist voor [!DNL Commerce] producten naar bestaande [!DNL Walmart] aanbiedingen en productgegevens synchroniseren tussen [!DNL Commerce] en [!DNL Walmart]. De [!DNL Commerce] product moet ten minste één productkenmerk hebben dat overeenkomt met een van de volgende product-id&#39;s (Product ID&#39;s) die vereist zijn door [!DNL Walmart].
+Deze stap is vereist om overeen te komen [!DNL Commerce] producten naar bestaande [!DNL Walmart] aanbiedingen en productgegevens synchroniseren tussen [!DNL Commerce] en [!DNL Walmart]. De [!DNL Commerce] product moet ten minste één productkenmerk hebben dat overeenkomt met een van de volgende product-id&#39;s (Product ID&#39;s) die vereist zijn door [!DNL Walmart].
 
 **Vereist [!DNL Walmart] product-id&#39;s**
 

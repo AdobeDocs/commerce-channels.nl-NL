@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Procesvolgorde
 
-Na [!DNL Walmart Marketplace] bestellingen zijn bevestigd en verzonden naar [!DNL Channel Manager], gebruikt u [Beheer van handelsorders](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) om de bestelling te verwerken.
+Na [!DNL Walmart Marketplace] bestellingen zijn bevestigd en met succes verzonden naar [!DNL Channel Manager], gebruikt u [Beheer van handelsorders](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) om de bestelling te verwerken.
 
-Kanaalbeheer synchroniseert updates met [!DNL Walmart Marketplace] om ervoor te zorgen dat de status van de bestelling en de verzendgegevens van [!DNL Commerce] komt overeen met de gegevens die worden bijgehouden in de [!DNL Walmart Marketplace].
+Kanaalbeheer synchroniseert updates met [!DNL Walmart Marketplace] om ervoor te zorgen dat de status van de bestelling en de verzendgegevens van [!DNL Commerce] komt overeen met de gegevens die in het [!DNL Walmart Marketplace].
 
-* **Overbrenging van orders**-Walmart vereist een volgnummer voor alle zendingen. Als bepaalde items niet in voorraad zijn, kunt u gedeeltelijke verzendingen maken om items te verzenden die momenteel beschikbaar zijn. Nadat u de verzending hebt verzonden, worden de orderupdates gesynchroniseerd met [!DNL Walmart Marketplace]. Dan, brengt het Walmart klanten over de ordestatus en verzenddetails op de hoogte.
+* **Overbrenging van orders**-Walmart vereist een volgnummer voor alle zendingen. Als bepaalde items niet in voorraad zijn, kunt u gedeeltelijke verzendingen maken om items te verzenden die momenteel beschikbaar zijn. Nadat u de verzending hebt verzonden, worden de orderupdates gesynchroniseerd met [!DNL Walmart Marketplace]. Vervolgens brengt Walmart klanten op de hoogte van de status van de bestelling en de verzendgegevens.
 
-* **Opdrachten geannuleerd**-Wanneer u een [!DNL Walmart Marketplace] bestelling, vereist de Marm een annuleringsreden die in de bericht van de ordeverstoring inbegrepen is die aan de klant wordt verzonden. De reden voor annulering wordt ook weergegeven in het dialoogvenster [!DNL Commerce] betalingsgegevens. Nadat u de annulering hebt verzonden, worden inventarisupdates gesynchroniseerd met [!DNL Walmart Marketplace]. Dan, brengt het Walmart klanten over de ordestatus en verzenddetails op de hoogte.
+* **Opdrachten geannuleerd**-Wanneer u een [!DNL Walmart Marketplace] bestelling, vereist de Marm een annuleringsreden die in de bericht van de ordeverstoring inbegrepen is die aan de klant wordt verzonden. De reden voor annulering wordt ook weergegeven in het dialoogvenster [!DNL Commerce] betalingsgegevens. Nadat u de annulering hebt verzonden, worden inventarisupdates gesynchroniseerd met [!DNL Walmart Marketplace]. Vervolgens brengt Walmart klanten op de hoogte van de status van de bestelling en de verzendgegevens.
 
   In de winkel moet u de volledige bestelling annuleren. [!DNL Commerce] staat gedeeltelijke annuleringen niet toe.
 
@@ -48,11 +48,11 @@ Wanneer handelsorders worden verwerkt en [!DNL Channel Manager] synchroniseert d
 
      ![Gedetailleerde weergave voor handelsorders voor een [!DNL Walmart Marketplace] bestellen](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-   * Vul de rest van het verzendformulier naar wens in. Zie [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) voor gedetailleerde instructies.
+   * Vul de rest van het verzendformulier in. Zie [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) voor gedetailleerde instructies.
 
-1. Na het verzenden van de zending, volg [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] om te controleren of updates zijn verzonden naar [!DNL Walmart Marketplace].
+1. Na het verzenden van de zending, traceer [orderstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] om te controleren of updates zijn verzonden naar [!DNL Walmart Marketplace].
 
-Nadat een bestelling is verzonden, kunt u volledige of gedeeltelijke terugbetalingen van [!DNL Channel Manager] voor items die in de bestelling zijn opgenomen op basis van terugkeerverzoeken die zijn ontvangen van [!DNL Walmart Marketplace]. Zie [Terugbetalingsopdrachten](return-refund-orders.md).
+Nadat een bestelling is verzonden, kunt u volledige of gedeeltelijke terugbetalingen van [!DNL Channel Manager] voor items die in de bestelling zijn opgenomen op basis van terugkeerverzoeken ontvangen van [!DNL Walmart Marketplace]. Zie [Terugbetalingsopdrachten](return-refund-orders.md).
 
 ## Een bestelling annuleren
 
@@ -62,7 +62,7 @@ Nadat een bestelling is verzonden, kunt u volledige of gedeeltelijke terugbetali
 
 1. Naar weergave [!DNL Walmart Marketplace] bestellingen, selecteer *[!UICONTROL Orders]**.
 
-1. In de lijst van Orden, open [detailpagina bestellen](manage-orders.md#view-order-detail) door **[!UICONTROL Commerce Order Number]** voor de order om te annuleren.
+1. In de lijst van Orden, open [detailpagina bestellen](manage-orders.md#view-order-detail) door de **[!UICONTROL Commerce Order Number]** voor de order om te annuleren.
 
    ![Gedetailleerde weergave voor handelsorders voor een[!DNL Walmart Marketplace]bestellen](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
@@ -82,6 +82,6 @@ Nadat een bestelling is verzonden, kunt u volledige of gedeeltelijke terugbetali
 
 Fouten kunnen optreden tijdens het synchronisatieproces van de bestelling vanaf [!DNL Walmart Marketplace]of tijdens het proces voor het bijwerken van de volgorde voor overbrengingen, gedeeltelijke overbrengingen en annuleringen.
 
-Als de synchronisatiebewerking voor een verzending, gedeeltelijke verzending of annulering mislukt, wordt [!DNL Channel Manager] Op de pagina Bestellingen wordt een _Fout_ status van de bestelling. Om ervoor te zorgen dat de informatie van de verzending en de orde annuleren in de rekening van de Marketplace van de Markeren correct wordt weerspiegeld, werk manueel de orde in uw [!DNL Walmart Marketplace] opslaan.
+Als de synchronisatiebewerking voor een verzending, gedeeltelijke verzending of annuleringsupdate mislukt, wordt [!DNL Channel Manager] Op de pagina Bestellingen wordt een _Fout_ status van de bestelling. Om ervoor te zorgen dat de informatie van de verzending en de orde annuleren in de rekening van de Marketplace van de Markeren correct wordt weerspiegeld, werk manueel de orde in uw [!DNL Walmart Marketplace] opslaan.
 
 

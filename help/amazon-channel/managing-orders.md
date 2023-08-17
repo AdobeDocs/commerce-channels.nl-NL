@@ -54,8 +54,8 @@ Wanneer het probleem is opgelost, wordt [!DNL Commerce] volgorde wordt gemaakt b
 
 ## Importeren met volgorde uitgeschakeld
 
-Als u uw Amazon-bestellingen niet wilt importeren en beheren in [!DNL Commerce]kunt u de [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) instellen op `Disabled`. Deze instelling houdt in dat wanneer nieuwe orders van Amazon worden ontvangen, de overeenkomstige [!DNL Commerce] bestellingen worden niet gemaakt.
+Als u uw Amazon-bestellingen niet wilt importeren en beheren in [!DNL Commerce], kunt u de [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) instellen op `Disabled`. Deze instelling houdt in dat wanneer nieuwe orders van Amazon worden ontvangen, de overeenkomstige [!DNL Commerce] bestellingen worden niet gemaakt.
 
-Als deze optie is uitgeschakeld, worden de van Amazon ontvangen ordergegevens weergegeven in het dialoogvenster _[!UICONTROL Recent Orders]_in het winkeldashboard en in het_[!UICONTROL All Orders]_ weergeven. Deze bestelgegevens zijn alleen-weergeven en u moet deze bestellingen beheren in [!DNL Amazon Seller Central]. De ordergegevens openen in [!DNL Amazon Seller Central]klikt u op het Amazon-ordernummer in het dialoogvenster _[!UICONTROL Order Number]_kolom.
+Als deze optie is uitgeschakeld, worden de van Amazon ontvangen ordergegevens weergegeven in het dialoogvenster _[!UICONTROL Recent Orders]_in het winkeldashboard en in het_[!UICONTROL All Orders]_ weergeven. Deze bestelgegevens zijn alleen-weergeven en u moet deze bestellingen beheren in [!DNL Amazon Seller Central]. De ordergegevens openen in [!DNL Amazon Seller Central], klikt u op het Amazon-ordernummer in het dialoogvenster _[!UICONTROL Order Number]_kolom.
 
-Zie ook [Amazon-bestellingen weergeven](./amazon-orders-all.md), [Bestelgegevens Amazon weergeven](./amazon-order-details.md), en [Algemene taken voor het verwerken van orders](./common-order-processing.md).
+Zie ook [Amazon-bestellingen weergeven](./amazon-orders-all.md), [Amazon-bestellingsgegevens weergeven](./amazon-order-details.md), en [Algemene taken voor het verwerken van orders](./common-order-processing.md).

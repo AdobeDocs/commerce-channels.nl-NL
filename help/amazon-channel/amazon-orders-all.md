@@ -27,7 +27,7 @@ _[!UICONTROL All Orders]_de mening voegt het filtreren opties voor ordeonderzoek
 
 >[!NOTE]
 >
->Met uitzondering van de _[!UICONTROL Order Notes]_de_[!UICONTROL Amazon orders]_ tabel is gevuld met ordergegevens die zijn ontvangen van Amazon. De _Ordernotities_ kolom wordt bijgewerkt door [!DNL Commerce] als de ordeprocessen.
+>Met uitzondering van _[!UICONTROL Order Notes]_de_[!UICONTROL Amazon orders]_ tabel is gevuld met ordergegevens die zijn ontvangen van Amazon. De _Ordernotities_ kolom wordt bijgewerkt door [!DNL Commerce] als de ordeprocessen.
 
 ## Recente orders
 
@@ -63,7 +63,7 @@ U kunt al uw Amazon-bestellingen weergeven op de _[!UICONTROL Amazon orders]_pag
 
 1. Klikken **[!UICONTROL All Orders]** in de _[!UICONTROL Recent Orders]_sectie.
 
-1. Als u de lijst of de zoekopdracht naar een specifiek ordernummer wilt beperken, voert u de opdracht **[!UICONTROL Filter by]** parameters en klik op **[!UICONTROL Apply filters]**.
+1. Als u de lijst of zoekopdracht naar een specifiek ordernummer wilt beperken, voert u de opdracht **[!UICONTROL Filter by]** parameters en klik op **[!UICONTROL Apply filters]**.
 
 1. Klik op het Amazon-ordernummer in het dialoogvenster _[!UICONTROL Order Number]_kolom.
 
@@ -71,7 +71,7 @@ U kunt al uw Amazon-bestellingen weergeven op de _[!UICONTROL Amazon orders]_pag
 
 ## Filters gebruiken
 
-U kunt filters toepassen op uw orderlijst in het dialoogvenster _[!UICONTROL Filter by]_sectie. Maak uw selecties en klik op **[!UICONTROL Apply filters]**. De toegepaste filters verschijnen boven het orderraster.
+U kunt filters toepassen op uw orderlijst in het dialoogvenster _[!UICONTROL Filter by]_sectie. Maak uw selecties en klik **[!UICONTROL Apply filters]**. De toegepaste filters verschijnen boven het orderraster.
 
 ![Filters voor het weergeven van Amazon-orders](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
@@ -90,7 +90,7 @@ U kunt filters toepassen op uw orderlijst in het dialoogvenster _[!UICONTROL Fil
 >- Als u meerdere Amazon Store-integraties hebt, moet u de paginaweergave vernieuwen wanneer u overschakelt tussen de winkelweergaven om zowel de lijst met bestellingen als de pagineringsweergaven voor de huidige winkel bij te werken.
 >- Bij het sorteren op kolom wordt de sortering alleen toegepast op de huidige lijstweergave. U kunt het beste uw lijst filteren en vervolgens de pagina die u bekijkt sorteren.
 >- Afhankelijk van de breedte van het weergavevenster ziet u mogelijk overlappende tekst in de kolommen. Als u de kolommen voor de omloop van tekst wilt uitvouwen, verbreedt u de vensterweergave.
->- Wanneer filteren op _[!UICONTROL Total]_, filtreer met hele getallen. Als u een decimaal getal invoert, kunnen er fouten in de resultaten optreden.
+>- Wanneer filteren op _[!UICONTROL Total]_, filter op hele getallen. Als u een decimaal getal invoert, kunnen er fouten in de resultaten optreden.
 
 ### Standaardkolommen
 

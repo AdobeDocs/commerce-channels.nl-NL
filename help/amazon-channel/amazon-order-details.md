@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. Klikken **[!UICONTROL View Store]** op de winkelkaart.
 
-1. In de _[!UICONTROL Recent Orders]_klikt u op een bestelnummer.
+1. In de _[!UICONTROL Recent Orders]_op een bestelnummer.
 
    De _[!UICONTROL Amazon Order Details]_pagina wordt geopend.
 

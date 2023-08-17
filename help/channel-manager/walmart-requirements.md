@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * A [!DNL Walmart] Verkopersaccount
 
-* Een API-sleutel om Adobe Commerce of Magento Open Source om te verbinden met [!DNL Walmart Marketplace]
+* Een API-sleutel waarmee Adobe Commerce of Magento Open Source verbinding kan maken [!DNL Walmart Marketplace]
 
   De [!DNL Walmart Marketplace] API-sleutel maakt de integratie mogelijk tussen [!DNL Channel Manager] voor Adobe [!DNL Commerce] of Magento Open Source en de Walmart Marketplace. Stel de API-sleutel in Seller Central in voordat u Kanaalbeheer aan boord gaat.
 
@@ -35,7 +35,7 @@ Ga naar de [!DNL Walmart Seller Center] om uw [Walmart-verkopersaccount](https:/
 
    * Stel de machtigingen in zoals weergegeven in de volgende tabel. Zie voor meer informatie [API-referenties](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) in de _Help bij Marketplace Walmart_.
 
-   **Adobe API sleutelconfiguratie voor Walmart**
+   **Adobe API zeer belangrijke configuratie voor Walmart**
 
    | **Machtiging** | **Instelling** |
    |----------------|-------------|

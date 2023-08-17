@@ -15,7 +15,7 @@ De Amazon-homepage van verkoopkanalen is uw bestemmingspagina wanneer u uw Amazo
 
 ![Homepage van Amazon-verkoopkanalen](assets/amazon-sales-channel-home-tabs.png)
 
-De weergaven die beschikbaar zijn in het menu aan de linkerkant zijn:
+De weergaven die beschikbaar zijn in het menu aan de linkerkant zijn onder andere:
 
 - [[!UICONTROL Amazon Stores]](./managing-stores.md) - (Standaardweergave) Bekijk samenvattingsgegevens voor elk van je winkels in Amazon-verkoopkanalen. De winkel weergeven [dashboard](./amazon-store-dashboard.md), klikt u op **[!UICONTROL View Store]**.
 - [[!UICONTROL Learning and Preparation]](./learning-preparation.md) - Je Amazon bekijken en [!DNL Commerce] aanbevolen installatietaken en beschikbaar leermateriaal.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Als Adobe Commerce- of Magento Open Source-handelaar kunt u de [!DNL Amazon Sales Channel] uitbreiding om uw winkels te integreren met &#39;s werelds grootste internetwinkelbestemming. Deze extensie maakt Amazon-verkoop mogelijk door verbinding te maken [!DNL Commerce] met uw [!DNL Amazon Seller Central] account en zorgen voor zowel automatisering als synchronisatie van catalogus- en ordergegevens. Alle Amazon-aanbiedingen volledig beheren, eenvoudige of intelligente prijsregels toepassen en uw bestellingen en voorraad bijhouden via één enkele [!DNL Commerce] dashboard.
 
-Na [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] wordt een &quot;centraal commandocentrum&quot; voor het beheer en de controle van je aanbiedingen, bestellingen en voorraad van Amazon en de prijzen voor je Amazon-winkel. [Integratie van winkels](./store-integration.md) verbindt uw [!DNL Commerce] -instantie en Amazon om gegevens tussen beide platforms te synchroniseren. Met Amazon-verkoopkanaal kunt u:
+Na [onboarding](./amazon-onboarding-home.md), [!DNL Commerce] wordt een &quot;centraal commandocentrum&quot; voor het beheer en de controle van je aanbiedingen, bestellingen en voorraad van Amazon en de prijzen voor je Amazon-winkel. [Integratie van winkel](./store-integration.md) verbindt uw [!DNL Commerce] -instantie en Amazon om gegevens tussen beide platforms te synchroniseren. Met Amazon-verkoopkanaal kunt u:
 
 - [Aan boord](./amazon-onboarding-home.md) en een of meer [!DNL Amazon Seller Central] accounts bij Adobe Commerce of Magento Open Source.
 
@@ -31,11 +31,11 @@ Open je Amazon-winkels om al deze functies, accountgegevens, aanbiedingen, beste
 
 ## Promoties en prijzen
 
-Met de [!DNL Amazon Sales Channel] extensie kunt u:
+Met de [!DNL Amazon Sales Channel] extensie, kunt u:
 
 - Aanbiedingsprijzen voor Amazon synchroniseren met [!DNL Commerce] catalogusprijs (of alternatief prijskenmerk).
 
-- MSRP inschakelen [doorhaalprijs](./listing-price.md#configure-listing-price-settings) in je Amazon-aanbiedingen om de voorgestelde waarde voor de klant te verhogen.
+- MSRP inschakelen [doorhaalprijs](./listing-price.md#configure-listing-price-settings) in je Amazon-aanbiedingen om het voorstel voor de waarde van de klant te verhogen.
 
 - Inschakelen en beheren [Minimale geadverteerde prijs (MAP)](./listing-price.md#configure-listing-price-settings) in je Amazon-aanbiedingen.
 
@@ -45,7 +45,7 @@ Met de [!DNL Amazon Sales Channel] extensie kunt u:
 
 ## Prijsregels
 
-Met de [!DNL Amazon Sales Channel] extensie kunt u:
+Met de [!DNL Amazon Sales Channel] extensie, kunt u:
 
 - Stapelbaar, flexibel en complex maken [prijsregels](./pricing-products.md) om je Amazon-prijzen te beheren voor dagelijkse verkoop of seizoensgebonden aanbiedingen.
 
@@ -55,7 +55,7 @@ Met de [!DNL Amazon Sales Channel] extensie kunt u:
 
 ## Catalogusvoederbeheer
 
-Met de [!DNL Amazon Sales Channel] extensie kunt u:
+Met de [!DNL Amazon Sales Channel] extensie, kunt u:
 
 - Importeer je bestaande Amazon-aanbiedingen (producten) en pas bestaande aanbiedingen aan of maak producten in je [!DNL Commerce] catalogus.
 
@@ -81,7 +81,7 @@ Met de [!DNL Amazon Sales Channel] extensie kunt u:
 
 ## Bestelbeheer en klantenservice
 
-Met de [!DNL Amazon Sales Channel] extensie kunt u:
+Met de [!DNL Amazon Sales Channel] extensie, kunt u:
 
 - Support- en verwerkingsopdrachten in Amazon en [!DNL Commerce].
 
@@ -99,7 +99,7 @@ Met de [!DNL Amazon Sales Channel] extensie kunt u:
 
 - [Bestellingen annuleren](./cancel-unshipped-order.md) en selecteer een redenreactie.
 
-- De weergave van [recente order](./amazon-store-dashboard.md) gegevens voor je Amazon-bestellingen.
+- De weergave [recente order](./amazon-store-dashboard.md) gegevens voor je Amazon-bestellingen.
 
 ## Rapportage
 
@@ -111,7 +111,7 @@ Met de [!DNL Amazon Sales Channel] extensie, kunt u rapportgegevens bekijken ove
 
 - Meest recente bestellingen.
 
-- Amazon [logboek met wijzigingen in lijsten](./listing-changes-log.md) om wijzigingen in het voer (zoals prijs en hoeveelheid) te controleren.
+- Amazon [logboek met wijzigingen in lijsten](./listing-changes-log.md) om de wijziging van het product/de lijst van diervoeders (zoals prijs en hoeveelheid) te beoordelen.
 
 - Product [Buy Box](./buy-box-competitor-pricing.md) Gegevens over prijzen voor concurrenten.
 
@@ -119,9 +119,9 @@ Met de [!DNL Amazon Sales Channel] extensie, kunt u rapportgegevens bekijken ove
 
 ## Ondersteuning voor wereldwijde verkoop
 
-Met de [!DNL Amazon Sales Channel] extensie kunt u:
+Met de [!DNL Amazon Sales Channel] extensie, kunt u:
 
-- Meerdere beheerfuncties [!DNL Amazon Marketplace] regio&#39;s (landen).
+- Meerdere beheren [!DNL Amazon Marketplace] regio&#39;s (landen).
 
 - Meerdere valuta&#39;s ondersteunen met de [Hulpprogramma voor de configuratie van handelvaluta](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html).
 
@@ -134,5 +134,5 @@ Stel uw [!DNL Commerce] klantendatabase door [klantgegevens importeren](./order-
 
 Aan de slag is gemakkelijk. Een kort instapproces leidt u bij het maken van een [!DNL Amazon Seller Central] -account en integratie met uw Amazon-winkel en uw [!DNL Commerce] catalogus voor het beheren van aanbiedingen, bestellingen, voorraad en nakoming van Amazon. Op een centraal dashboard worden statusupdates weergegeven voor al je Amazon-verkoopkanalen voor winkelintegratie en Amazon-aanbiedingen. Nieuwe klanten wereldwijd bereiken [!DNL Amazon Marketplace] met vereenvoudigde en geautomatiseerde processen - alles tegen weinig of geen van de kosten en inspanningen om een nieuw systeem op te zetten.
 
-Na het integreren van uw [!DNL Amazon Seller Central] de [!DNL Amazon Sales Channel] met de extensie kunt u uw accounts en synchronisatiegegevens beheren tussen [!DNL Commerce] en Amazon. Zo kunt u aanbiedingen maken, aanbiedingen beheren, prijzen instellen en voorraad en uitvoering rechtstreeks beheren via de [!DNL Commerce] Admin. Tot deze opties behoren prijsregels die de Amazon-prijs voor hetzelfde object controleren en je prijzen automatisch aanpassen om concurrerender te zijn.
+Nadat u uw [!DNL Amazon Seller Central] de [!DNL Amazon Sales Channel] met de extensie kunt u uw accounts en synchronisatiegegevens beheren tussen [!DNL Commerce] en Amazon. Zo kunt u aanbiedingen maken, aanbiedingen beheren, prijzen instellen en voorraad en uitvoering rechtstreeks beheren via de [!DNL Commerce] Admin. Tot deze opties behoren prijsregels die de Amazon-prijs voor hetzelfde object controleren en je prijzen automatisch aanpassen om concurrerender te zijn.
 

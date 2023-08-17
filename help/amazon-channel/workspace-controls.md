@@ -1,6 +1,6 @@
 ---
-title: Amazon-verkoopkanaal - besturingselementen voor werkruimten
-description: Amazon Sales Channel biedt besturingselementen in de werkruimte waarmee u lijsten kunt zoeken, informatie kunt bekijken en eenvoudig handelingen kunt toepassen.
+title: Amazon-verkoopkanaal - Besturingselementen voor werkruimte
+description: De Sales Channel van Amazon biedt besturingselementen in de werkruimte waarmee u lijsten kunt zoeken, informatie kunt bekijken en eenvoudig handelingen kunt toepassen.
 feature: Sales Channels
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -20,7 +20,7 @@ Het verkoopkanaal van Amazon [homepage](./amazon-sales-channel-home.md) bevat en
 
 De _[!UICONTROL Actions]_biedt een lijst met acties die beschikbaar zijn voor een gebruiker voor een pagina. Wanneer u deze optie kiest, wordt de actie toegepast op alle geselecteerde items. Als u een actie wilt toepassen op een specifiek item, schakelt u het selectievakje in de eerste kolom van elk item in en kiest u een optie onder_[!UICONTROL Actions]_.
 
-Wanneer de kiezer bijvoorbeeld wordt weergegeven op het tabblad _[!UICONTROL Attributes]_pagina, bevat de_[!UICONTROL Re-import Product Attribute Values]_ handeling. Als u deze handeling kiest, wordt de bijbehorende [!DNL Amazon Seller Central] en vernieuwt de [!DNL Commerce] gegevens voor elk van de Amazon-winkelitems die in de linkerkolom worden gecontroleerd.
+Wanneer de kiezer bijvoorbeeld wordt weergegeven op het tabblad _[!UICONTROL Attributes]_pagina, bevat het de_[!UICONTROL Re-import Product Attribute Values]_ handeling. Als u deze handeling kiest, wordt de bijbehorende [!DNL Amazon Seller Central] en vernieuwt de [!DNL Commerce] gegevens voor elk van de Amazon-winkelitems die in de linkerkolom worden gecontroleerd.
 
 ![Voorbeeld van het menu Handelingen](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
@@ -32,7 +32,7 @@ Besturingselementen voor filters kunnen dynamische kalenders bevatten voor het b
 
 In het volgende voorbeeld worden de instellingen getoond voor het filteren van de lijst met orders, zodat alleen orders worden weergegeven die aan de volgende criteria voldoen:
 
-- orders geplaatst tussen 2/01/2019 en 2/07/2019, en
+- tussen 2.1.2019 en 2.7.2019 geplaatste orders, en
 - Bestellingen met een koper met de naam `Smith`, en
 - Orders met de status `Shipped`.
 
@@ -50,7 +50,7 @@ De controle van de Mening is gebaseerd op de standaardkolommen voor pagina, zo w
 
 Wanneer u kolommen hebt toegevoegd of uit de paginaweergave verwijderd:
 
-1. Klikken **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
+1. Klik op **[!UICONTROL Default View]** > **[!UICONTROL Save View As...]**.
 
 1. Voer een naam in voor weergave.
 
@@ -58,7 +58,7 @@ Wanneer u kolommen hebt toegevoegd of uit de paginaweergave verwijderd:
 
 ![Voorbeeld van besturing weergeven](assets/workspace-controls-view.png)
 
-In dit voorbeeld wordt _Order-id_ kolom wordt toegevoegd in de controle van de Kolom en als douanemening bewaard. De naam van de weergave is gewijzigd van _Standaardweergave_ op de ingevoerde naam.
+In dit voorbeeld wordt _Order-id_ kolom wordt toegevoegd in de controle van de Kolom en als douanemening bewaard. Nadat de aangepaste weergavenaam is opgeslagen, is de naam van de weergave gewijzigd van _Standaardweergave_ op de ingevoerde naam.
 
 U kunt schakelen tussen de weergaven door de gewenste weergave te selecteren in het dialoogvenster _[!UICONTROL View]_-menu.
 
@@ -71,7 +71,7 @@ Met het besturingselement Kolommen kunt u kolommen met gegevens toevoegen aan of
 In het volgende voorbeeld ziet u een besturingselement Kolommen. De geselecteerde opties komen overeen met de kolomkoppen die op de pagina worden weergegeven.
 
 - Schakel het selectievakje in om een gegevenskolom aan de pagina toe te voegen.
-- Als u een gegevenskolom van de pagina wilt verwijderen, schakelt u het selectievakje niet in.
+- Schakel het selectievakje niet in als u een gegevenskolom van de pagina wilt verwijderen.
 
 ![Kolommen, controlevoorbeeld](assets/workspace-controls-columns.png){width="400"}
 

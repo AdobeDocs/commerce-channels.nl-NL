@@ -1,6 +1,6 @@
 ---
 title: Verkoopkanaal van Amazon - [!UICONTROL Listing Improvements]
-description: Amazon Sales Channel geeft het rapport Aanbiedingsverbeteringen om je suggesties te doen voor kwaliteitsverbeteringen voor aanbiedingen in Amazon.
+description: Amazon Sales Channel bevat het rapport Aanbiedingsverbeteringen om je suggesties te doen voor kwaliteitsverbeteringen voor aanbiedingen in Amazon.
 feature: Sales Channels, Products
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Listing Improvements]
 
-De [!UICONTROL Listing Improvements] bevat producten met suggesties van Amazon om de kwaliteit van de aanbieding te verbeteren. Je kunt deze suggesties bekijken, die de prestaties van producten in de Amazon-aanbieding kunnen verbeteren. Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
+De [!UICONTROL Listing Improvements] bevat producten met suggesties van Amazon om de kwaliteit van de aanbieding te verbeteren. Je kunt deze suggesties bekijken. Deze kunnen de prestaties van producten in de Amazon-aanbieding ten goede komen. Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen kan worden gecontroleerd.
 
 Een verbetering van aanbiedingen die je van Amazon hebt ontvangen, belet niet dat je product bij Amazon wordt aangeboden.
 

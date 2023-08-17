@@ -21,7 +21,7 @@ Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden
 
 ## De instellingen voor de kanalen voor handel wijzigen
 
-1. Op de _Beheer_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Vouw in het linkerdeelvenster uit **[!UICONTROL Sales Channels]** en kiest u **[!UICONTROL Global Settings]**.
 
@@ -33,11 +33,11 @@ Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden
 
    - `Once Monthly` - (Standaard) Wis de historie van je winkelactiviteiten één keer per maand.
 
-1. Voor **[!UICONTROL Background Tasks (CRON) Source]** kiest u `Magento CRON`.
+1. Voor **[!UICONTROL Background Tasks (CRON) Source]**, kiest u `Magento CRON`.
 
    Met deze optie kan Amazon je verkoopkanaal gebruiken [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) instellingen om de communicatie- en gegevenssynchronisatieintervallen te bepalen met [!DNL Amazon Seller Central].
 
-1. Voor **[!UICONTROL Enable Debug Logging]** kiest u `Enabled` om extra synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is.
+1. Voor **[!UICONTROL Enable Debug Logging]**, kiest u `Enabled` om extra synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is.
 
    Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). Logboekregistratie dient alleen plaats te vinden `Enabled` tijdens het oplossen van problemen en moet `Disabled` wanneer het oplossen van problemen volledig is.
 
@@ -51,6 +51,6 @@ Wanneer de [!DNL Amazon Sales Channel] Als de extensie is geïnstalleerd, worden
    >
    >Wanneer een database wordt gemigreerd naar een nieuwe kopie van de instantie (gedetecteerd wanneer de URL van een winkel in de configuratie verandert), [!UICONTROL Read-Only Mode] wordt automatisch ingeschakeld.
 
-1. Klikken **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]**.
 
-![Sales Channel-configuratie-instellingen](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}
+![Sales Channel configuratie-instellingen](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

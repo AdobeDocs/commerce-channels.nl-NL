@@ -14,13 +14,13 @@ ht-degree: 0%
 
 De _[!UICONTROL Active]_op het tabblad worden actieve aanbiedingen op het tabblad weergegeven [!DNL Amazon Marketplace] die overeenkomen met een product in uw [!DNL Commerce] catalogus.
 
-De beschikbare acties op de _[!UICONTROL Active]_include:
+De beschikbare acties op de _[!UICONTROL Active]_include-bestanden:
 
 Onder _[!UICONTROL Actions]_:
 
 - **[!UICONTROL End Listing(s) on Amazon]**: Kies ervoor om alle geselecteerde aanbiedingen te verwijderen uit de [!DNL Amazon Marketplace]. Zie [Een Amazon-aanbieding beëindigen](./end-listings-manually.md).
 
-- **[!UICONTROL Edit Listing Overrides]**: Kies of u de overschrijvingsinstellingen voor de aanbieding wilt wijzigen. Zie [Overschrijvingen](./overrides.md) of [Een overschrijving bewerken of verwijderen](./creating-editing-overrides.md#edit-override-single-listing).
+- **[!UICONTROL Edit Listing Overrides]**: Kies of u de overschrijvingsinstellingen voor de lijst wilt wijzigen. Zie [Overschrijvingen](./overrides.md) of [Een overschrijving bewerken of verwijderen](./creating-editing-overrides.md#edit-override-single-listing).
 
 Onder **[!UICONTROL Select]** in de _[!UICONTROL Action]_kolom:
 
@@ -49,7 +49,7 @@ Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](
 | [!UICONTROL Amazon Seller SKU] | De SKU (Stock Keeping Unit) die door Amazon aan een product wordt toegewezen om het product, de opties, de prijs, en de fabrikant te identificeren. |
 | [!UICONTROL ASIN] | Een uniek blok van 10 letters en/of cijfers dat items identificeert. <br><br>ASIN staat voor de [!DNL Amazon Standard Identification Number]. Een ASIN is een uniek blok van 10 letters en/of getallen dat items identificeert. Voor boeken, is ASIN het zelfde als het aantal ISBN, maar voor alle andere producten wordt een nieuwe ASIN gecreeerd wanneer het punt aan hun catalogus wordt geupload. Je vindt een artikel in ASIN op de productdetailpagina op Amazon, samen met meer informatie over het object. |
 | [!UICONTROL Product Listing Name] | De naam van het product. |
-| [!UICONTROL Condition] | De [voorwaarde](./product-listing-condition.md) van het product. |
+| [!UICONTROL Condition] | De [conditie](./product-listing-condition.md) van het product. |
 | [!UICONTROL Landed Price] | De prijs van de aanbieding voor het product plus de verzendprijs. |
 | [!UICONTROL Amazon Quantity] | De hoeveelheid die beschikbaar is nadat het product actief is aangeboden op Amazon. |
 | [!UICONTROL Status] | De status van de aanbieding, gedefinieerd door Amazon. |

@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Channel Manager] Opmerkingen bij de release'
+title: '[!DNL Channel Manager] Aanvullende informatie'
 description: De meest recente releasegegevens voor [!DNL Channel Manager] uit Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# [!DNL Channel Manager] Opmerkingen bij de release
+# [!DNL Channel Manager] Aanvullende informatie
 
 In deze releaseopmerkingen wordt de eerste release van [!DNL Channel Manager] en omvatten:
 

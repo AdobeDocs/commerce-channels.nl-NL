@@ -16,13 +16,13 @@ Wanneer u de Amazon-homepage van het verkoopkanaal weergeeft, kunt u _Amazon-win
 
 ![Weergave Amazon-winkels](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
-De _[!UICONTROL Amazon Stores]_in deze weergave ziet u een &quot;winkelkaart&quot; voor elk van uw Amazon-winkels, samen met enkele basisstatistieken en beheeropties. De samenvattingsgegevens die op elke kaart worden weergegeven, omvatten elke winkelstatus, gemaakte datum, laatst bijgewerkte datum, aanbiedingen die aandacht behoeven (voorbeeld: Onvolledige aanbiedingen) en toegewezen [!DNL Commerce] website.
+De _[!UICONTROL Amazon Stores]_in deze weergave ziet u een &quot;winkelkaart&quot; voor elk van uw Amazon-winkels, samen met enkele basisstatistieken en beheeropties. De samenvattingsgegevens die op elke kaart worden weergegeven, omvatten elke winkelstatus, elke aanmaakdatum, elke bijgewerkte datum, aanbiedingen die aandacht behoeven (bijvoorbeeld: Onvolledige aanbiedingen) en de toegewezen [!DNL Commerce] website.
 
 Wanneer u de _[!UICONTROL Amazon Store]_bekijken, staat elke winkelkaart u toe:
 
 - Een winkel openen [dashboard](./amazon-store-dashboard.md), klikt u op **[!UICONTROL View Store]**.
 
-- Als u de status van een winkel wilt wijzigen of een winkel wilt verwijderen, klikt u op **[!UICONTROL Action]** en kies:
+- Als u een opslagstatus wilt wijzigen of een winkel wilt verwijderen, klikt u op **[!UICONTROL Action]** en kies:
 
    - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]** - Kies of u de status van de winkel wilt wijzigen `Active` of `Inactive`, respectievelijk.
 

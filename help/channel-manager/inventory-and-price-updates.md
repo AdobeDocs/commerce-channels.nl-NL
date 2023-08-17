@@ -31,7 +31,7 @@ Wanneer de niveaus van de productvoorraad veranderen in [!DNL Commerce], [!DNL C
 
 >[!IMPORTANT]
 >
->Na een [!DNL Walmart Marketplace] synchronisaties bestellen naar [!DNL Channel Manager], inventarishoeveelheden en ordergegevens worden alleen bijgewerkt voor terugbetalingen en annuleringen die worden geïnitieerd op [!DNL Commerce]. Als een bestelling wordt terugbetaald of geannuleerd vanaf de [!DNL Walmart marketplace]de wijziging van [!DNL Commerce] de nauwkeurigheid van [!DNL Commerce] inventarishoeveelheden en ordergegevens.
+>Na een [!DNL Walmart Marketplace] synchronisaties bestellen naar [!DNL Channel Manager], inventarishoeveelheden en ordergegevens worden alleen bijgewerkt voor terugbetalingen en annuleringen die worden geïnitieerd op [!DNL Commerce]. Als een bestelling wordt terugbetaald of geannuleerd vanaf de [!DNL Walmart marketplace]de wijziging van [!DNL Commerce] om de nauwkeurigheid van [!DNL Commerce] inventarishoeveelheden en ordergegevens.
 
 ## Prijsupdates
 

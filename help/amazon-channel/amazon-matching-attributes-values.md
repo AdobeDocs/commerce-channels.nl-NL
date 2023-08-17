@@ -20,7 +20,7 @@ De _Amazon Value_ verschilt afhankelijk van het kenmerktype en het Amazon-kenmer
 
 1. Op de _[!UICONTROL Admin]_zijbalk, ga naar **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-1. Klikken **[!UICONTROL Attributes]** in het linkerzijmenu, bepaal de plaats van een attribuut van Amazon, en klik of **[!UICONTROL Create]** of **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
+1. Klikken **[!UICONTROL Attributes]** Zoek in het linkermenu een Amazon-kenmerk en klik op **[!UICONTROL Create]** of **[!UICONTROL Edit]** in de _[!UICONTROL Action]_kolom.
 
 1. Klik op de knop **[!UICONTROL Matching Attribute Values]** tab.
 
@@ -33,8 +33,8 @@ De _Amazon Value_ verschilt afhankelijk van het kenmerktype en het Amazon-kenmer
 
 | Veld | Beschrijving |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Region] | Het gebied voor verkoopactiviteiten zoals gedefinieerd in **[!DNL Amazon Marketplace]Land** tijdens de integratie van de winkel. |
-| [!UICONTROL Magento Product SKU] | Hiermee wordt de [!DNL Commerce] producten gesynchroniseerd met de Amazon Store. De waarde is een product-id die is toegewezen door [!DNL Commerce] en zijn gekoppeld aan een product in de catalogus. Als u het product wilt openen in [!DNL Commerce]klikt u op de koppeling. |
+| [!UICONTROL Region] | Het gebied voor verkoopactiviteiten zoals gedefinieerd in **[!DNL Amazon Marketplace]Land** tijdens winkelintegratie. |
+| [!UICONTROL Magento Product SKU] | Hiermee wordt de [!DNL Commerce] producten die worden gesynchroniseerd met de Amazon Store. De waarde is een product-id die is toegewezen door [!DNL Commerce] en zijn gekoppeld aan een product in de catalogus. Als u het product wilt openen in [!DNL Commerce]klikt u op de koppeling. |
 | [!UICONTROL ASIN] | Hiermee wordt de unieke identificatiecode aangegeven die door Amazon is toegekend aan het product met een standaard Amazon-identificatienummer (ASIN) van 10 tekens dat uit een alfanumeriek identificatienummer bestaat. |
 | [!UICONTROL Amazon Value] | Geeft de waarde voor het geselecteerde kenmerk aan. De Amazon-waarde is afhankelijk van het kenmerktype en het Amazon-kenmerk dat u bekijkt. Bijvoorbeeld een Amazon-waarde in de lijst voor `Label` zou een tekstwaarde zijn `AmazonListPrice` zou een numeriek bedrag zijn. De status geeft aan of de Amazon-waarde is geïmporteerd. |
-| [!UICONTROL Status] | Geeft aan of de kenmerkwaarden zijn geïmporteerd in [!DNL Commerce] en gekoppeld zijn aan een [!DNL Commerce] kenmerk. Opties: `Not Imported` / `Imported` |
+| [!UICONTROL Status] | Geeft aan of de kenmerkwaarden zijn geïmporteerd in [!DNL Commerce] en die verband houden met een [!DNL Commerce] kenmerk. Opties: `Not Imported` / `Imported` |

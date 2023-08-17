@@ -22,7 +22,7 @@ Wanneer kenmerktoewijzing is ingesteld, [!DNL Commerce] kan productinformatie op
 
 Met Amazon-verkoopkanaal hebt u toegang tot kenmerken in het dialoogvenster [_[!UICONTROL Attributes]_weergave](./attributes-view.md) op de homepage van het verkoopkanaal van Amazon. Als u een kenmerk aan uw [!DNL Commerce] catalogiseren, kan het een update van die waarden over alle producten vereisen.
 
-Meer informatie over [!DNL Commerce] en Amazon-kenmerksets en -waarden, zie:
+Voor meer informatie over [!DNL Commerce] en Amazon-kenmerksets en -waarden, zie:
 
 - [Grondbeginselen van kenmerken beheren](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [Een kenmerk maken](./creating-attributes.md#create-an-attribute)

@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - Algemene instellingen prijsregel
+title: Amazon-Sales Channel - Algemene instellingen voor prijsregel
 description: Met de algemene instellingen van de prijsregel definieert u de primaire kenmerken van een prijsregel voor aanbiedingen.
 feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
@@ -40,7 +40,7 @@ Definieer de naam, beschrijving, actieve datums en prioriteit voor de regel.
 
 1. Voor **[!UICONTROL Discard Subsequent Rules]** kiest u een optie:
 
-   - `Yes` - Kies deze optie als u geen andere prijsregels wilt toepassen die op een product van toepassing kunnen zijn. Als latere regels worden genegeerd, betekent dit dat, wanneer meerdere prijsregels op hetzelfde product van toepassing zijn, alleen de prijsregel met de hoogste gedefinieerde prioritaire waarde op het product wordt toegepast. Met deze optie wordt voorkomen dat meerdere prijsregels worden gestapeld en onbedoelde extra kortingen bieden.
+   - `Yes` - Kies deze optie als u geen andere prijsregels wilt toepassen die op een product van toepassing kunnen zijn. Als latere regels worden genegeerd, betekent dit dat, wanneer meerdere prijsregels op hetzelfde product van toepassing zijn, alleen de prijsregel met de hoogste gedefinieerde prioriteitswaarde op het product wordt toegepast. Met deze optie wordt voorkomen dat meerdere prijsregels worden gestapeld en onbedoelde extra kortingen bieden.
 
    - `No` - Kies deze optie als u meerdere prijsregels wilt toepassen op hetzelfde product. Deze optie kan ertoe leiden dat meerdere kortingen worden gestapeld en toegepast.
 

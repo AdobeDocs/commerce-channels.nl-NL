@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Na installatie van Channel Manager op uw [!DNL Commerce] instantie, een verkoopkanaal in de Manager van het Kanaal creëren en de geloofsbrieven vormen om te verbinden [!DNL Channel Manager] tot [!DNL Walmart Marketplace].
 
-1. [Het verkoopkanaal maken](#create-the-sales-channel) door [!DNL Commerce] winkel voor productaanbiedingen.
+1. [Het verkoopkanaal maken](#create-the-sales-channel) door de [!DNL Commerce] winkel voor productaanbiedingen.
 
 1. [Het kanaal verbinden met [!DNL Walmart Marketplace] door toevoegen [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
@@ -39,13 +39,13 @@ Na installatie van Channel Manager op uw [!DNL Commerce] instantie, een verkoopk
 
    - Selecteren **[!UICONTROL Add Credentials]**.
 
-   - Selecteer [!DNL Commerce] Winkelweergave die de producten aanbiedt die je op de markt wilt verkopen.
+   - Selecteer de [!DNL Commerce] Winkelweergave die de producten aanbiedt die je op de markt wilt verkopen.
 
      ![Verbinding configureren tussen [!DNL Commerce] en [!DNL Walmart Marketplace] van [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
 
    - Voer een unieke waarde in **[!UICONTROL store name]**.
 
-   - Selecteer **[!UICONTROL Adobe [!DNL Commerce] site]** voor productaanbiedingen en orderverwerking.
+   - Selecteer de **[!UICONTROL Adobe [!DNL Commerce] site]** voor productaanbiedingen en orderverwerking.
 
    - Om meldingen te ontvangen met betrekking tot [!DNL Channel Manager], voegt u een **[!UICONTROL email address]**.
 
@@ -69,7 +69,7 @@ Na installatie van Channel Manager op uw [!DNL Commerce] instantie, een verkoopk
 
    - Terug naar [!DNL Channel Manager] om de geloofsbrieven aan toe te voegen **[!UICONTROL Walmart Connection]** informatie.
 
-     Wanneer u geloofsbrieven toevoegt, verbergt Adobe het cliëntgeheim en slaat de waarde in een veilige kluis op.
+     Wanneer u geloofsbrieven toevoegt, verbergt de Adobe het cliëntgeheim en slaat de waarde in een veilige kluis op.
 
 1. Selecteren **[!UICONTROL Save Store]** om de configuratie toe te passen en met [!DNL Walmart marketplace].
 

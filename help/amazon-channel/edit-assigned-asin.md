@@ -27,10 +27,10 @@ Wanneer een toegewezen ASIN wordt gewijzigd:
 
 1. Onder _[!UICONTROL Actions]_, klikt u op **[!UICONTROL Edit Assigned ASIN]**.
 
-   Met deze handeling wordt het dialoogvenster _[!UICONTROL Product Listing Update]_pagina.
+   Deze handeling opent de _[!UICONTROL Product Listing Update]_pagina.
 
 1. Voor **[!UICONTROL Assign ASIN]** voert u de nieuwe ASIN-waarde in.
 
-1. Klik op **[!UICONTROL Save Listing Update]**.
+1. Als u de wijzigingen wilt opslaan, klikt u op **[!UICONTROL Save Listing Update]**.
 
 ![Een toegewezen ASIN bewerken](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

@@ -1,6 +1,6 @@
 ---
 title: Verkoopkanaal van Amazon - [!UICONTROL Listing Changes Log]
-description: Amazon Sales Channel geeft het logbestand met wijzigingen in aanbiedingen weer, zodat u de wijzigingen in uw Amazon-verkopersaccount kunt controleren.
+description: Amazon-Sales Channel bevat het logbestand met wijzigingen in aanbiedingen, waarmee u de wijzigingen in uw Amazon-verkopersaccount kunt controleren.
 feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In het logbestand met wijzigingen in de lijst worden de wijzigingen weergegeven die zijn opgetreden in uw [!DNL Amazon Seller Account] als weerspiegeling van de instellingen voor het verkoopkanaal van Amazon. In dit logbestand worden de algemene wijzigingen weergegeven die zijn gesynchroniseerd tussen Amazon en Amazon. Dit logboek omvat het vermelden van veranderingen voor een product SKU zoals het type van actie (verandering), korte beschrijving van de verandering, en de datum van de verandering.
 
-Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
+Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen kan worden gecontroleerd.
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

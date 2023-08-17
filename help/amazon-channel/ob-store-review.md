@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nadat u de Amazon-winkel voor verkoopkanalen hebt gemaakt en geïntegreerd, controleert u de standaardinstellingen van uw winkel om te controleren of uw product, aanbieding, prijs en andere instellingen correct zijn.
 
-1. Op de _Beheer_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
 1. Selecteer de winkel die u wilt weergeven en klik op **[!UICONTROL View Store]**.
 
@@ -26,6 +26,6 @@ Nadat u de Amazon-winkel voor verkoopkanalen hebt gemaakt en geïntegreerd, cont
    - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Bepaal hoe de Amazon-catalogusprijs wordt gewijzigd voor aanbiedingen die hiervoor in aanmerking komen.
    - **[!UICONTROL Store reports]** - [Concurrentieprijsanalyse](./competitive-price-analysis.md) en [aanbiedingsverbeteringen](./listing-improvements.md).
    - **[!UICONTROL Logs]** - [Aanbiedingswijzigingen](./listing-changes-log.md) en [communicatiefouten](./communication-errors-log.md).
-   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Geef de instellingen voor de naam van e-mail- en Amazon-verkoopkanalen weer in de [!DNL Commerce] Admin.
+   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Geef de instellingen voor de naam van e-mail- en Amazon-verkoopkanalen weer in het dialoogvenster [!DNL Commerce] Admin.
 
 ![Winkeldashboard](assets/ob-store-review.png){width="600" zoomable="yes"}

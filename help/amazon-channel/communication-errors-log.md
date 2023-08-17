@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Logboek voor communicatiefouten in Amazon
 
-De [!UICONTROL Communication Errors] In het logbestand worden alle gerapporteerde communicatiefouten met Amazon weergegeven. De informatie omvat de getroffen de verkoopkanaalopslag van Amazon, foutencode en korte beschrijving, en de datum en de tijd van de fout.
+De [!UICONTROL Communication Errors] In het logbestand worden alle gerapporteerde communicatiefouten met Amazon weergegeven. De informatie omvat de beïnvloede opslag van het verkoopkanaal van Amazon, foutencode en korte beschrijving, en de datum en de tijd van de fout.
 
-Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen voor revisie kan worden gebruikt.
+Er zijn geen acties beschikbaar voor het logbestand. Dit is een functie die alleen kan worden gecontroleerd.
 
 Homepages van Amazon-verkoopkanalen delen [besturingselementen voor werkruimte](./workspace-controls.md) waarmee u de weergegeven gegevens kunt aanpassen.
 

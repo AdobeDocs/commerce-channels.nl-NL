@@ -1,6 +1,6 @@
 ---
 title: "Installeer de [!DNL Amazon Sales Channel] extension"
-description: Om uw [!DNL Commerce] catalogus met [!DNL Amazon Seller Accounts] en verkopen via [!DNL Amazon Marketplace], downloadt en installeert u de Amazon Sales Channel-extensie.
+description: Om uw [!DNL Commerce] catalogus met [!DNL Amazon Seller Accounts] en verkopen via [!DNL Amazon Marketplace], downloadt en installeert u de extensie Amazon Sales Channel.
 role: Admin, Developer
 feature: Sales Channels, Install, Integration, Tools and External Services
 source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Alleen [!DNL Amazon Sales Channel] extensie 4.0+-versies worden ondersteund voor Adobe Commerce- en Magento Open Source 2.4.x-versies. Als u een versie van 2.3.x uitvoert, raadpleegt u de documentatie voor het [compatibele Amazon-verkoopkanaalrelease](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Zie voor meer informatie over versiecompatibiliteit de [Beschikbaarheid](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) in de ontwikkelaarsdocumentatie.
+>Alleen [!DNL Amazon Sales Channel] extensie 4.0+-versies worden ondersteund voor Adobe Commerce en Magento Open Source 2.4.x-versies. Als u een versie van 2.3.x uitvoert, raadpleegt u de documentatie voor het [compatibele Amazon-verkoopkanaalrelease](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Zie voor meer informatie over versiecompatibiliteit de [Beschikbaarheid](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) in de ontwikkelaarsdocumentatie.
 
 De [!UICONTROL Amazon Sales Channel] extensie installeert en voegt functies toe om uw handelscatalogus te integreren met [!DNL Amazon Seller Accounts] om via [!DNL Amazon Marketplace]. Als u aanvullende informatie wilt bekijken, raadpleegt u de [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) pagina in [!DNL Commerce Marketplace] en de [releaseopmerkingen](release-notes.md).
 
@@ -26,7 +26,7 @@ De [!UICONTROL Amazon Sales Channel] extensie installeert en voegt functies toe 
 
 ## Installeren
 
-Voor meer gedetailleerde informatie over het gebruik van Composer voor dit proces raadpleegt u de [extensieinstallatie](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) instructies in de ontwikkelaarsdocumentatie.
+Zie voor meer informatie over het gebruik van Composer voor dit proces de [extensieinstallatie](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) instructies in de ontwikkelaarsdocumentatie.
 
 1. Aanmelden bij de [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
@@ -60,11 +60,11 @@ Voer na de installatie een [API-sleutel](./amazon-verify-api-key.md) om de confi
 
 ## Amazon-kanaalconfiguratieopties instellen
 
-U hebt de volgende opties om het verkoopkanaal van Amazon te vormen. U hoeft deze instellingen niet aan te passen om aan te vangen en te verkopen op Amazon. Gevorderde beheerders kunnen deze opties het beste in overweging nemen.
+U hebt de volgende opties om het verkoopkanaal van Amazon te vormen. U hoeft deze instellingen niet aan te passen om aan de instap en verkoop op Amazon te beginnen. Gevorderde beheerders kunnen deze opties het beste overwegen.
 
 1. Meld u aan bij de beheerder.
 
-1. Op de _Beheer_ zijbalk, ga naar **Winkels** > _Instellingen_ > **Configuratie**.
+1. Op de _Beheerder_ zijbalk, ga naar **Winkels** > _Instellingen_ > **Configuratie**.
 
 1. Klikken **Sales Channel** vervolgens **Algemene instellingen**.
 
@@ -76,7 +76,7 @@ U hebt de volgende opties om het verkoopkanaal van Amazon te vormen. U hoeft dez
 
    Deze instelling wordt aanbevolen voor **_geavanceerde gebruikers/beheerders_**.
 
-1. Klikken **[!UICONTROL Save Config]**.
+1. Klik op **[!UICONTROL Save Config]**.
 
 ## De extensie bijwerken
 

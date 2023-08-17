@@ -1,5 +1,5 @@
 ---
-title: Aanbevolen werkwijzen en beperkingen voor [!DNL Amazon sales channel]
+title: Beste werkwijzen en beperkingen voor [!DNL Amazon sales channel]
 description: Bekijk de beste praktijken en beperkingen wanneer het gebruiken van het verkoopkanaal van Amazon voor Adobe Commerce en Magento Open Source.
 role: Leader, Admin, User
 feature: Sales Channels, Best Practices
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Aanbevolen werkwijzen en beperkingen voor [!DNL Amazon sales channel]
+# Beste werkwijzen en beperkingen voor [!DNL Amazon sales channel]
 
 De beste praktijken omvatten:
 
@@ -19,9 +19,9 @@ De beste praktijken omvatten:
 
 - Verkoopkanaal van Amazon kan je prijsregels zodanig instellen dat je de objectprijs automatisch aanpast. De geautomatiseerde prijswaarborgen omvatten [bodemprijs](./floor-price.md) en [facultatieve maximumprijs](./optional-ceiling-price.md) kenmerken van [Intelligente prijsstellingsregels](./intelligent-repricing-rules.md). Met deze voorzorgsmaatregelen kun je ervoor zorgen dat je aanbiedingsprijzen niet onder je kosten of boven een bepaalde prijs liggen.
 
-- Gegevenssynchronisatie tussen Amazon-verkoopkanaal en Amazon wordt beheerd door uw [[!DNL Commerce] kraan](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) instellingen. Ingebouwde vertraging tussen [!DNL Commerce] en Amazon draagt bij aan een soepele en efficiënte gegevensoverdracht, maar bij hoge eCommerce-tijden (zoals de Zwarte Vrijdag) kan het langer duren dan gewoonlijk om Amazon-systemen bij te werken. Stel uw [!DNL Commerce] kroon om de vijf minuten.
+- Gegevenssynchronisatie tussen Amazon-verkoopkanaal en Amazon wordt beheerd door uw [[!DNL Commerce] kraan](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) instellingen. Ingebouwde vertraging tussen [!DNL Commerce] en Amazon draagt bij aan een soepele en efficiënte gegevensoverdracht, maar bij hoge eCommerce-tijden (zoals de Zwarte Vrijdag) kan het langer duren dan gewoonlijk om Amazon-systemen bij te werken. Stel uw [!DNL Commerce] kroon om de vijf minuten te draaien.
 
-- Amazon-verkoopkanaal importeert uw Amazon-ordergegevens. Als u uw Amazon-bestellingen in Amazon-verkoopkanalen wilt beheren, moet u ervoor zorgen dat uw [orderinstellingen](./order-settings.md) zijn gedefinieerd voor het importeren en maken van een corresponderende [!DNL Commerce] volgorde voor elke Amazon-bestelling. Als deze niet is gedefinieerd, kunt u alleen de Amazon-ordergegevens bekijken. Alle verkoopbelastingen via Amazon worden nog steeds beheerd en kwijtgescholden via je [!DNL Amazon Seller Central] account. In sommige landen is Amazon verplicht om automatisch belastingen te innen en terug te betalen. In andere staten kunnen verkopers de belastingen handmatig of automatisch berekenen. Zie [Amazon: Belastingbeleid](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. Mogelijk moet u zich aanmelden bij uw [!DNL Amazon Seller Central] -account voor de belastingbeleidsdocumentatie van Amazon.
+- Amazon-verkoopkanaal importeert uw Amazon-ordergegevens. Als u uw Amazon-bestellingen in Amazon wilt beheren, moet u ervoor zorgen dat uw [orderinstellingen](./order-settings.md) zijn gedefinieerd voor het importeren en maken van een overeenkomende [!DNL Commerce] volgorde voor elke Amazon-bestelling. Als deze niet is gedefinieerd, kunt u alleen de Amazon-ordergegevens bekijken. Alle verkoopbelastingen via Amazon worden nog steeds beheerd en kwijtgescholden via je [!DNL Amazon Seller Central] account. In sommige landen is Amazon verplicht om automatisch belastingen te innen en terug te betalen. In andere staten kunnen verkopers de belastingen handmatig of automatisch berekenen. Zie [Amazon: Belastingbeleid](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. Mogelijk moet u zich aanmelden bij uw [!DNL Amazon Seller Central] -account om de documentatie over het belastingbeleid van Amazon te bekijken.
 
 - Voor Britse regio&#39;s is het de beste praktijk om zich in te schrijven in de [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} voordat het verkoopkanaal van Amazon wordt ingeschakeld.
 

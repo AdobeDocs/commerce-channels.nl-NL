@@ -19,13 +19,13 @@ U kunt ook op **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** zijn _Klaar voor lijst_ aanbiedingen of je _Onvolledige aanbiedingen_, afhankelijk van uw [_Handelingen voor productaanbiedingen_](./product-listing-actions.md) instellingen. Zie de tabbeschrijvingen in [Aanbiedingen beheren op status/tabblad](./managing-listings-by-tab.md).
+>**[!UICONTROL In Progress Listings]** is of _Klaar voor lijst_ aanbiedingen of _Onvolledige aanbiedingen_, afhankelijk van uw [_Handelingen voor productaanbiedingen_](./product-listing-actions.md) instellingen. Zie de tabbeschrijvingen in [Aanbiedingen beheren op status/tabblad](./managing-listings-by-tab.md).
 
 Zie [Aanbiedingen beheren op status/tabblad](./managing-listings-by-tab.md) en [Aanbiedingen beheren via actie](./managing-listings-by-action.md).
 
 ## Productlijsten openen
 
-1. Op de _Beheer_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Op de _Beheerder_ zijbalk, ga naar **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
 1. Klikken **[!UICONTROL View Store]** op een winkelkaart.
 
