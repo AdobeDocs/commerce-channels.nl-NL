@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] opmerkingen vrijgeven'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
+source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,21 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Amazon sales channe
 ![Bekend probleem](../assets/bug.svg) Bekende problemen
 
 Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versioning, ondersteuning en compatibiliteit.
+
+## v4.5.0
+
+*30 augustus 2023*
+
+[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+
+![Nieuw](../assets/new.svg) Toegevoegd de gateway Adobe.IO API, die van MAGI verandert, voor betere authentificatieveiligheid. `ServicesId` verstrekt een nieuwe UI om uw Adobe.IO geloofsbrieven te beheren, gelijkend op andere [Adobe Commerce Services](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
+
+>[!NOTE]
+>
+>Handelaren moeten ervoor zorgen dat de [persoonlijke en openbare API-sleutels](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) worden bijgewerkt voor productie.
+
+
+![Probleem opgelost](../assets/fix.svg) Identificeerde een configuratie plaatsende kwestie en bevorde de stroom van de ordeverwezenlijking.
 
 ## v4.4.4
 
