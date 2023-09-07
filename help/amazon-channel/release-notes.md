@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] opmerkingen vrijgeven'
 description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Amazon sales channe
 
 Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versioning, ondersteuning en compatibiliteit.
 
+Zie [Beschikbaarheid van producten](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor meer informatie over de Adobe Commerce-versies die deze extensie ondersteunen.
+
 ## v4.5.0
 
 *30 augustus 2023*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Nieuw](../assets/new.svg) Toegevoegd de gateway Adobe.IO API, die van MAGI verandert, voor betere authentificatieveiligheid. `ServicesId` verstrekt een nieuwe UI om uw Adobe.IO geloofsbrieven te beheren, gelijkend op andere [Adobe Commerce Services](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 *7 maart 2023*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Probleem opgelost](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.6 en PHP 8.2.
 
@@ -70,7 +72,7 @@ Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 *7 maart 2023*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Repareren](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.4.
 
@@ -78,7 +80,7 @@ Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 *11 november 2021*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Repareren](../assets/fix.svg) Bijgewerkte afhankelijkheden ter ondersteuning van andere bijgewerkte extensies.
 ![Repareren](../assets/fix.svg) Toegevoegde ondersteuning voor PHP 8.1.
@@ -87,7 +89,7 @@ Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 *11 november 2021*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Repareren](../assets/fix.svg) De manier waarop Adobe Commerce de _Gebruikersnaam_ veld uit Amazon. Er is eerder een fout opgetreden tijdens het maken van de bestelling toen de _Gebruikersnaam_ veld bevat speciale tekens. Adobe Commerce ontvangt nu de _Gebruikersnaam_ gegevens en filters uit de speciale karakters zodat kan de orde met succes worden gecreeerd.
 
@@ -95,7 +97,7 @@ Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 *9 april 2021*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Nieuw](../assets/new.svg) Toegevoegde steun voor read-only Wijze aan de configuratie. Zie [verkoopkanaalinstellingen](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 *3 maart 2021*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Repareren](../assets/fix.svg) <!--CHAN-xxxx-->De _Bestelgegevens_ -functie is opnieuw ontworpen en is niet meer afhankelijk van de _Volgorde importeren_ instellen. De gegevens van de orde verschijnen nu in de interface van de Sales Channel van Amazon voor alle orden.
 
@@ -129,7 +131,7 @@ Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operati
 
 *3 maart 2021*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Adobe Commerce bij te werken naar versie 2.4.0, wordt u gevraagd de extensie bij te werken voordat u de Adobe Commerce-update kunt voltooien.
 
@@ -159,7 +161,7 @@ Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Ado
 
 *7 mei 2020*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Nieuw](../assets/new.svg) <!--4247, 4230-->Veranderde het proces van de ordeinvoer om zich aan de ordevereisten van de Handel te richten. Met deze wijzigingen worden problemen verholpen die ertoe hebben geleid dat de handel de corresponderende volgorde voor een geïmporteerde order niet kon maken. Zie [Bestellingen beheren](managing-orders.md) voor informatie over orderblokkers en oplossingen.
 
@@ -189,7 +191,7 @@ Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Ado
 
 *25 maart 2020*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Ado
 
 *11 november 2019*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Repareren](../assets/fix.svg) **Instellingen numeriek veld**: <!--CHAN-3779-->Velden waarvoor een numerieke waarde nodig is, zijn bijgewerkt en bevatten alleen numerieke tekens. Voorbeeld: Instellingen prijsregel > Veld Aanpassingsbedrag
 
@@ -219,7 +221,7 @@ Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Ado
 
 *7 oktober 2019*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Nieuw](../assets/new.svg) **Amazon UK Marketplace Nu beschikbaar**: Gebruikers kunnen de markt van het Verenigd Koninkrijk kiezen bij het maken en integreren van een Commerce Store. Deze upgrade naar het Verenigd Koninkrijk biedt extra ondersteuning voor:
 
@@ -237,7 +239,7 @@ Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Ado
 
 ## v2.0.0
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 >[!NOTE]
 >

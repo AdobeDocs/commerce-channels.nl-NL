@@ -3,10 +3,10 @@ title: '[!DNL Channel Manager] Aanvullende informatie'
 description: De meest recente releasegegevens voor [!DNL Channel Manager] uit Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 4%
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -18,12 +18,15 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Channel Manager] en
 ![Probleem opgelost](../assets/fix.svg) Oplossingen en verbeteringen
 ![Bekend probleem](../assets/bug.svg) Bekende problemen
 
+Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om over versieschema&#39;s en steun te leren.
+
+Zie [Beschikbaarheid van producten](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor meer informatie over de Adobe Commerce-versies die deze extensie ondersteunen.
 
 ## v2.0.0
 
 *20 maart 2023*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Nieuw](../assets/new.svg)<!--CHAN-5893--> Channel Manager is nu compatibel met Adobe Commerce versie 2.4.6.
 
@@ -31,7 +34,7 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Channel Manager] en
 
 *23 november 2022*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Nieuw](../assets/new.svg)<!--CHAN-5204--> **Retourneert en terugbetaalt**—U kunt nu het retourproces en terugbetalingen van Walmart Marketplace verwerken voor bestellingen die via een Adobe Commerce- en Magento Open Source Channel Manager-winkel worden verzonden. De informatie en de updates over terugkeer en terugbetalingen worden gesynchroniseerd tussen Walmart en Adobe Commerce zodat de huidige gegevens in zowel [!DNL Commerce] storefront en [!DNL Walmart Marketplace]. Zie [Terugbetalingsopdrachten](return-refund-orders.md).
 
@@ -41,7 +44,7 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Channel Manager] en
 
 *14 januari 2022*
 
-[!BADGE Compatibiliteit]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
 
 ![Nieuw](../assets/new.svg) Eerste release van Channel Manager voor algemene beschikbaarheid
 
