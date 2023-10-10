@@ -3,9 +3,9 @@ title: '[!DNL Channel Manager] Aanvullende informatie'
 description: De meest recente releasegegevens voor [!DNL Channel Manager] uit Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
+source-git-commit: 003efd3c1044284a7d2c86db5d3eb1abfb3898ea
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,14 @@ In deze releaseopmerkingen wordt de eerste release van [!DNL Channel Manager] en
 Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om over versieschema&#39;s en steun te leren.
 
 Zie [Beschikbaarheid van producten](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor meer informatie over de Adobe Commerce-versies die deze extensie ondersteunen.
+
+## v2.1.0
+
+*3 oktober 2023*
+
+[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+
+![Nieuw](../assets/new.svg) Kanaalbeheer is nu compatibel met [Adobe Commerce versie 2.4.7 bèta](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) lozingen.
 
 ## v2.0.0
 
