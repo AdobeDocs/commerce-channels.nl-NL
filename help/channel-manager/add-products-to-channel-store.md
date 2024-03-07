@@ -3,9 +3,9 @@ title: Producten toevoegen aan Channel Manager
 description: 'Productassortiment maken voor [!DNL Walmart Marketplace] verkoop door producten van de catalogus aan het verkoopkanaal toe te voegen dat in de Manager van het Kanaal wordt gevormd.'
 feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: 0087d60791cf00e4ed2bffe992447ee8e592fd9b
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Het importeren kan maximaal 30 minuten duren, afhankelijk van het aantal product
 
      ![Bevestigingsbericht voor het importeren van producten uit catalogus naar verkoopkanaal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-     Als het bericht aangeeft dat de update is gepland, gebruikt u de [wachtrij:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] gebruiken om de update onmiddellijk te verwerken.
+     Als het bericht aangeeft dat de update is gepland, gebruikt u de [`queue:consumers:start`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] gebruiken om de update onmiddellijk te verwerken.
 
      ```bash
      $ bin/magento queue:consumers:start product_action_attribute.update
