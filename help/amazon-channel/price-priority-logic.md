@@ -6,7 +6,7 @@ exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -14,50 +14,50 @@ ht-degree: 4%
 
 Hoe bepaalt het systeem in het volgende voorbeeld of u $31,99, $24,99 of $27,99 moet publiceren?
 
-![Omvang van de handelsprijs](assets/amazon-price-scope.png){width="400"}
+![ Commerce prijswerkingsgebied ](assets/amazon-price-scope.png){width="400"}
 
-Om te bepalen welke prijs wordt gebruikt als een product op twee websites staat en een variabele prijs per website heeft, gebruikt u de logica voor prijsprioriteit (bepaald door de [Sorteervolgorde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde).
+Om te bepalen welke prijs wordt gebruikt als een product op twee websites is en een variërende prijs per website heeft, de logica van de gebruiksprioriteit van de gebruiksprijs (die door de [ waarde van de Orde van de Sortering ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) wordt bepaald).
 
-Ga naar **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** in de _Beheerder_ zijbalk. In de _[!UICONTROL Web Site]_klikt u op de naam van de website. De_[!UICONTROL Web Site Information]_ pagina toont de _[!UICONTROL Sort Order]_Hiermee stelt u de website in, die de prioriteit van de website bepaalt. Een waarde van `1` geeft de hoogste prioriteit aan.
+Om de de soortorde van uw opslag te bekijken, ga **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** in _Admin_ sidebar. Klik in de kolom _[!UICONTROL Web Site]_op de naam van de website. Op de pagina_[!UICONTROL Web Site Information]_ ziet u de instelling _[!UICONTROL Sort Order]_voor de website, die de prioriteit van de website bepaalt. De waarde `1` geeft de hoogste prioriteit aan.
 
-Als de productprijs is ingesteld op `Use Default`, wordt de standaardprijs in plaats van de prijs van de website teruggebracht.
+Als de productprijs is ingesteld op `Use Default` , wordt de standaardwaarde voor de prijs in plaats van de prijs van de website gebruikt.
 
 ## Voorbeeld 1
 
 |         | Prioriteit website | Prijs (website) | Standaardinstellingen gebruiken |
 |---------|------------------|-----------------|-------------|
-| Standaard | 0 | $31.99 | — |
-| Winkel 1 | 1 | $24.99 | Nee |
-| Winkel 2 | 2 | $27.99 | Ja |
+| Standaard | 0 | $ 31,99 | — |
+| Winkel 1 | 1 | $ 24,99 | Nee |
+| Winkel 2 | 2 | $ 27,99 | Ja |
 
-- De **[!UICONTROL Magento Price Source]** (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) is ingesteld op `Price` kenmerk.
-- Kijk naar de website met de hoogste prioriteit voor de website, Store 1 (gedefinieerd door de [Sorteervolgorde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde).
+- **[!UICONTROL Magento Price Source]** (die in uw [ wordt bepaald die Prijs van de Lijst ](./listing-price.md) wordt geplaatst aan het `Price` attribuut.
+- Kijk naar de website met de hoogste website prioriteit, die Opslag 1 is (die door de [ wordt bepaald van de Orde van de Soort ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde).
 - Aangezien Store 1 is ingesteld op het gebruik van de websiteprijs (Standaardinstelling gebruiken = Nee), is de gepubliceerde prijs $24,99.
 
 ## Voorbeeld 2
 
 |         | Prioriteit website | Prijs website | Standaardinstellingen gebruiken |
 |---------|------------------|---------------|-------------|
-| Standaard | 0 | $31.99 | -- |
-| Winkel 1 | 1 | $24.99 | Ja |
-| Winkel 2 | 2 | $27.99 | Nee |
+| Standaard | 0 | $ 31,99 | — |
+| Winkel 1 | 1 | $ 24,99 | Ja |
+| Winkel 2 | 2 | $ 27,99 | Nee |
 
-- De **[!UICONTROL Magento Price Source]** (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) is ingesteld op `Price` kenmerk.
-- Kijk naar de website met de hoogste prioriteit voor de website, Store 1 (gedefinieerd door de [sorteervolgorde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde).
-- Sinds winkel 1 **is niet** ingesteld op het gebruik van de websiteprijs (Standaard gebruiken = Ja), bekijkt u de volgende website in de sorteervolgorde.
-- Sinds winkel 2 **is** De gepubliceerde prijs is $27,99 en is ingesteld op gebruik van de websiteprijs (Standaard gebruiken = Nee).
+- **[!UICONTROL Magento Price Source]** (die in uw [ wordt bepaald die Prijs van de Lijst ](./listing-price.md) wordt geplaatst aan het `Price` attribuut.
+- Bekijk de website met de hoogste website prioriteit, die Winkel 1 is (die door de [ wordt bepaald orde ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde).
+- Aangezien Opslag 1 **niet** wordt geplaatst om de websiteprijs te gebruiken (Gebrek van het Gebruik = ja), kijk de volgende website in de soortorde.
+- Aangezien Opslag 2 **** wordt geplaatst om de websiteprijs te gebruiken (Gebrek van het Gebruik = Nr), is de gepubliceerde prijs $27.99.
 
 ## Voorbeeld 3
 
 |         | Prioriteit website | Prijs website | Standaardinstellingen gebruiken |
 |---------|------------------|---------------|-------------|
-| Standaard | 0 | $31.99 | $30.00 |
-| Winkel 1 | 1 | $24.99 | -- |
-| Winkel 2 | 2 | $27.99 | $20.00 |
+| Standaard | 0 | $ 31,99 | $ 30,00 |
+| Winkel 1 | 1 | $ 24,99 | — |
+| Winkel 2 | 2 | $ 27,99 | $ 20,00 |
 
-In dit voorbeeld wordt de niet-prijswaarde toegevoegd. Deze waarde wordt gebruikt wanneer u een andere waarde voor de _ selecteert[!UICONTROL Magento Price Source_] (gedefinieerd in uw [Aanbiedingsprijs](./listing-price.md) instellingen). De niet-prijswaarde gebruikt altijd de prijs als terugvalprijs.
+Dit voorbeeld voegt de niet-prijswaarde toe, die wordt gebruikt als u een andere waarde voor _ [!UICONTROL Magento Price Source_] selecteert (die in uw [ wordt bepaald van de Prijs van de Lijst ](./listing-price.md) montages). De niet-prijswaarde gebruikt altijd de prijs als terugvalprijs.
 
-- De **[!UICONTROL Magento Price Source]** (gedefinieerd in [[!UICONTROL Listing Price]](./listing-price.md) (instellingen) is ingesteld op `Non-Price`.
-- Kijk naar de website met de hoogste prioriteit voor de website, namelijk `Store 1`(gedefinieerd door de [Sorteervolgorde](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde).
-- Sinds winkel 1 **is niet** ingesteld op `Non-Price` -kenmerk, bekijkt u de volgende website in de sorteervolgorde.
-- Sinds winkel 2 **is** ingesteld op `Non-Price` attribute (Non-Price) [Website] = $ 20,00) is de gepubliceerde prijs $ 20,00.
+- **[!UICONTROL Magento Price Source]** (gedefinieerd in [[!UICONTROL Listing Price]](./listing-price.md) settings) wordt ingesteld op `Non-Price` .
+- Bekijk de website met de hoogste website prioriteit, die `Store 1` (die door de [ wordt bepaald van de Sorteervolgorde ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) waarde) is.
+- Aangezien Opslag 1 **niet** wordt geplaatst om het `Non-Price` attribuut te gebruiken, kijk de volgende website in de soortorde.
+- Aangezien Opslag 2 **** wordt geplaatst om het `Non-Price` attribuut (niet-Prijs [ Website ] = $20.00) te gebruiken, is de gepubliceerde prijs $20.00.

@@ -1,6 +1,6 @@
 ---
 title: Overzicht van instellingen
-description: '''Meer informatie over de [!DNL Channel Manager settings] om authentificatie te vormen en de attributen van de productcatalogus en verzendende dragers in kaart te brengen die worden vereist om verkoopverrichtingen tussen te coördineren [!DNL Commerce] en de [!DNL Walmart Marketplace]."'
+description: "Leer over  [!DNL Channel Manager settings]  om authentificatie te vormen en de attributen van de productcatalogus en verzendende dragers in kaart te brengen die worden vereist om verkoopverrichtingen tussen  [!DNL Commerce]  en  [!DNL Walmart Marketplace] te coördineren."
 role: Admin
 feature: Sales Channels, Configuration, Merchandising, Shipping/Delivery
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Overzicht van instellingen
 
-De montages van het verkoopkanaal laten communicatie en gegevenssynchronisatie tussen toe [!DNL Commerce] en [!DNL Walmart Marketplace] zodat u kunt beheren [!DNL Walmart Marketplace] verkooptransacties van de [!DNL Commerce] Admin.
+Met de instellingen voor verkoopkanalen kunt u communicatie en gegevenssynchronisatie tussen [!DNL Commerce] en [!DNL Walmart Marketplace] inschakelen, zodat u verkoopbewerkingen van [!DNL Walmart Marketplace] kunt beheren via [!DNL Commerce] Admin.
 
-In [!DNL Channel Manager], vormt u sommige verkoopkanaalmontages tijdens het aan boord gaan proces. Na het instappen, kunt u de configuratie bekijken en beheren door te selecteren **[!UICONTROL Channel Settings]** van de [!UICONTROL Listings] en [!UICONTROL Orders] dashboards.
+In [!DNL Channel Manager], vormt u sommige verkoopkanaalmontages tijdens het aan boord nemen proces. Na het instappen, kunt u de configuratie bekijken en beheren door **[!UICONTROL Channel Settings]** van de [!UICONTROL Listings] en [!UICONTROL Orders] dashboards te selecteren.
 
-* **[Walmart-verbinding](manage-wmt-connection.md)**-Tijdens de [!DNL Channel Manager] onboarding-proces [API-referenties](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) van uw [!DNL Walmart Marketplace] Verkopersaccount om verbinding te maken [!DNL Commerce] tot [!DNL Walmart Marketplace] voor communicatie en gegevenssynchronisatie. Indien nodig kunt u deze gegevens bijwerken via het dialoogvenster *Kanaalinstellingen* pagina.
+* ](manage-wmt-connection.md)**- tijdens het [!DNL Channel Manager] onboarding proces, verstrekt u [ API geloofsbrieven ](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) van uw [!DNL Walmart Marketplace] rekening van de Verkoper om [!DNL Commerce] met [!DNL Walmart Marketplace] voor mededeling en gegevenssynchronisatie te verbinden.**[ Indien nodig, kunt u deze geloofsbrieven van de *pagina van de Montages van het Kanaal* bijwerken.
 
-* **[Unieke id&#39;s toewijzen](map-catalog-attributes.md)**-Voordat je aanbiedingen verbindt van [!DNL Commerce] tot [!DNL Walmart Marketplace], minimaal één unieke id van uw [!DNL Commerce] catalogus aan het overeenkomstige herkenningsteken van Walmart. Deze stap is vereist om overeen te komen [!DNL Commerce] producten naar bestaande [!DNL Walmart] aanbiedingen en productgegevens synchroniseren tussen [!DNL Commerce] en [!DNL Walmart].
+* **[Unieke herkenningstekens van de Kaart](map-catalog-attributes.md)** - alvorens u lijsten van [!DNL Commerce] met [!DNL Walmart Marketplace] verbindt, kaart minstens één uniek herkenningsteken van uw [!DNL Commerce] catalogus aan het overeenkomstige herkenningsteken van Walmart. Deze stap is vereist om [!DNL Commerce] -producten af te stemmen op bestaande [!DNL Walmart] -aanbiedingen en om de productgegevens te synchroniseren tussen [!DNL Commerce] en [!DNL Walmart] .
 
-* **[Verzenddragers toewijzen](map-shipping-carriers.md)**-Voordat u gaat verwerken [!DNL Walmart Marketplace] bestellingen van [!DNL Commerce], zorg ervoor dat je verzendingsdragers toewijst aan je [!DNL Commerce] instantie aan de betrokken luchtvaartmaatschappijen [!DNL Walmart Marketplace].
+* **[Kaart Verschepende Dragers](map-shipping-carriers.md)** - alvorens u [!DNL Walmart Marketplace] orden van [!DNL Commerce] verwerkt, zorg ervoor dat u verzendingsdragers van uw [!DNL Commerce] instantie aan de overeenkomstige dragers op [!DNL Walmart Marketplace] in kaart brengt.

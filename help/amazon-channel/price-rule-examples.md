@@ -5,8 +5,8 @@ feature: Sales Channels, Price Rules
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 2%
+source-wordcount: '1026'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 ### Verdere regels negeren
 
-De capaciteit om verdere regels te verwerpen is een grote eigenschap binnen het tarief regels die veelvoudige het tarief regels verhinderen te stapelen en onbedoelde extra kortingen te verstrekken. Om verdere regels te verwerpen, moet een prijsregel de prioriteiten gebruiken die in worden geplaatst _[!UICONTROL Priority]_deel van [Algemene instellingen prijsregel](./pricing-rule-general-settings.md).
+De capaciteit om verdere regels te verwerpen is een grote eigenschap binnen het tarief regels die veelvoudige het tarief regels verhinderen te stapelen en onbedoelde extra kortingen te verstrekken. Om verdere regels te verwerpen, moet een het tarief regel de prioriteiten gebruiken die in de _[!UICONTROL Priority]_sectie van [ het Prijsen Algemene Montages van de Regel ](./pricing-rule-general-settings.md) worden geplaatst.
 
-Indien **[!UICONTROL Discard Subsequent Rules]** is ingesteld op `Yes`, zijn de regels met lagere prioriteit (hogere aantallen) niet van toepassing op de in aanmerking komende producten.
+Als **[!UICONTROL Discard Subsequent Rules]** is ingesteld op `Yes` , zijn de regels met een lagere prioriteit (hogere waarden) niet van toepassing op de in aanmerking komende producten.
 
 Stel dat er drie prijsregels zijn:
 
@@ -28,7 +28,7 @@ Stel dat er drie prijsregels zijn:
 | 2 | $2 aan uitverkoop producten | 2 | Ja |
 | 3 | 5% van alle producten | 3 | Nee |
 
-In dit scenario zijn de regels 1 en 2 van toepassing op de in aanmerking komende producten. Regel 3 is alleen van toepassing op in aanmerking komende producten die niet onder regel 2 vallen omdat deze een lagere prioriteit heeft dan voorbeeld 2 en **[!UICONTROL Discard Subsequent Rules]** is ingesteld op `Yes`. De in aanmerking komende producten in de verkoopcategorie krijgen dus een korting van 10% en $2 van de Amazon-aanbiedingsprijs.
+In dit scenario zijn de regels 1 en 2 van toepassing op de in aanmerking komende producten. Regel 3 is alleen van toepassing op in aanmerking komende producten die niet onder regel 2 vallen, omdat deze een lagere prioriteit heeft dan voorbeeld 2 en **[!UICONTROL Discard Subsequent Rules]** is ingesteld op `Yes` . De in aanmerking komende producten in de verkoopcategorie krijgen dus een korting van 10% en $2 van de Amazon-aanbiedingsprijs.
 
 ### Twee standaardprijsregels toepassen
 
@@ -63,7 +63,7 @@ De uiteindelijke prijs na regel 1 en regel 2 wordt toegepast: $ 32,98
 
 ## Voorbeelden van intelligente prijsregelaars
 
-### Buy Box prijs met variabele prijs Bron = Prijs
+### Buy Box prijs met prijs op de vloer Source = Prijs
 
 | Veld | Instelling |
 |--------------------------------------|----------------------------|
@@ -79,9 +79,9 @@ De uiteindelijke prijs na regel 1 en regel 2 wordt toegepast: $ 32,98
 
 Prijs: $15
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $10
+[ Buy Box ](./buy-box-competitor-pricing.md) prijs van Amazon: $10
 
-Omdat de [Buy Box](./buy-box-competitor-pricing.md) de prijs is lager dan de oorspronkelijke prijs, het product wordt tegen de oorspronkelijke prijs vermeld.
+Omdat de [ Buy Box ](./buy-box-competitor-pricing.md) prijs minder dan de originele prijs is, is het product vermeld aan de originele prijs.
 
 De uiteindelijke prijs na toepassing van de regel: $15
 
@@ -89,13 +89,13 @@ De uiteindelijke prijs na toepassing van de regel: $15
 
 Prijs: $5
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $10
+[ Buy Box ](./buy-box-competitor-pricing.md) prijs van Amazon: $10
 
-Omdat de [Buy Box](./buy-box-competitor-pricing.md) de prijs is hoger dan de oorspronkelijke prijs; het product wordt aangeboden tegen de prijs [Buy Box](./buy-box-competitor-pricing.md) prijs.
+Omdat de [ Buy Box ](./buy-box-competitor-pricing.md) prijs groter is dan de originele prijs, is het product vermeld bij de [ Buy Box ](./buy-box-competitor-pricing.md) prijs.
 
 De uiteindelijke prijs na toepassing van de regel: $10
 
-### Buy Box prijs met variabele prijs Bron = Prijs en een prijsdaling van 20%
+### Buy Box prijs met prijs op de vloer Source = Prijs en een prijsdaling van 20%
 
 | Veld | Instelling |
 |--------------------------------------|----------------------------|
@@ -115,9 +115,9 @@ Prijs: $20
 
 Berekende bodemprijs: $16
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $15
+[ Buy Box ](./buy-box-competitor-pricing.md) prijs van Amazon: $15
 
-Omdat de [Buy Box](./buy-box-competitor-pricing.md) prijs is lager dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld bij Berekend [Floor Price](./floor-price.md).
+Omdat de [ Buy Box ](./buy-box-competitor-pricing.md) prijs minder dan de Berekende [ Vloerprijs ](./floor-price.md) is, is het product vermeld bij de Berekende [ Vloerprijs ](./floor-price.md).
 
 De uiteindelijke prijs na toepassing van de regel: $16
 
@@ -125,11 +125,11 @@ De uiteindelijke prijs na toepassing van de regel: $16
 
 Prijs: $15
 
-Berekend [Floor Price](./floor-price.md): $12
+Berekende [ Floor Price ](./floor-price.md): $12
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $15
+[ Buy Box ](./buy-box-competitor-pricing.md) prijs van Amazon: $15
 
-Omdat de [Buy Box](./buy-box-competitor-pricing.md) prijs is hoger dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld op de [Buy Box](./buy-box-competitor-pricing.md) prijs.
+Omdat de [ Buy Box ](./buy-box-competitor-pricing.md) prijs groter is dan de Berekende [ Vloerprijs ](./floor-price.md), is het product vermeld bij de [ Buy Box ](./buy-box-competitor-pricing.md) prijs.
 
 De uiteindelijke prijs na toepassing van de regel: $15
 
@@ -139,9 +139,9 @@ Prijs: $17
 
 Berekende bodemprijs: $13,60
 
-[Buy Box](./buy-box-competitor-pricing.md) prijs uit Amazon: $15
+[ Buy Box ](./buy-box-competitor-pricing.md) prijs van Amazon: $15
 
-Omdat de [Buy Box](./buy-box-competitor-pricing.md) prijs is hoger dan Berekend [Floor Price](./floor-price.md), wordt het product vermeld op de [Buy Box](./buy-box-competitor-pricing.md) prijs.
+Omdat de [ Buy Box ](./buy-box-competitor-pricing.md) prijs groter is dan de Berekende [ Vloerprijs ](./floor-price.md), is het product vermeld bij de [ Buy Box ](./buy-box-competitor-pricing.md) prijs.
 
 De uiteindelijke prijs na toepassing van de regel: $15
 
@@ -161,10 +161,10 @@ De uiteindelijke prijs na toepassing van de regel: $15
 
 | Prijs | Voorwaarde |
 |-------|-----------------|
-| $17 | Nieuw |
-| $15 | Nieuw |
-| $14 | Gebruikt; Zeer goed |
-| $13 | Gebruikt; Goed |
+| $ 17 | Nieuw |
+| $ 15 | Nieuw |
+| $ 14 | Gebruikt; Zeer goed |
+| $ 13 | Gebruikt; Goed |
 
 #### Product 1
 
@@ -182,7 +182,7 @@ Prijs: $10
 
 Voorwaarde: gebruikt; acceptabel
 
-Omdat de [laagste prijs van de concurrent](./lowest-competitor-pricing.md) Voor de Gebruikte voorwaarde is $13, is het product vermeld bij $13.
+Omdat de [ laagste concurrerende prijs ](./lowest-competitor-pricing.md) voor de Gebruikte voorwaarde $13 is, is het product vermeld bij $13.
 
 De uiteindelijke prijs na toepassing van de regel: $13
 
@@ -191,12 +191,12 @@ De uiteindelijke prijs na toepassing van de regel: $13
 | Veld | Instelling |
 |-----------------------------------|---------------|
 | [!UICONTROL VAT] | 10% |
-| [!UICONTROL Ceiling price source] | $10 |
+| [!UICONTROL Ceiling price source] | $ 10 |
 | [!UICONTROL Currency conversion] | 1,25 EUR:1 USD |
 
-[Maximumprijs](./optional-ceiling-price.md) op de Europese (BTW)markt: $ 10 x 1,25 = $ 12,50
+[ Plafondprijs ](./optional-ceiling-price.md) in de Europese (BTW) markt: $10 x 1.25 = $12.50
 
-Wanneer de [maximumprijs](./optional-ceiling-price.md) op de Europese (BTW)markt is de BTW-heffing berekend en opgeteld.
+Wanneer de [ maximumprijs ](./optional-ceiling-price.md) op de Europese (BTW) markt wordt geraakt, wordt de BTW berekend en toegevoegd.
 
 Uiteindelijke prijs na BTW: $12,50 x (1,1) = $13,75
 
@@ -208,10 +208,10 @@ Uiteindelijke prijs na BTW: $12,50 x (1,1) = $13,75
 |----------------------|---------------|
 | Prioriteit | 1 |
 | BTW | 10% |
-| Maximumprijsbron | $10 |
+| Maximumprijsbron | $ 10 |
 | Omrekening in valuta | 1,25 EUR:1 USD |
 
-[Maximumprijs](./optional-ceiling-price.md) op de Europese (BTW)markt: $ 10 x 1,25 = $ 12,50
+[ Plafondprijs ](./optional-ceiling-price.md) in de Europese (BTW) markt: $10 x 1.25 = $12.50
 
 Uiteindelijke prijs na BTW: $12,50 x (1,1) = $13,75
 
@@ -222,27 +222,27 @@ Uiteindelijke prijs na BTW: $12,50 x (1,1) = $13,75
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Vergroten met |
 | [!UICONTROL Apply] | Toepassen als vast bedrag |
-| [!UICONTROL Adjustment Amount] | $5.00 |
+| [!UICONTROL Adjustment Amount] | $ 5,00 |
 
-Wanneer de [maximumprijs](./optional-ceiling-price.md) wordt geraakt, wordt de standaardprijsregel toegepast bovenop de intelligente prijsregel.
+Wanneer de [ plafondprijs ](./optional-ceiling-price.md) wordt geraakt, wordt de standaardprijsregel toegepast bovenop de intelligente prijsstellingsregel.
 
 Uiteindelijke prijs na toepassing van de standaardprijsregel: $13,75 + $5,00 = $18,75
 
 ### Prijsaanpassing
 
-In dit voorbeeld wordt de meest concurrerende prijs gedefinieerd door naar de Amazon te kijken [laagste prijs van concurrent](./lowest-competitor-pricing.md) met een positieve feedback van 95% en een minimale feedbackscore van 1.000 beoordelingen door bedrijven.
+In dit voorbeeld, wordt de meest concurrerende prijs bepaald door de laagste prijs van de Amazon [ concurrent ](./lowest-competitor-pricing.md) met een 95% positieve terugkoppel en een minimum terugkoppelt telling van 1.000 koopvaardijoverzichten te bekijken.
 
-![Voorbeeld van prijsaanpassing](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
+![ de aanpassingsvoorbeeld van de Prijs ](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 Nadat deze zoekopdracht op basis van deze parameters is uitgevoerd, komt de concurrerende prijs terug op $25.
 
-Van hier zijn er drie verschillende [prijsregel](./pricing-rule-actions.md) op basis van deze laagste prijs.
+Van hier, zijn er drie verschillende ](./pricing-rule-actions.md) keuzen van de prijsregel 0} die op deze laagste prijs worden gebaseerd.[
 
 | Veld | Beschrijving |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Price Action] | Opties:<ul><li>**[!UICONTROL Decrease By]** - Met deze optie verlaagt u de prijs van je aanbieding ten opzichte van de [laagste prijs van de concurrent](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Met deze optie verhoogt u de prijs van je aanbieding in verhouding tot de [laagste prijs van de concurrent](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Met deze optie wordt de prijs van je Amazon-aanbieding aangepast aan de laagste prijs op basis van de parameters. In het voorbeeld is de Amazon-prijs $25.</li></ul> |
+| [!UICONTROL Price Action] | Opties:<ul><li>**[!UICONTROL Decrease By]** - deze optie vermindert uw lijstprijs met betrekking tot de [ laagste concurrerende prijs ](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - deze optie verhoogt uw lijstprijs met betrekking tot de [ laagste concurrerende prijs ](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Met deze optie wordt de prijs van je Amazon-aanbieding aangepast aan de laagste prijs op basis van de parameters. In het voorbeeld is de Amazon-prijs $25.</li></ul> |
 | [!UICONTROL Apply] | Opties: Toepassen als percentage / Toepassen als vaste hoeveelheid |
-| [!UICONTROL Adjustment Amount] | Numerieke waarde om het percentage of vaste bedrag voor de toe te passen korting te bepalen. <br>Deze selecties resulteren in het nemen van de laagste prijs en het plaatsen van het op $0.01 minder. |
+| [!UICONTROL Adjustment Amount] | Numerieke waarde om het percentage of vaste bedrag voor de toe te passen korting te bepalen. <br> deze selecties resulteren in het nemen van de laagste prijs en het plaatsen van het bij $0.01 minder. |
 
 ### Floor Price
 
@@ -253,6 +253,6 @@ Van hier zijn er drie verschillende [prijsregel](./pricing-rule-actions.md) op b
 | [!UICONTROL Apply] | Toepassen als percentage |
 | [!UICONTROL Floor Adjustment Amount] | 5 |
 
-[Floor Price](./floor-price.md) berekening = bron van de laagste prijs `$5` Aanpassingsbedrag x floor `5%` = $ 5,25
+[ Floor Price ](./floor-price.md) berekening = Floor Price Source `$5` x Floor Adjustment Amount `5%` = $5.25
 
 Wanneer de intelligente prijsregel wordt toegepast, staat het de aanbiedingsprijs toe om lager te zijn dan $5.25 voor dit specifieke product wanneer de kosten $5 zijn.

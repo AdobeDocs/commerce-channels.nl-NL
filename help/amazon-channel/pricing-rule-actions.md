@@ -16,20 +16,20 @@ Met Prijsregelacties worden de aanpassingsberekeningen gedefinieerd die op de pr
 
 ## Standaardprijsregel
 
-A [standaardprijsregel](./standard-price-rules.md) biedt je de mogelijkheid om een Amazon-prijs te verhogen of te verlagen met een bepaald percentage of een bepaald bedrag in dollar ten opzichte van [!DNL Commerce] catalogusprijs (of prijsbron).
+A [ standaardprijsregel ](./standard-price-rules.md) staat u toe om een Amazon aanbiedingsprijs met een specifiek percentage of een vast dollarbedrag met betrekking tot de [!DNL Commerce] catalogusprijs (of prijsbron) te verhogen of te verminderen.
 
 | Sectie | Beschrijving |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Regeltype instellen op `Standard price rule`. |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Stel het regeltype in op `Standard price rule` . |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | Bepaal de aanpassingsberekeningen die op de prijsbron worden toegepast om de aanbiedingsprijs te bepalen |
 
 ## Intelligente prijsregel
 
-An [intelligente prijzingsregel](./intelligent-repricing-rules.md) bepaalt de prijs van je aanbieding door Amazon-concurrenten. Concurrenten zijn andere verkopers die dezelfde producten aanbieden die je op Amazon aanbiedt.
+Een [ intelligente het verprijsen regel ](./intelligent-repricing-rules.md) gebruikt de concurrenten van Amazon&#39; tarifering om uw aanbiedingsprijs te bepalen. Concurrenten zijn andere verkopers die dezelfde producten aanbieden die je op Amazon aanbiedt.
 
 | Sectie | Beschrijving |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Regeltype instellen op `Intelligent repricing rule` samen met de vereisten voor de prijsbron en feedback voor uw concurrent. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Stel het regeltype in op `Intelligent repricing rule` , samen met de vereisten Source voor de prijs van concurrenten en Feedback. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definieer variaties voor de voorwaarden van hetzelfde product dat door concurrenten wordt verkocht. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Bepaal de aanpassingsberekeningen die op de prijsbron worden toegepast om de aanbiedingsprijs te bepalen |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Geef de laagste prijs voor een product op om te voorkomen dat meerdere prijsregels een aanbiedingsprijs te laag maken. |

@@ -1,6 +1,6 @@
 ---
 title: Walmart Marketplace-verbinding beheren
-description: '''Werk de API-referenties bij om de verbinding tussen een [DNL!] te autoriseren Winkelweergave van de handel] en de [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] productaanbiedingen en synchroniseer voorraad-, prijs-, bestelling- en verzendgegevens tussen [!DNL Commerce] en de Walmart."'
+description: 'Werk de API-referenties bij om de verbinding tussen een [DNL!] te autoriseren Commerce] opslagmening en de  [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce]  productlijsten en synchroniseer inventaris, prijs, orde, en het verschepen gegevens tussen  [!DNL Commerce]  en de Maroom van het Las.'
 role: Admin, Developer
 feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Verzenddragers toewijzen
 
-Voor u [procesorderverzending](process-orders.md#ship-an-order) for [!DNL Walmart Marketplace] bestellingen, de voorkeur van Walmart aan vervoerders aan de overeenkomstige vervoerder in kaart brengen [!DNL Commerce] zodat de verzendgegevens gesynchroniseerd kunnen worden tussen [!DNL Walmart] en [!DNL Commerce].
+Alvorens u [ de ladingen van de procesorde ](process-orders.md#ship-an-order) voor [!DNL Walmart Marketplace] orden, kaarteer de voorkeur van Walmart het verschepen dragers aan de overeenkomstige drager in [!DNL Commerce] zodat de het verschepen gegevens tussen [!DNL Walmart] en [!DNL Commerce] kunnen worden gesynchroniseerd.
 
-Handelsmaatschappijen die niet aan een voorkeursvervoerder zijn toegewezen, worden aangeduid als *[!UICONTROL Other Carrier]* op [!DNL Walmart].
+Commerce-carriers die niet aan een voorkeurscarrier zijn toegewezen, krijgen het label *[!UICONTROL Other Carrier]* on [!DNL Walmart] .
 
-**Vereisten**
+**Eerste vereisten**
 
-Controleren [Walmart-vereisten](walmart-requirements.md) voor de [!DNL Marketplace Seller account].
+De Vereisten van het overzicht [ Walmart ](walmart-requirements.md) voor [!DNL Marketplace Seller account].
 
 ## Verbindingsgegevens bijwerken
 
-1. Op de [!UICONTROL Listings] pagina voor de winkel van verkoopkanalen, selecteert u **[!UICONTROL Channel Settings]**.
+1. Selecteer **[!UICONTROL Channel Settings]** op de pagina [!UICONTROL Listings] voor de winkel met verkoopkanalen.
 
-1. Aan **[!UICONTROL Channel Settings]**, selecteert u **[!UICONTROL Walmart Connection]**.
+1. Selecteer **[!UICONTROL Walmart Connection]** bij **[!UICONTROL Channel Settings]** .
 
-1. Als u de referenties wilt wijzigen, selecteert u **[!UICONTROL Change Credentials]**
+1. Selecteer **[!UICONTROL Change Credentials]** als u de referenties wilt wijzigen
 
-   ![Walmart API-referenties bijwerken om verbinding te verifiëren](assets/update-connection-credentials.png){width="700" zoomable="yes"}
+   ![ Update de Marm API geloofsbrieven om verbinding ](assets/update-connection-credentials.png){width="700" zoomable="yes"} toe te staan
 
-1. Voer de **[!UICONTROL Walmart Client ID]** en **[!UICONTROL Walmart Client Secret]**.
+1. Voer de **[!UICONTROL Walmart Client ID]** en **[!UICONTROL Walmart Client Secret]** in.
 
-1. Selecteren **[!UICONTROL Save]** de configuratie toepassen.
+1. Selecteer **[!UICONTROL Save]** om de configuratie toe te passen.

@@ -5,7 +5,7 @@ feature: Sales Channels, Logs
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ De Amazon-extensie voor verkoopkanalen bevat enkele waardevolle logboeken en win
 
 Er zijn geen acties beschikbaar voor de logboeken of opslagrapporten, omdat het alleen-revisiefuncties zijn.
 
-De volgende logbestanden zijn toegankelijk via de [opslagdashboard](./amazon-store-dashboard.md).
+De volgende logboeken kunnen van het [ opslagdashboard ](./amazon-store-dashboard.md) worden betreden.
 
-- De [Logbestand met wijzigingen in aanbieding](./listing-changes-log.md) geeft de wijzigingen weer die zijn opgetreden in je Amazon-verkopersaccount als weergave van je Amazon-verkoopkanaalinstellingen.
+- Het [ Lijst van Veranderingen Logboek ](./listing-changes-log.md) toont de veranderingen die in uw Verkopersrekening van Amazon als weerspiegeling van uw montages van het Amazon verkoopkanaal zijn voorgekomen.
 
-- De [Logboek met communicatiefouten](./communication-errors-log.md) geeft eventuele gemelde communicatiefouten met Amazon weer.
+- Het [ Logboek van de Fouten van de Communicatie ](./communication-errors-log.md) toont om het even welke gemelde communicatiefouten met Amazon.
 
-De volgende store-specific rapporten kunnen van worden betreden [opslagdashboard](./amazon-store-dashboard.md).
+De volgende opslag-specifieke rapporten kunnen van het [ opslagdashboard ](./amazon-store-dashboard.md) worden betreden.
 
-- De [Concurrentieprijsanalyse](./competitive-price-analysis.md) toont aan dat je Amazon _aangelande prijs_ (aanbiedingsprijs plus verzendprijs) in verhouding tot de [Buy Box](./buy-box-competitor-pricing.md) prijs en [laagste concurrent](./lowest-competitor-pricing.md) prijs.
+- Het ](./competitive-price-analysis.md) rapport van de Analyse van de Prijs de Concurrentievermogen [ {toont aan dat uw Amazon _prijs_ (het aanbieden prijs plus het verschepen prijs) met betrekking tot [ Buy Box ](./buy-box-competitor-pricing.md) prijs en [ laagste concurrent ](./lowest-competitor-pricing.md) prijs landde.
 
-- De [Aanbiedingsverbeteringen](./listing-improvements.md) In dit rapport worden alle voorstellen weergegeven die Amazon voor de geselecteerde winkel heeft gedaan.
+- Het [ Van de Lijst verbetert ](./listing-improvements.md) rapport toont alle voorgestelde die lijstverbeteringen door Amazon voor de geselecteerde opslag worden verstrekt.
 
 >[!TIP]
 >
->U kunt het logboekdossier voor extra informatie ook controleren wanneer het oplossen van problemen nodig is. Zie [Beheerinstellingen verkoopkanaal](./sales-channel-settings.md). Amazon-logboekregistratie van verkoopkanalen wordt geschreven naar `{Commerce Root}/var/log/channel_amazon.log` en kan worden weergegeven in [ontwikkelmodus](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).
+>U kunt het logboekdossier voor extra informatie ook controleren wanneer het oplossen van problemen nodig is. Zie [ montages van Admin van het verkoopkanaal ](./sales-channel-settings.md). Het registreren van de synchronisatie van het verkoopkanaal van Amazon wordt geschreven aan het `{Commerce Root}/var/log/channel_amazon.log` dossier en kan op [ ontwikkelaarwijze ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes) worden bekeken.

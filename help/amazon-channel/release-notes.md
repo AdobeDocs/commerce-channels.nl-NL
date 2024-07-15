@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Amazon Sales Channel] opmerkingen vrijgeven'
-description: Lees de opmerkingen bij de release voor meer informatie over alle [!DNL Amazon Sales Channel] lozingen.
+title: '[!DNL Amazon Sales Channel] opmerkingen bij de release'
+description: Herzie de versienota's voor informatie over alle  [!DNL Amazon Sales Channel]  versies.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
 source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2010'
 ht-degree: 0%
 
 ---
@@ -14,253 +14,253 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> [!DNL Amazon sales channel] kan op instanties met Magento Open Source, Adobe Commerce, en Adobe Commerce op de versies van de wolkeninfrastructuur 2.3.x en 2.4.x worden geïnstalleerd. De extensie wordt niet meer ondersteund op Adobe Commerce 2.1, Magento Open Source 2.2 of Magento 1.
-> <br>Ondersteuning is beschikbaar voor [!DNL Amazon sales channel]  Alleen versies 4.0.0 en 4.1.0 op Adobe Commerce 2.3.x.
+> [!DNL Amazon sales channel] kan op instanties met Magento Open Source, Adobe Commerce en Adobe Commerce worden geïnstalleerd op versie 2.3.x en 2.4.x van de wolkeninfrastructuur. De extensie wordt niet meer ondersteund op Adobe Commerce 2.1, Magento Open Source 2.2 of Magento 1.
+> <br>Ondersteuning is alleen beschikbaar voor [!DNL Amazon sales channel] versies 4.0.0 en 4.1.0 in Adobe Commerce 2.3.x-versies.
 > <br>[!DNL Amazon sales channel] versie 4.2.0+ is compatibel met Adobe Commerce 2.3.x-versies, maar ondersteuning is alleen beschikbaar voor Adobe Commerce 2.4.x-versies.
 >
 
-In deze releaseopmerkingen wordt de eerste release van [!DNL Amazon sales channel] en omvatten:
+Deze releaseopmerkingen beschrijven de eerste versie van [!DNL Amazon sales channel] en bevatten:
 
-![Nieuw](../assets/new.svg) Nieuwe functies
-![Probleem opgelost](../assets/fix.svg) Oplossingen en verbeteringen
-![Bekend probleem](../assets/bug.svg) Bekende problemen
+![ Nieuwe ](../assets/new.svg) Nieuwe eigenschappen
+![ Vaste kwestie ](../assets/fix.svg) Oplossingen en verbeteringen
+![ Bekende kwestie ](../assets/bug.svg) Bekende kwesties
 
-Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versioning, ondersteuning en compatibiliteit.
+Zie [ Komende Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versioning, steun, en verenigbaarheid.
 
-Zie [Beschikbaarheid van producten](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) voor meer informatie over de Adobe Commerce-versies die deze extensie ondersteunen.
+Zie [ Beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om te leren welke versies van Adobe Commerce deze uitbreiding steunen.
 
 ## v4.5.0
 
-*30 augustus 2023*
+*Augustus 30, 2023*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Nieuw](../assets/new.svg) Toegevoegd de gateway Adobe.IO API, die van MAGI verandert, voor betere authentificatieveiligheid. `ServicesId` verstrekt een nieuwe UI om uw Adobe.IO geloofsbrieven te beheren, gelijkend op andere [Adobe Commerce Services](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
+![ Nieuw ](../assets/new.svg) voegde de gateway Adobe.IO API, die van MAGI verandert, voor betere authentificatieveiligheid toe. `ServicesId` verstrekt een nieuwe UI om uw geloofsbrieven te beheren Adobe.IO, gelijkend op andere [ de Diensten van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
 >[!NOTE]
 >
->Handelaren moeten ervoor zorgen dat de [persoonlijke en openbare API-sleutels](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) worden bijgewerkt voor productie.
+>De handelaren moeten ervoor zorgen dat de [ privé en openbare API sleutels ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) voor productie worden bijgewerkt.
 
 
-![Probleem opgelost](../assets/fix.svg) Identificeerde een configuratie plaatsende kwestie en bevorde de stroom van de ordeverwezenlijking.
+![ Vaste kwestie ](../assets/fix.svg) identificeerde een configuratie plaatsende kwestie en bevond de stroom van de ordeverwezenlijking.
 
 ## v4.4.4
 
-*7 maart 2023*
+*Maart 7, 2023*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Probleem opgelost](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.6 en PHP 8.2.
+![ Vaste kwestie ](../assets/fix.svg) Toegevoegde steun voor Adobe Commerce 2.4.6 en PHP 8.2.
 
-![Probleem opgelost](../assets/fix.svg) Minder ruis in logboeken.
+![ Vaste kwestie ](../assets/fix.svg) Verminderde lawaai in logboeken.
 
-![Probleem opgelost](../assets/fix.svg) Verbeterde stabiliteit bij het ophalen van updates.
+![ Vaste kwestie ](../assets/fix.svg) Verbeterde stabiliteit van het trekken van updates.
 
-![Probleem opgelost](../assets/fix.svg) Vereenvoudigde procedure voor het uitvoeren van single action-like trekkracht of voor het toepassen van van CLI.
+![ Vaste kwestie ](../assets/fix.svg) vereenvoudigde het proces voor het runnen van enige actie-als trekkracht of voor het toepassen van van CLI.
 
-![Probleem opgelost](../assets/fix.svg) Bijgewerkt gebiedsdeel voor `magento/services-connector`.
+![ Vaste kwestie ](../assets/fix.svg) zette het gebiedsdeel voor `magento/services-connector` bij.
 
-![Probleem opgelost](../assets/fix.svg) Correctie van problemen met synchronisatie in Britse accounts met ongeldige landcode.
+![ Vaste kwestie ](../assets/fix.svg) Vaste synchronisatiekwesties in de rekeningen van het VK met ongeldige landcode.
 
-![Probleem opgelost](../assets/fix.svg) Hardcoded entity_type_id voor productentiteit van de catalogus veroorzaakt kwesties met de Bron van de Prijs van het Magento.
+![ Vaste kwestie ](../assets/fix.svg) Hardcoded entity_type_id voor de entiteit van het catalogusproduct veroorzaakt kwesties met de Prijs van het Magento Source.
 
-![Probleem opgelost](../assets/fix.svg) Correctie een kwestie verhinderend rekeningen die op een achtergrond van een andere instantie worden geschrapt van UI eveneens.
+![ Vaste kwestie ](../assets/fix.svg) Correcteerde een kwestie die rekeningen verhinderde die op een achtergrond van een andere instantie ook van UI worden geschrapt.
 
-![Probleem opgelost](../assets/fix.svg) Probleem verholpen met bepaalde regels voor winkelwagentjes die het importeren van bestellingen verbreken.
+![ Vaste kwestie ](../assets/fix.svg) een kwestie met sommige kartregels die ordeinvoer breken.
 
 ## v4.4.3
 
-*7 maart 2023*
+*Maart 7, 2023*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Repareren](../assets/fix.svg) Extra ondersteuning voor Adobe Commerce 2.4.4.
+![ bevestig ](../assets/fix.svg) Toegevoegde steun voor Adobe Commerce 2.4.4.
 
 ## v4.4.2
 
 *11 november 2021*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Repareren](../assets/fix.svg) Bijgewerkte afhankelijkheden ter ondersteuning van andere bijgewerkte extensies.
-![Repareren](../assets/fix.svg) Toegevoegde ondersteuning voor PHP 8.1.
+![ bevestig ](../assets/fix.svg) Bijgewerkte gebiedsdelen om andere bijgewerkte uitbreidingen te steunen.
+![ bevestig ](../assets/fix.svg) Toegevoegde steun voor PHP 8.1.
 
 ## v4.4.1
 
 *11 november 2021*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Repareren](../assets/fix.svg) De manier waarop Adobe Commerce de _Gebruikersnaam_ veld uit Amazon. Er is eerder een fout opgetreden tijdens het maken van de bestelling toen de _Gebruikersnaam_ veld bevat speciale tekens. Adobe Commerce ontvangt nu de _Gebruikersnaam_ gegevens en filters uit de speciale karakters zodat kan de orde met succes worden gecreeerd.
+![ Repareren ](../assets/fix.svg) veranderde de manier Adobe Commerce het _3} gebied van de Naam van de Gebruiker van Amazon ontvangt._ Eerder, was er een fout tijdens ordeverwezenlijking wanneer het _gebied van de Naam van de Gebruiker_ speciale karakters bevatte. Adobe Commerce ontvangt nu de _gegevens en filters van de Naam van 0} Gebruiker uit de speciale karakters zodat kan de orde met succes worden gecreeerd._
 
 ## v4.4.0
 
-*9 april 2021*
+*9 April, 2021*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Nieuw](../assets/new.svg) Toegevoegde steun voor read-only Wijze aan de configuratie. Zie [verkoopkanaalinstellingen](sales-channel-settings.md).
+![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor read-only Wijze aan de configuratie. Zie [ montages van het verkoopkanaal ](sales-channel-settings.md).
 
-![Repareren](../assets/fix.svg) De gegevensstroom is gewijzigd, zodat meerdere kopieën van dezelfde instantie gelijktijdig updates kunnen ophalen.
+![ Repareren ](../assets/fix.svg) veranderde de gegevensstroom zodat de veelvoudige exemplaren van de zelfde instantie updates gelijktijdig kunnen halen.
 
-![Repareren](../assets/fix.svg) Het synchronisatieproces voor het synchroniseren van accountgegevens is gewijzigd. Er is een uitsnijdtaak toegevoegd voor synchronisatie met een externe account en dezelfde functionaliteit toegevoegd aan de CLI-opdrachten.
+![ Repareren ](../assets/fix.svg) veranderde het synchronisatieproces voor het synchroniseren van rekeningsinformatie. Er is een uitsnijdtaak toegevoegd voor synchronisatie met een externe account en dezelfde functionaliteit toegevoegd aan de CLI-opdrachten.
 
-![Repareren](../assets/fix.svg) Toegevoegde CLI bevelargumenten en vlaggen voor nauwkeurigere controle.
+](../assets/fix.svg) Toegevoegde CLI bevelargumenten en vlaggen van 0} herstellen {voor nauwkeurigere controle.![
 
-![Repareren](../assets/fix.svg) Correcteerde de Bron van de Taken van de Achtergrond (kroon) in de systeemconfiguratie.
+![ bevestig ](../assets/fix.svg) de Source van de AchtergrondTaken (brein) in de systeemconfiguratie.
 
-![Repareren](../assets/fix.svg) Correctie van het probleem dat het aanmaken van orders verhinderde toen de landcode op Puerto Rico (PR) werd ingesteld.
+![ Correctie ](../assets/fix.svg) de kwestie die de verwezenlijking van orden verhinderde toen de landcode aan Puerto Rico (PR) werd geplaatst.
 
 ## v4.3.0
 
-*3 maart 2021*
+*Maart 3, 2021*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Repareren](../assets/fix.svg) <!--CHAN-xxxx-->De _Bestelgegevens_ -functie is opnieuw ontworpen en is niet meer afhankelijk van de _Volgorde importeren_ instellen. De gegevens van de orde verschijnen nu in de interface van de Sales Channel van Amazon voor alle orden.
+![ Repareren ](../assets/fix.svg) <!--CHAN-xxxx--> de _eigenschap van de Details van de Orde_ is opnieuw ontworpen en baseert zich niet meer op het _plaatsen van de Orden van de Invoer_. De gegevens van de orde verschijnen nu in de interface van de Sales Channel van Amazon voor alle orden.
 
-![Repareren](../assets/fix.svg) In de _[!UICONTROL Marketing]_in Beheer is de naam gewijzigd van_[!UICONTROL Amazon]_ tot _[!UICONTROL Amazon Sales Channel]_.
+![ Repareren ](../assets/fix.svg) in het _[!UICONTROL Marketing]_menu in Admin, is de naam veranderd van_[!UICONTROL Amazon]_ in _[!UICONTROL Amazon Sales Channel]_.
 
-![Bekend probleem](../assets/bug.svg) **Belangrijk**: Bekende problemen met Adobe Commerce 2.4.0-compatibiliteit worden opgelost in de Adobe Commerce 2.4.1-release.
+![ Bekende kwestie ](../assets/bug.svg) **Belangrijk**: Bekende kwesties met Adobe Commerce 2.4.0 verenigbaarheid worden opgelost in Adobe Commerce 2.4.1 versie.
 
-- Amazon-snijprocessen in `error` state
+- Amazon-snijprocessen met de status `error`
 - Installatie met Commerce 2.4.0 mislukt bij het maken van opslagruimten in de database
 - Het maken van een product mislukt als MSI is geïnstalleerd
 
 ## v4.2.0
 
-*3 maart 2021*
+*Maart 3, 2021*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-Als u een [!DNL Amazon sales channel] geïnstalleerde versie en poging om uw Adobe Commerce bij te werken naar versie 2.4.0, wordt u gevraagd de extensie bij te werken voordat u de Adobe Commerce-update kunt voltooien.
+Als u een eerdere [!DNL Amazon sales channel] -versie hebt geïnstalleerd en probeert uw Adobe Commerce bij te werken naar versie 2.4.0, wordt u gevraagd de extensie bij te werken voordat u de Adobe Commerce-update kunt voltooien.
 
-![Bekend probleem](../assets/bug.svg) Wanneer [!DNL Amazon sales channel] 4.2.0 is geïntegreerd met versie 2.4.0 en [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) is ingeschakeld, is er een bekend probleem dat het toevoegen van producten in uw handelscatalogus verhindert. Deze kwestie zal in een toekomstige mededeling van de Handel worden behandeld.
+![ Bekende kwestie ](../assets/bug.svg) wanneer [!DNL Amazon sales channel] 4.2.0 met versie 2.4.0 wordt geïntegreerd en [ Inventory management ](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) wordt toegelaten, is er een bekende kwestie die de toevoeging van producten in uw catalogus van Commerce verhindert. Dit probleem wordt in een toekomstige Commerce-release opgelost.
 
-![Nieuw](../assets/new.svg) [!DNL Amazon sales channel] is verbeterd voor het accepteren van op tekst gebaseerde adresgegevens en het aanpassen aan gestandaardiseerde adresnotaties, zoals plaats, provincie en postcode. Met deze update kunnen bestellingen en verzendgegevens zonder adresfouten worden gesynchroniseerd (gesynchroniseerd) met Amazon.<br/>Een winkelier voert bijvoorbeeld de plaats, de staat en de postcode in als `Escondido, californiA 92025-1501`. Amazon-Sales Channel importeert en stemt overeen met de standaardnotatie `Escondido, CA 92025`en synchroniseert het vervolgens terug naar Amazon in deze gestandaardiseerde indeling.
+![ Nieuw ](../assets/new.svg) [!DNL Amazon sales channel] is verbeterd om op tekst gebaseerde adresgegevens goed te keuren en het aan gestandaardiseerde adresformaten, met inbegrip van stad, staat, en postcode aan te passen. Met deze update kunnen bestellingen en verzendgegevens zonder adresfouten worden gesynchroniseerd (gesynchroniseerd) met Amazon.<br/> bijvoorbeeld, voert een verkoopster de stad, staat, postcode als `Escondido, californiA 92025-1501` in. Amazon-Sales Channel importeert de gegevens naar de standaardindeling `Escondido, CA 92025` en synchroniseert deze vervolgens terug naar Amazon in deze gestandaardiseerde indeling.
 
-![Nieuw](../assets/new.svg) Toegevoegde ondersteuning voor PHP 7.4.
+![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor PHP 7.4.
 
-![Nieuw](../assets/new.svg) <!--CHAN-4334-->Extra ondersteuning voor Adobe Commerce 2.4.x. Eerdere versies zijn mogelijk compatibel met Commerce 2.4.x, maar worden niet ondersteund. Zie [Volgende releases](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versiecompatibiliteit. Amazon-Sales Channel moet worden bijgewerkt naar 4.2.0 voordat de Adobe Commerce 2.4.0-update kan worden voltooid.
+![ Nieuwe ](../assets/new.svg) <!--CHAN-4334--> Toegevoegde steun voor Adobe Commerce 2.4.x. Eerdere versies zijn mogelijk compatibel met Commerce 2.4.x, maar worden niet ondersteund. Zie [ Komende versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) voor versiecompatibiliteit. Amazon-Sales Channel moet worden bijgewerkt naar 4.2.0 voordat de Adobe Commerce 2.4.0-update kan worden voltooid.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4431-->Correctie van een probleem dat een _Toegang geweigerd_ fout voor klanten in het Verenigd Koninkrijk.
+![ Correctie ](../assets/fix.svg) <!--CHAN-4431--> een kwestie die _Ontkende Toegang_ fout voor klanten van het VK veroorzaakte.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4394-->Correctie van een probleem waardoor de verzendstatus van Amazon niet kon worden gesynchroniseerd met de corresponderende handelsorder, waardoor de verzendstatus van de order als &quot;vergrendeld&quot; werd `Pending` in de handel en `Unshipped` in Amazon. Met de nieuwe gestandaardiseerde adresfunctie zijn deze verzendstatusfouten opgelost.
+![ bevestig ](../assets/fix.svg) <!--CHAN-4394--> een kwestie die de het verschepen status van Amazon aan de overeenkomstige orde van Commerce verhinderde te synchroniseren, zo &quot;vergrendelde&quot;de het verschepen status van de orde zoals `Pending` in Commerce en `Unshipped` in Amazon. Met de nieuwe gestandaardiseerde adresfunctie zijn deze verzendstatusfouten opgelost.
 
-![Repareren](../assets/fix.svg) <!--ticket#-->De bijgewerkte synchronisatie van de orde (synchronisatie) om ontbroken ordeinvoer te negeren, waarbij veelvoudige synchronisatiepogingen worden verminderd en verdere invoer toe te staan om te verwerken, met de verzoeken van de ordesynchronisatie die om de vijf minuten worden voorgelegd. De fouten van de synchronisatie worden nog geregistreerd in het foutenlogboek, maar duidelijk als &quot;verwerkt&quot;om verdere registrerenfuncties toe te staan. Ook, [!DNL Amazon sales channel] verwijdert nu automatisch overtollige gegevens die voor orden worden verzameld die er niet in slagen om in de Handel tot stand te brengen.
+](../assets/fix.svg) verhelpen <!--ticket#--> bijgewerkte ordesynchronisatie (synchronisatie) om ontbroken ordeinvoer te negeren, waarbij veelvoudige synchronisatiepogingen worden verminderd en verdere invoer toe te staan om te verwerken, met de verzoeken van de ordesynchronisatie die om de vijf minuten worden voorgelegd. ![ De fouten van de synchronisatie worden nog geregistreerd in het foutenlogboek, maar duidelijk als &quot;verwerkt&quot;om verdere registrerenfuncties toe te staan. Bovendien verwijdert [!DNL Amazon sales channel] nu automatisch overtollige gegevens die zijn verzameld voor bestellingen die niet zijn gemaakt in Commerce.
 
-![Repareren](../assets/fix.svg) Bijgewerkte foutenregistratie om meer informatie voor uncaught uitzondering en de fouten van de uitbreidingsupdate te verzamelen.
+![ bevestig ](../assets/fix.svg) Bijgewerkt foutenregistreren om meer informatie voor uncaught uitzondering en uitbreidingsupdatefouten te verzamelen.
 
-![Repareren](../assets/fix.svg) <!--ticket#-->Correctie van een probleem dat de eerste synchronisatie van de _laagste prijs_ gegevens die moeten mislukken omdat een bestand ontbreekt _prijs_ waarde.
+![ Repareerde ](../assets/fix.svg) <!--ticket#--> een kwestie die de aanvankelijke synchronisatie van de _laagste prijs_ gegevens om wegens een ontbrekende _prijs_ waarde veroorzaakte te ontbreken.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4410-->Correctie van problemen die filterfouten in de _Amazon-orders_ weergeven wanneer het veld voor het datumbereik leeg blijft.
+](../assets/fix.svg) Correcte 1} <!--CHAN-4410--> kwesties die het filtreren fouten in de _Amazon orden_ mening veroorzaakte wanneer het gebied van de datumwaaier leeg wordt verlaten.![
 
-![Repareren](../assets/fix.svg) <!--CHAN-4439-->Correctie van een probleem dat fouten met betrekking tot de voorraad en de uitvoeringssync veroorzaakte. Met de extensie worden nu de waarden voor het aantal tekens afgerond die zijn ingevoerd als een decimaal voordat ze worden gesynchroniseerd met Amazon.<br/> Wanneer een handelaar bijvoorbeeld handmatig een hoeveelheid van `2.5`, wordt de waarde met de extensie omlaag gedraaid naar `2` en synchroniseert de bijgewerkte hoeveelheid vervolgens met Amazon.
+![ bevestig ](../assets/fix.svg) <!--CHAN-4439--> een kwestie die op hoeveelheid betrekking hebbende voorraad en de fouten van de uitvoeringssynchronisatie veroorzaakte. Met de extensie worden nu de waarden voor het aantal tekens afgerond die zijn ingevoerd als een decimaal voordat ze worden gesynchroniseerd met Amazon.<br/> Wanneer een handelaar bijvoorbeeld handmatig een hoeveelheid `2.5` invoert, wordt de waarde door de extensie afgerond naar `2` en wordt de bijgewerkte hoeveelheid gesynchroniseerd met Amazon.
 
 ## v4.1.0
 
-*7 mei 2020*
+*7 Mei, 2020*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Nieuw](../assets/new.svg) <!--4247, 4230-->Veranderde het proces van de ordeinvoer om zich aan de ordevereisten van de Handel te richten. Met deze wijzigingen worden problemen verholpen die ertoe hebben geleid dat de handel de corresponderende volgorde voor een geïmporteerde order niet kon maken. Zie [Bestellingen beheren](managing-orders.md) voor informatie over orderblokkers en oplossingen.
+![ Nieuw ](../assets/new.svg) <!--4247, 4230--> veranderde het proces van de ordeinvoer om met de ordevereisten van Commerce te richten. Deze wijzigingen verhelpen problemen die ervoor zorgen dat Commerce de corresponderende volgorde voor een geïmporteerde order niet kan maken. Zie [ Orden ](managing-orders.md) voor informatie over ordeblokkers en oplossingen beheren.
 
-![Nieuw](../assets/new.svg) <!--CHAN-CHAN-4167, 4297, 4311, 4312, 4324-->De _Recente bestellingen_ sectie van het opslagdashboard en toegevoegd een nieuwe _Alle bestellingen_ een weergave waarin al uw Amazon-bestellingen worden weergegeven, inclusief filteropties en paginering voor het weergeven van meer bestellingen. Zie [Amazon Store Dashboard](amazon-store-dashboard.md) en [Amazon-bestellingen weergeven](amazon-orders-all.md).
+![ Nieuw ](../assets/new.svg) <!--CHAN-CHAN-4167, 4297, 4311, 4312, 4324--> werkte de _Recente Orden_ sectie van het opslagdashboard bij en voegde een nieuwe _Alle Orden_ mening toe die al uw orden van Amazon, met inbegrip van filteropties en paginering voor het bekijken van meer orden toont. Zie [ het Dashboard van de Opslag van Amazon ](amazon-store-dashboard.md) en [ de Orden van Amazon van de Mening ](amazon-orders-all.md).
 
-![Nieuw](../assets/new.svg) De _[!UICONTROL Order Notes]_kolom van het opnieuw ontworpen_[!UICONTROL Amazon Orders]_ tabel in beide _[!UICONTROL Recent Orders]_en_[!UICONTROL All Orders]_ weergaven. _[!UICONTROL Order Notes]_de handelaar te laten weten dat er een probleem is met de invoer van de order . Zie [Amazon-bestellingen weergeven](amazon-orders-all.md).
+![ Nieuw ](../assets/new.svg) voegde de _[!UICONTROL Order Notes]_kolom van de opnieuw ontworpen_[!UICONTROL Amazon Orders]_ lijst in zowel _[!UICONTROL Recent Orders]_als_[!UICONTROL All Orders]_ meningen toe. _[!UICONTROL Order Notes]_laat de handelaar weten dat er een probleem is met de import van de order. Zie {de Orden van Amazon van 0} Mening ](amazon-orders-all.md).[
 
-![Nieuw](../assets/new.svg) <!--CHAN-4013-->Bijgewerkte parameters voor de productvoorwaarde die moeten worden uitgelijnd met de [Amazon vernieuwd](https://sell.amazon.com/programs/renewed) programma. Zie [Vernieuwde producten](renewed-products.md).
+![ Nieuwe ](../assets/new.svg) <!--CHAN-4013--> bijgewerkte parameters van de productvoorwaarde om met [ Amazon te richten vernieuwde ](https://sell.amazon.com/programs/renewed) programma. Zie [ Vernieuwde Producten ](renewed-products.md).
 
-![Nieuw](../assets/new.svg) <!--CHAN-3680-->Bijgewerkt [Amazon-bestellingsgegevens](amazon-order-details.md) &quot;generieke gegevens&quot; op te nemen voor orders die door Amazon worden uitgevoerd. Zie [Betaald door](fulfilled-by.md).
+![ Nieuwe ](../assets/new.svg) <!--CHAN-3680--> bijgewerkte [ de Details van de Orde van Amazon ](amazon-order-details.md) om &quot;generische gegevens&quot;voor orden te omvatten die door Amazon worden vervuld. Zie [ die door ](fulfilled-by.md) wordt gevuld.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4069-->Correctie van een probleem dat de vervorming van pictogrammen op de winkelkaart veroorzaakte.
+![ Repareerde ](../assets/fix.svg) <!--CHAN-4069--> een kwestie die de vervorming van pictogrammen op de opslagkaart veroorzaakte.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4165-->Correctie van een fout die de _Aanmelden_ scherm verschijnt na de sessietijden uit.
+![ Repareerde ](../assets/fix.svg) <!--CHAN-4165--> een fout die het _Login_ scherm verhinderde na de zittingstijden uit te verschijnen.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4211-->Correctie van een probleem waardoor de bestellingsbelasting van Amazon niet in de nieuwe handelsorder kon worden ingevoerd.
+![ bevestig ](../assets/fix.svg) <!--CHAN-4211--> een kwestie verhinderde het de ordebelastingbedrag van Amazon in de nieuwe orde van Commerce in te voeren.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4234-->Correctie een kwestie die opbrengsttotalen veroorzaakte die op het opslagdashboard worden getoond om orden in te omvatten `Canceled` of `Error` status.
+![ bevestig ](../assets/fix.svg) <!--CHAN-4234--> een kwestie die opbrengsttotalen veroorzaakte die op het opslagdashboard worden getoond om orden in `Canceled` of `Error` status te omvatten.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4326-->Correctie van een probleem dat fouten met het importeren van orders veroorzaakte die waren gekoppeld aan extensies van derden die gebruikten _Magento Shipping_ methoden om orders te maken.
+![ Repareerde ](../assets/fix.svg) <!--CHAN-4326--> een kwestie die orde invoerfouten verbonden aan derdeuitbreidingen veroorzaakte die _Magento Shipping_ methodes gebruiken om orden tot stand te brengen.
 
-![Repareren](../assets/fix.svg) <!--CHAN-4357-->Correctie van een probleem dat fouten veroorzaakte bij het uitvoeren van de kroonsynchronisatie. Een slot is toegevoegd op het CLI bevel dat twee kroonbanen verhindert tezelfdertijd te synchroniseren.
+![ Repareer ](../assets/fix.svg) <!--CHAN-4357--> corrigeerde een kwestie die fouten wanneer het runnen van kroonsynchronisatie veroorzaakte. Een slot is toegevoegd op het CLI bevel dat twee kroonbanen verhindert tezelfdertijd te synchroniseren.
 
-![Repareren](../assets/fix.svg) Bijgewerkt inhoudsveiligheidsbeleid voor steun met Versie 2.3.5 van de Handel.
+![ verbeter ](../assets/fix.svg) Bijgewerkt inhoudsveiligheidsbeleid voor steun met versie 2.3.5 van Commerce.
 
 ## v4.0.0
 
-*25 maart 2020*
+*Maart 25, 2020*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
 >[!IMPORTANT]
 >
 >Amazon Sales Channel 4.0.0 wordt niet ondersteund voor Adobe Commerce 2.3.5. Upgrade naar Amazon Sales Channel 4.1.0 voor ondersteuning met Adobe Commerce 2.3.5.
 
-![Nieuw](../assets/new.svg) Nieuwe [Amazon Sales Channel](amazon-sales-channel-home.md) homepage met verbeterde &quot;kaartweergave&quot; voor je winkelgegevens.
+![ Nieuw ](../assets/new.svg) introduceerde een nieuwe [ Sales Channel van Amazon ](amazon-sales-channel-home.md) homepage met betere &quot;kaartmening&quot;voor uw opslaginformatie.
 
-![Nieuw](../assets/new.svg) Nieuwe [opslagdashboard](amazon-store-dashboard.md) met informatie over aanbiedingen, recente bestellingen en winkelinstellingen.
+![ Nieuw ](../assets/new.svg) introduceerde een nieuw [ opslagdashboard ](amazon-store-dashboard.md) met lijst, recente orden, en opslag plaatsende informatie.
 
-![Nieuw](../assets/new.svg) Introductie van een eenvoudigere, gestroomlijnde [onboarding](amazon-onboarding-home.md) en [standaardinstellingen voor opslag](default-store-settings.md) om uw winkels sneller te integreren.
+![ Nieuw ](../assets/new.svg) introduceerde een eenvoudigere, gestroomlijnde [ onboarding proces ](amazon-onboarding-home.md) en [ standaard opslagmontages ](default-store-settings.md) om uw opslag te krijgen sneller geïntegreerd.
 
-![Bekend probleem](../assets/bug.svg) <!--CHAN-4102--> Wanneer [kenmerken maken](managing-attributes.md) voor het importeren van afbeeldingen uit aanbiedingen en **Winkelweergaven** is ingesteld op `All Store Views (Global)`Er is een bekend probleem dat voorkomt dat afbeeldingen worden geïmporteerd in alle winkelweergaven. Als u de instelling voor **Winkelweergaven (om waarden te importeren in)** naar een specifieke winkel, worden de afbeeldingen geïmporteerd voor die winkel.
+![ Bekende kwestie ](../assets/bug.svg) <!--CHAN-4102--> wanneer [ het creëren van attributen ](managing-attributes.md) voor het invoeren van beelden van lijsten en **de Bekende Mening van de Opslag** aan `All Store Views (Global)` wordt geplaatst, bestaat een bekende kwestie verhinderend beelden in alle opslagmeningen in te voeren. Als u het plaatsen voor **Mening van de Opslag verandert (om waarden in in) in te voeren** aan een specifieke opslag, de beeldinvoer voor die opslag.
 
 ## v3.0.1
 
 *11 november 2019*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Repareren](../assets/fix.svg) **Instellingen numeriek veld**: <!--CHAN-3779-->Velden waarvoor een numerieke waarde nodig is, zijn bijgewerkt en bevatten alleen numerieke tekens. Voorbeeld: Instellingen prijsregel > Veld Aanpassingsbedrag
+](../assets/fix.svg) herstellen **** de Montages van het Numerieke Gebied ![ <!--CHAN-3779--> die een op numeric-based waarde vereisen zijn bijgewerkt om numerieke karakters slechts goed te keuren. Voorbeeld: Instellingen prijsregel > Veld Aanpassingsbedrag
 
-![Repareren](../assets/fix.svg) **Koppelingen in gebruikershandleiding**: <!--CHAN-3778-->Onjuist _Handboek_ de koppelingen zijn gecorrigeerd.
+](../assets/fix.svg) herstellen **de Verbindingen van de Gids van de Gebruiker**: <!--CHAN-3778--> Onjuiste _Gids van de Gebruiker_ de verbindingen zijn verbeterd.![
 
-![Repareren](../assets/fix.svg) **Amazon-aanbiedingen dupliceren**: <!--CHAN-3593-->Een eerder gemelde uitgave die dubbele Amazon-aanbiedingen veroorzaakt, is nu gecorrigeerd. Vóór deze release werd bij het importeren van aanbiedingen de landcode voor het Amazon-gebied toegevoegd aan SKU-waarden. De lijst kwam met het cataloguspunt overeen, maar de uitbreiding leidde tot een nieuwe, dubbele lijst met toegevoegde SKU. Met deze release wijzigt de extensie de SKU voor geïmporteerde aanbiedingen niet en worden er geen wijzigingen aangebracht in bestaande aanbiedingen. U kunt de [!UICONTROL End Listing(s)] op Amazon om dubbele aanbiedingen te verwijderen.
+](../assets/fix.svg) **Duidelijke Lijsten van Amazon** herstellen: <!--CHAN-3593--> A eerder gemelde kwestie die dubbele lijsten van Amazon veroorzaakt wordt nu verbeterd. ![ Vóór deze release werd bij het importeren van aanbiedingen de landcode voor het Amazon-gebied toegevoegd aan SKU-waarden. De lijst kwam met het cataloguspunt overeen, maar de uitbreiding leidde tot een nieuwe, dubbele lijst met toegevoegde SKU. Met deze release wijzigt de extensie de SKU voor geïmporteerde aanbiedingen niet en worden er geen wijzigingen aangebracht in bestaande aanbiedingen. Met de optie [!UICONTROL End Listing(s)] Op Amazon kunt u dubbele aanbiedingen verwijderen.
 
 ## v3.0.0
 
-*7 oktober 2019*
+*7 Oktober, 2019*
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
-![Nieuw](../assets/new.svg) **Amazon UK Marketplace Nu beschikbaar**: Gebruikers kunnen de markt van het Verenigd Koninkrijk kiezen bij het maken en integreren van een Commerce Store. Deze upgrade naar het Verenigd Koninkrijk biedt extra ondersteuning voor:
+![ Nieuwe ](../assets/new.svg) **nu Beschikbare Marketplace van Amazon UK**: De gebruikers kunnen de markt van het Verenigd Koninkrijk kiezen wanneer het creëren van en het integreren van een opslag van Commerce. Deze upgrade naar het Verenigd Koninkrijk biedt extra ondersteuning voor:
 
-- [Amazon BTW-berekeningsservice](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
+- [ de Dienst van de Berekening van de BTW Amazon ](https://sell.amazon.co.uk/learn/vat-resources) {target="_blank"}
 
-- [Productbelastingcode](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} informatie.
+- ](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US) {target="_blank"} informatie van de Code van de Belasting van het 0} Product {.[
 
-![Nieuw](../assets/new.svg) **Verbeterde logboekregistratie**: <!--CHAN-3642, 3672-->Geïmplementeerd **Foutopsporingsregistratie inschakelen** functie om aanvullende synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is. Zie de [Sales Channel-instellingen](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) onderwerp in de Verwijzing van de Configuratie.
+![ Nieuw ](../assets/new.svg) **Verbeterde het Registreren**: <!--CHAN-3642, 3672--> Geïmporteerde **laat Debug het Registreren** eigenschap toe om extra synchronisatiegegevens te verzamelen wanneer het oplossen van problemen nodig is. Zie het [ onderwerp van de Montages van Sales Channel ](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) in de Verwijzing van de Configuratie.
 
-![Repareren](../assets/fix.svg) **Productcatalogus**: <!--CHAN-3687-->Correctie van een probleem dat ervoor zorgde dat afbeeldingen die met een Amazon-lijst zijn geïmporteerd, niet konden worden toegepast op het corresponderende product uit de handelscatalogus.
+![ bevestig ](../assets/fix.svg) **Catalogus van het Product**: <!--CHAN-3687--> Correcte een kwestie die beelden die met een lijst van Amazon werden ingevoerd verhinderde worden toegepast op het overeenkomstige de catalogusproduct van Commerce.
 
-![Repareren](../assets/fix.svg) **Maken van bestelling**: <!--CHAN-3708-->Correctie van een probleem dat ervoor zorgde dat Commerce geen orders kon maken voor een Amazon-order die niet overeenkwam met een product uit de handelscatalogus.
+![ verbeter ](../assets/fix.svg) **creatie van de Orde**: <!--CHAN-3708--> Correcteerde een kwestie die Commerce verhinderde orden voor een orde van Amazon tot stand te brengen die niet met een de catalogusproduct van Commerce aanpast.
 
-![Bekend probleem](../assets/bug.svg) **Amazon-aanbiedingen dupliceren**: <!--CHAN-3593-->Deze kwestie veroorzaakt de catalogus om een punt voor een ingevoerde lijst tot stand te brengen, gebruikend zelfde SKU maar met een gebiedscode die op het eind wordt toegevoegd. Amazon verwerkt de gewijzigde SKU vervolgens als een nieuw object en maakt een aanbieding. Dit probleem zal in een toekomstige release worden opgelost.
+![ Bekende kwestie ](../assets/bug.svg) **dupliceert de Lijsten van Amazon**: <!--CHAN-3593--> Deze kwestie veroorzaakt de catalogus om een punt voor een ingevoerde lijst tot stand te brengen, gebruikend zelfde SKU maar met een gebiedscode die op het eind wordt toegevoegd. Amazon verwerkt de gewijzigde SKU vervolgens als een nieuw object en maakt een aanbieding. Dit probleem zal in een toekomstige release worden opgelost.
 
 ## v2.0.0
 
-[!BADGE Ondersteund]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
 >[!NOTE]
 >
 >Versie 1.0.0 was alleen beschikbaar in beperkte versie.
 
-![Nieuw](../assets/new.svg)  **Vereenvoudigd on-boarding en onderhoud**: Voeg en integreer met uw Amazon-verkopersaccount toe via een stapsgewijs proces met gedetailleerde instructies via de beheerder. Houd uw winkels, accounts en producten die u hebt aangeboden via één dashboard bij.
+![ Nieuw ](../assets/new.svg) **Vereenvoudigd Onboarding en Onderhoud**: voeg en integreer met uw rekening van de Verkoper van Amazon door een geleidelijke proces met gedetailleerde instructies beschikbaar door Admin toe. Houd uw winkels, accounts en producten die u hebt aangeboden via één dashboard bij.
 
-![Nieuw](../assets/new.svg)  **Ondersteuning voor meerdere accounts**: Beheer en controleer meerdere Amazon-merken en -regio&#39;s via de beheerfunctie.
+![ Nieuwe ](../assets/new.svg) **Veelvoudige Steun van de Rekening**: beheer en controleer veelvoudige merken Amazon en marktplaatsgebieden door Admin.
 
-![Nieuw](../assets/new.svg)  **Intelligente prijzen**: Stel automatische prijsstellingsregels in om de kans op de gekozen Buy Box te vergroten. Prijzen instellen om zich dynamisch aan te passen aan de huidige prijs van Buy Box, of de laagste prijs van de concurrent. Stel limieten in voor de prijsaanpassing om je marge te beschermen.
+![ Nieuwe ](../assets/new.svg) **Intelligente Prijsstelling**: Plaats geautomatiseerde het opnieuw bepalen regels om uw kansen voor de behandelde Buy Box te verhogen. Prijzen instellen om zich dynamisch aan te passen aan de huidige prijs van Buy Box, of de laagste prijs van de concurrent. Stel limieten in voor de prijsaanpassing om je marge te beschermen.
 
-![Nieuw](../assets/new.svg)  **Aanbiedingsbeheer**: Automatiseer productaanbiedingen en synchroniseer je handelscatalogus met de Amazon Marketplace aan de hand van aanbiedingsregels. Voeg specifieke overschrijvingen toe om uw aanbod nauwkeurig te regelen. Al je aanbiedingen rechtstreeks vanuit de beheerder volgen en beheren.
+![ Nieuw ](../assets/new.svg) **het Lijstbeheer**: Automatiseer productlijsten en synchroniseer uw catalogus van Commerce aan de Marketplace van Amazon gebruikend lijstregels. Voeg specifieke overschrijvingen toe om uw aanbod nauwkeurig te regelen. Al je aanbiedingen rechtstreeks vanuit de beheerder volgen en beheren.
 
-![Nieuw](../assets/new.svg)  **Consistent Inventory management**: Houd uw voorraad voor Handel en Amazon constant gesynchroniseerd.
+![ Nieuwe ](../assets/new.svg) **Consistente Inventory management**: houd uw Commerce en Amazon inventarishoeveelheden in constante synchronisatie.
 
-![Nieuw](../assets/new.svg)  **Bestel- en uitvoeringsbeheer**: Volg Amazon-bestellingen via het dashboard, met naadloze communicatie en inventarisupdates. Volledige en trackbestelling die door Amazon wordt uitgevoerd, waaraan de handelaar heeft voldaan of een combinatie van methoden.
+![ Nieuw ](../assets/new.svg) **de Orde en het Beheer van de Uitvoering**: De orden van Amazon van het spoor door het dashboard, met naadloze mededeling en inventarisupdates. Volledige en trackbestelling die door Amazon wordt uitgevoerd, waaraan de handelaar heeft voldaan of een combinatie van methoden.
 
-![Bekend probleem](../assets/bug.svg)  Er kunnen langere wachttijden optreden voor het bijwerken van de producthoeveelheden. Het synchroniseren van updates voor het aantal producten kan ~twee uur duren.
+![ Bekende kwestie ](../assets/bug.svg) u kunt langere wachttijden ontmoeten om producthoeveelheden bij te werken. Het synchroniseren van updates voor het aantal producten kan ~twee uur duren.
 
-![Bekend probleem](../assets/bug.svg)  Geïmporteerde orders kunnen van het type _Eerste_ of _Premium_ bestellingen. Je moet deze bestellingen verifiëren in je Amazon-verkopersaccount.
+![ Bekende kwestie ](../assets/bug.svg) Geïmporteerde orden kunnen een type van _eerste_ of _Premium_ orden hebben. Je moet deze bestellingen verifiëren in je Amazon-verkopersaccount.
 
-![Bekend probleem](../assets/bug.svg)  Niet-subsidiabele gebundelde producten kunnen worden weergegeven als in aanmerking komend voor aanbieding op Amazon. Een van de producten in het gebundelde product is mogelijk niet in aanmerking komende producten. Als u problemen ondervindt, controleert u de geschiktheidsstatus voor gebundelde producten.
+![ Bekende kwestie ](../assets/bug.svg) De Niet in aanmerking komende gebundelde producten kunnen als In aanmerking komend voor lijst op Amazon tonen. Een van de producten in het gebundelde product is mogelijk niet in aanmerking komende producten. Als u problemen ondervindt, controleert u de geschiktheidsstatus voor gebundelde producten.
 
-![Bekend probleem](../assets/bug.svg)  Bij gebruik van Inventory management for Commerce 2.3.x wordt een gedeeltelijke herindex van aandelen mogelijk niet geactiveerd wanneer een order wordt gemaakt. De verkoopbare hoeveelheid wordt per uur opnieuw berekend, waardoor tijdens dit update-interval oververkopen kan optreden.
+![ Bekende kwestie ](../assets/bug.svg) wanneer het gebruiken van Inventory management voor Commerce 2.3.x, kan een gedeeltelijke voorraadherdex niet teweegbrengen wanneer een orde wordt gecreeerd. De verkoopbare hoeveelheid wordt per uur opnieuw berekend, waardoor tijdens dit update-interval oververkopen kan optreden.

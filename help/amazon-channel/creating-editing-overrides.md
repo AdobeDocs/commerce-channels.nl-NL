@@ -5,7 +5,7 @@ feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -16,105 +16,105 @@ U kunt een aanbieding maken en overschrijven of een overschrijving bewerken of v
 
 ## Een overschrijving maken voor één aanbieding
 
-De _[!UICONTROL Create Override]_actie is beschikbaar als je aanbiedingen bekijkt op de_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, en_[!UICONTROL Ineligible]_ tabs.
+De handeling _[!UICONTROL Create Override]_is beschikbaar wanneer u lijsten weergeeft op de tabbladen_[!UICONTROL Inactive]_ , _[!UICONTROL Active]_en_[!UICONTROL Ineligible]_ .
 
-1. Een aanbieding weergeven op een _[!UICONTROL Products Listings]_pagina (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, en_[!UICONTROL Ineligible]_ ).
+1. Een vermelding op een _[!UICONTROL Products Listings]_pagina (_[!UICONTROL Inactive]_ , _[!UICONTROL Active]_en_[!UICONTROL Ineligible]_ tab) weergeven.
 
-1. In de _[!UICONTROL Action]_kolom, klik **[!UICONTROL Select]**>**[!UICONTROL Create Override]**om de pagina Overschrijvingen van aanbiedingen te openen.
+1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL Select]**>**[!UICONTROL Create Override]**om de pagina Overschrijvingen van productaanbiedingen te openen.
 
-   ![Amazon-aanbieding overschrijven](assets/amazon-select-create-override.png){width="220"}
+   ![ creeer de lijstopheffing van Amazon ](assets/amazon-select-create-override.png){width="220"}
 
-1. Controleer de _[!UICONTROL Listing Details]_.
+1. Controleer _[!UICONTROL Listing Details]_om te controleren of je de juiste vermelding bekijkt.
 
 1. Bepaal het type overschrijving dat u maakt.
 
    Je kunt één overschrijvingstype of een combinatie van typen definiëren voor de aanbieding (Prijs, Verwerkingstijd, Voorwaarde, Opmerkingen van verkoper).
 
-   - **Prijs** - Klik **[!UICONTROL Change Listing Price]** en voer de vastgestelde prijswaarde in voor **[!UICONTROL Price Override]**.
-   - **Verwerkingstijd** - Klik **[!UICONTROL Change Handling Time]** en voer de gedefinieerde tijdwaarde (in dagen) in voor **[!UICONTROL Handling Time Override]**.
-   - **Voorwaarde** - Klik **[!UICONTROL Change Condition]** en kiest u de juiste optie voor de **[!UICONTROL Condition Override]**.
-   - **Opmerkingen van verkoper** - Klik **[!UICONTROL Change Seller Notes]** en voer de tekst van uw notities in voor **[!UICONTROL Seller Notes Override]**.
+   - **Prijs** - klik **[!UICONTROL Change Listing Price]** en ga uw bepaalde prijswaarde voor **[!UICONTROL Price Override]** in.
+   - **Behandelingstijd** - klik **[!UICONTROL Change Handling Time]** en ga de bepaalde tijdwaarde (in dagen) voor **[!UICONTROL Handling Time Override]** in.
+   - **Voorwaarde** - klik **[!UICONTROL Change Condition]** en kies de correcte optie voor **[!UICONTROL Condition Override]**.
+   - **de Nota&#39;s van de Verkoper** - klik **[!UICONTROL Change Seller Notes]** en ga uw notitietekst voor **[!UICONTROL Seller Notes Override]** in.
 
 1. Klik op **[!UICONTROL Save Listing Override]**.
 
-   De _[!UICONTROL Product Listing Overrides]_pagina wordt gesloten. De status van de aanbieding verandert in `Relist in Progress`. De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). De aanbieding wordt ook toegevoegd aan de_[!UICONTROL Overrides]_ tab.
+   De pagina _[!UICONTROL Product Listing Overrides]_wordt gesloten. De status van de vermelding verandert in `Relist in Progress` . De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). De vermelding wordt ook toegevoegd aan het tabblad_[!UICONTROL Overrides]_ .
 
-In het volgende voorbeeld wordt een overschrijving getoond die een nieuwe prijs van `$55`, een nieuwe verwerkingstijd van `1 day`, een nieuwe voorwaarde van `Used; Like New`en nieuwe tekst in Opmerking van verkoper.
+In het volgende voorbeeld wordt een overschrijving getoond die een nieuwe prijs van `$55` , een nieuwe verwerkingstijd van `1 day` , een nieuwe voorwaarde van `Used; Like New` en nieuwe tekst in de notitie van de verkoper definieert.
 
-![Voorbeeld Amazon-aanbieding overschrijven](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
+![ Voorbeeld Amazon die ](assets/amazon-overrides-edit.png){width="600" zoomable="yes"} van de lijst opneemt
 
 ## Een overschrijving voor één aanbieding bewerken of verwijderen {#edit-override-single-listing}
 
-De _[!UICONTROL Edit Overrides]_actie is beschikbaar als je aanbiedingen bekijkt op de_[!UICONTROL Overrides]_ tab.
+De handeling _[!UICONTROL Edit Overrides]_is beschikbaar wanneer u aanbiedingen weergeeft op het tabblad_[!UICONTROL Overrides]_ .
 
-1. Een aanbieding weergeven op de _[!UICONTROL Product Listings]_pagina (_[!UICONTROL Overrides]_ ).
+1. Een vermelding op de pagina _[!UICONTROL Product Listings]_(_[!UICONTROL Overrides]_ tab) weergeven.
 
-1. In de _[!UICONTROL Action]_kolom, klik **[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
+1. Klik in de kolom _[!UICONTROL Action]_op **[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
 
-   De _[!UICONTROL Product Listing Overrides]_pagina wordt geopend.
+   De pagina _[!UICONTROL Product Listing Overrides]_wordt geopend.
 
-   ![Overschrijving Amazon-aanbieding selecteren](assets/amazon-select-edit-overrides.png){width="125"}
+   ![ selecteer een de lijstopheffing van Amazon ](assets/amazon-select-edit-overrides.png){width="125"}
 
-1. Controleer de _[!UICONTROL Listing Details]_.
+1. Controleer _[!UICONTROL Listing Details]_om te controleren of je de juiste aanbieding overschrijft.
 
-1. Als u uw _[!UICONTROL Override]_, definieert u de secties voor het type dat u wilt wijzigen (Prijs, Verwerkingstijd, Voorwaarde, Opmerkingen van verkoper).
+1. Als u de instellingen van _[!UICONTROL Override]_wilt bewerken, definieert u de secties voor het type dat u wilt wijzigen (Prijs, Verwerkingstijd, Voorwaarde, Notities van verkoper).
 
-   Als u een overschrijvingstype gelijk wilt houden, selecteert u `No Change To <override type>` (de standaardwaarde). Met deze instelling blijft de eerder gedefinieerde overschrijvingswaarde ongewijzigd.
+   Selecteer `No Change To <override type>` (de standaardinstelling) om het overschrijvingstype ongewijzigd te laten. Met deze instelling blijft de eerder gedefinieerde overschrijvingswaarde ongewijzigd.
 
-   - **Prijs** - Klik **[!UICONTROL Change Listing Price]** en voer de vastgestelde prijswaarde in voor **[!UICONTROL Price Override]**.
-   - **Verwerkingstijd** - Klik **[!UICONTROL Change Handling Time]** en voer de gedefinieerde tijdwaarde (in dagen) in voor **[!UICONTROL Handling Time Override]**.
-   - **Voorwaarde** - Klik **[!UICONTROL Change Condition]** en kies de juiste optie voor **[!UICONTROL Condition Override]**.
-   - **Opmerkingen van verkoper** - Klik **[!UICONTROL Change Seller Notes]** en voer de tekst van uw notities in voor **[!UICONTROL Seller Notes Override]**.
+   - **Prijs** - klik **[!UICONTROL Change Listing Price]** en ga uw bepaalde prijswaarde voor **[!UICONTROL Price Override]** in.
+   - **Behandelingstijd** - klik **[!UICONTROL Change Handling Time]** en ga de bepaalde tijdwaarde (in dagen) voor **[!UICONTROL Handling Time Override]** in.
+   - **Voorwaarde** - klik **[!UICONTROL Change Condition]** en kies de correcte optie voor **[!UICONTROL Condition Override]**.
+   - **de Nota&#39;s van de Verkoper** - klik **[!UICONTROL Change Seller Notes]** en ga uw notitietekst voor **[!UICONTROL Seller Notes Override]** in.
 
-1. Als u een overschrijvingstype wilt verwijderen, klikt u op **Verwijderen** voor elk type dat u wilt verwijderen. Als deze niet wordt verwijderd, blijft de eerder gedefinieerde waarde in de overschrijving staan.
+1. Om een met voeten getreden type te verwijderen, **verwijdert** voor elk van de types u wilt verwijderen. Als deze niet wordt verwijderd, blijft de eerder gedefinieerde waarde in de overschrijving staan.
 
 1. Klik op **[!UICONTROL Save Listing Override]**.
 
-   De _[!UICONTROL Product Listing Overrides]_pagina wordt gesloten. De status van de aanbieding verandert in `Relist in Progress`. De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). Als de aanbiedingen nog niet zijn vermeld, worden ze ook toegevoegd aan de_[!UICONTROL Overrides]_ tab.
+   De pagina _[!UICONTROL Product Listing Overrides]_wordt gesloten. De status van de vermelding verandert in `Relist in Progress` . De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). Als deze nog niet wordt vermeld, worden de lijsten ook toegevoegd aan het tabblad_[!UICONTROL Overrides]_ .
 
-Piggydrager op de _Een overschrijving maken_ voorbeeld. In het volgende voorbeeld wordt een bewerking getoond van de eerder gemaakte overschrijving die een nieuwe prijs van `$50`, verwijdert de handeling Tijd overschrijven en zorgt ervoor dat de vorige voorwaarde en verkopersnotities worden genegeerd.
+Het piggybacks op _leidt tot een Voorbeeld van de Opheffing_. In het volgende voorbeeld wordt een bewerking getoond van de eerder gemaakte overschrijving die een nieuwe prijs van `$50` definieert, wordt de handeling Tijd genegeerd en worden de vorige voorwaarde en de voorwetenschap van de verkoper genegeerd.
 
-![Een overschrijving bewerken of verwijderen](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
+![ het uitgeven of het verwijderen van een opheffing ](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Een overschrijving voor meerdere aanbiedingen bewerken of verwijderen {#edit-override-multiple-listings}
 
-De _[!UICONTROL Edit Listing Overrides]_actie is beschikbaar op_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_, en _[!UICONTROL Ineligible]_tabs.
+De handeling _[!UICONTROL Edit Listing Overrides]_is beschikbaar op de tabbladen_[!UICONTROL Inactive]_ , _[!UICONTROL Active]_,_[!UICONTROL Overrides]_ en _[!UICONTROL Ineligible]_.
 
 >[!NOTE]
 >
->Omdat u overschrijvingen voor meerdere aanbiedingen wijzigt, kunt u de opdracht _[!UICONTROL Listing Details]_wordt niet weergegeven zoals bij het wijzigen van één aanbieding.
+>Omdat u overschrijvingen voor meerdere aanbiedingen wijzigt, wordt de sectie _[!UICONTROL Listing Details]_niet weergegeven zoals wanneer u één aanbieding wijzigt.
 
-1. De aanbieding weergeven op een _[!UICONTROL Products Listings]_pagina (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_, en _[!UICONTROL Ineligible]_).
+1. Geef de vermelding weer op een _[!UICONTROL Products Listings]_-pagina (_[!UICONTROL Inactive]_ , _[!UICONTROL Active]_,_[!UICONTROL Overrides]_ en _[!UICONTROL Ineligible]_-tabblad).
 
 1. Schakel het selectievakje in de linkerkolom in voor alle aanbiedingen die u wilt wijzigen.
 
-1. Onder _[!UICONTROL Actions]_, klikt u op **[!UICONTROL Edit Listing Overrides]**.
+1. Klik onder _[!UICONTROL Actions]_op **[!UICONTROL Edit Listing Overrides]**.
 
-   De _[!UICONTROL Product Listing Overrides]_pagina wordt geopend.
+   De pagina _[!UICONTROL Product Listing Overrides]_wordt geopend.
 
-   ![Overschrijving Amazon-aanbieding selecteren](assets/amazon-actions-edit-listing-overrides.png){width="200"}
+   ![ selecteer een de lijstopheffing van Amazon ](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
-1. Als u uw _[!UICONTROL Override]_, definieert u de secties voor het type dat u wilt wijzigen (Prijs, Verwerkingstijd, Voorwaarde, Opmerkingen van verkoper).
+1. Als u de instellingen van _[!UICONTROL Override]_wilt bewerken, definieert u de secties voor het type dat u wilt wijzigen (Prijs, Verwerkingstijd, Voorwaarde, Notities van verkoper).
 
-   Als u dezelfde instelling wilt behouden, selecteert u `No Change To <override type>` (standaard). Met deze instelling blijft de eerder gedefinieerde overschrijvingswaarde ongewijzigd.
+   Selecteer `No Change To <override type>` (standaardwaarde) als u dezelfde instelling wilt gebruiken. Met deze instelling blijft de eerder gedefinieerde overschrijvingswaarde ongewijzigd.
 
-   - **Prijs** - Klik **[!UICONTROL Change Listing Price]** en voer de vastgestelde prijswaarde in voor **[!UICONTROL Price Override]**.
-   - **Verwerkingstijd** - Klik **[!UICONTROL Change Handling Time]** en voer de gedefinieerde tijdwaarde (in dagen) in voor **[!UICONTROL Handling Time Override]**.
-   - **Voorwaarde** - Klik **[!UICONTROL Change Condition]** en kies de juiste optie voor **[!UICONTROL Condition Override]**.
-   - **Opmerkingen van verkoper** - Klik **[!UICONTROL Change Seller Notes]** en voer de tekst van uw notities in voor **[!UICONTROL Seller Notes Override]**.
+   - **Prijs** - klik **[!UICONTROL Change Listing Price]** en ga uw bepaalde prijswaarde voor **[!UICONTROL Price Override]** in.
+   - **Behandelingstijd** - klik **[!UICONTROL Change Handling Time]** en ga de bepaalde tijdwaarde (in dagen) voor **[!UICONTROL Handling Time Override]** in.
+   - **Voorwaarde** - klik **[!UICONTROL Change Condition]** en kies de correcte optie voor **[!UICONTROL Condition Override]**.
+   - **de Nota&#39;s van de Verkoper** - klik **[!UICONTROL Change Seller Notes]** en ga uw notitietekst voor **[!UICONTROL Seller Notes Override]** in.
 
 1. Als u een overschrijvingstype wilt verwijderen, klikt u op **[!UICONTROL Remove]** voor elk type dat u wilt verwijderen. Als deze niet wordt verwijderd, blijft de eerder gedefinieerde waarde in de overschrijving staan.
 
 1. Klik op **[!UICONTROL Save Listing Override]**.
 
-   De _[!UICONTROL Product Listing Overrides]_pagina wordt gesloten. De status van de aanbiedingen verandert in `Relist in Progress`. De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). Als de aanbiedingen nog niet zijn vermeld, worden ze ook toegevoegd aan de_[!UICONTROL Overrides]_ tab.
+   De pagina _[!UICONTROL Product Listing Overrides]_wordt gesloten. De status van de aanbiedingen verandert in `Relist in Progress` . De wijziging wordt gepubliceerd naar Amazon met de volgende gegevenssynchronisatie (zoals geconfigureerd in de instellingen voor uitsnijden). Als deze nog niet wordt vermeld, worden de lijsten ook toegevoegd aan het tabblad_[!UICONTROL Overrides]_ .
 
 ### Typen overschrijven
 
 | Negeren | Beschrijving |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Price Override] | Een prijsoverschrijving definieert de prijs voor de aanbiedingen. Deze overschrijving heeft voorrang op alle geautomatiseerde instellingen totdat de overschrijving wordt verwijderd.<br><br>Kies **[!UICONTROL Change Listing Price]** en voer de nieuwe prijs in voor **[!UICONTROL Price Override]**. |
-| [!UICONTROL Handling Time Override] | Met een overschrijvingstijd van de verwerkingstijd wordt de tijd (in dagen) voor het verwerken en verzenden van producten gedefinieerd. Een het behandelen tijdopheffing neemt voorrang over alle geautomatiseerde en standaard behandelingstijdinstellingen tot de opheffing wordt verwijderd.<br><br>De waarde in het dialoogvenster _[!UICONTROL Handling Time Override]_is de standaardverwerkingstijd die in uw [aanbiedingsinstellingen](./listing-settings.md) of de door u gedefinieerde verwerkingstijd voor overschrijven. Als je een overschrijving van de afhandelingstijd verwijdert, wordt de aanbieding standaard afgehandeld volgens de verwerkingstijd die in de aanbiedingsinstellingen is opgegeven.<br><br>Als u een overschrijving wilt definiëren, kiest u **[!UICONTROL Change Handling Time]**en voer de nieuwe verwerkingstijd (in dagen) in voor **[!UICONTROL Handling Time Override]**. |
-| [!UICONTROL Condition Override] | Als u de aanbiedingsvoorwaarde wilt overschrijven, kiest u **[!UICONTROL Change Condition]** en kies de nieuwe voorwaarde van **Voorwaarde overschrijven**. |
-| [!UICONTROL Seller Notes Override] | Voor producten in uw catalogus die zijn gedefinieerd met een andere voorwaarde dan `New`Een verkopersopmerking kan worden toegevoegd om je product en de conditie ervan voor potentiële kopers nader te beschrijven. Je kunt een overschrijving voor je verkopersnotitie invoeren voor een `New` voorwaardenproduct, maar Amazon geeft de notitie niet weer.<br><br>Kies **[!UICONTROL Change Seller Notes]** en voert u de nieuwe notitie in voor **[!UICONTROL Seller Notes Override]**. |
+| [!UICONTROL Price Override] | Een prijsoverschrijving definieert de prijs voor de aanbiedingen. Deze overschrijving heeft voorrang op alle geautomatiseerde instellingen totdat de overschrijving wordt verwijderd.<br><br> om de prijs van uw product met voeten te treden, verkies **[!UICONTROL Change Listing Price]** en ga de nieuwe prijs voor **[!UICONTROL Price Override]** in. |
+| [!UICONTROL Handling Time Override] | Met een overschrijvingstijd van de verwerkingstijd wordt de tijd (in dagen) voor het verwerken en verzenden van producten gedefinieerd. Een het behandelen tijdopheffing neemt voorrang over alle geautomatiseerde en standaard behandelingstijdinstellingen tot de opheffing wordt verwijderd.<br><br> de waarde die in het _[!UICONTROL Handling Time Override]_vakje bestaat is of uw standaard behandelingstijd die in uw [ wordt bepaald lijst van montages ](./listing-settings.md) of uw bepaalde met voeten getreden behandelingstijd. Als je een overschrijving van de afhandelingstijd verwijdert, wordt de aanbieding standaard afgehandeld volgens de verwerkingstijd die in de aanbiedingsinstellingen is opgegeven.<br><br> om een het behandelen tijdopheffing te bepalen, verkies **[!UICONTROL Change Handling Time]**en ga de nieuwe behandelingstijd (in dagen) voor **[!UICONTROL Handling Time Override]**in. |
+| [!UICONTROL Condition Override] | Om de Lijstvoorwaarde met voeten te treden, verkies **[!UICONTROL Change Condition]** en kies de nieuwe voorwaarde van **Voorkeur met voeten treedt**. |
+| [!UICONTROL Seller Notes Override] | Voor producten in uw catalogus die met een andere voorwaarde dan `New` zijn gedefinieerd, kan een verkopersopmerking worden toegevoegd om het product en de toestand ervan voor potentiële kopers nader te beschrijven. U kunt een overschrijving voor verkopersnotities invoeren voor een voorwaardenproduct van `New` , maar Amazon geeft de notitie niet weer.<br><br> Om de Nota&#39;s van de Verkoper met voeten te treden, verkies **[!UICONTROL Change Seller Notes]** en ga de nieuwe nota voor **[!UICONTROL Seller Notes Override]** in. |
