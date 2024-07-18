@@ -4,7 +4,7 @@ description: 'Installeer de extensie [!DNL Channel Manager].'
 role: Admin, Developer
 feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
+source-git-commit: 1e74150e6ac88dbabb2e4bbb2fa2f243072eb03f
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Gebruik deze instructies om [!DNL Channel Manager] te installeren op Adobe Comme
 
      Monsterrespons:
 
-     ```terminal
+     ```
      Module is enabled
      ```
 
@@ -154,7 +154,7 @@ Tijdens installatie, wordt de uitbreidingsnaam (`magento\channel-manager`) autom
 
 Monsterrespons:
 
-```terminal
+```
 Module is enabled
 ```
 
@@ -176,7 +176,7 @@ Gebruik de volgende informatie om fouten op te lossen die tijdens het installati
 
 Als de [ toegangssleutels ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) worden gebruikt om aan de bewaarplaats van Composer voor authentiek te verklaren ongeldig zijn, of niet verbonden met [!DNL MAGE ID] die wordt gebruikt om zich voor de [!DNL Channel Manager] dienst aan te melden, de volgende foutenvertoningen.
 
-```terminal
+```
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
@@ -200,7 +200,7 @@ Controleer de sleutelconfiguratie:
 
 De volgende fout geeft aan of er onvoldoende geheugen is toegewezen aan PHP.
 
-```terminal
+```
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
